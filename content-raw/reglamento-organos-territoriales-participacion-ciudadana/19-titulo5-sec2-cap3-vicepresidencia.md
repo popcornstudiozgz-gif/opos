@@ -1,0 +1,2 @@
+CAPÍTULO III. - De la Vicepresidencia
+Art. 91. El Presidente nombrará al Teniente de Alcalde         de Participación Ciudadana Vicepresidente del Consejo. Éste le asistirá,         en especial, en las sesiones de los órganos del Consejo, supliéndole en         caso de vacante, enfermedad o ausencia, o asumiendo el ejercicio de sus         funciones por delegación y cualesquiera otras que le delegue expresamente.

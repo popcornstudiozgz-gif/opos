@@ -1,0 +1,75 @@
+import { notFound } from "next/navigation";
+import Link from "next/link";
+import type { Metadata } from "next";
+import { Container } from "@/components/ui/Container";
+import { Card } from "@/components/ui/Card";
+import { crearMetadata } from "@/lib/site";
+import { getOposicion, getTemaDeOposicion, getParamsTemarioEstatico } from "@/lib/oposiciones";
+
+interface PageProps {
+  params: Promise<{ oposicion: string; slug: string }>;
+}
+
+export function generateStaticParams() {
+  return getParamsTemarioEstatico();
+}
+
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { oposicion: oposicionSlug, slug } = await params;
+  const tema = getTemaDeOposicion(oposicionSlug, slug);
+  if (!tema) return {};
+  return crearMetadata({
+    titulo: `Tema ${tema.numero}. ${tema.titulo}`,
+    descripcion: tema.descripcion,
+    ruta: `/${oposicionSlug}/temario/${slug}`,
+  });
+}
+
+export default async function TemaPage({ params }: PageProps) {
+  const { oposicion: oposicionSlug, slug } = await params;
+  const oposicion = getOposicion(oposicionSlug);
+  const tema = getTemaDeOposicion(oposicionSlug, slug);
+  if (!oposicion || !tema) notFound();
+
+  return (
+    <section className="bg-white">
+      <Container className="py-16 sm:py-20">
+        <Link href={`/${oposicionSlug}/temario`} className="text-sm font-medium text-brand-600 hover:underline">
+          ← Volver al temario
+        </Link>
+
+        <p className="mt-4 text-xs font-semibold uppercase tracking-wide text-brand-600">
+          Tema {tema.numero}
+        </p>
+        <h1 className="mt-1 text-3xl font-black text-brand-900">{tema.titulo}</h1>
+        <p className="mt-3 max-w-3xl text-slate-600">{tema.descripcion}</p>
+
+        {tema.contenido && (
+          <Card className="mt-8 p-6">
+            <p className="leading-relaxed text-slate-700">{tema.contenido}</p>
+          </Card>
+        )}
+
+        {tema.enlacesBoe && tema.enlacesBoe.length > 0 && (
+          <div className="mt-6">
+            <h2 className="text-sm font-bold text-brand-900">Normativa de referencia</h2>
+            <ul className="mt-2 space-y-1">
+              {tema.enlacesBoe.map((ley) => (
+                <li key={ley.url}>
+                  <a
+                    href={ley.url}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-sm text-brand-600 hover:underline"
+                  >
+                    {ley.titulo} ↗
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+      </Container>
+    </section>
+  );
+}

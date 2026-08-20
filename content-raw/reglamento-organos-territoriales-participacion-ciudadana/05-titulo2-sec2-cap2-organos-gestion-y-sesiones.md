@@ -1,0 +1,44 @@
+CAPÍTULO II. - Órganos de gestión y régimen de sesiones y acuerdos
+Art. 31. Son órganos necesarios de cada Barrio Rural         los siguientes:
+El Presidente, que recibe el nombre tradicional de Alcalde del Barrio.
+El Pleno, integrado por el Presidente, Vocales, Presidentes de Concejos           Locales, representantes de las Asociaciones de Vecinos y otros representantes           de la población de la Junta Vecinal.
+Con carácter potestativo del Pleno, se podrán constituir:
+El Consejo Rector, si así lo establece el Manual de Funcionamiento           Interno.
+Los grupos de trabajo y otros órganos complementarios.
+El régimen de sesiones y funcionamiento de los órganos colegiados de         las Juntas Vecinales se regulará por lo establecido en este Reglamento         para las Juntas Municipales, sin perjuicio de lo que se establezca en         este Capítulo.
+Art. 32. El Alcalde nombrará a un vecino del barrio         como Representante personal, con la denominación tradicional de Alcalde         de Barrio. El nombramiento habrá de recaer en un vecino del núcleo rural         correspondiente, mayor de edad, que no esté incurso en causas de inelegibilidad         o incompatibilidad previstas por la legislación electoral general para         el cargo de concejal, y que haya sido elegido por los vecinos obteniendo         el mayor número de votos en un proceso democrático de consulta, que será         supervisado y garantizado por el Ayuntamiento.
+Con carácter general este cargo tendrá la duración del mandato de la         Corporación, prologándose su mandato en funciones hasta que se nombren         nuevos Alcaldes de Barrio conforme al párrafo anterior.
+El cargo de Alcalde de Barrio será retribuido en la cuantía y condiciones         que apruebe el Pleno de la Corporación.
+En caso de cese o renuncia del Alcalde del Barrio dentro de los últimos         doce meses antes de finalizar el mandato de la Corporación, asumirá el         cargo el Concejal Presidente del Consejo Rural.
+Cuando el cese o renuncia del Alcalde del Barrio se produzca antes de         este período, el Alcalde convocará, en el plazo máximo de un mes, un nuevo         proceso de consulta a los vecinos, como establece el párrafo 1 de este         Artículo, sin perjuicio de lo establecido en los Artículos 17 f) y 33         f), que se aplicará expresamente.
+Corresponde al Alcalde del Barrio, sin perjuicio de las facultades del         Alcalde y del Pleno del Ayuntamiento para mantener la unidad de gobierno         y gestión del municipio y de las competencias que hayan sido delegadas         en el Concejal Delegado de Juntas Vecinales, todas las que se reconocen         en este Reglamento para los presidentes de las Juntas Municipales.
+El Concejal Presidente del Distrito Rural deberá conformar y tramitar         los acuerdos y gastos acordados por los Alcaldes de Barrio dentro de sus         competencias, salvo que conste tacha de legalidad de la Intervención General.
+El Alcalde del Barrio, de entre los Vocales propuestos por los grupos         municipales, designará libremente un Vicepresidente, que le sustituirá         en caso de vacante, ausencia o enfermedad en los órganos colegiados de         la Junta y en aquellos otros actos que la legislación local lo permita.
+Art. 33. El Pleno es el órgano colegiado de la Junta         Vecinal, integrado por:
+El Alcalde del Barrio, que será su Presidente.
+Los Vocales nombrados por el Alcalde, a propuesta de los grupos políticos           con representación en el Ayuntamiento, de acuerdo con los resultados           electorales obtenidos en las elecciones municipales en el ámbito territorial           de la Junta, salvo que en las normas que regulen el proceso democrático           de consulta de Alcalde de Barrio se establezca un procedimiento diferente           de selección de Vocales.
+Las Juntas Vecinales con menos de 2.000 habitantes tendrán cuatro             Vocales, y tendrán seis Vocales las restantes.
+El cargo de Vocal de las Juntas Vecinales se regulará por lo dispuesto             para los de las Juntas Municipales en este Reglamento, salvo lo establecido             en este Artículo.
+Los Presidentes de Concejos Locales nombrados con arreglo a lo establecido           en este Reglamento, o el Vocal del mismo en quien delegue.
+Asimismo serán miembros del Pleno, con voz y sin voto, un representante           de cada Asociación de Vecinos que tenga su domicilio social en el ámbito           territorial de la Junta y estén inscritas en el Censo Municipal de Entidades           Ciudadanas. Estos representantes serán nombrados, previo conocimiento           del Alcalde del Barrio, por el Concejal Delegado de Juntas Vecinales           a propuesta de las Asociaciones de Vecinos.
+Serán miembros del Pleno, con voz y sin voto:
+Un representante por todas las Asociaciones de Padres de Alumnos.
+Un representante por todas las Asociaciones Juveniles.
+Un representante por todas las Asociaciones de Mayores.
+Un representante por las Asociaciones de Empresarios y de Comerciantes.
+Un representante por el resto de Entidades Ciudadanas.
+El Alcalde del Barrio nombrará a los representantes de las entidades         a propuesta de cada uno de los grupos anteriores.
+El cargo de miembro del Pleno de la Junta, con voz y sin voto, deberá         ser aceptado expresamente por su titular y será honorífico.
+La duración de este cargo se corresponderá con el mandato de la Corporación;         no obstante, podrán ser cesados por el Presidente en los supuestos siguientes:
+Por inasistencia injustificada a tres sesiones consecutivas del Pleno           de la Junta o a cinco sesiones alternativas en el plazo de un año, comunicadas           por escrito al Alcalde del Barrio.
+Por incompatibilidad en el cargo, dimisión o renuncia voluntaria ante           el Alcalde del Barrio.
+Por cesar en la Asociación por la que fue nombrado.
+Por reprobación del Pleno de la Junta.
+Los integrantes del Pleno cesados no podrán ser nombrados nuevamente           durante el resto del mandato de la Corporación.
+Corresponde al Pleno de la Junta Vecinal las funciones que les sean atribuidas         en los decretos o acuerdos de asignación de competencias y, en todo caso,         las que se establecen en este Reglamento para los Plenos de las Juntas         Municipales.
+Art. 34. El Consejo Rector de la Junta Vecinal, creado         potestativamente conforme al Manual de Funcionamiento Interno, tal y como         se establece en el Artículo 14 de este Reglamento, lo forman el Presidente,         los Vocales, los Presidentes de Concejos Locales nombrados con arreglo         a lo establecido en este Reglamento, y con voz y sin voto un representante         por todas las Asociaciones de Vecinos.
+El Consejo Rector se reunirá, como mínimo, una vez al mes y ejercerá         las funciones de iniciativa, gestión y coordinación de la actividad de         la Junta, sin perjuicio de las que correspondan al Pleno de la misma.
+Art. 35.1. En las Juntas Vecinales se podrán crear Comisiones         de Trabajo de carácter permanente para llevar a cabo estudios y actividades,         por iniciativa propia o por encargo de los órganos de gobierno. Su número,         denominación inicial y composición, así como cualquier variación de las         mismas, durante el mandato corporativo, será establecido libremente por         el Pleno de la Junta, procurando en lo posible su correspondencia con         el número y denominación de las grandes áreas en las que se estructuren         los servicios corporativos.
+A estas Comisiones podrán adscribirse los Vocales, Presidentes de Concejos         Locales y otros miembros del Pleno de las Juntas Vecinales según sus preferencias         y preparación, y también podrán integrarse los representantes de las entidades         ciudadanas legalmente constituidas e inscritas en el Censo Municipal de         Entidades Ciudadanas, así como otras personas o entidades con arreglo         a lo que disponga el Reglamento de Funcionamiento Interno de cada Junta         Vecinal.
+El Alcalde del Barrio, a propuesta de los miembros de las Comisiones         de Trabajo y de entre los Vocales adscritos a las mismas, designará para         cada una de ellas un Coordinador, que ejercerá las funciones de dirección,         impulso, coordinación y secretaría de la misma.
+2. El Pleno podrá crear para el debate y estudio de         asuntos concretos, órganos complementarios como mesas de trabajo y otros         similares, que elevarán sus conclusiones al Pleno de la Junta Vecinal.         Estas Comisiones y mesas de trabajo se extinguirán automáticamente una         vez que hayan informado sobre el asunto que constituye su objeto, salvo         que en el acuerdo de su constitución se establezca otra cosa.

@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+/*
+  Tema de la aplicación (mismo lenguaje visual que el proyecto original
+  kubo-calendario/OposiZaragoza: azul institucional + blanco).
+*/
+@theme {
+  --color-brand-50: #eef4fb;
+  --color-brand-100: #d6e4f5;
+  --color-brand-200: #adc8eb;
+  --color-brand-300: #7ea6dd;
+  --color-brand-400: #4f81c9;
+  --color-brand-500: #2e63b0;
+  --color-brand-600: #1f4f96;
+  --color-brand-700: #1a3f78;
+  --color-brand-800: #173461;
+  --color-brand-900: #142b4f;
+  --color-brand-950: #0d1b33;
+
+  --color-accent-400: #f5b942;
+  --color-accent-500: #eaa617;
+
+  --font-sans: var(--font-geist-sans), system-ui, sans-serif;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #142b4f;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-brand-500);
+  outline-offset: 2px;
+}

@@ -1,0 +1,15 @@
+CAPÍTULO I. - Disposiciones generales
+Art. 29. El Alcalde podrá delegar en un concejal la presidenciaefectiva del Distrito Rural, que comprende el término municipal deZaragoza de los catorce barrios rurales, regidos por sus respectivasJuntas Vecinales: Alfocea, Casetas, Garrapinillos, Juslibol, La CartujaBaja, Montañana, Monzalbarba, Movera, Peñaflor, San Gregorio, San Juande Mozarrifar, Torrecilla de Valmadrid, Venta del Olivar, y Villarrapa.Todo ello sin perjuicio de las competencias que corresponden a losbarrios, que se encuentran reconocidas en este Reglamento o en losdecretos o acuerdos de desconcentración
+La actividad de las Juntas Vecinales de los Barrios Rurales está basada         en los mismos fines, objetivos fundamentales y funciones que se establecen         para las Juntas Municipales, con las especialidades que se regulan en         esta sección. Las Juntas Vecinales podrán ejercer las mismas competencias         que se reconocen a las Juntas Municipales.
+La atribución de competencias a las Juntas Vecinales tendrá en cuenta         la realidad de cada núcleo rural en cuanto a su población y capacidad         para prestar servicios, y éstas serán concurrentes con las atribuidas         al Concejal Presidente del Distrito Rural designado por el Alcalde, quien         deberá conformar los acuerdos tomados por las Juntas Vecinales, previamente         a su ejecución.
+Art. 30. ElConsejo Territorial de Alcaldes de         Barrioes un órgano para la coordinación, información y propuesta         de la gestión municipal referida a los Barrios Rurales de Zaragoza.
+Estará integrado por el Concejal Presidente del Distrito Rural, que será         su Presidente, por todos los Alcaldes de Barrio y por los Portavoces de         los Grupos Municipales en la Comisión del Pleno de Participación Ciudadana.         Actuará como Secretario el que lo sea de la misma.
+El Presidente podrá invitar a las sesiones a Concejales Delegados y técnicos         para que informen y asesoren sobre los asuntos del orden del día.
+El orden del día y las actas de las sesiones serán remitidas a los miembros         del Consejo Territorial de Alcaldes y a las Federaciones y Uniones de         Asociaciones de Vecinos inscritas en el Censo Municipal de Entidades Ciudadanas.
+Son funciones del Consejo Territorial de Alcaldes de Barrio:
+Presentar iniciativas, sugerencias y propuestas para ser discutidas           en las comisiones informativas correspondientes.
+Proponer conjuntamente soluciones a problemas específicos de las Juntas           Vecinales.
+Informar previamente en los planes de desconcentración de competencias.
+Asesorar y debatir los programas de actuación que se vayan a desarrollar           con cargo a las partidas presupuestarias genéricas para todos los Barrios           Rurales.
+Este órgano se reunirá en sesión ordinaria, como mínimo, una vez al trimestre,         y de forma extraordinaria cuando fuere preciso, a iniciativa del Presidente         o de un tercio del número de Alcaldes de Barrio.
+El régimen de sesiones y acuerdos se regulará por lo establecido en el         Capítulo III del Título II de este Reglamento.
