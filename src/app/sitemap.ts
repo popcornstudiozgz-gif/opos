@@ -4,21 +4,23 @@ import { getOposiciones, getTemasDeOposicion } from "@/lib/oposiciones";
 import { getConvocatoria } from "@/data/convocatorias";
 
 /** Genera el sitemap.xml recorriendo todas las oposiciones activas del catálogo. */
-export default function sitemap(): MetadataRoute.Sitemap {
-  const oposiciones = getOposiciones();
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
+  const oposiciones = await getOposiciones();
 
-  const rutas = [
-    "/",
-    ...oposiciones.flatMap((o) => {
+  const porOposicion = await Promise.all(
+    oposiciones.map(async (o) => {
       const base = `/${o.slug}`;
+      const [convocatoria, temas] = await Promise.all([
+        getConvocatoria(o.slug),
+        getTemasDeOposicion(o.slug),
+      ]);
       const rutasOposicion = [base, `${base}/temario`];
-      if (getConvocatoria(o.slug)) rutasOposicion.push(`${base}/convocatoria`);
-      return [
-        ...rutasOposicion,
-        ...getTemasDeOposicion(o.slug).map((t) => `${base}/temario/${t.slug}`),
-      ];
-    }),
-  ];
+      if (convocatoria) rutasOposicion.push(`${base}/convocatoria`);
+      return [...rutasOposicion, ...temas.map((t) => `${base}/temario/${t.slug}`)];
+    })
+  );
+
+  const rutas = ["/", ...porOposicion.flat()];
 
   return rutas.map((ruta) => ({
     url: `${SITE.url}${ruta}`,

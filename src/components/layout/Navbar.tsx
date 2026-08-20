@@ -7,8 +7,8 @@ import { getOposicion } from "@/lib/oposiciones";
  * (portada del catálogo) solo muestra el nombre del sitio; dentro, añade el
  * nombre de la oposición y su navegación.
  */
-export function Navbar({ oposicionSlug }: { oposicionSlug?: string }) {
-  const oposicion = oposicionSlug ? getOposicion(oposicionSlug) : undefined;
+export async function Navbar({ oposicionSlug }: { oposicionSlug?: string }) {
+  const oposicion = oposicionSlug ? await getOposicion(oposicionSlug) : undefined;
 
   const navLinks = oposicion
     ? [

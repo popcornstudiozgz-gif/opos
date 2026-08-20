@@ -7,8 +7,13 @@ import { getOposiciones, getTemasDeOposicion } from "@/lib/oposiciones";
 import { SITE } from "@/lib/site";
 
 /** Portada general del dominio: catálogo de oposiciones disponibles. */
-export default function Home() {
-  const oposiciones = getOposiciones();
+export default async function Home() {
+  const oposiciones = await getOposiciones();
+  const numTemasPorOposicion = await Promise.all(
+    oposiciones.map(async (o) => ({ slug: o.slug, total: (await getTemasDeOposicion(o.slug)).length }))
+  );
+  const totalTemasDe = (slug: string) =>
+    numTemasPorOposicion.find((n) => n.slug === slug)?.total ?? 0;
 
   return (
     <>
@@ -39,7 +44,7 @@ export default function Home() {
 
           <div className="mt-10 grid gap-6 sm:grid-cols-2">
             {oposiciones.map((oposicion) => {
-              const numTemas = getTemasDeOposicion(oposicion.slug).length;
+              const numTemas = totalTemasDe(oposicion.slug);
               return (
                 <Card key={oposicion.slug} className="flex flex-col p-6">
                   <p className="text-sm font-semibold text-brand-600">{oposicion.organismo}</p>

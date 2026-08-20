@@ -48,10 +48,9 @@ git push -u origin main
 de API de tu propio proyecto, no contraseñas personales) y te creo el archivo
 `.env.local` en `kiuti-cal/` — ya está en `.gitignore`, así que nunca se sube a GitHub.
 
-El esquema de base de datos (tablas `oposiciones`, `bloques`, `temas`,
-`tema_oposicion`, `flashcards`, `glosario`...) lo diseñamos y lo ejecutamos en el SQL
-Editor de Supabase cuando lleguemos a esa parte — no hace falta ahora, solo dejar el
-proyecto creado y las claves a mano.
+✅ **Hecho** (20 de agosto de 2026): el esquema de base de datos está creado y relleno
+— ver `supabase/migrations/0001_init.sql` (las 7 tablas + RLS) y `scripts/seed.mjs` (los
+datos). El código ya lee de Supabase de verdad, no de archivos locales.
 
 ## 3. Vercel
 

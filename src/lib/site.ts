@@ -2,8 +2,9 @@ import type { Metadata } from "next";
 
 /**
  * Configuración global del DOMINIO (no de una oposición concreta).
- * El nombre/descripción de cada oposición vive en `data/oposiciones.ts`
- * y se resuelve por slug con `getOposicion()` — ver `lib/oposiciones.ts`.
+ * El nombre/descripción de cada oposición vive en Supabase (tabla
+ * `oposiciones`) y se resuelve por slug con `getOposicion()` — ver
+ * `lib/oposiciones.ts`.
  */
 export const SITE = {
   nombre: "Kiuti",

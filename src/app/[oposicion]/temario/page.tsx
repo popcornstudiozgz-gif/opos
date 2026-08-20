@@ -10,13 +10,14 @@ interface PageProps {
   params: Promise<{ oposicion: string }>;
 }
 
-export function generateStaticParams() {
-  return getOposiciones().map((o) => ({ oposicion: o.slug }));
+export async function generateStaticParams() {
+  const oposiciones = await getOposiciones();
+  return oposiciones.map((o) => ({ oposicion: o.slug }));
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { oposicion: slug } = await params;
-  const oposicion = getOposicion(slug);
+  const oposicion = await getOposicion(slug);
   if (!oposicion) return {};
   return crearMetadata({
     titulo: "Temario",
@@ -27,10 +28,10 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
 export default async function TemarioPage({ params }: PageProps) {
   const { oposicion: slug } = await params;
-  const oposicion = getOposicion(slug);
+  const oposicion = await getOposicion(slug);
   if (!oposicion) notFound();
 
-  const bloques = getBloquesConTemas(slug);
+  const bloques = await getBloquesConTemas(slug);
 
   return (
     <section className="bg-white">

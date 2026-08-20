@@ -4,45 +4,66 @@ Sitio único para varias oposiciones (`oposicioneszaragoza.es` → `/auxiliar-ad
 `/auxiliar-administrativo-dga`, ...). Arranca con **Auxiliar Administrativo del
 Ayuntamiento de Zaragoza**, con el temario actualizado a la última convocatoria (20 temas).
 
-**Flashcards y glosario se han retirado a propósito** (decisión del 20 de agosto de 2026):
-se rehacen desde cero cuando el proyecto esté conectado a Supabase, en vez de mantener una
-versión intermedia en TypeScript que luego habría que migrar. El material fuente para
-generarlas (leyes troceadas por Título/Capítulo) sigue disponible en `content-raw/` — no se
-ha tocado. **Test, simulacros y casos prácticos** también siguen fuera, como se pidió desde
-el principio.
+**Conectado a Supabase de verdad** desde el 20 de agosto de 2026: oposiciones, bloques,
+temas, la asignación tema↔oposición y la convocatoria viven en Postgres; el código ya no
+lee de archivos `.ts` locales para ese contenido (ver "Arquitectura" abajo).
 
-Todo funciona en local con datos en TypeScript (sin Supabase todavía).
+**Flashcards y glosario se retiraron a propósito** antes de conectar Supabase, para no
+mantener una versión intermedia en TypeScript que luego habría que migrar. Las tablas
+`flashcards` y `glosario` ya existen en Supabase (ver `supabase/migrations/0001_init.sql`)
+pero están vacías — se rellenan cuando se retome ese contenido, con el material fuente que
+ya está en `content-raw/` (15 normas troceadas por Título/Capítulo). **Test, simulacros y
+casos prácticos** también siguen fuera, como se pidió desde el principio. **Login, perfil,
+progreso y panel de admin** tampoco existen todavía — el esquema no incluye ni siquiera
+`profiles`/roles: eso llega con la fase de autenticación.
 
-## Cómo arrancar
+Desplegado en Vercel: **https://opos-khaki.vercel.app**
+
+## Cómo arrancar en local
 
 ```bash
 npm install
+cp .env.local.example .env.local   # y rellena tus propias claves de Supabase
 npm run dev
 ```
 
 Abre `http://localhost:3000`.
 
-## La decisión de arquitectura clave
+## Arquitectura
 
-Un **tema** (`src/data/temario/temas.ts`) es contenido reutilizable: no pertenece a ninguna
-oposición. Una **oposición** (`src/data/oposiciones.ts`) no contiene temas directamente —
-los **asigna** mediante `src/data/temario/asignaciones.ts` (equivalente en memoria a la
-futura tabla puente `tema_oposicion` en Supabase), donde se decide en qué bloque cae, qué
-número de tema es y si está publicado/es premium **para esa oposición concreta**.
+### Oposición ↔ tema (por qué existe `tema_oposicion`)
 
-Cuando se reintroduzcan, flashcards y glosario colgarán del `temaSlug` del tema canónico
-(igual que hacían antes de retirarlas), así que se compartirán automáticamente en cualquier
-oposición que asigne ese tema — sin duplicar nada.
+Un **tema** es contenido reutilizable: no pertenece a ninguna oposición. Una **oposición**
+no contiene temas directamente — los **asigna** mediante la tabla puente `tema_oposicion`,
+donde se decide en qué bloque cae, qué número de tema es y si está publicado/es premium
+**para esa oposición concreta**. Cuando dos oposiciones comparten una ley o materia, el
+mismo `tema.slug` se asigna a ambas sin duplicar contenido — solo se añade una fila nueva
+en `tema_oposicion`.
+
+Flashcards y glosario (cuando se rellenen) cuelgan de `tema_slug`, así que se comparten
+automáticamente en cualquier oposición que asigne ese tema.
 
 **Al incorporar la segunda oposición (DGA):** si un tema coincide (misma ley, misma
-materia), NO se duplica en `temas.ts` — se añade solo una fila nueva en `asignaciones.ts`
-apuntando al mismo `temaSlug`. Si un tema existente solo coincide parcialmente, hay que
-trocearlo en unidades más atómicas primero (ver conversación de diseño).
+materia), NO se duplica en la tabla `temas` — se añade solo una fila nueva en
+`tema_oposicion`. Si un tema existente solo coincide parcialmente, hay que trocearlo en
+unidades más atómicas primero.
 
-Todo esto está pensado para migrar a Supabase sin cambiar quien lo consume: las funciones
-de `src/lib/oposiciones.ts` hacen exactamente el "join" que haría la base de datos
-(`getBloquesConTemas`, `getTemaDeOposicion`...); el día de mañana se sustituye su
-implementación por queries reales y las páginas no se enteran.
+### Supabase
+
+- **Esquema**: `supabase/migrations/0001_init.sql` — 7 tablas (`oposiciones`, `bloques`,
+  `temas`, `tema_oposicion`, `flashcards`, `glosario`, `convocatorias`), con RLS de solo
+  lectura pública (nadie escribe salvo `service_role`, usada por scripts).
+- **Seed**: `scripts/seed.mjs` — vuelca los datos actuales (1 oposición, 7 bloques, 20
+  temas, convocatoria). Idempotente (upsert): se puede volver a ejecutar sin duplicar.
+  Uso: `node --env-file=.env.local scripts/seed.mjs`.
+- **Clientes** (`src/lib/supabase/`):
+  - `public.ts` — clave `anon`, sin cookies. Es el que usa todo `lib/oposiciones.ts` y
+    `data/convocatorias.ts`, porque hoy ninguna consulta de contenido depende del usuario
+    y así funciona igual en build time (`generateStaticParams`) que en request time.
+  - `server.ts` — clave `anon` con cookies de sesión (vía `@supabase/ssr`). Todavía no lo
+    usa nadie: es para cuando haya login y RLS necesite evaluar `auth.uid()`.
+  - `admin.ts` — clave `service_role`, salta RLS. Solo para scripts de servidor
+    (`server-only` hace fallar el build si se cuela en el bundle del cliente).
 
 ## Estructura
 
@@ -57,45 +78,35 @@ src/
       temario/[slug]/page.tsx      → contenido de un tema
       convocatoria/page.tsx        → ficha de la convocatoria vigente
   data/
-    oposiciones.ts                 → catálogo (hoy: 1 oposición)
-    temario/
-      temas.ts                     → temas CANÓNICOS (reutilizables)
-      bloques.ts                   → bloques, por oposición
-      asignaciones.ts              → tema_oposicion: qué tema va en qué bloque/número/oposición
-    convocatorias.ts               → datos de convocatoria, por oposición
+    convocatorias.ts               → consulta la tabla `convocatorias` de Supabase
   lib/
     types.ts                       → tipos de dominio (documentados con la razón de cada decisión)
-    oposiciones.ts                 → funciones de consulta/"join" del catálogo
-    site.ts                        → metadatos globales del dominio (ya no hay un SITE.oposicion fijo)
+    oposiciones.ts                 → consultas a Supabase (oposiciones, bloques, temas, tema_oposicion)
+    site.ts                        → metadatos globales del dominio
+    supabase/                      → los tres clientes (ver arriba)
+supabase/
+  migrations/0001_init.sql         → esquema completo + RLS
+scripts/
+  seed.mjs                         → rellena Supabase con el contenido actual
 ```
 
 ## Qué falta y qué necesito de ti
 
-1. **Flashcards y glosario**: retirados a propósito (ver arriba). El material fuente para
-   generarlos cuando se retomen ya está en `content-raw/` — 15 normas troceadas por
-   Título/Capítulo, cada una con su `FUENTE.md` documentando qué tema cubre. Se rehacen
-   sobre Supabase, no en TypeScript.
-2. **Test / casos prácticos / simulacros**: pausados a propósito (decisión explícita,
-   confirmada de nuevo el 20 de agosto de 2026). Cuando se retomen, misma mecánica:
-   colgarán de `temaSlug`, reutilizables igual que el resto de contenido.
-3. **Login / perfil / progreso / panel de admin**: esperan a que exista el proyecto de
-   Supabase (confirmado) — no tiene sentido maquetar pantallas que no van a funcionar.
-   Cuando migremos, sustituimos `data/` por las tablas ya diseñadas (`oposiciones`,
-   `bloques`, `temas`, `tema_oposicion`, `flashcards`, `glosario`) y las funciones de
-   `lib/oposiciones.ts` por queries — las páginas no cambian.
-4. **Páginas legales** (aviso legal, privacidad, cookies): también en espera. Las de
-   `kubo-calendario` describen cuentas de usuario y cookies de sesión que aquí todavía
-   no existen — portarlas tal cual ahora sería publicar una política que no es cierta.
-   Se escriben cuando haya auth real (o antes, si se piden explícitamente en una
-   versión mínima sin mencionar cuentas).
-5. **Convocatoria**: ✅ ya portada (`data/convocatorias.ts`, oposición-específica —
-   a diferencia del temario, no es reutilizable entre oposiciones).
-6. **`sitemap.xml` / `robots.txt`**: ✅ ya generados, recorren todas las oposiciones
-   activas del catálogo. Ojo: `robots.ts` bloquea TODO a los buscadores (`disallow: "/"`),
-   igual que en `kubo-calendario` — es así a propósito mientras no hay dominio propio,
-   pero hay que revisarlo antes de lanzar o Google nunca indexará el sitio.
-7. **Segunda oposición (DGA)**: en cuanto me pases su temario oficial, reviso qué temas
-   coinciden con los ya existentes para reutilizarlos (nueva fila en `asignaciones.ts`)
-   y creo solo los que sean realmente nuevos.
-8. **Diseño**: he mantenido el mismo lenguaje visual (azul institucional) del proyecto
-   original para no partir de cero. Dime si quieres una identidad visual propia para Kiuti.
+1. **Flashcards y glosario**: tablas creadas, vacías. El material fuente sigue en
+   `content-raw/` (15 normas, cada una con su `FUENTE.md`). Falta generarlas y hacer un
+   segundo script de seed para ellas.
+2. **Test / casos prácticos / simulacros**: pausados a propósito. Cuando se retomen, misma
+   mecánica: colgarán de `tema_slug`, reutilizables igual que el resto de contenido.
+3. **Login / perfil / progreso / panel de admin**: el esquema de Supabase no los incluye
+   todavía (ni `profiles` ni roles) — se diseñan cuando llegue esa fase.
+4. **Páginas legales** (aviso legal, privacidad, cookies): en espera de que exista login de
+   verdad, para no publicar una política que describa cosas que la web no hace.
+5. **Segunda oposición (DGA)**: en cuanto me pases su temario oficial, reviso qué temas
+   coinciden con los ya existentes para reutilizarlos (nueva fila en `tema_oposicion`) y
+   creo solo los que sean realmente nuevos.
+6. **`robots.txt`**: bloquea TODO a los buscadores (`disallow: "/"`) a propósito mientras
+   no hay dominio propio — revisar antes de lanzar o Google nunca indexará el sitio.
+7. **Dominio propio**: cuando se compre `oposicioneszaragoza.es`, añadirlo en Vercel y
+   actualizar `SITE.url` en `src/lib/site.ts` (ver `SETUP.md`).
+8. **Diseño**: se ha mantenido el mismo lenguaje visual (azul institucional) del proyecto
+   original para no partir de cero. Decir si se quiere una identidad visual propia.

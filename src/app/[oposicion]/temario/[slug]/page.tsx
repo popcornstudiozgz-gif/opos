@@ -10,13 +10,13 @@ interface PageProps {
   params: Promise<{ oposicion: string; slug: string }>;
 }
 
-export function generateStaticParams() {
-  return getParamsTemarioEstatico();
+export async function generateStaticParams() {
+  return await getParamsTemarioEstatico();
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { oposicion: oposicionSlug, slug } = await params;
-  const tema = getTemaDeOposicion(oposicionSlug, slug);
+  const tema = await getTemaDeOposicion(oposicionSlug, slug);
   if (!tema) return {};
   return crearMetadata({
     titulo: `Tema ${tema.numero}. ${tema.titulo}`,
@@ -27,8 +27,10 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
 export default async function TemaPage({ params }: PageProps) {
   const { oposicion: oposicionSlug, slug } = await params;
-  const oposicion = getOposicion(oposicionSlug);
-  const tema = getTemaDeOposicion(oposicionSlug, slug);
+  const [oposicion, tema] = await Promise.all([
+    getOposicion(oposicionSlug),
+    getTemaDeOposicion(oposicionSlug, slug),
+  ]);
   if (!oposicion || !tema) notFound();
 
   return (

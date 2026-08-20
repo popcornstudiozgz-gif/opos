@@ -10,16 +10,15 @@ interface PageProps {
   params: Promise<{ oposicion: string }>;
 }
 
-export function generateStaticParams() {
-  return getOposiciones()
-    .filter((o) => getConvocatoria(o.slug))
-    .map((o) => ({ oposicion: o.slug }));
+export async function generateStaticParams() {
+  const oposiciones = await getOposiciones();
+  const convocatorias = await Promise.all(oposiciones.map((o) => getConvocatoria(o.slug)));
+  return oposiciones.filter((_, i) => convocatorias[i]).map((o) => ({ oposicion: o.slug }));
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { oposicion: slug } = await params;
-  const oposicion = getOposicion(slug);
-  const convocatoria = getConvocatoria(slug);
+  const [oposicion, convocatoria] = await Promise.all([getOposicion(slug), getConvocatoria(slug)]);
   if (!oposicion || !convocatoria) return {};
   return crearMetadata({
     titulo: "Convocatoria",
@@ -30,8 +29,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
 export default async function ConvocatoriaPage({ params }: PageProps) {
   const { oposicion: slug } = await params;
-  const oposicion = getOposicion(slug);
-  const convocatoria = getConvocatoria(slug);
+  const [oposicion, convocatoria] = await Promise.all([getOposicion(slug), getConvocatoria(slug)]);
   if (!oposicion || !convocatoria) notFound();
 
   const datosClave = [

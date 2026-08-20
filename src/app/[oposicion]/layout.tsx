@@ -3,8 +3,9 @@ import { Navbar } from "@/components/layout/Navbar";
 import { getOposicion, getOposiciones } from "@/lib/oposiciones";
 
 /** Pre-renderiza una ruta por cada oposición activa del catálogo. */
-export function generateStaticParams() {
-  return getOposiciones().map((o) => ({ oposicion: o.slug }));
+export async function generateStaticParams() {
+  const oposiciones = await getOposiciones();
+  return oposiciones.map((o) => ({ oposicion: o.slug }));
 }
 
 interface LayoutProps {
@@ -14,7 +15,7 @@ interface LayoutProps {
 
 export default async function OposicionLayout({ children, params }: LayoutProps) {
   const { oposicion: slug } = await params;
-  const oposicion = getOposicion(slug);
+  const oposicion = await getOposicion(slug);
   if (!oposicion) notFound();
 
   return (
