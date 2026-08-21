@@ -14,7 +14,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         getConvocatoria(o.slug),
         getTemasDeOposicion(o.slug),
       ]);
-      const rutasOposicion = [base, `${base}/temario`, `${base}/flashcards`, `${base}/glosario`];
+      const rutasOposicion = [base, `${base}/temario`, `${base}/test`, `${base}/flashcards`, `${base}/glosario`];
       if (convocatoria) rutasOposicion.push(`${base}/convocatoria`);
       return [...rutasOposicion, ...temas.map((t) => `${base}/temario/${t.slug}`)];
     })

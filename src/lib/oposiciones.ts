@@ -1,5 +1,5 @@
 import { createClient } from "@/lib/supabase/public";
-import type { Bloque, EnlaceLegal, Flashcard, Oposicion, TemaDeOposicion, TerminoGlosario } from "./types";
+import type { Bloque, EnlaceLegal, Flashcard, Oposicion, Pregunta, TemaDeOposicion, TerminoGlosario } from "./types";
 
 /**
  * Funciones de consulta contra Supabase — el "join" que antes hacían a mano
@@ -276,4 +276,62 @@ export async function getGlosarioDeOposicion(oposicionSlug: string): Promise<Ter
     temas.map((tema) => getGlosarioDeTema(oposicionSlug, tema.slug))
   );
   return porTema.flat().sort((a, b) => a.termino.localeCompare(b.termino, "es"));
+}
+
+type FilaPregunta = {
+  id: string;
+  tema_slug: string;
+  seccion: string | null;
+  enunciado: string;
+  explicacion: string | null;
+  dificultad: string;
+  opciones: { id: string; texto: string; es_correcta: boolean; orden: number }[];
+};
+
+function mapPregunta(fila: FilaPregunta): Pregunta | null {
+  const opciones = [...fila.opciones].sort((a, b) => a.orden - b.orden);
+  if (opciones.length < 2) return null; // pregunta mal formada, se descarta en vez de romper la página
+  return {
+    id: fila.id,
+    temaSlug: fila.tema_slug,
+    seccion: fila.seccion,
+    enunciado: fila.enunciado,
+    explicacion: fila.explicacion,
+    dificultad: (fila.dificultad as Pregunta["dificultad"]) ?? "media",
+    opciones: opciones.map((o) => ({ id: o.id, texto: o.texto, esCorrecta: o.es_correcta })),
+  };
+}
+
+/**
+ * Preguntas de test de un tema, recortadas al alcance de la oposición con
+ * el mismo criterio que `getFlashcardsDeTema` (reutiliza
+ * `tema_oposicion.secciones_incluidas`). Devuelve `[]` si el tema no está
+ * asignado a la oposición.
+ */
+export async function getPreguntasDeTema(oposicionSlug: string, temaSlug: string): Promise<Pregunta[]> {
+  const asignacion = await getTemaDeOposicion(oposicionSlug, temaSlug);
+  if (!asignacion) return [];
+
+  const supabase = createClient();
+  let query = supabase
+    .from("preguntas")
+    .select("id, tema_slug, seccion, enunciado, explicacion, dificultad, opciones(id, texto, es_correcta, orden)")
+    .eq("tema_slug", temaSlug);
+
+  if (asignacion.seccionesIncluidas && asignacion.seccionesIncluidas.length > 0) {
+    query = query.in("seccion", asignacion.seccionesIncluidas);
+  }
+
+  const { data, error } = await query.order("created_at");
+  if (error) throw error;
+  return (data ?? []).map((fila) => mapPregunta(fila as unknown as FilaPregunta)).filter((p): p is Pregunta => p !== null);
+}
+
+/** Todas las preguntas de test de una oposición (unión de todos sus temas asignados). */
+export async function getPreguntasDeOposicion(oposicionSlug: string): Promise<Pregunta[]> {
+  const temas = await getTemasDeOposicion(oposicionSlug);
+  const porTema = await Promise.all(
+    temas.map((tema) => getPreguntasDeTema(oposicionSlug, tema.slug))
+  );
+  return porTema.flat();
 }
