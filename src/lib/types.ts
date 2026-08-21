@@ -56,6 +56,13 @@ export interface AsignacionTema {
   orden: number;
   esPremium: boolean;
   publicado: boolean;
+  /**
+   * Subconjunto de `Flashcard.seccion` que entra en el temario de esta
+   * oposición concreta. `null`/`undefined` = se muestran todas las
+   * flashcards del tema (no hay recorte); un array = solo las de esas
+   * secciones, aunque el tema canónico tenga más contenido en su biblioteca.
+   */
+  seccionesIncluidas?: string[] | null;
 }
 
 /** Bloque temático — agrupa temas dentro de UNA oposición (no se comparte entre oposiciones). */
@@ -69,3 +76,18 @@ export interface Bloque {
 
 /** Un tema ya resuelto en el contexto de una oposición (contenido + asignación). */
 export type TemaDeOposicion = TemaCanonico & AsignacionTema;
+
+/**
+ * Flashcard de estudio. Cuelga del tema canónico (`temaSlug`), no de una
+ * oposición: se comparte automáticamente entre cualquier oposición que
+ * asigne ese tema. `seccion` es la etiqueta fina (p. ej. "titulo-preliminar")
+ * que permite recortar qué tarjetas se muestran por oposición vía
+ * `AsignacionTema.seccionesIncluidas`.
+ */
+export interface Flashcard {
+  id: string;
+  temaSlug: string;
+  seccion: string | null;
+  anverso: string;
+  reverso: string;
+}
