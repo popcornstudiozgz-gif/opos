@@ -91,3 +91,17 @@ export interface Flashcard {
   anverso: string;
   reverso: string;
 }
+
+/**
+ * Término de glosario: un concepto que puede resultar complejo o poco
+ * claro, con su definición. `seccion` usa el mismo vocabulario de slugs
+ * que `Flashcard.seccion` para ese tema, así que el mismo
+ * `AsignacionTema.seccionesIncluidas` recorta ambas tablas por igual.
+ */
+export interface TerminoGlosario {
+  id: string;
+  temaSlug: string;
+  seccion: string | null;
+  termino: string;
+  definicion: string;
+}
