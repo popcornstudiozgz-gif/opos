@@ -28,7 +28,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     })
   );
 
-  const rutas = ["/", ...porOposicion.flat()];
+  const rutas = ["/", "/contacto", ...porOposicion.flat()];
 
   return rutas.map((ruta) => ({
     url: `${SITE.url}${ruta}`,
