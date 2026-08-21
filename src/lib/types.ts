@@ -105,3 +105,26 @@ export interface TerminoGlosario {
   termino: string;
   definicion: string;
 }
+
+export type Dificultad = "facil" | "media" | "dificil";
+
+export interface OpcionPregunta {
+  id: string;
+  texto: string;
+  esCorrecta: boolean;
+}
+
+/**
+ * Pregunta de test de opción múltiple, derivada 1:1 de una flashcard del
+ * mismo tema/seccion. Igual que `Flashcard` y `TerminoGlosario`, se recorta
+ * por oposición reutilizando `AsignacionTema.seccionesIncluidas`.
+ */
+export interface Pregunta {
+  id: string;
+  temaSlug: string;
+  seccion: string | null;
+  enunciado: string;
+  explicacion: string | null;
+  dificultad: Dificultad;
+  opciones: OpcionPregunta[];
+}

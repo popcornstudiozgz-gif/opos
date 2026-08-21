@@ -10,6 +10,7 @@ import {
   getTemaDeOposicion,
   getFlashcardsDeTema,
   getGlosarioDeTema,
+  getPreguntasDeTema,
   getParamsTemarioEstatico,
 } from "@/lib/oposiciones";
 
@@ -40,9 +41,10 @@ export default async function TemaPage({ params }: PageProps) {
   ]);
   if (!oposicion || !tema) notFound();
 
-  const [flashcards, glosario] = await Promise.all([
+  const [flashcards, glosario, preguntas] = await Promise.all([
     getFlashcardsDeTema(oposicionSlug, slug),
     getGlosarioDeTema(oposicionSlug, slug),
+    getPreguntasDeTema(oposicionSlug, slug),
   ]);
 
   return (
@@ -58,10 +60,15 @@ export default async function TemaPage({ params }: PageProps) {
         <h1 className="mt-1 text-3xl font-black text-brand-900">{tema.titulo}</h1>
         <p className="mt-3 max-w-3xl text-slate-600">{tema.descripcion}</p>
 
-        {(flashcards.length > 0 || glosario.length > 0) && (
+        {(preguntas.length > 0 || flashcards.length > 0 || glosario.length > 0) && (
           <div className="mt-6 flex flex-wrap gap-3">
+            {preguntas.length > 0 && (
+              <Button href={`/${oposicionSlug}/test?tema=${slug}`} tamano="sm">
+                Hacer un test ({preguntas.length})
+              </Button>
+            )}
             {flashcards.length > 0 && (
-              <Button href={`/${oposicionSlug}/flashcards?tema=${slug}`} tamano="sm">
+              <Button href={`/${oposicionSlug}/flashcards?tema=${slug}`} variante="contorno" tamano="sm">
                 Practicar con flashcards ({flashcards.length})
               </Button>
             )}
