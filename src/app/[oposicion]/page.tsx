@@ -50,7 +50,13 @@ export default async function OposicionHome({ params }: PageProps) {
 
         <div className="mt-8 flex flex-wrap gap-3">
           <Button href={`/${slug}/temario`}>Ver el temario</Button>
-          <Button href={`/${slug}/convocatoria`} variante="contorno">
+          <Button href={`/${slug}/flashcards`} variante="contorno">
+            Practicar con flashcards
+          </Button>
+          <Button href={`/${slug}/glosario`} variante="contorno">
+            Consultar el glosario
+          </Button>
+          <Button href={`/${slug}/convocatoria`} variante="fantasma">
             Ver la convocatoria
           </Button>
         </div>

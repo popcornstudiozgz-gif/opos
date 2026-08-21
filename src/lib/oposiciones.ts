@@ -1,5 +1,5 @@
 import { createClient } from "@/lib/supabase/public";
-import type { Bloque, EnlaceLegal, Flashcard, Oposicion, TemaDeOposicion } from "./types";
+import type { Bloque, EnlaceLegal, Flashcard, Oposicion, TemaDeOposicion, TerminoGlosario } from "./types";
 
 /**
  * Funciones de consulta contra Supabase — el "join" que antes hacían a mano
@@ -221,4 +221,59 @@ export async function getFlashcardsDeOposicion(oposicionSlug: string): Promise<F
     temas.map((tema) => getFlashcardsDeTema(oposicionSlug, tema.slug))
   );
   return porTema.flat();
+}
+
+type FilaTerminoGlosario = {
+  id: string;
+  tema_slug: string | null;
+  seccion: string | null;
+  termino: string;
+  definicion: string;
+};
+
+function mapTerminoGlosario(fila: FilaTerminoGlosario): TerminoGlosario {
+  return {
+    id: fila.id,
+    temaSlug: fila.tema_slug ?? "",
+    seccion: fila.seccion,
+    termino: fila.termino,
+    definicion: fila.definicion,
+  };
+}
+
+/**
+ * Términos de glosario de un tema, recortados al alcance de la oposición
+ * con el mismo criterio que `getFlashcardsDeTema` (reutiliza
+ * `tema_oposicion.secciones_incluidas`, sin un segundo mecanismo de
+ * recorte). Devuelve `[]` si el tema no está asignado a la oposición.
+ */
+export async function getGlosarioDeTema(
+  oposicionSlug: string,
+  temaSlug: string
+): Promise<TerminoGlosario[]> {
+  const asignacion = await getTemaDeOposicion(oposicionSlug, temaSlug);
+  if (!asignacion) return [];
+
+  const supabase = createClient();
+  let query = supabase
+    .from("glosario")
+    .select("id, tema_slug, seccion, termino, definicion")
+    .eq("tema_slug", temaSlug);
+
+  if (asignacion.seccionesIncluidas && asignacion.seccionesIncluidas.length > 0) {
+    query = query.in("seccion", asignacion.seccionesIncluidas);
+  }
+
+  const { data, error } = await query.order("termino");
+  if (error) throw error;
+  return (data ?? []).map(mapTerminoGlosario);
+}
+
+/** Todos los términos de glosario de una oposición (unión de todos sus temas asignados). */
+export async function getGlosarioDeOposicion(oposicionSlug: string): Promise<TerminoGlosario[]> {
+  const temas = await getTemasDeOposicion(oposicionSlug);
+  const porTema = await Promise.all(
+    temas.map((tema) => getGlosarioDeTema(oposicionSlug, tema.slug))
+  );
+  return porTema.flat().sort((a, b) => a.termino.localeCompare(b.termino, "es"));
 }

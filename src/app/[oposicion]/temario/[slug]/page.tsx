@@ -5,7 +5,13 @@ import { Container } from "@/components/ui/Container";
 import { Card } from "@/components/ui/Card";
 import { Button } from "@/components/ui/Button";
 import { crearMetadata } from "@/lib/site";
-import { getOposicion, getTemaDeOposicion, getFlashcardsDeTema, getParamsTemarioEstatico } from "@/lib/oposiciones";
+import {
+  getOposicion,
+  getTemaDeOposicion,
+  getFlashcardsDeTema,
+  getGlosarioDeTema,
+  getParamsTemarioEstatico,
+} from "@/lib/oposiciones";
 
 interface PageProps {
   params: Promise<{ oposicion: string; slug: string }>;
@@ -34,7 +40,10 @@ export default async function TemaPage({ params }: PageProps) {
   ]);
   if (!oposicion || !tema) notFound();
 
-  const flashcards = await getFlashcardsDeTema(oposicionSlug, slug);
+  const [flashcards, glosario] = await Promise.all([
+    getFlashcardsDeTema(oposicionSlug, slug),
+    getGlosarioDeTema(oposicionSlug, slug),
+  ]);
 
   return (
     <section className="bg-white">
@@ -49,10 +58,19 @@ export default async function TemaPage({ params }: PageProps) {
         <h1 className="mt-1 text-3xl font-black text-brand-900">{tema.titulo}</h1>
         <p className="mt-3 max-w-3xl text-slate-600">{tema.descripcion}</p>
 
-        {flashcards.length > 0 && (
-          <Button href={`/${oposicionSlug}/flashcards?tema=${slug}`} className="mt-6" tamano="sm">
-            Practicar con flashcards ({flashcards.length})
-          </Button>
+        {(flashcards.length > 0 || glosario.length > 0) && (
+          <div className="mt-6 flex flex-wrap gap-3">
+            {flashcards.length > 0 && (
+              <Button href={`/${oposicionSlug}/flashcards?tema=${slug}`} tamano="sm">
+                Practicar con flashcards ({flashcards.length})
+              </Button>
+            )}
+            {glosario.length > 0 && (
+              <Button href={`/${oposicionSlug}/glosario?tema=${slug}`} variante="contorno" tamano="sm">
+                Ver glosario ({glosario.length})
+              </Button>
+            )}
+          </div>
         )}
 
         {tema.contenido && (
