@@ -398,31 +398,10 @@ type FilaCasoPractico = {
   caso_preguntas: { orden: number; preguntas: FilaPregunta }[];
 };
 
-/**
- * Un caso práctico completo por su slug, con sus preguntas ya resueltas y
- * ordenadas según `caso_preguntas.orden`. Comprueba que su tema esté
- * asignado a la oposición (sin recorte por sección, ver `CasoPractico`);
- * devuelve `undefined` si el caso no existe o su tema no está asignado.
- */
-export async function getCasoPractico(
-  oposicionSlug: string,
-  slug: string
-): Promise<CasoPractico | undefined> {
-  const supabase = createClient();
-  const { data, error } = await supabase
-    .from("casos_practicos")
-    .select(
-      "id, tema_slug, slug, titulo, supuesto, caso_preguntas(orden, preguntas(id, tema_slug, seccion, enunciado, explicacion, dificultad, opciones(id, texto, es_correcta, orden)))"
-    )
-    .eq("slug", slug)
-    .maybeSingle();
-  if (error) throw error;
-  if (!data) return undefined;
+const SELECT_CASO_PRACTICO_COMPLETO =
+  "id, tema_slug, slug, titulo, supuesto, caso_preguntas(orden, preguntas(id, tema_slug, seccion, enunciado, explicacion, dificultad, opciones(id, texto, es_correcta, orden)))";
 
-  const fila = data as unknown as FilaCasoPractico;
-  const asignacion = await getTemaDeOposicion(oposicionSlug, fila.tema_slug);
-  if (!asignacion) return undefined;
-
+function mapCasoPractico(fila: FilaCasoPractico): CasoPractico {
   const preguntas = [...fila.caso_preguntas]
     .sort((a, b) => a.orden - b.orden)
     .map((cp) => mapPregunta(cp.preguntas))
@@ -436,6 +415,53 @@ export async function getCasoPractico(
     supuesto: fila.supuesto,
     preguntas,
   };
+}
+
+/**
+ * Un caso práctico completo por su slug, con sus preguntas ya resueltas y
+ * ordenadas según `caso_preguntas.orden`. Comprueba que su tema esté
+ * asignado a la oposición (sin recorte por sección, ver `CasoPractico`);
+ * devuelve `undefined` si el caso no existe o su tema no está asignado.
+ */
+export async function getCasoPractico(
+  oposicionSlug: string,
+  slug: string
+): Promise<CasoPractico | undefined> {
+  const supabase = createClient();
+  const { data, error } = await supabase
+    .from("casos_practicos")
+    .select(SELECT_CASO_PRACTICO_COMPLETO)
+    .eq("slug", slug)
+    .maybeSingle();
+  if (error) throw error;
+  if (!data) return undefined;
+
+  const fila = data as unknown as FilaCasoPractico;
+  const asignacion = await getTemaDeOposicion(oposicionSlug, fila.tema_slug);
+  if (!asignacion) return undefined;
+
+  return mapCasoPractico(fila);
+}
+
+/**
+ * Todos los casos prácticos completos (con sus preguntas) de los temas
+ * asignados a una oposición — se usa en el simulacro, que necesita elegir
+ * casos al azar de toda la oposición, no de un tema concreto.
+ */
+export async function getCasosPracticosDeOposicion(oposicionSlug: string): Promise<CasoPractico[]> {
+  const temas = await getTemasDeOposicion(oposicionSlug);
+  const temaSlugs = temas.map((t) => t.slug);
+  if (temaSlugs.length === 0) return [];
+
+  const supabase = createClient();
+  const { data, error } = await supabase
+    .from("casos_practicos")
+    .select(SELECT_CASO_PRACTICO_COMPLETO)
+    .in("tema_slug", temaSlugs)
+    .order("orden");
+  if (error) throw error;
+
+  return (data ?? []).map((fila) => mapCasoPractico(fila as unknown as FilaCasoPractico));
 }
 
 /** Todos los pares oposición/slug de caso práctico publicados, para `generateStaticParams`. */
