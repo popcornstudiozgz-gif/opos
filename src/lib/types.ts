@@ -128,3 +128,31 @@ export interface Pregunta {
   dificultad: Dificultad;
   opciones: OpcionPregunta[];
 }
+
+/**
+ * Caso práctico: un supuesto narrativo (situación ficticia pero coherente)
+ * resuelto mediante una secuencia ORDENADA de preguntas (`Pregunta`, las
+ * mismas de `preguntas`/`opciones`, enlazadas vía `caso_preguntas`). Cuelga
+ * del tema canónico, como `Flashcard`/`Pregunta`, pero a propósito NO se
+ * recorta por `AsignacionTema.seccionesIncluidas`: mezcla secciones del
+ * tema para plantear un supuesto realista, y un caso a medias no tiene
+ * sentido. Se muestra completo si el tema está asignado, o no se muestra.
+ */
+export interface CasoPractico {
+  id: string;
+  temaSlug: string;
+  slug: string;
+  titulo: string;
+  supuesto: string;
+  preguntas: Pregunta[];
+}
+
+/** Resumen de un caso práctico para las vistas de listado (sin cargar todas sus preguntas). */
+export interface CasoPracticoResumen {
+  id: string;
+  temaSlug: string;
+  slug: string;
+  titulo: string;
+  supuesto: string;
+  numPreguntas: number;
+}
