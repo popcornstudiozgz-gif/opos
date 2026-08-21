@@ -1,5 +1,5 @@
 import { createClient } from "@/lib/supabase/public";
-import type { Bloque, EnlaceLegal, Oposicion, TemaDeOposicion } from "./types";
+import type { Bloque, EnlaceLegal, Flashcard, Oposicion, TemaDeOposicion } from "./types";
 
 /**
  * Funciones de consulta contra Supabase — el "join" que antes hacían a mano
@@ -55,6 +55,7 @@ type FilaTemaOposicion = {
   orden: number;
   es_premium: boolean;
   publicado: boolean;
+  secciones_incluidas: string[] | null;
   temas: {
     slug: string;
     titulo: string;
@@ -79,11 +80,12 @@ function mapTemaDeOposicion(fila: FilaTemaOposicion): TemaDeOposicion {
     orden: fila.orden,
     esPremium: fila.es_premium,
     publicado: fila.publicado,
+    seccionesIncluidas: fila.secciones_incluidas,
   };
 }
 
 const SELECT_TEMA_OPOSICION =
-  "tema_slug, oposicion_slug, numero, orden, es_premium, publicado, temas(*), bloques(slug)";
+  "tema_slug, oposicion_slug, numero, orden, es_premium, publicado, secciones_incluidas, temas(*), bloques(slug)";
 
 export async function getOposiciones(): Promise<Oposicion[]> {
   const supabase = createClient();
@@ -159,4 +161,51 @@ export async function getParamsTemarioEstatico() {
     .eq("publicado", true);
   if (error) throw error;
   return (data ?? []).map((fila) => ({ oposicion: fila.oposicion_slug, slug: fila.tema_slug }));
+}
+
+type FilaFlashcard = {
+  id: string;
+  tema_slug: string;
+  seccion: string | null;
+  anverso: string;
+  reverso: string;
+};
+
+function mapFlashcard(fila: FilaFlashcard): Flashcard {
+  return {
+    id: fila.id,
+    temaSlug: fila.tema_slug,
+    seccion: fila.seccion,
+    anverso: fila.anverso,
+    reverso: fila.reverso,
+  };
+}
+
+/**
+ * Flashcards de un tema, ya recortadas al alcance de la oposición: si
+ * `tema_oposicion.secciones_incluidas` tiene valor, solo se devuelven las
+ * tarjetas cuya `seccion` está en esa lista; si es `null`, se devuelve la
+ * biblioteca completa del tema. Devuelve `[]` si el tema no está asignado a
+ * la oposición.
+ */
+export async function getFlashcardsDeTema(
+  oposicionSlug: string,
+  temaSlug: string
+): Promise<Flashcard[]> {
+  const asignacion = await getTemaDeOposicion(oposicionSlug, temaSlug);
+  if (!asignacion) return [];
+
+  const supabase = createClient();
+  let query = supabase
+    .from("flashcards")
+    .select("id, tema_slug, seccion, anverso, reverso")
+    .eq("tema_slug", temaSlug);
+
+  if (asignacion.seccionesIncluidas && asignacion.seccionesIncluidas.length > 0) {
+    query = query.in("seccion", asignacion.seccionesIncluidas);
+  }
+
+  const { data, error } = await query.order("created_at");
+  if (error) throw error;
+  return (data ?? []).map(mapFlashcard);
 }

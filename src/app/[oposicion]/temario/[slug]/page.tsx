@@ -3,8 +3,9 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { Container } from "@/components/ui/Container";
 import { Card } from "@/components/ui/Card";
+import { Button } from "@/components/ui/Button";
 import { crearMetadata } from "@/lib/site";
-import { getOposicion, getTemaDeOposicion, getParamsTemarioEstatico } from "@/lib/oposiciones";
+import { getOposicion, getTemaDeOposicion, getFlashcardsDeTema, getParamsTemarioEstatico } from "@/lib/oposiciones";
 
 interface PageProps {
   params: Promise<{ oposicion: string; slug: string }>;
@@ -33,6 +34,8 @@ export default async function TemaPage({ params }: PageProps) {
   ]);
   if (!oposicion || !tema) notFound();
 
+  const flashcards = await getFlashcardsDeTema(oposicionSlug, slug);
+
   return (
     <section className="bg-white">
       <Container className="py-16 sm:py-20">
@@ -45,6 +48,12 @@ export default async function TemaPage({ params }: PageProps) {
         </p>
         <h1 className="mt-1 text-3xl font-black text-brand-900">{tema.titulo}</h1>
         <p className="mt-3 max-w-3xl text-slate-600">{tema.descripcion}</p>
+
+        {flashcards.length > 0 && (
+          <Button href={`/${oposicionSlug}/temario/${slug}/flashcards`} className="mt-6" tamano="sm">
+            Practicar con flashcards ({flashcards.length})
+          </Button>
+        )}
 
         {tema.contenido && (
           <Card className="mt-8 p-6">
