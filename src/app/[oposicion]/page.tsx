@@ -53,6 +53,9 @@ export default async function OposicionHome({ params }: PageProps) {
           <Button href={`/${slug}/test`} variante="contorno">
             Hacer un test
           </Button>
+          <Button href={`/${slug}/casos-practicos`} variante="contorno">
+            Resolver casos prácticos
+          </Button>
           <Button href={`/${slug}/flashcards`} variante="contorno">
             Practicar con flashcards
           </Button>

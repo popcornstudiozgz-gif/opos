@@ -1,5 +1,15 @@
 import { createClient } from "@/lib/supabase/public";
-import type { Bloque, EnlaceLegal, Flashcard, Oposicion, Pregunta, TemaDeOposicion, TerminoGlosario } from "./types";
+import type {
+  Bloque,
+  CasoPractico,
+  CasoPracticoResumen,
+  EnlaceLegal,
+  Flashcard,
+  Oposicion,
+  Pregunta,
+  TemaDeOposicion,
+  TerminoGlosario,
+} from "./types";
 
 /**
  * Funciones de consulta contra Supabase — el "join" que antes hacían a mano
@@ -334,4 +344,117 @@ export async function getPreguntasDeOposicion(oposicionSlug: string): Promise<Pr
     temas.map((tema) => getPreguntasDeTema(oposicionSlug, tema.slug))
   );
   return porTema.flat();
+}
+
+type FilaCasoPracticoResumen = {
+  id: string;
+  tema_slug: string;
+  slug: string;
+  titulo: string;
+  supuesto: string;
+  caso_preguntas: { count: number }[];
+};
+
+function mapCasoPracticoResumen(fila: FilaCasoPracticoResumen): CasoPracticoResumen {
+  return {
+    id: fila.id,
+    temaSlug: fila.tema_slug,
+    slug: fila.slug,
+    titulo: fila.titulo,
+    supuesto: fila.supuesto,
+    numPreguntas: fila.caso_preguntas[0]?.count ?? 0,
+  };
+}
+
+/**
+ * Casos prácticos de un tema, sin cargar sus preguntas (basta el recuento
+ * para la tarjeta del listado). A diferencia de `getFlashcardsDeTema` no se
+ * recorta por `seccionesIncluidas` (ver `CasoPractico`): solo se comprueba
+ * que el tema esté asignado a la oposición. Devuelve `[]` si no lo está.
+ */
+export async function getCasosPracticosDeTema(
+  oposicionSlug: string,
+  temaSlug: string
+): Promise<CasoPracticoResumen[]> {
+  const asignacion = await getTemaDeOposicion(oposicionSlug, temaSlug);
+  if (!asignacion) return [];
+
+  const supabase = createClient();
+  const { data, error } = await supabase
+    .from("casos_practicos")
+    .select("id, tema_slug, slug, titulo, supuesto, caso_preguntas(count)")
+    .eq("tema_slug", temaSlug)
+    .order("orden");
+  if (error) throw error;
+  return (data ?? []).map((fila) => mapCasoPracticoResumen(fila as unknown as FilaCasoPracticoResumen));
+}
+
+type FilaCasoPractico = {
+  id: string;
+  tema_slug: string;
+  slug: string;
+  titulo: string;
+  supuesto: string;
+  caso_preguntas: { orden: number; preguntas: FilaPregunta }[];
+};
+
+/**
+ * Un caso práctico completo por su slug, con sus preguntas ya resueltas y
+ * ordenadas según `caso_preguntas.orden`. Comprueba que su tema esté
+ * asignado a la oposición (sin recorte por sección, ver `CasoPractico`);
+ * devuelve `undefined` si el caso no existe o su tema no está asignado.
+ */
+export async function getCasoPractico(
+  oposicionSlug: string,
+  slug: string
+): Promise<CasoPractico | undefined> {
+  const supabase = createClient();
+  const { data, error } = await supabase
+    .from("casos_practicos")
+    .select(
+      "id, tema_slug, slug, titulo, supuesto, caso_preguntas(orden, preguntas(id, tema_slug, seccion, enunciado, explicacion, dificultad, opciones(id, texto, es_correcta, orden)))"
+    )
+    .eq("slug", slug)
+    .maybeSingle();
+  if (error) throw error;
+  if (!data) return undefined;
+
+  const fila = data as unknown as FilaCasoPractico;
+  const asignacion = await getTemaDeOposicion(oposicionSlug, fila.tema_slug);
+  if (!asignacion) return undefined;
+
+  const preguntas = [...fila.caso_preguntas]
+    .sort((a, b) => a.orden - b.orden)
+    .map((cp) => mapPregunta(cp.preguntas))
+    .filter((p): p is Pregunta => p !== null);
+
+  return {
+    id: fila.id,
+    temaSlug: fila.tema_slug,
+    slug: fila.slug,
+    titulo: fila.titulo,
+    supuesto: fila.supuesto,
+    preguntas,
+  };
+}
+
+/** Todos los pares oposición/slug de caso práctico publicados, para `generateStaticParams`. */
+export async function getParamsCasosPracticosEstatico() {
+  const supabase = createClient();
+  const [{ data: asignaciones, error: errAsig }, { data: casos, error: errCasos }] = await Promise.all([
+    supabase.from("tema_oposicion").select("oposicion_slug, tema_slug").eq("publicado", true),
+    supabase.from("casos_practicos").select("slug, tema_slug"),
+  ]);
+  if (errAsig) throw errAsig;
+  if (errCasos) throw errCasos;
+
+  const pares: { oposicion: string; slug: string }[] = [];
+  for (const asignacion of asignaciones ?? []) {
+    for (const caso of casos ?? []) {
+      if (caso.tema_slug === asignacion.tema_slug) {
+        pares.push({ oposicion: asignacion.oposicion_slug, slug: caso.slug });
+      }
+    }
+  }
+  return pares;
 }
