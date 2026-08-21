@@ -1,0 +1,89 @@
+import { notFound } from "next/navigation";
+import type { Metadata } from "next";
+import { Container } from "@/components/ui/Container";
+import { crearMetadata } from "@/lib/site";
+import {
+  getOposicion,
+  getOposiciones,
+  getBloquesConTemas,
+  getPreguntasDeOposicion,
+  getCasosPracticosDeOposicion,
+} from "@/lib/oposiciones";
+import { SimulacroRunner } from "@/components/simulacro/SimulacroRunner";
+import type { CasoPractico, Pregunta } from "@/lib/types";
+
+const NUM_PREGUNTAS_TEST = 50;
+const NUM_CASOS = 2;
+
+interface PageProps {
+  params: Promise<{ oposicion: string }>;
+}
+
+function mezclar<T>(arr: T[]): T[] {
+  const copia = [...arr];
+  for (let i = copia.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [copia[i], copia[j]] = [copia[j], copia[i]];
+  }
+  return copia;
+}
+
+export async function generateStaticParams() {
+  const oposiciones = await getOposiciones();
+  return oposiciones.map((o) => ({ oposicion: o.slug }));
+}
+
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { oposicion: oposicionSlug } = await params;
+  const oposicion = await getOposicion(oposicionSlug);
+  if (!oposicion) return {};
+  return crearMetadata({
+    titulo: "Simulacro de examen",
+    descripcion: `Examen completo de ${oposicion.nombre} en condiciones reales: 50 preguntas cronometradas y 2 casos prácticos, con corrección y puntuación oficial.`,
+    ruta: `/${oposicionSlug}/simulacro`,
+  });
+}
+
+export default async function SimulacroPage({ params }: PageProps) {
+  const { oposicion: oposicionSlug } = await params;
+
+  const [oposicion, bloques, todasPreguntas, todosCasos] = await Promise.all([
+    getOposicion(oposicionSlug),
+    getBloquesConTemas(oposicionSlug),
+    getPreguntasDeOposicion(oposicionSlug),
+    getCasosPracticosDeOposicion(oposicionSlug),
+  ]);
+  if (!oposicion) notFound();
+
+  // Las preguntas de un caso práctico dan por conocido su supuesto: se
+  // excluyen del test suelto para no mostrarlas fuera de contexto.
+  const idsEnCasos = new Set<string>(todosCasos.flatMap((c: CasoPractico) => c.preguntas.map((p) => p.id)));
+  const preguntas: Pregunta[] = mezclar(todasPreguntas.filter((p) => !idsEnCasos.has(p.id))).slice(0, NUM_PREGUNTAS_TEST);
+  const casos: CasoPractico[] = mezclar(todosCasos).slice(0, NUM_CASOS);
+
+  const temaABloque: Record<string, string> = {};
+  for (const bloque of bloques) {
+    for (const tema of bloque.temas) temaABloque[tema.slug] = bloque.titulo;
+  }
+
+  return (
+    <section className="bg-white">
+      <Container className="py-16 sm:py-20">
+        <h1 className="text-3xl font-black text-brand-900">Simulacro de examen</h1>
+        <p className="mt-2 text-slate-600">
+          {oposicion.nombre} · {oposicion.organismo}
+        </p>
+
+        <div className="mt-8">
+          {preguntas.length === 0 ? (
+            <div className="mx-auto max-w-2xl rounded-xl border border-dashed border-brand-200 bg-brand-50/50 p-8 text-center text-slate-600">
+              Todavía no hay preguntas suficientes para armar un simulacro de esta oposición.
+            </div>
+          ) : (
+            <SimulacroRunner oposicionSlug={oposicionSlug} preguntas={preguntas} casos={casos} temaABloque={temaABloque} />
+          )}
+        </div>
+      </Container>
+    </section>
+  );
+}

@@ -62,6 +62,9 @@ export default async function OposicionHome({ params }: PageProps) {
           <Button href={`/${slug}/glosario`} variante="contorno">
             Consultar el glosario
           </Button>
+          <Button href={`/${slug}/simulacro`} variante="secundario">
+            Hacer un simulacro de examen
+          </Button>
           <Button href={`/${slug}/convocatoria`} variante="fantasma">
             Ver la convocatoria
           </Button>

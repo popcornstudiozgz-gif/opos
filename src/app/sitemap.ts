@@ -21,6 +21,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         `${base}/casos-practicos`,
         `${base}/flashcards`,
         `${base}/glosario`,
+        `${base}/simulacro`,
       ];
       if (convocatoria) rutasOposicion.push(`${base}/convocatoria`);
       return [...rutasOposicion, ...temas.map((t) => `${base}/temario/${t.slug}`)];
