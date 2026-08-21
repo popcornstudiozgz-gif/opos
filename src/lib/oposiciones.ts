@@ -209,3 +209,16 @@ export async function getFlashcardsDeTema(
   if (error) throw error;
   return (data ?? []).map(mapFlashcard);
 }
+
+/**
+ * Todas las flashcards de una oposición (unión de todos sus temas
+ * asignados, cada uno ya recortado por `secciones_incluidas`). Se usa en
+ * la vista "Todas las tarjetas" de `/[oposicion]/flashcards?tema=todas`.
+ */
+export async function getFlashcardsDeOposicion(oposicionSlug: string): Promise<Flashcard[]> {
+  const temas = await getTemasDeOposicion(oposicionSlug);
+  const porTema = await Promise.all(
+    temas.map((tema) => getFlashcardsDeTema(oposicionSlug, tema.slug))
+  );
+  return porTema.flat();
+}

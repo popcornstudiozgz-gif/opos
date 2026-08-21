@@ -50,7 +50,7 @@ export default async function TemaPage({ params }: PageProps) {
         <p className="mt-3 max-w-3xl text-slate-600">{tema.descripcion}</p>
 
         {flashcards.length > 0 && (
-          <Button href={`/${oposicionSlug}/temario/${slug}/flashcards`} className="mt-6" tamano="sm">
+          <Button href={`/${oposicionSlug}/flashcards?tema=${slug}`} className="mt-6" tamano="sm">
             Practicar con flashcards ({flashcards.length})
           </Button>
         )}
