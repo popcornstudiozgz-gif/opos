@@ -156,3 +156,26 @@ export interface CasoPracticoResumen {
   supuesto: string;
   numPreguntas: number;
 }
+
+export type TipoArticulo = "noticia" | "articulo";
+
+/**
+ * Artículo del blog: contenido canónico (como `TemaCanonico`), no
+ * pertenece a ninguna oposición en concreto. A qué oposición(es) afecta se
+ * define aparte, en `articulo_oposicion` (tabla puente) — ver
+ * `getOposicionesDeArticulo` en `lib/blog.ts`. Sin ninguna asociación, es
+ * una noticia general que solo aparece en `/blog`.
+ */
+export interface Articulo {
+  id: string;
+  slug: string;
+  titulo: string;
+  resumen: string;
+  contenido: string;
+  imagenUrl: string | null;
+  tipo: TipoArticulo;
+  publicado: boolean;
+  publicadoEn: string | null;
+  createdAt: string;
+  updatedAt: string;
+}

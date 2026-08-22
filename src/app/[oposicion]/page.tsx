@@ -8,6 +8,8 @@ import { SectionHeading } from "@/components/ui/SectionHeading";
 import { crearMetadata } from "@/lib/site";
 import { getOposicion, getOposiciones, getEstadisticasOposicion } from "@/lib/oposiciones";
 import { getConvocatoria } from "@/data/convocatorias";
+import { getArticulosDeOposicion } from "@/lib/blog";
+import { ArticuloCard } from "@/components/blog/ArticuloCard";
 
 interface PageProps {
   params: Promise<{ oposicion: string }>;
@@ -36,9 +38,10 @@ export default async function OposicionHome({ params }: PageProps) {
   const oposicion = await getOposicion(slug);
   if (!oposicion) notFound();
 
-  const [estadisticas, convocatoria] = await Promise.all([
+  const [estadisticas, convocatoria, noticias] = await Promise.all([
     getEstadisticasOposicion(slug),
     getConvocatoria(slug),
+    getArticulosDeOposicion(slug, 3),
   ]);
 
   const ESTADISTICAS = [
@@ -203,6 +206,28 @@ export default async function OposicionHome({ params }: PageProps) {
           </div>
         </Container>
       </section>
+
+      {/* Noticias de la oposición */}
+      {noticias.length > 0 && (
+        <section className="bg-white">
+          <Container className="py-16 sm:py-20">
+            <div className="flex flex-col items-start justify-between gap-4 sm:flex-row sm:items-end">
+              <SectionHeading
+                titulo={`Noticias de ${oposicion.nombre}`}
+                subtitulo="Convocatoria, plazos y cambios normativos que afectan a esta oposición."
+              />
+              <Button href={`/${slug}/noticias`} variante="contorno" tamano="sm">
+                Ver todas →
+              </Button>
+            </div>
+            <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+              {noticias.map((articulo) => (
+                <ArticuloCard key={articulo.id} articulo={articulo} />
+              ))}
+            </div>
+          </Container>
+        </section>
+      )}
 
       {/* Llamada a la acción final */}
       <section className="bg-white">

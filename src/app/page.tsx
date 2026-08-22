@@ -5,6 +5,8 @@ import { Button } from "@/components/ui/Button";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { Navbar } from "@/components/layout/Navbar";
 import { getOposiciones, getTemasDeOposicion, getEstadisticasCatalogo } from "@/lib/oposiciones";
+import { getArticulosPublicados } from "@/lib/blog";
+import { ArticuloCard } from "@/components/blog/ArticuloCard";
 import { SITE, crearMetadata } from "@/lib/site";
 
 /**
@@ -53,7 +55,11 @@ const CARACTERISTICAS = [
 
 /** Portada general del dominio: catálogo de oposiciones disponibles. */
 export default async function Home() {
-  const [oposiciones, estadisticas] = await Promise.all([getOposiciones(), getEstadisticasCatalogo()]);
+  const [oposiciones, estadisticas, ultimasNoticias] = await Promise.all([
+    getOposiciones(),
+    getEstadisticasCatalogo(),
+    getArticulosPublicados(3),
+  ]);
   const numTemasPorOposicion = await Promise.all(
     oposiciones.map(async (o) => ({ slug: o.slug, total: (await getTemasDeOposicion(o.slug)).length }))
   );
@@ -164,6 +170,28 @@ export default async function Home() {
           </div>
         </Container>
       </section>
+
+      {/* Últimas noticias */}
+      {ultimasNoticias.length > 0 && (
+        <section className="bg-white">
+          <Container className="py-16 sm:py-20">
+            <div className="flex flex-col items-start justify-between gap-4 sm:flex-row sm:items-end">
+              <SectionHeading
+                titulo="Últimas noticias"
+                subtitulo="Convocatorias, plazos y novedades de las oposiciones de Zaragoza."
+              />
+              <Button href="/blog" variante="contorno" tamano="sm">
+                Ver todo el blog →
+              </Button>
+            </div>
+            <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+              {ultimasNoticias.map((articulo) => (
+                <ArticuloCard key={articulo.id} articulo={articulo} />
+              ))}
+            </div>
+          </Container>
+        </section>
+      )}
 
       {/* Llamada a la acción final */}
       <section className="bg-white">
