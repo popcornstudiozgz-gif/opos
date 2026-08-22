@@ -82,7 +82,7 @@ export default async function Home() {
         <Container className="py-20 sm:py-28">
           <div className="max-w-3xl">
             <p className="inline-flex items-center rounded-full bg-white/10 px-3 py-1 text-sm font-medium text-brand-100">
-              {SITE.nombre} · Plataforma de oposiciones
+              Temario oficial · Actualizado 2026
             </p>
             <h1 className="mt-5 text-4xl font-black leading-tight tracking-tight sm:text-5xl lg:text-6xl">
               Oposiciones en Zaragoza

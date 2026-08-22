@@ -36,10 +36,10 @@ interface EntradaHistorial {
 }
 
 const LETRAS = (n: number) => String.fromCharCode(65 + n);
-const HISTORIAL_EVENT = "kiuti-simulacro-historial-actualizado";
+const HISTORIAL_EVENT = "oz-simulacro-historial-actualizado";
 
 function historialKey(oposicionSlug: string): string {
-  return `kiuti_simulacro_historial_${oposicionSlug}`;
+  return `oz_simulacro_historial_${oposicionSlug}`;
 }
 
 function guardarHistorial(oposicionSlug: string, historial: EntradaHistorial[]) {

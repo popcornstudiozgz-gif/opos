@@ -46,7 +46,7 @@ body {
 }
 
 /* Barra de auto-avance de FlashcardsStudio tras evaluar una tarjeta. */
-@keyframes kiuti-barra-progreso {
+@keyframes oz-barra-progreso {
   from {
     width: 0%;
   }

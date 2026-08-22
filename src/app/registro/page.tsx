@@ -9,8 +9,6 @@ import { Button } from "@/components/ui/Button";
 import { Container } from "@/components/ui/Container";
 import { SITE } from "@/lib/site";
 
-const INICIALES_SITIO = SITE.nombre.slice(0, 2).toUpperCase();
-
 function RegistroContent() {
   const router = useRouter();
   const searchParams = useSearchParams();
@@ -96,7 +94,7 @@ function RegistroContent() {
         <Card className="border border-brand-100/50 bg-white/80 p-8 shadow-xl backdrop-blur-md">
           <div className="text-center">
             <span className="inline-grid h-12 w-12 place-items-center rounded-xl bg-gradient-to-br from-brand-500 to-brand-700 text-lg font-black text-white shadow-md">
-              {INICIALES_SITIO}
+              {SITE.iniciales}
             </span>
             <h1 className="mt-4 text-2xl font-bold tracking-tight text-brand-900">Crea tu cuenta</h1>
             <p className="mt-2 text-sm text-slate-500">
@@ -203,6 +201,18 @@ function RegistroContent() {
               </Button>
             </form>
           )}
+
+          <p className="mt-5 text-center text-xs text-slate-400">
+            Al registrarte, aceptas el{" "}
+            <Link href="/aviso-legal" className="underline hover:text-brand-600">
+              aviso legal
+            </Link>{" "}
+            y la{" "}
+            <Link href="/privacidad" className="underline hover:text-brand-600">
+              política de privacidad
+            </Link>
+            .
+          </p>
 
           <div className="mt-6 border-t border-brand-100 pt-6 text-center">
             <p className="text-sm text-slate-500">

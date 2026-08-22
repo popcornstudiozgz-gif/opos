@@ -7,8 +7,6 @@ import { Card } from "@/components/ui/Card";
 import { Container } from "@/components/ui/Container";
 import { SITE } from "@/lib/site";
 
-const INICIALES_SITIO = SITE.nombre.slice(0, 2).toUpperCase();
-
 export default function RecuperarPasswordPage() {
   const [email, setEmail] = useState("");
   const [enviado, setEnviado] = useState(false);
@@ -41,7 +39,7 @@ export default function RecuperarPasswordPage() {
         <Card className="border border-brand-100/50 bg-white/80 p-8 shadow-xl backdrop-blur-md">
           <div className="text-center">
             <span className="inline-grid h-12 w-12 place-items-center rounded-xl bg-gradient-to-br from-brand-500 to-brand-700 text-lg font-black text-white shadow-md">
-              {INICIALES_SITIO}
+              {SITE.iniciales}
             </span>
             <h1 className="mt-4 text-2xl font-bold tracking-tight text-brand-900">Recuperar contraseña</h1>
             <p className="mt-2 text-sm text-slate-500">

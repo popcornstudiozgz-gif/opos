@@ -31,12 +31,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   );
 
   const rutasBlog = ["/blog", ...articulos.map((a) => `/blog/${a.slug}`)];
+  const rutasLegales = ["/aviso-legal", "/privacidad", "/cookies"];
 
-  const rutas = ["/", "/contacto", ...rutasBlog, ...porOposicion.flat()];
+  const rutas = ["/", "/contacto", ...rutasBlog, ...porOposicion.flat(), ...rutasLegales];
 
   return rutas.map((ruta) => ({
     url: `${SITE.url}${ruta}`,
-    changeFrequency: "weekly",
-    priority: ruta === "/" ? 1 : 0.7,
+    changeFrequency: rutasLegales.includes(ruta) ? "yearly" : "weekly",
+    priority: ruta === "/" ? 1 : rutasLegales.includes(ruta) ? 0.2 : 0.7,
   }));
 }

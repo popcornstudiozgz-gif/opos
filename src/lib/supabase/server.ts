@@ -4,11 +4,9 @@ import { createServerClient } from "@supabase/ssr";
 /**
  * Cliente de Supabase para Server Components y Route Handlers, con la clave
  * `anon` (respeta RLS: solo lee lo público/publicado — ver
- * `supabase/migrations/0001_init.sql`).
- *
- * Todavía no hay login en Kiuti, así que hoy esto solo lee contenido
- * público; la gestión de cookies de sesión ya viene lista para cuando se
- * añada autenticación, sin tener que rehacer este archivo.
+ * `supabase/migrations/0001_init.sql`). También gestiona la sesión del
+ * usuario logueado (cookies de auth) — ver
+ * `supabase/migrations/0007_usuarios_progreso.sql`.
  */
 export async function createClient() {
   const url = process.env.NEXT_PUBLIC_SUPABASE_URL;

@@ -25,10 +25,10 @@ interface DailyStats {
 }
 
 /** Fallback anónimo (sin sesión): igual criterio que el resto de runners de la app. */
-const STATS_EVENT = "kiuti-flashcards-stats-actualizado";
+const STATS_EVENT = "oz-flashcards-stats-actualizado";
 
 function storageKey(oposicionSlug: string): string {
-  return `kiuti_flashcards_stats_${oposicionSlug}`;
+  return `oz_flashcards_stats_${oposicionSlug}`;
 }
 
 function getHoy(): string {
@@ -430,7 +430,7 @@ export function FlashcardsStudio({
               <div
                 key={`${indice}-${ultimaEval}`}
                 className="h-full rounded-full bg-brand-400"
-                style={{ animation: "kiuti-barra-progreso 900ms linear forwards" }}
+                style={{ animation: "oz-barra-progreso 900ms linear forwards" }}
               />
             </div>
           )}

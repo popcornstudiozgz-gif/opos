@@ -1,5 +1,5 @@
 -- ════════════════════════════════════════════════════════════════════════
--- 0001_init.sql · Esquema base de Kiuti (plataforma multi-oposición)
+-- 0001_init.sql · Esquema base de Oposiciones Zaragoza (plataforma multi-oposición)
 --
 -- Refleja en SQL la arquitectura ya usada en src/data/temario/*.ts:
 --   · un TEMA es contenido reutilizable, no pertenece a ninguna oposición.

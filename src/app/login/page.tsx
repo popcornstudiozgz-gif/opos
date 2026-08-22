@@ -9,8 +9,6 @@ import { Button } from "@/components/ui/Button";
 import { Container } from "@/components/ui/Container";
 import { SITE } from "@/lib/site";
 
-const INICIALES_SITIO = SITE.nombre.slice(0, 2).toUpperCase();
-
 function LoginContent() {
   const router = useRouter();
   const searchParams = useSearchParams();
@@ -75,7 +73,7 @@ function LoginContent() {
         <Card className="border border-brand-100/50 bg-white/80 p-8 shadow-xl backdrop-blur-md">
           <div className="text-center">
             <span className="inline-grid h-12 w-12 place-items-center rounded-xl bg-gradient-to-br from-brand-500 to-brand-700 text-lg font-black text-white shadow-md">
-              {INICIALES_SITIO}
+              {SITE.iniciales}
             </span>
             <h1 className="mt-4 text-2xl font-bold tracking-tight text-brand-900">
               ¡Hola de nuevo!
