@@ -1,6 +1,7 @@
 import { redirect } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
 import { Container } from "@/components/ui/Container";
+import { Navbar } from "@/components/layout/Navbar";
 import { crearMetadata } from "@/lib/site";
 import { PerfilForms } from "@/components/perfil/PerfilForms";
 import { HistorialTests } from "@/components/perfil/HistorialTests";
@@ -42,9 +43,12 @@ export default async function PerfilPage() {
     .limit(10);
 
   return (
-    <Container className="max-w-2xl space-y-6 py-12">
-      <PerfilForms user={{ id: user.id, email: user.email ?? "" }} perfil={perfil} />
-      <HistorialTests intentos={historial ?? []} />
-    </Container>
+    <>
+      <Navbar />
+      <Container className="max-w-2xl space-y-6 py-12">
+        <PerfilForms user={{ id: user.id, email: user.email ?? "" }} perfil={perfil} />
+        <HistorialTests intentos={historial ?? []} />
+      </Container>
+    </>
   );
 }

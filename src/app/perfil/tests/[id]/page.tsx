@@ -3,6 +3,7 @@ import { notFound, redirect } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
 import { Container } from "@/components/ui/Container";
 import { Card } from "@/components/ui/Card";
+import { Navbar } from "@/components/layout/Navbar";
 import { crearMetadata } from "@/lib/site";
 
 export const metadata = crearMetadata({
@@ -75,7 +76,9 @@ export default async function ResultadoTestPage({ params }: PageProps) {
   });
 
   return (
-    <Container className="max-w-2xl py-12">
+    <>
+      <Navbar />
+      <Container className="max-w-2xl py-12">
       <Link href="/perfil" className="text-sm font-medium text-brand-600 hover:underline">
         ← Volver a mi perfil
       </Link>
@@ -138,6 +141,7 @@ export default async function ResultadoTestPage({ params }: PageProps) {
           })
         )}
       </div>
-    </Container>
+      </Container>
+    </>
   );
 }
