@@ -1,10 +1,22 @@
+import type { Metadata } from "next";
 import { Container } from "@/components/ui/Container";
 import { Card } from "@/components/ui/Card";
 import { Button } from "@/components/ui/Button";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { Navbar } from "@/components/layout/Navbar";
 import { getOposiciones, getTemasDeOposicion, getEstadisticasCatalogo } from "@/lib/oposiciones";
-import { SITE } from "@/lib/site";
+import { SITE, crearMetadata } from "@/lib/site";
+
+/**
+ * Portada del dominio: palabra clave objetivo "oposiciones Zaragoza" (título,
+ * H1 y contenido). Cada oposición concreta tiene su propio SEO en
+ * `[oposicion]/page.tsx` — esta página posiciona el catálogo en conjunto.
+ */
+export const metadata: Metadata = crearMetadata({
+  titulo: "Oposiciones Zaragoza: temario, test y simulacros gratis",
+  descripcion: SITE.descripcionLarga,
+  ruta: "/",
+});
 
 const CARACTERISTICAS = [
   {
@@ -64,10 +76,10 @@ export default async function Home() {
         <Container className="py-20 sm:py-28">
           <div className="max-w-3xl">
             <p className="inline-flex items-center rounded-full bg-white/10 px-3 py-1 text-sm font-medium text-brand-100">
-              Catálogo de oposiciones
+              {SITE.nombre} · Plataforma de oposiciones
             </p>
             <h1 className="mt-5 text-4xl font-black leading-tight tracking-tight sm:text-5xl lg:text-6xl">
-              {SITE.nombre}
+              Oposiciones en Zaragoza
             </h1>
             <p className="mt-6 max-w-2xl text-lg leading-relaxed text-brand-100">
               {SITE.descripcionLarga}
@@ -100,7 +112,7 @@ export default async function Home() {
       <section id="oposiciones" className="bg-white">
         <Container className="py-16 sm:py-20">
           <SectionHeading
-            titulo="Elige tu oposición"
+            titulo="Elige tu oposición en Zaragoza"
             subtitulo="Cada oposición tiene su propio temario. Cuando dos oposiciones comparten materia, comparten también ese contenido."
           />
 

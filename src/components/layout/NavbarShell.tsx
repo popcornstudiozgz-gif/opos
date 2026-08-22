@@ -33,6 +33,7 @@ function iniciales(nombre?: string | null, email?: string | null): string {
 export function NavbarShell({ siteNombre, oposicion, navLinks }: Props) {
   const pathname = usePathname();
   const router = useRouter();
+  const [menuMovilAbierto, setMenuMovilAbierto] = useState(false);
   const [menuUsuarioAbierto, setMenuUsuarioAbierto] = useState(false);
   const [masAbierto, setMasAbierto] = useState(false);
   const menuUsuarioRef = useRef<HTMLDivElement>(null);
@@ -48,15 +49,16 @@ export function NavbarShell({ siteNombre, oposicion, navLinks }: Props) {
   const esActivo = (href: string) => pathname === href || pathname.startsWith(`${href}/`);
   const masActivo = navSecundarios.some((l) => esActivo(l.href));
 
-  // Cierra los desplegables al cambiar de página. Se ajusta durante el
-  // render (patrón recomendado por React para "resetear estado cuando
-  // cambia una prop") en vez de con un useEffect, para no disparar un
-  // render extra.
+  // Cierra los desplegables y el menú móvil al cambiar de página. Se ajusta
+  // durante el render (patrón recomendado por React para "resetear estado
+  // cuando cambia una prop") en vez de con un useEffect, para no disparar
+  // un render extra.
   const [pathnamePrevio, setPathnamePrevio] = useState(pathname);
   if (pathname !== pathnamePrevio) {
     setPathnamePrevio(pathname);
     setMenuUsuarioAbierto(false);
     setMasAbierto(false);
+    setMenuMovilAbierto(false);
   }
 
   useEffect(() => {
@@ -126,8 +128,8 @@ export function NavbarShell({ siteNombre, oposicion, navLinks }: Props) {
 
   return (
     <header className="sticky top-0 z-40 border-b border-brand-100 bg-white/90 backdrop-blur">
-      <div className="mx-auto flex h-16 w-full max-w-6xl flex-wrap items-center justify-between gap-y-2 px-4 py-2 sm:px-6 lg:px-8">
-        <Link href="/" className="flex items-baseline gap-2 font-black text-brand-900">
+      <div className="mx-auto flex h-16 w-full max-w-6xl items-center justify-between px-4 sm:px-6 lg:px-8">
+        <Link href="/" className="flex items-baseline gap-2 font-black text-brand-900" onClick={() => setMenuMovilAbierto(false)}>
           <span className="text-lg">{siteNombre}</span>
           {oposicion && (
             <span className="hidden text-sm font-medium text-slate-500 sm:inline">
@@ -136,7 +138,8 @@ export function NavbarShell({ siteNombre, oposicion, navLinks }: Props) {
           )}
         </Link>
 
-        <nav className="flex flex-wrap items-center gap-1">
+        {/* Navegación de escritorio */}
+        <nav className="hidden items-center gap-1 md:flex">
           {navPrincipales.map((link) => (
             <Link
               key={link.href}
@@ -274,7 +277,115 @@ export function NavbarShell({ siteNombre, oposicion, navLinks }: Props) {
             </div>
           )}
         </nav>
+
+        {/* Botón hamburguesa (móvil) */}
+        <button
+          type="button"
+          className="inline-flex items-center justify-center rounded-lg p-2 text-brand-700 hover:bg-brand-50 md:hidden"
+          aria-expanded={menuMovilAbierto}
+          aria-controls="menu-movil"
+          aria-label={menuMovilAbierto ? "Cerrar menú" : "Abrir menú"}
+          onClick={() => setMenuMovilAbierto((v) => !v)}
+        >
+          <svg className="h-6 w-6" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24" aria-hidden>
+            {menuMovilAbierto ? (
+              <path strokeLinecap="round" strokeLinejoin="round" d="M6 18 18 6M6 6l12 12" />
+            ) : (
+              <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+            )}
+          </svg>
+        </button>
       </div>
+
+      {/* Menú desplegable (móvil): todos los enlaces en una sola lista, sin
+          agrupar bajo "Más" — aquí no hace falta ahorrar espacio horizontal. */}
+      {menuMovilAbierto && (
+        <div id="menu-movil" className="border-t border-brand-100 bg-white md:hidden">
+          <div className="mx-auto max-w-6xl px-4 py-3 sm:px-6 lg:px-8">
+            <ul className="flex flex-col gap-1">
+              {[...navPrincipales, ...navSecundarios].map((link) => (
+                <li key={link.href}>
+                  <Link
+                    href={link.href}
+                    onClick={() => setMenuMovilAbierto(false)}
+                    aria-current={esActivo(link.href) ? "page" : undefined}
+                    className={`block rounded-lg px-3 py-2.5 text-base font-medium ${
+                      esActivo(link.href) ? "bg-brand-50 text-brand-700" : "text-slate-700 hover:bg-brand-50"
+                    }`}
+                  >
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
+
+              {oposicion && (
+                <li>
+                  <Link
+                    href="/"
+                    onClick={() => setMenuMovilAbierto(false)}
+                    className="mt-1 block rounded-lg border border-brand-100 px-3 py-2.5 text-base font-medium text-brand-700 hover:bg-brand-50"
+                  >
+                    Cambiar oposición
+                  </Link>
+                </li>
+              )}
+
+              {!cargando && (
+                <>
+                  {usuario ? (
+                    <>
+                      <li className="mt-2 border-t border-brand-100 pt-2">
+                        <Link
+                          href="/perfil"
+                          onClick={() => setMenuMovilAbierto(false)}
+                          className="block rounded-lg px-3 py-2.5 text-base font-medium text-slate-600 transition-colors hover:bg-brand-50 hover:text-brand-700"
+                        >
+                          Mi perfil —{" "}
+                          <span className="font-semibold text-brand-900">
+                            {perfil?.nombre || usuario.email?.split("@")[0]}
+                          </span>
+                        </Link>
+                      </li>
+                      <li>
+                        <button
+                          onClick={() => {
+                            setMenuMovilAbierto(false);
+                            handleCerrarSesion();
+                          }}
+                          className="w-full cursor-pointer rounded-lg px-3 py-2.5 text-left text-base font-semibold text-rose-600 transition-colors hover:bg-rose-50"
+                        >
+                          Cerrar sesión
+                        </button>
+                      </li>
+                    </>
+                  ) : (
+                    <>
+                      <li className="mt-2 border-t border-brand-100 pt-2">
+                        <Link
+                          href="/login"
+                          onClick={() => setMenuMovilAbierto(false)}
+                          className="block rounded-lg px-3 py-2.5 text-base font-medium text-slate-700 hover:bg-brand-50"
+                        >
+                          Iniciar sesión
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          href="/registro"
+                          onClick={() => setMenuMovilAbierto(false)}
+                          className="mt-1 block rounded-lg bg-brand-600 px-3 py-2.5 text-center text-base font-semibold text-white hover:bg-brand-700"
+                        >
+                          Registrarse
+                        </Link>
+                      </li>
+                    </>
+                  )}
+                </>
+              )}
+            </ul>
+          </div>
+        </div>
+      )}
     </header>
   );
 }

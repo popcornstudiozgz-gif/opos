@@ -23,8 +23,10 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const oposicion = await getOposicion(slug);
   if (!oposicion) return {};
   return crearMetadata({
-    titulo: `${oposicion.nombre} · ${oposicion.organismo}`,
-    descripcion: oposicion.descripcionLarga,
+    // "Oposición" al frente: es como se busca ("oposición auxiliar
+    // administrativo ayuntamiento de zaragoza"), no solo el nombre del puesto.
+    titulo: `Oposición ${oposicion.nombre} · ${oposicion.organismo}`,
+    descripcion: `${oposicion.descripcionLarga} Tests, flashcards, casos prácticos y simulacros incluidos. Empieza gratis.`,
     ruta: `/${slug}`,
   });
 }
@@ -109,7 +111,7 @@ export default async function OposicionHome({ params }: PageProps) {
         <Container className="py-20 sm:py-28">
           <div className="max-w-3xl">
             <p className="inline-flex items-center rounded-full bg-white/10 px-3 py-1 text-sm font-medium text-brand-100">
-              {convocatoria ? `Oposición · ${convocatoria.numero}` : oposicion.organismo}
+              {convocatoria ? `Oposición · ${convocatoria.numero}` : `Oposición · ${oposicion.organismo}`}
             </p>
             <h1 className="mt-5 text-4xl font-black leading-tight tracking-tight sm:text-5xl lg:text-6xl">
               {oposicion.nombre}
@@ -178,8 +180,8 @@ export default async function OposicionHome({ params }: PageProps) {
         <Container className="py-16 sm:py-24">
           <SectionHeading
             centrado
-            titulo={`Aprueba ${oposicion.nombre}`}
-            subtitulo="Combina teoría, práctica y simulacros en un único lugar, diseñado para que estudies de forma eficaz desde el móvil o el ordenador."
+            titulo={`Aprueba la oposición de ${oposicion.nombre}`}
+            subtitulo={`Combina teoría, práctica y simulacros en un único lugar, diseñado para que apruebes la oposición de ${oposicion.organismo} de forma eficaz desde el móvil o el ordenador.`}
           />
           <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {CARACTERISTICAS.map((c) => (

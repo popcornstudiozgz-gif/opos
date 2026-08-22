@@ -8,9 +8,9 @@ import type { Metadata } from "next";
  */
 export const SITE = {
   nombre: "Kiuti",
-  descripcionCorta: "Prepara tu oposición: temario de cada oposición en un único sitio.",
+  descripcionCorta: "Oposiciones Zaragoza: temario, test y simulacros para preparar tu oposición.",
   descripcionLarga:
-    "Plataforma de preparación de oposiciones. Cada oposición tiene su propio temario, reutilizando el contenido que comparten entre sí.",
+    "Prepara tu oposición en Zaragoza con temario oficial, tests, flashcards, casos prácticos y simulacros cronometrados. Empieza gratis con Auxiliar Administrativo del Ayuntamiento de Zaragoza, y próximamente más oposiciones de la ciudad.",
   // Dominio provisional de desarrollo local. Cambiar cuando haya dominio propio.
   url: "http://localhost:3000",
   idioma: "es-ES",
