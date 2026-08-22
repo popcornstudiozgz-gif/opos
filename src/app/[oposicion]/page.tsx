@@ -116,10 +116,17 @@ export default async function OposicionHome({ params }: PageProps) {
             <p className="inline-flex items-center rounded-full bg-white/10 px-3 py-1 text-sm font-medium text-brand-100">
               {convocatoria ? `Oposición · ${convocatoria.numero}` : `Oposición · ${oposicion.organismo}`}
             </p>
+            {/* El organismo va DENTRO del h1 (no en un <p> aparte): si en el
+                futuro hay dos oposiciones con el mismo nombre de puesto en
+                organismos distintos (p. ej. Auxiliar Administrativo de la
+                DPZ o la DGA, además de la del Ayuntamiento de Zaragoza), el
+                título de cada página sigue siendo único. */}
             <h1 className="mt-5 text-4xl font-black leading-tight tracking-tight sm:text-5xl lg:text-6xl">
               {oposicion.nombre}
+              <span className="mt-2 block text-xl font-semibold text-brand-100 sm:text-2xl">
+                {oposicion.organismo}
+              </span>
             </h1>
-            <p className="mt-2 text-lg font-medium text-brand-100">{oposicion.organismo}</p>
             <p className="mt-6 max-w-2xl text-lg leading-relaxed text-brand-100">
               {oposicion.descripcionLarga}
             </p>

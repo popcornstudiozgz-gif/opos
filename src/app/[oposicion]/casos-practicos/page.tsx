@@ -24,7 +24,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   if (!oposicion) return {};
   return crearMetadata({
     titulo: "Casos prácticos",
-    descripcion: `Supuestos prácticos de ${oposicion.nombre} para aplicar la teoría, con preguntas encadenadas y corrección explicada.`,
+    descripcion: `Supuestos prácticos de ${oposicion.nombre} (${oposicion.organismo}) para aplicar la teoría, con preguntas encadenadas y corrección explicada.`,
     ruta: `/${oposicionSlug}/casos-practicos`,
   });
 }

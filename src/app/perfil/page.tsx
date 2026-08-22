@@ -36,7 +36,7 @@ export default async function PerfilPage() {
   // Historial de TODAS las oposiciones que el usuario haya estudiado.
   const { data: historial } = await supabase
     .from("test_intentos")
-    .select("id, modo, total, aciertos, started_at, finished_at, oposiciones(nombre), temas(titulo)")
+    .select("id, modo, total, aciertos, started_at, finished_at, oposiciones(nombre, organismo), temas(titulo)")
     .eq("user_id", user.id)
     .not("finished_at", "is", null)
     .order("started_at", { ascending: false })

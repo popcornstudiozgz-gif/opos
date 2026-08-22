@@ -54,7 +54,7 @@ export default async function ResultadoTestPage({ params }: PageProps) {
 
   const { data: intento } = await supabase
     .from("test_intentos")
-    .select("id, modo, total, aciertos, started_at, finished_at, oposiciones(nombre), temas(titulo)")
+    .select("id, modo, total, aciertos, started_at, finished_at, oposiciones(nombre, organismo), temas(titulo)")
     .eq("id", id)
     .eq("user_id", user.id)
     .single();
@@ -84,7 +84,11 @@ export default async function ResultadoTestPage({ params }: PageProps) {
       </Link>
 
       <Card className="mt-6 p-8 text-center">
-        {oposicion && <p className="text-xs font-semibold text-brand-500">{oposicion.nombre}</p>}
+        {oposicion && (
+          <p className="text-xs font-semibold text-brand-500">
+            {oposicion.nombre} ({oposicion.organismo})
+          </p>
+        )}
         <p className="mt-1 text-sm font-semibold uppercase tracking-wider text-brand-500">
           {tituloModo(intento.modo, intento.temas)}
         </p>

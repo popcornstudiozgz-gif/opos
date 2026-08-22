@@ -30,7 +30,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   if (!oposicion) return {};
   return crearMetadata({
     titulo: "Test de oposición",
-    descripcion: `Practica ${oposicion.nombre} con preguntas tipo test, corrección inmediata y explicaciones.`,
+    descripcion: `Practica ${oposicion.nombre} (${oposicion.organismo}) con preguntas tipo test, corrección inmediata y explicaciones.`,
     ruta: `/${oposicionSlug}/test`,
   });
 }

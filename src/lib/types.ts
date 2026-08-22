@@ -11,7 +11,20 @@
 
 /** Una oposición del catálogo (p. ej. "Auxiliar Administrativo · Ayto. Zaragoza"). */
 export interface Oposicion {
-  /** Segmento de URL: /[slug]/... */
+  /**
+   * Segmento de URL: /[slug]/... — se asigna a mano al insertar la
+   * oposición (ver `scripts/seed.mjs`), nunca se genera solo desde
+   * `nombre`. Varios organismos de Zaragoza/Aragón convocan puestos con el
+   * mismo nombre (p. ej. "Auxiliar Administrativo" en el Ayuntamiento, la
+   * Diputación Provincial de Zaragoza o la DGA): el slug de cada una debe
+   * incluir el organismo para no chocar, del tipo
+   * `auxiliar-administrativo-ayto-zaragoza`, `auxiliar-administrativo-dpz`,
+   * `auxiliar-administrativo-dga` — nunca `auxiliar-administrativo-2` ni
+   * variantes ambiguas. `nombre` puede seguir siendo solo el puesto
+   * ("Auxiliar Administrativo"): la desambiguación la da `organismo`, que
+   * el código ya combina con `nombre` en el H1, los `<title>`, los chips
+   * del blog y el selector del admin — ver el resto de usos de este campo.
+   */
   slug: string;
   nombre: string;
   organismo: string;

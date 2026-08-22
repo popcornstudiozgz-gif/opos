@@ -35,7 +35,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   if (!oposicion) return {};
   return crearMetadata({
     titulo: "Flashcards",
-    descripcion: `Repasa ${oposicion.nombre} con flashcards: pregunta y respuesta, tema a tema.`,
+    descripcion: `Repasa ${oposicion.nombre} (${oposicion.organismo}) con flashcards: pregunta y respuesta, tema a tema.`,
     ruta: `/${oposicionSlug}/flashcards`,
   });
 }

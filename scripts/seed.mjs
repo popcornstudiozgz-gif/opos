@@ -46,7 +46,7 @@ await upsert(
   "oposiciones",
   [
     {
-      slug: "auxiliar-administrativo",
+      slug: "auxiliar-administrativo-ayto-zaragoza",
       nombre: "Auxiliar Administrativo",
       organismo: "Ayuntamiento de Zaragoza",
       descripcion_corta: "Preparación online para Auxiliar Administrativo del Ayuntamiento de Zaragoza.",
@@ -68,7 +68,7 @@ const BLOQUES = [
   { slug: "bloque-5", titulo: "Bloque 5 — Hacienda local", descripcion: "Presupuestos y recursos de las Haciendas Locales y especialidades del régimen de capitalidad de Zaragoza.", orden: 5 },
   { slug: "bloque-6", titulo: "Bloque 6 — Función pública", descripcion: "Clases de empleados públicos, derechos y deberes, situaciones administrativas, régimen disciplinario y función pública local.", orden: 6 },
   { slug: "bloque-7", titulo: "Bloque 7 — Urbanismo", descripcion: "Aspectos básicos de la Ley de Urbanismo de Aragón.", orden: 7 },
-].map((b) => ({ ...b, oposicion_slug: "auxiliar-administrativo" }));
+].map((b) => ({ ...b, oposicion_slug: "auxiliar-administrativo-ayto-zaragoza" }));
 const bloquesInsertados = await upsert("bloques", BLOQUES, "oposicion_slug,slug");
 const bloqueIdPorSlug = Object.fromEntries(bloquesInsertados.map((b) => [b.slug, b.id]));
 
@@ -127,7 +127,7 @@ const ASIGNACIONES = [
   { temaSlug: "tema-23", bloqueSlug: "bloque-7", numero: 20 },
 ].map((a) => ({
   tema_slug: a.temaSlug,
-  oposicion_slug: "auxiliar-administrativo",
+  oposicion_slug: "auxiliar-administrativo-ayto-zaragoza",
   bloque_id: bloqueIdPorSlug[a.bloqueSlug],
   numero: a.numero,
   orden: a.numero,
@@ -142,7 +142,7 @@ await upsert(
   "convocatorias",
   [
     {
-      oposicion_slug: "auxiliar-administrativo",
+      oposicion_slug: "auxiliar-administrativo-ayto-zaragoza",
       numero: "CONV 4/2026",
       organismo: "Ayuntamiento de Zaragoza — Oficina de Recursos Humanos",
       plaza: "Auxiliar Administrativo/a — Escala de Administración General (Grupo/Subgrupo C2)",

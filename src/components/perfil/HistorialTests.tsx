@@ -7,7 +7,7 @@ interface IntentoTest {
   total: number;
   aciertos: number;
   started_at: string;
-  oposiciones: { nombre: string } | { nombre: string }[] | null;
+  oposiciones: { nombre: string; organismo: string } | { nombre: string; organismo: string }[] | null;
   temas: { titulo: string } | { titulo: string }[] | null;
 }
 
@@ -60,7 +60,11 @@ export function HistorialTests({ intentos }: Props) {
                   <div className="min-w-0">
                     <p className="truncate text-sm font-medium text-slate-800">{etiquetaIntento(intento)}</p>
                     <p className="text-xs text-slate-400">
-                      {oposicion && <span className="text-brand-600">{oposicion.nombre} · </span>}
+                      {oposicion && (
+                        <span className="text-brand-600">
+                          {oposicion.nombre} ({oposicion.organismo}) ·{" "}
+                        </span>
+                      )}
                       {fecha}
                     </p>
                   </div>

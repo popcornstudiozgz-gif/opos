@@ -69,7 +69,7 @@ export default async function ArticuloPage({ params }: PageProps) {
                     href={`/${o.slug}/noticias`}
                     className="rounded-full bg-brand-50 px-3.5 py-1.5 text-sm font-medium text-brand-700 hover:bg-brand-100"
                   >
-                    {o.nombre}
+                    {o.nombre} {o.organismo && <span className="opacity-70">· {o.organismo}</span>}
                   </Link>
                 ))}
               </div>

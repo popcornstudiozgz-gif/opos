@@ -21,7 +21,7 @@ function slugify(texto: string): string {
 }
 
 interface Props {
-  oposiciones: { slug: string; nombre: string }[];
+  oposiciones: { slug: string; nombre: string; organismo: string }[];
   /** Presente = editar; ausente = crear. */
   articulo?: Articulo & { oposicionesSlugs: string[] };
 }
@@ -187,7 +187,7 @@ export function ArticuloForm({ oposiciones, articulo }: Props) {
                   marcada ? "bg-brand-600 text-white" : "bg-slate-100 text-slate-600 hover:bg-brand-50"
                 }`}
               >
-                {o.nombre}
+                {o.nombre} <span className="opacity-70">· {o.organismo}</span>
               </button>
             );
           })}

@@ -33,7 +33,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   if (!oposicion) return {};
   return crearMetadata({
     titulo: "Glosario",
-    descripcion: `Definiciones de los conceptos clave de ${oposicion.nombre}, tema a tema.`,
+    descripcion: `Definiciones de los conceptos clave de ${oposicion.nombre} (${oposicion.organismo}), tema a tema.`,
     ruta: `/${oposicionSlug}/glosario`,
   });
 }

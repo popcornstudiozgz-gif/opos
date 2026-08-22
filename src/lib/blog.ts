@@ -103,21 +103,35 @@ export async function getArticulosDeOposicion(oposicionSlug: string, limit?: num
   }
 }
 
-type FilaOposicionRelacionada = { oposicion_slug: string; oposiciones: { nombre: string } | { nombre: string }[] | null };
+type FilaOposicionRelacionada = {
+  oposicion_slug: string;
+  oposiciones: { nombre: string; organismo: string } | { nombre: string; organismo: string }[] | null;
+};
 
-/** Oposiciones a las que afecta un artículo (para los chips del detalle). Nunca rechaza: `[]` si algo falla. */
-export async function getOposicionesDeArticulo(articuloId: string): Promise<{ slug: string; nombre: string }[]> {
+/**
+ * Oposiciones a las que afecta un artículo (para los chips del detalle).
+ * Incluye `organismo` a propósito: si dos oposiciones comparten nombre de
+ * puesto (p. ej. "Auxiliar Administrativo" en el Ayuntamiento y en la DPZ),
+ * los chips no deben quedar indistinguibles. Nunca rechaza: `[]` si algo falla.
+ */
+export async function getOposicionesDeArticulo(
+  articuloId: string
+): Promise<{ slug: string; nombre: string; organismo: string }[]> {
   try {
     const supabase = createClient();
     const { data, error } = await supabase
       .from("articulo_oposicion")
-      .select("oposicion_slug, oposiciones(nombre)")
+      .select("oposicion_slug, oposiciones(nombre, organismo)")
       .eq("articulo_id", articuloId)
       .returns<FilaOposicionRelacionada[]>();
     if (error) throw error;
     return (data ?? []).map((fila) => {
       const oposicion = Array.isArray(fila.oposiciones) ? fila.oposiciones[0] : fila.oposiciones;
-      return { slug: fila.oposicion_slug, nombre: oposicion?.nombre ?? fila.oposicion_slug };
+      return {
+        slug: fila.oposicion_slug,
+        nombre: oposicion?.nombre ?? fila.oposicion_slug,
+        organismo: oposicion?.organismo ?? "",
+      };
     });
   } catch (error) {
     console.warn(`No se pudieron cargar las oposiciones relacionadas del artículo "${articuloId}":`, error);
