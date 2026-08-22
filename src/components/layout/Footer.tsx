@@ -3,6 +3,7 @@ import { SITE } from "@/lib/site";
 
 const ENLACES = [
   { href: "/blog", label: "Blog" },
+  { href: "/faq", label: "FAQ" },
   { href: "/contacto", label: "Contacto" },
   { href: "/aviso-legal", label: "Aviso legal" },
   { href: "/privacidad", label: "Privacidad" },

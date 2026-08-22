@@ -17,6 +17,12 @@ export async function Navbar({ oposicionSlug }: { oposicionSlug?: string }) {
   // "principal": va siempre en línea en el navbar. El resto se agrupa bajo
   // el desplegable "Más" para que quepa sin saltar de línea (mismo criterio
   // que el proyecto de referencia — ver `NAV_LINKS` en su `lib/site.ts`).
+  //
+  // Fuera de una oposición (portada del catálogo) no hay temario/test que
+  // enlazar, así que el menú es el del sitio en general: blog, FAQ y
+  // contacto. Dentro de una oposición esas páginas se quedan en el pie
+  // (siempre visible) para no saturar la navegación con enlaces que no son
+  // de esa oposición.
   const navLinks = oposicion
     ? [
         { href: `/${oposicion.slug}/convocatoria`, label: "Convocatoria", principal: true },
@@ -28,7 +34,11 @@ export async function Navbar({ oposicionSlug }: { oposicionSlug?: string }) {
         { href: `/${oposicion.slug}/casos-practicos`, label: "Casos prácticos", principal: false },
         { href: `/${oposicion.slug}/noticias`, label: "Noticias", principal: false },
       ]
-    : [];
+    : [
+        { href: "/blog", label: "Blog", principal: true },
+        { href: "/faq", label: "FAQ", principal: true },
+        { href: "/contacto", label: "Contacto", principal: true },
+      ];
 
   return (
     <NavbarShell

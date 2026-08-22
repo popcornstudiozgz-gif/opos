@@ -33,7 +33,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const rutasBlog = ["/blog", ...articulos.map((a) => `/blog/${a.slug}`)];
   const rutasLegales = ["/aviso-legal", "/privacidad", "/cookies"];
 
-  const rutas = ["/", "/contacto", ...rutasBlog, ...porOposicion.flat(), ...rutasLegales];
+  const rutas = ["/", "/faq", "/contacto", ...rutasBlog, ...porOposicion.flat(), ...rutasLegales];
 
   return rutas.map((ruta) => ({
     url: `${SITE.url}${ruta}`,
