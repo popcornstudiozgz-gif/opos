@@ -5,6 +5,7 @@ import { usePathname, useRouter } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 import type { User } from "@supabase/supabase-js";
 import { createClient } from "@/lib/supabase/client";
+import { SITE } from "@/lib/site";
 
 interface NavLink {
   href: string;
@@ -129,10 +130,17 @@ export function NavbarShell({ siteNombre, oposicion, navLinks }: Props) {
   return (
     <header className="sticky top-0 z-40 border-b border-brand-100 bg-white/90 backdrop-blur">
       <div className="mx-auto flex h-16 w-full max-w-6xl items-center justify-between px-4 sm:px-6 lg:px-8">
-        <Link href="/" className="flex items-baseline gap-2 font-black text-brand-900" onClick={() => setMenuMovilAbierto(false)}>
-          <span className="text-lg">{siteNombre}</span>
+        <Link
+          href="/"
+          className="flex items-center gap-2 font-black text-brand-900"
+          onClick={() => setMenuMovilAbierto(false)}
+        >
+          <span className="grid h-9 w-9 flex-shrink-0 place-items-center rounded-lg bg-gradient-to-br from-brand-500 to-brand-700 text-xs font-black text-white shadow-sm">
+            {SITE.iniciales}
+          </span>
+          <span className="hidden text-lg sm:inline">{siteNombre}</span>
           {oposicion && (
-            <span className="hidden text-sm font-medium text-slate-500 sm:inline">
+            <span className="hidden text-sm font-medium text-slate-500 lg:inline">
               · {oposicion.nombre}
             </span>
           )}

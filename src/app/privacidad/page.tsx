@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Container } from "@/components/ui/Container";
-import { SectionHeading } from "@/components/ui/SectionHeading";
+import { PageHeader } from "@/components/layout/PageHeader";
 import { Navbar } from "@/components/layout/Navbar";
 import { crearMetadata, SITE } from "@/lib/site";
 
@@ -16,12 +16,10 @@ export default function PrivacidadPage() {
   return (
     <>
       <Navbar />
-      <section className="bg-white">
-        <Container className="max-w-3xl py-16 sm:py-20">
-          <SectionHeading titulo="Política de privacidad" subtitulo={`Última actualización: ${ULTIMA_ACTUALIZACION}.`} />
+      <PageHeader titulo="Política de privacidad" descripcion={`Última actualización: ${ULTIMA_ACTUALIZACION}.`} />
 
-          <div className="mt-10 space-y-8">
-            <section>
+      <Container className="max-w-3xl space-y-8 py-12">
+        <section>
               <h2 className="text-xl font-bold text-brand-900">1. Responsable del tratamiento</h2>
               <p className="mt-2 text-slate-700">
                 {SITE.titular}, como persona física, a título de proyecto personal sin ánimo de
@@ -155,18 +153,16 @@ export default function PrivacidadPage() {
               </p>
             </section>
 
-            <section>
-              <h2 className="text-xl font-bold text-brand-900">9. Cambios en esta política</h2>
-              <p className="mt-2 text-slate-700">
-                Podemos actualizar esta política para reflejar cambios en el servicio (por ejemplo,
-                si en el futuro se incorporan funcionalidades de pago, nuevas oposiciones o nuevos
-                proveedores). Publicaremos siempre la versión vigente en esta misma página con la
-                fecha de última actualización.
-              </p>
-            </section>
-          </div>
-        </Container>
-      </section>
+        <section>
+          <h2 className="text-xl font-bold text-brand-900">9. Cambios en esta política</h2>
+          <p className="mt-2 text-slate-700">
+            Podemos actualizar esta política para reflejar cambios en el servicio (por ejemplo,
+            si en el futuro se incorporan funcionalidades de pago, nuevas oposiciones o nuevos
+            proveedores). Publicaremos siempre la versión vigente en esta misma página con la
+            fecha de última actualización.
+          </p>
+        </section>
+      </Container>
     </>
   );
 }

@@ -1,5 +1,5 @@
 import { Container } from "@/components/ui/Container";
-import { SectionHeading } from "@/components/ui/SectionHeading";
+import { PageHeader } from "@/components/layout/PageHeader";
 import { Navbar } from "@/components/layout/Navbar";
 import { crearMetadata, SITE } from "@/lib/site";
 
@@ -15,12 +15,10 @@ export default function AvisoLegalPage() {
   return (
     <>
       <Navbar />
-      <section className="bg-white">
-        <Container className="max-w-3xl py-16 sm:py-20">
-          <SectionHeading titulo="Aviso legal" subtitulo={`Última actualización: ${ULTIMA_ACTUALIZACION}.`} />
+      <PageHeader titulo="Aviso legal" descripcion={`Última actualización: ${ULTIMA_ACTUALIZACION}.`} />
 
-          <div className="mt-10 space-y-8">
-            <section>
+      <Container className="max-w-3xl space-y-8 py-12">
+        <section>
               <h2 className="text-xl font-bold text-brand-900">1. Titularidad del sitio</h2>
               <p className="mt-2 text-slate-700">
                 {SITE.nombre} es un proyecto personal de {SITE.titular}, sin ánimo de lucro y sin
@@ -104,13 +102,11 @@ export default function AvisoLegalPage() {
               </p>
             </section>
 
-            <section>
-              <h2 className="text-xl font-bold text-brand-900">7. Legislación aplicable</h2>
-              <p className="mt-2 text-slate-700">Este aviso legal se rige por la legislación española.</p>
-            </section>
-          </div>
-        </Container>
-      </section>
+        <section>
+          <h2 className="text-xl font-bold text-brand-900">7. Legislación aplicable</h2>
+          <p className="mt-2 text-slate-700">Este aviso legal se rige por la legislación española.</p>
+        </section>
+      </Container>
     </>
   );
 }

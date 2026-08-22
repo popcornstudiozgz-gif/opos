@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { Container } from "@/components/ui/Container";
 import { Card } from "@/components/ui/Card";
+import { PageHeader } from "@/components/layout/PageHeader";
 import { crearMetadata } from "@/lib/site";
 import { getOposicion, getOposiciones } from "@/lib/oposiciones";
 import { getConvocatoria } from "@/data/convocatorias";
@@ -40,16 +41,17 @@ export default async function ConvocatoriaPage({ params }: PageProps) {
   ];
 
   return (
-    <section className="bg-white">
-      <Container className="space-y-12 py-16 sm:py-20">
-        <div>
-          <h1 className="text-3xl font-black text-brand-900">Convocatoria</h1>
-          <p className="mt-2 text-slate-600">
-            {convocatoria.numero} · {convocatoria.plaza} · Decreto de {convocatoria.fechaDecreto}
-          </p>
-          <p className="mt-1 text-xs text-slate-400">Actualizado el {convocatoria.ultimaActualizacion}</p>
-        </div>
+    <>
+      <PageHeader
+        titulo="Convocatoria"
+        descripcion={`${convocatoria.numero} · ${convocatoria.plaza} · Decreto de ${convocatoria.fechaDecreto}`}
+      >
+        <span className="inline-flex items-center rounded-full bg-brand-100 px-3 py-1 text-xs font-semibold text-brand-700">
+          Actualizado el {convocatoria.ultimaActualizacion}
+        </span>
+      </PageHeader>
 
+      <Container className="space-y-12 py-12">
         <section>
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
             {datosClave.map((d) => (
@@ -169,6 +171,6 @@ export default async function ConvocatoriaPage({ params }: PageProps) {
           </p>
         </section>
       </Container>
-    </section>
+    </>
   );
 }

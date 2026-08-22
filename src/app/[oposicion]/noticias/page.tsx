@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { Container } from "@/components/ui/Container";
-import { SectionHeading } from "@/components/ui/SectionHeading";
+import { PageHeader } from "@/components/layout/PageHeader";
 import { crearMetadata } from "@/lib/site";
 import { getOposicion, getOposiciones } from "@/lib/oposiciones";
 import { getArticulosDeOposicion } from "@/lib/blog";
@@ -35,25 +35,23 @@ export default async function NoticiasOposicionPage({ params }: PageProps) {
   const articulos = await getArticulosDeOposicion(slug);
 
   return (
-    <section className="bg-white">
-      <Container className="py-16 sm:py-20">
-        <SectionHeading
-          titulo="Noticias"
-          subtitulo={`Novedades de la oposición de ${oposicion.nombre} (${oposicion.organismo}): convocatoria, plazos y cambios normativos.`}
-        />
+    <>
+      <PageHeader
+        titulo="Noticias"
+        descripcion={`Novedades de la oposición de ${oposicion.nombre} (${oposicion.organismo}): convocatoria, plazos y cambios normativos.`}
+      />
 
+      <Container className="py-12">
         {articulos.length === 0 ? (
-          <p className="mt-10 text-slate-500">
-            Todavía no hay noticias publicadas para esta oposición. Vuelve pronto.
-          </p>
+          <p className="text-slate-500">Todavía no hay noticias publicadas para esta oposición. Vuelve pronto.</p>
         ) : (
-          <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {articulos.map((articulo) => (
               <ArticuloCard key={articulo.id} articulo={articulo} />
             ))}
           </div>
         )}
       </Container>
-    </section>
+    </>
   );
 }

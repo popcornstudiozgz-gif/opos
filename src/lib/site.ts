@@ -13,8 +13,9 @@ export const SITE = {
   descripcionCorta: "Oposiciones Zaragoza: temario, test y simulacros para preparar tu oposición.",
   descripcionLarga:
     "Prepara tu oposición en Zaragoza con temario oficial, tests, flashcards, casos prácticos y simulacros cronometrados. Empieza gratis con Auxiliar Administrativo del Ayuntamiento de Zaragoza, y próximamente más oposiciones de la ciudad.",
-  // Dominio provisional de desarrollo local. Cambiar cuando haya dominio propio.
-  url: "http://localhost:3000",
+  // Dominio propio (comprado en cdmon). robots.ts sigue bloqueando la
+  // indexación a propósito mientras el sitio no esté listo para lanzarse.
+  url: "https://oposicioneszaragoza.es",
   idioma: "es-ES",
   // Datos del titular para las páginas legales (aviso legal, privacidad,
   // cookies) — proyecto personal, sin actividad mercantil constituida.

@@ -3,6 +3,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { Container } from "@/components/ui/Container";
 import { Card } from "@/components/ui/Card";
+import { PageHeader } from "@/components/layout/PageHeader";
 import { crearMetadata } from "@/lib/site";
 import { getOposicion, getBloquesConTemas, getOposiciones } from "@/lib/oposiciones";
 
@@ -34,33 +35,31 @@ export default async function TemarioPage({ params }: PageProps) {
   const bloques = await getBloquesConTemas(slug);
 
   return (
-    <section className="bg-white">
-      <Container className="py-16 sm:py-20">
-        <h1 className="text-3xl font-black text-brand-900">Temario</h1>
-        <p className="mt-2 text-slate-600">
-          {oposicion.nombre} · {oposicion.organismo}
-        </p>
+    <>
+      <PageHeader
+        titulo="Temario"
+        descripcion={`${oposicion.nombre} · ${oposicion.organismo}. Todo el contenido organizado por bloques — entra en cada tema para estudiarlo y practicar sus preguntas.`}
+      />
 
-        <div className="mt-10 space-y-10">
-          {bloques.map((bloque) => (
-            <div key={bloque.slug}>
-              <h2 className="text-lg font-bold text-brand-900">{bloque.titulo}</h2>
-              <p className="mt-1 text-sm text-slate-500">{bloque.descripcion}</p>
-              <div className="mt-4 grid gap-3 sm:grid-cols-2">
-                {bloque.temas.map((tema) => (
-                  <Link key={tema.slug} href={`/${slug}/temario/${tema.slug}`}>
-                    <Card className="h-full p-4 transition-shadow hover:shadow-md">
-                      <p className="text-xs font-semibold text-brand-600">Tema {tema.numero}</p>
-                      <p className="mt-1 font-semibold text-brand-900">{tema.titulo}</p>
-                      <p className="mt-1 line-clamp-2 text-sm text-slate-500">{tema.descripcion}</p>
-                    </Card>
-                  </Link>
-                ))}
-              </div>
+      <Container className="space-y-10 py-12">
+        {bloques.map((bloque) => (
+          <div key={bloque.slug}>
+            <h2 className="text-lg font-bold text-brand-900">{bloque.titulo}</h2>
+            <p className="mt-1 text-sm text-slate-500">{bloque.descripcion}</p>
+            <div className="mt-4 grid gap-3 sm:grid-cols-2">
+              {bloque.temas.map((tema) => (
+                <Link key={tema.slug} href={`/${slug}/temario/${tema.slug}`}>
+                  <Card className="h-full p-4 transition-shadow hover:shadow-md">
+                    <p className="text-xs font-semibold text-brand-600">Tema {tema.numero}</p>
+                    <p className="mt-1 font-semibold text-brand-900">{tema.titulo}</p>
+                    <p className="mt-1 line-clamp-2 text-sm text-slate-500">{tema.descripcion}</p>
+                  </Card>
+                </Link>
+              ))}
             </div>
-          ))}
-        </div>
+          </div>
+        ))}
       </Container>
-    </section>
+    </>
   );
 }

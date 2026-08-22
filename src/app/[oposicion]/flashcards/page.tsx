@@ -1,8 +1,6 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import type { Metadata } from "next";
-import { Container } from "@/components/ui/Container";
-import { Card } from "@/components/ui/Card";
 import { crearMetadata } from "@/lib/site";
 import {
   getOposicion,
@@ -12,6 +10,7 @@ import {
   getFlashcardsDeOposicion,
 } from "@/lib/oposiciones";
 import { FlashcardsStudio, type ProgresoFlashcard } from "@/components/flashcards/FlashcardsStudio";
+import { TemaExplorerLayout } from "@/components/layout/TemaExplorerLayout";
 import { createClient } from "@/lib/supabase/server";
 
 interface PageProps {
@@ -94,88 +93,65 @@ export default async function FlashcardsPage({ params, searchParams }: PageProps
   }
 
   return (
-    <section className="bg-white">
-      <Container className="py-16 sm:py-20">
-        <h1 className="text-3xl font-black text-brand-900">Flashcards</h1>
-        <p className="mt-2 text-slate-600">
-          {oposicion.nombre} · {oposicion.organismo}
-        </p>
-
-        {/* Selector de tema */}
-        <div className="mt-6 flex flex-wrap gap-2">
-          <Link
-            href={`/${oposicionSlug}/flashcards?tema=todas`}
-            className={`rounded-full px-4 py-1.5 text-sm font-medium transition-colors ${
-              todasActivo
-                ? "bg-brand-600 text-white"
-                : "bg-brand-50 text-brand-700 hover:bg-brand-100"
-            }`}
-          >
-            Todas las tarjetas
-          </Link>
-          {temas.map((t) => (
-            <Link
-              key={t.slug}
-              href={`/${oposicionSlug}/flashcards?tema=${t.slug}`}
-              className={`rounded-full px-4 py-1.5 text-sm font-medium transition-colors ${
-                temaActivo?.slug === t.slug
-                  ? "bg-brand-600 text-white"
-                  : "bg-brand-50 text-brand-700 hover:bg-brand-100"
-              }`}
-            >
-              Tema {t.numero}
-            </Link>
-          ))}
-        </div>
-
-        <div className="mx-auto mt-10 max-w-2xl">
-          {!hayFiltro ? (
-            /* ── Landing: elige un tema o bloque ── */
-            <div className="space-y-8">
-              <p className="text-slate-600">
-                Elige un tema para repasar, o practica con todas las tarjetas a la vez.
-              </p>
-              {bloques.map((bloque) => (
-                <div key={bloque.slug}>
-                  <h2 className="text-sm font-bold uppercase tracking-wide text-brand-600">
-                    {bloque.titulo}
-                  </h2>
-                  <div className="mt-3 grid gap-3 sm:grid-cols-2">
-                    {bloque.temas.map((t) => (
-                      <Link key={t.slug} href={`/${oposicionSlug}/flashcards?tema=${t.slug}`}>
-                        <Card className="h-full p-4 transition-shadow hover:shadow-md">
-                          <p className="text-xs font-semibold text-brand-600">Tema {t.numero}</p>
-                          <p className="mt-1 font-semibold text-brand-900">{t.titulo}</p>
-                        </Card>
+    <TemaExplorerLayout
+      titulo="Flashcards"
+      subtitulo="Selecciona un tema para repasar"
+      bloques={bloques}
+      basePath={`/${oposicionSlug}/flashcards`}
+      opcionTodos={{ label: "Todas las tarjetas", icono: "🃏", activo: todasActivo }}
+      temaActivoSlug={temaActivo?.slug}
+    >
+      {!hayFiltro ? (
+        /* ── Landing: elige un tema o bloque ── */
+        <div className="space-y-6">
+          <div>
+            <h2 className="text-2xl font-bold text-brand-900">Flashcards</h2>
+            <p className="mt-1 text-slate-500">
+              Selecciona un tema del menú para repasar con tarjetas de memoria activa.
+            </p>
+          </div>
+          <div className="grid gap-4 sm:grid-cols-2">
+            {bloques.map((bloque) => (
+              <div key={bloque.slug} className="rounded-xl border border-brand-100 bg-white p-5 shadow-sm">
+                <p className="text-xs font-semibold tracking-wider text-brand-500 uppercase">{bloque.titulo}</p>
+                <ul className="mt-3 space-y-1">
+                  {bloque.temas.map((t) => (
+                    <li key={t.slug}>
+                      <Link
+                        href={`/${oposicionSlug}/flashcards?tema=${t.slug}`}
+                        className="flex items-center gap-2 rounded-md px-2 py-1 text-xs text-slate-600 transition-colors hover:bg-brand-50 hover:text-brand-700"
+                      >
+                        <span className="font-semibold text-brand-600">T{t.numero}</span>
+                        {t.titulo}
                       </Link>
-                    ))}
-                  </div>
-                </div>
-              ))}
-            </div>
-          ) : cards.length === 0 ? (
-            /* ── Sin tarjetas para este tema ── */
-            <div className="rounded-xl border border-dashed border-brand-200 bg-brand-50/50 p-8 text-center text-slate-600">
-              <p>Todavía no hay flashcards disponibles para este tema.</p>
-              <Link
-                href={`/${oposicionSlug}/flashcards`}
-                className="mt-3 inline-block font-semibold text-brand-600 hover:underline"
-              >
-                Ver todos los temas
-              </Link>
-            </div>
-          ) : (
-            <FlashcardsStudio
-              key={temaActivo?.slug ?? "todas"}
-              cards={cards}
-              contextLabel={temaActivo ? `Tema ${temaActivo.numero} · ${temaActivo.titulo}` : "Todas las tarjetas"}
-              oposicionSlug={oposicionSlug}
-              usuarioId={user?.id ?? null}
-              progresoInicial={progresoInicial}
-            />
-          )}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
         </div>
-      </Container>
-    </section>
+      ) : cards.length === 0 ? (
+        /* ── Sin tarjetas para este tema ── */
+        <div className="rounded-xl border border-dashed border-brand-200 bg-brand-50/50 p-8 text-center text-slate-600">
+          <p>Todavía no hay flashcards disponibles para este tema.</p>
+          <Link
+            href={`/${oposicionSlug}/flashcards`}
+            className="mt-3 inline-block font-semibold text-brand-600 hover:underline"
+          >
+            Ver todos los temas
+          </Link>
+        </div>
+      ) : (
+        <FlashcardsStudio
+          key={temaActivo?.slug ?? "todas"}
+          cards={cards}
+          contextLabel={temaActivo ? `Tema ${temaActivo.numero} · ${temaActivo.titulo}` : "Todas las tarjetas"}
+          oposicionSlug={oposicionSlug}
+          usuarioId={user?.id ?? null}
+          progresoInicial={progresoInicial}
+        />
+      )}
+    </TemaExplorerLayout>
   );
 }

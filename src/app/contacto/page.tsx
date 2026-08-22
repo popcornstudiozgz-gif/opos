@@ -1,5 +1,5 @@
 import { Container } from "@/components/ui/Container";
-import { SectionHeading } from "@/components/ui/SectionHeading";
+import { PageHeader } from "@/components/layout/PageHeader";
 import { Navbar } from "@/components/layout/Navbar";
 import { ContactoForm } from "@/components/contacto/ContactoForm";
 import { crearMetadata } from "@/lib/site";
@@ -27,17 +27,16 @@ export default async function ContactoPage({ searchParams }: PageProps) {
   return (
     <>
       <Navbar />
-      <section className="bg-white">
-        <Container className="py-16 sm:py-20">
-          <SectionHeading
-            titulo="Contacto"
-            subtitulo="¿Tienes una duda, general o de una oposición en concreto? ¿Has visto una pregunta con un error, o un fallo en la web? Cuéntanoslo."
-          />
-          <div className="mx-auto mt-10 max-w-2xl">
-            <ContactoForm oposiciones={oposiciones} oposicionInicial={oposicionInicial} />
-          </div>
-        </Container>
-      </section>
+      <PageHeader
+        titulo="Contacto"
+        descripcion="¿Tienes una duda, general o de una oposición en concreto? ¿Has visto una pregunta con un error, o un fallo en la web? Cuéntanoslo."
+      />
+
+      <Container className="py-12">
+        <div className="mx-auto max-w-2xl">
+          <ContactoForm oposiciones={oposiciones} oposicionInicial={oposicionInicial} />
+        </div>
+      </Container>
     </>
   );
 }

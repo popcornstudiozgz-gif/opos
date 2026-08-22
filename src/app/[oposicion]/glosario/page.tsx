@@ -1,8 +1,6 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import type { Metadata } from "next";
-import { Container } from "@/components/ui/Container";
-import { Card } from "@/components/ui/Card";
 import { crearMetadata } from "@/lib/site";
 import {
   getOposicion,
@@ -12,6 +10,7 @@ import {
   getGlosarioDeOposicion,
 } from "@/lib/oposiciones";
 import { GlosarioBuscador } from "@/components/glosario/GlosarioBuscador";
+import { TemaExplorerLayout } from "@/components/layout/TemaExplorerLayout";
 
 interface PageProps {
   params: Promise<{ oposicion: string }>;
@@ -61,81 +60,68 @@ export default async function GlosarioPage({ params, searchParams }: PageProps) 
       : [];
 
   return (
-    <section className="bg-white">
-      <Container className="py-16 sm:py-20">
-        <h1 className="text-3xl font-black text-brand-900">Glosario</h1>
-        <p className="mt-2 text-slate-600">
-          {oposicion.nombre} · {oposicion.organismo}
-        </p>
-
-        {/* Selector de tema */}
-        <div className="mt-6 flex flex-wrap gap-2">
-          <Link
-            href={`/${oposicionSlug}/glosario?tema=todas`}
-            className={`rounded-full px-4 py-1.5 text-sm font-medium transition-colors ${
-              todasActivo
-                ? "bg-brand-600 text-white"
-                : "bg-brand-50 text-brand-700 hover:bg-brand-100"
-            }`}
-          >
-            Todos los términos
-          </Link>
-          {temas.map((t) => (
-            <Link
-              key={t.slug}
-              href={`/${oposicionSlug}/glosario?tema=${t.slug}`}
-              className={`rounded-full px-4 py-1.5 text-sm font-medium transition-colors ${
-                temaActivo?.slug === t.slug
-                  ? "bg-brand-600 text-white"
-                  : "bg-brand-50 text-brand-700 hover:bg-brand-100"
-              }`}
-            >
-              Tema {t.numero}
-            </Link>
-          ))}
-        </div>
-
-        <div className="mx-auto mt-10 max-w-2xl">
-          {!hayFiltro ? (
-            /* ── Landing: elige un tema o bloque ── */
-            <div className="space-y-8">
-              <p className="text-slate-600">
-                Elige un tema para ver sus términos, o consulta el glosario completo.
-              </p>
-              {bloques.map((bloque) => (
-                <div key={bloque.slug}>
-                  <h2 className="text-sm font-bold uppercase tracking-wide text-brand-600">
-                    {bloque.titulo}
-                  </h2>
-                  <div className="mt-3 grid gap-3 sm:grid-cols-2">
-                    {bloque.temas.map((t) => (
-                      <Link key={t.slug} href={`/${oposicionSlug}/glosario?tema=${t.slug}`}>
-                        <Card className="h-full p-4 transition-shadow hover:shadow-md">
-                          <p className="text-xs font-semibold text-brand-600">Tema {t.numero}</p>
-                          <p className="mt-1 font-semibold text-brand-900">{t.titulo}</p>
-                        </Card>
+    <TemaExplorerLayout
+      titulo="Glosario"
+      subtitulo="Términos jurídicos y administrativos"
+      bloques={bloques}
+      basePath={`/${oposicionSlug}/glosario`}
+      opcionTodos={{ label: "Todos los conceptos", icono: "📖", activo: todasActivo }}
+      temaActivoSlug={temaActivo?.slug}
+    >
+      {!hayFiltro ? (
+        /* ── Landing: elige un tema o bloque ── */
+        <div className="space-y-6">
+          <div>
+            <h2 className="text-2xl font-bold text-brand-900">Glosario</h2>
+            <p className="mt-1 text-slate-500">
+              Selecciona un tema del menú para ver sus términos, o consulta el glosario completo.
+            </p>
+          </div>
+          <div className="grid gap-4 sm:grid-cols-2">
+            {bloques.map((bloque) => (
+              <div key={bloque.slug} className="rounded-xl border border-brand-100 bg-white p-5 shadow-sm">
+                <p className="text-xs font-semibold tracking-wider text-brand-500 uppercase">{bloque.titulo}</p>
+                <ul className="mt-3 space-y-1">
+                  {bloque.temas.map((t) => (
+                    <li key={t.slug}>
+                      <Link
+                        href={`/${oposicionSlug}/glosario?tema=${t.slug}`}
+                        className="flex items-center gap-2 rounded-md px-2 py-1 text-xs text-slate-600 transition-colors hover:bg-brand-50 hover:text-brand-700"
+                      >
+                        <span className="font-semibold text-brand-600">T{t.numero}</span>
+                        {t.titulo}
                       </Link>
-                    ))}
-                  </div>
-                </div>
-              ))}
-            </div>
-          ) : terminos.length === 0 ? (
-            /* ── Sin términos para este tema ── */
-            <div className="rounded-xl border border-dashed border-brand-200 bg-brand-50/50 p-8 text-center text-slate-600">
-              <p>Todavía no hay términos de glosario para este tema.</p>
-              <Link
-                href={`/${oposicionSlug}/glosario`}
-                className="mt-3 inline-block font-semibold text-brand-600 hover:underline"
-              >
-                Ver todos los temas
-              </Link>
-            </div>
-          ) : (
-            <GlosarioBuscador terminos={terminos} />
-          )}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
         </div>
-      </Container>
-    </section>
+      ) : terminos.length === 0 ? (
+        /* ── Sin términos para este tema ── */
+        <div className="rounded-xl border border-dashed border-brand-200 bg-brand-50/50 p-8 text-center text-slate-600">
+          <p>Todavía no hay términos de glosario para este tema.</p>
+          <Link
+            href={`/${oposicionSlug}/glosario`}
+            className="mt-3 inline-block font-semibold text-brand-600 hover:underline"
+          >
+            Ver todos los temas
+          </Link>
+        </div>
+      ) : (
+        <>
+          {temaActivo && (
+            <p className="mb-5 text-sm text-slate-500">
+              Filtrando por:{" "}
+              <span className="font-semibold text-brand-700">
+                Tema {temaActivo.numero} · {temaActivo.titulo}
+              </span>
+            </p>
+          )}
+          <GlosarioBuscador terminos={terminos} />
+        </>
+      )}
+    </TemaExplorerLayout>
   );
 }

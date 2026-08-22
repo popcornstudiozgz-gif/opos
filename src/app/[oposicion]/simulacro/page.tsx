@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { Container } from "@/components/ui/Container";
+import { PageHeader } from "@/components/layout/PageHeader";
 import { crearMetadata } from "@/lib/site";
 import {
   getOposicion,
@@ -70,29 +71,27 @@ export default async function SimulacroPage({ params }: PageProps) {
   }
 
   return (
-    <section className="bg-white">
-      <Container className="py-16 sm:py-20">
-        <h1 className="text-3xl font-black text-brand-900">Simulacro de examen</h1>
-        <p className="mt-2 text-slate-600">
-          {oposicion.nombre} · {oposicion.organismo}
-        </p>
+    <>
+      <PageHeader
+        titulo="Simulacro de examen"
+        descripcion={`${oposicion.nombre} · ${oposicion.organismo}. Pon a prueba tus conocimientos con tiempo límite, como en el examen real.`}
+      />
 
-        <div className="mt-8">
-          {preguntas.length === 0 ? (
-            <div className="mx-auto max-w-2xl rounded-xl border border-dashed border-brand-200 bg-brand-50/50 p-8 text-center text-slate-600">
-              Todavía no hay preguntas suficientes para armar un simulacro de esta oposición.
-            </div>
-          ) : (
-            <SimulacroRunner
-              oposicionSlug={oposicionSlug}
-              preguntas={preguntas}
-              casos={casos}
-              temaABloque={temaABloque}
-              usuarioId={user?.id ?? null}
-            />
-          )}
-        </div>
+      <Container className="py-12">
+        {preguntas.length === 0 ? (
+          <div className="mx-auto max-w-2xl rounded-xl border border-dashed border-brand-200 bg-brand-50/50 p-8 text-center text-slate-600">
+            Todavía no hay preguntas suficientes para armar un simulacro de esta oposición.
+          </div>
+        ) : (
+          <SimulacroRunner
+            oposicionSlug={oposicionSlug}
+            preguntas={preguntas}
+            casos={casos}
+            temaABloque={temaABloque}
+            usuarioId={user?.id ?? null}
+          />
+        )}
       </Container>
-    </section>
+    </>
   );
 }
