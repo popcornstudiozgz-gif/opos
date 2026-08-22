@@ -14,6 +14,7 @@ import {
   getCasosPracticosDeTema,
   getParamsTemarioEstatico,
 } from "@/lib/oposiciones";
+import { MarcarCompletado } from "@/components/temario/MarcarCompletado";
 
 interface PageProps {
   params: Promise<{ oposicion: string; slug: string }>;
@@ -61,6 +62,8 @@ export default async function TemaPage({ params }: PageProps) {
         </p>
         <h1 className="mt-1 text-3xl font-black text-brand-900">{tema.titulo}</h1>
         <p className="mt-3 max-w-3xl text-slate-600">{tema.descripcion}</p>
+
+        <MarcarCompletado oposicionSlug={oposicionSlug} temaSlug={slug} />
 
         {(preguntas.length > 0 || casos.length > 0 || flashcards.length > 0 || glosario.length > 0) && (
           <div className="mt-6 flex flex-wrap gap-3">

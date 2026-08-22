@@ -1,8 +1,10 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { Button } from "@/components/ui/Button";
 import type { Pregunta } from "@/lib/types";
+import { createClient } from "@/lib/supabase/client";
+import { crearIntento, guardarRespuesta, cerrarIntento } from "@/lib/persistirIntento";
 
 /**
  * Recorre las preguntas de un caso práctico en el orden fijado por
@@ -23,19 +25,49 @@ function mezclar<T>(arr: T[]): T[] {
   return copia;
 }
 
-export function CasoRunner({ preguntas }: { preguntas: Pregunta[] }) {
+interface Props {
+  preguntas: Pregunta[];
+  usuarioId?: string | null;
+  oposicionSlug?: string;
+  casoId?: string;
+}
+
+export function CasoRunner({ preguntas, usuarioId = null, oposicionSlug, casoId }: Props) {
   const sesion = useMemo(() => preguntas.map((p) => ({ ...p, opciones: mezclar(p.opciones) })), [preguntas]);
   const [indice, setIndice] = useState(0);
   const [seleccion, setSeleccion] = useState<Record<string, string>>({});
   const [terminado, setTerminado] = useState(false);
+  const intentoPromiseRef = useRef<Promise<string | null> | null>(null);
 
-  function responder(preguntaId: string, opcionId: string) {
+  // El caso no tiene fase de configuración: el intento se crea al montar,
+  // no tras un botón "comenzar" como en TestRunner.
+  useEffect(() => {
+    intentoPromiseRef.current =
+      usuarioId && oposicionSlug
+        ? crearIntento(createClient(), { usuarioId, oposicionSlug, modo: "caso", casoId, total: sesion.length })
+        : null;
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  async function responder(preguntaId: string, opcionId: string) {
     if (seleccion[preguntaId]) return;
     setSeleccion((prev) => ({ ...prev, [preguntaId]: opcionId }));
+
+    const intentoId = await intentoPromiseRef.current;
+    if (!intentoId) return;
+    const opcion = sesion.find((p) => p.id === preguntaId)?.opciones.find((o) => o.id === opcionId);
+    if (!opcion) return;
+    await guardarRespuesta(createClient(), intentoId, preguntaId, opcionId, opcion.esCorrecta);
   }
 
-  function siguiente() {
+  async function siguiente() {
     if (indice + 1 >= sesion.length) {
+      const aciertos = sesion.filter((p) => {
+        const opcionId = seleccion[p.id];
+        return opcionId && p.opciones.find((o) => o.id === opcionId)?.esCorrecta;
+      }).length;
+      const intentoId = await intentoPromiseRef.current;
+      if (intentoId) await cerrarIntento(createClient(), intentoId, aciertos);
       setTerminado(true);
       return;
     }
@@ -46,6 +78,10 @@ export function CasoRunner({ preguntas }: { preguntas: Pregunta[] }) {
     setIndice(0);
     setSeleccion({});
     setTerminado(false);
+    intentoPromiseRef.current =
+      usuarioId && oposicionSlug
+        ? crearIntento(createClient(), { usuarioId, oposicionSlug, modo: "caso", casoId, total: sesion.length })
+        : null;
   }
 
   if (terminado) {

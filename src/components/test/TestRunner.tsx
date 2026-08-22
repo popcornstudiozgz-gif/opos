@@ -1,8 +1,10 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useMemo, useRef, useState } from "react";
 import { Button } from "@/components/ui/Button";
 import type { Dificultad, Pregunta } from "@/lib/types";
+import { createClient } from "@/lib/supabase/client";
+import { crearIntento, guardarRespuesta, cerrarIntento } from "@/lib/persistirIntento";
 
 type FiltroDificultad = "todos" | Dificultad;
 type Cantidad = 10 | 20 | 30 | 50 | "todas";
@@ -32,13 +34,33 @@ function mezclar<T>(arr: T[]): T[] {
   return copia;
 }
 
-export function TestRunner({ preguntas, contextLabel }: { preguntas: Pregunta[]; contextLabel?: string }) {
+interface Props {
+  preguntas: Pregunta[];
+  contextLabel?: string;
+  /** Id del usuario logueado, o null si es anónimo. Resuelto server-side. */
+  usuarioId?: string | null;
+  oposicionSlug?: string;
+  modo?: "tema" | "aleatorio";
+  temaSlug?: string | null;
+}
+
+export function TestRunner({
+  preguntas,
+  contextLabel,
+  usuarioId = null,
+  oposicionSlug,
+  modo = "aleatorio",
+  temaSlug = null,
+}: Props) {
   const [fase, setFase] = useState<Fase>("config");
   const [filtro, setFiltro] = useState<FiltroDificultad>("todos");
   const [cantidad, setCantidad] = useState<Cantidad>(20);
   const [sesion, setSesion] = useState<Pregunta[]>([]);
   const [indice, setIndice] = useState(0);
   const [seleccion, setSeleccion] = useState<Record<string, string>>({}); // preguntaId -> opcionId
+  // Guarda la promesa (no solo el id) del intento en curso, para que las
+  // respuestas que lleguen antes de que el insert resuelva no se pierdan.
+  const intentoPromiseRef = useRef<Promise<string | null> | null>(null);
 
   const counts = useMemo(
     () => ({
@@ -66,15 +88,39 @@ export function TestRunner({ preguntas, contextLabel }: { preguntas: Pregunta[];
     setIndice(0);
     setSeleccion({});
     setFase("sesion");
+
+    intentoPromiseRef.current =
+      usuarioId && oposicionSlug
+        ? crearIntento(createClient(), {
+            usuarioId,
+            oposicionSlug,
+            modo,
+            temaSlug: modo === "tema" ? temaSlug : null,
+            total: seleccionadas.length,
+          })
+        : null;
   }
 
-  function responder(preguntaId: string, opcionId: string) {
+  async function responder(preguntaId: string, opcionId: string) {
     if (seleccion[preguntaId]) return; // ya contestada, no se puede cambiar
     setSeleccion((prev) => ({ ...prev, [preguntaId]: opcionId }));
+
+    const intentoId = await intentoPromiseRef.current;
+    if (!intentoId) return;
+    const pregunta = sesion.find((p) => p.id === preguntaId);
+    const opcion = pregunta?.opciones.find((o) => o.id === opcionId);
+    if (!opcion) return;
+    await guardarRespuesta(createClient(), intentoId, preguntaId, opcionId, opcion.esCorrecta);
   }
 
-  function siguiente() {
+  async function siguiente() {
     if (indice + 1 >= sesion.length) {
+      const aciertos = sesion.filter((p) => {
+        const opcionId = seleccion[p.id];
+        return opcionId && p.opciones.find((o) => o.id === opcionId)?.esCorrecta;
+      }).length;
+      const intentoId = await intentoPromiseRef.current;
+      if (intentoId) await cerrarIntento(createClient(), intentoId, aciertos);
       setFase("fin");
       return;
     }

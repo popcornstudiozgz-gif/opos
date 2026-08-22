@@ -11,6 +11,7 @@ import {
 } from "@/lib/oposiciones";
 import { SimulacroRunner } from "@/components/simulacro/SimulacroRunner";
 import type { CasoPractico, Pregunta } from "@/lib/types";
+import { createClient } from "@/lib/supabase/server";
 
 const NUM_PREGUNTAS_TEST = 50;
 const NUM_CASOS = 2;
@@ -47,11 +48,13 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 export default async function SimulacroPage({ params }: PageProps) {
   const { oposicion: oposicionSlug } = await params;
 
-  const [oposicion, bloques, todasPreguntas, todosCasos] = await Promise.all([
+  const supabase = await createClient();
+  const [oposicion, bloques, todasPreguntas, todosCasos, { data: { user } }] = await Promise.all([
     getOposicion(oposicionSlug),
     getBloquesConTemas(oposicionSlug),
     getPreguntasDeOposicion(oposicionSlug),
     getCasosPracticosDeOposicion(oposicionSlug),
+    supabase.auth.getUser(),
   ]);
   if (!oposicion) notFound();
 
@@ -80,7 +83,13 @@ export default async function SimulacroPage({ params }: PageProps) {
               Todavía no hay preguntas suficientes para armar un simulacro de esta oposición.
             </div>
           ) : (
-            <SimulacroRunner oposicionSlug={oposicionSlug} preguntas={preguntas} casos={casos} temaABloque={temaABloque} />
+            <SimulacroRunner
+              oposicionSlug={oposicionSlug}
+              preguntas={preguntas}
+              casos={casos}
+              temaABloque={temaABloque}
+              usuarioId={user?.id ?? null}
+            />
           )}
         </div>
       </Container>

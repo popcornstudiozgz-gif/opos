@@ -44,3 +44,13 @@ body {
   outline: 2px solid var(--color-brand-500);
   outline-offset: 2px;
 }
+
+/* Barra de auto-avance de FlashcardsStudio tras evaluar una tarjeta. */
+@keyframes kiuti-barra-progreso {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}

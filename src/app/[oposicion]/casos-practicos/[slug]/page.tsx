@@ -6,6 +6,7 @@ import { Card } from "@/components/ui/Card";
 import { crearMetadata } from "@/lib/site";
 import { getOposicion, getCasoPractico, getParamsCasosPracticosEstatico } from "@/lib/oposiciones";
 import { CasoRunner } from "@/components/casos-practicos/CasoRunner";
+import { createClient } from "@/lib/supabase/server";
 
 interface PageProps {
   params: Promise<{ oposicion: string; slug: string }>;
@@ -28,7 +29,12 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
 export default async function CasoPracticoPage({ params }: PageProps) {
   const { oposicion: oposicionSlug, slug } = await params;
-  const [oposicion, caso] = await Promise.all([getOposicion(oposicionSlug), getCasoPractico(oposicionSlug, slug)]);
+  const supabase = await createClient();
+  const [oposicion, caso, { data: { user } }] = await Promise.all([
+    getOposicion(oposicionSlug),
+    getCasoPractico(oposicionSlug, slug),
+    supabase.auth.getUser(),
+  ]);
   if (!oposicion || !caso || caso.preguntas.length === 0) notFound();
 
   return (
@@ -49,7 +55,13 @@ export default async function CasoPracticoPage({ params }: PageProps) {
             <p className="mt-2 whitespace-pre-line leading-relaxed text-slate-700">{caso.supuesto}</p>
           </Card>
 
-          <CasoRunner key={caso.slug} preguntas={caso.preguntas} />
+          <CasoRunner
+            key={caso.slug}
+            preguntas={caso.preguntas}
+            usuarioId={user?.id ?? null}
+            oposicionSlug={oposicionSlug}
+            casoId={caso.id}
+          />
         </div>
       </Container>
     </section>

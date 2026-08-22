@@ -5,13 +5,16 @@ import { Card } from "@/components/ui/Card";
 import { Button } from "@/components/ui/Button";
 import type { CasoPractico, Pregunta } from "@/lib/types";
 import { SimulacroQuiz, type PreguntaSimulacro } from "./SimulacroQuiz";
+import { createClient } from "@/lib/supabase/client";
+import { crearIntento, guardarRespuesta, cerrarIntento } from "@/lib/persistirIntento";
 
 /**
  * Simulacro completo: dos fases cronometradas (test + casos prácticos) con
- * corrección y puntuación al estilo del examen real. Sin persistencia en
- * servidor (la app no tiene login, como el resto del sitio): cada fase
- * se corrige en cliente y el historial de intentos se guarda en
- * localStorage, igual de efímero que el resto de la práctica sin cuenta.
+ * corrección y puntuación al estilo del examen real. El historial de
+ * intentos en `localStorage` (para anónimos, con la nota sobre 15 puntos
+ * con penalización) se mantiene tal cual; si hay sesión iniciada, al
+ * terminar la Parte 2 se guarda además un `test_intentos` (modo
+ * "simulacro") con el detalle de respuestas, igual que TestRunner/CasoRunner.
  */
 
 type Fase = "inicio" | "test" | "resultado-test" | "casos" | "resultado-final";
@@ -137,14 +140,46 @@ function RevisionRespuestas({ resultado }: { resultado: ResultadoParcial }) {
   );
 }
 
+/** Guarda el simulacro completo (ambas fases) en Supabase cuando hay sesión. Nunca rechaza. */
+async function persistirSimulacro(
+  usuarioId: string,
+  oposicionSlug: string,
+  resultadoTest: ResultadoParcial,
+  resultadoCasos: ResultadoParcial
+) {
+  const supabase = createClient();
+  const total = resultadoTest.preguntas.length + resultadoCasos.preguntas.length;
+  const aciertos = resultadoTest.aciertos + resultadoCasos.aciertos;
+
+  const intentoId = await crearIntento(supabase, { usuarioId, oposicionSlug, modo: "simulacro", total });
+  if (!intentoId) return;
+
+  const filas = [
+    ...resultadoTest.preguntas.map((p) => ({ pregunta: p, opcionId: resultadoTest.respuestas[p.id] })),
+    ...resultadoCasos.preguntas.map((p) => ({ pregunta: p, opcionId: resultadoCasos.respuestas[p.id] })),
+  ];
+  await Promise.all(
+    filas
+      .filter((f): f is { pregunta: PreguntaSimulacro; opcionId: string } => !!f.opcionId)
+      .map(({ pregunta, opcionId }) => {
+        const opcion = pregunta.opciones.find((o) => o.id === opcionId);
+        if (!opcion) return Promise.resolve();
+        return guardarRespuesta(supabase, intentoId, pregunta.id, opcionId, opcion.esCorrecta);
+      })
+  );
+
+  await cerrarIntento(supabase, intentoId, aciertos);
+}
+
 interface Props {
   oposicionSlug: string;
   preguntas: Pregunta[];
   casos: CasoPractico[];
   temaABloque: Record<string, string>;
+  usuarioId?: string | null;
 }
 
-export function SimulacroRunner({ oposicionSlug, preguntas, casos, temaABloque }: Props) {
+export function SimulacroRunner({ oposicionSlug, preguntas, casos, temaABloque, usuarioId = null }: Props) {
   const [fase, setFase] = useState<Fase>("inicio");
   const [resultadoTest, setResultadoTest] = useState<ResultadoParcial | null>(null);
   const [resultadoCasos, setResultadoCasos] = useState<ResultadoParcial | null>(null);
@@ -174,6 +209,10 @@ export function SimulacroRunner({ oposicionSlug, preguntas, casos, temaABloque }
         notaTotal: round2(resultadoTest.nota + r.nota),
       };
       guardarHistorial(oposicionSlug, [entry, ...historial].slice(0, 5));
+
+      if (usuarioId) {
+        void persistirSimulacro(usuarioId, oposicionSlug, resultadoTest, r);
+      }
     }
 
     setFase("resultado-final");

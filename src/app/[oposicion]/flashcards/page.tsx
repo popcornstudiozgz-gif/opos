@@ -11,7 +11,8 @@ import {
   getFlashcardsDeTema,
   getFlashcardsDeOposicion,
 } from "@/lib/oposiciones";
-import { FlashcardsStudio } from "@/components/flashcards/FlashcardsStudio";
+import { FlashcardsStudio, type ProgresoFlashcard } from "@/components/flashcards/FlashcardsStudio";
+import { createClient } from "@/lib/supabase/server";
 
 interface PageProps {
   params: Promise<{ oposicion: string }>;
@@ -60,6 +61,37 @@ export default async function FlashcardsPage({ params, searchParams }: PageProps
     : temaActivo
       ? await getFlashcardsDeTema(oposicionSlug, temaActivo.slug)
       : [];
+
+  const supabase = await createClient();
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
+
+  let progresoInicial: Record<string, ProgresoFlashcard> = {};
+  if (user && cards.length > 0) {
+    const { data } = await supabase
+      .from("flashcard_progreso")
+      .select("flashcard_id, repeticiones, factor_facilidad, intervalo_dias, proxima_revision")
+      .eq("user_id", user.id)
+      .eq("oposicion_slug", oposicionSlug)
+      .in(
+        "flashcard_id",
+        cards.map((c) => c.id)
+      );
+    if (data) {
+      progresoInicial = Object.fromEntries(
+        data.map((p) => [
+          p.flashcard_id,
+          {
+            repeticiones: p.repeticiones,
+            factorFacilidad: p.factor_facilidad,
+            intervaloDias: p.intervalo_dias,
+            proximaRevision: p.proxima_revision,
+          },
+        ])
+      );
+    }
+  }
 
   return (
     <section className="bg-white">
@@ -137,6 +169,9 @@ export default async function FlashcardsPage({ params, searchParams }: PageProps
               key={temaActivo?.slug ?? "todas"}
               cards={cards}
               contextLabel={temaActivo ? `Tema ${temaActivo.numero} · ${temaActivo.titulo}` : "Todas las tarjetas"}
+              oposicionSlug={oposicionSlug}
+              usuarioId={user?.id ?? null}
+              progresoInicial={progresoInicial}
             />
           )}
         </div>

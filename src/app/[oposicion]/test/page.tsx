@@ -12,6 +12,7 @@ import {
   getPreguntasDeOposicion,
 } from "@/lib/oposiciones";
 import { TestRunner } from "@/components/test/TestRunner";
+import { createClient } from "@/lib/supabase/server";
 
 interface PageProps {
   params: Promise<{ oposicion: string }>;
@@ -39,9 +40,11 @@ export default async function TestPage({ params, searchParams }: PageProps) {
   const { oposicion: oposicionSlug } = await params;
   const { tema: temaParam } = await searchParams;
 
-  const [oposicion, bloques] = await Promise.all([
+  const supabase = await createClient();
+  const [oposicion, bloques, { data: { user } }] = await Promise.all([
     getOposicion(oposicionSlug),
     getBloquesConTemas(oposicionSlug),
+    supabase.auth.getUser(),
   ]);
   if (!oposicion) notFound();
 
@@ -128,6 +131,10 @@ export default async function TestPage({ params, searchParams }: PageProps) {
               key={temaActivo?.slug ?? "todas"}
               preguntas={preguntas}
               contextLabel={temaActivo ? `Tema ${temaActivo.numero} · ${temaActivo.titulo}` : "Todas las preguntas"}
+              usuarioId={user?.id ?? null}
+              oposicionSlug={oposicionSlug}
+              modo={temaActivo ? "tema" : "aleatorio"}
+              temaSlug={temaActivo?.slug ?? null}
             />
           )}
         </div>

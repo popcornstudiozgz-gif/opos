@@ -111,6 +111,42 @@ export async function getOposicion(slug: string): Promise<Oposicion | undefined>
   return data ? mapOposicion(data) : undefined;
 }
 
+/**
+ * Cifras de una oposición para su portada (recuentos, sin traer las filas
+ * completas de preguntas/flashcards). Se apoya en los temas ya asignados a
+ * la oposición para acotar el `in (...)` de cada recuento.
+ */
+export async function getEstadisticasOposicion(oposicionSlug: string) {
+  const temas = await getTemasDeOposicion(oposicionSlug);
+  const temaSlugs = temas.map((t) => t.slug);
+  if (temaSlugs.length === 0) return { temas: 0, preguntas: 0, flashcards: 0 };
+
+  const supabase = createClient();
+  const [{ count: preguntas }, { count: flashcards }] = await Promise.all([
+    supabase.from("preguntas").select("*", { count: "exact", head: true }).in("tema_slug", temaSlugs),
+    supabase.from("flashcards").select("*", { count: "exact", head: true }).in("tema_slug", temaSlugs),
+  ]);
+  return { temas: temas.length, preguntas: preguntas ?? 0, flashcards: flashcards ?? 0 };
+}
+
+/** Cifras globales del catálogo para la portada (recuentos, sin traer filas). */
+export async function getEstadisticasCatalogo() {
+  const supabase = createClient();
+  const [{ count: oposiciones }, { count: temas }, { count: preguntas }, { count: flashcards }] =
+    await Promise.all([
+      supabase.from("oposiciones").select("*", { count: "exact", head: true }).eq("activa", true),
+      supabase.from("temas").select("*", { count: "exact", head: true }),
+      supabase.from("preguntas").select("*", { count: "exact", head: true }),
+      supabase.from("flashcards").select("*", { count: "exact", head: true }),
+    ]);
+  return {
+    oposiciones: oposiciones ?? 0,
+    temas: temas ?? 0,
+    preguntas: preguntas ?? 0,
+    flashcards: flashcards ?? 0,
+  };
+}
+
 export async function getBloquesDeOposicion(oposicionSlug: string): Promise<Bloque[]> {
   const supabase = createClient();
   const { data, error } = await supabase
