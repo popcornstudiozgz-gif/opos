@@ -1,0 +1,35 @@
+-- ════════════════════════════════════════════════════════════════════════
+-- 0010_temas_indice_estudio.sql
+--
+-- Índice de estudio de un tema: qué títulos/capítulos hay que estudiar y
+-- en qué artículos exactos de la norma están, con enlace directo a ese
+-- punto del BOE (los textos consolidados del BOE llevan un ancla `id="aN"`
+-- por artículo, p. ej. `#a159` salta directo al Artículo 159 — comprobado
+-- a mano en la Constitución antes de escribir esta migración).
+--
+-- Antes de esto, `temas.enlaces_boe` solo enlazaba a la norma completa: el
+-- opositor tenía que buscar dentro de un documento de cientos de artículos
+-- el trozo que le tocaba a ese tema. `indice_estudio` cuelga del tema
+-- canónico (no de `tema_oposicion`), igual que `enlaces_boe`: mismo
+-- criterio de reutilización entre oposiciones.
+--
+-- Reutiliza la misma taxonomía de `seccion` que ya usan flashcards/
+-- preguntas/glosario de ese tema (p. ej. `titulo-9`, `titulo-1-cap-2`) para
+-- que un futuro "practicar esta sección" (no incluido en esta entrega)
+-- pueda enlazar el punto del índice con su contenido de práctica sin
+-- inventar una segunda taxonomía.
+--
+-- Shape de cada elemento del array (ver `PuntoEstudio` en
+-- `src/lib/types.ts`):
+--   { seccion: string, titulo: string, articulos?: string, url: string }
+--
+-- `[]` por defecto: un tema sin índice todavía sigue mostrando el enlace a
+-- la norma completa (fallback ya existente en la página del tema), no un
+-- hueco vacío.
+--
+-- Ejecutar a mano en el SQL Editor de Supabase (igual que el resto de
+-- migraciones de este proyecto — no hay migración automática todavía).
+-- ════════════════════════════════════════════════════════════════════════
+
+alter table temas
+  add column if not exists indice_estudio jsonb not null default '[]';

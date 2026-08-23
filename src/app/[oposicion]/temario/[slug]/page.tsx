@@ -111,8 +111,67 @@ export default async function TemaPage({ params }: PageProps) {
           </p>
         </Card>
 
-        {/* Material de estudio */}
-        {tema.enlacesBoe && tema.enlacesBoe.length > 0 && (
+        {/* Índice de estudio: qué títulos/capítulos entran y enlace al artículo exacto del BOE */}
+        {tema.indiceEstudio && tema.indiceEstudio.length > 0 && (
+          <Card className="mt-6 border-brand-200 bg-gradient-to-br from-brand-50/60 to-white p-6">
+            <h2 className="flex items-center gap-2 text-lg font-bold text-brand-900">
+              <span role="img" aria-label="Índice de estudio">
+                📖
+              </span>
+              Qué estudiar de este tema
+            </h2>
+            <p className="mt-1 text-sm text-slate-600">
+              Los títulos y capítulos que entran en el temario, en orden. Cada uno enlaza directo a la
+              fuente oficial, sin tener que buscarlo en todo el documento.
+            </p>
+
+            <ol className="mt-4 space-y-3">
+              {tema.indiceEstudio.map((punto, i) => (
+                <li
+                  key={punto.seccion}
+                  className="flex flex-col gap-2 rounded-lg border border-brand-100 bg-white/60 p-3 sm:flex-row sm:items-center sm:justify-between"
+                >
+                  <div className="flex items-start gap-3">
+                    <span className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-brand-100 text-[11px] font-bold text-brand-700">
+                      {i + 1}
+                    </span>
+                    <div>
+                      <span className="text-sm font-medium text-slate-800">{punto.titulo}</span>
+                      {punto.articulos && (
+                        <span className="ml-2 text-xs text-slate-500">({punto.articulos})</span>
+                      )}
+                    </div>
+                  </div>
+                  <a
+                    href={punto.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex shrink-0 items-center gap-1.5 self-start rounded-lg border border-brand-300 bg-white px-3 py-1.5 text-xs font-semibold text-brand-700 shadow-sm transition-all hover:border-brand-400 hover:bg-brand-50 hover:shadow-md sm:self-center"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-3.5 w-3.5 shrink-0"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      strokeWidth={2}
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                      />
+                    </svg>
+                    {punto.url.includes("boe.es") ? "Ir al BOE" : "Ver fuente"}
+                  </a>
+                </li>
+              ))}
+            </ol>
+          </Card>
+        )}
+
+        {/* Material de estudio: fallback cuando el tema todavía no tiene índice de estudio */}
+        {(!tema.indiceEstudio || tema.indiceEstudio.length === 0) && tema.enlacesBoe && tema.enlacesBoe.length > 0 && (
           <Card className="mt-6 border-brand-200 bg-gradient-to-br from-brand-50/60 to-white p-6">
             <h2 className="flex items-center gap-2 text-lg font-bold text-brand-900">
               <span role="img" aria-label="Legislación">

@@ -7,6 +7,7 @@ import type {
   Flashcard,
   Oposicion,
   Pregunta,
+  PuntoEstudio,
   TemaDeOposicion,
   TerminoGlosario,
 } from "./types";
@@ -72,17 +73,29 @@ type FilaTemaOposicion = {
     descripcion: string;
     contenido: string | null;
     enlaces_boe: EnlaceLegal[] | null;
+    indice_estudio: PuntoEstudio[] | null;
   };
   bloques: { slug: string };
 };
 
 function mapTemaDeOposicion(fila: FilaTemaOposicion): TemaDeOposicion {
+  // El índice de estudio cuelga del tema canónico (como enlacesBoe), así
+  // que puede describir MÁS secciones de las que esta oposición concreta
+  // exige (p. ej. tema-1 documenta las 20 secciones de la CE, pero esta
+  // oposición solo pide 4 — ver secciones_incluidas). Se recorta aquí con
+  // el mismo criterio que ya usan getPreguntasDeTema/getFlashcardsDeTema,
+  // para no mandar a estudiar partes que no entran en el examen.
+  const indiceEstudio = fila.secciones_incluidas && fila.secciones_incluidas.length > 0
+    ? (fila.temas.indice_estudio ?? []).filter((punto) => fila.secciones_incluidas!.includes(punto.seccion))
+    : fila.temas.indice_estudio;
+
   return {
     slug: fila.temas.slug,
     titulo: fila.temas.titulo,
     descripcion: fila.temas.descripcion,
     contenido: fila.temas.contenido ?? undefined,
     enlacesBoe: fila.temas.enlaces_boe ?? undefined,
+    indiceEstudio: indiceEstudio && indiceEstudio.length > 0 ? indiceEstudio : undefined,
     temaSlug: fila.tema_slug,
     oposicionSlug: fila.oposicion_slug,
     bloqueSlug: fila.bloques.slug,
@@ -112,9 +125,28 @@ export async function getOposicion(slug: string): Promise<Oposicion | undefined>
 }
 
 /**
+ * Nº de preguntas distintas de `preguntas` que en realidad pertenecen a un
+ * caso práctico (tabla puente `caso_preguntas`), opcionalmente acotado a un
+ * subconjunto de temas. Esas preguntas no están disponibles en el test
+ * suelto (ver `getPreguntaIdsDeCasosPracticos`), así que se restan de los
+ * recuentos de `preguntas` en `getEstadisticasOposicion`/
+ * `getEstadisticasCatalogo` para que la cifra mostrada coincida con las
+ * preguntas realmente jugables como test.
+ */
+async function contarPreguntasDeCasosPracticos(temaSlugs?: string[]): Promise<number> {
+  const supabase = createClient();
+  let query = supabase.from("caso_preguntas").select("pregunta_id, casos_practicos!inner(tema_slug)");
+  if (temaSlugs) query = query.in("casos_practicos.tema_slug", temaSlugs);
+  const { data, error } = await query;
+  if (error) throw error;
+  return new Set((data ?? []).map((fila) => (fila as { pregunta_id: string }).pregunta_id)).size;
+}
+
+/**
  * Cifras de una oposición para su portada (recuentos, sin traer las filas
  * completas de preguntas/flashcards). Se apoya en los temas ya asignados a
- * la oposición para acotar el `in (...)` de cada recuento.
+ * la oposición para acotar el `in (...)` de cada recuento. `preguntas`
+ * excluye las que solo existen como parte de un caso práctico.
  */
 export async function getEstadisticasOposicion(oposicionSlug: string) {
   const temas = await getTemasDeOposicion(oposicionSlug);
@@ -122,27 +154,37 @@ export async function getEstadisticasOposicion(oposicionSlug: string) {
   if (temaSlugs.length === 0) return { temas: 0, preguntas: 0, flashcards: 0 };
 
   const supabase = createClient();
-  const [{ count: preguntas }, { count: flashcards }] = await Promise.all([
+  const [{ count: preguntas }, { count: flashcards }, preguntasCasoPractico] = await Promise.all([
     supabase.from("preguntas").select("*", { count: "exact", head: true }).in("tema_slug", temaSlugs),
     supabase.from("flashcards").select("*", { count: "exact", head: true }).in("tema_slug", temaSlugs),
+    contarPreguntasDeCasosPracticos(temaSlugs),
   ]);
-  return { temas: temas.length, preguntas: preguntas ?? 0, flashcards: flashcards ?? 0 };
+  return {
+    temas: temas.length,
+    preguntas: Math.max((preguntas ?? 0) - preguntasCasoPractico, 0),
+    flashcards: flashcards ?? 0,
+  };
 }
 
-/** Cifras globales del catálogo para la portada (recuentos, sin traer filas). */
+/**
+ * Cifras globales del catálogo para la portada (recuentos, sin traer
+ * filas). `preguntas` excluye las que solo existen como parte de un caso
+ * práctico (ver `contarPreguntasDeCasosPracticos`).
+ */
 export async function getEstadisticasCatalogo() {
   const supabase = createClient();
-  const [{ count: oposiciones }, { count: temas }, { count: preguntas }, { count: flashcards }] =
+  const [{ count: oposiciones }, { count: temas }, { count: preguntas }, { count: flashcards }, preguntasCasoPractico] =
     await Promise.all([
       supabase.from("oposiciones").select("*", { count: "exact", head: true }).eq("activa", true),
       supabase.from("temas").select("*", { count: "exact", head: true }),
       supabase.from("preguntas").select("*", { count: "exact", head: true }),
       supabase.from("flashcards").select("*", { count: "exact", head: true }),
+      contarPreguntasDeCasosPracticos(),
     ]);
   return {
     oposiciones: oposiciones ?? 0,
     temas: temas ?? 0,
-    preguntas: preguntas ?? 0,
+    preguntas: Math.max((preguntas ?? 0) - preguntasCasoPractico, 0),
     flashcards: flashcards ?? 0,
   };
 }
@@ -349,10 +391,29 @@ function mapPregunta(fila: FilaPregunta): Pregunta | null {
 }
 
 /**
+ * IDs de `preguntas` de un tema que están enlazadas a algún caso práctico
+ * (tabla puente `caso_preguntas`). Esas preguntas dan por hecho el
+ * contexto del supuesto narrativo del caso (p. ej. "la funcionaria del
+ * Ayuntamiento de Zamora del enunciado...") y no tienen sentido sueltas,
+ * así que se excluyen del test teórico — ver comentario en
+ * `0005_casos_practicos.sql` sobre por qué comparten tabla con `preguntas`.
+ */
+async function getPreguntaIdsDeCasosPracticos(temaSlug: string): Promise<Set<string>> {
+  const supabase = createClient();
+  const { data, error } = await supabase
+    .from("caso_preguntas")
+    .select("pregunta_id, casos_practicos!inner(tema_slug)")
+    .eq("casos_practicos.tema_slug", temaSlug);
+  if (error) throw error;
+  return new Set((data ?? []).map((fila) => fila.pregunta_id as string));
+}
+
+/**
  * Preguntas de test de un tema, recortadas al alcance de la oposición con
  * el mismo criterio que `getFlashcardsDeTema` (reutiliza
- * `tema_oposicion.secciones_incluidas`). Devuelve `[]` si el tema no está
- * asignado a la oposición.
+ * `tema_oposicion.secciones_incluidas`) y excluyendo las preguntas que
+ * pertenecen a un caso práctico (ver `getPreguntaIdsDeCasosPracticos`).
+ * Devuelve `[]` si el tema no está asignado a la oposición.
  */
 export async function getPreguntasDeTema(oposicionSlug: string, temaSlug: string): Promise<Pregunta[]> {
   const asignacion = await getTemaDeOposicion(oposicionSlug, temaSlug);
@@ -368,9 +429,15 @@ export async function getPreguntasDeTema(oposicionSlug: string, temaSlug: string
     query = query.in("seccion", asignacion.seccionesIncluidas);
   }
 
-  const { data, error } = await query.order("created_at");
+  const [{ data, error }, idsCasoPractico] = await Promise.all([
+    query.order("created_at"),
+    getPreguntaIdsDeCasosPracticos(temaSlug),
+  ]);
   if (error) throw error;
-  return (data ?? []).map((fila) => mapPregunta(fila as unknown as FilaPregunta)).filter((p): p is Pregunta => p !== null);
+  return (data ?? [])
+    .filter((fila) => !idsCasoPractico.has(fila.id))
+    .map((fila) => mapPregunta(fila as unknown as FilaPregunta))
+    .filter((p): p is Pregunta => p !== null);
 }
 
 /** Todas las preguntas de test de una oposición (unión de todos sus temas asignados). */
