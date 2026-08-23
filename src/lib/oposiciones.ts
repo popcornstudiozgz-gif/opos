@@ -455,7 +455,7 @@ type FilaCasoPracticoResumen = {
   slug: string;
   titulo: string;
   supuesto: string;
-  caso_preguntas: { count: number }[];
+  caso_preguntas: { preguntas: { seccion: string | null } }[];
 };
 
 function mapCasoPracticoResumen(fila: FilaCasoPracticoResumen): CasoPracticoResumen {
@@ -465,15 +465,31 @@ function mapCasoPracticoResumen(fila: FilaCasoPracticoResumen): CasoPracticoResu
     slug: fila.slug,
     titulo: fila.titulo,
     supuesto: fila.supuesto,
-    numPreguntas: fila.caso_preguntas[0]?.count ?? 0,
+    numPreguntas: fila.caso_preguntas.length,
   };
 }
 
 /**
- * Casos prácticos de un tema, sin cargar sus preguntas (basta el recuento
- * para la tarjeta del listado). A diferencia de `getFlashcardsDeTema` no se
- * recorta por `seccionesIncluidas` (ver `CasoPractico`): solo se comprueba
- * que el tema esté asignado a la oposición. Devuelve `[]` si no lo está.
+ * Un caso práctico solo entra en el alcance de una oposición si TODAS sus
+ * preguntas caen dentro de `secciones_incluidas` para el tema del caso —
+ * igual que ya exige `getPreguntasDeTema` para el test. Antes los casos no
+ * se recortaban nunca (ver el comentario histórico que sigue abajo en
+ * `getCasoPractico`): un caso mezcla varias secciones de su tema a
+ * propósito, y esa mezcla solo es correcta para una oposición si esta
+ * pide todas esas secciones. Un tema sin recorte (`secciones_incluidas`
+ * vacío o nulo) sigue mostrando todos sus casos, como hasta ahora.
+ */
+function casoDentroDeAlcance(seccionesDelCaso: (string | null)[], seccionesIncluidas: string[] | null | undefined): boolean {
+  if (!seccionesIncluidas || seccionesIncluidas.length === 0) return true;
+  return seccionesDelCaso.every((s) => s != null && seccionesIncluidas.includes(s));
+}
+
+/**
+ * Casos prácticos de un tema, sin cargar el enunciado completo de sus
+ * preguntas (basta la sección de cada una, para el recorte, y el recuento
+ * para la tarjeta del listado). Solo se comprueba que el tema esté
+ * asignado a la oposición — el recorte por `seccionesIncluidas` lo aplica
+ * `casoDentroDeAlcance`. Devuelve `[]` si el tema no está asignado.
  */
 export async function getCasosPracticosDeTema(
   oposicionSlug: string,
@@ -485,11 +501,13 @@ export async function getCasosPracticosDeTema(
   const supabase = createClient();
   const { data, error } = await supabase
     .from("casos_practicos")
-    .select("id, tema_slug, slug, titulo, supuesto, caso_preguntas(count)")
+    .select("id, tema_slug, slug, titulo, supuesto, caso_preguntas(preguntas(seccion))")
     .eq("tema_slug", temaSlug)
     .order("orden");
   if (error) throw error;
-  return (data ?? []).map((fila) => mapCasoPracticoResumen(fila as unknown as FilaCasoPracticoResumen));
+  return ((data ?? []) as unknown as FilaCasoPracticoResumen[])
+    .filter((fila) => casoDentroDeAlcance(fila.caso_preguntas.map((cp) => cp.preguntas.seccion), asignacion.seccionesIncluidas))
+    .map((fila) => mapCasoPracticoResumen(fila));
 }
 
 type FilaCasoPractico = {
@@ -523,8 +541,9 @@ function mapCasoPractico(fila: FilaCasoPractico): CasoPractico {
 /**
  * Un caso práctico completo por su slug, con sus preguntas ya resueltas y
  * ordenadas según `caso_preguntas.orden`. Comprueba que su tema esté
- * asignado a la oposición (sin recorte por sección, ver `CasoPractico`);
- * devuelve `undefined` si el caso no existe o su tema no está asignado.
+ * asignado a la oposición y que el caso entre en su recorte (ver
+ * `casoDentroDeAlcance`); devuelve `undefined` si el caso no existe, su
+ * tema no está asignado, o queda fuera del recorte de esta oposición.
  */
 export async function getCasoPractico(
   oposicionSlug: string,
@@ -542,6 +561,7 @@ export async function getCasoPractico(
   const fila = data as unknown as FilaCasoPractico;
   const asignacion = await getTemaDeOposicion(oposicionSlug, fila.tema_slug);
   if (!asignacion) return undefined;
+  if (!casoDentroDeAlcance(fila.caso_preguntas.map((cp) => cp.preguntas.seccion), asignacion.seccionesIncluidas)) return undefined;
 
   return mapCasoPractico(fila);
 }
@@ -555,6 +575,7 @@ export async function getCasosPracticosDeOposicion(oposicionSlug: string): Promi
   const temas = await getTemasDeOposicion(oposicionSlug);
   const temaSlugs = temas.map((t) => t.slug);
   if (temaSlugs.length === 0) return [];
+  const seccionesPorTema = new Map(temas.map((t) => [t.slug, t.seccionesIncluidas]));
 
   const supabase = createClient();
   const { data, error } = await supabase
@@ -564,7 +585,10 @@ export async function getCasosPracticosDeOposicion(oposicionSlug: string): Promi
     .order("orden");
   if (error) throw error;
 
-  return (data ?? []).map((fila) => mapCasoPractico(fila as unknown as FilaCasoPractico));
+  return (data ?? [])
+    .map((fila) => fila as unknown as FilaCasoPractico)
+    .filter((fila) => casoDentroDeAlcance(fila.caso_preguntas.map((cp) => cp.preguntas.seccion), seccionesPorTema.get(fila.tema_slug)))
+    .map((fila) => mapCasoPractico(fila));
 }
 
 /** Todos los pares oposición/slug de caso práctico publicados, para `generateStaticParams`. */
