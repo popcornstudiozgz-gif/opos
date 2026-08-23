@@ -43,6 +43,22 @@ export interface EnlaceLegal {
 }
 
 /**
+ * Un punto del índice de estudio de un tema: un título/capítulo concreto de
+ * la norma, con el rango de artículos que cubre y un enlace directo a ese
+ * punto exacto del BOE (ancla `#aN` sobre el artículo inicial — ver
+ * `0010_temas_indice_estudio.sql`). `seccion` reutiliza la misma taxonomía
+ * que `Flashcard.seccion`/`Pregunta.seccion` de ese tema, para que quede
+ * enlazable con su contenido de práctica en el futuro.
+ */
+export interface PuntoEstudio {
+  seccion: string;
+  titulo: string;
+  /** P. ej. "arts. 159-165". Ausente si el punto no se corresponde con un rango de artículos (p. ej. un anexo). */
+  articulos?: string;
+  url: string;
+}
+
+/**
  * Tema canónico: la unidad de contenido reutilizable. NO pertenece a ninguna
  * oposición en concreto — quién lo usa y en qué bloque/orden se define en
  * `AsignacionTema`.
@@ -53,6 +69,8 @@ export interface TemaCanonico {
   descripcion: string;
   contenido?: string;
   enlacesBoe?: EnlaceLegal[];
+  /** Vacío o ausente = todavía no tiene índice de estudio (fallback a `enlacesBoe`). */
+  indiceEstudio?: PuntoEstudio[];
 }
 
 /**
