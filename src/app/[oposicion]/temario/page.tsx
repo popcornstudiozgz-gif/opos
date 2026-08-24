@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 import { Container } from "@/components/ui/Container";
 import { Card } from "@/components/ui/Card";
 import { PageHeader } from "@/components/layout/PageHeader";
-import { crearMetadata } from "@/lib/site";
+import { crearMetadata, organismoAbreviado } from "@/lib/site";
 import { getOposicion, getBloquesConTemas, getOposiciones } from "@/lib/oposiciones";
 
 interface PageProps {
@@ -21,7 +21,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const oposicion = await getOposicion(slug);
   if (!oposicion) return {};
   return crearMetadata({
-    titulo: "Temario",
+    titulo: `Temario ${oposicion.nombre} ${organismoAbreviado(slug, oposicion.organismo)}`,
     descripcion: `Temario oficial de ${oposicion.nombre} · ${oposicion.organismo}, organizado por bloques.`,
     ruta: `/${slug}/temario`,
   });
@@ -37,8 +37,8 @@ export default async function TemarioPage({ params }: PageProps) {
   return (
     <>
       <PageHeader
-        titulo="Temario"
-        descripcion={`${oposicion.nombre} · ${oposicion.organismo}. Todo el contenido organizado por bloques — entra en cada tema para estudiarlo y practicar sus preguntas.`}
+        titulo={`Temario oficial de ${oposicion.nombre} · ${oposicion.organismo}`}
+        descripcion="Todo el contenido organizado por bloques — entra en cada tema para estudiarlo y practicar sus preguntas."
       />
 
       <Container className="space-y-10 py-12">

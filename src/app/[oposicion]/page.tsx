@@ -25,10 +25,13 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const oposicion = await getOposicion(slug);
   if (!oposicion) return {};
   return crearMetadata({
-    // "Oposición" al frente: es como se busca ("oposición auxiliar
-    // administrativo ayuntamiento de zaragoza"), no solo el nombre del puesto.
-    titulo: `Oposición ${oposicion.nombre} · ${oposicion.organismo}`,
-    descripcion: `${oposicion.descripcionLarga} Tests, flashcards, casos prácticos y simulacros incluidos. Empieza gratis.`,
+    // "·" en vez de "del"/"de la" antes del organismo: la preposición
+    // correcta cambia según el organismo (del Ayuntamiento, de la
+    // Diputación, del Gobierno de Aragón...), así que no es mecánico —
+    // con "·" la plantilla funciona igual para cualquier oposición nueva
+    // sin decidir nada a mano. Mismo criterio en el H1, más abajo.
+    titulo: `${oposicion.nombre} · ${oposicion.organismo}`,
+    descripcion: `Prepara la oposición de ${oposicion.nombre} · ${oposicion.organismo}: temas, test, flashcards, casos prácticos y simulacro. Empieza gratis.`,
     ruta: `/${slug}`,
   });
 }
@@ -223,7 +226,7 @@ export default async function OposicionHome({ params }: PageProps) {
                 titulo={`Noticias de ${oposicion.nombre}`}
                 subtitulo="Convocatoria, plazos y cambios normativos que afectan a esta oposición."
               />
-              <Button href={`/${slug}/noticias`} variante="contorno" tamano="sm">
+              <Button href={`/blog?oposicion=${slug}`} variante="contorno" tamano="sm">
                 Ver todas →
               </Button>
             </div>

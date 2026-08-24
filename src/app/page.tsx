@@ -15,7 +15,7 @@ import { SITE, crearMetadata } from "@/lib/site";
  * `[oposicion]/page.tsx` — esta página posiciona el catálogo en conjunto.
  */
 export const metadata: Metadata = crearMetadata({
-  titulo: "Oposiciones Zaragoza: temario, test y simulacros gratis",
+  titulo: "Oposiciones en Zaragoza: temario, test y simulacros gratis",
   descripcion: SITE.descripcionLarga,
   ruta: "/",
 });

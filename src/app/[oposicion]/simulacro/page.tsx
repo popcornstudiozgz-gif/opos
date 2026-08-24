@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { Container } from "@/components/ui/Container";
 import { PageHeader } from "@/components/layout/PageHeader";
-import { crearMetadata } from "@/lib/site";
+import { crearMetadata, nombreAbreviado, organismoConPreposicion } from "@/lib/site";
 import {
   getOposicion,
   getOposiciones,
@@ -32,8 +32,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const oposicion = await getOposicion(oposicionSlug);
   if (!oposicion) return {};
   return crearMetadata({
-    titulo: "Simulacro de examen",
-    descripcion: `Examen completo de ${oposicion.nombre} en condiciones reales: 50 preguntas cronometradas y 2 casos prácticos, con corrección y puntuación oficial.`,
+    titulo: `Simulacro de examen para ${nombreAbreviado(oposicion.nombre)} ${organismoConPreposicion(oposicionSlug, oposicion.organismo)}`,
+    descripcion: `Examen completo de ${oposicion.nombre} · ${oposicion.organismo} en condiciones reales: ${NUM_PREGUNTAS_TEST} preguntas cronometradas y ${NUM_CASOS} casos prácticos, con corrección y puntuación oficial.`,
     ruta: `/${oposicionSlug}/simulacro`,
   });
 }

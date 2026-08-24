@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import { Container } from "@/components/ui/Container";
 import { Card } from "@/components/ui/Card";
 import { PageHeader } from "@/components/layout/PageHeader";
-import { crearMetadata } from "@/lib/site";
+import { crearMetadata, organismoAbreviado, anioDeConvocatoria } from "@/lib/site";
 import { getOposicion, getOposiciones } from "@/lib/oposiciones";
 import { getConvocatoria } from "@/data/convocatorias";
 
@@ -21,9 +21,10 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const { oposicion: slug } = await params;
   const [oposicion, convocatoria] = await Promise.all([getOposicion(slug), getConvocatoria(slug)]);
   if (!oposicion || !convocatoria) return {};
+  const anio = anioDeConvocatoria(convocatoria.numero);
   return crearMetadata({
-    titulo: "Convocatoria",
-    descripcion: `Plazas, requisitos, plazos y estructura del examen de ${convocatoria.numero} · ${oposicion.nombre}.`,
+    titulo: `Convocatoria${anio ? ` ${anio}` : ""} - ${oposicion.nombre} ${organismoAbreviado(slug, oposicion.organismo)}`,
+    descripcion: `Plazas, requisitos, plazos y estructura del examen de ${convocatoria.numero} · ${oposicion.nombre} · ${oposicion.organismo} (${convocatoria.plazasTotal} plazas).`,
     ruta: `/${slug}/convocatoria`,
   });
 }
@@ -32,6 +33,8 @@ export default async function ConvocatoriaPage({ params }: PageProps) {
   const { oposicion: slug } = await params;
   const [oposicion, convocatoria] = await Promise.all([getOposicion(slug), getConvocatoria(slug)]);
   if (!oposicion || !convocatoria) notFound();
+
+  const anio = anioDeConvocatoria(convocatoria.numero);
 
   const datosClave = [
     { etiqueta: "Plazas convocadas", valor: `${convocatoria.plazasTotal}`, detalle: oposicion.nombre },
@@ -43,7 +46,7 @@ export default async function ConvocatoriaPage({ params }: PageProps) {
   return (
     <>
       <PageHeader
-        titulo="Convocatoria"
+        titulo={`Convocatoria${anio ? ` (${anio})` : ""}: ${oposicion.nombre} · ${oposicion.organismo}`}
         descripcion={`${convocatoria.numero} · ${convocatoria.plaza} · Decreto de ${convocatoria.fechaDecreto}`}
       >
         <span className="inline-flex items-center rounded-full bg-brand-100 px-3 py-1 text-xs font-semibold text-brand-700">
