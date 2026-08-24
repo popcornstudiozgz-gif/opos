@@ -4,11 +4,18 @@ name: CI
 # comprobación de tipos y tests unitarios corren siempre (no dependen de
 # nada externo). El build de producción se añade además porque hace SSG
 # real contra Supabase (`generateStaticParams` en /[oposicion]/temario/...),
-# así que solo se ejecuta si el repo tiene configurados los secrets
-# NEXT_PUBLIC_SUPABASE_URL y NEXT_PUBLIC_SUPABASE_ANON_KEY (Settings →
-# Secrets and variables → Actions) — los mismos valores que ya están en
-# Vercel. Sin ellos, ese paso se salta en vez de fallar en rojo por un
-# motivo ajeno al código.
+# así que solo se ejecuta si el repo tiene configuradas las Actions
+# variables NEXT_PUBLIC_SUPABASE_URL y NEXT_PUBLIC_SUPABASE_ANON_KEY
+# (Settings → Secrets and variables → Actions → pestaña "Variables", NO
+# "Secrets": son las claves NEXT_PUBLIC_*, pensadas para ser públicas —
+# viajan al navegador de cualquier visitante, igual que en Vercel). Sin
+# ellas, ese paso se salta en vez de fallar en rojo por un motivo ajeno al
+# código.
+#
+# (No se puede usar la context `secrets` dentro de un `if:` — GitHub
+# Actions lo rechaza con "Unrecognized named-value: 'secrets'"; de ahí que
+# esto use `vars` en vez de `secrets`, que además es lo correcto aquí
+# porque estos valores no son sensibles.)
 on:
   push:
     branches: [main]
@@ -38,8 +45,8 @@ jobs:
         run: npm test
 
       - name: Build (solo si hay credenciales de Supabase configuradas)
-        if: ${{ vars.NEXT_PUBLIC_SUPABASE_URL != '' || secrets.NEXT_PUBLIC_SUPABASE_URL != '' }}
+        if: ${{ vars.NEXT_PUBLIC_SUPABASE_URL != '' }}
         env:
-          NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL || vars.NEXT_PUBLIC_SUPABASE_URL }}
-          NEXT_PUBLIC_SUPABASE_ANON_KEY: ${{ secrets.NEXT_PUBLIC_SUPABASE_ANON_KEY || vars.NEXT_PUBLIC_SUPABASE_ANON_KEY }}
+          NEXT_PUBLIC_SUPABASE_URL: ${{ vars.NEXT_PUBLIC_SUPABASE_URL }}
+          NEXT_PUBLIC_SUPABASE_ANON_KEY: ${{ vars.NEXT_PUBLIC_SUPABASE_ANON_KEY }}
         run: npm run build
