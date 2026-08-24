@@ -55,8 +55,13 @@ export function TemaExplorerLayout({
   anchoContenido = "max-w-2xl",
   children,
 }: Props) {
-  const hrefTema = (slug: string) => `${basePath}?tema=${slug}`;
-  const hrefTodas = `${basePath}?tema=todas`;
+  // `basePath` normalmente no trae querystring (ej. `/dpz/test`), pero el
+  // glosario en raíz sí puede traerlo ya (`/glosario?oposicion=dpz`) — se
+  // añade con `&` en vez de `?` cuando corresponda, para no generar una URL
+  // con dos signos de interrogación.
+  const separador = basePath.includes("?") ? "&" : "?";
+  const hrefTema = (slug: string) => `${basePath}${separador}tema=${slug}`;
+  const hrefTodas = `${basePath}${separador}tema=todas`;
 
   return (
     <div className="flex min-h-[calc(100vh-4rem)]">

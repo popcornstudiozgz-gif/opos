@@ -366,6 +366,24 @@ export async function getGlosarioDeOposicion(oposicionSlug: string): Promise<Ter
   return porTema.flat().sort((a, b) => a.termino.localeCompare(b.termino, "es"));
 }
 
+/**
+ * Todos los términos de glosario de la plataforma, sin filtrar por
+ * oposición ni recorte — es el glosario canónico de `/glosario` (raíz),
+ * pensado como página de referencia general, no como herramienta de
+ * estudio de una oposición concreta. Cada fila de `glosario` vive una sola
+ * vez en la tabla (cuelga de `tema_slug`, no de oposición), así que no
+ * hace falta deduplicar nada aquí.
+ */
+export async function getGlosarioCompleto(): Promise<TerminoGlosario[]> {
+  const supabase = createClient();
+  const { data, error } = await supabase
+    .from("glosario")
+    .select("id, tema_slug, seccion, termino, definicion")
+    .order("termino");
+  if (error) throw error;
+  return (data ?? []).map(mapTerminoGlosario);
+}
+
 type FilaPregunta = {
   id: string;
   tema_slug: string;

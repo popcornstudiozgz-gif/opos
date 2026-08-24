@@ -17,7 +17,7 @@ export async function generateStaticParams() {
   return oposiciones.map((o) => ({ oposicion: o.slug }));
 }
 
-/** Mismo criterio que /test, /flashcards y /glosario: canonical fijo a [oposicion], nunca a searchParams. */
+/** Mismo criterio que /test y /flashcards: canonical fijo a [oposicion], nunca a searchParams. (El glosario dejó de vivir bajo [oposicion] — ver /glosario en raíz.) */
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { oposicion: oposicionSlug } = await params;
   const oposicion = await getOposicion(oposicionSlug);
