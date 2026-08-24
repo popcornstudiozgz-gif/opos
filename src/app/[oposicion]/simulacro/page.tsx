@@ -13,21 +13,13 @@ import {
 import { SimulacroRunner } from "@/components/simulacro/SimulacroRunner";
 import type { CasoPractico, Pregunta } from "@/lib/types";
 import { createClient } from "@/lib/supabase/server";
+import { mezclar } from "@/lib/mezclar";
 
 const NUM_PREGUNTAS_TEST = 50;
 const NUM_CASOS = 2;
 
 interface PageProps {
   params: Promise<{ oposicion: string }>;
-}
-
-function mezclar<T>(arr: T[]): T[] {
-  const copia = [...arr];
-  for (let i = copia.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [copia[i], copia[j]] = [copia[j], copia[i]];
-  }
-  return copia;
 }
 
 export async function generateStaticParams() {

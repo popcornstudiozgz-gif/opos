@@ -1,0 +1,45 @@
+name: CI
+
+# Se ejecuta en cada push y en cada pull request contra main: lint,
+# comprobación de tipos y tests unitarios corren siempre (no dependen de
+# nada externo). El build de producción se añade además porque hace SSG
+# real contra Supabase (`generateStaticParams` en /[oposicion]/temario/...),
+# así que solo se ejecuta si el repo tiene configurados los secrets
+# NEXT_PUBLIC_SUPABASE_URL y NEXT_PUBLIC_SUPABASE_ANON_KEY (Settings →
+# Secrets and variables → Actions) — los mismos valores que ya están en
+# Vercel. Sin ellos, ese paso se salta en vez de fallar en rojo por un
+# motivo ajeno al código.
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      - run: npm ci
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Comprobación de tipos
+        run: npm run typecheck
+
+      - name: Tests
+        run: npm test
+
+      - name: Build (solo si hay credenciales de Supabase configuradas)
+        if: ${{ vars.NEXT_PUBLIC_SUPABASE_URL != '' || secrets.NEXT_PUBLIC_SUPABASE_URL != '' }}
+        env:
+          NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL || vars.NEXT_PUBLIC_SUPABASE_URL }}
+          NEXT_PUBLIC_SUPABASE_ANON_KEY: ${{ secrets.NEXT_PUBLIC_SUPABASE_ANON_KEY || vars.NEXT_PUBLIC_SUPABASE_ANON_KEY }}
+        run: npm run build

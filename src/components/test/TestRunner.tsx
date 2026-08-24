@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/Button";
 import type { Dificultad, Pregunta } from "@/lib/types";
 import { createClient } from "@/lib/supabase/client";
 import { crearIntento, guardarRespuesta, cerrarIntento } from "@/lib/persistirIntento";
+import { mezclar } from "@/lib/mezclar";
 
 type FiltroDificultad = "todos" | Dificultad;
 type Cantidad = 10 | 20 | 30 | 50 | "todas";
@@ -24,15 +25,6 @@ const CANTIDADES: { id: Cantidad; label: string }[] = [
   { id: 50, label: "50" },
   { id: "todas", label: "Todas" },
 ];
-
-function mezclar<T>(arr: T[]): T[] {
-  const copia = [...arr];
-  for (let i = copia.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [copia[i], copia[j]] = [copia[j], copia[i]];
-  }
-  return copia;
-}
 
 interface Props {
   preguntas: Pregunta[];
