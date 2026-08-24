@@ -25,7 +25,7 @@ async function fetchAll(path) {
   return all;
 }
 
-const OPO = "auxiliar-administrativo-dpz";
+const OPO = process.argv[2] || "auxiliar-administrativo-dpz";
 
 const temaOpo = await fetchAll(`tema_oposicion?oposicion_slug=eq.${OPO}&select=tema_slug,numero,secciones_incluidas&order=numero`);
 if (temaOpo.length === 0) {
