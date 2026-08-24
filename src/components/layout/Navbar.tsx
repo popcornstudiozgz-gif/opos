@@ -19,10 +19,13 @@ export async function Navbar({ oposicionSlug }: { oposicionSlug?: string }) {
   // que el proyecto de referencia — ver `NAV_LINKS` en su `lib/site.ts`).
   //
   // Fuera de una oposición (portada del catálogo) no hay temario/test que
-  // enlazar, así que el menú es el del sitio en general: blog, FAQ y
-  // contacto. Dentro de una oposición esas páginas se quedan en el pie
-  // (siempre visible) para no saturar la navegación con enlaces que no son
-  // de esa oposición.
+  // enlazar, así que el menú es el del sitio en general: glosario (vive en
+  // raíz, independiente de oposición — ver src/app/glosario/page.tsx),
+  // blog, FAQ y contacto. Dentro de una oposición esas páginas se quedan en
+  // el pie (siempre visible) para no saturar la navegación con enlaces que
+  // no son de esa oposición — el glosario sí se repite en el menú de
+  // oposición (ver más abajo), porque ahí sí interesa el acceso directo
+  // con el filtro ya puesto.
   const navLinks = oposicion
     ? [
         { href: `/${oposicion.slug}/convocatoria`, label: "Convocatoria", principal: true },
@@ -35,6 +38,7 @@ export async function Navbar({ oposicionSlug }: { oposicionSlug?: string }) {
         { href: `/${oposicion.slug}/noticias`, label: "Noticias", principal: false },
       ]
     : [
+        { href: "/glosario", label: "Glosario", principal: true },
         { href: "/blog", label: "Blog", principal: true },
         { href: "/faq", label: "FAQ", principal: true },
         { href: "/contacto", label: "Contacto", principal: true },
