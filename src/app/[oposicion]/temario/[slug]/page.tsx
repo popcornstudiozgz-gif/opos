@@ -32,6 +32,11 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     titulo: `Tema ${tema.numero}. ${tema.titulo}`,
     descripcion: tema.descripcion,
     ruta: `/${oposicionSlug}/temario/${slug}`,
+    // Ver el comentario de `indexable` en crearMetadata: esta página nunca
+    // va a competir por el término legal (gana el BOE) y su contenido
+    // (tema.contenido) es idéntico en cada oposición que reutiliza este
+    // mismo tema_slug — decisión tomada el 24/08/2026, ver conversación.
+    indexable: false,
   });
 }
 

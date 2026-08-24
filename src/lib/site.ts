@@ -23,15 +23,27 @@ export const SITE = {
   emailContacto: "dariomarinanson@gmail.com",
 } as const;
 
-/** Construye los metadatos de una página partiendo de los valores por defecto. */
+/**
+ * Construye los metadatos de una página partiendo de los valores por defecto.
+ *
+ * `indexable = false` marca la página como `noindex, follow`: no debe
+ * aparecer en buscadores por sí sola (contenido duplicado o sin intención de
+ * búsqueda propia — p. ej. una página de tema individual, que nunca va a
+ * competir con el BOE por el término legal y solo duplica el mismo
+ * `tema.contenido` en cada oposición que reutiliza ese tema), pero sigue
+ * siendo rastreable: Google sigue los enlaces que salen de ella (a
+ * test/flashcards/casos prácticos, que sí interesa indexar) sin problema.
+ */
 export function crearMetadata({
   titulo,
   descripcion,
   ruta = "/",
+  indexable = true,
 }: {
   titulo: string;
   descripcion: string;
   ruta?: string;
+  indexable?: boolean;
 }): Metadata {
   const url = `${SITE.url}${ruta}`;
   return {
@@ -46,5 +58,6 @@ export function crearMetadata({
       locale: SITE.idioma,
       type: "website",
     },
+    ...(!indexable && { robots: { index: false, follow: true } }),
   };
 }
