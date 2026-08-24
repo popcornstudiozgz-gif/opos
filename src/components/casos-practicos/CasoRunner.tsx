@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/Button";
 import type { Pregunta } from "@/lib/types";
 import { createClient } from "@/lib/supabase/client";
 import { crearIntento, guardarRespuesta, cerrarIntento } from "@/lib/persistirIntento";
+import { mezclar } from "@/lib/mezclar";
 
 /**
  * Recorre las preguntas de un caso práctico en el orden fijado por
@@ -15,15 +16,6 @@ import { crearIntento, guardarRespuesta, cerrarIntento } from "@/lib/persistirIn
  * baraja el orden de las opciones de cada pregunta, para que la posición
  * de la correcta no sea un patrón detectable.
  */
-
-function mezclar<T>(arr: T[]): T[] {
-  const copia = [...arr];
-  for (let i = copia.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [copia[i], copia[j]] = [copia[j], copia[i]];
-  }
-  return copia;
-}
 
 interface Props {
   preguntas: Pregunta[];
