@@ -24,6 +24,11 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     titulo: caso.titulo,
     descripcion: caso.supuesto.slice(0, 160),
     ruta: `/${oposicionSlug}/casos-practicos/${slug}`,
+    // Ver el comentario de `indexable` en crearMetadata: un supuesto
+    // inventado no tiene demanda de búsqueda propia (nadie busca el
+    // escenario por su nombre), y el mismo caso se repite igual en cada
+    // oposición que reutilice ese tema_slug — decisión del 24/08/2026.
+    indexable: false,
   });
 }
 
