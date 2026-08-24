@@ -145,11 +145,6 @@ export function NavbarShell({ siteNombre, oposicion, navLinks }: Props) {
             {SITE.iniciales}
           </span>
           <span className="hidden text-lg sm:inline">{siteNombre}</span>
-          {oposicion && (
-            <span className="hidden text-sm font-medium text-slate-500 lg:inline">
-              · {oposicion.nombre}
-            </span>
-          )}
         </Link>
 
         {/* Navegación de escritorio */}
