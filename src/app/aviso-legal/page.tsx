@@ -7,6 +7,9 @@ export const metadata = crearMetadata({
   titulo: "Aviso legal",
   descripcion: `Condiciones de uso y titularidad de ${SITE.nombre}.`,
   ruta: "/aviso-legal",
+  // Sin intención de búsqueda propia — nadie busca "aviso legal
+  // oposiciones zaragoza". Decisión del 24/08/2026, ver conversación.
+  indexable: false,
 });
 
 const ULTIMA_ACTUALIZACION = "22 de agosto de 2026";

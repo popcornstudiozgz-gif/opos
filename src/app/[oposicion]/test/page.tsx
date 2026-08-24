@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import type { Metadata } from "next";
-import { crearMetadata } from "@/lib/site";
+import { crearMetadata, organismoAbreviado } from "@/lib/site";
 import {
   getOposicion,
   getOposiciones,
@@ -29,8 +29,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const oposicion = await getOposicion(oposicionSlug);
   if (!oposicion) return {};
   return crearMetadata({
-    titulo: "Test de oposición",
-    descripcion: `Practica ${oposicion.nombre} (${oposicion.organismo}) con preguntas tipo test, corrección inmediata y explicaciones.`,
+    titulo: `Test online para ${oposicion.nombre} ${organismoAbreviado(oposicionSlug, oposicion.organismo)}`,
+    descripcion: `Practica ${oposicion.nombre} · ${oposicion.organismo} con preguntas tipo test, corrección inmediata y explicaciones.`,
     ruta: `/${oposicionSlug}/test`,
   });
 }
@@ -60,8 +60,8 @@ export default async function TestPage({ params, searchParams }: PageProps) {
 
   return (
     <TemaExplorerLayout
-      titulo="Test teóricos"
-      subtitulo="Selecciona un tema para practicar"
+      titulo="Test"
+      subtitulo={`${oposicion.nombre} · ${oposicion.organismo} — selecciona un tema para practicar`}
       bloques={bloques}
       basePath={`/${oposicionSlug}/test`}
       opcionTodos={{ label: "Todas las preguntas", icono: "📋", activo: todasActivo }}
@@ -71,7 +71,7 @@ export default async function TestPage({ params, searchParams }: PageProps) {
         /* ── Landing: elige un tema o bloque ── */
         <div className="space-y-6">
           <div>
-            <h2 className="text-2xl font-bold text-brand-900">Test teóricos</h2>
+            <h2 className="text-2xl font-bold text-brand-900">Test</h2>
             <p className="mt-1 text-slate-500">
               Selecciona un tema del menú para empezar a practicar con corrección y explicaciones
               al instante.

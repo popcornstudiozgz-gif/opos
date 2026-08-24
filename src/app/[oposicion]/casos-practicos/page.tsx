@@ -3,7 +3,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { Card } from "@/components/ui/Card";
 import { Button } from "@/components/ui/Button";
-import { crearMetadata } from "@/lib/site";
+import { crearMetadata, organismoAbreviado, nombreAbreviado } from "@/lib/site";
 import { getOposicion, getOposiciones, getBloquesConTemas, getCasosPracticosDeTema } from "@/lib/oposiciones";
 import { TemaExplorerLayout } from "@/components/layout/TemaExplorerLayout";
 
@@ -23,8 +23,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const oposicion = await getOposicion(oposicionSlug);
   if (!oposicion) return {};
   return crearMetadata({
-    titulo: "Casos prácticos",
-    descripcion: `Supuestos prácticos de ${oposicion.nombre} (${oposicion.organismo}) para aplicar la teoría, con preguntas encadenadas y corrección explicada.`,
+    titulo: `Casos prácticos para ${nombreAbreviado(oposicion.nombre)} ${organismoAbreviado(oposicionSlug, oposicion.organismo)}`,
+    descripcion: `Supuestos reales de ${oposicion.nombre} · ${oposicion.organismo} resueltos con preguntas encadenadas y corrección explicada, tema a tema.`,
     ruta: `/${oposicionSlug}/casos-practicos`,
   });
 }
@@ -47,7 +47,7 @@ export default async function CasosPracticosPage({ params, searchParams }: PageP
   return (
     <TemaExplorerLayout
       titulo="Casos prácticos"
-      subtitulo="Selecciona un tema para practicar"
+      subtitulo={`${oposicion.nombre} · ${oposicion.organismo} — selecciona un tema para practicar`}
       bloques={bloques}
       basePath={`/${oposicionSlug}/casos-practicos`}
       temaActivoSlug={temaActivo?.slug}

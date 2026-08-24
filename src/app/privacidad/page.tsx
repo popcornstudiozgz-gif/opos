@@ -8,6 +8,7 @@ export const metadata = crearMetadata({
   titulo: "Política de privacidad",
   descripcion: `Cómo tratamos tus datos personales en ${SITE.nombre}.`,
   ruta: "/privacidad",
+  indexable: false,
 });
 
 const ULTIMA_ACTUALIZACION = "22 de agosto de 2026";

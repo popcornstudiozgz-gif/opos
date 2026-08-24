@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import type { Metadata } from "next";
-import { crearMetadata } from "@/lib/site";
+import { crearMetadata, organismoAbreviado } from "@/lib/site";
 import {
   getOposicion,
   getOposiciones,
@@ -34,8 +34,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const oposicion = await getOposicion(oposicionSlug);
   if (!oposicion) return {};
   return crearMetadata({
-    titulo: "Flashcards",
-    descripcion: `Repasa ${oposicion.nombre} (${oposicion.organismo}) con flashcards: pregunta y respuesta, tema a tema.`,
+    titulo: `Flashcards para ${oposicion.nombre} ${organismoAbreviado(oposicionSlug, oposicion.organismo)}`,
+    descripcion: `Repasa ${oposicion.nombre} · ${oposicion.organismo} con flashcards: pregunta y respuesta, tema a tema.`,
     ruta: `/${oposicionSlug}/flashcards`,
   });
 }
@@ -95,7 +95,7 @@ export default async function FlashcardsPage({ params, searchParams }: PageProps
   return (
     <TemaExplorerLayout
       titulo="Flashcards"
-      subtitulo="Selecciona un tema para repasar"
+      subtitulo={`${oposicion.nombre} · ${oposicion.organismo} — selecciona un tema para repasar`}
       bloques={bloques}
       basePath={`/${oposicionSlug}/flashcards`}
       opcionTodos={{ label: "Todas las tarjetas", icono: "🃏", activo: todasActivo }}

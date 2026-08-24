@@ -11,8 +11,10 @@ import { getArticulosPublicados } from "@/lib/blog";
  * entran aquí a propósito: son `noindex` (ver `crearMetadata` en
  * `lib/site.ts`), y listar en el sitemap una URL marcada `noindex` es una
  * inconsistencia que las propias herramientas de SEO señalan como error.
- * El glosario tampoco entra por oposición: vive en una única URL de raíz,
- * `/glosario` (ver `src/app/glosario/page.tsx`).
+ * Tampoco entran aviso legal, cookies y privacidad, por el mismo motivo
+ * (sin intención de búsqueda propia — ver esas 3 páginas). El glosario y
+ * las noticias tampoco entran por oposición: viven en una única URL de
+ * raíz cada uno, `/glosario` y `/blog` (con `?oposicion=` opcional).
  */
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const [oposiciones, articulos] = await Promise.all([getOposiciones(), getArticulosPublicados()]);
@@ -28,7 +30,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         `${base}/casos-practicos`,
         `${base}/flashcards`,
         `${base}/simulacro`,
-        `${base}/noticias`,
       ];
       if (convocatoria) rutasOposicion.push(`${base}/convocatoria`);
       return rutasOposicion;
@@ -36,23 +37,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   );
 
   const rutasBlog = ["/blog", ...articulos.map((a) => `/blog/${a.slug}`)];
-  const rutasLegales = ["/aviso-legal", "/privacidad", "/cookies"];
 
-  // /glosario: una sola entrada en raíz (no por oposición) — ver la
-  // cabecera de src/app/glosario/page.tsx.
-  const rutas = [
-    "/",
-    "/faq",
-    "/contacto",
-    "/glosario",
-    ...rutasBlog,
-    ...porOposicion.flat(),
-    ...rutasLegales,
-  ];
+  const rutas = ["/", "/faq", "/contacto", "/glosario", ...rutasBlog, ...porOposicion.flat()];
 
   return rutas.map((ruta) => ({
     url: `${SITE.url}${ruta}`,
-    changeFrequency: rutasLegales.includes(ruta) ? "yearly" : "weekly",
-    priority: ruta === "/" ? 1 : rutasLegales.includes(ruta) ? 0.2 : 0.7,
+    changeFrequency: "weekly",
+    priority: ruta === "/" ? 1 : 0.7,
   }));
 }

@@ -42,6 +42,15 @@ const nextConfig: NextConfig = {
         destination: "/glosario?oposicion=:oposicion",
         permanent: true,
       },
+      // Mismo caso que el glosario, pero con /noticias hacia /blog: un
+      // artículo puede etiquetarse a varias oposiciones a la vez, así que
+      // una ruta separada por oposición podía repetir la misma noticia en
+      // dos URLs (ver src/app/blog/page.tsx).
+      {
+        source: "/:oposicion/noticias",
+        destination: "/blog?oposicion=:oposicion",
+        permanent: true,
+      },
     ];
   },
 };

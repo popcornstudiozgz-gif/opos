@@ -7,6 +7,7 @@ export const metadata = crearMetadata({
   titulo: "Política de cookies",
   descripcion: `Qué cookies usa ${SITE.nombre} y para qué.`,
   ruta: "/cookies",
+  indexable: false,
 });
 
 const ULTIMA_ACTUALIZACION = "22 de agosto de 2026";
