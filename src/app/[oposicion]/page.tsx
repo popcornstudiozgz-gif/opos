@@ -30,7 +30,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     // Diputación, del Gobierno de Aragón...), así que no es mecánico —
     // con "·" la plantilla funciona igual para cualquier oposición nueva
     // sin decidir nada a mano. Mismo criterio en el H1, más abajo.
-    titulo: `${oposicion.nombre} · ${oposicion.organismo}`,
+    titulo: `${oposicion.nombre} · ${oposicion.organismo} | Oposición`,
     descripcion: `Prepara la oposición de ${oposicion.nombre} · ${oposicion.organismo}: temas, test, flashcards, casos prácticos y simulacro. Empieza gratis.`,
     ruta: `/${slug}`,
   });
