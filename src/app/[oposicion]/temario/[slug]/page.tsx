@@ -87,7 +87,7 @@ export default async function TemaPage({ params }: PageProps) {
       icono: "🔎",
       titulo: "Glosario",
       descripcion: "Definiciones de los términos técnicos más importantes de esta unidad.",
-      href: `/${oposicionSlug}/glosario?tema=${slug}`,
+      href: `/glosario?oposicion=${oposicionSlug}&tema=${slug}`,
       label: "Ver términos",
       disponible: glosario.length > 0,
       cantidad: glosario.length,
