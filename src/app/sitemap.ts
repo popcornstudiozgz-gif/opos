@@ -1,20 +1,23 @@
 import type { MetadataRoute } from "next";
 import { SITE } from "@/lib/site";
-import { getOposiciones, getTemasDeOposicion } from "@/lib/oposiciones";
+import { getOposiciones } from "@/lib/oposiciones";
 import { getConvocatoria } from "@/data/convocatorias";
 import { getArticulosPublicados } from "@/lib/blog";
 
-/** Genera el sitemap.xml recorriendo todas las oposiciones activas del catálogo. */
+/**
+ * Genera el sitemap.xml recorriendo todas las oposiciones activas del
+ * catálogo. Las páginas de tema individual (`/[oposicion]/temario/[slug]`)
+ * NO entran aquí a propósito: son `noindex` (ver `crearMetadata` en
+ * `lib/site.ts`), y listar en el sitemap una URL marcada `noindex` es una
+ * inconsistencia que las propias herramientas de SEO señalan como error.
+ */
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const [oposiciones, articulos] = await Promise.all([getOposiciones(), getArticulosPublicados()]);
 
   const porOposicion = await Promise.all(
     oposiciones.map(async (o) => {
       const base = `/${o.slug}`;
-      const [convocatoria, temas] = await Promise.all([
-        getConvocatoria(o.slug),
-        getTemasDeOposicion(o.slug),
-      ]);
+      const convocatoria = await getConvocatoria(o.slug);
       const rutasOposicion = [
         base,
         `${base}/temario`,
@@ -26,7 +29,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         `${base}/noticias`,
       ];
       if (convocatoria) rutasOposicion.push(`${base}/convocatoria`);
-      return [...rutasOposicion, ...temas.map((t) => `${base}/temario/${t.slug}`)];
+      return rutasOposicion;
     })
   );
 
