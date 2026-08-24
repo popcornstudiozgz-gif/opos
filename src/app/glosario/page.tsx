@@ -5,6 +5,7 @@ import { Navbar } from "@/components/layout/Navbar";
 import { crearMetadata, SITE } from "@/lib/site";
 import {
   getOposicion,
+  getOposiciones,
   getBloquesConTemas,
   getGlosarioDeTema,
   getGlosarioDeOposicion,
@@ -56,7 +57,7 @@ export default async function GlosarioPage({ searchParams }: PageProps) {
   // sidebar de bloques/temas — esa estructura solo tiene sentido dentro de
   // una oposición concreta.
   if (!oposicion) {
-    const terminos = await getGlosarioCompleto();
+    const [terminos, oposiciones] = await Promise.all([getGlosarioCompleto(), getOposiciones()]);
     return (
       <>
         <Navbar />
@@ -70,6 +71,24 @@ export default async function GlosarioPage({ searchParams }: PageProps) {
               {terminos.length} definiciones claras, de todas las oposiciones del catálogo. Si estás
               preparando una en concreto, entra en su ficha para ver el glosario filtrado por tema.
             </p>
+
+            {/* Acceso directo al glosario ya filtrado por oposición — no un
+                sidebar permanente como en test/flashcards, porque aquí no
+                hay temas que listar sin elegir antes una oposición. */}
+            {oposiciones.length > 0 && (
+              <div className="mt-6 flex flex-wrap items-center gap-2">
+                <span className="text-sm font-medium text-slate-500">Filtra por tu oposición:</span>
+                {oposiciones.map((o) => (
+                  <Link
+                    key={o.slug}
+                    href={`/glosario?oposicion=${o.slug}`}
+                    className="rounded-full border border-brand-100 bg-brand-50 px-3.5 py-1.5 text-sm font-medium text-brand-700 transition-colors hover:bg-brand-100"
+                  >
+                    {o.nombre}
+                  </Link>
+                ))}
+              </div>
+            )}
 
             <div className="mt-8">
               <GlosarioBuscador terminos={terminos} />

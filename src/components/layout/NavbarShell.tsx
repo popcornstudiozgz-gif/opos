@@ -130,8 +130,14 @@ export function NavbarShell({ siteNombre, oposicion, navLinks }: Props) {
   return (
     <header className="sticky top-0 z-40 border-b border-brand-100 bg-white/90 backdrop-blur">
       <div className="mx-auto flex h-16 w-full max-w-6xl items-center justify-between px-4 sm:px-6 lg:px-8">
+        {/*
+          El logo lleva al inicio de "donde estás": la home de la oposición
+          activa si hay una, o la portada general si no. "Cambiar oposición"
+          (más abajo) es un elemento aparte para el otro caso de uso —
+          antes ambos enlazaban a "/", duplicando la misma acción.
+        */}
         <Link
-          href="/"
+          href={oposicion ? `/${oposicion.slug}` : "/"}
           className="flex items-center gap-2 font-black text-brand-900"
           onClick={() => setMenuMovilAbierto(false)}
         >
