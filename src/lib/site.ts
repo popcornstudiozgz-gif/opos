@@ -13,8 +13,8 @@ export const SITE = {
   descripcionCorta: "Oposiciones Zaragoza: temario, test y simulacros para preparar tu oposición.",
   descripcionLarga:
     "Prepara tu oposición en Zaragoza gratis: novedades, temario oficial, test, flashcards, casos prácticos y simulacros cronometrados.",
-  // Dominio propio (comprado en cdmon). robots.ts sigue bloqueando la
-  // indexación a propósito mientras el sitio no esté listo para lanzarse.
+  // Dominio propio (comprado en cdmon). Indexación abierta desde el
+  // lanzamiento (25/08/2026) — ver robots.ts.
   url: "https://oposicioneszaragoza.es",
   idioma: "es-ES",
   // Datos del titular para las páginas legales (aviso legal, privacidad,

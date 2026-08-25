@@ -1,6 +1,13 @@
 import Link from "next/link";
 import { requireAdmin } from "@/lib/adminAuth";
-import { SITE } from "@/lib/site";
+import { SITE, crearMetadata } from "@/lib/site";
+
+export const metadata = crearMetadata({
+  titulo: "Admin",
+  descripcion: "Panel de administración.",
+  ruta: "/admin",
+  indexable: false, // sección privada, sin valor de búsqueda
+});
 
 /**
  * Sección de admin: protegida por `requireAdmin()` (email en `ADMIN_EMAILS`),

@@ -10,6 +10,7 @@ export const metadata = crearMetadata({
   titulo: "Resultado del test",
   descripcion: "Revisión de un test completado.",
   ruta: "/perfil",
+  indexable: false, // página privada, sin valor de búsqueda propio
 });
 
 const LETRAS = ["A", "B", "C", "D"] as const;

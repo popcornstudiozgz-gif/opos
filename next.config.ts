@@ -14,8 +14,9 @@ const nextConfig: NextConfig = {
       // El slug de Auxiliar Administrativo pasó de "auxiliar-administrativo"
       // a "auxiliar-administrativo-ayto-zaragoza" (para dejar sitio a otras
       // oposiciones con el mismo nombre de puesto, como la DPZ o la DGA).
-      // robots.ts sigue bloqueando la indexación, así que esto es solo por
-      // si hay algún enlace guardado a mano.
+      // Con robots.ts ya abierto a la indexación (lanzamiento, 25/08/2026),
+      // este redirect es lo que evita un 404 si Google llegó a indexar el
+      // slug viejo, además de cubrir cualquier enlace guardado a mano.
       //
       // Va ANTES que el redirect de /glosario de abajo a propósito: así, un
       // enlace viejo a /auxiliar-administrativo/glosario pasa primero por

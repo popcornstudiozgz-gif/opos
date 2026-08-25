@@ -10,6 +10,7 @@ export const metadata = crearMetadata({
   titulo: "Mi perfil",
   descripcion: "Gestiona tu cuenta y consulta tu progreso.",
   ruta: "/perfil",
+  indexable: false, // página privada, sin valor de búsqueda propio
 });
 
 /**
