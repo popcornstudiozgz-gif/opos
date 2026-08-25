@@ -1,0 +1,45 @@
+<!--
+  Plantilla de "Confirm signup" para Supabase Auth.
+
+  No se sube por código: se pega a mano en el dashboard de Supabase →
+  Authentication → Emails → Templates → "Confirm signup", en el campo
+  "Message body" (HTML). El asunto ("Subject heading") se pone en el campo
+  de al lado, sugerido: "Confirma tu cuenta en Oposiciones Zaragoza".
+
+  Variables que usa Supabase (no tocar, las rellena él): {{ .ConfirmationURL }}.
+  HTML con estilos inline y tablas a propósito — es lo único que renderiza
+  igual en todos los clientes de correo (Gmail, Outlook...), a diferencia
+  de <style> o flexbox/grid, que muchos ignoran o rompen.
+-->
+<div style="background-color:#eef4fb;padding:32px 16px;font-family:Arial,Helvetica,sans-serif;">
+  <table role="presentation" width="100%" style="max-width:480px;margin:0 auto;border-collapse:collapse;">
+    <tr>
+      <td style="padding-bottom:24px;text-align:center;">
+        <span style="display:inline-block;width:48px;height:48px;line-height:48px;border-radius:12px;background-color:#1f4f96;color:#ffffff;font-weight:bold;font-size:18px;text-align:center;">OZ</span>
+      </td>
+    </tr>
+    <tr>
+      <td style="background-color:#ffffff;border:1px solid #d6e4f5;border-radius:12px;padding:32px;text-align:center;">
+        <h1 style="margin:0 0 12px;font-size:20px;color:#142b4f;">Confirma tu cuenta</h1>
+        <p style="margin:0 0 24px;font-size:15px;line-height:1.5;color:#334155;">
+          Gracias por registrarte en <strong>Oposiciones Zaragoza</strong>. Confirma tu correo
+          electrónico para activar tu cuenta y empezar a preparar tu oposición.
+        </p>
+        <a href="{{ .ConfirmationURL }}"
+           style="display:inline-block;background-color:#1f4f96;color:#ffffff;text-decoration:none;font-weight:bold;font-size:15px;padding:12px 28px;border-radius:8px;">
+          Confirmar mi correo
+        </a>
+        <p style="margin:24px 0 0;font-size:13px;color:#94a3b8;">
+          Si el botón no funciona, copia y pega este enlace en tu navegador:<br>
+          <a href="{{ .ConfirmationURL }}" style="color:#1f4f96;word-break:break-all;">{{ .ConfirmationURL }}</a>
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td style="padding-top:20px;text-align:center;font-size:12px;color:#94a3b8;">
+        Recibes este correo porque alguien se ha registrado con esta dirección en
+        oposicioneszaragoza.es. Si no has sido tú, puedes ignorar este mensaje.
+      </td>
+    </tr>
+  </table>
+</div>
