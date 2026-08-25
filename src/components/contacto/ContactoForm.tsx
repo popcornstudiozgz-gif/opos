@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import type { FormEvent } from "react";
+import Link from "next/link";
 import { Card } from "@/components/ui/Card";
 import { Button } from "@/components/ui/Button";
 import { enviarContacto, TIPOS_CONTACTO, type TipoContacto } from "@/lib/contacto";
@@ -42,6 +43,7 @@ export function ContactoForm({ oposiciones, oposicionInicial }: { oposiciones: O
   const [tipo, setTipo] = useState<TipoContacto>("duda");
   const [referencia, setReferencia] = useState("");
   const [mensaje, setMensaje] = useState("");
+  const [newsletterOptin, setNewsletterOptin] = useState(false);
 
   async function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -63,6 +65,7 @@ export function ContactoForm({ oposiciones, oposicionInicial }: { oposiciones: O
         tipo,
         mensaje,
         referencia,
+        newsletterOptin,
       });
       setEstado("enviado");
     } catch {
@@ -173,6 +176,24 @@ export function ContactoForm({ oposiciones, oposicionInicial }: { oposiciones: O
             maxLength={4000}
           />
         </Campo>
+
+        <label htmlFor="newsletter" className="flex cursor-pointer items-start gap-2.5 text-sm text-slate-600">
+          <input
+            id="newsletter"
+            type="checkbox"
+            checked={newsletterOptin}
+            onChange={(e) => setNewsletterOptin(e.target.checked)}
+            className="mt-0.5 h-4 w-4 shrink-0 rounded border-brand-300 text-brand-600 focus:ring-brand-500/30"
+          />
+          <span>
+            Quiero recibir por email novedades y contenido de preparación. Puedes darte de baja
+            cuando quieras. Consulta cómo tratamos tus datos en la{" "}
+            <Link href="/privacidad" className="font-semibold text-brand-600 underline hover:text-brand-800">
+              política de privacidad
+            </Link>
+            .
+          </span>
+        </label>
 
         {estado === "error" && (
           <p className="rounded-lg bg-red-50 px-4 py-3 text-sm text-red-700">

@@ -23,6 +23,7 @@ export interface DatosContacto {
   tipo: TipoContacto;
   mensaje: string;
   referencia: string;
+  newsletterOptin: boolean;
 }
 
 export async function enviarContacto(datos: DatosContacto): Promise<void> {
@@ -34,6 +35,7 @@ export async function enviarContacto(datos: DatosContacto): Promise<void> {
     tipo: datos.tipo,
     mensaje: datos.mensaje.trim(),
     referencia: datos.referencia.trim() || null,
+    newsletter_optin: datos.newsletterOptin,
   });
   if (error) throw error;
 }

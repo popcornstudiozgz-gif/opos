@@ -11,7 +11,7 @@ export const metadata = crearMetadata({
   indexable: false,
 });
 
-const ULTIMA_ACTUALIZACION = "22 de agosto de 2026";
+const ULTIMA_ACTUALIZACION = "25 de agosto de 2026";
 
 export default function PrivacidadPage() {
   return (
@@ -39,6 +39,8 @@ export default function PrivacidadPage() {
                   <strong>Al registrarte:</strong> email, nombre (si lo indicas) y contraseña. La
                   contraseña se gestiona de forma cifrada por nuestro proveedor de autenticación
                   (Supabase) — nunca la almacenamos en texto plano ni tenemos acceso a ella.
+                  Opcionalmente, también qué oposición te interesa (o si quieres acceso a todas) y
+                  si aceptas recibir comunicaciones por email (ver más abajo).
                 </li>
                 <li>
                   <strong>Al usar la plataforma:</strong> los resultados de tus tests, casos
@@ -48,6 +50,11 @@ export default function PrivacidadPage() {
                 <li>
                   <strong>Si nos escribes:</strong> los datos que incluyas en el formulario de
                   contacto (nombre si lo indicas, tu email y el mensaje).
+                </li>
+                <li>
+                  <strong>Si marcas la casilla de comunicaciones por email</strong> (al registrarte
+                  o al escribirnos): tu email y nombre pasan también a nuestra plataforma de envío
+                  de correos (Brevo) para poder mandarte esas comunicaciones.
                 </li>
               </ul>
               <p className="mt-2 text-slate-700">
@@ -70,10 +77,16 @@ export default function PrivacidadPage() {
                   repetición espaciada de tus flashcards.
                 </li>
                 <li>Responder a las consultas que nos envíes.</li>
+                <li>
+                  Avisarte por email de novedades y contenido de preparación, <strong>solo si has
+                  marcado expresamente la casilla de consentimiento</strong> al registrarte o al
+                  escribirnos. Puedes retirar este consentimiento cuando quieras, sin que afecte al
+                  resto del servicio, dándote de baja desde el propio email o escribiéndonos.
+                </li>
               </ul>
               <p className="mt-2 text-slate-700">
-                No utilizamos tus datos con fines publicitarios ni los cedemos a terceros para que
-                los usen con sus propios fines.
+                No utilizamos tus datos con fines publicitarios sin tu consentimiento expreso, ni
+                los cedemos a terceros para que los usen con sus propios fines.
               </p>
             </section>
 
@@ -82,7 +95,10 @@ export default function PrivacidadPage() {
               <p className="mt-2 text-slate-700">
                 Tratamos tus datos para poder prestarte el servicio que solicitas al registrarte
                 (gestión de tu cuenta y de tu progreso de estudio) y, cuando corresponda, con tu
-                consentimiento (por ejemplo, al escribirnos a través del formulario de contacto).
+                consentimiento (por ejemplo, al escribirnos a través del formulario de contacto, o
+                al marcar la casilla de comunicaciones por email). El envío de novedades y
+                comunicaciones comerciales por email se basa siempre en tu consentimiento expreso
+                (casilla desmarcada por defecto), nunca en el simple hecho de registrarte.
               </p>
             </section>
 
@@ -112,6 +128,11 @@ export default function PrivacidadPage() {
                 </li>
                 <li>
                   <strong>Vercel</strong> — alojamiento (hosting) de la aplicación web.
+                </li>
+                <li>
+                  <strong>Brevo</strong> — envío de correos electrónicos, tanto de gestión de tu
+                  cuenta como, si has dado tu consentimiento, comunicaciones informativas o
+                  comerciales.
                 </li>
               </ul>
               <p className="mt-2 text-slate-700">
