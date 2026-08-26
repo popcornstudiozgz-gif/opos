@@ -101,6 +101,12 @@ async function manejarNuevoAlumno(record: Record<string, unknown>, apiKey: strin
     else console.error("❌ brevo-nuevo-alumno: falta BREVO_LIST_ID_NEWSLETTER (opt-in de newsletter no aplicado).");
   }
 
+  // Log explícito de lo que se manda, tenga o no éxito: es lo único que
+  // permite diagnosticar "el opt-in no hace nada en Brevo" desde los logs
+  // de Vercel sin adivinar — comprueba aquí si `newsletterOptin` llegó en
+  // `true` y si el id de la lista es el que esperas.
+  console.log(`brevo-nuevo-alumno: alta de ${email} — newsletterOptin=${newsletterOptin}, listIds=[${listIds.join(", ")}]`);
+
   const res = await fetch(BREVO_CONTACTS_URL, {
     method: "POST",
     headers: { "content-type": "application/json", "api-key": apiKey },
@@ -117,11 +123,12 @@ async function manejarNuevoAlumno(record: Record<string, unknown>, apiKey: strin
     }),
   });
 
+  const resBody = await res.text();
   if (!res.ok) {
-    const body = await res.text();
-    console.error(`❌ brevo-nuevo-alumno: Brevo respondió ${res.status}: ${body}`);
+    console.error(`❌ brevo-nuevo-alumno: Brevo respondió ${res.status}: ${resBody}`);
     return NextResponse.json({ error: "brevo error" }, { status: 502 });
   }
+  console.log(`brevo-nuevo-alumno: Brevo respondió ${res.status} para ${email}: ${resBody}`);
 
   // Aviso al admin: best-effort, no debe tumbar la respuesta si falla (el
   // alta en Brevo, que es lo importante, ya se ha completado arriba). Con
@@ -137,6 +144,11 @@ async function manejarNuevoContacto(record: Record<string, unknown>, apiKey: str
 
   const nombre = record.nombre as string | null;
   const newsletterOptin = Boolean(record.newsletter_optin);
+
+  // Log explícito SIEMPRE (aunque sea false): confirma si el checkbox llegó
+  // marcado desde el formulario antes de intentar nada con Brevo — sin
+  // esto, "no hace nada" no se distingue de "nunca llegó marcado".
+  console.log(`brevo-nuevo-alumno (contacto): mensaje de ${email} — newsletterOptin=${newsletterOptin}`);
 
   // Alta en Brevo solo con consentimiento explícito — el formulario de
   // contacto en sí no da base legal para marketing (ver migración 0012).
@@ -157,8 +169,11 @@ async function manejarNuevoContacto(record: Record<string, unknown>, apiKey: str
           updateEnabled: true,
         }),
       });
+      const resBody = await res.text();
       if (!res.ok) {
-        console.error(`❌ brevo-nuevo-alumno (contacto): Brevo respondió ${res.status}: ${await res.text()}`);
+        console.error(`❌ brevo-nuevo-alumno (contacto): Brevo respondió ${res.status}: ${resBody}`);
+      } else {
+        console.log(`brevo-nuevo-alumno (contacto): Brevo respondió ${res.status} para ${email} en lista ${listId}: ${resBody}`);
       }
     }
   }
