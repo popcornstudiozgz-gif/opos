@@ -168,7 +168,14 @@ async function persistirSimulacro(
       })
   );
 
-  await cerrarIntento(supabase, intentoId, aciertos);
+  await cerrarIntento(supabase, intentoId, aciertos, {
+    total_test: resultadoTest.preguntas.length,
+    aciertos_test: resultadoTest.aciertos,
+    nota_test: round2(resultadoTest.nota),
+    total_casos: resultadoCasos.preguntas.length,
+    aciertos_casos: resultadoCasos.aciertos,
+    nota_casos: round2(resultadoCasos.nota),
+  });
 }
 
 interface Props {

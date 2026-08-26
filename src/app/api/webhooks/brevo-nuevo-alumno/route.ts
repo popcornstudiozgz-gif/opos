@@ -8,11 +8,13 @@ import { NextResponse } from "next/server";
  *
  *   - INSERT en `profiles` (alta de usuario nuevo, trigger `handle_new_user`
  *     en `supabase/migrations/0007_usuarios_progreso.sql`): da de alta/
- *     actualiza el contacto en Brevo, lista `alumnos-activos`, y te avisa
- *     por correo a `ADMIN_EMAILS` (Supabase no avisa de esto por sí solo).
- *     El alta en esta lista NO depende de `newsletter_optin` — es gestión
- *     del servicio (eres alumno), no marketing. Para campañas comerciales,
- *     segmenta en Brevo por el atributo `NEWSLETTER_OPTIN = true`.
+ *     actualiza el contacto en Brevo, siempre en la lista `alumnos-activos`
+ *     (gestión del servicio, no marketing — no depende de `newsletter_optin`),
+ *     y además en `BREVO_LIST_ID_NEWSLETTER` si marcó el checkbox de
+ *     newsletter — así el opt-in tiene un efecto real en Brevo (antes solo
+ *     quedaba como atributo `NEWSLETTER_OPTIN`, sin mover al contacto a
+ *     ninguna lista). Te avisa por correo a `ADMIN_EMAILS` con el detalle
+ *     del registro (Supabase no avisa de esto por sí solo).
  *
  *   - INSERT en `contactos` (formulario de contacto): solo si
  *     `newsletter_optin` es `true` (checkbox del formulario, ver
@@ -85,6 +87,17 @@ async function manejarNuevoAlumno(record: Record<string, unknown>, apiKey: strin
   const interesTodas = Boolean(record.interes_todas_oposiciones);
   const newsletterOptin = Boolean(record.newsletter_optin);
 
+  // Lista de servicio siempre; lista de newsletter solo si dio su consentimiento
+  // explícito — así el checkbox tiene un efecto real en Brevo, no solo un
+  // atributo informativo. Sin `BREVO_LIST_ID_NEWSLETTER` configurada, se
+  // avisa por consola pero no se bloquea el alta del alumno.
+  const listIds = [Number(listId)];
+  const listIdNewsletter = process.env.BREVO_LIST_ID_NEWSLETTER;
+  if (newsletterOptin) {
+    if (listIdNewsletter) listIds.push(Number(listIdNewsletter));
+    else console.error("❌ brevo-nuevo-alumno: falta BREVO_LIST_ID_NEWSLETTER (opt-in de newsletter no aplicado).");
+  }
+
   const res = await fetch(BREVO_CONTACTS_URL, {
     method: "POST",
     headers: { "content-type": "application/json", "api-key": apiKey },
@@ -96,7 +109,7 @@ async function manejarNuevoAlumno(record: Record<string, unknown>, apiKey: strin
         OPOSICIONES: interesTodas ? "todas" : (oposicionInteres ?? undefined),
         NEWSLETTER_OPTIN: newsletterOptin,
       },
-      listIds: [Number(listId)],
+      listIds,
       updateEnabled: true, // si el contacto ya existe (p. ej. era lead de newsletter), lo actualiza en vez de fallar
     }),
   });
@@ -108,8 +121,9 @@ async function manejarNuevoAlumno(record: Record<string, unknown>, apiKey: strin
   }
 
   // Aviso al admin: best-effort, no debe tumbar la respuesta si falla (el
-  // alta en Brevo, que es lo importante, ya se ha completado arriba).
-  await avisarAdmin(apiKey, email, nombre);
+  // alta en Brevo, que es lo importante, ya se ha completado arriba). Con
+  // el detalle completo del formulario, no solo nombre y correo.
+  await avisarAdmin(apiKey, { email, nombre, oposicionInteres, interesTodas, newsletterOptin });
 
   return NextResponse.json({ ok: true });
 }
@@ -150,13 +164,25 @@ async function manejarNuevoContacto(record: Record<string, unknown>, apiKey: str
   return NextResponse.json({ ok: true });
 }
 
-async function avisarAdmin(apiKey: string, email: string, nombre: string | null) {
+async function avisarAdmin(
+  apiKey: string,
+  datos: {
+    email: string;
+    nombre: string | null;
+    oposicionInteres: string | null;
+    interesTodas: boolean;
+    newsletterOptin: boolean;
+  }
+) {
   const destinatarios = (process.env.ADMIN_EMAILS ?? "")
     .split(",")
     .map((s) => s.trim())
     .filter(Boolean);
 
   if (destinatarios.length === 0) return;
+
+  const { email, nombre, oposicionInteres, interesTodas, newsletterOptin } = datos;
+  const interesLabel = interesTodas ? "Todas las oposiciones" : (oposicionInteres ?? "(no indicado)");
 
   try {
     const res = await fetch(BREVO_EMAIL_URL, {
@@ -167,7 +193,12 @@ async function avisarAdmin(apiKey: string, email: string, nombre: string | null)
         to: destinatarios.map((email) => ({ email })),
         subject: `Nuevo registro: ${nombre ?? email}`,
         htmlContent: `<p>Se acaba de registrar un nuevo usuario en oposicioneszaragoza.es:</p>
-          <p><strong>${nombre ?? "(sin nombre)"}</strong><br>${email}</p>`,
+          <ul>
+            <li><strong>Nombre:</strong> ${nombre ?? "(sin nombre)"}</li>
+            <li><strong>Correo:</strong> ${email}</li>
+            <li><strong>Oposición de interés:</strong> ${interesLabel}</li>
+            <li><strong>Newsletter:</strong> ${newsletterOptin ? "Sí" : "No"}</li>
+          </ul>`,
       }),
     });
     if (!res.ok) {

@@ -129,6 +129,16 @@ export function FlashcardsStudio({
   const [ultimaEval, setUltimaEval] = useState<boolean | null>(null);
   const stats = useStatsFlashcards(oposicionSlug);
   const [progresoSM2, setProgresoSM2] = useState<Record<string, ProgresoFlashcard>>(progresoInicial);
+  /**
+   * Qué se respondió a cada tarjeta EN ESTA SESIÓN (id → sabe/no sabe).
+   * Necesario para el resumen de "fin": no puede reutilizar `estaParaRepasar`,
+   * porque para un usuario logueado esa función mira la fecha de la próxima
+   * revisión del SM-2 (que tras un "no la sé" de hoy pasa a mañana, no hoy),
+   * así que todas las tarjetas saldrían como "ya no toca repasar" — es
+   * decir, el resumen contaría todo como "me la sé" aunque se hubiera
+   * marcado lo contrario.
+   */
+  const [resultadosSesion, setResultadosSesion] = useState<Record<string, boolean>>({});
 
   const hoy = getHoy();
   const estaParaRepasar = useCallback(
@@ -154,6 +164,7 @@ export function FlashcardsStudio({
     setIndice(0);
     setVolteada(false);
     setUltimaEval(null);
+    setResultadosSesion({});
     setFase("sesion");
   }
 
@@ -174,6 +185,7 @@ export function FlashcardsStudio({
 
   function evaluar(sabe: boolean) {
     const tarjeta = tarjetasSesion[indice];
+    setResultadosSesion((prev) => ({ ...prev, [tarjeta.id]: sabe }));
     const updated: DailyStats = { ...stats, paraRepasar: [...stats.paraRepasar] };
     if (ultimaEval === null) updated.tarjetasHoy += 1;
     if (sabe) {
@@ -317,7 +329,7 @@ export function FlashcardsStudio({
 
   // ── Fin de sesión ────────────────────────────────────────
   if (fase === "fin") {
-    const tarjetasNoSabidas = tarjetasSesion.filter((t) => estaParaRepasar(t.id));
+    const tarjetasNoSabidas = tarjetasSesion.filter((t) => resultadosSesion[t.id] === false);
     const noSabidas = tarjetasNoSabidas.length;
     const sabidas = tarjetasSesion.length - noSabidas;
 
@@ -326,6 +338,7 @@ export function FlashcardsStudio({
       setIndice(0);
       setVolteada(false);
       setUltimaEval(null);
+      setResultadosSesion({});
       setFase("sesion");
     }
 
@@ -401,7 +414,7 @@ export function FlashcardsStudio({
           aria-label={volteada ? "Mostrar pregunta" : "Mostrar respuesta"}
           className="relative h-64 cursor-pointer transition-transform duration-500 [transform-style:preserve-3d] sm:h-72"
           style={{ transform: volteada ? "rotateY(180deg)" : "rotateY(0deg)" }}
-          onClick={() => !volteada && setVolteada(true)}
+          onClick={() => setVolteada((v) => !v)}
         >
           <div className="absolute inset-0 flex flex-col items-center justify-center gap-3 overflow-auto rounded-2xl border border-brand-200 bg-white p-8 text-center shadow-sm [backface-visibility:hidden]">
             <span className="rounded-full bg-brand-50 px-3 py-1 text-[11px] font-semibold uppercase tracking-wider text-brand-500">
