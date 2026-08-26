@@ -191,8 +191,8 @@ export function ContactoForm({ oposiciones, oposicionInicial }: { oposiciones: O
             className="mt-0.5 h-4 w-4 shrink-0 rounded border-brand-300 text-brand-600 focus:ring-brand-500/30"
           />
           <span>
-            Quiero recibir por email novedades y contenido de preparación. Puedes darte de baja
-            cuando quieras. Consulta cómo tratamos tus datos en la{" "}
+            Acepto recibir contenido de preparación, novedades y modificaciones en las convocatorias y
+            avisos comerciales. Puedes darte de baja cuando quieras. Consulta cómo tratamos tus datos en la{" "}
             <Link href="/privacidad" className="font-semibold text-brand-600 underline hover:text-brand-800">
               política de privacidad
             </Link>
