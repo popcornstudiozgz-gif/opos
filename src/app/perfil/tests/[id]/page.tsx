@@ -1,9 +1,7 @@
 import Link from "next/link";
 import { notFound, redirect } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
-import { Container } from "@/components/ui/Container";
 import { Card } from "@/components/ui/Card";
-import { Navbar } from "@/components/layout/Navbar";
 import { crearMetadata } from "@/lib/site";
 
 export const metadata = crearMetadata({
@@ -134,12 +132,18 @@ export default async function ResultadoTestPage({ params }: PageProps) {
     year: "numeric",
   });
 
+  // Vuelve a la lista específica de este modo, no siempre al dashboard —
+  // cada modo tiene su propia página desde la migración a /perfil/*.
+  const VOLVER: Record<string, { href: string; label: string }> = {
+    simulacro: { href: "/perfil/simulacros", label: "Volver a mis simulacros" },
+    caso: { href: "/perfil/casos-practicos", label: "Volver a mis casos prácticos" },
+  };
+  const volver = VOLVER[intento.modo] ?? { href: "/perfil/tests", label: "Volver a mis tests" };
+
   return (
     <>
-      <Navbar />
-      <Container className="max-w-2xl py-12">
-      <Link href="/perfil" className="text-sm font-medium text-brand-600 hover:underline">
-        ← Volver a mi perfil
+      <Link href={volver.href} className="text-sm font-medium text-brand-600 hover:underline">
+        ← {volver.label}
       </Link>
 
       <Card className="mt-6 p-8 text-center">
@@ -202,7 +206,6 @@ export default async function ResultadoTestPage({ params }: PageProps) {
           </>
         )}
       </div>
-      </Container>
     </>
   );
 

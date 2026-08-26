@@ -71,15 +71,19 @@ export default async function FlashcardsPage({ params, searchParams }: PageProps
 
   let progresoInicial: Record<string, ProgresoFlashcard> = {};
   if (user && cards.length > 0) {
-    const { data } = await supabase
+    // Sin filtrar por `flashcard_id`: con "Todas las tarjetas" en una
+    // oposición grande (~800 flashcards) un `.in()` con esa lista entera
+    // generaba una URL demasiado larga, la petición fallaba y — al no
+    // comprobarse el error — se silenciaba devolviendo "sin progreso" para
+    // TODO el mazo (por eso "para repasar" salía a 0 con `?tema=todas` pero
+    // sí funcionaba en un tema suelto, con muchas menos tarjetas). Ya no
+    // hace falta: la fila ya viene acotada a este usuario y esta oposición.
+    const { data, error } = await supabase
       .from("flashcard_progreso")
       .select("flashcard_id, repeticiones, factor_facilidad, intervalo_dias, proxima_revision")
       .eq("user_id", user.id)
-      .eq("oposicion_slug", oposicionSlug)
-      .in(
-        "flashcard_id",
-        cards.map((c) => c.id)
-      );
+      .eq("oposicion_slug", oposicionSlug);
+    if (error) console.error("No se pudo cargar el progreso de flashcards:", error);
     if (data) {
       progresoInicial = Object.fromEntries(
         data.map((p) => [

@@ -7,7 +7,13 @@ import { createClient } from "@/lib/supabase/client";
 import { calcularSM2, calidadDesdeBinario, ESTADO_SM2_INICIAL } from "@/lib/sm2";
 
 type Cantidad = 10 | 20 | 30 | 50 | "todas";
-export type Modo = "todas" | "repasar";
+/**
+ * "Nuevas" y "dominadas" solo tienen sentido con sesión iniciada (requieren
+ * el histórico de `flashcard_progreso`; un anónimo solo sabe qué marcó "no
+ * la sé" HOY vía `localStorage`, no si una tarjeta es nueva o ya dominada) —
+ * mismos tres cajones que ya se muestran en `/perfil/flashcards`.
+ */
+export type Modo = "todas" | "repasar" | "nuevas" | "dominadas";
 type Fase = "config" | "sesion" | "fin";
 
 const CANTIDADES: { id: Cantidad; label: string }[] = [
@@ -166,9 +172,25 @@ export function FlashcardsStudio({
   );
 
   const paraRepasar = cards.filter((c) => estaParaRepasar(c.id));
-  const pool = modo === "repasar" ? paraRepasar : cards;
+  /**
+   * "Nuevas" y "dominadas" solo existen para usuarios logueados (ver el
+   * comentario del tipo `Modo`): las marcadas "me la sé" no desaparecen del
+   * mazo, solo dejan de tocar hoy — siguen accesibles aquí, no solo desde
+   * "Todas".
+   */
+  const nuevas = usuarioId ? cards.filter((c) => !progresoSM2[c.id]) : [];
+  const dominadas = usuarioId ? cards.filter((c) => !!progresoSM2[c.id] && !estaParaRepasar(c.id)) : [];
+  const pool = modo === "repasar" ? paraRepasar : modo === "nuevas" ? nuevas : modo === "dominadas" ? dominadas : cards;
   const disponibles = pool.length;
   const numEfectivo = cantidad === "todas" ? disponibles : Math.min(cantidad, disponibles);
+
+  // Solo se ofrecen los modos con alguna tarjeta dentro — "Todas" siempre.
+  const opcionesModo: { id: Modo; label: string }[] = [
+    { id: "todas", label: `Todas (${cards.length})` },
+    ...(nuevas.length > 0 ? [{ id: "nuevas" as Modo, label: `Nuevas (${nuevas.length})` }] : []),
+    ...(paraRepasar.length > 0 ? [{ id: "repasar" as Modo, label: `Para repasar (${paraRepasar.length})` }] : []),
+    ...(dominadas.length > 0 ? [{ id: "dominadas" as Modo, label: `Dominadas (${dominadas.length})` }] : []),
+  ];
 
   function comenzar() {
     const mezcladas = barajar(pool);
@@ -283,16 +305,11 @@ export function FlashcardsStudio({
             </div>
           </div>
 
-          {paraRepasar.length > 0 && (
+          {opcionesModo.length > 1 && (
             <div>
               <p className="mb-2.5 text-xs font-semibold uppercase tracking-wider text-slate-400">Modo</p>
               <div className="flex flex-wrap gap-2">
-                {(
-                  [
-                    { id: "todas" as Modo, label: `Todas (${cards.length})` },
-                    { id: "repasar" as Modo, label: `Solo para repasar (${paraRepasar.length})` },
-                  ] as const
-                ).map((m) => (
+                {opcionesModo.map((m) => (
                   <button
                     key={m.id}
                     onClick={() => setModo(m.id)}
