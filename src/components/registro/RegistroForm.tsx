@@ -7,7 +7,7 @@ import { createClient } from "@/lib/supabase/client";
 import { Card } from "@/components/ui/Card";
 import { Button } from "@/components/ui/Button";
 import { Container } from "@/components/ui/Container";
-import { SITE } from "@/lib/site";
+import { SITE, organismoAbreviado } from "@/lib/site";
 import type { Oposicion } from "@/lib/types";
 
 /** Valor especial del `<select>` de interés para "todas", que no es un slug real. */
@@ -22,7 +22,7 @@ function RegistroContent({ oposiciones }: { oposiciones: Oposicion[] }) {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [verPassword, setVerPassword] = useState(false);
-  const [interes, setInteres] = useState(""); // "" | VALOR_TODAS | slug de una oposición
+  const [interes, setInteres] = useState(VALOR_TODAS); // VALOR_TODAS | slug de una oposición
   const [newsletterOptin, setNewsletterOptin] = useState(false);
   const [cargando, setCargando] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -61,7 +61,7 @@ function RegistroContent({ oposiciones }: { oposiciones: Oposicion[] }) {
           emailRedirectTo: `${window.location.origin}/auth/callback?next=${encodeURIComponent(nextRoute)}`,
           data: {
             nombre: nombre.trim(),
-            oposicion_interes: interes && interes !== VALOR_TODAS ? interes : null,
+            oposicion_interes: interes !== VALOR_TODAS ? interes : null,
             interes_todas_oposiciones: interes === VALOR_TODAS,
             newsletter_optin: newsletterOptin,
           },
@@ -86,7 +86,7 @@ function RegistroContent({ oposiciones }: { oposiciones: Oposicion[] }) {
           setNombre("");
           setEmail("");
           setPassword("");
-          setInteres("");
+          setInteres(VALOR_TODAS);
           setNewsletterOptin(false);
         }
       }
@@ -206,11 +206,14 @@ function RegistroContent({ oposiciones }: { oposiciones: Oposicion[] }) {
                     onChange={(e) => setInteres(e.target.value)}
                     className="w-full rounded-lg border border-brand-200 bg-white/50 px-4 py-2.5 text-slate-800 transition-all focus:border-brand-500 focus:bg-white focus:outline-none focus:ring-2 focus:ring-brand-500/20"
                   >
-                    <option value="">Prefiero elegirlo más tarde</option>
-                    <option value={VALOR_TODAS}>🌟 Quiero acceso a todas las oposiciones</option>
+                    <option value={VALOR_TODAS}>Todas</option>
                     {oposiciones.map((o) => (
                       <option key={o.slug} value={o.slug}>
-                        {o.nombre}
+                        {/* Nombre + organismo abreviado: dos oposiciones pueden
+                            compartir el mismo nombre de puesto (p. ej. "Auxiliar
+                            Administrativo" en el Ayto. de Zaragoza y en la DPZ),
+                            y sin el organismo las opciones serían indistinguibles. */}
+                        {o.nombre} · {organismoAbreviado(o.slug, o.organismo)}
                       </option>
                     ))}
                   </select>
