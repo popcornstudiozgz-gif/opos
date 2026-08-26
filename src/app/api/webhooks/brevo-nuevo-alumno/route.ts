@@ -16,11 +16,14 @@ import { NextResponse } from "next/server";
  *     ninguna lista). Te avisa por correo a `ADMIN_EMAILS` con el detalle
  *     del registro (Supabase no avisa de esto por sí solo).
  *
- *   - INSERT en `contactos` (formulario de contacto): solo si
- *     `newsletter_optin` es `true` (checkbox del formulario, ver
+ *   - INSERT en `contactos` (formulario de contacto): SIEMPRE te avisa por
+ *     correo a `ADMIN_EMAILS` con el mensaje completo (antes no se avisaba
+ *     de nada — el mensaje quedaba solo en la tabla `contactos`, sin que
+ *     nadie se enterase salvo consultándola a mano en Supabase). Además, si
+ *     marcó `newsletter_optin` (checkbox del formulario, ver
  *     `supabase/migrations/0012_intereses_newsletter.sql`), da de alta el
  *     contacto en Brevo, lista `contacto-leads`. Sin consentimiento, no se
- *     manda nada a Brevo.
+ *     manda nada a Brevo — pero el aviso por correo llega igual.
  *
  * Configuración en el dashboard de Supabase (Database → Webhooks) — hacen
  * falta DOS webhooks, ambos con la misma URL y cabecera:
@@ -129,37 +132,48 @@ async function manejarNuevoAlumno(record: Record<string, unknown>, apiKey: strin
 }
 
 async function manejarNuevoContacto(record: Record<string, unknown>, apiKey: string) {
-  // Sin consentimiento explícito no se manda nada a Brevo — el formulario
-  // de contacto en sí no da base legal para marketing (ver migración 0012).
-  if (!record.newsletter_optin) return NextResponse.json({ skipped: true });
-
-  const listId = process.env.BREVO_LIST_ID_CONTACTO_LEADS;
-  if (!listId) {
-    console.error("❌ brevo-nuevo-alumno: falta BREVO_LIST_ID_CONTACTO_LEADS.");
-    return NextResponse.json({ error: "server misconfigured" }, { status: 500 });
-  }
-
   const email = record.email as string | null;
   if (!email) return NextResponse.json({ skipped: true });
 
   const nombre = record.nombre as string | null;
+  const newsletterOptin = Boolean(record.newsletter_optin);
 
-  const res = await fetch(BREVO_CONTACTS_URL, {
-    method: "POST",
-    headers: { "content-type": "application/json", "api-key": apiKey },
-    body: JSON.stringify({
-      email,
-      attributes: { NOMBRE: nombre ?? undefined },
-      listIds: [Number(listId)],
-      updateEnabled: true,
-    }),
-  });
-
-  if (!res.ok) {
-    const body = await res.text();
-    console.error(`❌ brevo-nuevo-alumno (contacto): Brevo respondió ${res.status}: ${body}`);
-    return NextResponse.json({ error: "brevo error" }, { status: 502 });
+  // Alta en Brevo solo con consentimiento explícito — el formulario de
+  // contacto en sí no da base legal para marketing (ver migración 0012).
+  // Un fallo aquí no debe impedir el aviso al admin de abajo, que es lo
+  // importante: es el único sitio donde se ve el mensaje.
+  if (newsletterOptin) {
+    const listId = process.env.BREVO_LIST_ID_CONTACTO_LEADS;
+    if (!listId) {
+      console.error("❌ brevo-nuevo-alumno: falta BREVO_LIST_ID_CONTACTO_LEADS.");
+    } else {
+      const res = await fetch(BREVO_CONTACTS_URL, {
+        method: "POST",
+        headers: { "content-type": "application/json", "api-key": apiKey },
+        body: JSON.stringify({
+          email,
+          attributes: { NOMBRE: nombre ?? undefined },
+          listIds: [Number(listId)],
+          updateEnabled: true,
+        }),
+      });
+      if (!res.ok) {
+        console.error(`❌ brevo-nuevo-alumno (contacto): Brevo respondió ${res.status}: ${await res.text()}`);
+      }
+    }
   }
+
+  // Aviso al admin: SIEMPRE, tenga o no consentimiento de newsletter (son
+  // cosas distintas) — antes no existía este aviso y el mensaje solo
+  // quedaba guardado en la tabla `contactos`, sin que nadie se enterase.
+  await avisarAdminContacto(apiKey, {
+    nombre,
+    email,
+    oposicionSlug: record.oposicion_slug as string | null,
+    tipo: (record.tipo as string | null) ?? "otro",
+    mensaje: (record.mensaje as string | null) ?? "",
+    referencia: record.referencia as string | null,
+  });
 
   return NextResponse.json({ ok: true });
 }
@@ -206,5 +220,69 @@ async function avisarAdmin(
     }
   } catch (err) {
     console.error("❌ brevo-nuevo-alumno: aviso admin lanzó una excepción", err);
+  }
+}
+
+// Duplica a propósito las etiquetas de `TIPOS_CONTACTO` en `lib/contacto.ts`
+// (que es código de cliente) en vez de importarlas, para no acoplar esta
+// ruta de servidor a ese módulo — ver el resto de motivos en
+// `src/lib/contacto.ts`.
+const TIPO_CONTACTO_LABELS: Record<string, string> = {
+  duda: "Duda",
+  error_contenido: "Error en una pregunta o caso práctico",
+  fallo_web: "Fallo técnico en la web",
+  colaboraciones: "Colaboraciones",
+  otro: "Otro",
+};
+
+async function avisarAdminContacto(
+  apiKey: string,
+  datos: {
+    nombre: string | null;
+    email: string;
+    oposicionSlug: string | null;
+    tipo: string;
+    mensaje: string;
+    referencia: string | null;
+  }
+) {
+  const destinatarios = (process.env.ADMIN_EMAILS ?? "")
+    .split(",")
+    .map((s) => s.trim())
+    .filter(Boolean);
+
+  if (destinatarios.length === 0) return;
+
+  const { nombre, email, oposicionSlug, tipo, mensaje, referencia } = datos;
+  const motivo = TIPO_CONTACTO_LABELS[tipo] ?? tipo;
+
+  try {
+    const res = await fetch(BREVO_EMAIL_URL, {
+      method: "POST",
+      headers: { "content-type": "application/json", "api-key": apiKey },
+      body: JSON.stringify({
+        sender: REMITENTE_AVISOS,
+        to: destinatarios.map((email) => ({ email })),
+        // Para poder responder directamente desde el buzón al remitente,
+        // sin copiar/pegar su correo.
+        replyTo: { email, name: nombre ?? undefined },
+        subject: `Contacto (${motivo}): ${nombre ?? email}`,
+        htmlContent: `<p>Nuevo mensaje desde el formulario de contacto de oposicioneszaragoza.es:</p>
+          <ul>
+            <li><strong>Nombre:</strong> ${nombre ?? "(sin nombre)"}</li>
+            <li><strong>Correo:</strong> ${email}</li>
+            <li><strong>Motivo:</strong> ${motivo}</li>
+            <li><strong>Oposición relacionada:</strong> ${oposicionSlug ?? "General"}</li>
+            ${referencia ? `<li><strong>Referencia:</strong> ${referencia}</li>` : ""}
+          </ul>
+          <p><strong>Mensaje:</strong></p>
+          <p>${mensaje.replace(/\n/g, "<br>")}</p>`,
+      }),
+    });
+    if (!res.ok) {
+      console.error(`❌ brevo-nuevo-alumno (aviso contacto): Brevo respondió ${res.status}: ${await res.text()}`);
+    }
+  } catch (err) {
+    console.error("❌ brevo-nuevo-alumno: aviso de contacto lanzó una excepción", err);
   }
 }
