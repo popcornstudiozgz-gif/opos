@@ -6,6 +6,7 @@ import Link from "next/link";
 import { Card } from "@/components/ui/Card";
 import { Button } from "@/components/ui/Button";
 import { enviarContacto, TIPOS_CONTACTO, type TipoContacto } from "@/lib/contacto";
+import { organismoAbreviado } from "@/lib/site";
 import type { Oposicion } from "@/lib/types";
 
 const ESTILO_CAMPO =
@@ -134,7 +135,11 @@ export function ContactoForm({ oposiciones, oposicionInicial }: { oposiciones: O
               <option value="">General (no es sobre una oposición en concreto)</option>
               {oposiciones.map((o) => (
                 <option key={o.slug} value={o.slug}>
-                  {o.nombre}
+                  {/* Nombre + organismo abreviado: dos oposiciones pueden
+                      compartir el mismo nombre de puesto (p. ej. "Auxiliar
+                      Administrativo" en el Ayto. de Zaragoza y en la DPZ),
+                      y sin el organismo las opciones serían indistinguibles. */}
+                  {o.nombre} · {organismoAbreviado(o.slug, o.organismo)}
                 </option>
               ))}
             </select>

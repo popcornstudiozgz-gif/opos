@@ -7,12 +7,13 @@ import { createClient } from "@/lib/supabase/public";
  * nadie que no sea `service_role` (ver migración 0006).
  */
 
-export type TipoContacto = "duda" | "error_contenido" | "fallo_web" | "otro";
+export type TipoContacto = "duda" | "error_contenido" | "fallo_web" | "colaboraciones" | "otro";
 
 export const TIPOS_CONTACTO: { id: TipoContacto; label: string }[] = [
   { id: "duda", label: "Tengo una duda" },
   { id: "error_contenido", label: "He visto una pregunta o caso práctico con un error" },
   { id: "fallo_web", label: "He encontrado un fallo técnico en la web" },
+  { id: "colaboraciones", label: "Colaboraciones" },
   { id: "otro", label: "Otro" },
 ];
 

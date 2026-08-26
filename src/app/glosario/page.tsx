@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { Container } from "@/components/ui/Container";
 import { Navbar } from "@/components/layout/Navbar";
-import { crearMetadata, SITE } from "@/lib/site";
+import { crearMetadata, organismoAbreviado, SITE } from "@/lib/site";
 import {
   getOposicion,
   getOposiciones,
@@ -84,7 +84,11 @@ export default async function GlosarioPage({ searchParams }: PageProps) {
                     href={`/glosario?oposicion=${o.slug}`}
                     className="rounded-full border border-brand-100 bg-brand-50 px-3.5 py-1.5 text-sm font-medium text-brand-700 transition-colors hover:bg-brand-100"
                   >
-                    {o.nombre}
+                    {/* Nombre + organismo abreviado: dos oposiciones pueden
+                        compartir el mismo nombre de puesto (p. ej. "Auxiliar
+                        Administrativo" en el Ayto. de Zaragoza y en la DPZ),
+                        y sin el organismo los chips serían indistinguibles. */}
+                    {o.nombre} · {organismoAbreviado(o.slug, o.organismo)}
                   </Link>
                 ))}
               </div>
