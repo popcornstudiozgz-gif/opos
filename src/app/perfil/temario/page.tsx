@@ -1,8 +1,5 @@
-import Link from "next/link";
 import { redirect } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
-import { Container } from "@/components/ui/Container";
-import { Navbar } from "@/components/layout/Navbar";
 import { crearMetadata } from "@/lib/site";
 import { getOposicion, getBloquesConTemas } from "@/lib/oposiciones";
 import { ProgresoTemas, type ProgresoOposicion } from "@/components/perfil/ProgresoTemas";
@@ -47,15 +44,5 @@ export default async function PerfilTemarioPage() {
     )
   ).filter((p): p is ProgresoOposicion => p !== null);
 
-  return (
-    <>
-      <Navbar />
-      <Container className="max-w-2xl space-y-6 py-12">
-        <Link href="/perfil" className="text-sm font-medium text-brand-600 hover:underline">
-          ← Volver a mi perfil
-        </Link>
-        <ProgresoTemas progreso={progresoTemas} />
-      </Container>
-    </>
-  );
+  return <ProgresoTemas progreso={progresoTemas} />;
 }
