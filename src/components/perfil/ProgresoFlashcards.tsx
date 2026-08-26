@@ -45,7 +45,11 @@ export function ProgresoFlashcards({ progreso }: Props) {
                     </span>
                   </p>
                   <Link
-                    href={`/${oposicion.slug}/flashcards`}
+                    href={
+                      paraRepasar > 0
+                        ? `/${oposicion.slug}/flashcards?tema=todas&modo=repasar`
+                        : `/${oposicion.slug}/flashcards?tema=todas`
+                    }
                     className="shrink-0 text-xs font-semibold text-brand-600 hover:underline"
                   >
                     {paraRepasar > 0 ? "Repasar ahora →" : "Seguir estudiando →"}

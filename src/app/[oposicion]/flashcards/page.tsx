@@ -9,13 +9,13 @@ import {
   getFlashcardsDeTema,
   getFlashcardsDeOposicion,
 } from "@/lib/oposiciones";
-import { FlashcardsStudio, type ProgresoFlashcard } from "@/components/flashcards/FlashcardsStudio";
+import { FlashcardsStudio, type ProgresoFlashcard, type Modo } from "@/components/flashcards/FlashcardsStudio";
 import { TemaExplorerLayout } from "@/components/layout/TemaExplorerLayout";
 import { createClient } from "@/lib/supabase/server";
 
 interface PageProps {
   params: Promise<{ oposicion: string }>;
-  searchParams: Promise<{ tema?: string }>;
+  searchParams: Promise<{ tema?: string; modo?: string }>;
 }
 
 export async function generateStaticParams() {
@@ -42,7 +42,10 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
 export default async function FlashcardsPage({ params, searchParams }: PageProps) {
   const { oposicion: oposicionSlug } = await params;
-  const { tema: temaParam } = await searchParams;
+  const { tema: temaParam, modo: modoParam } = await searchParams;
+  // Deep-link desde "Repasar ahora" en /perfil (`?tema=todas&modo=repasar`):
+  // preselecciona el modo en vez de aterrizar siempre en "Todas".
+  const modoInicial: Modo = modoParam === "repasar" ? "repasar" : "todas";
 
   const [oposicion, bloques] = await Promise.all([
     getOposicion(oposicionSlug),
@@ -150,6 +153,7 @@ export default async function FlashcardsPage({ params, searchParams }: PageProps
           oposicionSlug={oposicionSlug}
           usuarioId={user?.id ?? null}
           progresoInicial={progresoInicial}
+          modoInicial={modoInicial}
         />
       )}
     </TemaExplorerLayout>

@@ -13,6 +13,9 @@ interface IntentoTest {
 
 interface Props {
   intentos: IntentoTest[];
+  /** Personaliza el encabezado — reutilizado tal cual en /perfil/casos-practicos con "Historial de casos prácticos". */
+  titulo?: string;
+  mensajeVacio?: string;
 }
 
 function unico<T>(v: T | T[] | null): T | null {
@@ -34,13 +37,17 @@ function etiquetaIntento(intento: IntentoTest): string {
  * también de qué oposición era, porque el progreso se guarda por
  * separado (ver `supabase/migrations/0007_usuarios_progreso.sql`).
  */
-export function HistorialTests({ intentos }: Props) {
+export function HistorialTests({
+  intentos,
+  titulo = "Historial de tests",
+  mensajeVacio = "Aún no has completado ningún test.",
+}: Props) {
   return (
     <section className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
-      <h2 className="mb-4 text-base font-semibold text-brand-900">Historial de tests</h2>
+      <h2 className="mb-4 text-base font-semibold text-brand-900">{titulo}</h2>
 
       {intentos.length === 0 ? (
-        <p className="text-sm text-slate-500">Aún no has completado ningún test.</p>
+        <p className="text-sm text-slate-500">{mensajeVacio}</p>
       ) : (
         <ul className="divide-y divide-slate-100">
           {intentos.map((intento) => {
