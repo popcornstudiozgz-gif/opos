@@ -55,12 +55,20 @@ export default async function ResultadoTestPage({ params }: PageProps) {
 
   const { data: intento } = await supabase
     .from("test_intentos")
-    .select("id, modo, total, aciertos, started_at, finished_at, oposiciones(nombre, organismo), temas(titulo)")
+    .select(
+      "id, modo, total, aciertos, started_at, finished_at, nota_test, nota_casos, total_test, aciertos_test, total_casos, aciertos_casos, oposiciones(nombre, organismo), temas(titulo)"
+    )
     .eq("id", id)
     .eq("user_id", user.id)
     .single();
 
   if (!intento) notFound();
+
+  // El simulacro tiene su propia nota por parte (con penalización de
+  // fallos incluida, ver `supabase/migrations/0014_simulacro_desglose.sql`)
+  // — el % simple de aciertos/total del resto de modos no la representa.
+  const esSimulacroConDesglose = intento.modo === "simulacro" && intento.nota_test != null && intento.nota_casos != null;
+  const notaTotal = esSimulacroConDesglose ? Math.round((intento.nota_test! + intento.nota_casos!) * 100) / 100 : null;
 
   const { data: respuestas } = await supabase
     .from("test_respuestas")
@@ -94,10 +102,22 @@ export default async function ResultadoTestPage({ params }: PageProps) {
           {tituloModo(intento.modo, intento.temas)}
         </p>
         <p className="mt-1 text-xs text-slate-400">{fecha}</p>
-        <p className="mt-4 text-5xl font-black text-brand-700">{porcentaje}%</p>
-        <p className="mt-2 text-slate-600">
-          {intento.aciertos} de {intento.total} respuestas correctas
-        </p>
+        {esSimulacroConDesglose ? (
+          <>
+            <p className="mt-4 text-5xl font-black text-brand-700">{notaTotal!.toFixed(2)}/15</p>
+            <p className="mt-2 text-slate-600">
+              Test: {intento.aciertos_test}/{intento.total_test} ({intento.nota_test!.toFixed(2)}/10) · Casos:{" "}
+              {intento.aciertos_casos}/{intento.total_casos} ({intento.nota_casos!.toFixed(2)}/5)
+            </p>
+          </>
+        ) : (
+          <>
+            <p className="mt-4 text-5xl font-black text-brand-700">{porcentaje}%</p>
+            <p className="mt-2 text-slate-600">
+              {intento.aciertos} de {intento.total} respuestas correctas
+            </p>
+          </>
+        )}
       </Card>
 
       <div className="mt-6 space-y-4">

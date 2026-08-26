@@ -73,16 +73,22 @@ export async function guardarRespuesta(
   }
 }
 
-/** Nunca rechaza. */
+/**
+ * Nunca rechaza. `extra` permite guardar columnas adicionales al cerrar el
+ * intento — hoy solo lo usa el simulacro, para el desglose por parte (ver
+ * `supabase/migrations/0014_simulacro_desglose.sql`), sin que este módulo
+ * genérico tenga que conocer esas columnas.
+ */
 export async function cerrarIntento(
   supabase: SupabaseClient,
   intentoId: string,
-  aciertos: number
+  aciertos: number,
+  extra: Record<string, unknown> = {}
 ): Promise<void> {
   try {
     const { error } = await supabase
       .from("test_intentos")
-      .update({ aciertos, finished_at: new Date().toISOString() })
+      .update({ aciertos, finished_at: new Date().toISOString(), ...extra })
       .eq("id", intentoId);
     if (error) console.warn("No se pudo cerrar el intento:", error);
   } catch (error) {
