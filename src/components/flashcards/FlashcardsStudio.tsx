@@ -7,7 +7,7 @@ import { createClient } from "@/lib/supabase/client";
 import { calcularSM2, calidadDesdeBinario, ESTADO_SM2_INICIAL } from "@/lib/sm2";
 
 type Cantidad = 10 | 20 | 30 | 50 | "todas";
-type Modo = "todas" | "repasar";
+export type Modo = "todas" | "repasar";
 type Fase = "config" | "sesion" | "fin";
 
 const CANTIDADES: { id: Cantidad; label: string }[] = [
@@ -104,6 +104,8 @@ interface Props {
   usuarioId?: string | null;
   /** Progreso SM-2 ya guardado en Supabase, solo relevante si hay usuarioId. */
   progresoInicial?: Record<string, ProgresoFlashcard>;
+  /** Modo preseleccionado en la pantalla de configuración (p. ej. al llegar desde "Repasar ahora" en el perfil). */
+  modoInicial?: Modo;
 }
 
 /**
@@ -119,10 +121,11 @@ export function FlashcardsStudio({
   oposicionSlug,
   usuarioId = null,
   progresoInicial = {},
+  modoInicial = "todas",
 }: Props) {
   const [fase, setFase] = useState<Fase>("config");
   const [cantidad, setCantidad] = useState<Cantidad>(20);
-  const [modo, setModo] = useState<Modo>("todas");
+  const [modo, setModo] = useState<Modo>(modoInicial);
   const [tarjetasSesion, setTarjetasSesion] = useState<Flashcard[]>([]);
   const [indice, setIndice] = useState(0);
   const [volteada, setVolteada] = useState(false);
@@ -141,11 +144,21 @@ export function FlashcardsStudio({
   const [resultadosSesion, setResultadosSesion] = useState<Record<string, boolean>>({});
 
   const hoy = getHoy();
+  /**
+   * "Para repasar" = ya evaluada antes Y toca revisarla (hoy o antes según
+   * el SM-2) — NUNCA una tarjeta que no se ha estudiado todavía. Antes, un
+   * usuario logueado sin progreso en una tarjeta (`!p`) contaba como "para
+   * repasar", así que ese modo incluía en la práctica casi todo el mazo
+   * (todo lo nunca visto) y el número no tenía nada que ver con el "para
+   * repasar" de `/perfil` (que sí distingue "nunca vista" de "vencida") ni
+   * con el criterio de un usuario anónimo (`stats.paraRepasar`, que tampoco
+   * incluye tarjetas nunca evaluadas). Ahora los tres coinciden.
+   */
   const estaParaRepasar = useCallback(
     (id: string): boolean => {
       if (usuarioId) {
         const p = progresoSM2[id];
-        return !p || p.proximaRevision <= hoy;
+        return !!p && p.proximaRevision <= hoy;
       }
       return stats.paraRepasar.includes(id);
     },

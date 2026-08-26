@@ -24,6 +24,13 @@ type RawRespuesta = {
   preguntas: RawPregunta;
 };
 
+type CasoInfo = { id: string; slug: string; titulo: string; supuesto: string };
+type FilaCasoPregunta = {
+  pregunta_id: string;
+  orden: number;
+  casos_practicos: CasoInfo | CasoInfo[] | null;
+};
+
 function unico<T>(v: T | T[] | null): T | null {
   if (!v) return null;
   return Array.isArray(v) ? (v[0] ?? null) : v;
@@ -76,6 +83,49 @@ export default async function ResultadoTestPage({ params }: PageProps) {
     .eq("intento_id", intento.id)
     .returns<RawRespuesta[]>();
 
+  // Si alguna de estas preguntas pertenece a un caso práctico (modo "caso",
+  // o la parte de casos de un simulacro), su supuesto es imprescindible
+  // para que la pregunta tenga sentido — sin él son preguntas sueltas sin
+  // contexto. Se agrupan aquí en vez de asumir `intento.caso_id`: un
+  // simulacro reparte sus preguntas de casos entre DOS casos distintos, y
+  // esa columna solo guarda uno.
+  const { data: casoPreguntas } =
+    respuestas && respuestas.length > 0
+      ? await supabase
+          .from("caso_preguntas")
+          .select("pregunta_id, orden, casos_practicos(id, slug, titulo, supuesto)")
+          .in(
+            "pregunta_id",
+            respuestas.map((r) => r.pregunta_id)
+          )
+          .returns<FilaCasoPregunta[]>()
+      : { data: [] as FilaCasoPregunta[] };
+
+  const casoPorPregunta = new Map<string, { casoId: string; orden: number }>();
+  const casosPorId = new Map<string, CasoInfo>();
+  for (const fila of casoPreguntas ?? []) {
+    const caso = unico(fila.casos_practicos);
+    if (!caso) continue;
+    casoPorPregunta.set(fila.pregunta_id, { casoId: caso.id, orden: fila.orden });
+    casosPorId.set(caso.id, caso);
+  }
+
+  const preguntasSueltas = (respuestas ?? []).filter((r) => !casoPorPregunta.has(r.pregunta_id));
+  const respuestasPorCaso = new Map<string, RawRespuesta[]>();
+  for (const r of respuestas ?? []) {
+    const info = casoPorPregunta.get(r.pregunta_id);
+    if (!info) continue;
+    respuestasPorCaso.set(info.casoId, [...(respuestasPorCaso.get(info.casoId) ?? []), r]);
+  }
+  const gruposPorCaso = [...respuestasPorCaso.entries()]
+    .map(([casoId, lista]) => ({
+      caso: casosPorId.get(casoId)!,
+      respuestas: [...lista].sort(
+        (a, b) => (casoPorPregunta.get(a.pregunta_id)?.orden ?? 0) - (casoPorPregunta.get(b.pregunta_id)?.orden ?? 0)
+      ),
+    }))
+    .sort((a, b) => a.caso.slug.localeCompare(b.caso.slug));
+
   const oposicion = unico(intento.oposiciones);
   const porcentaje = intento.total > 0 ? Math.round((intento.aciertos / intento.total) * 100) : 0;
   const fecha = new Date(intento.started_at).toLocaleDateString("es-ES", {
@@ -125,48 +175,74 @@ export default async function ResultadoTestPage({ params }: PageProps) {
         {!respuestas || respuestas.length === 0 ? (
           <Card className="p-6 text-sm text-slate-500">No hay detalle de preguntas guardado para este test.</Card>
         ) : (
-          respuestas.map((r, i) => {
-            const pregunta = r.preguntas;
-            if (!pregunta) return null;
-            const opciones = [...pregunta.opciones].sort((a, b) => a.orden - b.orden);
-            return (
-              <Card key={r.pregunta_id} className="p-5">
-                <div className="flex items-start justify-between gap-3">
-                  <p className="font-medium text-slate-800">
-                    {i + 1}. {pregunta.enunciado}
+          <>
+            {/* Simulacro con ambas partes: separa test y casos con su propio
+                encabezado. Un caso suelto (modo "caso") no necesita esta
+                separación — solo tiene el grupo de su propio caso. */}
+            {gruposPorCaso.length > 0 && preguntasSueltas.length > 0 && (
+              <h3 className="text-sm font-bold tracking-wide text-brand-500 uppercase">Parte 1 · Test</h3>
+            )}
+            {preguntasSueltas.map((r, i) => renderPregunta(r, i))}
+
+            {gruposPorCaso.length > 0 && preguntasSueltas.length > 0 && (
+              <h3 className="pt-2 text-sm font-bold tracking-wide text-brand-500 uppercase">Parte 2 · Casos prácticos</h3>
+            )}
+            {gruposPorCaso.map(({ caso, respuestas: respuestasCaso }) => (
+              <div key={caso.id} className="space-y-4">
+                <Card className="border-brand-100 bg-brand-50/40 p-5">
+                  <p className="text-xs font-semibold tracking-wide text-brand-600 uppercase">
+                    Caso práctico · {caso.titulo}
                   </p>
-                  <span className={`shrink-0 text-sm font-semibold ${r.es_correcta ? "text-emerald-600" : "text-rose-600"}`}>
-                    {r.es_correcta ? "Correcta" : "Incorrecta"}
-                  </span>
-                </div>
-                <ul className="mt-3 space-y-1 text-sm">
-                  {opciones.map((op, j) => {
-                    const esElegida = op.id === r.opcion_id;
-                    return (
-                      <li
-                        key={op.id}
-                        className={`rounded-md px-3 py-1.5 ${
-                          op.es_correcta
-                            ? "bg-emerald-50 text-emerald-800"
-                            : esElegida
-                              ? "bg-rose-50 text-rose-800"
-                              : "text-slate-600"
-                        }`}
-                      >
-                        <span className="font-semibold">{LETRAS[j]})</span> {op.texto}
-                      </li>
-                    );
-                  })}
-                </ul>
-                {pregunta.explicacion && (
-                  <p className="mt-3 rounded-md bg-brand-50 px-3 py-2 text-sm text-brand-800">{pregunta.explicacion}</p>
-                )}
-              </Card>
-            );
-          })
+                  <p className="mt-2 text-xs font-semibold tracking-wide text-brand-500 uppercase">Supuesto</p>
+                  <p className="mt-1 whitespace-pre-line leading-relaxed text-slate-700">{caso.supuesto}</p>
+                </Card>
+                {respuestasCaso.map((r, i) => renderPregunta(r, i))}
+              </div>
+            ))}
+          </>
         )}
       </div>
       </Container>
     </>
   );
+
+  function renderPregunta(r: RawRespuesta, i: number) {
+    const pregunta = r.preguntas;
+    if (!pregunta) return null;
+    const opciones = [...pregunta.opciones].sort((a, b) => a.orden - b.orden);
+    return (
+      <Card key={r.pregunta_id} className="p-5">
+        <div className="flex items-start justify-between gap-3">
+          <p className="font-medium text-slate-800">
+            {i + 1}. {pregunta.enunciado}
+          </p>
+          <span className={`shrink-0 text-sm font-semibold ${r.es_correcta ? "text-emerald-600" : "text-rose-600"}`}>
+            {r.es_correcta ? "Correcta" : "Incorrecta"}
+          </span>
+        </div>
+        <ul className="mt-3 space-y-1 text-sm">
+          {opciones.map((op, j) => {
+            const esElegida = op.id === r.opcion_id;
+            return (
+              <li
+                key={op.id}
+                className={`rounded-md px-3 py-1.5 ${
+                  op.es_correcta
+                    ? "bg-emerald-50 text-emerald-800"
+                    : esElegida
+                      ? "bg-rose-50 text-rose-800"
+                      : "text-slate-600"
+                }`}
+              >
+                <span className="font-semibold">{LETRAS[j]})</span> {op.texto}
+              </li>
+            );
+          })}
+        </ul>
+        {pregunta.explicacion && (
+          <p className="mt-3 rounded-md bg-brand-50 px-3 py-2 text-sm text-brand-800">{pregunta.explicacion}</p>
+        )}
+      </Card>
+    );
+  }
 }

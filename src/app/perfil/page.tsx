@@ -1,14 +1,10 @@
+import Link from "next/link";
 import { redirect } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
 import { Container } from "@/components/ui/Container";
 import { Navbar } from "@/components/layout/Navbar";
 import { crearMetadata } from "@/lib/site";
-import { getOposicion, getBloquesConTemas, getFlashcardsDeOposicion } from "@/lib/oposiciones";
 import { PerfilForms } from "@/components/perfil/PerfilForms";
-import { HistorialTests } from "@/components/perfil/HistorialTests";
-import { HistorialSimulacros } from "@/components/perfil/HistorialSimulacros";
-import { ProgresoTemas, type ProgresoOposicion } from "@/components/perfil/ProgresoTemas";
-import { ProgresoFlashcards, type ProgresoFlashcardsOposicion } from "@/components/perfil/ProgresoFlashcards";
 
 export const metadata = crearMetadata({
   titulo: "Mi perfil",
@@ -17,9 +13,23 @@ export const metadata = crearMetadata({
   indexable: false, // página privada, sin valor de búsqueda propio
 });
 
+const SECCIONES = [
+  { href: "/perfil/temario", icono: "📘", titulo: "Temario", descripcion: "Temas completados por oposición" },
+  { href: "/perfil/flashcards", icono: "🃏", titulo: "Flashcards", descripcion: "Dominadas y para repasar por oposición" },
+  { href: "/perfil/simulacros", icono: "🎯", titulo: "Simulacros", descripcion: "Notas de tus simulacros completados" },
+  { href: "/perfil/tests", icono: "📝", titulo: "Tests", descripcion: "Tests por tema y aleatorios" },
+  { href: "/perfil/casos-practicos", icono: "⚖️", titulo: "Casos prácticos", descripcion: "Casos que has resuelto" },
+] as const;
+
 /**
  * Perfil de cuenta — no depende de ninguna oposición concreta: fuera de
  * `[oposicion]/...` porque un usuario puede estar preparando varias.
+ *
+ * Es solo el panel de cuenta + navegación: cada tipo de progreso vive en su
+ * propia página (`/perfil/temario`, `/perfil/flashcards`,
+ * `/perfil/simulacros`, `/perfil/tests`, `/perfil/casos-practicos`) en vez
+ * de todo apilado aquí — antes era una sola página larguísima con todas las
+ * secciones seguidas.
  */
 export default async function PerfilPage() {
   const supabase = await createClient();
@@ -38,88 +48,30 @@ export default async function PerfilPage() {
     .eq("id", user.id)
     .single();
 
-  // Historial de TODAS las oposiciones que el usuario haya estudiado —
-  // salvo los simulacros, que tienen su propia sección (ver más abajo):
-  // mezclarlos aquí duplicaría la entrada y el aciertos/total de un
-  // simulacro no es comparable con el de un test o caso suelto.
-  const { data: historial } = await supabase
-    .from("test_intentos")
-    .select("id, modo, total, aciertos, started_at, finished_at, oposiciones(nombre, organismo), temas(titulo)")
-    .eq("user_id", user.id)
-    .neq("modo", "simulacro")
-    .not("finished_at", "is", null)
-    .order("started_at", { ascending: false })
-    .limit(10);
-
-  // Historial de simulacros, aparte: con el desglose por parte (test/casos)
-  // y su nota real, calculada en `SimulacroRunner` con la penalización de
-  // fallos incluida — ver `supabase/migrations/0014_simulacro_desglose.sql`.
-  const { data: historialSimulacros } = await supabase
-    .from("test_intentos")
-    .select(
-      "id, started_at, total_test, aciertos_test, nota_test, total_casos, aciertos_casos, nota_casos, oposiciones(nombre, organismo)"
-    )
-    .eq("user_id", user.id)
-    .eq("modo", "simulacro")
-    .not("finished_at", "is", null)
-    .order("started_at", { ascending: false })
-    .limit(10);
-
-  // Progreso de temario ("Marcar como completado"), por oposición — solo
-  // las oposiciones donde el usuario tiene al menos una fila en
-  // `tema_progreso` (nunca se lista el catálogo entero sin actividad).
-  const { data: temaProgreso } = await supabase
-    .from("tema_progreso")
-    .select("oposicion_slug, tema_slug, completado, ultima_actividad")
-    .eq("user_id", user.id);
-
-  const slugsConProgreso = [...new Set((temaProgreso ?? []).map((p) => p.oposicion_slug))];
-  const progresoTemas = (
-    await Promise.all(
-      slugsConProgreso.map(async (slug): Promise<ProgresoOposicion | null> => {
-        const [oposicion, bloques] = await Promise.all([getOposicion(slug), getBloquesConTemas(slug)]);
-        if (!oposicion) return null;
-        const temasCompletados = new Set(
-          (temaProgreso ?? [])
-            .filter((p) => p.oposicion_slug === slug && p.completado)
-            .map((p) => p.tema_slug)
-        );
-        return { oposicion, bloques, temasCompletados };
-      })
-    )
-  ).filter((p): p is ProgresoOposicion => p !== null);
-
-  // Progreso de flashcards (repetición espaciada SM-2), por oposición —
-  // mismo criterio: solo las oposiciones donde el usuario ha evaluado
-  // alguna tarjeta (fila en `flashcard_progreso`).
-  const { data: flashcardProgreso } = await supabase
-    .from("flashcard_progreso")
-    .select("oposicion_slug, proxima_revision")
-    .eq("user_id", user.id);
-
-  const hoy = new Date().toISOString().split("T")[0];
-  const slugsConFlashcards = [...new Set((flashcardProgreso ?? []).map((p) => p.oposicion_slug))];
-  const progresoFlashcards = (
-    await Promise.all(
-      slugsConFlashcards.map(async (slug): Promise<ProgresoFlashcardsOposicion | null> => {
-        const [oposicion, flashcards] = await Promise.all([getOposicion(slug), getFlashcardsDeOposicion(slug)]);
-        if (!oposicion) return null;
-        const filas = (flashcardProgreso ?? []).filter((p) => p.oposicion_slug === slug);
-        const paraRepasar = filas.filter((p) => p.proxima_revision <= hoy).length;
-        return { oposicion, totalFlashcards: flashcards.length, vistas: filas.length, paraRepasar };
-      })
-    )
-  ).filter((p): p is ProgresoFlashcardsOposicion => p !== null);
-
   return (
     <>
       <Navbar />
       <Container className="max-w-2xl space-y-6 py-12">
         <PerfilForms user={{ id: user.id, email: user.email ?? "" }} perfil={perfil} />
-        <ProgresoTemas progreso={progresoTemas} />
-        <ProgresoFlashcards progreso={progresoFlashcards} />
-        <HistorialSimulacros intentos={historialSimulacros ?? []} />
-        <HistorialTests intentos={historial ?? []} />
+
+        <section className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+          <h2 className="mb-4 text-base font-semibold text-brand-900">Mi progreso</h2>
+          <div className="grid gap-3 sm:grid-cols-2">
+            {SECCIONES.map((s) => (
+              <Link
+                key={s.href}
+                href={s.href}
+                className="flex items-start gap-3 rounded-xl border border-slate-100 p-4 transition-colors hover:border-brand-200 hover:bg-brand-50"
+              >
+                <span className="text-2xl">{s.icono}</span>
+                <span>
+                  <span className="block text-sm font-semibold text-slate-800">{s.titulo}</span>
+                  <span className="block text-xs text-slate-500">{s.descripcion}</span>
+                </span>
+              </Link>
+            ))}
+          </div>
+        </section>
       </Container>
     </>
   );
