@@ -10,7 +10,7 @@
  * Local, con casi todo reutilizable), la DGA es Administración autonómica:
  * el enfoque institucional es distinto (Aragón como Comunidad Autónoma, no
  * como municipio/provincia), así que el solape con el temario ya sembrado
- * es mucho menor. Primer lote: solo 6 de los 20 temas, los únicos donde el
+ * es mucho menor. Primer lote: solo 7 de los 20 temas, los únicos donde el
  * recorte por `secciones_incluidas` queda COMPLETO frente a lo que pide el
  * programa oficial de la DGA — nunca un recorte a medias que deje al
  * usuario con una falsa sensación de tema terminado:
@@ -40,16 +40,20 @@
  *     propio de Administración Pública que el programa de la DGA
  *     subraya (inventario de tratamientos, DPO obligatorio, régimen
  *     sancionador de apercibimiento, Esquema Nacional de Seguridad).
+ *   - Tema 3 (Unión Europea: instituciones y fuentes del derecho):
+ *     `tema-28`, tema canónico creado desde cero (no había ningún tema
+ *     previo sobre la UE) a partir del texto oficial del TUE (arts.
+ *     13-19) y del TFUE (art. 288). Ver
+ *     scripts/seed-tema-union-europea.mjs.
  *
- * Quedan sin asignar 14 de los 20 temas: unos porque el recorte existente
+ * Quedan sin asignar 13 de los 20 temas: unos porque el recorte existente
  * no llega a cubrir lo que pide la DGA (temas 10 y 13, que necesitarían
  * Ley 7/2018 y Ley 5/2019 de Aragón, y carrera/retribución/seguridad
  * social respectivamente — leyes que `tema-2`/`tema-17` no tienen), y
  * otros porque son contenido totalmente nuevo sin ninguna fuente sembrada
- * todavía (Unión Europea, organización territorial del Estado +
- * comarcalización de Aragón, órganos de gobierno de la CA de Aragón,
- * negociación laboral, y los 5 de ofimática). Se añadirán en tandas
- * siguientes.
+ * todavía (organización territorial del Estado + comarcalización de
+ * Aragón, órganos de gobierno de la CA de Aragón, negociación laboral, y
+ * los 5 de ofimática). Se añadirán en tandas siguientes.
  *
  * Uso: node --env-file=.env.local scripts/seed-oposicion-dga.mjs
  */
@@ -112,8 +116,8 @@ const BLOQUES = [
 const bloquesInsertados = await upsert("bloques", BLOQUES, "oposicion_slug,slug");
 const bloqueIdPorSlug = Object.fromEntries(bloquesInsertados.map((b) => [b.slug, b.id]));
 
-// ── 3. TEMA_OPOSICION — solo los 6 de 20 temas con recorte COMPLETO ────────
-console.log("📝 tema_oposicion (6 de 20 — ver cabecera)...");
+// ── 3. TEMA_OPOSICION — solo los 7 de 20 temas con recorte COMPLETO ────────
+console.log("📝 tema_oposicion (7 de 20 — ver cabecera)...");
 const ASIGNACIONES = [
   // DGA Tema 1: la Constitución (estructura, principios, derechos fundamentales,
   // Corona, Cortes Generales, Poder Judicial, Tribunal Constitucional)
@@ -189,6 +193,17 @@ const ASIGNACIONES = [
     numero: 9,
     secciones: ["proteccion-datos-principios"],
   },
+  // DGA Tema 3: la Unión Europea (instituciones + fuentes del derecho).
+  // Contenido genuinamente nuevo, sin ningún tema previo sobre la UE —
+  // se creó `tema-28` desde cero con el texto oficial del TUE (arts.
+  // 13-19, instituciones) y del TFUE (art. 288, fuentes del derecho). Ver
+  // scripts/seed-tema-union-europea.mjs.
+  {
+    temaSlug: "tema-28",
+    bloqueSlug: "bloque-1",
+    numero: 3,
+    secciones: ["instituciones-ue", "fuentes-derecho-ue"],
+  },
 ].map((a) => ({
   tema_slug: a.temaSlug,
   oposicion_slug: OPOSICION,
@@ -256,4 +271,4 @@ await upsert(
   "oposicion_slug"
 );
 
-console.log("✅ Oposición DGA dada de alta (6 de 20 temas asignados).");
+console.log("✅ Oposición DGA dada de alta (7 de 20 temas asignados).");
