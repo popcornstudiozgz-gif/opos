@@ -10,7 +10,7 @@
  * Local, con casi todo reutilizable), la DGA es Administración autonómica:
  * el enfoque institucional es distinto (Aragón como Comunidad Autónoma, no
  * como municipio/provincia), así que el solape con el temario ya sembrado
- * es mucho menor. Primer lote: solo 8 de los 20 temas, los únicos donde el
+ * es mucho menor. Primer lote: solo 9 de los 20 temas, los únicos donde el
  * recorte por `secciones_incluidas` queda COMPLETO frente a lo que pide el
  * programa oficial de la DGA — nunca un recorte a medias que deje al
  * usuario con una falsa sensación de tema terminado:
@@ -51,14 +51,21 @@
  *     Títulos IV y VIII de la Constitución y del Decreto Legislativo
  *     1/2006 (texto refundido de la Ley de Comarcalización de Aragón).
  *     Ver scripts/seed-tema-organizacion-territorial.mjs.
+ *   - Tema 5 (órganos de gobierno y administración de la CA de Aragón:
+ *     Presidente y Gobierno, Administración Pública, Sector Público
+ *     autonómico): `tema-30`, tema canónico creado desde cero a partir del
+ *     texto refundido de la Ley del Presidente y del Gobierno de Aragón
+ *     (Decreto Legislativo 1/2022) y de la Ley 5/2021 de Organización y
+ *     Régimen Jurídico del Sector Público Autonómico de Aragón. Ver
+ *     scripts/seed-tema-organos-gobierno-aragon.mjs.
  *
- * Quedan sin asignar 12 de los 20 temas: unos porque el recorte existente
+ * Quedan sin asignar 11 de los 20 temas: unos porque el recorte existente
  * no llega a cubrir lo que pide la DGA (temas 10 y 13, que necesitarían
  * Ley 7/2018 y Ley 5/2019 de Aragón, y carrera/retribución/seguridad
  * social respectivamente — leyes que `tema-2`/`tema-17` no tienen), y
  * otros porque son contenido totalmente nuevo sin ninguna fuente sembrada
- * todavía (órganos de gobierno de la CA de Aragón, negociación laboral, y
- * los 5 de ofimática). Se añadirán en tandas siguientes.
+ * todavía (negociación laboral y los 5 de ofimática). Se añadirán en
+ * tandas siguientes.
  *
  * Uso: node --env-file=.env.local scripts/seed-oposicion-dga.mjs
  */
@@ -121,8 +128,8 @@ const BLOQUES = [
 const bloquesInsertados = await upsert("bloques", BLOQUES, "oposicion_slug,slug");
 const bloqueIdPorSlug = Object.fromEntries(bloquesInsertados.map((b) => [b.slug, b.id]));
 
-// ── 3. TEMA_OPOSICION — solo los 8 de 20 temas con recorte COMPLETO ────────
-console.log("📝 tema_oposicion (8 de 20 — ver cabecera)...");
+// ── 3. TEMA_OPOSICION — solo los 9 de 20 temas con recorte COMPLETO ────────
+console.log("📝 tema_oposicion (9 de 20 — ver cabecera)...");
 const ASIGNACIONES = [
   // DGA Tema 1: la Constitución (estructura, principios, derechos fundamentales,
   // Corona, Cortes Generales, Poder Judicial, Tribunal Constitucional)
@@ -229,6 +236,20 @@ const ASIGNACIONES = [
       "comarcalizacion-aragon",
     ],
   },
+  // DGA Tema 5: los órganos de gobierno y administración de la Comunidad
+  // Autónoma de Aragón (Presidente y Gobierno, Administración Pública de
+  // la CA, Sector Público autonómico). Contenido genuinamente nuevo — se
+  // creó `tema-30` desde cero con el texto refundido de la Ley del
+  // Presidente y del Gobierno de Aragón (Decreto Legislativo 1/2022) y la
+  // Ley 5/2021 de Organización y Régimen Jurídico del Sector Público
+  // Autonómico de Aragón. Ver
+  // scripts/seed-tema-organos-gobierno-aragon.mjs.
+  {
+    temaSlug: "tema-30",
+    bloqueSlug: "bloque-1",
+    numero: 5,
+    secciones: ["presidente-gobierno-aragon", "administracion-comunidad-autonoma", "sector-publico-autonomico"],
+  },
 ].map((a) => ({
   tema_slug: a.temaSlug,
   oposicion_slug: OPOSICION,
@@ -296,4 +317,4 @@ await upsert(
   "oposicion_slug"
 );
 
-console.log("✅ Oposición DGA dada de alta (8 de 20 temas asignados).");
+console.log("✅ Oposición DGA dada de alta (9 de 20 temas asignados).");
