@@ -10,7 +10,7 @@
  * Local, con casi todo reutilizable), la DGA es Administración autonómica:
  * el enfoque institucional es distinto (Aragón como Comunidad Autónoma, no
  * como municipio/provincia), así que el solape con el temario ya sembrado
- * es mucho menor. Primer lote: solo 5 de los 20 temas, los únicos donde el
+ * es mucho menor. Primer lote: solo 6 de los 20 temas, los únicos donde el
  * recorte por `secciones_incluidas` queda COMPLETO frente a lo que pide el
  * programa oficial de la DGA — nunca un recorte a medias que deje al
  * usuario con una falsa sensación de tema terminado:
@@ -32,16 +32,24 @@
  *     administrativas, régimen disciplinario, pérdida de la condición de
  *     funcionario): `tema-18`. Queda sin cubrir "clases de personal"
  *     (está en `tema-17`, no en `tema-18`) — hueco menor, pendiente.
+ *   - Tema 9 (protección de datos personales en el ámbito de las AAPP:
+ *     RGPD + LOPDGDD): `tema-26`, sección "proteccion-datos-principios" —
+ *     ampliada expresamente para este tema (ver
+ *     scripts/seed-ampliacion-proteccion-datos-tema26.mjs) con los 7
+ *     principios del art. 5 RGPD, los derechos que faltaban y el ángulo
+ *     propio de Administración Pública que el programa de la DGA
+ *     subraya (inventario de tratamientos, DPO obligatorio, régimen
+ *     sancionador de apercibimiento, Esquema Nacional de Seguridad).
  *
- * Quedan sin asignar 15 de los 20 temas: unos porque el recorte existente
+ * Quedan sin asignar 14 de los 20 temas: unos porque el recorte existente
  * no llega a cubrir lo que pide la DGA (temas 10 y 13, que necesitarían
  * Ley 7/2018 y Ley 5/2019 de Aragón, y carrera/retribución/seguridad
  * social respectivamente — leyes que `tema-2`/`tema-17` no tienen), y
  * otros porque son contenido totalmente nuevo sin ninguna fuente sembrada
  * todavía (Unión Europea, organización territorial del Estado +
  * comarcalización de Aragón, órganos de gobierno de la CA de Aragón,
- * RGPD/LOPD, negociación laboral, y los 5 de ofimática). Se añadirán en
- * tandas siguientes.
+ * negociación laboral, y los 5 de ofimática). Se añadirán en tandas
+ * siguientes.
  *
  * Uso: node --env-file=.env.local scripts/seed-oposicion-dga.mjs
  */
@@ -104,8 +112,8 @@ const BLOQUES = [
 const bloquesInsertados = await upsert("bloques", BLOQUES, "oposicion_slug,slug");
 const bloqueIdPorSlug = Object.fromEntries(bloquesInsertados.map((b) => [b.slug, b.id]));
 
-// ── 3. TEMA_OPOSICION — solo los 5 de 20 temas con recorte COMPLETO ────────
-console.log("📝 tema_oposicion (5 de 20 — ver cabecera)...");
+// ── 3. TEMA_OPOSICION — solo los 6 de 20 temas con recorte COMPLETO ────────
+console.log("📝 tema_oposicion (6 de 20 — ver cabecera)...");
 const ASIGNACIONES = [
   // DGA Tema 1: la Constitución (estructura, principios, derechos fundamentales,
   // Corona, Cortes Generales, Poder Judicial, Tribunal Constitucional)
@@ -167,6 +175,19 @@ const ASIGNACIONES = [
     bloqueSlug: "bloque-4",
     numero: 12,
     secciones: ["adquisicion-servicio", "perdida-servicio", "regimen-disciplinario", "situaciones-administrativas"],
+  },
+  // DGA Tema 9: protección de datos personales en el ámbito de las AAPP
+  // (RGPD + LOPDGDD). La sección "proteccion-datos-principios" de tema-26
+  // (compartida con la DPZ) se amplió expresamente para este tema — ver
+  // scripts/seed-ampliacion-proteccion-datos-tema26.mjs — con los 7
+  // principios del art. 5 RGPD, los derechos que faltaban y el ángulo
+  // propio de Administración Pública (inventario de tratamientos, DPO
+  // obligatorio, régimen sancionador de apercibimiento, ENS).
+  {
+    temaSlug: "tema-26",
+    bloqueSlug: "bloque-3",
+    numero: 9,
+    secciones: ["proteccion-datos-principios"],
   },
 ].map((a) => ({
   tema_slug: a.temaSlug,
@@ -235,4 +256,4 @@ await upsert(
   "oposicion_slug"
 );
 
-console.log("✅ Oposición DGA dada de alta (5 de 20 temas asignados).");
+console.log("✅ Oposición DGA dada de alta (6 de 20 temas asignados).");
