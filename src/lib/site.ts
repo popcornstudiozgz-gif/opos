@@ -83,6 +83,7 @@ export function crearMetadata({
 const ORGANISMOS: Record<string, { abreviado: string; conPreposicion: string; preposicion: string }> = {
   "ayuntamiento-zaragoza": { abreviado: "Ayto. Zaragoza", conPreposicion: "del Ayto. de Zaragoza", preposicion: "del" },
   dpz: { abreviado: "DPZ", conPreposicion: "de la DPZ", preposicion: "de la" },
+  "gobierno-aragon": { abreviado: "DGA", conPreposicion: "de la DGA", preposicion: "del" },
 };
 
 export function organismoAbreviado(organismoSlug: string, organismoCompleto: string): string {
