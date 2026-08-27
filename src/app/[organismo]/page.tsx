@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/Button";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { Navbar } from "@/components/layout/Navbar";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
-import { crearMetadata, organismoConPreposicion } from "@/lib/site";
+import { crearMetadata, organismoConPreposicionCompleto } from "@/lib/site";
 import { getOposiciones, getOposicionesDeOrganismo, getTemasDeOposicion } from "@/lib/oposiciones";
 
 interface PageProps {
@@ -26,8 +26,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   if (oposiciones.length === 0) return {};
   const nombreOrganismo = oposiciones[0].organismo;
   return crearMetadata({
-    titulo: `Oposiciones ${organismoConPreposicion(organismo, nombreOrganismo)}`,
-    descripcion: `Prepara gratis las oposiciones ${organismoConPreposicion(organismo, nombreOrganismo)}: temario, test, flashcards, casos prácticos y simulacros.`,
+    titulo: `Oposiciones ${organismoConPreposicionCompleto(organismo, nombreOrganismo)}`,
+    descripcion: `Prepara gratis las oposiciones ${organismoConPreposicionCompleto(organismo, nombreOrganismo)}: temario, test, flashcards, casos prácticos y simulacros.`,
     ruta: `/${organismo}`,
   });
 }
@@ -63,14 +63,14 @@ export default async function OrganismoPage({ params }: PageProps) {
         <Container className="py-16 sm:py-20">
           <div className="max-w-3xl">
             <p className="inline-flex items-center rounded-full bg-white/10 px-3 py-1 text-sm font-medium text-brand-100">
-              Oposiciones {organismoConPreposicion(organismo, nombreOrganismo)}
+              {nombreOrganismo}
             </p>
             <h1 className="mt-5 text-4xl font-black leading-tight tracking-tight sm:text-5xl">
-              {nombreOrganismo}
+              Oposiciones {organismoConPreposicionCompleto(organismo, nombreOrganismo)}
             </h1>
             <p className="mt-6 max-w-2xl text-lg leading-relaxed text-brand-100">
               Temario oficial, test, flashcards, casos prácticos y simulacros cronometrados para
-              cada oposición {organismoConPreposicion(organismo, nombreOrganismo)}, gratis.
+              cada oposición {organismoConPreposicionCompleto(organismo, nombreOrganismo)}, gratis.
             </p>
           </div>
         </Container>
@@ -80,7 +80,7 @@ export default async function OrganismoPage({ params }: PageProps) {
       <section className="bg-white">
         <Container className="py-16 sm:py-20">
           <SectionHeading
-            titulo={`Oposiciones ${organismoConPreposicion(organismo, nombreOrganismo)}`}
+            titulo="Oposiciones disponibles"
             subtitulo="Cada oposición tiene su propio temario. Cuando dos oposiciones comparten materia, comparten también ese contenido."
           />
 
