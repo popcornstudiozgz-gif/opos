@@ -64,23 +64,25 @@ export function crearMetadata({
 
 /**
  * Forma corta del organismo (p. ej. "Diputación Provincial de Zaragoza" →
- * "DPZ", para titles que van sueltos) y forma con preposición ya resuelta
- * (para frases tipo "el examen del Ayuntamiento de Zaragoza") — ninguna de
- * las dos es mecánica (no hay una regla fiable para acortar cualquier
- * organismo, ni para saber su género/preposición), así que es un mapa a
- * mano: se añade una entrada por organismo nuevo al darlo de alta, igual
- * que ya se decide su `organismoSlug` a mano. Si falta una entrada, cae al
- * organismo completo — el title sale más largo, pero nunca roto ni con un
- * dato inventado.
+ * "DPZ", para titles que van sueltos), forma abreviada con preposición ya
+ * resuelta (para titles largos tipo "Simulacro... del Ayto. de Zaragoza")
+ * y la preposición sola (para componerla con el nombre COMPLETO en sitios
+ * como el H1 de la página de organismo: "Oposiciones del Ayuntamiento de
+ * Zaragoza") — nada de esto es mecánico (no hay una regla fiable para
+ * acortar cualquier organismo, ni para saber su género/preposición), así
+ * que es un mapa a mano: se añade una entrada por organismo nuevo al
+ * darlo de alta, igual que ya se decide su `organismoSlug` a mano. Si
+ * falta una entrada, cae al organismo completo — el texto sale más largo,
+ * pero nunca roto ni con un dato inventado.
  *
  * Se indexa por `organismoSlug` (no por el `slug` de cada oposición): es el
  * organismo, no el puesto, quien tiene una abreviatura y un género propios
  * — dos oposiciones del mismo organismo comparten la misma entrada aquí, en
  * vez de duplicarla por cada una.
  */
-const ORGANISMOS: Record<string, { abreviado: string; conPreposicion: string }> = {
-  "ayuntamiento-zaragoza": { abreviado: "Ayto. Zaragoza", conPreposicion: "del Ayto. de Zaragoza" },
-  dpz: { abreviado: "DPZ", conPreposicion: "de la DPZ" },
+const ORGANISMOS: Record<string, { abreviado: string; conPreposicion: string; preposicion: string }> = {
+  "ayuntamiento-zaragoza": { abreviado: "Ayto. Zaragoza", conPreposicion: "del Ayto. de Zaragoza", preposicion: "del" },
+  dpz: { abreviado: "DPZ", conPreposicion: "de la DPZ", preposicion: "de la" },
 };
 
 export function organismoAbreviado(organismoSlug: string, organismoCompleto: string): string {
@@ -89,6 +91,17 @@ export function organismoAbreviado(organismoSlug: string, organismoCompleto: str
 
 export function organismoConPreposicion(organismoSlug: string, organismoCompleto: string): string {
   return ORGANISMOS[organismoSlug]?.conPreposicion ?? `de ${organismoCompleto}`;
+}
+
+/**
+ * Igual que `organismoConPreposicion`, pero con el nombre COMPLETO del
+ * organismo en vez de la forma abreviada — para titulares donde el
+ * organismo ya es el tema de toda la página (el H1 de /[organismo]) y
+ * abreviarlo no aporta nada, solo resta claridad.
+ */
+export function organismoConPreposicionCompleto(organismoSlug: string, organismoCompleto: string): string {
+  const entrada = ORGANISMOS[organismoSlug];
+  return entrada ? `${entrada.preposicion} ${organismoCompleto}` : `de ${organismoCompleto}`;
 }
 
 /**
