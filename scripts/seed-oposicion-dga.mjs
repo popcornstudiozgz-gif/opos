@@ -10,7 +10,7 @@
  * Local, con casi todo reutilizable), la DGA es Administración autonómica:
  * el enfoque institucional es distinto (Aragón como Comunidad Autónoma, no
  * como municipio/provincia), así que el solape con el temario ya sembrado
- * es mucho menor. Primer lote: solo 9 de los 20 temas, los únicos donde el
+ * es mucho menor. Primer lote: solo 10 de los 20 temas, los únicos donde el
  * recorte por `secciones_incluidas` queda COMPLETO frente a lo que pide el
  * programa oficial de la DGA — nunca un recorte a medias que deje al
  * usuario con una falsa sensación de tema terminado:
@@ -58,14 +58,19 @@
  *     (Decreto Legislativo 1/2022) y de la Ley 5/2021 de Organización y
  *     Régimen Jurídico del Sector Público Autonómico de Aragón. Ver
  *     scripts/seed-tema-organos-gobierno-aragon.mjs.
+ *   - Tema 10 (igualdad efectiva de mujeres y hombres: principios
+ *     generales, normativa básica, medidas contra la discriminación):
+ *     `tema-2`, reutilizando entera su LOIEMH (Ley Orgánica 3/2007) ya
+ *     construida para el Ayto. de Zaragoza — sin necesidad de contenido
+ *     nuevo, solo excluyendo lo específico de Zaragoza y la ley de
+ *     violencia de género que la DGA no pide.
  *
- * Quedan sin asignar 11 de los 20 temas: unos porque el recorte existente
- * no llega a cubrir lo que pide la DGA (temas 10 y 13, que necesitarían
- * Ley 7/2018 y Ley 5/2019 de Aragón, y carrera/retribución/seguridad
- * social respectivamente — leyes que `tema-2`/`tema-17` no tienen), y
- * otros porque son contenido totalmente nuevo sin ninguna fuente sembrada
- * todavía (negociación laboral y los 5 de ofimática). Se añadirán en
- * tandas siguientes.
+ * Quedan sin asignar 10 de los 20 temas: unos porque el recorte existente
+ * no llega a cubrir lo que pide la DGA (Tema 13, que necesitaría
+ * carrera/retribución/seguridad social — contenido que `tema-17` no
+ * tiene), y otros porque son contenido totalmente nuevo sin ninguna
+ * fuente sembrada todavía (negociación laboral y los 5 de ofimática). Se
+ * añadirán en tandas siguientes.
  *
  * Uso: node --env-file=.env.local scripts/seed-oposicion-dga.mjs
  */
@@ -128,8 +133,8 @@ const BLOQUES = [
 const bloquesInsertados = await upsert("bloques", BLOQUES, "oposicion_slug,slug");
 const bloqueIdPorSlug = Object.fromEntries(bloquesInsertados.map((b) => [b.slug, b.id]));
 
-// ── 3. TEMA_OPOSICION — solo los 9 de 20 temas con recorte COMPLETO ────────
-console.log("📝 tema_oposicion (9 de 20 — ver cabecera)...");
+// ── 3. TEMA_OPOSICION — solo los 10 de 20 temas con recorte COMPLETO ───────
+console.log("📝 tema_oposicion (10 de 20 — ver cabecera)...");
 const ASIGNACIONES = [
   // DGA Tema 1: la Constitución (estructura, principios, derechos fundamentales,
   // Corona, Cortes Generales, Poder Judicial, Tribunal Constitucional)
@@ -250,6 +255,38 @@ const ASIGNACIONES = [
     numero: 5,
     secciones: ["presidente-gobierno-aragon", "administracion-comunidad-autonoma", "sector-publico-autonomico"],
   },
+  // DGA Tema 10: "La igualdad efectiva de mujeres y hombres. Principios
+  // generales. Normativa básica. Medidas para la igualdad y contra la
+  // discriminación." No hace falta contenido nuevo: `tema-2` (compartido
+  // con el Ayto. de Zaragoza) ya tiene la LOIEMH (Ley Orgánica 3/2007)
+  // completa y construida con rigor — 90 flashcards + 119 preguntas en
+  // los 11 títulos/disposiciones —, que es literalmente la "normativa
+  // básica" que pide el enunciado. Se reutiliza entera, excluyendo solo
+  // lo que no pide la DGA: el Plan de Igualdad de Zaragoza
+  // (`plan-igualdad-zaragoza`, específico de ese ayuntamiento) y la Ley
+  // 4/2007 de violencia de género en Aragón (`ley4-*`, que el enunciado
+  // de la DGA no menciona). La Ley 7/2018 de Aragón (igualdad de
+  // oportunidades) ya está en `tema-26`, pero ese tema está usado en el
+  // Tema 9 de la DGA — no se puede reasignar dos veces dentro de la misma
+  // oposición, así que queda fuera de este recorte.
+  {
+    temaSlug: "tema-2",
+    bloqueSlug: "bloque-3",
+    numero: 10,
+    secciones: [
+      "loiemh-titulo-preliminar",
+      "loiemh-titulo-1",
+      "loiemh-titulo-2-cap-1",
+      "loiemh-titulo-2-cap-2",
+      "loiemh-titulo-3",
+      "loiemh-titulo-4",
+      "loiemh-titulo-5",
+      "loiemh-titulo-6",
+      "loiemh-titulo-7",
+      "loiemh-titulo-8",
+      "loiemh-disposiciones",
+    ],
+  },
 ].map((a) => ({
   tema_slug: a.temaSlug,
   oposicion_slug: OPOSICION,
@@ -317,4 +354,4 @@ await upsert(
   "oposicion_slug"
 );
 
-console.log("✅ Oposición DGA dada de alta (9 de 20 temas asignados).");
+console.log("✅ Oposición DGA dada de alta (10 de 20 temas asignados).");
