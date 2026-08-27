@@ -68,22 +68,27 @@ export function crearMetadata({
  * (para frases tipo "el examen del Ayuntamiento de Zaragoza") — ninguna de
  * las dos es mecánica (no hay una regla fiable para acortar cualquier
  * organismo, ni para saber su género/preposición), así que es un mapa a
- * mano: se añade una entrada por oposición nueva al darla de alta, igual
- * que ya se decide su `slug` a mano. Si falta una entrada, cae al organismo
- * completo — el title sale más largo, pero nunca roto ni con un dato
- * inventado.
+ * mano: se añade una entrada por organismo nuevo al darlo de alta, igual
+ * que ya se decide su `organismoSlug` a mano. Si falta una entrada, cae al
+ * organismo completo — el title sale más largo, pero nunca roto ni con un
+ * dato inventado.
+ *
+ * Se indexa por `organismoSlug` (no por el `slug` de cada oposición): es el
+ * organismo, no el puesto, quien tiene una abreviatura y un género propios
+ * — dos oposiciones del mismo organismo comparten la misma entrada aquí, en
+ * vez de duplicarla por cada una.
  */
 const ORGANISMOS: Record<string, { abreviado: string; conPreposicion: string }> = {
-  "auxiliar-administrativo-ayto-zaragoza": { abreviado: "Ayto. Zaragoza", conPreposicion: "del Ayto. de Zaragoza" },
-  "auxiliar-administrativo-dpz": { abreviado: "DPZ", conPreposicion: "de la DPZ" },
+  "ayuntamiento-zaragoza": { abreviado: "Ayto. Zaragoza", conPreposicion: "del Ayto. de Zaragoza" },
+  dpz: { abreviado: "DPZ", conPreposicion: "de la DPZ" },
 };
 
-export function organismoAbreviado(oposicionSlug: string, organismoCompleto: string): string {
-  return ORGANISMOS[oposicionSlug]?.abreviado ?? organismoCompleto;
+export function organismoAbreviado(organismoSlug: string, organismoCompleto: string): string {
+  return ORGANISMOS[organismoSlug]?.abreviado ?? organismoCompleto;
 }
 
-export function organismoConPreposicion(oposicionSlug: string, organismoCompleto: string): string {
-  return ORGANISMOS[oposicionSlug]?.conPreposicion ?? `de ${organismoCompleto}`;
+export function organismoConPreposicion(organismoSlug: string, organismoCompleto: string): string {
+  return ORGANISMOS[organismoSlug]?.conPreposicion ?? `de ${organismoCompleto}`;
 }
 
 /**

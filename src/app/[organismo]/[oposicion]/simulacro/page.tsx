@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { Container } from "@/components/ui/Container";
 import { PageHeader } from "@/components/layout/PageHeader";
+import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { crearMetadata, nombreAbreviado, organismoConPreposicion } from "@/lib/site";
 import {
   getOposicionPorRuta,
@@ -32,7 +33,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const oposicion = await getOposicionPorRuta(organismo, puesto);
   if (!oposicion) return {};
   return crearMetadata({
-    titulo: `Simulacro de examen para ${nombreAbreviado(oposicion.nombre)} ${organismoConPreposicion(oposicion.slug, oposicion.organismo)}`,
+    titulo: `Simulacro de examen para ${nombreAbreviado(oposicion.nombre)} ${organismoConPreposicion(oposicion.organismoSlug, oposicion.organismo)}`,
     descripcion: `Examen completo de ${oposicion.nombre} · ${oposicion.organismo} en condiciones reales: ${NUM_PREGUNTAS_TEST} preguntas cronometradas y ${NUM_CASOS} casos prácticos, con corrección y puntuación oficial.`,
     ruta: `/${organismo}/${puesto}/simulacro`,
   });
@@ -48,6 +49,7 @@ export default async function SimulacroPage({ params }: PageProps) {
   ]);
   if (!oposicion) notFound();
   const oposicionSlug = oposicion.slug; // slug interno (PK) — para queries de contenido y progreso
+  const base = `/${organismo}/${puesto}`;
   const [bloques, todasPreguntas, todosCasos] = await Promise.all([
     getBloquesConTemas(oposicionSlug),
     getPreguntasDeOposicion(oposicionSlug),
@@ -67,6 +69,13 @@ export default async function SimulacroPage({ params }: PageProps) {
 
   return (
     <>
+      <Breadcrumbs
+        items={[
+          { label: oposicion.organismo, href: `/${organismo}` },
+          { label: oposicion.nombre, href: base },
+          { label: "Simulacro", href: `${base}/simulacro` },
+        ]}
+      />
       <PageHeader
         titulo="Simulacro de examen"
         descripcion={`${oposicion.nombre} · ${oposicion.organismo}. Pon a prueba tus conocimientos con tiempo límite, como en el examen real.`}

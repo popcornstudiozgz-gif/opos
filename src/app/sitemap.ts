@@ -20,6 +20,12 @@ import { getArticulosPublicados } from "@/lib/blog";
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const [oposiciones, articulos] = await Promise.all([getOposiciones(), getArticulosPublicados()]);
 
+  // Un /[organismo] por cada organismoSlug distinto (26/08/2026, junto con
+  // las migas de pan): con un organismo por cada oposición hoy solapa con
+  // la home de esa oposición, pero es la página que absorbe cualquier otra
+  // oposición nueva del mismo organismo sin duplicar sitio.
+  const rutasOrganismo = [...new Set(oposiciones.map((o) => o.organismoSlug))].map((o) => `/${o}`);
+
   const porOposicion = await Promise.all(
     oposiciones.map(async (o) => {
       const base = `/${o.organismoSlug}/${o.puestoSlug}`;
@@ -39,7 +45,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   const rutasBlog = ["/blog", ...articulos.map((a) => `/blog/${a.slug}`)];
 
-  const rutas = ["/", "/faq", "/contacto", "/glosario", ...rutasBlog, ...porOposicion.flat()];
+  const rutas = ["/", "/faq", "/contacto", "/glosario", ...rutasOrganismo, ...rutasBlog, ...porOposicion.flat()];
 
   return rutas.map((ruta) => ({
     url: `${SITE.url}${ruta}`,

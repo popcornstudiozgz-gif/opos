@@ -5,6 +5,7 @@ import { Container } from "@/components/ui/Container";
 import { Card } from "@/components/ui/Card";
 import { Button } from "@/components/ui/Button";
 import { SectionHeading } from "@/components/ui/SectionHeading";
+import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { crearMetadata } from "@/lib/site";
 import { getOposicionPorRuta, getOposiciones, getEstadisticasOposicion } from "@/lib/oposiciones";
 import { getConvocatoria } from "@/data/convocatorias";
@@ -114,6 +115,13 @@ export default async function OposicionHome({ params }: PageProps) {
 
   return (
     <>
+      <Breadcrumbs
+        items={[
+          { label: oposicion.organismo, href: `/${organismo}` },
+          { label: oposicion.nombre, href: base },
+        ]}
+      />
+
       {/* Hero */}
       <section className="relative overflow-hidden bg-gradient-to-b from-brand-700 to-brand-900 text-white">
         <Container className="py-20 sm:py-28">

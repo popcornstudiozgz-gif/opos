@@ -43,7 +43,7 @@ export function ProgresoTemas({ progreso }: Props) {
                   <p className="text-sm font-semibold text-slate-800">
                     {oposicion.nombre}{" "}
                     <span className="font-normal text-slate-400">
-                      · {organismoAbreviado(oposicion.slug, oposicion.organismo)}
+                      · {organismoAbreviado(oposicion.organismoSlug, oposicion.organismo)}
                     </span>
                   </p>
                   <span className="shrink-0 rounded-full bg-brand-50 px-2 py-0.5 text-xs font-semibold text-brand-600">

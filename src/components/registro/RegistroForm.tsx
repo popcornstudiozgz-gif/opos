@@ -213,7 +213,7 @@ function RegistroContent({ oposiciones }: { oposiciones: Oposicion[] }) {
                             compartir el mismo nombre de puesto (p. ej. "Auxiliar
                             Administrativo" en el Ayto. de Zaragoza y en la DPZ),
                             y sin el organismo las opciones serían indistinguibles. */}
-                        {o.nombre} · {organismoAbreviado(o.slug, o.organismo)}
+                        {o.nombre} · {organismoAbreviado(o.organismoSlug, o.organismo)}
                       </option>
                     ))}
                   </select>
