@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import { Container } from "@/components/ui/Container";
 import { Card } from "@/components/ui/Card";
 import { PageHeader } from "@/components/layout/PageHeader";
+import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { crearMetadata, organismoAbreviado } from "@/lib/site";
 import { getOposicionPorRuta, getBloquesConTemas, getOposiciones } from "@/lib/oposiciones";
 
@@ -21,7 +22,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const oposicion = await getOposicionPorRuta(organismo, puesto);
   if (!oposicion) return {};
   return crearMetadata({
-    titulo: `Temario ${oposicion.nombre} ${organismoAbreviado(oposicion.slug, oposicion.organismo)}`,
+    titulo: `Temario ${oposicion.nombre} ${organismoAbreviado(oposicion.organismoSlug, oposicion.organismo)}`,
     descripcion: `Temario oficial de ${oposicion.nombre} · ${oposicion.organismo}, organizado por bloques.`,
     ruta: `/${organismo}/${puesto}/temario`,
   });
@@ -37,6 +38,13 @@ export default async function TemarioPage({ params }: PageProps) {
 
   return (
     <>
+      <Breadcrumbs
+        items={[
+          { label: oposicion.organismo, href: `/${organismo}` },
+          { label: oposicion.nombre, href: base },
+          { label: "Temario", href: `${base}/temario` },
+        ]}
+      />
       <PageHeader
         titulo={`Temario oficial de ${oposicion.nombre} · ${oposicion.organismo}`}
         descripcion="Todo el contenido organizado por bloques — entra en cada tema para estudiarlo y practicar sus preguntas."

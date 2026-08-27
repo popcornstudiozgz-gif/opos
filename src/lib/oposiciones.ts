@@ -129,6 +129,25 @@ export async function getOposicion(slug: string): Promise<Oposicion | undefined>
 }
 
 /**
+ * Todas las oposiciones activas de un organismo (para la página
+ * /[organismo], que lista las oposiciones que caen bajo él). No hay una
+ * tabla `organismos` propia: el organismo es, hoy, un atributo repetido de
+ * cada oposición (`organismo`/`organismo_slug`) — crear una tabla aparte
+ * solo se justificaría si un organismo necesitara datos propios que no
+ * dependan de ninguna oposición concreta (una descripción larga, un logo).
+ */
+export async function getOposicionesDeOrganismo(organismoSlug: string): Promise<Oposicion[]> {
+  const supabase = createClient();
+  const { data, error } = await supabase
+    .from("oposiciones")
+    .select("*")
+    .eq("activa", true)
+    .eq("organismo_slug", organismoSlug);
+  if (error) throw error;
+  return (data ?? []).map(mapOposicion);
+}
+
+/**
  * Resuelve una oposición por los DOS segmentos de su URL pública
  * (/[organismoSlug]/[puestoSlug]/...), no por su `slug` interno — ver el
  * porqué de esta separación en el comentario de `slug` en `lib/types.ts`.

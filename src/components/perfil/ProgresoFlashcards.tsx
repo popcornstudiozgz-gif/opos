@@ -41,7 +41,7 @@ export function ProgresoFlashcards({ progreso }: Props) {
                   <p className="text-sm font-semibold text-slate-800">
                     {oposicion.nombre}{" "}
                     <span className="font-normal text-slate-400">
-                      · {organismoAbreviado(oposicion.slug, oposicion.organismo)}
+                      · {organismoAbreviado(oposicion.organismoSlug, oposicion.organismo)}
                     </span>
                   </p>
                   <Link

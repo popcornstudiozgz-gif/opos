@@ -88,7 +88,7 @@ export default async function GlosarioPage({ searchParams }: PageProps) {
                         compartir el mismo nombre de puesto (p. ej. "Auxiliar
                         Administrativo" en el Ayto. de Zaragoza y en la DPZ),
                         y sin el organismo los chips serían indistinguibles. */}
-                    {o.nombre} · {organismoAbreviado(o.slug, o.organismo)}
+                    {o.nombre} · {organismoAbreviado(o.organismoSlug, o.organismo)}
                   </Link>
                 ))}
               </div>
