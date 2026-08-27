@@ -26,15 +26,18 @@ export async function Navbar({ oposicionSlug }: { oposicionSlug?: string }) {
   // no son de esa oposición — el glosario sí se repite en el menú de
   // oposición (ver más abajo), porque ahí sí interesa el acceso directo
   // con el filtro ya puesto.
+  // `base` es la ruta pública (organismo + puesto), distinta del `slug`
+  // interno (PK) — ver el comentario de `slug` en `lib/types.ts`.
+  const base = oposicion ? `/${oposicion.organismoSlug}/${oposicion.puestoSlug}` : "";
   const navLinks = oposicion
     ? [
-        { href: `/${oposicion.slug}/convocatoria`, label: "Convocatoria", principal: true },
-        { href: `/${oposicion.slug}/temario`, label: "Temario", principal: true },
-        { href: `/${oposicion.slug}/test`, label: "Test", principal: true },
-        { href: `/${oposicion.slug}/simulacro`, label: "Simulacro", principal: true },
+        { href: `${base}/convocatoria`, label: "Convocatoria", principal: true },
+        { href: `${base}/temario`, label: "Temario", principal: true },
+        { href: `${base}/test`, label: "Test", principal: true },
+        { href: `${base}/simulacro`, label: "Simulacro", principal: true },
         { href: `/glosario?oposicion=${oposicion.slug}`, label: "Glosario", principal: false },
-        { href: `/${oposicion.slug}/flashcards`, label: "Flashcards", principal: false },
-        { href: `/${oposicion.slug}/casos-practicos`, label: "Casos prácticos", principal: false },
+        { href: `${base}/flashcards`, label: "Flashcards", principal: false },
+        { href: `${base}/casos-practicos`, label: "Casos prácticos", principal: false },
         { href: `/blog?oposicion=${oposicion.slug}`, label: "Noticias", principal: false },
       ]
     : [
@@ -47,7 +50,7 @@ export async function Navbar({ oposicionSlug }: { oposicionSlug?: string }) {
   return (
     <NavbarShell
       siteNombre={SITE.nombre}
-      oposicion={oposicion ? { slug: oposicion.slug, nombre: oposicion.nombre } : null}
+      oposicion={oposicion ? { href: base, nombre: oposicion.nombre } : null}
       navLinks={navLinks}
     />
   );

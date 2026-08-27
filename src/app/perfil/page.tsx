@@ -12,7 +12,7 @@ export const metadata = crearMetadata({
 
 /**
  * Perfil de cuenta — no depende de ninguna oposición concreta: fuera de
- * `[oposicion]/...` porque un usuario puede estar preparando varias.
+ * `[organismo]/[oposicion]/...` porque un usuario puede estar preparando varias.
  *
  * Solo el panel de cuenta: el resto de secciones de progreso
  * (temario/flashcards/simulacros/tests/casos prácticos) vive cada una en su

@@ -25,7 +25,7 @@ export const metadata: Metadata = {
  * Layout raíz: solo shell HTML + footer. La navbar NO vive aquí porque
  * necesita saber si estamos dentro de una oposición o en el catálogo
  * general — cada nivel de rutas pone la suya (ver `app/page.tsx` y
- * `app/[oposicion]/layout.tsx`).
+ * `app/[organismo]/[oposicion]/layout.tsx`).
  */
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (

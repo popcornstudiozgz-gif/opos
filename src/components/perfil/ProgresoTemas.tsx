@@ -66,7 +66,7 @@ export function ProgresoTemas({ progreso }: Props) {
                           return (
                             <li key={tema.slug}>
                               <Link
-                                href={`/${oposicion.slug}/temario/${tema.slug}`}
+                                href={`/${oposicion.organismoSlug}/${oposicion.puestoSlug}/temario/${tema.slug}`}
                                 className="flex items-center gap-2 px-3 py-2 text-sm transition-colors hover:bg-brand-50"
                               >
                                 <span className={hecho ? "text-emerald-500" : "text-slate-300"}>{hecho ? "✓" : "○"}</span>

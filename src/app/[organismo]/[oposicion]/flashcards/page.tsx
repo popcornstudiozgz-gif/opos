@@ -3,7 +3,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { crearMetadata, organismoAbreviado } from "@/lib/site";
 import {
-  getOposicion,
+  getOposicionPorRuta,
   getOposiciones,
   getBloquesConTemas,
   getFlashcardsDeTema,
@@ -14,44 +14,44 @@ import { TemaExplorerLayout } from "@/components/layout/TemaExplorerLayout";
 import { createClient } from "@/lib/supabase/server";
 
 interface PageProps {
-  params: Promise<{ oposicion: string }>;
+  params: Promise<{ organismo: string; oposicion: string }>;
   searchParams: Promise<{ tema?: string; modo?: string }>;
 }
 
 export async function generateStaticParams() {
   const oposiciones = await getOposiciones();
-  return oposiciones.map((o) => ({ oposicion: o.slug }));
+  return oposiciones.map((o) => ({ organismo: o.organismoSlug, oposicion: o.puestoSlug }));
 }
 
 /**
  * El canonical NO depende de `searchParams`: da igual qué `?tema=` traiga la
- * URL, siempre apunta a `/[oposicion]/flashcards`. Así el filtro por tema es
- * una vista más de la misma página a ojos de los buscadores, en vez de 20
- * URLs casi-duplicadas compitiendo entre sí por indexación.
+ * URL, siempre apunta a `/[organismo]/[oposicion]/flashcards`. Así el filtro
+ * por tema es una vista más de la misma página a ojos de los buscadores, en
+ * vez de 20 URLs casi-duplicadas compitiendo entre sí por indexación.
  */
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
-  const { oposicion: oposicionSlug } = await params;
-  const oposicion = await getOposicion(oposicionSlug);
+  const { organismo, oposicion: puesto } = await params;
+  const oposicion = await getOposicionPorRuta(organismo, puesto);
   if (!oposicion) return {};
   return crearMetadata({
-    titulo: `Flashcards para ${oposicion.nombre} ${organismoAbreviado(oposicionSlug, oposicion.organismo)}`,
+    titulo: `Flashcards para ${oposicion.nombre} ${organismoAbreviado(oposicion.slug, oposicion.organismo)}`,
     descripcion: `Repasa ${oposicion.nombre} · ${oposicion.organismo} con flashcards: pregunta y respuesta, tema a tema.`,
-    ruta: `/${oposicionSlug}/flashcards`,
+    ruta: `/${organismo}/${puesto}/flashcards`,
   });
 }
 
 export default async function FlashcardsPage({ params, searchParams }: PageProps) {
-  const { oposicion: oposicionSlug } = await params;
+  const { organismo, oposicion: puesto } = await params;
   const { tema: temaParam, modo: modoParam } = await searchParams;
   // Deep-link desde "Repasar ahora" en /perfil (`?tema=todas&modo=repasar`):
   // preselecciona el modo en vez de aterrizar siempre en "Todas".
   const modoInicial: Modo = modoParam === "repasar" ? "repasar" : "todas";
 
-  const [oposicion, bloques] = await Promise.all([
-    getOposicion(oposicionSlug),
-    getBloquesConTemas(oposicionSlug),
-  ]);
+  const oposicion = await getOposicionPorRuta(organismo, puesto);
   if (!oposicion) notFound();
+  const oposicionSlug = oposicion.slug; // slug interno (PK) — para queries de contenido y progreso
+  const base = `/${organismo}/${puesto}`;
+  const bloques = await getBloquesConTemas(oposicionSlug);
 
   const temas = bloques.flatMap((b) => b.temas);
   const todasActivo = temaParam === "todas";
@@ -104,7 +104,7 @@ export default async function FlashcardsPage({ params, searchParams }: PageProps
       titulo="Flashcards"
       subtitulo={`${oposicion.nombre} · ${oposicion.organismo} — selecciona un tema para repasar`}
       bloques={bloques}
-      basePath={`/${oposicionSlug}/flashcards`}
+      basePath={`${base}/flashcards`}
       opcionTodos={{ label: "Todas las tarjetas", icono: "🃏", activo: todasActivo }}
       temaActivoSlug={temaActivo?.slug}
     >
@@ -125,7 +125,7 @@ export default async function FlashcardsPage({ params, searchParams }: PageProps
                   {bloque.temas.map((t) => (
                     <li key={t.slug}>
                       <Link
-                        href={`/${oposicionSlug}/flashcards?tema=${t.slug}`}
+                        href={`${base}/flashcards?tema=${t.slug}`}
                         className="flex items-center gap-2 rounded-md px-2 py-1 text-xs text-slate-600 transition-colors hover:bg-brand-50 hover:text-brand-700"
                       >
                         <span className="font-semibold text-brand-600">T{t.numero}</span>
@@ -143,7 +143,7 @@ export default async function FlashcardsPage({ params, searchParams }: PageProps
         <div className="rounded-xl border border-dashed border-brand-200 bg-brand-50/50 p-8 text-center text-slate-600">
           <p>Todavía no hay flashcards disponibles para este tema.</p>
           <Link
-            href={`/${oposicionSlug}/flashcards`}
+            href={`${base}/flashcards`}
             className="mt-3 inline-block font-semibold text-brand-600 hover:underline"
           >
             Ver todos los temas

@@ -6,7 +6,7 @@ import { Card } from "@/components/ui/Card";
 import { Button } from "@/components/ui/Button";
 import { crearMetadata } from "@/lib/site";
 import {
-  getOposicion,
+  getOposicionPorRuta,
   getTemaDeOposicion,
   getFlashcardsDeTema,
   getGlosarioDeTema,
@@ -17,7 +17,7 @@ import {
 import { MarcarCompletado } from "@/components/temario/MarcarCompletado";
 
 interface PageProps {
-  params: Promise<{ oposicion: string; slug: string }>;
+  params: Promise<{ organismo: string; oposicion: string; slug: string }>;
 }
 
 export async function generateStaticParams() {
@@ -25,13 +25,15 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
-  const { oposicion: oposicionSlug, slug } = await params;
-  const tema = await getTemaDeOposicion(oposicionSlug, slug);
+  const { organismo, oposicion: puesto, slug } = await params;
+  const oposicion = await getOposicionPorRuta(organismo, puesto);
+  if (!oposicion) return {};
+  const tema = await getTemaDeOposicion(oposicion.slug, slug);
   if (!tema) return {};
   return crearMetadata({
     titulo: `Tema ${tema.numero}. ${tema.titulo}`,
     descripcion: tema.descripcion,
-    ruta: `/${oposicionSlug}/temario/${slug}`,
+    ruta: `/${organismo}/${puesto}/temario/${slug}`,
     // Ver el comentario de `indexable` en crearMetadata: esta página nunca
     // va a competir por el término legal (gana el BOE) y su contenido
     // (tema.contenido) es idéntico en cada oposición que reutiliza este
@@ -41,12 +43,14 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 }
 
 export default async function TemaPage({ params }: PageProps) {
-  const { oposicion: oposicionSlug, slug } = await params;
-  const [oposicion, tema] = await Promise.all([
-    getOposicion(oposicionSlug),
-    getTemaDeOposicion(oposicionSlug, slug),
-  ]);
-  if (!oposicion || !tema) notFound();
+  const { organismo, oposicion: puesto, slug } = await params;
+  const oposicion = await getOposicionPorRuta(organismo, puesto);
+  if (!oposicion) notFound();
+  const oposicionSlug = oposicion.slug; // slug interno (PK) — para queries de contenido y progreso
+  const base = `/${organismo}/${puesto}`;
+
+  const tema = await getTemaDeOposicion(oposicionSlug, slug);
+  if (!tema) notFound();
 
   const [flashcards, glosario, preguntas, casos] = await Promise.all([
     getFlashcardsDeTema(oposicionSlug, slug),
@@ -60,7 +64,7 @@ export default async function TemaPage({ params }: PageProps) {
       icono: "📝",
       titulo: "Test del tema",
       descripcion: "Preguntas tipo test específicas de esta materia, con corrección inmediata.",
-      href: `/${oposicionSlug}/test?tema=${slug}`,
+      href: `${base}/test?tema=${slug}`,
       label: "Hacer test",
       disponible: preguntas.length > 0,
       cantidad: preguntas.length,
@@ -69,7 +73,7 @@ export default async function TemaPage({ params }: PageProps) {
       icono: "⚡",
       titulo: "Flashcards",
       descripcion: "Tarjetas para memorizar plazos, artículos y conceptos con repaso activo.",
-      href: `/${oposicionSlug}/flashcards?tema=${slug}`,
+      href: `${base}/flashcards?tema=${slug}`,
       label: "Estudiar tarjetas",
       disponible: flashcards.length > 0,
       cantidad: flashcards.length,
@@ -78,7 +82,7 @@ export default async function TemaPage({ params }: PageProps) {
       icono: "📋",
       titulo: "Casos prácticos",
       descripcion: "Supuestos reales resueltos mediante preguntas encadenadas.",
-      href: `/${oposicionSlug}/casos-practicos?tema=${slug}`,
+      href: `${base}/casos-practicos?tema=${slug}`,
       label: "Resolver casos",
       disponible: casos.length > 0,
       cantidad: casos.length,
@@ -97,7 +101,7 @@ export default async function TemaPage({ params }: PageProps) {
   return (
     <section className="bg-white">
       <Container className="max-w-3xl py-16 sm:py-20">
-        <Link href={`/${oposicionSlug}/temario`} className="text-sm font-medium text-brand-600 hover:underline">
+        <Link href={`${base}/temario`} className="text-sm font-medium text-brand-600 hover:underline">
           ← Volver al temario
         </Link>
 

@@ -3,7 +3,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { crearMetadata, organismoAbreviado } from "@/lib/site";
 import {
-  getOposicion,
+  getOposicionPorRuta,
   getOposiciones,
   getBloquesConTemas,
   getPreguntasDeTema,
@@ -14,38 +14,40 @@ import { TemaExplorerLayout } from "@/components/layout/TemaExplorerLayout";
 import { createClient } from "@/lib/supabase/server";
 
 interface PageProps {
-  params: Promise<{ oposicion: string }>;
+  params: Promise<{ organismo: string; oposicion: string }>;
   searchParams: Promise<{ tema?: string }>;
 }
 
 export async function generateStaticParams() {
   const oposiciones = await getOposiciones();
-  return oposiciones.map((o) => ({ oposicion: o.slug }));
+  return oposiciones.map((o) => ({ organismo: o.organismoSlug, oposicion: o.puestoSlug }));
 }
 
 /** Mismo criterio que /flashcards: canonical fijo a [oposicion], nunca a searchParams. (El glosario dejó de vivir bajo [oposicion] — ver /glosario en raíz.) */
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
-  const { oposicion: oposicionSlug } = await params;
-  const oposicion = await getOposicion(oposicionSlug);
+  const { organismo, oposicion: puesto } = await params;
+  const oposicion = await getOposicionPorRuta(organismo, puesto);
   if (!oposicion) return {};
   return crearMetadata({
-    titulo: `Test online para ${oposicion.nombre} ${organismoAbreviado(oposicionSlug, oposicion.organismo)}`,
+    titulo: `Test online para ${oposicion.nombre} ${organismoAbreviado(oposicion.slug, oposicion.organismo)}`,
     descripcion: `Practica ${oposicion.nombre} · ${oposicion.organismo} con preguntas tipo test, corrección inmediata y explicaciones.`,
-    ruta: `/${oposicionSlug}/test`,
+    ruta: `/${organismo}/${puesto}/test`,
   });
 }
 
 export default async function TestPage({ params, searchParams }: PageProps) {
-  const { oposicion: oposicionSlug } = await params;
+  const { organismo, oposicion: puesto } = await params;
   const { tema: temaParam } = await searchParams;
 
   const supabase = await createClient();
-  const [oposicion, bloques, { data: { user } }] = await Promise.all([
-    getOposicion(oposicionSlug),
-    getBloquesConTemas(oposicionSlug),
+  const [oposicion, { data: { user } }] = await Promise.all([
+    getOposicionPorRuta(organismo, puesto),
     supabase.auth.getUser(),
   ]);
   if (!oposicion) notFound();
+  const oposicionSlug = oposicion.slug; // slug interno (PK) — para queries de contenido y progreso
+  const base = `/${organismo}/${puesto}`;
+  const bloques = await getBloquesConTemas(oposicionSlug);
 
   const temas = bloques.flatMap((b) => b.temas);
   const todasActivo = temaParam === "todas";
@@ -63,7 +65,7 @@ export default async function TestPage({ params, searchParams }: PageProps) {
       titulo="Test"
       subtitulo={`${oposicion.nombre} · ${oposicion.organismo} — selecciona un tema para practicar`}
       bloques={bloques}
-      basePath={`/${oposicionSlug}/test`}
+      basePath={`${base}/test`}
       opcionTodos={{ label: "Todas las preguntas", icono: "📋", activo: todasActivo }}
       temaActivoSlug={temaActivo?.slug}
     >
@@ -85,7 +87,7 @@ export default async function TestPage({ params, searchParams }: PageProps) {
                   {bloque.temas.map((t) => (
                     <li key={t.slug}>
                       <Link
-                        href={`/${oposicionSlug}/test?tema=${t.slug}`}
+                        href={`${base}/test?tema=${t.slug}`}
                         className="flex items-center gap-2 rounded-md px-2 py-1 text-xs text-slate-600 transition-colors hover:bg-brand-50 hover:text-brand-700"
                       >
                         <span className="font-semibold text-brand-600">T{t.numero}</span>
@@ -103,7 +105,7 @@ export default async function TestPage({ params, searchParams }: PageProps) {
         <div className="rounded-xl border border-dashed border-brand-200 bg-brand-50/50 p-8 text-center text-slate-600">
           <p>Todavía no hay preguntas de test para este tema.</p>
           <Link
-            href={`/${oposicionSlug}/test`}
+            href={`${base}/test`}
             className="mt-3 inline-block font-semibold text-brand-600 hover:underline"
           >
             Ver todos los temas

@@ -4,6 +4,7 @@ import { redirect } from "next/navigation";
 import { revalidatePath } from "next/cache";
 import { requireAdmin } from "@/lib/adminAuth";
 import { createAdminClient } from "@/lib/supabase/admin";
+import { getOposicion } from "@/lib/oposiciones";
 import type { TipoArticulo } from "@/lib/types";
 
 export interface ArticuloInput {
@@ -33,14 +34,21 @@ async function sincronizarOposiciones(
   if (error) throw error;
 }
 
-/** Invalida las páginas públicas donde puede aparecer este artículo. */
-function revalidarRutasArticulo(slug: string, oposicionesSlugs: string[]) {
+/**
+ * Invalida las páginas públicas donde puede aparecer este artículo.
+ * `/[oposicion]/noticias` no existe desde que "noticias" se fusionó con el
+ * blog (ver README/next.config.ts): la única página propia de la oposición
+ * afectada por un artículo nuevo es su home, que ahora vive bajo
+ * /[organismo]/[oposicion] — de ahí la búsqueda de organismoSlug/puestoSlug
+ * a partir del slug interno.
+ */
+async function revalidarRutasArticulo(slug: string, oposicionesSlugs: string[]) {
   revalidatePath("/blog");
   revalidatePath(`/blog/${slug}`);
   revalidatePath("/");
-  for (const oposicionSlug of oposicionesSlugs) {
-    revalidatePath(`/${oposicionSlug}/noticias`);
-    revalidatePath(`/${oposicionSlug}`);
+  const oposiciones = await Promise.all(oposicionesSlugs.map((s) => getOposicion(s)));
+  for (const oposicion of oposiciones) {
+    if (oposicion) revalidatePath(`/${oposicion.organismoSlug}/${oposicion.puestoSlug}`);
   }
 }
 
@@ -69,7 +77,7 @@ export async function crearArticulo(input: ArticuloInput): Promise<ResultadoAcci
   if (error || !data) return { error: mensajeError(error ?? {}) };
 
   await sincronizarOposiciones(supabase, data.id, input.oposicionesSlugs);
-  revalidarRutasArticulo(input.slug, input.oposicionesSlugs);
+  await revalidarRutasArticulo(input.slug, input.oposicionesSlugs);
   redirect("/admin/blog");
 }
 
@@ -102,7 +110,7 @@ export async function actualizarArticulo(id: string, input: ArticuloInput): Prom
   if (error) return { error: mensajeError(error) };
 
   await sincronizarOposiciones(supabase, id, input.oposicionesSlugs);
-  revalidarRutasArticulo(input.slug, input.oposicionesSlugs);
+  await revalidarRutasArticulo(input.slug, input.oposicionesSlugs);
   redirect("/admin/blog");
 }
 
@@ -118,7 +126,7 @@ export async function eliminarArticulo(id: string, slug: string): Promise<Result
   const { error } = await supabase.from("articulos").delete().eq("id", id);
   if (error) return { error: "No se pudo eliminar el artículo." };
 
-  revalidarRutasArticulo(
+  await revalidarRutasArticulo(
     slug,
     (relacionadas ?? []).map((r) => r.oposicion_slug)
   );

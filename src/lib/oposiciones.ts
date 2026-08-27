@@ -23,6 +23,8 @@ type FilaOposicion = {
   slug: string;
   nombre: string;
   organismo: string;
+  organismo_slug: string;
+  puesto_slug: string;
   descripcion_corta: string;
   descripcion_larga: string;
   activa: boolean;
@@ -33,6 +35,8 @@ function mapOposicion(fila: FilaOposicion): Oposicion {
     slug: fila.slug,
     nombre: fila.nombre,
     organismo: fila.organismo,
+    organismoSlug: fila.organismo_slug,
+    puestoSlug: fila.puesto_slug,
     descripcionCorta: fila.descripcion_corta,
     descripcionLarga: fila.descripcion_larga,
     activa: fila.activa,
@@ -120,6 +124,29 @@ export async function getOposiciones(): Promise<Oposicion[]> {
 export async function getOposicion(slug: string): Promise<Oposicion | undefined> {
   const supabase = createClient();
   const { data, error } = await supabase.from("oposiciones").select("*").eq("slug", slug).maybeSingle();
+  if (error) throw error;
+  return data ? mapOposicion(data) : undefined;
+}
+
+/**
+ * Resuelve una oposición por los DOS segmentos de su URL pública
+ * (/[organismoSlug]/[puestoSlug]/...), no por su `slug` interno — ver el
+ * porqué de esta separación en el comentario de `slug` en `lib/types.ts`.
+ * Es el único punto de entrada que deben usar las páginas bajo
+ * `src/app/[organismo]/[oposicion]/`; el resto del código (progreso,
+ * queries de contenido) sigue trabajando con `oposicion.slug` de siempre.
+ */
+export async function getOposicionPorRuta(
+  organismoSlug: string,
+  puestoSlug: string
+): Promise<Oposicion | undefined> {
+  const supabase = createClient();
+  const { data, error } = await supabase
+    .from("oposiciones")
+    .select("*")
+    .eq("organismo_slug", organismoSlug)
+    .eq("puesto_slug", puestoSlug)
+    .maybeSingle();
   if (error) throw error;
   return data ? mapOposicion(data) : undefined;
 }
@@ -243,12 +270,18 @@ export async function getBloquesConTemas(oposicionSlug: string) {
 /** Todos los pares oposición/tema publicados, para `generateStaticParams`. */
 export async function getParamsTemarioEstatico() {
   const supabase = createClient();
-  const { data, error } = await supabase
-    .from("tema_oposicion")
-    .select("oposicion_slug, tema_slug")
-    .eq("publicado", true);
+  const [{ data, error }, oposiciones] = await Promise.all([
+    supabase.from("tema_oposicion").select("oposicion_slug, tema_slug").eq("publicado", true),
+    getOposiciones(),
+  ]);
   if (error) throw error;
-  return (data ?? []).map((fila) => ({ oposicion: fila.oposicion_slug, slug: fila.tema_slug }));
+  // `oposicion_slug` es la PK interna; los params de la URL son los DOS
+  // segmentos públicos (organismo + puesto) — ver `getOposicionPorRuta`.
+  const rutaPorSlug = new Map(oposiciones.map((o) => [o.slug, { organismo: o.organismoSlug, oposicion: o.puestoSlug }]));
+  return (data ?? []).flatMap((fila) => {
+    const ruta = rutaPorSlug.get(fila.oposicion_slug);
+    return ruta ? [{ organismo: ruta.organismo, oposicion: ruta.oposicion, slug: fila.tema_slug }] : [];
+  });
 }
 
 type FilaFlashcard = {
@@ -612,18 +645,24 @@ export async function getCasosPracticosDeOposicion(oposicionSlug: string): Promi
 /** Todos los pares oposición/slug de caso práctico publicados, para `generateStaticParams`. */
 export async function getParamsCasosPracticosEstatico() {
   const supabase = createClient();
-  const [{ data: asignaciones, error: errAsig }, { data: casos, error: errCasos }] = await Promise.all([
+  const [{ data: asignaciones, error: errAsig }, { data: casos, error: errCasos }, oposiciones] = await Promise.all([
     supabase.from("tema_oposicion").select("oposicion_slug, tema_slug").eq("publicado", true),
     supabase.from("casos_practicos").select("slug, tema_slug"),
+    getOposiciones(),
   ]);
   if (errAsig) throw errAsig;
   if (errCasos) throw errCasos;
 
-  const pares: { oposicion: string; slug: string }[] = [];
+  // `oposicion_slug` es la PK interna; los params de la URL son los DOS
+  // segmentos públicos (organismo + puesto) — ver `getOposicionPorRuta`.
+  const rutaPorSlug = new Map(oposiciones.map((o) => [o.slug, { organismo: o.organismoSlug, oposicion: o.puestoSlug }]));
+  const pares: { organismo: string; oposicion: string; slug: string }[] = [];
   for (const asignacion of asignaciones ?? []) {
+    const ruta = rutaPorSlug.get(asignacion.oposicion_slug);
+    if (!ruta) continue;
     for (const caso of casos ?? []) {
       if (caso.tema_slug === asignacion.tema_slug) {
-        pares.push({ oposicion: asignacion.oposicion_slug, slug: caso.slug });
+        pares.push({ organismo: ruta.organismo, oposicion: ruta.oposicion, slug: caso.slug });
       }
     }
   }

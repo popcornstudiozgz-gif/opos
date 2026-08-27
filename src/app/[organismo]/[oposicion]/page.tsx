@@ -6,23 +6,23 @@ import { Card } from "@/components/ui/Card";
 import { Button } from "@/components/ui/Button";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { crearMetadata } from "@/lib/site";
-import { getOposicion, getOposiciones, getEstadisticasOposicion } from "@/lib/oposiciones";
+import { getOposicionPorRuta, getOposiciones, getEstadisticasOposicion } from "@/lib/oposiciones";
 import { getConvocatoria } from "@/data/convocatorias";
 import { getArticulosDeOposicion } from "@/lib/blog";
 import { ArticuloCard } from "@/components/blog/ArticuloCard";
 
 interface PageProps {
-  params: Promise<{ oposicion: string }>;
+  params: Promise<{ organismo: string; oposicion: string }>;
 }
 
 export async function generateStaticParams() {
   const oposiciones = await getOposiciones();
-  return oposiciones.map((o) => ({ oposicion: o.slug }));
+  return oposiciones.map((o) => ({ organismo: o.organismoSlug, oposicion: o.puestoSlug }));
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
-  const { oposicion: slug } = await params;
-  const oposicion = await getOposicion(slug);
+  const { organismo, oposicion: puesto } = await params;
+  const oposicion = await getOposicionPorRuta(organismo, puesto);
   if (!oposicion) return {};
   return crearMetadata({
     // "·" en vez de "del"/"de la" antes del organismo: la preposición
@@ -32,14 +32,16 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     // sin decidir nada a mano. Mismo criterio en el H1, más abajo.
     titulo: `${oposicion.nombre} · ${oposicion.organismo} | Oposición`,
     descripcion: `Prepara la oposición de ${oposicion.nombre} · ${oposicion.organismo}: temas, test, flashcards, casos prácticos y simulacro. Empieza gratis.`,
-    ruta: `/${slug}`,
+    ruta: `/${organismo}/${puesto}`,
   });
 }
 
 export default async function OposicionHome({ params }: PageProps) {
-  const { oposicion: slug } = await params;
-  const oposicion = await getOposicion(slug);
+  const { organismo, oposicion: puesto } = await params;
+  const oposicion = await getOposicionPorRuta(organismo, puesto);
   if (!oposicion) notFound();
+  const slug = oposicion.slug; // slug interno (PK) — para queries de contenido, no para URLs
+  const base = `/${organismo}/${puesto}`;
 
   const [estadisticas, convocatoria, noticias] = await Promise.all([
     getEstadisticasOposicion(slug),
@@ -58,25 +60,25 @@ export default async function OposicionHome({ params }: PageProps) {
     {
       titulo: "Temario interactivo",
       descripcion: "Todo el temario organizado por bloques, listo para estudiar y repasar.",
-      href: `/${slug}/temario`,
+      href: `${base}/temario`,
       icono: "📚",
     },
     {
       titulo: "Tests teóricos",
       descripcion: "Preguntas tipo test con corrección inmediata y explicación de cada respuesta.",
-      href: `/${slug}/test`,
+      href: `${base}/test`,
       icono: "✓",
     },
     {
       titulo: "Flashcards",
       descripcion: "Memoriza conceptos clave con tarjetas de repaso activo, tema a tema.",
-      href: `/${slug}/flashcards`,
+      href: `${base}/flashcards`,
       icono: "⚡",
     },
     {
       titulo: "Casos prácticos",
       descripcion: "Supuestos reales del puesto resueltos mediante preguntas encadenadas.",
-      href: `/${slug}/casos-practicos`,
+      href: `${base}/casos-practicos`,
       icono: "📋",
     },
     {
@@ -88,7 +90,7 @@ export default async function OposicionHome({ params }: PageProps) {
     {
       titulo: "Simulacro cronometrado",
       descripcion: "Examen completo con tiempo límite que reproduce las condiciones reales.",
-      href: `/${slug}/simulacro`,
+      href: `${base}/simulacro`,
       icono: "⏱",
     },
   ];
@@ -134,11 +136,11 @@ export default async function OposicionHome({ params }: PageProps) {
               {oposicion.descripcionLarga}
             </p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-              <Button href={`/${slug}/test`} variante="secundario" tamano="lg">
+              <Button href={`${base}/test`} variante="secundario" tamano="lg">
                 Empezar un test gratis
               </Button>
               <Button
-                href={`/${slug}/temario`}
+                href={`${base}/temario`}
                 tamano="lg"
                 className="bg-white/10 text-white hover:bg-white/20"
               >
@@ -170,7 +172,7 @@ export default async function OposicionHome({ params }: PageProps) {
                 titulo="Convocatoria vigente"
                 subtitulo={`${convocatoria.numero} · ${convocatoria.plaza}.`}
               />
-              <Button href={`/${slug}/convocatoria`} variante="contorno" tamano="sm">
+              <Button href={`${base}/convocatoria`} variante="contorno" tamano="sm">
                 Ver toda la información →
               </Button>
             </div>
