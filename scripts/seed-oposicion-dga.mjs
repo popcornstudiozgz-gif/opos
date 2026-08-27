@@ -10,7 +10,7 @@
  * Local, con casi todo reutilizable), la DGA es Administración autonómica:
  * el enfoque institucional es distinto (Aragón como Comunidad Autónoma, no
  * como municipio/provincia), así que el solape con el temario ya sembrado
- * es mucho menor. Primer lote: solo 7 de los 20 temas, los únicos donde el
+ * es mucho menor. Primer lote: solo 8 de los 20 temas, los únicos donde el
  * recorte por `secciones_incluidas` queda COMPLETO frente a lo que pide el
  * programa oficial de la DGA — nunca un recorte a medias que deje al
  * usuario con una falsa sensación de tema terminado:
@@ -45,14 +45,19 @@
  *     previo sobre la UE) a partir del texto oficial del TUE (arts.
  *     13-19) y del TFUE (art. 288). Ver
  *     scripts/seed-tema-union-europea.mjs.
+ *   - Tema 2 (organización territorial del Estado, Gobierno/AGE, CCAA,
+ *     Administración Local, relaciones entre entes, comarcalización de
+ *     Aragón): `tema-29`, tema canónico creado desde cero a partir de los
+ *     Títulos IV y VIII de la Constitución y del Decreto Legislativo
+ *     1/2006 (texto refundido de la Ley de Comarcalización de Aragón).
+ *     Ver scripts/seed-tema-organizacion-territorial.mjs.
  *
- * Quedan sin asignar 13 de los 20 temas: unos porque el recorte existente
+ * Quedan sin asignar 12 de los 20 temas: unos porque el recorte existente
  * no llega a cubrir lo que pide la DGA (temas 10 y 13, que necesitarían
  * Ley 7/2018 y Ley 5/2019 de Aragón, y carrera/retribución/seguridad
  * social respectivamente — leyes que `tema-2`/`tema-17` no tienen), y
  * otros porque son contenido totalmente nuevo sin ninguna fuente sembrada
- * todavía (organización territorial del Estado + comarcalización de
- * Aragón, órganos de gobierno de la CA de Aragón, negociación laboral, y
+ * todavía (órganos de gobierno de la CA de Aragón, negociación laboral, y
  * los 5 de ofimática). Se añadirán en tandas siguientes.
  *
  * Uso: node --env-file=.env.local scripts/seed-oposicion-dga.mjs
@@ -116,8 +121,8 @@ const BLOQUES = [
 const bloquesInsertados = await upsert("bloques", BLOQUES, "oposicion_slug,slug");
 const bloqueIdPorSlug = Object.fromEntries(bloquesInsertados.map((b) => [b.slug, b.id]));
 
-// ── 3. TEMA_OPOSICION — solo los 7 de 20 temas con recorte COMPLETO ────────
-console.log("📝 tema_oposicion (7 de 20 — ver cabecera)...");
+// ── 3. TEMA_OPOSICION — solo los 8 de 20 temas con recorte COMPLETO ────────
+console.log("📝 tema_oposicion (8 de 20 — ver cabecera)...");
 const ASIGNACIONES = [
   // DGA Tema 1: la Constitución (estructura, principios, derechos fundamentales,
   // Corona, Cortes Generales, Poder Judicial, Tribunal Constitucional)
@@ -204,6 +209,26 @@ const ASIGNACIONES = [
     numero: 3,
     secciones: ["instituciones-ue", "fuentes-derecho-ue"],
   },
+  // DGA Tema 2: la organización territorial del Estado (Gobierno/AGE,
+  // CCAA, Administración Local, relaciones entre entes) + comarcalización
+  // de Aragón. Contenido genuinamente nuevo — se creó `tema-29` desde
+  // cero con el Título IV y el Título VIII de la Constitución y con el
+  // Decreto Legislativo 1/2006 (texto refundido de la Ley de
+  // Comarcalización de Aragón). Ver
+  // scripts/seed-tema-organizacion-territorial.mjs.
+  {
+    temaSlug: "tema-29",
+    bloqueSlug: "bloque-1",
+    numero: 2,
+    secciones: [
+      "organizacion-territorial-general",
+      "gobierno-nacion-age",
+      "comunidades-autonomas",
+      "administracion-local-ce",
+      "relaciones-entes-territoriales",
+      "comarcalizacion-aragon",
+    ],
+  },
 ].map((a) => ({
   tema_slug: a.temaSlug,
   oposicion_slug: OPOSICION,
@@ -271,4 +296,4 @@ await upsert(
   "oposicion_slug"
 );
 
-console.log("✅ Oposición DGA dada de alta (7 de 20 temas asignados).");
+console.log("✅ Oposición DGA dada de alta (8 de 20 temas asignados).");
