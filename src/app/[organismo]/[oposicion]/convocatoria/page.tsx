@@ -4,35 +4,41 @@ import { Container } from "@/components/ui/Container";
 import { Card } from "@/components/ui/Card";
 import { PageHeader } from "@/components/layout/PageHeader";
 import { crearMetadata, organismoAbreviado, anioDeConvocatoria } from "@/lib/site";
-import { getOposicion, getOposiciones } from "@/lib/oposiciones";
+import { getOposicionPorRuta, getOposiciones } from "@/lib/oposiciones";
 import { getConvocatoria } from "@/data/convocatorias";
 
 interface PageProps {
-  params: Promise<{ oposicion: string }>;
+  params: Promise<{ organismo: string; oposicion: string }>;
 }
 
 export async function generateStaticParams() {
   const oposiciones = await getOposiciones();
   const convocatorias = await Promise.all(oposiciones.map((o) => getConvocatoria(o.slug)));
-  return oposiciones.filter((_, i) => convocatorias[i]).map((o) => ({ oposicion: o.slug }));
+  return oposiciones
+    .filter((_, i) => convocatorias[i])
+    .map((o) => ({ organismo: o.organismoSlug, oposicion: o.puestoSlug }));
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
-  const { oposicion: slug } = await params;
-  const [oposicion, convocatoria] = await Promise.all([getOposicion(slug), getConvocatoria(slug)]);
-  if (!oposicion || !convocatoria) return {};
+  const { organismo, oposicion: puesto } = await params;
+  const oposicion = await getOposicionPorRuta(organismo, puesto);
+  if (!oposicion) return {};
+  const convocatoria = await getConvocatoria(oposicion.slug);
+  if (!convocatoria) return {};
   const anio = anioDeConvocatoria(convocatoria.numero);
   return crearMetadata({
-    titulo: `Convocatoria${anio ? ` ${anio}` : ""} - ${oposicion.nombre} ${organismoAbreviado(slug, oposicion.organismo)}`,
+    titulo: `Convocatoria${anio ? ` ${anio}` : ""} - ${oposicion.nombre} ${organismoAbreviado(oposicion.slug, oposicion.organismo)}`,
     descripcion: `Plazas, requisitos, plazos y estructura del examen de ${convocatoria.numero} · ${oposicion.nombre} · ${oposicion.organismo} (${convocatoria.plazasTotal} plazas).`,
-    ruta: `/${slug}/convocatoria`,
+    ruta: `/${organismo}/${puesto}/convocatoria`,
   });
 }
 
 export default async function ConvocatoriaPage({ params }: PageProps) {
-  const { oposicion: slug } = await params;
-  const [oposicion, convocatoria] = await Promise.all([getOposicion(slug), getConvocatoria(slug)]);
-  if (!oposicion || !convocatoria) notFound();
+  const { organismo, oposicion: puesto } = await params;
+  const oposicion = await getOposicionPorRuta(organismo, puesto);
+  if (!oposicion) notFound();
+  const convocatoria = await getConvocatoria(oposicion.slug);
+  if (!convocatoria) notFound();
 
   const anio = anioDeConvocatoria(convocatoria.numero);
 

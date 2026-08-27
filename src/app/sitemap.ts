@@ -6,9 +6,10 @@ import { getArticulosPublicados } from "@/lib/blog";
 
 /**
  * Genera el sitemap.xml recorriendo todas las oposiciones activas del
- * catálogo. Las páginas de tema individual (`/[oposicion]/temario/[slug]`) y
- * de caso práctico individual (`/[oposicion]/casos-practicos/[slug]`) NO
- * entran aquí a propósito: son `noindex` (ver `crearMetadata` en
+ * catálogo. Las páginas de tema individual
+ * (`/[organismo]/[oposicion]/temario/[slug]`) y de caso práctico individual
+ * (`/[organismo]/[oposicion]/casos-practicos/[slug]`) NO entran aquí a
+ * propósito: son `noindex` (ver `crearMetadata` en
  * `lib/site.ts`), y listar en el sitemap una URL marcada `noindex` es una
  * inconsistencia que las propias herramientas de SEO señalan como error.
  * Tampoco entran aviso legal, cookies y privacidad, por el mismo motivo
@@ -21,7 +22,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   const porOposicion = await Promise.all(
     oposiciones.map(async (o) => {
-      const base = `/${o.slug}`;
+      const base = `/${o.organismoSlug}/${o.puestoSlug}`;
       const convocatoria = await getConvocatoria(o.slug);
       const rutasOposicion = [
         base,

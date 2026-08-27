@@ -12,22 +12,43 @@
 /** Una oposición del catálogo (p. ej. "Auxiliar Administrativo · Ayto. Zaragoza"). */
 export interface Oposicion {
   /**
-   * Segmento de URL: /[slug]/... — se asigna a mano al insertar la
-   * oposición (ver `scripts/seed.mjs`), nunca se genera solo desde
-   * `nombre`. Varios organismos de Zaragoza/Aragón convocan puestos con el
-   * mismo nombre (p. ej. "Auxiliar Administrativo" en el Ayuntamiento, la
-   * Diputación Provincial de Zaragoza o la DGA): el slug de cada una debe
-   * incluir el organismo para no chocar, del tipo
-   * `auxiliar-administrativo-ayto-zaragoza`, `auxiliar-administrativo-dpz`,
-   * `auxiliar-administrativo-dga` — nunca `auxiliar-administrativo-2` ni
-   * variantes ambiguas. `nombre` puede seguir siendo solo el puesto
-   * ("Auxiliar Administrativo"): la desambiguación la da `organismo`, que
-   * el código ya combina con `nombre` en el H1, los `<title>`, los chips
-   * del blog y el selector del admin — ver el resto de usos de este campo.
+   * PK interna, única global — se asigna a mano al insertar la oposición
+   * (ver `scripts/seed.mjs`), nunca se genera solo desde `nombre`. Varios
+   * organismos de Zaragoza/Aragón convocan puestos con el mismo nombre
+   * (p. ej. "Auxiliar Administrativo" en el Ayuntamiento, la Diputación
+   * Provincial de Zaragoza o la DGA): el slug de cada una debe incluir el
+   * organismo para no chocar, del tipo `auxiliar-administrativo-ayto-
+   * zaragoza`, `auxiliar-administrativo-dpz` — nunca `auxiliar-
+   * administrativo-2` ni variantes ambiguas.
+   *
+   * Desde la reestructuración de URLs a /[organismoSlug]/[puestoSlug]/...
+   * (26/08/2026), este campo YA NO es el segmento de URL — lo son
+   * `organismoSlug`/`puestoSlug`, más abajo. `slug` sigue siendo la clave
+   * que referencian `bloques`, `tema_oposicion`, `convocatorias` y las
+   * tablas de progreso de usuario; nunca se renombra aunque cambie la URL.
+   * `nombre` puede seguir siendo solo el puesto ("Auxiliar Administrativo"):
+   * la desambiguación la da `organismo`, que el código ya combina con
+   * `nombre` en el H1, los `<title>`, los chips del blog y el selector del
+   * admin — ver el resto de usos de este campo.
    */
   slug: string;
   nombre: string;
   organismo: string;
+  /**
+   * Segmento de URL del organismo: /[organismoSlug]/[puestoSlug]/... (p. ej.
+   * "ayuntamiento-zaragoza", "dpz"). Explícito y elegido a mano — nunca
+   * derivado de `organismo` por slugificación automática, para evitar que
+   * dos organismos con nombres parecidos choquen sin darse cuenta.
+   */
+  organismoSlug: string;
+  /**
+   * Segmento de URL del puesto dentro de su organismo (p. ej.
+   * "aux-administrativo"). A diferencia de `slug` (único global, PK), este
+   * solo es único junto con `organismoSlug` — varias oposiciones distintas
+   * pueden compartir el mismo puesto bajo organismos distintos, como pasa
+   * hoy con "Auxiliar Administrativo" en el Ayuntamiento y en la DPZ.
+   */
+  puestoSlug: string;
   descripcionCorta: string;
   descripcionLarga: string;
   /** Si no está activa, no se genera su ruta ni aparece en el catálogo. */

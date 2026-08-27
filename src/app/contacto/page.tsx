@@ -16,7 +16,7 @@ interface PageProps {
 }
 
 /**
- * Página global (fuera de `/[oposicion]/...`): quien pregunta puede no
+ * Página global (fuera de `/[organismo]/[oposicion]/...`): quien pregunta puede no
  * estar viendo ninguna oposición en concreto, o puede llegar aquí desde el
  * enlace del pie de página en cualquier sección del sitio.
  */

@@ -4,7 +4,7 @@ import { Container } from "@/components/ui/Container";
 import { PageHeader } from "@/components/layout/PageHeader";
 import { crearMetadata, nombreAbreviado, organismoConPreposicion } from "@/lib/site";
 import {
-  getOposicion,
+  getOposicionPorRuta,
   getOposiciones,
   getBloquesConTemas,
   getPreguntasDeOposicion,
@@ -19,37 +19,40 @@ const NUM_PREGUNTAS_TEST = 50;
 const NUM_CASOS = 2;
 
 interface PageProps {
-  params: Promise<{ oposicion: string }>;
+  params: Promise<{ organismo: string; oposicion: string }>;
 }
 
 export async function generateStaticParams() {
   const oposiciones = await getOposiciones();
-  return oposiciones.map((o) => ({ oposicion: o.slug }));
+  return oposiciones.map((o) => ({ organismo: o.organismoSlug, oposicion: o.puestoSlug }));
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
-  const { oposicion: oposicionSlug } = await params;
-  const oposicion = await getOposicion(oposicionSlug);
+  const { organismo, oposicion: puesto } = await params;
+  const oposicion = await getOposicionPorRuta(organismo, puesto);
   if (!oposicion) return {};
   return crearMetadata({
-    titulo: `Simulacro de examen para ${nombreAbreviado(oposicion.nombre)} ${organismoConPreposicion(oposicionSlug, oposicion.organismo)}`,
+    titulo: `Simulacro de examen para ${nombreAbreviado(oposicion.nombre)} ${organismoConPreposicion(oposicion.slug, oposicion.organismo)}`,
     descripcion: `Examen completo de ${oposicion.nombre} · ${oposicion.organismo} en condiciones reales: ${NUM_PREGUNTAS_TEST} preguntas cronometradas y ${NUM_CASOS} casos prácticos, con corrección y puntuación oficial.`,
-    ruta: `/${oposicionSlug}/simulacro`,
+    ruta: `/${organismo}/${puesto}/simulacro`,
   });
 }
 
 export default async function SimulacroPage({ params }: PageProps) {
-  const { oposicion: oposicionSlug } = await params;
+  const { organismo, oposicion: puesto } = await params;
 
   const supabase = await createClient();
-  const [oposicion, bloques, todasPreguntas, todosCasos, { data: { user } }] = await Promise.all([
-    getOposicion(oposicionSlug),
-    getBloquesConTemas(oposicionSlug),
-    getPreguntasDeOposicion(oposicionSlug),
-    getCasosPracticosDeOposicion(oposicionSlug),
+  const [oposicion, { data: { user } }] = await Promise.all([
+    getOposicionPorRuta(organismo, puesto),
     supabase.auth.getUser(),
   ]);
   if (!oposicion) notFound();
+  const oposicionSlug = oposicion.slug; // slug interno (PK) — para queries de contenido y progreso
+  const [bloques, todasPreguntas, todosCasos] = await Promise.all([
+    getBloquesConTemas(oposicionSlug),
+    getPreguntasDeOposicion(oposicionSlug),
+    getCasosPracticosDeOposicion(oposicionSlug),
+  ]);
 
   // Las preguntas de un caso práctico dan por conocido su supuesto: se
   // excluyen del test suelto para no mostrarlas fuera de contexto.

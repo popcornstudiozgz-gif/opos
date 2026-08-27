@@ -15,7 +15,7 @@ interface NavLink {
 
 interface Props {
   siteNombre: string;
-  oposicion: { slug: string; nombre: string } | null;
+  oposicion: { href: string; nombre: string } | null;
   navLinks: NavLink[];
 }
 
@@ -137,7 +137,7 @@ export function NavbarShell({ siteNombre, oposicion, navLinks }: Props) {
           antes ambos enlazaban a "/", duplicando la misma acción.
         */}
         <Link
-          href={oposicion ? `/${oposicion.slug}` : "/"}
+          href={oposicion ? oposicion.href : "/"}
           className="flex items-center gap-2 font-black text-brand-900"
           onClick={() => setMenuMovilAbierto(false)}
         >

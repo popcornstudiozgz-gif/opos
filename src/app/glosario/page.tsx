@@ -20,7 +20,7 @@ interface PageProps {
 
 /**
  * Glosario en raíz, independiente de oposición — a propósito, no vive bajo
- * `/[oposicion]/`. Es el mismo patrón que ya usan test/flashcards con
+ * `/[organismo]/[oposicion]/`. Es el mismo patrón que ya usan test/flashcards con
  * `?tema=`, extendido con una dimensión más (`?oposicion=`): el `canonical`
  * es SIEMPRE `/glosario`, sin parámetros, así que Google nunca ve más de
  * una URL real — no hace falta ningún `noindex` en ninguna variante,
@@ -35,7 +35,7 @@ interface PageProps {
  * Sin `?oposicion=`: glosario general de toda la plataforma
  * (`getGlosarioCompleto`), la versión indexable de verdad. Con
  * `?oposicion=X` (y opcionalmente `&tema=Y`): la misma herramienta de
- * estudio filtrable que antes vivía en `/[oposicion]/glosario`.
+ * estudio filtrable que antes vivía en `/[organismo]/[oposicion]/glosario`.
  */
 export async function generateMetadata({ searchParams }: PageProps): Promise<Metadata> {
   const { oposicion: oposicionSlug } = await searchParams;

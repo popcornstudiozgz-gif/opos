@@ -5,34 +5,35 @@ import { Container } from "@/components/ui/Container";
 import { Card } from "@/components/ui/Card";
 import { PageHeader } from "@/components/layout/PageHeader";
 import { crearMetadata, organismoAbreviado } from "@/lib/site";
-import { getOposicion, getBloquesConTemas, getOposiciones } from "@/lib/oposiciones";
+import { getOposicionPorRuta, getBloquesConTemas, getOposiciones } from "@/lib/oposiciones";
 
 interface PageProps {
-  params: Promise<{ oposicion: string }>;
+  params: Promise<{ organismo: string; oposicion: string }>;
 }
 
 export async function generateStaticParams() {
   const oposiciones = await getOposiciones();
-  return oposiciones.map((o) => ({ oposicion: o.slug }));
+  return oposiciones.map((o) => ({ organismo: o.organismoSlug, oposicion: o.puestoSlug }));
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
-  const { oposicion: slug } = await params;
-  const oposicion = await getOposicion(slug);
+  const { organismo, oposicion: puesto } = await params;
+  const oposicion = await getOposicionPorRuta(organismo, puesto);
   if (!oposicion) return {};
   return crearMetadata({
-    titulo: `Temario ${oposicion.nombre} ${organismoAbreviado(slug, oposicion.organismo)}`,
+    titulo: `Temario ${oposicion.nombre} ${organismoAbreviado(oposicion.slug, oposicion.organismo)}`,
     descripcion: `Temario oficial de ${oposicion.nombre} · ${oposicion.organismo}, organizado por bloques.`,
-    ruta: `/${slug}/temario`,
+    ruta: `/${organismo}/${puesto}/temario`,
   });
 }
 
 export default async function TemarioPage({ params }: PageProps) {
-  const { oposicion: slug } = await params;
-  const oposicion = await getOposicion(slug);
+  const { organismo, oposicion: puesto } = await params;
+  const oposicion = await getOposicionPorRuta(organismo, puesto);
   if (!oposicion) notFound();
+  const base = `/${organismo}/${puesto}`;
 
-  const bloques = await getBloquesConTemas(slug);
+  const bloques = await getBloquesConTemas(oposicion.slug);
 
   return (
     <>
@@ -48,7 +49,7 @@ export default async function TemarioPage({ params }: PageProps) {
             <p className="mt-1 text-sm text-slate-500">{bloque.descripcion}</p>
             <div className="mt-4 grid gap-3 sm:grid-cols-2">
               {bloque.temas.map((tema) => (
-                <Link key={tema.slug} href={`/${slug}/temario/${tema.slug}`}>
+                <Link key={tema.slug} href={`${base}/temario/${tema.slug}`}>
                   <Card className="h-full p-4 transition-shadow hover:shadow-md">
                     <p className="text-xs font-semibold text-brand-600">Tema {tema.numero}</p>
                     <p className="mt-1 font-semibold text-brand-900">{tema.titulo}</p>

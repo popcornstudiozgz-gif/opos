@@ -131,7 +131,7 @@ export default async function Home() {
                   <h3 className="mt-1 text-xl font-bold text-brand-900">{oposicion.nombre}</h3>
                   <p className="mt-3 flex-1 text-slate-600">{oposicion.descripcionCorta}</p>
                   <p className="mt-4 text-sm text-slate-500">{numTemas} temas en el temario oficial</p>
-                  <Button href={`/${oposicion.slug}`} className="mt-6 self-start">
+                  <Button href={`/${oposicion.organismoSlug}/${oposicion.puestoSlug}`} className="mt-6 self-start">
                     Empezar a estudiar →
                   </Button>
                 </Card>

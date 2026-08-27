@@ -23,7 +23,7 @@ interface Props {
   titulo: string;
   subtitulo?: string;
   bloques: BloqueConTemas[];
-  /** Ruta base sin querystring, ej. `/${oposicionSlug}/test`. */
+  /** Ruta base sin querystring, ej. `/ayuntamiento-zaragoza/aux-administrativo/test`. */
   basePath: string;
   /** Ausente en páginas sin vista "todas" (ej. casos prácticos). */
   opcionTodos?: OpcionTodos;

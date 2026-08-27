@@ -4,40 +4,40 @@ import type { Metadata } from "next";
 import { Card } from "@/components/ui/Card";
 import { Button } from "@/components/ui/Button";
 import { crearMetadata, organismoAbreviado, nombreAbreviado } from "@/lib/site";
-import { getOposicion, getOposiciones, getBloquesConTemas, getCasosPracticosDeTema } from "@/lib/oposiciones";
+import { getOposicionPorRuta, getOposiciones, getBloquesConTemas, getCasosPracticosDeTema } from "@/lib/oposiciones";
 import { TemaExplorerLayout } from "@/components/layout/TemaExplorerLayout";
 
 interface PageProps {
-  params: Promise<{ oposicion: string }>;
+  params: Promise<{ organismo: string; oposicion: string }>;
   searchParams: Promise<{ tema?: string }>;
 }
 
 export async function generateStaticParams() {
   const oposiciones = await getOposiciones();
-  return oposiciones.map((o) => ({ oposicion: o.slug }));
+  return oposiciones.map((o) => ({ organismo: o.organismoSlug, oposicion: o.puestoSlug }));
 }
 
 /** Mismo criterio que /test y /flashcards: canonical fijo a [oposicion], nunca a searchParams. (El glosario dejó de vivir bajo [oposicion] — ver /glosario en raíz.) */
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
-  const { oposicion: oposicionSlug } = await params;
-  const oposicion = await getOposicion(oposicionSlug);
+  const { organismo, oposicion: puesto } = await params;
+  const oposicion = await getOposicionPorRuta(organismo, puesto);
   if (!oposicion) return {};
   return crearMetadata({
-    titulo: `Casos prácticos para ${nombreAbreviado(oposicion.nombre)} ${organismoAbreviado(oposicionSlug, oposicion.organismo)}`,
+    titulo: `Casos prácticos para ${nombreAbreviado(oposicion.nombre)} ${organismoAbreviado(oposicion.slug, oposicion.organismo)}`,
     descripcion: `Supuestos reales de ${oposicion.nombre} · ${oposicion.organismo} resueltos con preguntas encadenadas y corrección explicada, tema a tema.`,
-    ruta: `/${oposicionSlug}/casos-practicos`,
+    ruta: `/${organismo}/${puesto}/casos-practicos`,
   });
 }
 
 export default async function CasosPracticosPage({ params, searchParams }: PageProps) {
-  const { oposicion: oposicionSlug } = await params;
+  const { organismo, oposicion: puesto } = await params;
   const { tema: temaParam } = await searchParams;
 
-  const [oposicion, bloques] = await Promise.all([
-    getOposicion(oposicionSlug),
-    getBloquesConTemas(oposicionSlug),
-  ]);
+  const oposicion = await getOposicionPorRuta(organismo, puesto);
   if (!oposicion) notFound();
+  const oposicionSlug = oposicion.slug; // slug interno (PK) — para queries de contenido
+  const base = `/${organismo}/${puesto}`;
+  const bloques = await getBloquesConTemas(oposicionSlug);
 
   const temas = bloques.flatMap((b) => b.temas);
   const temaActivo = temas.find((t) => t.slug === temaParam);
@@ -49,7 +49,7 @@ export default async function CasosPracticosPage({ params, searchParams }: PageP
       titulo="Casos prácticos"
       subtitulo={`${oposicion.nombre} · ${oposicion.organismo} — selecciona un tema para practicar`}
       bloques={bloques}
-      basePath={`/${oposicionSlug}/casos-practicos`}
+      basePath={`${base}/casos-practicos`}
       temaActivoSlug={temaActivo?.slug}
       anchoContenido="max-w-3xl"
     >
@@ -71,7 +71,7 @@ export default async function CasosPracticosPage({ params, searchParams }: PageP
                   {bloque.temas.map((t) => (
                     <li key={t.slug}>
                       <Link
-                        href={`/${oposicionSlug}/casos-practicos?tema=${t.slug}`}
+                        href={`${base}/casos-practicos?tema=${t.slug}`}
                         className="flex items-center gap-2 rounded-md px-2 py-1 text-xs text-slate-600 transition-colors hover:bg-brand-50 hover:text-brand-700"
                       >
                         <span className="font-semibold text-brand-600">T{t.numero}</span>
@@ -89,7 +89,7 @@ export default async function CasosPracticosPage({ params, searchParams }: PageP
         <div className="rounded-xl border border-dashed border-brand-200 bg-brand-50/50 p-8 text-center text-slate-600">
           <p>Todavía no hay casos prácticos para este tema.</p>
           <Link
-            href={`/${oposicionSlug}/casos-practicos`}
+            href={`${base}/casos-practicos`}
             className="mt-3 inline-block font-semibold text-brand-600 hover:underline"
           >
             Ver todos los temas
@@ -103,7 +103,7 @@ export default async function CasosPracticosPage({ params, searchParams }: PageP
               <p className="mt-2 line-clamp-3 flex-1 text-sm text-slate-600">{caso.supuesto}</p>
               <div className="mt-4 flex items-center justify-between">
                 <span className="text-xs font-medium text-slate-400">{caso.numPreguntas} preguntas</span>
-                <Button href={`/${oposicionSlug}/casos-practicos/${caso.slug}`} tamano="sm">
+                <Button href={`${base}/casos-practicos/${caso.slug}`} tamano="sm">
                   Resolver caso
                 </Button>
               </div>

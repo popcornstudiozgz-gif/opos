@@ -4,12 +4,12 @@ import type { Metadata } from "next";
 import { Container } from "@/components/ui/Container";
 import { Card } from "@/components/ui/Card";
 import { crearMetadata } from "@/lib/site";
-import { getOposicion, getCasoPractico, getParamsCasosPracticosEstatico } from "@/lib/oposiciones";
+import { getOposicionPorRuta, getCasoPractico, getParamsCasosPracticosEstatico } from "@/lib/oposiciones";
 import { CasoRunner } from "@/components/casos-practicos/CasoRunner";
 import { createClient } from "@/lib/supabase/server";
 
 interface PageProps {
-  params: Promise<{ oposicion: string; slug: string }>;
+  params: Promise<{ organismo: string; oposicion: string; slug: string }>;
 }
 
 export async function generateStaticParams() {
@@ -17,13 +17,15 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
-  const { oposicion: oposicionSlug, slug } = await params;
-  const [oposicion, caso] = await Promise.all([getOposicion(oposicionSlug), getCasoPractico(oposicionSlug, slug)]);
-  if (!oposicion || !caso) return {};
+  const { organismo, oposicion: puesto, slug } = await params;
+  const oposicion = await getOposicionPorRuta(organismo, puesto);
+  if (!oposicion) return {};
+  const caso = await getCasoPractico(oposicion.slug, slug);
+  if (!caso) return {};
   return crearMetadata({
     titulo: caso.titulo,
     descripcion: caso.supuesto.slice(0, 160),
-    ruta: `/${oposicionSlug}/casos-practicos/${slug}`,
+    ruta: `/${organismo}/${puesto}/casos-practicos/${slug}`,
     // Ver el comentario de `indexable` en crearMetadata: un supuesto
     // inventado no tiene demanda de búsqueda propia (nadie busca el
     // escenario por su nombre), y el mismo caso se repite igual en cada
@@ -33,20 +35,24 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 }
 
 export default async function CasoPracticoPage({ params }: PageProps) {
-  const { oposicion: oposicionSlug, slug } = await params;
+  const { organismo, oposicion: puesto, slug } = await params;
+  const oposicion = await getOposicionPorRuta(organismo, puesto);
+  if (!oposicion) notFound();
+  const oposicionSlug = oposicion.slug; // slug interno (PK) — para queries de contenido y progreso
+  const base = `/${organismo}/${puesto}`;
+
   const supabase = await createClient();
-  const [oposicion, caso, { data: { user } }] = await Promise.all([
-    getOposicion(oposicionSlug),
+  const [caso, { data: { user } }] = await Promise.all([
     getCasoPractico(oposicionSlug, slug),
     supabase.auth.getUser(),
   ]);
-  if (!oposicion || !caso || caso.preguntas.length === 0) notFound();
+  if (!caso || caso.preguntas.length === 0) notFound();
 
   return (
     <section className="bg-white">
       <Container className="py-16 sm:py-20">
         <Link
-          href={`/${oposicionSlug}/casos-practicos?tema=${caso.temaSlug}`}
+          href={`${base}/casos-practicos?tema=${caso.temaSlug}`}
           className="text-sm font-medium text-brand-600 hover:underline"
         >
           ← Volver a casos prácticos
