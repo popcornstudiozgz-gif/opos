@@ -12,6 +12,20 @@ interface PageProps {
   params: Promise<{ organismo: string; oposicion: string }>;
 }
 
+/**
+ * Recorta un texto libre (requisito de titulación, duración del proceso...)
+ * para mostrarlo como titular corto en una tarjeta resumen, sin partir
+ * palabras. Cada convocatoria redacta estos campos con su propia longitud
+ * (desde "6 meses..." hasta un párrafo con certificado de profesionalidad
+ * incluido), así que no hay un valor fijo válido para todas.
+ */
+function resumirTexto(texto: string, maxLen: number): { corto: string; truncado: boolean } {
+  if (texto.length <= maxLen) return { corto: texto, truncado: false };
+  const corte = texto.lastIndexOf(" ", maxLen);
+  const limite = corte > 0 ? corte : maxLen;
+  return { corto: `${texto.slice(0, limite).trimEnd()}…`, truncado: true };
+}
+
 export async function generateStaticParams() {
   const oposiciones = await getOposiciones();
   const convocatorias = await Promise.all(oposiciones.map((o) => getConvocatoria(o.slug)));
@@ -43,12 +57,22 @@ export default async function ConvocatoriaPage({ params }: PageProps) {
   const base = `/${organismo}/${puesto}`;
 
   const anio = anioDeConvocatoria(convocatoria.numero);
+  const titulacion = resumirTexto(convocatoria.requisitoTitulacion, 48);
+  const duracion = resumirTexto(convocatoria.duracionMaximaProceso, 40);
 
   const datosClave = [
     { etiqueta: "Plazas convocadas", valor: `${convocatoria.plazasTotal}`, detalle: oposicion.nombre },
     { etiqueta: "Sistema de selección", valor: "Oposición", detalle: convocatoria.sistemaSeleccion },
-    { etiqueta: "Titulación requerida", valor: "Graduado/a en ESO", detalle: "O equivalente a efectos profesionales" },
-    { etiqueta: "Duración máxima del proceso", valor: "6 meses", detalle: "Desde el primer ejercicio" },
+    {
+      etiqueta: "Titulación requerida",
+      valor: titulacion.corto,
+      detalle: titulacion.truncado ? "Ver requisito completo más abajo" : "Requisito de titulación",
+    },
+    {
+      etiqueta: "Duración máxima del proceso",
+      valor: duracion.corto,
+      detalle: duracion.truncado ? "Ver detalle completo más abajo" : "Desde el primer ejercicio",
+    },
   ];
 
   return (
@@ -94,6 +118,10 @@ export default async function ConvocatoriaPage({ params }: PageProps) {
               Orden de actuación
             </h3>
             <p className="mt-1 text-slate-600">{convocatoria.ordenActuacion}</p>
+            <h3 className="mt-5 text-sm font-semibold uppercase tracking-wide text-slate-400">
+              Duración máxima del proceso
+            </h3>
+            <p className="mt-1 text-slate-600">{convocatoria.duracionMaximaProceso}</p>
           </Card>
 
           <Card className="p-6">
