@@ -230,27 +230,47 @@ excepto Auxiliar Administrativo en `dpz` y `gobierno-aragon`:
   Mantenimiento General) y convocatoria (`CONV 4/2026`, con prueba
   adicional práctica, a diferencia de Mantenimiento General). Tercera
   oposición "Oficial X" completa.
-- **Las otras 12 "Oficial X"** (agente-inspector, carpintero, cementerio,
-  conductor-general, conductor-maquinaria-pesada, electricista,
-  guardallaves, herrero, mecanico, pintor-general, pintor-grafica,
-  planta-potabilizadora): solo tienen la **parte común** (6 temas, igual
-  que las tres anteriores). El **bloque-2 (parte específica) está vacío**
-  y **no tienen ficha de convocatoria** todavía.
+- **Oficial Agente Inspector** (`oficial-agente-inspector-ayto-zaragoza`):
+  **completa** — 22 temas (misma parte común, temas 1-6, más 16 temas de
+  parte específica: `tema-92` a `tema-107`, 16 temas nuevos — parques y
+  jardines/arbolado, montes y riberas, mobiliario urbano, sanidad
+  vegetal/especies invasoras/CITES, PRL en zonas verdes, limpieza
+  pública, mantenimiento de vías/Ordenanza del Arbolado Urbano, residuos
+  especiales/CTRUZ, sensibilización ambiental, Término Municipal/PGOU/
+  bienes patrimoniales, vías pecuarias/caza de Aragón, normativa forestal/
+  aguas/ambiental de Aragón, conservación de la naturaleza/Red Natura
+  2000/LAESRPE, incendios forestales/PROCINFO, PAC, cartografía) y
+  convocatoria (`CONV 4/2026`, sin prueba adicional práctica, como
+  Mantenimiento General). De perfil marcadamente distinto a las 3
+  anteriores (gestión ambiental/forestal, no oficio manual): ~15 normas
+  estatales y aragonesas verificadas en la sesión (vías pecuarias, caza,
+  montes, aguas, prevención ambiental, espacios protegidos, especies
+  amenazadas, protección civil, PAC), con dos casos de norma derogada
+  señalados explícitamente (Ley 30/2002 de Protección Civil de Aragón →
+  Ley 4/2024; Ley 5/2002 de Caza de Aragón → Ley 1/2015). Cuarta
+  oposición "Oficial X" completa.
+- **Las otras 11 "Oficial X"** (carpintero, cementerio, conductor-general,
+  conductor-maquinaria-pesada, electricista, guardallaves, herrero,
+  mecanico, pintor-general, pintor-grafica, planta-potabilizadora): solo
+  tienen la **parte común** (6 temas, igual que las cuatro anteriores).
+  El **bloque-2 (parte específica) está vacío** y **no tienen ficha de
+  convocatoria** todavía.
 
 Próximo trabajo natural si se retoma: parte específica + convocatoria de
-las 12 oposiciones "Oficial X" restantes, siguiendo el mismo patrón
+las 11 oposiciones "Oficial X" restantes, siguiendo el mismo patrón
 (leer el temario oficial de cada puesto en `scripts/tmp-fuentes/
 bases2110.txt` — ya descargado y convertido a texto con `pdftotext
 -layout`, contiene el Anexo I completo de las 15 oposiciones "Oficial X",
 cada una con su "Parte primera"/"Parte segunda" separadas por su propio
 encabezado en mayúsculas — buscar fuente primaria por tema, un script
 `seed-tema-NN-*.mjs` por tema). Los datos de plazas ya compilados para las
-12 restantes están como comentarios en `scripts/seed-oficial-x-parte-
-comun.mjs`. `scripts/seed-tema-77-*.mjs` a `seed-tema-91-*.mjs` (los 15
-nuevos de Oficial Instalaciones Deportivas) son la plantilla de
-referencia más reciente del patrón de script + estándar de sourcing, y
-`scripts/seed-convocatoria-oficial-instalaciones-deportivas.mjs` la más
-reciente de ficha de convocatoria (con prueba adicional práctica) —
+11 restantes están como comentarios en `scripts/seed-oficial-x-parte-
+comun.mjs`. `scripts/seed-tema-92-*.mjs` a `seed-tema-107-*.mjs` (los 16
+de Oficial Agente Inspector) son la plantilla de referencia más reciente
+del patrón de script + estándar de sourcing — incluida la más exigente en
+verificación normativa hecha hasta ahora en el proyecto — y
+`scripts/seed-convocatoria-oficial-agente-inspector.mjs` la más reciente
+de ficha de convocatoria (sin prueba adicional práctica) —
 cada tema nuevo usa `BLOQUE_2_ID` fijo de su oposición (consultarlo una
 vez por `oposicion_slug` si no se conoce) y `numero`/`orden` correlativos
 empezando en 7; `scripts/seed-oficial-albanil-setup-y-parte-comun.mjs`
