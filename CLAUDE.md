@@ -205,17 +205,18 @@ excepto Auxiliar Administrativo en `dpz` y `gobierno-aragon`:
   flashcards y 24 preguntas de test, sourcing verificado. Convocatoria
   (`CONV 4/2026`) creada.
 - **Oficial Mantenimiento General** (`oficial-mantenimiento-ayto-zaragoza`):
-  **22 temas completos** — misma parte común que Oficial Albañil (temas
-  1-6); temas 7-22 son la parte específica, **16 temas técnicos nuevos**
-  (`tema-61` a `tema-76`: electricidad, fontanería/calefacción,
-  alarmas/ascensores, albañilería de mantenimiento, carpintería/
-  cerrajería/persianas, audio/imagen/informática, ofimática/
-  fotocopiadoras, organigrama/atención al público, documentos
-  administrativos, Albergue/Casa Amparo, Centros Cívicos, Centros
-  Escolares, movilidad urbana/escenarios, Juntas Municipales/Vecinales,
-  protección de incendios, PRL en mantenimiento), sourcing verificado.
-  **Falta la ficha de convocatoria** (pendiente, es lo único que le queda
-  a esta oposición).
+  **completa** — 22 temas (misma parte común que Oficial Albañil, temas
+  1-6, más 16 temas técnicos nuevos de parte específica, `tema-61` a
+  `tema-76`: electricidad, fontanería/calefacción, alarmas/ascensores,
+  albañilería de mantenimiento, carpintería/cerrajería/persianas,
+  audio/imagen/informática, ofimática/fotocopiadoras, organigrama/
+  atención al público, documentos administrativos, Albergue/Casa Amparo,
+  Centros Cívicos, Centros Escolares, movilidad urbana/escenarios, Juntas
+  Municipales/Vecinales, protección de incendios, PRL en mantenimiento) y
+  convocatoria (`CONV 4/2026`, sin prueba adicional práctica — a
+  diferencia de la mayoría de las otras "Oficial X", su proceso consta
+  solo de 2 ejercicios). Segunda oposición "Oficial X", tras Oficial
+  Albañil, totalmente terminada.
 - **Las otras 13 "Oficial X"** (agente-inspector, carpintero, cementerio,
   conductor-general, conductor-maquinaria-pesada, electricista,
   guardallaves, herrero, instalaciones-deportivas, mecanico,
@@ -224,10 +225,8 @@ excepto Auxiliar Administrativo en `dpz` y `gobierno-aragon`:
   **bloque-2 (parte específica) está vacío** y **no tienen ficha de
   convocatoria** todavía.
 
-Próximo trabajo natural si se retoma: 1) ficha de convocatoria de Oficial
-Mantenimiento General (patrón en
-`scripts/seed-convocatoria-oficial-albanil.mjs`); 2) parte específica +
-convocatoria de las 13 oposiciones restantes, siguiendo el mismo patrón
+Próximo trabajo natural si se retoma: parte específica + convocatoria de
+las 13 oposiciones "Oficial X" restantes, siguiendo el mismo patrón
 (leer el temario oficial de cada puesto en `scripts/tmp-fuentes/
 bases2110.txt` — ya descargado y convertido a texto con `pdftotext
 -layout`, contiene el Anexo I completo de las 15 oposiciones "Oficial X",
@@ -237,7 +236,10 @@ encabezado en mayúsculas — buscar fuente primaria por tema, un script
 13 restantes están como comentarios en `scripts/seed-oficial-x-parte-
 comun.mjs`. `scripts/seed-tema-61-*.mjs` a `seed-tema-76-*.mjs` (los 16 de
 Oficial Mantenimiento General) son la plantilla de referencia más
-reciente del patrón de script + estándar de sourcing — cada tema nuevo usa
+reciente del patrón de script + estándar de sourcing, y
+`scripts/seed-convocatoria-oficial-mantenimiento.mjs` la plantilla más
+reciente de ficha de convocatoria (incluye el caso de una plaza sin
+prueba adicional práctica, a diferencia de Oficial Albañil) — cada tema nuevo usa
 `BLOQUE_2_ID` fijo de su oposición (consultarlo una vez por `oposicion_slug`
 si no se conoce) y `numero`/`orden` correlativos empezando en 7;
 `scripts/seed-oficial-albanil-setup-y-parte-comun.mjs` muestra el patrón
