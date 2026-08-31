@@ -228,6 +228,16 @@ Inspector, y debe incluirse desde el principio en cualquier tema nuevo a
 partir de ahora, en el mismo script de seed del tema (no como tarea
 aparte).
 
+Progreso del retrofit (glosario ya está 100% completo en las 4 desde el
+principio; lo que se hace tema a tema es casos_practicos, con scripts
+`scripts/seed-casos-practicos-tema-NN.mjs` siguiendo el patrón de
+`seed-casos-practicos-tema-15.mjs`):
+- **Oficial Albañil (tema-45 a tema-60): completo — 16/16 temas.**
+- Oficial Mantenimiento General (tema-61 a tema-76): pendiente, 0/16.
+- Oficial Instalaciones Deportivas (tema-77 a tema-91, excluyendo
+  tema-75 reutilizado): pendiente, 0/15.
+- Oficial Agente Inspector (tema-92 a tema-107): pendiente, 0/16.
+
 ## Estado actual del contenido (referencia rápida — puede quedar desactualizado, comprobar en BD si hay dudas)
 
 18 oposiciones en la base de datos, todas bajo `ayuntamiento-zaragoza`
@@ -326,5 +336,6 @@ contenido nuevo dedicado que forzar un recorte incompleto o tocar un
 canónico ya publicado y en uso por otra oposición.
 
 `casos_practicos` es una funcionalidad del esquema (supuestos narrativos con
-preguntas encadenadas) que existe y se usa en otras oposiciones pero que
-**no se ha usado todavía** en ninguna de las "Oficial X".
+preguntas encadenadas) que existe y se usa en Auxiliar Administrativo; el
+retrofit para las 4 "Oficial X" completas está en marcha (ver progreso en
+la sección "Casos prácticos y glosario" más arriba — Albañil ya completo).
