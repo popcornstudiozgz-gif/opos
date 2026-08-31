@@ -217,34 +217,49 @@ excepto Auxiliar Administrativo en `dpz` y `gobierno-aragon`:
   diferencia de la mayoría de las otras "Oficial X", su proceso consta
   solo de 2 ejercicios). Segunda oposición "Oficial X", tras Oficial
   Albañil, totalmente terminada.
-- **Las otras 13 "Oficial X"** (agente-inspector, carpintero, cementerio,
+- **Oficial Polivalente Instalaciones Deportivas**
+  (`oficial-instalaciones-deportivas-ayto-zaragoza`): **completa** — 22
+  temas (misma parte común, temas 1-6, más 16 temas de parte específica:
+  `tema-77` a `tema-91` son 15 temas nuevos —organización del deporte
+  municipal, calidad del servicio, ofimática con OpenOffice, electricidad
+  en piscinas/REBT ITC-BT-31, fontanería, pintura, calefacción/ACS/
+  legionela, limpieza y desinfección, Decreto 50/1993 de piscinas,
+  depuración y desinfección del agua, jardinería (riego, césped/arbustos/
+  árboles), fitosanitarios, seguridad y gestión de riesgos— más `tema-75`
+  reutilizado (protección de incendios, enunciado idéntico al de Oficial
+  Mantenimiento General) y convocatoria (`CONV 4/2026`, con prueba
+  adicional práctica, a diferencia de Mantenimiento General). Tercera
+  oposición "Oficial X" completa.
+- **Las otras 12 "Oficial X"** (agente-inspector, carpintero, cementerio,
   conductor-general, conductor-maquinaria-pesada, electricista,
-  guardallaves, herrero, instalaciones-deportivas, mecanico,
-  pintor-general, pintor-grafica, planta-potabilizadora): solo tienen la
-  **parte común** (6 temas, igual que Oficial Albañil/Mantenimiento). El
-  **bloque-2 (parte específica) está vacío** y **no tienen ficha de
-  convocatoria** todavía.
+  guardallaves, herrero, mecanico, pintor-general, pintor-grafica,
+  planta-potabilizadora): solo tienen la **parte común** (6 temas, igual
+  que las tres anteriores). El **bloque-2 (parte específica) está vacío**
+  y **no tienen ficha de convocatoria** todavía.
 
 Próximo trabajo natural si se retoma: parte específica + convocatoria de
-las 13 oposiciones "Oficial X" restantes, siguiendo el mismo patrón
+las 12 oposiciones "Oficial X" restantes, siguiendo el mismo patrón
 (leer el temario oficial de cada puesto en `scripts/tmp-fuentes/
 bases2110.txt` — ya descargado y convertido a texto con `pdftotext
 -layout`, contiene el Anexo I completo de las 15 oposiciones "Oficial X",
 cada una con su "Parte primera"/"Parte segunda" separadas por su propio
 encabezado en mayúsculas — buscar fuente primaria por tema, un script
 `seed-tema-NN-*.mjs` por tema). Los datos de plazas ya compilados para las
-13 restantes están como comentarios en `scripts/seed-oficial-x-parte-
-comun.mjs`. `scripts/seed-tema-61-*.mjs` a `seed-tema-76-*.mjs` (los 16 de
-Oficial Mantenimiento General) son la plantilla de referencia más
-reciente del patrón de script + estándar de sourcing, y
-`scripts/seed-convocatoria-oficial-mantenimiento.mjs` la plantilla más
-reciente de ficha de convocatoria (incluye el caso de una plaza sin
-prueba adicional práctica, a diferencia de Oficial Albañil) — cada tema nuevo usa
-`BLOQUE_2_ID` fijo de su oposición (consultarlo una vez por `oposicion_slug`
-si no se conoce) y `numero`/`orden` correlativos empezando en 7;
-`scripts/seed-oficial-albanil-setup-y-parte-comun.mjs` muestra el patrón
-para crear un tema canónico nuevo desde cero. Cuando el temario oficial de
-un puesto coincide en el fondo con un punto ya cubierto por un tema
+12 restantes están como comentarios en `scripts/seed-oficial-x-parte-
+comun.mjs`. `scripts/seed-tema-77-*.mjs` a `seed-tema-91-*.mjs` (los 15
+nuevos de Oficial Instalaciones Deportivas) son la plantilla de
+referencia más reciente del patrón de script + estándar de sourcing, y
+`scripts/seed-convocatoria-oficial-instalaciones-deportivas.mjs` la más
+reciente de ficha de convocatoria (con prueba adicional práctica) —
+cada tema nuevo usa `BLOQUE_2_ID` fijo de su oposición (consultarlo una
+vez por `oposicion_slug` si no se conoce) y `numero`/`orden` correlativos
+empezando en 7; `scripts/seed-oficial-albanil-setup-y-parte-comun.mjs`
+muestra el patrón para crear un tema canónico nuevo desde cero, y
+`scripts/fix-instalaciones-deportivas-reusa-tema-75-incendios.mjs` el
+patrón para reutilizar (sin duplicar) un tema de parte específica ya
+creado para otra "Oficial X" cuando el enunciado oficial coincide
+literalmente. Cuando el temario oficial de un puesto coincide en el fondo
+con un punto ya cubierto por un tema
 canónico de otra oposición (p. ej. Juntas Municipales/Vecinales con
 tema-15 de Auxiliar Administrativo), valorar reutilizar vía
 `secciones_incluidas` solo si el recorte cubre el contenido exacto exigido
