@@ -233,9 +233,12 @@ principio; lo que se hace tema a tema es casos_practicos, con scripts
 `scripts/seed-casos-practicos-tema-NN.mjs` siguiendo el patrón de
 `seed-casos-practicos-tema-15.mjs`):
 - **Oficial Albañil (tema-45 a tema-60): completo — 16/16 temas.**
-- Oficial Mantenimiento General (tema-61 a tema-76): pendiente, 0/16.
+- **Oficial Mantenimiento General (tema-61 a tema-76): completo — 16/16
+  temas** (tema-75, "Protección contra incendios", es canónico y
+  compartido con Instalaciones Deportivas — sembrado una única vez).
 - Oficial Instalaciones Deportivas (tema-77 a tema-91, excluyendo
-  tema-75 reutilizado): pendiente, 0/15.
+  tema-75 ya sembrado como parte de Mantenimiento General): pendiente,
+  0/14.
 - Oficial Agente Inspector (tema-92 a tema-107): pendiente, 0/16.
 
 ## Estado actual del contenido (referencia rápida — puede quedar desactualizado, comprobar en BD si hay dudas)
