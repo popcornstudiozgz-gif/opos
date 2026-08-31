@@ -203,26 +203,52 @@ excepto Auxiliar Administrativo en `dpz` y `gobierno-aragon`:
   `tema-44`); temas 7-22 son la parte específica, **16 temas técnicos
   nuevos** (`tema-45` a `tema-60`), cada uno con 3 secciones, 30
   flashcards y 24 preguntas de test, sourcing verificado. Convocatoria
-  (`CONV 4/2026`) creada. Es la única oposición "Oficial X" con la parte
-  específica terminada.
-- **Las otras 14 "Oficial X"** (agente-inspector, carpintero, cementerio,
+  (`CONV 4/2026`) creada.
+- **Oficial Mantenimiento General** (`oficial-mantenimiento-ayto-zaragoza`):
+  **22 temas completos** — misma parte común que Oficial Albañil (temas
+  1-6); temas 7-22 son la parte específica, **16 temas técnicos nuevos**
+  (`tema-61` a `tema-76`: electricidad, fontanería/calefacción,
+  alarmas/ascensores, albañilería de mantenimiento, carpintería/
+  cerrajería/persianas, audio/imagen/informática, ofimática/
+  fotocopiadoras, organigrama/atención al público, documentos
+  administrativos, Albergue/Casa Amparo, Centros Cívicos, Centros
+  Escolares, movilidad urbana/escenarios, Juntas Municipales/Vecinales,
+  protección de incendios, PRL en mantenimiento), sourcing verificado.
+  **Falta la ficha de convocatoria** (pendiente, es lo único que le queda
+  a esta oposición).
+- **Las otras 13 "Oficial X"** (agente-inspector, carpintero, cementerio,
   conductor-general, conductor-maquinaria-pesada, electricista,
-  guardallaves, herrero, instalaciones-deportivas, mantenimiento, mecanico,
+  guardallaves, herrero, instalaciones-deportivas, mecanico,
   pintor-general, pintor-grafica, planta-potabilizadora): solo tienen la
-  **parte común** (6 temas, igual que Oficial Albañil). El **bloque-2
-  (parte específica) está vacío** y **no tienen ficha de convocatoria**
-  todavía.
+  **parte común** (6 temas, igual que Oficial Albañil/Mantenimiento). El
+  **bloque-2 (parte específica) está vacío** y **no tienen ficha de
+  convocatoria** todavía.
 
-Próximo trabajo natural si se retoma: parte específica + convocatoria de
-esas 14 oposiciones, siguiendo el mismo patrón que Oficial Albañil (leer el
-temario oficial de cada puesto en `bases2110.pdf`, buscar fuente primaria
-por tema, un script `seed-tema-NN-*.mjs` por tema). Los datos de plazas ya
-compilados para esas 14 están como comentarios en
-`scripts/seed-oficial-x-parte-comun.mjs`. `scripts/seed-tema-45-*.mjs` a
-`seed-tema-60-*.mjs` (los 16 de Oficial Albañil) son la plantilla de
-referencia más reciente y completa del patrón de script + estándar de
-sourcing; `scripts/seed-oficial-albanil-setup-y-parte-comun.mjs` muestra el
-patrón para crear un tema canónico nuevo desde cero.
+Próximo trabajo natural si se retoma: 1) ficha de convocatoria de Oficial
+Mantenimiento General (patrón en
+`scripts/seed-convocatoria-oficial-albanil.mjs`); 2) parte específica +
+convocatoria de las 13 oposiciones restantes, siguiendo el mismo patrón
+(leer el temario oficial de cada puesto en `scripts/tmp-fuentes/
+bases2110.txt` — ya descargado y convertido a texto con `pdftotext
+-layout`, contiene el Anexo I completo de las 15 oposiciones "Oficial X",
+cada una con su "Parte primera"/"Parte segunda" separadas por su propio
+encabezado en mayúsculas — buscar fuente primaria por tema, un script
+`seed-tema-NN-*.mjs` por tema). Los datos de plazas ya compilados para las
+13 restantes están como comentarios en `scripts/seed-oficial-x-parte-
+comun.mjs`. `scripts/seed-tema-61-*.mjs` a `seed-tema-76-*.mjs` (los 16 de
+Oficial Mantenimiento General) son la plantilla de referencia más
+reciente del patrón de script + estándar de sourcing — cada tema nuevo usa
+`BLOQUE_2_ID` fijo de su oposición (consultarlo una vez por `oposicion_slug`
+si no se conoce) y `numero`/`orden` correlativos empezando en 7;
+`scripts/seed-oficial-albanil-setup-y-parte-comun.mjs` muestra el patrón
+para crear un tema canónico nuevo desde cero. Cuando el temario oficial de
+un puesto coincide en el fondo con un punto ya cubierto por un tema
+canónico de otra oposición (p. ej. Juntas Municipales/Vecinales con
+tema-15 de Auxiliar Administrativo), valorar reutilizar vía
+`secciones_incluidas` solo si el recorte cubre el contenido exacto exigido
+(incluidas particularidades como el Alcalde de Barrio) — si no, mejor
+contenido nuevo dedicado que forzar un recorte incompleto o tocar un
+canónico ya publicado y en uso por otra oposición.
 
 `casos_practicos` es una funcionalidad del esquema (supuestos narrativos con
 preguntas encadenadas) que existe y se usa en otras oposiciones pero que
