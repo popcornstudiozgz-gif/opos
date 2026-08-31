@@ -190,6 +190,44 @@ Antes de citar un `BOE-A-YYYY-NNNNN` que no se haya confirmado ya en la
 conversación, verifícalo (búsqueda + lectura del título real de la norma) —
 un ID inventado que devuelva 200 en `boe.es` no prueba que sea el correcto.
 
+**Antes de dejar `enlaces_boe: []`, haz al menos una búsqueda real** para
+comprobar que el punto del temario no tiene detrás un reglamento,
+ordenanza o manual publicado (municipal, autonómico o estatal) — "es
+conocimiento técnico del oficio" debe ser una conclusión tras buscar, no
+una asunción por defecto. Auditoría hecha en agosto de 2026 sobre las
+primeras 3 oposiciones "Oficial X" nuevas de esa sesión: 9/16, 9/16 y
+6/16 temas se dejaron sin ninguna fuente enlazada, frente a 3/16 en
+Oficial Albañil (el precedente que fijó el criterio) — varios de esos
+huecos sí tenían fuente real (Manual de Atención a la Ciudadanía,
+reglamentos de Centros Cívicos/Escolares, IDEAragón) que no se buscó a
+fondo. El ratio razonable a mantener es el de Albañil, no el de esa
+sesión.
+
+## Casos prácticos y glosario — obligatorios en todo tema nuevo
+
+Cada tema canónico nuevo de la parte específica de una oposición "Oficial
+X" debe llevar, además de flashcards y preguntas, **casos prácticos y
+glosario**, con la misma densidad que ya usa Auxiliar Administrativo:
+
+- **Casos prácticos** (`casos_practicos` + `caso_preguntas`): 3 supuestos
+  narrativos por tema, 10 preguntas cada uno, reutilizando las mismas
+  `seccion` ya usadas por las flashcards/preguntas sueltas del tema (para
+  que `secciones_incluidas` filtre igual). Patrón de script exacto en
+  `scripts/seed-casos-practicos-tema-15.mjs`: la primera opción de cada
+  pregunta es siempre la correcta (el cliente baraja el orden al
+  mostrarlas).
+- **Glosario** (`glosario`): selección curada (no exhaustiva) de términos
+  que puedan resultar complejos, con la misma `seccion` que las
+  flashcards. Patrón en `scripts/seed-glosario.mjs`.
+
+Hasta agosto de 2026 este patrón NO se había aplicado a ninguna
+oposición "Oficial X" (ni siquiera Albañil, la primera) — es un hueco
+heredado, no una decisión deliberada; se está cerrando retroactivamente
+para Albañil, Mantenimiento General, Instalaciones Deportivas y Agente
+Inspector, y debe incluirse desde el principio en cualquier tema nuevo a
+partir de ahora, en el mismo script de seed del tema (no como tarea
+aparte).
+
 ## Estado actual del contenido (referencia rápida — puede quedar desactualizado, comprobar en BD si hay dudas)
 
 18 oposiciones en la base de datos, todas bajo `ayuntamiento-zaragoza`
