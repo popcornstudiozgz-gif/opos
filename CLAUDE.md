@@ -221,12 +221,17 @@ glosario**, con la misma densidad que ya usa Auxiliar Administrativo:
   flashcards. Patrón en `scripts/seed-glosario.mjs`.
 
 Hasta agosto de 2026 este patrón NO se había aplicado a ninguna
-oposición "Oficial X" (ni siquiera Albañil, la primera) — es un hueco
-heredado, no una decisión deliberada; se está cerrando retroactivamente
-para Albañil, Mantenimiento General, Instalaciones Deportivas y Agente
-Inspector, y debe incluirse desde el principio en cualquier tema nuevo a
+oposición "Oficial X" (ni siquiera Albañil, la primera) — fue un hueco
+heredado, no una decisión deliberada. **Se cerró retroactivamente en
+esta misma sesión de agosto 2026 para las 4 oposiciones "Oficial X"
+completas hasta entonces (Albañil, Mantenimiento General, Instalaciones
+Deportivas y Agente Inspector) — glosario y casos_practicos 100%
+completos en las 62 temas de sus 4 partes específicas** (16+16+15+16 —
+Instalaciones Deportivas reutiliza tema-75 de Mantenimiento General, no
+duplicado). Debe incluirse desde el principio en cualquier tema nuevo a
 partir de ahora, en el mismo script de seed del tema (no como tarea
-aparte).
+aparte) — el patrón de retrofit ya no aplica salvo que se detecte algún
+hueco puntual no descubierto en la auditoría de esta sesión.
 
 Progreso del retrofit (glosario ya está 100% completo en las 4 desde el
 principio; lo que se hace tema a tema es casos_practicos, con scripts
@@ -340,5 +345,7 @@ canónico ya publicado y en uso por otra oposición.
 
 `casos_practicos` es una funcionalidad del esquema (supuestos narrativos con
 preguntas encadenadas) que existe y se usa en Auxiliar Administrativo; el
-retrofit para las 4 "Oficial X" completas está en marcha (ver progreso en
-la sección "Casos prácticos y glosario" más arriba — Albañil ya completo).
+retrofit para las 4 "Oficial X" completas se terminó en esta misma sesión
+de agosto 2026 (ver nota en la sección "Casos prácticos y glosario" más
+arriba) — las 4 tienen glosario y casos_practicos al 100% de su parte
+específica.
