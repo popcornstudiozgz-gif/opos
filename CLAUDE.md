@@ -305,28 +305,62 @@ excepto Auxiliar Administrativo en `dpz` y `gobierno-aragon`:
   señalados explícitamente (Ley 30/2002 de Protección Civil de Aragón →
   Ley 4/2024; Ley 5/2002 de Caza de Aragón → Ley 1/2015). Cuarta
   oposición "Oficial X" completa.
-- **Las otras 11 "Oficial X"** (carpintero, cementerio, conductor-general,
+- **Oficial Carpintero** (`oficial-carpintero-ayto-zaragoza`): **completa**
+  — 22 temas (misma parte común, temas 1-6, más 16 temas de parte
+  específica: `tema-108` a `tema-123`, 16 temas nuevos — la madera
+  (propiedades, el bosque, tala y defectos de sierra), enfermedades de
+  la madera y clasificación del aserrado, secado de la madera,
+  pegamentos/colas y plásticos termoestables, maderas compuestas y
+  tableros derivados, tratamientos de superficie, banco de carpintero y
+  herramientas manuales, máquinas de carpintería, ensambles/uniones de
+  esquina/marcos y bastidores, dibujo técnico (UNE 1032/ISO 128),
+  mediciones en la construcción y tolerancias, tipos de puertas,
+  construcción de ventanas, suelos de madera, tabiques de separación
+  ligeros, PRL en carpintería) y convocatoria (`CONV 4/2026`, 2 plazas
+  —1 TLO, 1 TLO-D—, con prueba adicional práctica, requiere certificado
+  de profesionalidad de la familia Madera, mueble y corcho). De perfil
+  de oficio manual con escasa normativa pública específica: la mayoría
+  de los 16 temas se sourcean como "conocimiento técnico consolidado
+  del oficio sin ley única que lo regule" citando AITIM (Asociación de
+  Investigación Técnica de las Industrias de la Madera) como referencia
+  técnica del sector — criterio verificado explícitamente mediante
+  búsqueda antes de aplicarlo, según exige el estándar de sourcing—,
+  con dos excepciones de normativa pública real y verificada: dibujo
+  técnico (UNE 1032, adaptación española de la ISO 128) y PRL (Ley
+  31/1995, RD 1215/1997, RD 773/1997, y RD 665/1997 modificado por RD
+  349/2003 sobre el polvo de madera dura como agente cancerígeno, con
+  RD 1299/2006 reconociéndolo como enfermedad profesional). Quinta
+  oposición "Oficial X" completa — primera en que la mayoría del
+  temario carece de ley única y se resuelve con el criterio de
+  "conocimiento técnico del oficio" en vez de sourcing normativo.
+- **Las otras 10 "Oficial X"** (cementerio, conductor-general,
   conductor-maquinaria-pesada, electricista, guardallaves, herrero,
   mecanico, pintor-general, pintor-grafica, planta-potabilizadora): solo
-  tienen la **parte común** (6 temas, igual que las cuatro anteriores).
+  tienen la **parte común** (6 temas, igual que las cinco anteriores).
   El **bloque-2 (parte específica) está vacío** y **no tienen ficha de
   convocatoria** todavía.
 
 Próximo trabajo natural si se retoma: parte específica + convocatoria de
-las 11 oposiciones "Oficial X" restantes, siguiendo el mismo patrón
+las 10 oposiciones "Oficial X" restantes, siguiendo el mismo patrón
 (leer el temario oficial de cada puesto en `scripts/tmp-fuentes/
 bases2110.txt` — ya descargado y convertido a texto con `pdftotext
 -layout`, contiene el Anexo I completo de las 15 oposiciones "Oficial X",
 cada una con su "Parte primera"/"Parte segunda" separadas por su propio
 encabezado en mayúsculas — buscar fuente primaria por tema, un script
 `seed-tema-NN-*.mjs` por tema). Los datos de plazas ya compilados para las
-11 restantes están como comentarios en `scripts/seed-oficial-x-parte-
-comun.mjs`. `scripts/seed-tema-92-*.mjs` a `seed-tema-107-*.mjs` (los 16
-de Oficial Agente Inspector) son la plantilla de referencia más reciente
-del patrón de script + estándar de sourcing — incluida la más exigente en
-verificación normativa hecha hasta ahora en el proyecto — y
-`scripts/seed-convocatoria-oficial-agente-inspector.mjs` la más reciente
-de ficha de convocatoria (sin prueba adicional práctica) —
+10 restantes están como comentarios en `scripts/seed-oficial-x-parte-
+comun.mjs`. `scripts/seed-tema-108-*.mjs` a `seed-tema-123-*.mjs` (los 16
+de Oficial Carpintero) son la plantilla de referencia más reciente del
+patrón de script + estándar de sourcing — incluida la primera aplicación
+extensa del criterio "conocimiento técnico del oficio sin ley única" a
+la mayoría de los temas de una "Oficial X" (con AITIM como referencia
+técnica citable) — y `scripts/seed-convocatoria-oficial-carpintero.mjs`
+la más reciente de ficha de convocatoria (con prueba adicional
+práctica); `scripts/seed-tema-92-*.mjs` a `seed-tema-107-*.mjs` (Oficial
+Agente Inspector) siguen siendo la plantilla de referencia para temas
+con sourcing normativo intensivo (varias normas estatales/autonómicas
+por tema), y `scripts/seed-convocatoria-oficial-agente-inspector.mjs`
+la de una convocatoria sin prueba adicional práctica —
 cada tema nuevo usa `BLOQUE_2_ID` fijo de su oposición (consultarlo una
 vez por `oposicion_slug` si no se conoce) y `numero`/`orden` correlativos
 empezando en 7; `scripts/seed-oficial-albanil-setup-y-parte-comun.mjs`
@@ -345,7 +379,11 @@ canónico ya publicado y en uso por otra oposición.
 
 `casos_practicos` es una funcionalidad del esquema (supuestos narrativos con
 preguntas encadenadas) que existe y se usa en Auxiliar Administrativo; el
-retrofit para las 4 "Oficial X" completas se terminó en esta misma sesión
-de agosto 2026 (ver nota en la sección "Casos prácticos y glosario" más
-arriba) — las 4 tienen glosario y casos_practicos al 100% de su parte
-específica.
+retrofit para las 4 primeras "Oficial X" completas (Albañil, Mantenimiento
+General, Instalaciones Deportivas, Agente Inspector) se terminó en la
+sesión de agosto 2026 anterior a esta (ver nota en la sección "Casos
+prácticos y glosario" más arriba). Oficial Carpintero, quinta "Oficial X"
+completa, ya incorporó glosario y casos_practicos desde el origen en cada
+script de tema (sin retrofit posterior), conforme al estándar vigente
+descrito en esa misma sección — las 5 oposiciones "Oficial X" completas
+tienen glosario y casos_practicos al 100% de su parte específica.
