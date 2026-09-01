@@ -333,42 +333,90 @@ excepto Auxiliar Administrativo en `dpz` y `gobierno-aragon`:
   oposición "Oficial X" completa — primera en que la mayoría del
   temario carece de ley única y se resuelve con el criterio de
   "conocimiento técnico del oficio" en vez de sourcing normativo.
-- **Las otras 10 "Oficial X"** (cementerio, conductor-general,
+- **Oficial Cementerio** (`oficial-cementerio-ayto-zaragoza`): **completa**
+  — 22 temas (misma parte común, temas 1-6, más 16 temas de parte
+  específica: `tema-124` a `tema-138`, 14 temas nuevos más `tema-52`
+  reutilizado — conglomerantes ordinarios/RC-16, morteros, elementos
+  constructivos de fábrica (dintel/jamba/solerete), excavaciones
+  (entibaciones/pozos/zanjas), innovación de materiales para
+  tabiquería (`tema-52`, reutilizado literalmente de Oficial Albañil),
+  inspección previa y patologías, recursos materiales y organización
+  del trabajo (con equipos específicos de inhumación), PRL con
+  agentes biológicos, EPI, trabajos en altura/andamios/escaleras,
+  historia del Cementerio de Torrero, Reglamento de Policía Sanitaria
+  Mortuoria, Ordenanza municipal de cementerios y Ordenanza fiscal
+  nº 19, el Procedimiento PPRL-1605, la instrucción operativa de
+  trabajo, y el recurso preventivo) y convocatoria (`CONV 4/2026`, 3
+  plazas TLO, con prueba adicional práctica, requiere certificado de
+  profesionalidad de la familia Servicios socioculturales y a la
+  comunidad — cualificación "actividades funerarias y de
+  mantenimiento en cementerios"). De perfil mixto entre albañilería
+  tradicional (varios temas comparten sourcing y estructura con
+  Oficial Albañil: conglomerantes, morteros, elementos de fábrica,
+  excavaciones) y contenido específico de cementerio con normativa
+  propia real y verificada (Decreto 2263/1974 del Reglamento de
+  Policía Sanitaria Mortuoria, complementado por los Decretos
+  aragoneses 15/1987 y 106/1996; Ordenanza Municipal de Cementerios de
+  Zaragoza y Ordenanza Fiscal nº 19, verificadas en el portal de
+  normativa municipal; RD 664/1997 sobre agentes biológicos,
+  especialmente relevante por el riesgo de exhumaciones; art. 32 bis
+  de la Ley 31/1995 sobre el recurso preventivo). El Procedimiento
+  PPRL-1605 (enterramiento en nichos/capillas/panteones/sepulturas/
+  columbarios) sigue el mismo patrón de no fabricación que PPRL-1606 y
+  PPRL-1602 de Oficial Albañil: no localizado en ninguna fuente
+  pública, tema dedicado explícitamente a señalar ese hecho y
+  desarrollar el marco legal supletorio verificable en su lugar.
+  Primera "Oficial X" en reutilizar un tema canónico completo de otra
+  "Oficial X" fuera del caso ya conocido de tema-75 (aquí, tema-52 de
+  Oficial Albañil, por coincidencia literal del enunciado oficial del
+  TEMA 9). Sexta oposición "Oficial X" completa.
+- **Las otras 9 "Oficial X"** (conductor-general,
   conductor-maquinaria-pesada, electricista, guardallaves, herrero,
   mecanico, pintor-general, pintor-grafica, planta-potabilizadora): solo
-  tienen la **parte común** (6 temas, igual que las cinco anteriores).
+  tienen la **parte común** (6 temas, igual que las seis anteriores).
   El **bloque-2 (parte específica) está vacío** y **no tienen ficha de
   convocatoria** todavía.
 
 Próximo trabajo natural si se retoma: parte específica + convocatoria de
-las 10 oposiciones "Oficial X" restantes, siguiendo el mismo patrón
+las 9 oposiciones "Oficial X" restantes, siguiendo el mismo patrón
 (leer el temario oficial de cada puesto en `scripts/tmp-fuentes/
 bases2110.txt` — ya descargado y convertido a texto con `pdftotext
 -layout`, contiene el Anexo I completo de las 15 oposiciones "Oficial X",
 cada una con su "Parte primera"/"Parte segunda" separadas por su propio
 encabezado en mayúsculas — buscar fuente primaria por tema, un script
 `seed-tema-NN-*.mjs` por tema). Los datos de plazas ya compilados para las
-10 restantes están como comentarios en `scripts/seed-oficial-x-parte-
-comun.mjs`. `scripts/seed-tema-108-*.mjs` a `seed-tema-123-*.mjs` (los 16
-de Oficial Carpintero) son la plantilla de referencia más reciente del
-patrón de script + estándar de sourcing — incluida la primera aplicación
-extensa del criterio "conocimiento técnico del oficio sin ley única" a
-la mayoría de los temas de una "Oficial X" (con AITIM como referencia
-técnica citable) — y `scripts/seed-convocatoria-oficial-carpintero.mjs`
-la más reciente de ficha de convocatoria (con prueba adicional
-práctica); `scripts/seed-tema-92-*.mjs` a `seed-tema-107-*.mjs` (Oficial
-Agente Inspector) siguen siendo la plantilla de referencia para temas
-con sourcing normativo intensivo (varias normas estatales/autonómicas
-por tema), y `scripts/seed-convocatoria-oficial-agente-inspector.mjs`
-la de una convocatoria sin prueba adicional práctica —
+9 restantes están como comentarios en `scripts/seed-oficial-x-parte-
+comun.mjs`. `scripts/seed-tema-124-*.mjs` a `seed-tema-138-*.mjs` (los 16
+de Oficial Cementerio, incluido `fix-cementerio-reusa-tema-52-tabiqueria.mjs`
+para el tema reutilizado) son la plantilla de referencia más reciente,
+con dos patrones a tener presentes: (a) antes de dar por sentado que un
+tema nuevo necesita contenido dedicado, comparar su enunciado oficial
+palabra por palabra con los de otras "Oficial X" ya completas — puede
+ahorrar un tema entero si coincide literalmente (precedente: tema-75 y
+tema-52); (b) ante un procedimiento interno tipo "PPRL-NNNN" citado en
+solitario como tema completo (no ya como referencia dentro de un tema
+más amplio), el patrón de no fabricación se aplica igual pero exige
+dedicar de verdad una sección a explicarlo y desarrollar el marco legal
+supletorio en el resto del tema, en vez de una simple nota. `scripts/
+seed-tema-108-*.mjs` a `seed-tema-123-*.mjs` (Oficial Carpintero) siguen
+siendo la referencia para el criterio "conocimiento técnico del oficio
+sin ley única" aplicado de forma extensa a la mayoría de un temario, y
+`scripts/seed-convocatoria-oficial-cementerio.mjs` la ficha de
+convocatoria más reciente (con prueba adicional práctica); `scripts/
+seed-tema-92-*.mjs` a `seed-tema-107-*.mjs` (Oficial Agente Inspector)
+siguen siendo la plantilla de referencia para temas con sourcing
+normativo intensivo (varias normas estatales/autonómicas por tema), y
+`scripts/seed-convocatoria-oficial-agente-inspector.mjs` la de una
+convocatoria sin prueba adicional práctica —
 cada tema nuevo usa `BLOQUE_2_ID` fijo de su oposición (consultarlo una
 vez por `oposicion_slug` si no se conoce) y `numero`/`orden` correlativos
 empezando en 7; `scripts/seed-oficial-albanil-setup-y-parte-comun.mjs`
 muestra el patrón para crear un tema canónico nuevo desde cero, y
-`scripts/fix-instalaciones-deportivas-reusa-tema-75-incendios.mjs` el
-patrón para reutilizar (sin duplicar) un tema de parte específica ya
-creado para otra "Oficial X" cuando el enunciado oficial coincide
-literalmente. Cuando el temario oficial de un puesto coincide en el fondo
+`scripts/fix-instalaciones-deportivas-reusa-tema-75-incendios.mjs` y
+`scripts/fix-cementerio-reusa-tema-52-tabiqueria.mjs` el patrón para
+reutilizar (sin duplicar) un tema de parte específica ya creado para
+otra "Oficial X" cuando el enunciado oficial coincide literalmente.
+Cuando el temario oficial de un puesto coincide en el fondo
 con un punto ya cubierto por un tema
 canónico de otra oposición (p. ej. Juntas Municipales/Vecinales con
 tema-15 de Auxiliar Administrativo), valorar reutilizar vía
@@ -382,8 +430,9 @@ preguntas encadenadas) que existe y se usa en Auxiliar Administrativo; el
 retrofit para las 4 primeras "Oficial X" completas (Albañil, Mantenimiento
 General, Instalaciones Deportivas, Agente Inspector) se terminó en la
 sesión de agosto 2026 anterior a esta (ver nota en la sección "Casos
-prácticos y glosario" más arriba). Oficial Carpintero, quinta "Oficial X"
-completa, ya incorporó glosario y casos_practicos desde el origen en cada
-script de tema (sin retrofit posterior), conforme al estándar vigente
-descrito en esa misma sección — las 5 oposiciones "Oficial X" completas
-tienen glosario y casos_practicos al 100% de su parte específica.
+prácticos y glosario" más arriba). Oficial Carpintero y Oficial Cementerio,
+quinta y sexta "Oficial X" completas, ya incorporaron glosario y
+casos_practicos desde el origen en cada script de tema (sin retrofit
+posterior), conforme al estándar vigente descrito en esa misma sección —
+las 6 oposiciones "Oficial X" completas tienen glosario y casos_practicos
+al 100% de su parte específica.
