@@ -236,11 +236,9 @@ principio; lo que se hace tema a tema es casos_practicos, con scripts
 - **Oficial Mantenimiento General (tema-61 a tema-76): completo — 16/16
   temas** (tema-75, "Protección contra incendios", es canónico y
   compartido con Instalaciones Deportivas — sembrado una única vez).
-- Oficial Instalaciones Deportivas (tema-77 a tema-91, excluyendo
-  tema-75 ya sembrado como parte de Mantenimiento General): en curso,
-  9/15 (temas 77-89 hechos; quedan 90 y 91 — nota: el rango completo es
-  77-91, 15 temas, no 14; un fallo de grep en la sesión de agosto 2026
-  omitió tema-90 al enumerar los pendientes, corregido aquí).
+- **Oficial Instalaciones Deportivas (tema-77 a tema-91, excluyendo
+  tema-75 ya sembrado como parte de Mantenimiento General): completo —
+  15/15 temas.**
 - Oficial Agente Inspector (tema-92 a tema-107): pendiente, 0/16.
 
 ## Estado actual del contenido (referencia rápida — puede quedar desactualizado, comprobar en BD si hay dudas)
