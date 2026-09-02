@@ -370,25 +370,62 @@ excepto Auxiliar Administrativo en `dpz` y `gobierno-aragon`:
   "Oficial X" fuera del caso ya conocido de tema-75 (aquí, tema-52 de
   Oficial Albañil, por coincidencia literal del enunciado oficial del
   TEMA 9). Sexta oposición "Oficial X" completa.
-- **Las otras 9 "Oficial X"** (conductor-general,
-  conductor-maquinaria-pesada, electricista, guardallaves, herrero,
-  mecanico, pintor-general, pintor-grafica, planta-potabilizadora): solo
-  tienen la **parte común** (6 temas, igual que las seis anteriores).
+- **Oficial Electricista** (`oficial-electricista-ayto-zaragoza`):
+  **completa** — 22 temas (misma parte común, temas 1-6, más 16 temas
+  de parte específica: `tema-139` a `tema-154`, 16 temas nuevos — el
+  Reglamento Electrotécnico para Baja Tensión (REBT) y sus ITC-BT,
+  conceptos fundamentales de electricidad (magnitudes, ley de Ohm,
+  leyes de Kirchhoff, CC/CA), seguridad eléctrica y PRL (RD 614/2001,
+  Cinco Reglas de Oro), instalaciones de enlace en edificios, cuadros
+  generales de mando y protección, cables y conductores, instalaciones
+  interiores en viviendas y locales, locales de características
+  especiales, alumbrado e iluminación (luminotecnia, LED), receptores
+  y motores de corriente alterna, puesta a tierra, automatismos
+  eléctricos cableados, averías y mantenimiento, corrientes débiles y
+  telecomunicaciones (ICT, RIPCI), eficiencia energética y factor de
+  potencia, e instalaciones solares fotovoltaicas) y convocatoria
+  (`CONV 4/2026`, 4 plazas TLO, con prueba adicional práctica, requiere
+  certificado de profesionalidad de la familia Electricidad y
+  electrónica o Energía y agua). De perfil marcadamente normativo en el
+  REBT (Real Decreto 842/2002 y sus 52 Instrucciones Técnicas
+  Complementarias, ITC-BT-01 a ITC-BT-52, citadas individualmente según
+  el contenido de cada tema) combinado con contenido de electrotecnia
+  básica sin ley única (magnitudes eléctricas, motores, automatismos
+  cableados — criterio ya verificado con búsqueda previa en cada caso,
+  siguiendo el estándar de sourcing del proyecto) y normativa sectorial
+  específica verificada para telecomunicaciones (RD 346/2011, ICT),
+  protección contra incendios (RD 513/2017, RIPCI), autoconsumo
+  fotovoltaico (RD 244/2019) y facturación de energía reactiva (Orden
+  ITC/1723/2009). Séptima oposición "Oficial X" completa.
+- **Las otras 8 "Oficial X"** (conductor-general,
+  conductor-maquinaria-pesada, guardallaves, herrero, mecanico,
+  pintor-general, pintor-grafica, planta-potabilizadora): solo
+  tienen la **parte común** (6 temas, igual que las anteriores).
   El **bloque-2 (parte específica) está vacío** y **no tienen ficha de
   convocatoria** todavía.
 
 Próximo trabajo natural si se retoma: parte específica + convocatoria de
-las 9 oposiciones "Oficial X" restantes, siguiendo el mismo patrón
+las 8 oposiciones "Oficial X" restantes, siguiendo el mismo patrón
 (leer el temario oficial de cada puesto en `scripts/tmp-fuentes/
 bases2110.txt` — ya descargado y convertido a texto con `pdftotext
 -layout`, contiene el Anexo I completo de las 15 oposiciones "Oficial X",
 cada una con su "Parte primera"/"Parte segunda" separadas por su propio
 encabezado en mayúsculas — buscar fuente primaria por tema, un script
 `seed-tema-NN-*.mjs` por tema). Los datos de plazas ya compilados para las
-9 restantes están como comentarios en `scripts/seed-oficial-x-parte-
-comun.mjs`. `scripts/seed-tema-124-*.mjs` a `seed-tema-138-*.mjs` (los 16
-de Oficial Cementerio, incluido `fix-cementerio-reusa-tema-52-tabiqueria.mjs`
-para el tema reutilizado) son la plantilla de referencia más reciente,
+8 restantes están como comentarios en `scripts/seed-oficial-x-parte-
+comun.mjs`. `scripts/seed-tema-139-*.mjs` a `seed-tema-154-*.mjs` (los 16
+de Oficial Electricista) son la plantilla de referencia más reciente para
+un temario con sourcing normativo intensivo pero muy fragmentado (cada
+ITC-BT del REBT citada individualmente según el punto exacto del tema,
+en vez de una única norma general por tema) combinado con varios temas de
+electrotecnia básica sin ley única (mismo criterio que Carpintero, pero
+aplicado aquí solo a una minoría de los temas, no a la mayoría); también
+`scripts/seed-glosario-oficial-electricista.mjs` (formato de glosario en
+un único script para las 16 temas, criterio ya fijado desde Agente
+Inspector) y `scripts/seed-convocatoria-oficial-electricista.mjs` (con
+prueba adicional práctica). `scripts/seed-tema-124-*.mjs` a
+`seed-tema-138-*.mjs` (los 16 de Oficial Cementerio, incluido
+`fix-cementerio-reusa-tema-52-tabiqueria.mjs` para el tema reutilizado),
 con dos patrones a tener presentes: (a) antes de dar por sentado que un
 tema nuevo necesita contenido dedicado, comparar su enunciado oficial
 palabra por palabra con los de otras "Oficial X" ya completas — puede
@@ -402,12 +439,14 @@ seed-tema-108-*.mjs` a `seed-tema-123-*.mjs` (Oficial Carpintero) siguen
 siendo la referencia para el criterio "conocimiento técnico del oficio
 sin ley única" aplicado de forma extensa a la mayoría de un temario, y
 `scripts/seed-convocatoria-oficial-cementerio.mjs` la ficha de
-convocatoria más reciente (con prueba adicional práctica); `scripts/
+convocatoria con prueba adicional práctica; `scripts/
 seed-tema-92-*.mjs` a `seed-tema-107-*.mjs` (Oficial Agente Inspector)
 siguen siendo la plantilla de referencia para temas con sourcing
-normativo intensivo (varias normas estatales/autonómicas por tema), y
-`scripts/seed-convocatoria-oficial-agente-inspector.mjs` la de una
-convocatoria sin prueba adicional práctica —
+normativo intensivo con una única norma por tema (varias normas
+estatales/autonómicas por tema, pero no fragmentadas dentro del mismo
+tema como en el caso de las ITC-BT de Electricista), y `scripts/
+seed-convocatoria-oficial-agente-inspector.mjs` la de una convocatoria
+sin prueba adicional práctica —
 cada tema nuevo usa `BLOQUE_2_ID` fijo de su oposición (consultarlo una
 vez por `oposicion_slug` si no se conoce) y `numero`/`orden` correlativos
 empezando en 7; `scripts/seed-oficial-albanil-setup-y-parte-comun.mjs`
@@ -430,9 +469,9 @@ preguntas encadenadas) que existe y se usa en Auxiliar Administrativo; el
 retrofit para las 4 primeras "Oficial X" completas (Albañil, Mantenimiento
 General, Instalaciones Deportivas, Agente Inspector) se terminó en la
 sesión de agosto 2026 anterior a esta (ver nota en la sección "Casos
-prácticos y glosario" más arriba). Oficial Carpintero y Oficial Cementerio,
-quinta y sexta "Oficial X" completas, ya incorporaron glosario y
-casos_practicos desde el origen en cada script de tema (sin retrofit
-posterior), conforme al estándar vigente descrito en esa misma sección —
-las 6 oposiciones "Oficial X" completas tienen glosario y casos_practicos
-al 100% de su parte específica.
+prácticos y glosario" más arriba). Oficial Carpintero, Oficial Cementerio
+y Oficial Electricista, quinta, sexta y séptima "Oficial X" completas,
+ya incorporaron glosario y casos_practicos desde el origen en cada
+script de tema (sin retrofit posterior), conforme al estándar vigente
+descrito en esa misma sección — las 7 oposiciones "Oficial X" completas
+tienen glosario y casos_practicos al 100% de su parte específica.
