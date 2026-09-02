@@ -6,7 +6,7 @@ import { Card } from "@/components/ui/Card";
 import { Button } from "@/components/ui/Button";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
-import { crearMetadata } from "@/lib/site";
+import { crearMetadata, organismoConPreposicionCompleto } from "@/lib/site";
 import { getOposicionPorRuta, getOposiciones, getEstadisticasOposicion } from "@/lib/oposiciones";
 import { getConvocatoria } from "@/data/convocatorias";
 import { getArticulosDeOposicion } from "@/lib/blog";
@@ -26,12 +26,10 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const oposicion = await getOposicionPorRuta(organismo, puesto);
   if (!oposicion) return {};
   return crearMetadata({
-    // "·" en vez de "del"/"de la" antes del organismo: la preposición
-    // correcta cambia según el organismo (del Ayuntamiento, de la
-    // Diputación, del Gobierno de Aragón...), así que no es mecánico —
-    // con "·" la plantilla funciona igual para cualquier oposición nueva
-    // sin decidir nada a mano. Mismo criterio en el H1, más abajo.
-    titulo: `${oposicion.nombre} · ${oposicion.organismo} | Oposición`,
+    // Preposición natural según el organismo (del Ayuntamiento, de la
+    // Diputación, del Gobierno de Aragón...) vía organismoConPreposicionCompleto
+    // — mismo criterio que el H1, más abajo.
+    titulo: `${oposicion.nombre} ${organismoConPreposicionCompleto(oposicion.organismoSlug, oposicion.organismo)} | Oposición`,
     descripcion: `Prepara la oposición de ${oposicion.nombre} · ${oposicion.organismo}: temas, test, flashcards, casos prácticos y simulacro. Empieza gratis.`,
     ruta: `/${organismo}/${puesto}`,
   });
@@ -133,12 +131,15 @@ export default async function OposicionHome({ params }: PageProps) {
                 futuro hay dos oposiciones con el mismo nombre de puesto en
                 organismos distintos (p. ej. Auxiliar Administrativo de la
                 DPZ o la DGA, además de la del Ayuntamiento de Zaragoza), el
-                título de cada página sigue siendo único. */}
-            <h1 className="mt-5 text-4xl font-black leading-tight tracking-tight sm:text-5xl lg:text-6xl">
-              {oposicion.nombre}
-              <span className="mt-2 block text-xl font-semibold text-brand-100 sm:text-2xl">
-                {oposicion.organismo}
-              </span>
+                título de cada página sigue siendo único. Un solo bloque de
+                texto homogéneo (sin cambios de tamaño/peso ni separadores),
+                con la preposición natural según el organismo — "del
+                Ayuntamiento de Zaragoza" / "del Gobierno de Aragón" / "de la
+                Diputación Provincial de Zaragoza" — en vez de partirlo en
+                dos líneas o con un "·". */}
+            <h1 className="mt-5 text-3xl font-black leading-tight tracking-tight sm:text-4xl lg:text-5xl">
+              {oposicion.nombre}{" "}
+              {organismoConPreposicionCompleto(oposicion.organismoSlug, oposicion.organismo)}
             </h1>
             <p className="mt-6 max-w-2xl text-lg leading-relaxed text-brand-100">
               {oposicion.descripcionLarga}
