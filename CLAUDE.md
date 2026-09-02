@@ -397,33 +397,74 @@ excepto Auxiliar Administrativo en `dpz` y `gobierno-aragon`:
   protección contra incendios (RD 513/2017, RIPCI), autoconsumo
   fotovoltaico (RD 244/2019) y facturación de energía reactiva (Orden
   ITC/1723/2009). Séptima oposición "Oficial X" completa.
-- **Las otras 8 "Oficial X"** (conductor-general,
-  conductor-maquinaria-pesada, guardallaves, herrero, mecanico,
+- **Oficial Herrero** (`oficial-herrero-ayto-zaragoza`): **completa** —
+  22 temas (misma parte común, temas 1-6, más 16 temas de parte
+  específica: `tema-155` a `tema-170`, 16 temas nuevos — metalurgia
+  básica, metalografía y tratamientos térmicos, propiedades y ensayos
+  de materiales, normalización/tolerancias/escalas, materiales
+  normalizados y perfilería metálica, el taller y su maquinaria y
+  herramientas, mecanizado manual básico (limado, cincelado, taladrado,
+  roscado, remachado, punzonado, chaflanado), dibujo técnico y trazado
+  de piezas, soldadura oxiacetilénica y corte de metales, soldadura
+  eléctrica (arco manual, MAG/MIG/TIG), calderería (desarrollos y
+  triangulación), torneado —tipos de torno y manipulación avanzada,
+  repartidos en dos temas—, carpintería metálica, herramientas de
+  medición/verificación e inspección de soldaduras, y PRL específica
+  del oficio con trabajos en espacios confinados) y convocatoria
+  (`CONV 4/2026`, 5 plazas —4 TLO, 1 TLO-D—, con prueba adicional
+  práctica, requiere certificado de profesionalidad de la familia
+  Fabricación mecánica). De perfil casi enteramente técnico del oficio
+  sin ley única que lo regule (metalurgia, soldadura, mecanizado,
+  torneado, calderería — mismo criterio que Oficial Carpintero, con
+  búsqueda previa verificada en cada caso), con solo dos excepciones de
+  normativa pública real: seguridad en equipos de trabajo/maquinaria
+  del taller (RD 1215/1997, BOE-A-1997-17824, verificado en esta
+  sesión) y PRL específica del oficio (Ley 31/1995, RD 773/1997, RD
+  614/2001, ya verificados en otros temas del proyecto). Octava
+  oposición "Oficial X" completa — la más rápida de las ocho
+  restantes por su perfil mayoritariamente técnico sin apenas
+  normativa que verificar, similar a Carpintero.
+- **Las otras 7 "Oficial X"** (conductor-general,
+  conductor-maquinaria-pesada, guardallaves, mecanico,
   pintor-general, pintor-grafica, planta-potabilizadora): solo
   tienen la **parte común** (6 temas, igual que las anteriores).
   El **bloque-2 (parte específica) está vacío** y **no tienen ficha de
-  convocatoria** todavía.
+  convocatoria** todavía. De estas 7, `oficial-conductor-general` es
+  la más laboriosa de completar: su TEMA 20 oficial no es un punto de
+  temario convencional, sino un callejero completo de Zaragoza (miles
+  de vías listadas en bases2110.pdf), lo que exige un enfoque de
+  contenido distinto al resto — dejarla para el final o abordarla con
+  un criterio específico para ese tema en particular.
 
 Próximo trabajo natural si se retoma: parte específica + convocatoria de
-las 8 oposiciones "Oficial X" restantes, siguiendo el mismo patrón
+las 7 oposiciones "Oficial X" restantes, siguiendo el mismo patrón
 (leer el temario oficial de cada puesto en `scripts/tmp-fuentes/
 bases2110.txt` — ya descargado y convertido a texto con `pdftotext
 -layout`, contiene el Anexo I completo de las 15 oposiciones "Oficial X",
 cada una con su "Parte primera"/"Parte segunda" separadas por su propio
 encabezado en mayúsculas — buscar fuente primaria por tema, un script
 `seed-tema-NN-*.mjs` por tema). Los datos de plazas ya compilados para las
-8 restantes están como comentarios en `scripts/seed-oficial-x-parte-
-comun.mjs`. `scripts/seed-tema-139-*.mjs` a `seed-tema-154-*.mjs` (los 16
-de Oficial Electricista) son la plantilla de referencia más reciente para
-un temario con sourcing normativo intensivo pero muy fragmentado (cada
-ITC-BT del REBT citada individualmente según el punto exacto del tema,
-en vez de una única norma general por tema) combinado con varios temas de
-electrotecnia básica sin ley única (mismo criterio que Carpintero, pero
-aplicado aquí solo a una minoría de los temas, no a la mayoría); también
-`scripts/seed-glosario-oficial-electricista.mjs` (formato de glosario en
-un único script para las 16 temas, criterio ya fijado desde Agente
-Inspector) y `scripts/seed-convocatoria-oficial-electricista.mjs` (con
-prueba adicional práctica). `scripts/seed-tema-124-*.mjs` a
+7 restantes están como comentarios en `scripts/seed-oficial-x-parte-
+comun.mjs`. `scripts/seed-tema-155-*.mjs` a `seed-tema-170-*.mjs` (los 16
+de Oficial Herrero) son la plantilla de referencia más reciente para un
+temario casi enteramente técnico del oficio sin ley única (metalurgia,
+soldadura, mecanizado, torneado, calderería, carpintería metálica),
+mismo criterio que Carpintero pero con solo dos temas de excepción
+normativa real (seguridad en equipos de trabajo, PRL específica) — la
+plantilla más rápida de replicar si aparece otro puesto de perfil
+similar (por ejemplo, Mecánico o Conductor Maquinaria Pesada, ambos
+también mayoritariamente técnicos según el Anexo I). `scripts/
+seed-glosario-oficial-herrero.mjs` y `scripts/seed-convocatoria-oficial-
+herrero.mjs` (con prueba adicional práctica) completan el patrón.
+`scripts/seed-tema-139-*.mjs` a `seed-tema-154-*.mjs` (los 16 de Oficial
+Electricista) siguen siendo la plantilla de referencia para un temario
+con sourcing normativo intensivo pero muy fragmentado (cada ITC-BT del
+REBT citada individualmente según el punto exacto del tema, en vez de
+una única norma general por tema) combinado con varios temas de
+electrotecnia básica sin ley única; también `scripts/seed-glosario-
+oficial-electricista.mjs` y `scripts/seed-convocatoria-oficial-
+electricista.mjs` (con prueba adicional práctica). `scripts/
+seed-tema-124-*.mjs` a
 `seed-tema-138-*.mjs` (los 16 de Oficial Cementerio, incluido
 `fix-cementerio-reusa-tema-52-tabiqueria.mjs` para el tema reutilizado),
 con dos patrones a tener presentes: (a) antes de dar por sentado que un
@@ -469,9 +510,10 @@ preguntas encadenadas) que existe y se usa en Auxiliar Administrativo; el
 retrofit para las 4 primeras "Oficial X" completas (Albañil, Mantenimiento
 General, Instalaciones Deportivas, Agente Inspector) se terminó en la
 sesión de agosto 2026 anterior a esta (ver nota en la sección "Casos
-prácticos y glosario" más arriba). Oficial Carpintero, Oficial Cementerio
-y Oficial Electricista, quinta, sexta y séptima "Oficial X" completas,
-ya incorporaron glosario y casos_practicos desde el origen en cada
-script de tema (sin retrofit posterior), conforme al estándar vigente
-descrito en esa misma sección — las 7 oposiciones "Oficial X" completas
-tienen glosario y casos_practicos al 100% de su parte específica.
+prácticos y glosario" más arriba). Oficial Carpintero, Oficial Cementerio,
+Oficial Electricista y Oficial Herrero, quinta a octava "Oficial X"
+completas, ya incorporaron glosario y casos_practicos desde el origen
+en cada script de tema (sin retrofit posterior), conforme al estándar
+vigente descrito en esa misma sección — las 8 oposiciones "Oficial X"
+completas tienen glosario y casos_practicos al 100% de su parte
+específica.
