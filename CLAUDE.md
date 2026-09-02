@@ -424,38 +424,74 @@ excepto Auxiliar Administrativo en `dpz` y `gobierno-aragon`:
   oposición "Oficial X" completa — la más rápida de las ocho
   restantes por su perfil mayoritariamente técnico sin apenas
   normativa que verificar, similar a Carpintero.
-- **Las otras 7 "Oficial X"** (conductor-general,
-  conductor-maquinaria-pesada, guardallaves, mecanico,
-  pintor-general, pintor-grafica, planta-potabilizadora): solo
-  tienen la **parte común** (6 temas, igual que las anteriores).
-  El **bloque-2 (parte específica) está vacío** y **no tienen ficha de
-  convocatoria** todavía. De estas 7, `oficial-conductor-general` es
-  la más laboriosa de completar: su TEMA 20 oficial no es un punto de
-  temario convencional, sino un callejero completo de Zaragoza (miles
-  de vías listadas en bases2110.pdf), lo que exige un enfoque de
-  contenido distinto al resto — dejarla para el final o abordarla con
-  un criterio específico para ese tema en particular.
+- **Oficial Mecánico** (`oficial-mecanico-ayto-zaragoza`): **completa**
+  — 22 temas (misma parte común, temas 1-6, más 16 temas de parte
+  específica: `tema-171` a `tema-186`, 16 temas nuevos — conceptos del
+  automóvil y componentes del motor, distribución, engrase/aceites y
+  refrigeración, sistemas de alimentación diésel y gasolina (con
+  common rail), motor de combustión/ciclo Otto, encendido (convencional
+  y electrónico integral DIS), instalación eléctrica del automóvil
+  (batería/arranque/carga, circuitos, electrónica embarcada),
+  sobrealimentación (turbo y compresor volumétrico), cajas de cambio y
+  embragues (manual, automática, doble embrague), dirección (mecánica,
+  asistida, geometría), frenos y seguridad pasiva/activa (ABS, ESP,
+  airbag), árbol de transmisión/grupo/diferencial, sistema de escape
+  (catalizador, FAP), vehículos híbridos y eléctricos (con seguridad de
+  alta tensión), climatización (circuito frigorífico y normativa de
+  gases fluorados), y PRL específica de oficial mecánico) y
+  convocatoria (`CONV 4/2026`, 4 plazas —2 TLO, 2 TLO-D—, con prueba
+  adicional práctica, requiere certificado de profesionalidad de
+  manipulación de refrigerantes fluorados en vehículos — coincide con
+  el propio contenido del tema de climatización). De perfil
+  mayoritariamente técnico del automóvil sin ley única que lo regule
+  (mismo criterio ya aplicado en Carpintero y Herrero, con búsqueda
+  previa verificada en cada caso), con una única excepción real de
+  normativa pública: el tema de climatización, cuyos gases
+  refrigerantes fluorados están regulados por el Reglamento (UE) nº
+  517/2014 y su desarrollo español, el RD 115/2017 (BOE-A-2017-1679,
+  verificado en esta sesión), que exige certificación profesional para
+  su manipulación — normativa que además coincide literalmente con el
+  requisito de titulación de la propia convocatoria (base 2.2.1.4).
+  Novena oposición "Oficial X" completa.
+- **Las otras 6 "Oficial X"** (conductor-general,
+  conductor-maquinaria-pesada, guardallaves, pintor-general,
+  pintor-grafica, planta-potabilizadora): solo tienen la **parte
+  común** (6 temas, igual que las anteriores). El **bloque-2 (parte
+  específica) está vacío** y **no tienen ficha de convocatoria**
+  todavía. De estas 6, `oficial-conductor-general` es la más laboriosa
+  de completar: su TEMA 20 oficial no es un punto de temario
+  convencional, sino un callejero completo de Zaragoza (miles de vías
+  listadas en bases2110.pdf), lo que exige un enfoque de contenido
+  distinto al resto — dejarla para el final o abordarla con un
+  criterio específico para ese tema en particular.
 
 Próximo trabajo natural si se retoma: parte específica + convocatoria de
-las 7 oposiciones "Oficial X" restantes, siguiendo el mismo patrón
+las 6 oposiciones "Oficial X" restantes, siguiendo el mismo patrón
 (leer el temario oficial de cada puesto en `scripts/tmp-fuentes/
 bases2110.txt` — ya descargado y convertido a texto con `pdftotext
 -layout`, contiene el Anexo I completo de las 15 oposiciones "Oficial X",
 cada una con su "Parte primera"/"Parte segunda" separadas por su propio
 encabezado en mayúsculas — buscar fuente primaria por tema, un script
 `seed-tema-NN-*.mjs` por tema). Los datos de plazas ya compilados para las
-7 restantes están como comentarios en `scripts/seed-oficial-x-parte-
-comun.mjs`. `scripts/seed-tema-155-*.mjs` a `seed-tema-170-*.mjs` (los 16
-de Oficial Herrero) son la plantilla de referencia más reciente para un
-temario casi enteramente técnico del oficio sin ley única (metalurgia,
-soldadura, mecanizado, torneado, calderería, carpintería metálica),
-mismo criterio que Carpintero pero con solo dos temas de excepción
-normativa real (seguridad en equipos de trabajo, PRL específica) — la
-plantilla más rápida de replicar si aparece otro puesto de perfil
-similar (por ejemplo, Mecánico o Conductor Maquinaria Pesada, ambos
-también mayoritariamente técnicos según el Anexo I). `scripts/
+6 restantes están como comentarios en `scripts/seed-oficial-x-parte-
+comun.mjs`. `scripts/seed-tema-171-*.mjs` a `seed-tema-186-*.mjs` (los 16
+de Oficial Mecánico) son la plantilla de referencia más reciente para un
+temario casi enteramente técnico del automóvil sin ley única (motor,
+transmisión, frenos, dirección, electricidad del vehículo), mismo
+criterio que Carpintero y Herrero pero con una única excepción de
+normativa real (gases fluorados de climatización, RD 115/2017) que
+además coincide con el requisito de titulación de la propia
+convocatoria — la plantilla más rápida de replicar si aparece otro
+puesto de perfil técnico similar en vehículos o maquinaria (por ejemplo,
+Conductor Maquinaria Pesada). `scripts/seed-glosario-oficial-
+mecanico.mjs` y `scripts/seed-convocatoria-oficial-mecanico.mjs` (con
+prueba adicional práctica) completan el patrón. `scripts/
+seed-tema-155-*.mjs` a `seed-tema-170-*.mjs` (los 16 de Oficial Herrero)
+siguen siendo también una referencia válida para un temario casi
+enteramente técnico del oficio sin ley única (metalurgia, soldadura,
+mecanizado, torneado, calderería, carpintería metálica), con `scripts/
 seed-glosario-oficial-herrero.mjs` y `scripts/seed-convocatoria-oficial-
-herrero.mjs` (con prueba adicional práctica) completan el patrón.
+herrero.mjs` (con prueba adicional práctica) completando ese patrón.
 `scripts/seed-tema-139-*.mjs` a `seed-tema-154-*.mjs` (los 16 de Oficial
 Electricista) siguen siendo la plantilla de referencia para un temario
 con sourcing normativo intensivo pero muy fragmentado (cada ITC-BT del
@@ -511,9 +547,9 @@ retrofit para las 4 primeras "Oficial X" completas (Albañil, Mantenimiento
 General, Instalaciones Deportivas, Agente Inspector) se terminó en la
 sesión de agosto 2026 anterior a esta (ver nota en la sección "Casos
 prácticos y glosario" más arriba). Oficial Carpintero, Oficial Cementerio,
-Oficial Electricista y Oficial Herrero, quinta a octava "Oficial X"
-completas, ya incorporaron glosario y casos_practicos desde el origen
-en cada script de tema (sin retrofit posterior), conforme al estándar
-vigente descrito en esa misma sección — las 8 oposiciones "Oficial X"
-completas tienen glosario y casos_practicos al 100% de su parte
-específica.
+Oficial Electricista, Oficial Herrero y Oficial Mecánico, quinta a
+novena "Oficial X" completas, ya incorporaron glosario y casos_practicos
+desde el origen en cada script de tema (sin retrofit posterior),
+conforme al estándar vigente descrito en esa misma sección — las 9
+oposiciones "Oficial X" completas tienen glosario y casos_practicos al
+100% de su parte específica.
