@@ -602,27 +602,69 @@ excepto Auxiliar Administrativo en `dpz` y `gobierno-aragon`:
   Ayuntamiento de Zaragoza y la Ley de Propiedad Intelectual como
   fuentes (preparadas para su especialidad hermana, ver más abajo).
   Decimotercera oposición "Oficial X" completa.
-- **Las otras 2 "Oficial X"** (conductor-general, pintor-grafica): solo
-  tienen la **parte común** (6 temas, igual que las anteriores). El
-  **bloque-2 (parte específica) está vacío** y **no tienen ficha de
-  convocatoria** todavía. De estas 2, `oficial-conductor-general` es la
-  más laboriosa de completar: su TEMA 20 oficial no es un punto de
-  temario convencional, sino un callejero completo de Zaragoza (miles
-  de vías listadas en bases2110.pdf), lo que exige un enfoque de
-  contenido distinto al resto — dejarla para el final o abordarla con
-  un criterio específico para ese tema en particular.
-  `oficial-pintor-grafica` es la candidata natural inmediata: comparte
-  la parte común y buena parte de la normativa de PRL/andamios ya
-  sembrada para Oficial Pintor General, y su perfil (artes gráficas,
-  rotulación, software de diseño) es mayoritariamente técnico sin ley
-  única, con algunas excepciones reales ya localizadas en esta sesión
-  (RD 485/1997 de señalización para el tema de señalética, el Manual de
-  Identidad Corporativa del Ayuntamiento de Zaragoza para el tema de
-  identidad corporativa, y la Ley de Propiedad Intelectual —RDLeg
-  1/1996— para el tema de fuentes tipográficas).
+- **Oficial Pintor, Especialidad Gráfica**
+  (`oficial-pintor-grafica-ayto-zaragoza`): **completa** — 22 temas
+  (misma parte común, temas 1-6, más 16 temas de parte específica:
+  `tema-251` a `tema-266`, 16 temas nuevos — el taller de rotulación,
+  herramientas de posimpresión (laminadoras, cutters), materiales de
+  rotulación (vinilo de corte, vinilo al ácido, láminas de protección
+  solar), materiales flexibles y rígidos (lonas PVC Frontlit/Backlit,
+  Dibond, cartón pluma), soportes y limpieza/protección antigraffiti,
+  empapelado y montaje de exposiciones culturales, andamios/escaleras/
+  PEMP aplicados a rotulación, principios de artes gráficas (fases de
+  producción, preimpresión, impresión digital), sistemas de color e
+  impresión digital (RGB/CMYK, perfiles ICC, tintas ecosolventes),
+  señalética (seguridad, accesibilidad, cartelería), Identidad
+  Corporativa del Ayuntamiento de Zaragoza, CorelDRAW 2022, Roland
+  VersaWorks 6.14.0, tipos de ficheros gráficos, fuentes tipográficas
+  (normativa de protección) y PRL en obras de construcción) y
+  convocatoria (`CONV 4/2026`, 1 plaza TLO, con prueba adicional
+  práctica, requiere certificado de profesionalidad de la familia Artes
+  gráficas de nivel 2 o superior, o FP de Artes gráficas). De perfil
+  mayoritariamente técnico del oficio de rotulación/artes gráficas sin
+  ley única (mismo criterio ya aplicado en Carpintero/Herrero/Mecánico,
+  con búsqueda previa verificada en cada caso: CorelDRAW y VersaWorks
+  como software comercial concreto citado por el propio temario oficial,
+  sin regulación legal propia), con varias excepciones reales y
+  verificadas: Reglamento CLP 1272/2008 (vinilos, láminas, tintas),
+  RD 2177/2004 y RD 1215/1997 (andamios/PEMP, mismo patrón que Pintor
+  General), RD 485/1997 y RDLeg 1/2013 (señalización de seguridad y
+  accesibilidad para el tema de señalética), ISO 32000-1:2008 (formato
+  PDF, citada como referencia técnica internacional al estilo del
+  precedente AITIM/UNE-EN, verificada su adopción española vía AENOR),
+  Ley 20/2003 de Protección Jurídica del Diseño Industrial —que incluye
+  expresamente "los caracteres tipográficos" como producto protegible,
+  a diferencia del RDLeg 1/1996 de Propiedad Intelectual que no los
+  menciona pero puede proteger una fuente si reúne originalidad
+  suficiente, ambas protecciones compatibles entre sí— para el tema de
+  fuentes tipográficas, y la Ley 31/1995 + RD 1627/1997 + RD 773/1997 +
+  RD 2177/2004 para el tema final de PRL (mismo patrón que tema-250 de
+  Pintor General, adaptado a supuestos de rotulación/montaje en
+  fachada). El tema de Identidad Corporativa (`tema-261`) reutiliza el
+  Manual de Identidad Corporativa "El Bosque de los Zaragozanos" (una
+  campaña municipal concreta, ya verificado descargándolo y leyéndolo
+  íntegro en la sesión de Pintor General) como ejemplo real de la
+  estructura de un manual de identidad municipal, sin extrapolar sus
+  datos concretos al logotipo institucional general no verificado, y el
+  Decreto de Alcaldía de 27-02-2009 sobre el sistema de coordinación de
+  comunicación y publicidad municipal. Decimocuarta oposición
+  "Oficial X" completa — la segunda (tras Pintor General) en cubrir un
+  perfil de artes gráficas/diseño digital, no de oficio manual clásico.
+- **La única "Oficial X" restante** es `oficial-conductor-general`: solo
+  tiene la **parte común** (6 temas, igual que las anteriores). El
+  **bloque-2 (parte específica) está vacío** y **no tiene ficha de
+  convocatoria** todavía. Es la más laboriosa de completar de las 15
+  "Oficial X" del Anexo I: su TEMA 20 oficial no es un punto de temario
+  convencional, sino un callejero completo de Zaragoza (miles de vías
+  listadas en bases2110.pdf), lo que exige un enfoque de contenido
+  distinto al resto — abordarla con un criterio específico para ese
+  tema en particular (posiblemente un tratamiento agregado por
+  distritos/zonas en vez de un listado exhaustivo calle a calle, a
+  decidir cuando se retome).
 
 Próximo trabajo natural si se retoma: parte específica + convocatoria de
-las 2 oposiciones "Oficial X" restantes, siguiendo el mismo patrón
+la única oposición "Oficial X" restante (`oficial-conductor-general`),
+siguiendo el mismo patrón
 (leer el temario oficial de cada puesto en `bases2110.pdf` —
 `https://www.zaragoza.es/cont/paginas/oferta/archivos/bases/bases2110.pdf`,
 verificada de nuevo en la sesión de Guardallaves; conviértase a texto con
@@ -632,8 +674,10 @@ por su propio encabezado en mayúsculas — buscar fuente primaria por
 tema, un script `seed-tema-NN-*.mjs` por tema; el caché local de
 descargas de la sesión de Guardallaves no se conservó en el repo, igual
 que `scripts/tmp-fuentes/` de sesiones anteriores — es desechable y
-regenerable). Los datos de plazas ya compilados para las 4 restantes
-están como comentarios en `scripts/seed-oficial-x-parte-comun.mjs`.
+regenerable). Los datos de plazas ya compilados en su día para las 4
+"Oficial X" que faltaban entonces (de las que solo queda pendiente
+`oficial-conductor-general`) están como comentarios en
+`scripts/seed-oficial-x-parte-comun.mjs`.
 `scripts/seed-tema-203-*.mjs` a `seed-tema-218-*.mjs` (los 16 de Oficial
 Planta Potabilizadora, con `scripts/verificar-oficial-planta-
 potabilizadora.mjs` como script de verificación final de conteos) son
@@ -673,6 +717,18 @@ enteramente técnico del oficio sin ley única (metalurgia, soldadura,
 mecanizado, torneado, calderería, carpintería metálica), con `scripts/
 seed-glosario-oficial-herrero.mjs` y `scripts/seed-convocatoria-oficial-
 herrero.mjs` (con prueba adicional práctica) completando ese patrón.
+`scripts/seed-tema-251-*.mjs` a `seed-tema-266-*.mjs` (los 16 de Oficial
+Pintor Especialidad Gráfica) son la plantilla de referencia más reciente
+para un temario de artes gráficas/diseño digital, con dos softwares
+comerciales concretos citados por el propio temario oficial y tratados
+como "producto exigido" y no como fuente normativa (CorelDRAW,
+`seed-tema-262-coreldraw.mjs`; Roland VersaWorks,
+`seed-tema-263-roland-versaworks.mjs`), y con `scripts/seed-glosario-
+oficial-pintor-grafica.mjs` y `scripts/seed-convocatoria-oficial-pintor-
+grafica.mjs` (con prueba adicional práctica) completando el patrón —
+ojo con hacer coincidir exactamente la `seccion` del glosario con la ya
+usada en el script del tema correspondiente (falló en el primer intento
+de esta sesión para varios temas y hubo que borrar y re-sembrar).
 `scripts/seed-tema-139-*.mjs` a `seed-tema-154-*.mjs` (los 16 de Oficial
 Electricista) siguen siendo la plantilla de referencia para un temario
 con sourcing normativo intensivo pero muy fragmentado (cada ITC-BT del
@@ -730,9 +786,9 @@ sesión de agosto 2026 anterior a esta (ver nota en la sección "Casos
 prácticos y glosario" más arriba). Oficial Carpintero, Oficial Cementerio,
 Oficial Electricista, Oficial Herrero, Oficial Mecánico, Oficial
 Guardallaves, Oficial Planta Potabilizadora, Oficial Conductor
-Maquinaria Pesada y Oficial Pintor General, quinta a decimotercera
-"Oficial X" completas, ya incorporaron glosario y casos_practicos desde
-el origen en cada script de tema (sin retrofit posterior), conforme al
-estándar vigente descrito en esa misma sección — las 13 oposiciones
-"Oficial X" completas tienen glosario y casos_practicos al 100% de su
-parte específica.
+Maquinaria Pesada, Oficial Pintor General y Oficial Pintor Gráfica,
+quinta a decimocuarta "Oficial X" completas, ya incorporaron glosario y
+casos_practicos desde el origen en cada script de tema (sin retrofit
+posterior), conforme al estándar vigente descrito en esa misma sección
+— las 14 oposiciones "Oficial X" completas tienen glosario y
+casos_practicos al 100% de su parte específica.
