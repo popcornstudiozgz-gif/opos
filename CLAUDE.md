@@ -496,25 +496,59 @@ excepto Auxiliar Administrativo en `dpz` y `gobierno-aragon`:
   expresamente esa procedencia, en vez de aplicar el patrón de
   no-fabricación reservado a los PPRL no localizados. Décima oposición
   "Oficial X" completa.
-- **Las otras 5 "Oficial X"** (conductor-general,
-  conductor-maquinaria-pesada, pintor-general, pintor-grafica,
-  planta-potabilizadora): solo tienen la **parte común** (6 temas,
-  igual que las anteriores). El **bloque-2 (parte específica) está
-  vacío** y **no tienen ficha de convocatoria** todavía. De estas 5,
-  `oficial-conductor-general` es la más laboriosa de completar: su
-  TEMA 20 oficial no es un punto de temario convencional, sino un
-  callejero completo de Zaragoza (miles de vías listadas en
-  bases2110.pdf), lo que exige un enfoque de contenido distinto al
-  resto — dejarla para el final o abordarla con un criterio específico
-  para ese tema en particular. `oficial-planta-potabilizadora` es la
-  siguiente candidata natural tras Guardallaves: comparte con ella el
-  perfil de red de agua municipal y muy probablemente pueda reutilizar
-  parte del mismo sourcing ya verificado (OMECGIA, RD 140/2003) para
-  los puntos de su temario que se solapen con calidad y tratamiento del
-  agua.
+- **Oficial Planta Potabilizadora**
+  (`oficial-planta-potabilizadora-ayto-zaragoza`): **completa** — 22
+  temas (misma parte común, temas 1-6, más 16 temas de parte
+  específica: `tema-203` a `tema-218`, 16 temas nuevos — parámetros de
+  calidad del agua y normativa sanitaria, desbaste/coagulación/
+  floculación, decantación (el decantador Accelator, el mismo modelo
+  real de la ETAP de Casablanca), filtración, desinfección por
+  cloración, circulación de fluidos y medición de caudal/presión, la
+  red de agua potable de Zaragoza, bombas y depósitos, máquinas y
+  herramientas, soldadura, redes de distribución eléctrica y REBT,
+  motores eléctricos, equipos neumáticos, automatización industrial
+  (instrumentación de campo, controladores, SCADA y telecontrol), PRL
+  general del Ayuntamiento de Zaragoza, y seguridad en trabajos en
+  altura/espacios confinados/eléctricos/con productos químicos) y
+  convocatoria (`CONV 4/2026`, 3 plazas TLO, con prueba adicional
+  práctica, requiere ESO más certificado de profesionalidad o FP de las
+  familias Electricidad y electrónica/Energía y agua/Edificación y obra
+  civil). De perfil marcadamente técnico del proceso de potabilización
+  combinado con normativa sanitaria y eléctrica real y verificada: RD
+  140/2003 (criterios sanitarios de calidad del agua de consumo humano)
+  junto con el RD 902/2018 que lo modificó, señalando explícitamente la
+  Orden SSI/304/2013 como norma derogada que el temario oficial sigue
+  citando (mismo patrón que Ley 30/2002→Ley 4/2024 y Ley 5/2002→Ley
+  1/2015 de Agente Inspector); REBT (RD 842/2002) con varias ITC-BT
+  citadas en los temas 213 y 214; RD 809/2021 (Reglamento de equipos a
+  presión, vigente, sustituye al derogado RD 2060/2008), relevante para
+  el calderín de aire comprimido del tema de equipos neumáticos; RD
+  656/2017 (almacenamiento de productos químicos) y RD 97/2014
+  (transporte de mercancías peligrosas, desarrollo español del ADR)
+  para el hipoclorito sódico y demás reactivos. El tema de PRL en
+  espacios confinados (`tema-218`) **reutiliza el PPRL-1601** ya
+  localizado y verificado en la sesión de Guardallaves (mismo
+  procedimiento municipal, aplicable también a los decantadores,
+  depósitos y arquetas de una planta potabilizadora), sin necesidad de
+  una nueva búsqueda. Undécima oposición "Oficial X" completa.
+- **Las otras 4 "Oficial X"** (conductor-general,
+  conductor-maquinaria-pesada, pintor-general, pintor-grafica): solo
+  tienen la **parte común** (6 temas, igual que las anteriores). El
+  **bloque-2 (parte específica) está vacío** y **no tienen ficha de
+  convocatoria** todavía. De estas 4, `oficial-conductor-general` es la
+  más laboriosa de completar: su TEMA 20 oficial no es un punto de
+  temario convencional, sino un callejero completo de Zaragoza (miles
+  de vías listadas en bases2110.pdf), lo que exige un enfoque de
+  contenido distinto al resto — dejarla para el final o abordarla con
+  un criterio específico para ese tema en particular.
+  `oficial-conductor-maquinaria-pesada` es probablemente la siguiente
+  candidata más natural: comparte perfil técnico de vehículos/
+  maquinaria con Oficial Mecánico, cuya plantilla de sourcing
+  (conocimiento técnico del oficio sin ley única, con excepciones
+  puntuales de normativa real) es directamente reutilizable.
 
 Próximo trabajo natural si se retoma: parte específica + convocatoria de
-las 5 oposiciones "Oficial X" restantes, siguiendo el mismo patrón
+las 4 oposiciones "Oficial X" restantes, siguiendo el mismo patrón
 (leer el temario oficial de cada puesto en `bases2110.pdf` —
 `https://www.zaragoza.es/cont/paginas/oferta/archivos/bases/bases2110.pdf`,
 verificada de nuevo en la sesión de Guardallaves; conviértase a texto con
@@ -524,17 +558,29 @@ por su propio encabezado en mayúsculas — buscar fuente primaria por
 tema, un script `seed-tema-NN-*.mjs` por tema; el caché local de
 descargas de la sesión de Guardallaves no se conservó en el repo, igual
 que `scripts/tmp-fuentes/` de sesiones anteriores — es desechable y
-regenerable). Los datos de plazas ya compilados para las 5 restantes
+regenerable). Los datos de plazas ya compilados para las 4 restantes
 están como comentarios en `scripts/seed-oficial-x-parte-comun.mjs`.
-`scripts/seed-tema-187-*.mjs` a `seed-tema-202-*.mjs` (los 16 de Oficial
-Guardallaves) son la plantilla de referencia más reciente para un
-temario con eje central en una ordenanza municipal real y verificada
-(OMECGIA) combinada con normas técnicas UNE-EN por elemento de la red —
-la plantilla más rápida de replicar para `oficial-planta-potabilizadora`,
-que comparte el mismo perfil de red de agua municipal; también
-`scripts/seed-glosario-oficial-guardallaves.mjs` y `scripts/
+`scripts/seed-tema-203-*.mjs` a `seed-tema-218-*.mjs` (los 16 de Oficial
+Planta Potabilizadora, con `scripts/verificar-oficial-planta-
+potabilizadora.mjs` como script de verificación final de conteos) son
+la plantilla de referencia más reciente para un temario de proceso
+técnico (potabilización, electromecánica de planta, automatización)
+combinado con normativa sanitaria/eléctrica real y verificada por tema
+en vez de una única norma general (RD 140/2003+RD 902/2018, REBT,
+RD 809/2021, RD 656/2017, RD 97/2014) — incluye también el precedente
+de reutilizar sin nueva búsqueda un documento interno ya localizado en
+otra "Oficial X" (el PPRL-1601 de Guardallaves, reaplicado tal cual a
+tema-218 por tratarse del mismo procedimiento municipal); también
+`scripts/seed-glosario-oficial-planta-potabilizadora.mjs` y `scripts/
+seed-convocatoria-oficial-planta-potabilizadora.mjs` (con prueba
+adicional práctica) completan el patrón. `scripts/seed-tema-187-*.mjs`
+a `seed-tema-202-*.mjs` (los 16 de Oficial Guardallaves) siguen siendo
+también la plantilla de referencia para un temario con eje central en
+una ordenanza municipal real y verificada (OMECGIA) combinada con
+normas técnicas UNE-EN por elemento de la red; también `scripts/
+seed-glosario-oficial-guardallaves.mjs` y `scripts/
 seed-convocatoria-oficial-guardallaves.mjs` (con prueba adicional
-práctica) completan el patrón. `scripts/seed-tema-171-*.mjs` a
+práctica) completan ese patrón. `scripts/seed-tema-171-*.mjs` a
 `seed-tema-186-*.mjs` (los 16 de Oficial Mecánico) siguen siendo la
 plantilla de referencia para un
 temario casi enteramente técnico del automóvil sin ley única (motor,
@@ -608,9 +654,10 @@ retrofit para las 4 primeras "Oficial X" completas (Albañil, Mantenimiento
 General, Instalaciones Deportivas, Agente Inspector) se terminó en la
 sesión de agosto 2026 anterior a esta (ver nota en la sección "Casos
 prácticos y glosario" más arriba). Oficial Carpintero, Oficial Cementerio,
-Oficial Electricista, Oficial Herrero, Oficial Mecánico y Oficial
-Guardallaves, quinta a décima "Oficial X" completas, ya incorporaron
-glosario y casos_practicos desde el origen en cada script de tema (sin
-retrofit posterior), conforme al estándar vigente descrito en esa misma
-sección — las 10 oposiciones "Oficial X" completas tienen glosario y
-casos_practicos al 100% de su parte específica.
+Oficial Electricista, Oficial Herrero, Oficial Mecánico, Oficial
+Guardallaves y Oficial Planta Potabilizadora, quinta a undécima
+"Oficial X" completas, ya incorporaron glosario y casos_practicos desde
+el origen en cada script de tema (sin retrofit posterior), conforme al
+estándar vigente descrito en esa misma sección — las 11 oposiciones
+"Oficial X" completas tienen glosario y casos_practicos al 100% de su
+parte específica.
