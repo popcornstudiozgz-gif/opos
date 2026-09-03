@@ -531,24 +531,68 @@ excepto Auxiliar Administrativo en `dpz` y `gobierno-aragon`:
   procedimiento municipal, aplicable también a los decantadores,
   depósitos y arquetas de una planta potabilizadora), sin necesidad de
   una nueva búsqueda. Undécima oposición "Oficial X" completa.
-- **Las otras 4 "Oficial X"** (conductor-general,
-  conductor-maquinaria-pesada, pintor-general, pintor-grafica): solo
-  tienen la **parte común** (6 temas, igual que las anteriores). El
-  **bloque-2 (parte específica) está vacío** y **no tienen ficha de
-  convocatoria** todavía. De estas 4, `oficial-conductor-general` es la
-  más laboriosa de completar: su TEMA 20 oficial no es un punto de
-  temario convencional, sino un callejero completo de Zaragoza (miles
-  de vías listadas en bases2110.pdf), lo que exige un enfoque de
-  contenido distinto al resto — dejarla para el final o abordarla con
-  un criterio específico para ese tema en particular.
-  `oficial-conductor-maquinaria-pesada` es probablemente la siguiente
-  candidata más natural: comparte perfil técnico de vehículos/
-  maquinaria con Oficial Mecánico, cuya plantilla de sourcing
-  (conocimiento técnico del oficio sin ley única, con excepciones
-  puntuales de normativa real) es directamente reutilizable.
+- **Oficial Conductor, Especialidad Maquinaria Pesada**
+  (`oficial-conductor-maquinaria-pesada-ayto-zaragoza`): **completa** —
+  22 temas (misma parte común, temas 1-6, más 16 temas de parte
+  específica: `tema-219` a `tema-234`, 16 temas nuevos — normativa de
+  tráfico y seguridad vial (RDLeg 6/2015, RD 1428/2003, RD 2822/1998),
+  PRL en la utilización de maquinaria pesada (protección contra el
+  vuelco ROPS/FOPS del RD 1644/2008, zonas muertas, distancia de
+  seguridad, cables de acero), señalización de obras (Norma de
+  carreteras 8.3-IC y Ordenanza de Accesibilidad de Zaragoza, art. 28,
+  para el vallado e iluminación de zanjas), trabajos con excavadora en
+  tres partes (pala frontal y cuchara bivalva; taludes/zanjas/frentes
+  de excavación con RD 1627/1997; técnicas de excavación, croquis y
+  aritmética de obra), trabajos con palas cargadoras, mini-excavadoras,
+  motoniveladoras/bulldozer/angledozer, compactadores (con RD 1311/2005
+  de vibraciones mecánicas), tipos de excavación y mecánica del suelo
+  (con CTE DB SE-C), fuerzas de excavación/centro de gravedad/
+  transporte de máquinas (autorizaciones complementarias de circulación
+  del RD 1428/2003), mantenimiento de maquinaria, procedimientos de
+  operación segura, motores diésel en maquinaria de obras (con el
+  Reglamento UE 2016/1628 de emisiones NRMM) y camiones específicos
+  para movimiento de tierras (dumper rígido/articulado)— y convocatoria
+  (`CONV 4/2026`, 2 plazas TLO, con prueba adicional práctica, requiere
+  ESO más permiso de conducción C y E y certificado de aptitud
+  profesional CAP). Caso singular de sourcing en la convocatoria: la
+  base 2.2.1.12 de `bases2110.pdf`, que fija el requisito de titulación
+  de esta especialidad, está literalmente rotulada en el documento
+  original como "Oficial Conductor Especialidad Gráfica" (una errata de
+  copia y pega de las propias bases municipales, señalada explícitamente
+  en el comentario de cabecera de `scripts/seed-convocatoria-oficial-
+  conductor-maquinaria-pesada.mjs`) — el contenido sustantivo del
+  apartado (permiso C y E + CAP) es el único compatible con un puesto de
+  conducción de maquinaria pesada, por lo que se aplicó pese al rótulo
+  erróneo. De perfil mayoritariamente técnico-operativo de maquinaria de
+  obra pública sin ley única que lo regule (mismo criterio ya aplicado
+  en Carpintero, Herrero y Mecánico, con búsqueda previa verificada en
+  cada caso), mejorado en varios temas con referencias técnicas públicas
+  reales del INSST (NTP 126 "Máquinas para movimiento de tierras" y NTP
+  1.114 "Niveladora. Seguridad") en lugar de una simple declaración de
+  "conocimiento técnico del oficio", además de normativa real verificada
+  para tráfico y seguridad vial, señalización de obras (con la
+  Ordenanza de Accesibilidad de Zaragoza, no usada hasta entonces en
+  ninguna otra "Oficial X"), vibraciones mecánicas y emisiones de
+  motores NRMM. Duodécima oposición "Oficial X" completa.
+- **Las otras 3 "Oficial X"** (conductor-general, pintor-general,
+  pintor-grafica): solo tienen la **parte común** (6 temas, igual que
+  las anteriores). El **bloque-2 (parte específica) está vacío** y **no
+  tienen ficha de convocatoria** todavía. De estas 3,
+  `oficial-conductor-general` es la más laboriosa de completar: su
+  TEMA 20 oficial no es un punto de temario convencional, sino un
+  callejero completo de Zaragoza (miles de vías listadas en
+  bases2110.pdf), lo que exige un enfoque de contenido distinto al
+  resto — dejarla para el final o abordarla con un criterio específico
+  para ese tema en particular. `oficial-pintor-general` y
+  `oficial-pintor-grafica` son probablemente las siguientes candidatas
+  más naturales: perfil de oficio técnico sin apenas normativa que
+  verificar (pintura decorativa, artes gráficas, señalética), similar
+  al de Carpintero/Herrero, previsiblemente resoluble con el mismo
+  criterio de "conocimiento técnico del oficio" tras la búsqueda previa
+  exigida por el estándar de sourcing del proyecto.
 
 Próximo trabajo natural si se retoma: parte específica + convocatoria de
-las 4 oposiciones "Oficial X" restantes, siguiendo el mismo patrón
+las 3 oposiciones "Oficial X" restantes, siguiendo el mismo patrón
 (leer el temario oficial de cada puesto en `bases2110.pdf` —
 `https://www.zaragoza.es/cont/paginas/oferta/archivos/bases/bases2110.pdf`,
 verificada de nuevo en la sesión de Guardallaves; conviértase a texto con
@@ -655,9 +699,9 @@ General, Instalaciones Deportivas, Agente Inspector) se terminó en la
 sesión de agosto 2026 anterior a esta (ver nota en la sección "Casos
 prácticos y glosario" más arriba). Oficial Carpintero, Oficial Cementerio,
 Oficial Electricista, Oficial Herrero, Oficial Mecánico, Oficial
-Guardallaves y Oficial Planta Potabilizadora, quinta a undécima
-"Oficial X" completas, ya incorporaron glosario y casos_practicos desde
-el origen en cada script de tema (sin retrofit posterior), conforme al
-estándar vigente descrito en esa misma sección — las 11 oposiciones
-"Oficial X" completas tienen glosario y casos_practicos al 100% de su
-parte específica.
+Guardallaves, Oficial Planta Potabilizadora y Oficial Conductor
+Maquinaria Pesada, quinta a duodécima "Oficial X" completas, ya
+incorporaron glosario y casos_practicos desde el origen en cada script
+de tema (sin retrofit posterior), conforme al estándar vigente descrito
+en esa misma sección — las 12 oposiciones "Oficial X" completas tienen
+glosario y casos_practicos al 100% de su parte específica.
