@@ -650,65 +650,66 @@ excepto Auxiliar Administrativo en `dpz` y `gobierno-aragon`:
   comunicación y publicidad municipal. Decimocuarta oposición
   "Oficial X" completa — la segunda (tras Pintor General) en cubrir un
   perfil de artes gráficas/diseño digital, no de oficio manual clásico.
-- **La única "Oficial X" restante** es `oficial-conductor-general`,
-  **en progreso** (sesión de septiembre 2026): tiene la **parte común**
-  (6 temas, igual que las anteriores) y, de momento, **2 de los 16 temas
-  de la parte específica** — `tema-267` (numero=7, "Energías alternativas
-  en vehículos": eléctricos, híbridos, GLP, GNC, hidrógeno; sourcing
-  técnico sin ley única salvo los Reglamentos CEPE/ONU 67/110/115 y el
-  RD 750/2010 de homologación, ambos verificados) y `tema-268`
-  (numero=8, "Vehículo y medio ambiente. Conducción segura y eficiente";
-  mismo criterio técnico, citando el sistema de distintivos ambientales
-  de la DGT como referencia informativa —instrucción interna, no norma
-  BOE— señalado explícitamente como tal). Quedan **14 temas** (numero
-  9-22, `tema-269` a `tema-282`) y la **ficha de convocatoria** (2 plazas
-  TLO según `scripts/seed-oficial-x-parte-comun.mjs`). Mapeo ya resuelto
-  TEMA oficial → numero/tema_slug para los 14 restantes (Anexo I,
-  bases2110.pdf líneas 1571-1596): TEMA 7 mecánica de vehículos a
-  motor→9/tema-269; TEMA 8 dirección/neumáticos/frenos/amortiguación→
-  10/tema-270; TEMA 9 sistema eléctrico y encendido→11/tema-271; TEMA 10
-  Ley de tráfico + RGC (RDLeg 6/2015 + RD 1428/2003, verificados)→
-  12/tema-272; TEMA 11 CAP + tacógrafo (RD 1032/2007 + Reglamento UE
-  165/2014 + Reglamento CE 561/2006, verificados)→13/tema-273; TEMA 12
-  autorizaciones administrativas/permiso por puntos (RD 818/2009,
-  verificado)→14/tema-274; TEMA 13 infracciones administrativas y
-  penales/alcoholemia/drogas/velocidad (RDLeg 6/2015 + arts. 379-385 CP,
-  verificados)→15/tema-275; TEMA 14 carga de vehículos y transporte→
-  16/tema-276; TEMA 15 ubicaciones de instalaciones y edificios
-  oficiales en Zaragoza y barrios rurales→17/tema-277; TEMA 16 Ordenanza
-  de Movilidad Urbana de Zaragoza (aprobada BOP 21-08-2024, vigente
-  desde 11-09-2024, PDF en zaragoza.es/contenidos/normativa/
-  ORDENANZA_MOVILIDAD_URBANA_def.pdf, pendiente de leer a fondo)→
-  18/tema-278; TEMA 17 PRL en la conducción/deber de auxilio→
-  19/tema-279; TEMA 18 vehículos para movimiento de tierras→
-  20/tema-280 (valorar si es reutilizable contenido de
-  `oficial-conductor-maquinaria-pesada`, de perfil afín, aunque el
-  enunciado oficial no es idéntico); TEMA 19 Reglamento General de
-  Vehículos, Anexo IX/XI/XII (RD 2822/1998, verificado)→21/tema-281;
-  TEMA 20 callejero de Zaragoza→22/tema-282, **el más laborioso**: no es
-  un punto de temario convencional, sino un callejero completo (miles
-  de vías listadas en bases2110.pdf), lo que exige un enfoque de
-  contenido distinto al resto — posiblemente un tratamiento agregado por
-  distritos/zonas en vez de un listado exhaustivo calle a calle, a
-  decidir cuando se aborde. `BLOQUE_2_ID` de esta oposición:
+- **Oficial Conductor, Especialidad General**
+  (`oficial-conductor-general-ayto-zaragoza`): **completa** (sesión de
+  septiembre 2026, la última de las 16 "Oficial X" en cerrarse) — 22
+  temas (misma parte común, temas 1-6, más 16 temas de parte
+  específica: `tema-267` a `tema-282`, 16 temas nuevos — energías
+  alternativas en vehículos (eléctricos, híbridos, GLP, GNC,
+  hidrógeno), vehículo y medio ambiente/conducción segura y eficiente,
+  mecánica de vehículos a motor, dirección/neumáticos/frenos/
+  amortiguación, sistema eléctrico/encendido/alumbrado, Ley de tráfico
+  + Reglamento General de Circulación, CAP + tacógrafo, autorizaciones
+  administrativas + permiso por puntos, infracciones administrativas y
+  penales (alcoholemia/drogas/velocidad), carga de vehículos y
+  transporte de personas, ubicaciones de instalaciones oficiales de
+  Zaragoza, Ordenanza de Movilidad Urbana de Zaragoza, PRL en la
+  conducción/deber de auxilio/primeros auxilios, vehículos para el
+  movimiento de tierras, Reglamento General de Vehículos (Anexos IX/XI/
+  XII), y el callejero de Zaragoza) y convocatoria (`CONV 4/2026`, 2
+  plazas TLO, con prueba adicional práctica, requiere ESO + permiso de
+  conducción clase C y E + CAP). Normativa real y verificada por tema:
+  Reglamentos CEPE/ONU 67/110/115 y RD 750/2010 (GLP/GNC/homologación),
+  RD 2822/1998 (Reglamento General de Vehículos, usado en varios temas:
+  Anexo IX masas/dimensiones, Anexo XI señales, Anexo XII accesorios —
+  incluida la baliza V-16, obligatoria desde el 1-01-2026, verificada
+  en esta sesión), Reglamento (UE) 2020/740 (etiquetado de neumáticos),
+  RD 920/2017 (ITV), RDLeg 6/2015 + RD 1428/2003 (Ley de tráfico +
+  RGC), RD 1032/2007 + Reglamento (UE) 165/2014 + Reglamento (CE)
+  561/2006 (CAP y tacógrafo), RD 818/2009 (Reglamento General de
+  Conductores), arts. 379-385 y 195-196 del Código Penal (delitos
+  contra la seguridad vial y omisión del deber de socorro), RD
+  563/2017 (sujeción de la carga), Ley 31/1995 (PRL), y la Ordenanza de
+  Movilidad Urbana de Zaragoza (aprobación definitiva Pleno, BOPZ núm.
+  192 de 21-08-2024, en vigor desde 11-09-2024, descargada y leída
+  directamente en esta sesión — arts. 1-3 objeto/ámbito, arts. 20-23
+  zonas de acceso restringido, arts. 40/90-93 estacionamiento regulado
+  y carga y descarga). El **TEMA 20 oficial ("callejero de Zaragoza",
+  tema-282, numero=22)** es el más singular de todo el proyecto: en
+  bases2110.pdf no es un punto de temario convencional sino un listado
+  literal de varios miles de vías — tras confirmarlo con el usuario, se
+  optó por un tratamiento **conceptual y metodológico** (cómo se
+  organiza el documento oficial, vías estructurales reales verificadas
+  contra bases2110.pdf, estrategia de orientación) en vez de fabricar
+  o muestrear al azar ese listado — señalando explícitamente que el
+  listado completo debe estudiarse sobre el propio documento oficial,
+  no reproducido en el tema. **Nota de organización de scripts:** a
+  diferencia del patrón `seed-glosario-oficial-X.mjs` separado usado en
+  Mecánico/Guardallaves/Potabilizadora/Maquinaria Pesada, el glosario
+  de esta oposición (6 términos por tema) se sembró directamente dentro
+  de cada `scripts/seed-tema-26X/27X/28X-*.mjs` — mismo efecto en BD,
+  sin script agregado adicional que buscar. `BLOQUE_2_ID`:
   `38c4f100-214c-45c4-8600-841993100e43`.
 
-Próximo trabajo natural si se retoma: seguir la parte específica de
-`oficial-conductor-general` desde `tema-269` (numero=9) siguiendo el
-mismo patrón
-(leer el temario oficial de cada puesto en `bases2110.pdf` —
-`https://www.zaragoza.es/cont/paginas/oferta/archivos/bases/bases2110.pdf`,
-verificada de nuevo en la sesión de Guardallaves; conviértase a texto con
-`pdftotext -layout` — contiene el Anexo I completo de las 15 oposiciones
-"Oficial X", cada una con su "Parte primera"/"Parte segunda" separadas
-por su propio encabezado en mayúsculas — buscar fuente primaria por
-tema, un script `seed-tema-NN-*.mjs` por tema; el caché local de
-descargas de la sesión de Guardallaves no se conservó en el repo, igual
-que `scripts/tmp-fuentes/` de sesiones anteriores — es desechable y
-regenerable). Los datos de plazas ya compilados en su día para las 4
-"Oficial X" que faltaban entonces (de las que solo queda pendiente
-`oficial-conductor-general`) están como comentarios en
-`scripts/seed-oficial-x-parte-comun.mjs`.
+Con esto, **las 16 oposiciones "Oficial X" del Ayuntamiento de
+Zaragoza están completas** (temario + convocatoria) — ya no queda
+ninguna con el bloque-2 vacío. Próximo trabajo natural si se retoma
+contenido de oposiciones: no hay ninguna "Oficial X" pendiente; revisar
+con el usuario si hay otro organismo/puesto a incorporar, o si conviene
+una pasada de auditoría de calidad/sourcing sobre las tres últimas
+incorporadas en otro ordenador (Conductor Maquinaria Pesada, Pintor
+General, Pintor Gráfica) — llegaron a este repo sin haberse repasado
+en esta sesión más allá de sincronizar el `git pull`.
 `scripts/seed-tema-203-*.mjs` a `seed-tema-218-*.mjs` (los 16 de Oficial
 Planta Potabilizadora, con `scripts/verificar-oficial-planta-
 potabilizadora.mjs` como script de verificación final de conteos) son
