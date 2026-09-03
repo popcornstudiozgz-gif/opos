@@ -650,21 +650,52 @@ excepto Auxiliar Administrativo en `dpz` y `gobierno-aragon`:
   comunicación y publicidad municipal. Decimocuarta oposición
   "Oficial X" completa — la segunda (tras Pintor General) en cubrir un
   perfil de artes gráficas/diseño digital, no de oficio manual clásico.
-- **La única "Oficial X" restante** es `oficial-conductor-general`: solo
-  tiene la **parte común** (6 temas, igual que las anteriores). El
-  **bloque-2 (parte específica) está vacío** y **no tiene ficha de
-  convocatoria** todavía. Es la más laboriosa de completar de las 15
-  "Oficial X" del Anexo I: su TEMA 20 oficial no es un punto de temario
-  convencional, sino un callejero completo de Zaragoza (miles de vías
-  listadas en bases2110.pdf), lo que exige un enfoque de contenido
-  distinto al resto — abordarla con un criterio específico para ese
-  tema en particular (posiblemente un tratamiento agregado por
+- **La única "Oficial X" restante** es `oficial-conductor-general`,
+  **en progreso** (sesión de septiembre 2026): tiene la **parte común**
+  (6 temas, igual que las anteriores) y, de momento, **2 de los 16 temas
+  de la parte específica** — `tema-267` (numero=7, "Energías alternativas
+  en vehículos": eléctricos, híbridos, GLP, GNC, hidrógeno; sourcing
+  técnico sin ley única salvo los Reglamentos CEPE/ONU 67/110/115 y el
+  RD 750/2010 de homologación, ambos verificados) y `tema-268`
+  (numero=8, "Vehículo y medio ambiente. Conducción segura y eficiente";
+  mismo criterio técnico, citando el sistema de distintivos ambientales
+  de la DGT como referencia informativa —instrucción interna, no norma
+  BOE— señalado explícitamente como tal). Quedan **14 temas** (numero
+  9-22, `tema-269` a `tema-282`) y la **ficha de convocatoria** (2 plazas
+  TLO según `scripts/seed-oficial-x-parte-comun.mjs`). Mapeo ya resuelto
+  TEMA oficial → numero/tema_slug para los 14 restantes (Anexo I,
+  bases2110.pdf líneas 1571-1596): TEMA 7 mecánica de vehículos a
+  motor→9/tema-269; TEMA 8 dirección/neumáticos/frenos/amortiguación→
+  10/tema-270; TEMA 9 sistema eléctrico y encendido→11/tema-271; TEMA 10
+  Ley de tráfico + RGC (RDLeg 6/2015 + RD 1428/2003, verificados)→
+  12/tema-272; TEMA 11 CAP + tacógrafo (RD 1032/2007 + Reglamento UE
+  165/2014 + Reglamento CE 561/2006, verificados)→13/tema-273; TEMA 12
+  autorizaciones administrativas/permiso por puntos (RD 818/2009,
+  verificado)→14/tema-274; TEMA 13 infracciones administrativas y
+  penales/alcoholemia/drogas/velocidad (RDLeg 6/2015 + arts. 379-385 CP,
+  verificados)→15/tema-275; TEMA 14 carga de vehículos y transporte→
+  16/tema-276; TEMA 15 ubicaciones de instalaciones y edificios
+  oficiales en Zaragoza y barrios rurales→17/tema-277; TEMA 16 Ordenanza
+  de Movilidad Urbana de Zaragoza (aprobada BOP 21-08-2024, vigente
+  desde 11-09-2024, PDF en zaragoza.es/contenidos/normativa/
+  ORDENANZA_MOVILIDAD_URBANA_def.pdf, pendiente de leer a fondo)→
+  18/tema-278; TEMA 17 PRL en la conducción/deber de auxilio→
+  19/tema-279; TEMA 18 vehículos para movimiento de tierras→
+  20/tema-280 (valorar si es reutilizable contenido de
+  `oficial-conductor-maquinaria-pesada`, de perfil afín, aunque el
+  enunciado oficial no es idéntico); TEMA 19 Reglamento General de
+  Vehículos, Anexo IX/XI/XII (RD 2822/1998, verificado)→21/tema-281;
+  TEMA 20 callejero de Zaragoza→22/tema-282, **el más laborioso**: no es
+  un punto de temario convencional, sino un callejero completo (miles
+  de vías listadas en bases2110.pdf), lo que exige un enfoque de
+  contenido distinto al resto — posiblemente un tratamiento agregado por
   distritos/zonas en vez de un listado exhaustivo calle a calle, a
-  decidir cuando se retome).
+  decidir cuando se aborde. `BLOQUE_2_ID` de esta oposición:
+  `38c4f100-214c-45c4-8600-841993100e43`.
 
-Próximo trabajo natural si se retoma: parte específica + convocatoria de
-la única oposición "Oficial X" restante (`oficial-conductor-general`),
-siguiendo el mismo patrón
+Próximo trabajo natural si se retoma: seguir la parte específica de
+`oficial-conductor-general` desde `tema-269` (numero=9) siguiendo el
+mismo patrón
 (leer el temario oficial de cada puesto en `bases2110.pdf` —
 `https://www.zaragoza.es/cont/paginas/oferta/archivos/bases/bases2110.pdf`,
 verificada de nuevo en la sesión de Guardallaves; conviértase a texto con
