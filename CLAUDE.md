@@ -574,25 +574,55 @@ excepto Auxiliar Administrativo en `dpz` y `gobierno-aragon`:
   Ordenanza de Accesibilidad de Zaragoza, no usada hasta entonces en
   ninguna otra "Oficial X"), vibraciones mecánicas y emisiones de
   motores NRMM. Duodécima oposición "Oficial X" completa.
-- **Las otras 3 "Oficial X"** (conductor-general, pintor-general,
-  pintor-grafica): solo tienen la **parte común** (6 temas, igual que
-  las anteriores). El **bloque-2 (parte específica) está vacío** y **no
-  tienen ficha de convocatoria** todavía. De estas 3,
-  `oficial-conductor-general` es la más laboriosa de completar: su
-  TEMA 20 oficial no es un punto de temario convencional, sino un
-  callejero completo de Zaragoza (miles de vías listadas en
-  bases2110.pdf), lo que exige un enfoque de contenido distinto al
-  resto — dejarla para el final o abordarla con un criterio específico
-  para ese tema en particular. `oficial-pintor-general` y
-  `oficial-pintor-grafica` son probablemente las siguientes candidatas
-  más naturales: perfil de oficio técnico sin apenas normativa que
-  verificar (pintura decorativa, artes gráficas, señalética), similar
-  al de Carpintero/Herrero, previsiblemente resoluble con el mismo
-  criterio de "conocimiento técnico del oficio" tras la búsqueda previa
-  exigida por el estándar de sourcing del proyecto.
+- **Oficial Pintor, Especialidad General**
+  (`oficial-pintor-general-ayto-zaragoza`): **completa** — 22 temas
+  (misma parte común, temas 1-6, más 16 temas de parte específica:
+  `tema-235` a `tema-250`, 16 temas nuevos — el taller de pintura
+  (almacenamiento de productos químicos, RD 656/2017), clases de
+  pinturas y sus disolventes (límites de COV del RD 227/2006),
+  imprimaciones e impermeabilización, composición y tecnología de la
+  pintura (pigmentos, aditivos), cálculo de volumen y rendimiento,
+  pintura para pavimentos, componentes del color (sistemas RAL/NCS),
+  procesos de trabajo y preparación de superficies, sistemas de pintado
+  exteriores/interiores y defectos de aplicación, pintura decorativa y
+  aerografía, empapelado, aplicación de los DB HS-1/SUA-1/SI del CTE a
+  la pintura, patologías en la edificación afectas a la pintura,
+  andamios/PEMP/medios auxiliares (RD 2177/2004), materias primas de
+  artes gráficas (vinilos, introductorio) y PRL en obras de
+  construcción (líneas de vida) — y convocatoria (`CONV 4/2026`, 1
+  plaza TLO, con prueba adicional práctica, requiere certificado de
+  profesionalidad de Pintura industrial/decorativa nivel 2). De perfil
+  mixto: temas de química/normativa real y verificada (RD 227/2006 COV,
+  Reglamento CLP 1272/2008, RD 656/2017 almacenamiento, RD 2177/2004
+  trabajos en altura, CTE) combinados con temas de técnica pura del
+  oficio sin ley única (color, técnicas decorativas, empapelado),
+  siguiendo en estos últimos el mismo criterio ya aplicado en
+  Carpintero/Herrero con búsqueda previa verificada en cada caso.
+  Primera "Oficial X" en emplear el Manual de Identidad Corporativa del
+  Ayuntamiento de Zaragoza y la Ley de Propiedad Intelectual como
+  fuentes (preparadas para su especialidad hermana, ver más abajo).
+  Decimotercera oposición "Oficial X" completa.
+- **Las otras 2 "Oficial X"** (conductor-general, pintor-grafica): solo
+  tienen la **parte común** (6 temas, igual que las anteriores). El
+  **bloque-2 (parte específica) está vacío** y **no tienen ficha de
+  convocatoria** todavía. De estas 2, `oficial-conductor-general` es la
+  más laboriosa de completar: su TEMA 20 oficial no es un punto de
+  temario convencional, sino un callejero completo de Zaragoza (miles
+  de vías listadas en bases2110.pdf), lo que exige un enfoque de
+  contenido distinto al resto — dejarla para el final o abordarla con
+  un criterio específico para ese tema en particular.
+  `oficial-pintor-grafica` es la candidata natural inmediata: comparte
+  la parte común y buena parte de la normativa de PRL/andamios ya
+  sembrada para Oficial Pintor General, y su perfil (artes gráficas,
+  rotulación, software de diseño) es mayoritariamente técnico sin ley
+  única, con algunas excepciones reales ya localizadas en esta sesión
+  (RD 485/1997 de señalización para el tema de señalética, el Manual de
+  Identidad Corporativa del Ayuntamiento de Zaragoza para el tema de
+  identidad corporativa, y la Ley de Propiedad Intelectual —RDLeg
+  1/1996— para el tema de fuentes tipográficas).
 
 Próximo trabajo natural si se retoma: parte específica + convocatoria de
-las 3 oposiciones "Oficial X" restantes, siguiendo el mismo patrón
+las 2 oposiciones "Oficial X" restantes, siguiendo el mismo patrón
 (leer el temario oficial de cada puesto en `bases2110.pdf` —
 `https://www.zaragoza.es/cont/paginas/oferta/archivos/bases/bases2110.pdf`,
 verificada de nuevo en la sesión de Guardallaves; conviértase a texto con
@@ -699,9 +729,10 @@ General, Instalaciones Deportivas, Agente Inspector) se terminó en la
 sesión de agosto 2026 anterior a esta (ver nota en la sección "Casos
 prácticos y glosario" más arriba). Oficial Carpintero, Oficial Cementerio,
 Oficial Electricista, Oficial Herrero, Oficial Mecánico, Oficial
-Guardallaves, Oficial Planta Potabilizadora y Oficial Conductor
-Maquinaria Pesada, quinta a duodécima "Oficial X" completas, ya
-incorporaron glosario y casos_practicos desde el origen en cada script
-de tema (sin retrofit posterior), conforme al estándar vigente descrito
-en esa misma sección — las 12 oposiciones "Oficial X" completas tienen
-glosario y casos_practicos al 100% de su parte específica.
+Guardallaves, Oficial Planta Potabilizadora, Oficial Conductor
+Maquinaria Pesada y Oficial Pintor General, quinta a decimotercera
+"Oficial X" completas, ya incorporaron glosario y casos_practicos desde
+el origen en cada script de tema (sin retrofit posterior), conforme al
+estándar vigente descrito en esa misma sección — las 13 oposiciones
+"Oficial X" completas tienen glosario y casos_practicos al 100% de su
+parte específica.
