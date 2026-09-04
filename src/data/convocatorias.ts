@@ -34,6 +34,16 @@ export interface PruebaExamen {
   detalle: string;
 }
 
+/**
+ * Estado real del plazo de instancias, fijado a mano en cada script de
+ * convocatoria (no calculado a partir de fechas: la fecha de publicación
+ * en el BOE, de la que depende el cierre real del plazo, no siempre está
+ * en la propia base de datos). "pendiente_publicacion" es el caso de una
+ * plaza prevista en la oferta de empleo público cuyas bases específicas
+ * todavía no se han publicado (ver Oficial Fontanero).
+ */
+export type EstadoConvocatoria = "abierta" | "cerrada" | "pendiente_publicacion";
+
 export interface Convocatoria {
   oposicionSlug: string;
   numero: string;
@@ -51,6 +61,7 @@ export interface Convocatoria {
   enlacesOficiales: EnlaceOficial[];
   ultimaActualizacion: string;
   pruebas: PruebaExamen[];
+  estado: EstadoConvocatoria;
 }
 
 type FilaConvocatoria = {
@@ -70,6 +81,7 @@ type FilaConvocatoria = {
   enlaces_oficiales: EnlaceOficial[];
   ultima_actualizacion: string;
   pruebas: PruebaExamen[];
+  estado: EstadoConvocatoria;
 };
 
 function mapConvocatoria(fila: FilaConvocatoria): Convocatoria {
@@ -90,6 +102,7 @@ function mapConvocatoria(fila: FilaConvocatoria): Convocatoria {
     enlacesOficiales: fila.enlaces_oficiales,
     ultimaActualizacion: fila.ultima_actualizacion,
     pruebas: fila.pruebas,
+    estado: fila.estado,
   };
 }
 
@@ -102,4 +115,59 @@ export async function getConvocatoria(oposicionSlug: string): Promise<Convocator
     .maybeSingle();
   if (error) throw error;
   return data ? mapConvocatoria(data) : undefined;
+}
+
+export interface ConvocatoriaAbierta {
+  oposicionSlug: string;
+  organismoSlug: string;
+  puestoSlug: string;
+  nombre: string;
+  organismo: string;
+  plazasTotal: number;
+  plazoInstancias: string;
+}
+
+/**
+ * Convocatorias con `estado = 'abierta'` ahora mismo, para el bloque de
+ * la home. Al ser contenido opcional (la home debe seguir funcionando
+ * igual si esto falla o si hoy no hay ninguna abierta) sigue el mismo
+ * criterio "nunca se rechaza" que `lib/blog.ts`: `[]` ante cualquier
+ * fallo, nunca tumba el resto de la página.
+ */
+export async function getConvocatoriasAbiertas(): Promise<ConvocatoriaAbierta[]> {
+  try {
+    const supabase = createClient();
+    const { data, error } = await supabase
+      .from("convocatorias")
+      .select("oposicion_slug, plazas_total, plazo_instancias, oposiciones!inner(nombre, organismo, organismo_slug, puesto_slug, activa)")
+      .eq("estado", "abierta")
+      .eq("oposiciones.activa", true)
+      .returns<
+        {
+          oposicion_slug: string;
+          plazas_total: number;
+          plazo_instancias: string;
+          oposiciones: { nombre: string; organismo: string; organismo_slug: string; puesto_slug: string } | { nombre: string; organismo: string; organismo_slug: string; puesto_slug: string }[] | null;
+        }[]
+      >();
+    if (error) throw error;
+    return (data ?? []).flatMap((fila) => {
+      const oposicion = Array.isArray(fila.oposiciones) ? fila.oposiciones[0] : fila.oposiciones;
+      if (!oposicion) return [];
+      return [
+        {
+          oposicionSlug: fila.oposicion_slug,
+          organismoSlug: oposicion.organismo_slug,
+          puestoSlug: oposicion.puesto_slug,
+          nombre: oposicion.nombre,
+          organismo: oposicion.organismo,
+          plazasTotal: fila.plazas_total,
+          plazoInstancias: fila.plazo_instancias,
+        },
+      ];
+    });
+  } catch (error) {
+    console.warn("No se pudieron cargar las convocatorias abiertas:", error);
+    return [];
+  }
 }
