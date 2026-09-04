@@ -739,20 +739,35 @@ excepto Auxiliar Administrativo en `dpz` y `gobierno-aragon`:
   parte específica completa desde el origen (glosario y
   casos_practicos incluidos en cada script de tema, sin retrofit
   posterior). `BLOQUE_2_ID`: `417e77bc-e7ac-4984-ae49-3a35de79350d`.
-  **Pendiente**: crear la ficha de `convocatorias` en cuanto se
-  publiquen las bases de la plaza de la oferta 2026.
+  **Convocatoria creada** (`scripts/seed-convocatoria-oficial-
+  fontanero.mjs`) con un patrón nuevo en el proyecto: al no tener
+  bases 2026 propias publicadas (a diferencia del resto, todas con
+  CONV 4/2026 ya resuelta), la ficha usa el proceso 2025 ya cerrado
+  (bases1716.pdf) para lo estructuralmente estable (requisito de
+  titulación, sistema de selección, estructura de las tres pruebas,
+  orden de actuación) y marca explícitamente como "pendiente de
+  publicación" los datos exclusivos del proceso 2026 en curso (fecha
+  de decreto, plazo de instancias, desglose exacto de plazas,
+  aspirantes que pasan cada corte) — en vez de reutilizar sin más las
+  cifras de 2025 (4 plazas, proceso distinto ya cerrado) como si
+  fueran las de 2026 (1 plaza prevista, id 2111 en zaragoza.es/oferta).
+  Precedente a seguir si se repite el caso de una "Oficial X" sin
+  bases del ciclo vigente todavía publicadas.
 
 Con esto, **las 16 oposiciones "Oficial X" del Ayuntamiento de
-Zaragoza tienen la parte específica completa** — ya no queda ninguna
-con el bloque-2 vacío. Oficial Fontanero es la única sin fila en
-`convocatorias` (bases 2026 todavía no publicadas); el resto tiene
-convocatoria completa. Próximo trabajo natural si se retoma contenido
-de oposiciones: publicar la convocatoria de Oficial Fontanero en
-cuanto salgan sus bases; más allá de eso, no hay ninguna "Oficial X"
-pendiente — revisar con el usuario si hay otro organismo/puesto a
-incorporar, o si conviene una pasada de auditoría de calidad/sourcing
-sobre las tres oposiciones que llegaron a este repo en otro ordenador
-sin repasarse en sesión (Conductor Maquinaria Pesada, Pintor General,
+Zaragoza tienen temario y convocatoria completos** — ya no queda
+ninguna con el bloque-2 vacío ni sin fila en `convocatorias`. La de
+Oficial Fontanero es la única con datos del proceso 2026 marcados como
+pendientes de publicación (ver patrón arriba); el resto refleja la
+convocatoria 2026 ya resuelta con todos sus datos reales. Próximo
+trabajo natural si se retoma contenido de oposiciones: cuando se
+publiquen las bases 2026 de Oficial Fontanero, sustituir esos campos
+"pendiente" por los datos reales; más allá de eso, no hay ninguna
+"Oficial X" pendiente — revisar con el usuario si hay otro
+organismo/puesto a incorporar, o si conviene una pasada de auditoría
+de calidad/sourcing sobre las tres oposiciones que llegaron a este
+repo en otro ordenador sin repasarse en sesión (Conductor Maquinaria
+Pesada, Pintor General,
 Pintor Gráfica) — llegaron solo con `git pull`, sin revisión propia.
 `scripts/seed-tema-203-*.mjs` a `seed-tema-218-*.mjs` (los 16 de Oficial
 Planta Potabilizadora, con `scripts/verificar-oficial-planta-
