@@ -29,15 +29,25 @@ export async function generateStaticParams() {
  * URL, siempre apunta a `/[organismo]/[oposicion]/flashcards`. Así el filtro
  * por tema es una vista más de la misma página a ojos de los buscadores, en
  * vez de 20 URLs casi-duplicadas compitiendo entre sí por indexación.
+ *
+ * El canonical por sí solo es solo una sugerencia — Google puede decidir
+ * indexar igualmente la variante con `?tema=` si hay enlaces internos
+ * directos a ella (los hay: el menú de temas linka a `?tema=tema-5`, etc.).
+ * Por eso, además, se marca `indexable: false` en cuanto la URL trae
+ * `tema` o `modo`: la variante parametrizada se puede rastrear y seguir
+ * (así Google llega igualmente al resto del sitio) pero no se mete en el
+ * índice — solo la URL base sin parámetros es indexable.
  */
-export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+export async function generateMetadata({ params, searchParams }: PageProps): Promise<Metadata> {
   const { organismo, oposicion: puesto } = await params;
+  const { tema, modo } = await searchParams;
   const oposicion = await getOposicionPorRuta(organismo, puesto);
   if (!oposicion) return {};
   return crearMetadata({
     titulo: `Flashcards para ${oposicion.nombre} ${organismoAbreviado(oposicion.organismoSlug, oposicion.organismo)}`,
     descripcion: `Repasa ${oposicion.nombre} · ${oposicion.organismo} con flashcards: pregunta y respuesta, tema a tema.`,
     ruta: `/${organismo}/${puesto}/flashcards`,
+    indexable: !tema && !modo,
   });
 }
 
