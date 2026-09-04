@@ -18,15 +18,23 @@ export async function generateStaticParams() {
   return oposiciones.map((o) => ({ organismo: o.organismoSlug, oposicion: o.puestoSlug }));
 }
 
-/** Mismo criterio que /test y /flashcards: canonical fijo a [oposicion], nunca a searchParams. (El glosario dejó de vivir bajo [oposicion] — ver /glosario en raíz.) */
-export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+/**
+ * Mismo criterio que /test y /flashcards: canonical fijo a [oposicion],
+ * nunca a searchParams, y además `indexable: false` en cuanto la URL trae
+ * `tema` — el canonical por sí solo no basta para evitar que Google
+ * indexe la variante parametrizada si hay enlaces internos directos a
+ * ella. (El glosario dejó de vivir bajo [oposicion] — ver /glosario en raíz.)
+ */
+export async function generateMetadata({ params, searchParams }: PageProps): Promise<Metadata> {
   const { organismo, oposicion: puesto } = await params;
+  const { tema } = await searchParams;
   const oposicion = await getOposicionPorRuta(organismo, puesto);
   if (!oposicion) return {};
   return crearMetadata({
     titulo: `Casos prácticos para ${nombreAbreviado(oposicion.nombre)} ${organismoAbreviado(oposicion.organismoSlug, oposicion.organismo)}`,
     descripcion: `Supuestos reales de ${oposicion.nombre} · ${oposicion.organismo} resueltos con preguntas encadenadas y corrección explicada, tema a tema.`,
     ruta: `/${organismo}/${puesto}/casos-practicos`,
+    indexable: !tema,
   });
 }
 
