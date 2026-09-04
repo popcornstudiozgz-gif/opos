@@ -248,7 +248,7 @@ principio; lo que se hace tema a tema es casos_practicos, con scripts
 
 ## Estado actual del contenido (referencia rápida — puede quedar desactualizado, comprobar en BD si hay dudas)
 
-18 oposiciones en la base de datos, todas bajo `ayuntamiento-zaragoza`
+19 oposiciones en la base de datos, todas bajo `ayuntamiento-zaragoza`
 excepto Auxiliar Administrativo en `dpz` y `gobierno-aragon`:
 
 - **Auxiliar Administrativo** (Ayto. Zaragoza / DPZ / DGA): 20 temas cada
@@ -701,15 +701,59 @@ excepto Auxiliar Administrativo en `dpz` y `gobierno-aragon`:
   sin script agregado adicional que buscar. `BLOQUE_2_ID`:
   `38c4f100-214c-45c4-8600-841993100e43`.
 
+- **Oficial Fontanero** (`oficial-fontanero-ayto-zaragoza`): **parte
+  específica completa — 16/16 temas** (sesión de septiembre 2026,
+  posterior al cierre de las otras 16 "Oficial X"). Detectada como
+  hueco real: no estaba en el catálogo pese a que la oferta 2026
+  (`ofertaDetalle.jsp?id=2111` en zaragoza.es/oferta) prevé 1 plaza
+  nueva — sus bases específicas propias, sin embargo, **no están
+  publicadas todavía**, así que **no hay fila en `convocatorias`**
+  para esta oposición (pendiente hasta que salgan). El temario sí se
+  sembró completo porque no depende de la convocatoria concreta:
+  fuente `bases1716.pdf` (BOPZ núm. 147 de 30-06-2025, convocatoria ya
+  resuelta con 4 plazas de las OEP/22/24/25), descargado y leído
+  íntegro — 22 temas (misma parte común, temas 1-6, más 16 temas de
+  parte específica: `tema-283` a `tema-298` — hidráulica básica,
+  instalaciones interiores de agua fría (CTE DB-HS4), redes de
+  distribución a presión y tipos de unión, elementos de las
+  instalaciones (válvulas UNE-EN 1074, contadores RD 244/2016),
+  acometidas domiciliarias (OMECGIA arts. 14-16), agua caliente
+  sanitaria (CTE DB-HS4), calefacción (RITE, RD 1027/2007), bombas y
+  grupos de presión, sistemas contra incendios (RIPCI, UNE-EN
+  671/14384/12845), red de evacuación (CTE DB-HS5), máquinas y
+  herramientas del oficio, soldadura de metales, corte de metales
+  (oxicorte, NTP 495 del INSST), normativa de redes de agua y
+  saneamiento (RD 140/2003+RD 902/2018, OMECGIA arts. 8-13), PRL
+  general (Ley 31/1995) y PRL específica (amianto RD 396/2006,
+  espacios confinados PPRL-1601, entibaciones RD 1627/1997). Primera
+  "Oficial X" con dos normas del CTE (DB-HS4 suministro de agua y
+  DB-HS5 evacuación) como eje normativo central, descargadas y leídas
+  íntegras de codigotecnico.org en esta sesión — tabla 2.1 de caudales
+  mínimos, tabla 4.1 de Unidades de Desagüe, velocidades y presiones
+  de cálculo citadas con precisión. Fuerte reutilización de sourcing
+  ya verificado en otras "Oficial X" sin nueva búsqueda: OMECGIA
+  (Guardallaves), RD 140/2003+RD 902/2018 (Planta Potabilizadora),
+  PPRL-1601 (Guardallaves/Potabilizadora), RD 396/2006 (Albañil), RD
+  1627/1997 (Cementerio), RD 1215/1997 (Herrero/Guardallaves). Décimo
+  séptima oposición "Oficial X" en incorporarse al catálogo, con la
+  parte específica completa desde el origen (glosario y
+  casos_practicos incluidos en cada script de tema, sin retrofit
+  posterior). `BLOQUE_2_ID`: `417e77bc-e7ac-4984-ae49-3a35de79350d`.
+  **Pendiente**: crear la ficha de `convocatorias` en cuanto se
+  publiquen las bases de la plaza de la oferta 2026.
+
 Con esto, **las 16 oposiciones "Oficial X" del Ayuntamiento de
-Zaragoza están completas** (temario + convocatoria) — ya no queda
-ninguna con el bloque-2 vacío. Próximo trabajo natural si se retoma
-contenido de oposiciones: no hay ninguna "Oficial X" pendiente; revisar
-con el usuario si hay otro organismo/puesto a incorporar, o si conviene
-una pasada de auditoría de calidad/sourcing sobre las tres últimas
-incorporadas en otro ordenador (Conductor Maquinaria Pesada, Pintor
-General, Pintor Gráfica) — llegaron a este repo sin haberse repasado
-en esta sesión más allá de sincronizar el `git pull`.
+Zaragoza tienen la parte específica completa** — ya no queda ninguna
+con el bloque-2 vacío. Oficial Fontanero es la única sin fila en
+`convocatorias` (bases 2026 todavía no publicadas); el resto tiene
+convocatoria completa. Próximo trabajo natural si se retoma contenido
+de oposiciones: publicar la convocatoria de Oficial Fontanero en
+cuanto salgan sus bases; más allá de eso, no hay ninguna "Oficial X"
+pendiente — revisar con el usuario si hay otro organismo/puesto a
+incorporar, o si conviene una pasada de auditoría de calidad/sourcing
+sobre las tres oposiciones que llegaron a este repo en otro ordenador
+sin repasarse en sesión (Conductor Maquinaria Pesada, Pintor General,
+Pintor Gráfica) — llegaron solo con `git pull`, sin revisión propia.
 `scripts/seed-tema-203-*.mjs` a `seed-tema-218-*.mjs` (los 16 de Oficial
 Planta Potabilizadora, con `scripts/verificar-oficial-planta-
 potabilizadora.mjs` como script de verificación final de conteos) son
