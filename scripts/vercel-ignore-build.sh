@@ -20,6 +20,17 @@ if [ -z "$VERCEL_GIT_PREVIOUS_SHA" ]; then
   exit 1
 fi
 
+# Válvula de escape: la home y las páginas de oposición son estáticas (leen
+# Supabase en build time), así que un cambio de solo-contenido con impacto
+# visible ya mismo (p. ej. una convocatoria que pasa a "abierta", o una
+# noticia urgente) no se refleja en el sitio hasta el siguiente build de
+# verdad. Si algún commit del rango tiene "[deploy]" en el mensaje, se
+# fuerza el despliegue aunque no haya tocado código de la app.
+if git log "$VERCEL_GIT_PREVIOUS_SHA"..HEAD --format=%s 2>/dev/null | grep -qi '\[deploy\]'; then
+  echo "Commit marcado con [deploy] — se fuerza el despliegue."
+  exit 1
+fi
+
 # Rutas que si cambian SÍ requieren un build nuevo de la app.
 APP_PATHS="src public package.json package-lock.json next.config.ts postcss.config.mjs tsconfig.json vercel.json"
 
