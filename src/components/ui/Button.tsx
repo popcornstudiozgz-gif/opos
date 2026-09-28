@@ -28,7 +28,7 @@ interface PropsComunes {
 }
 
 type PropsBoton = PropsComunes & ButtonHTMLAttributes<HTMLButtonElement> & { href?: undefined };
-type PropsEnlace = PropsComunes & { href: string };
+type PropsEnlace = PropsComunes & { href: string; prefetch?: boolean };
 
 /** Botón reutilizable. Si recibe `href`, se renderiza como `<Link>`; si no, como `<button>`. */
 export function Button(props: PropsBoton | PropsEnlace) {
@@ -37,7 +37,7 @@ export function Button(props: PropsBoton | PropsEnlace) {
 
   if (props.href !== undefined) {
     return (
-      <Link href={props.href} className={clases}>
+      <Link href={props.href} prefetch={props.prefetch} className={clases}>
         {children}
       </Link>
     );

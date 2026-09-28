@@ -252,7 +252,7 @@ export default async function TemaPage({ params }: PageProps) {
                   </div>
                   <div className="mt-5">
                     {recurso.disponible ? (
-                      <Button href={recurso.href} variante="contorno" tamano="sm" className="w-full">
+                      <Button href={recurso.href} prefetch={false} variante="contorno" tamano="sm" className="w-full">
                         {recurso.label} ({recurso.cantidad})
                       </Button>
                     ) : (

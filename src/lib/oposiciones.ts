@@ -1,3 +1,4 @@
+import { unstable_cache } from "next/cache";
 import { createClient } from "@/lib/supabase/public";
 import type {
   Bloque,
@@ -17,7 +18,35 @@ import type {
  * las funciones sobre los arrays de `data/temario/*.ts` ahora lo hace
  * Postgres. La forma de las funciones no cambió: solo su implementación
  * (esto es justo lo que se diseñó desde el principio en `lib/types.ts`).
+ *
+ * Caché (28/09/2026): las páginas de test/flashcards/casos prácticos/
+ * simulacro/glosario se renderizan en cada petición (dependen de
+ * `?tema=` y del usuario), y cada render repetía las mismas consultas de
+ * contenido — eso era casi todo el consumo de "Fluid Active CPU" de
+ * Vercel. Ahora las consultas de contenido pasan por `cacheado()` (Data
+ * Cache de Next, compartida entre peticiones). Las de contenido por tema
+ * se cachean por `tema_slug` canónico, sin oposición en la clave, y el
+ * recorte por `secciones_incluidas` se aplica después en memoria: así un
+ * tema de la parte común reutilizado en 17 oposiciones es UNA entrada de
+ * caché, no 17, y ninguna entrada roza el límite de 2 MB de Vercel.
  */
+
+/**
+ * Tiempo máximo que un cambio de contenido sembrado en Supabase tarda en
+ * verse en las páginas dinámicas. Las estáticas no se ven afectadas: se
+ * regeneran con cada despliegue, y la clave incluye el commit desplegado
+ * para que un build nuevo nunca lea la caché del anterior (la Data Cache
+ * de Vercel sobrevive entre despliegues).
+ */
+const REVALIDAR_SEGUNDOS = 3600;
+const VERSION_CACHE = process.env.VERCEL_GIT_COMMIT_SHA ?? "local";
+
+function cacheado<A extends unknown[], R>(nombre: string, fn: (...args: A) => Promise<R>) {
+  return unstable_cache(fn, ["oposiciones", nombre, VERSION_CACHE], {
+    revalidate: REVALIDAR_SEGUNDOS,
+    tags: ["contenido"],
+  });
+}
 
 type FilaOposicion = {
   slug: string;
@@ -114,18 +143,28 @@ function mapTemaDeOposicion(fila: FilaTemaOposicion): TemaDeOposicion {
 const SELECT_TEMA_OPOSICION =
   "tema_slug, oposicion_slug, numero, orden, es_premium, publicado, secciones_incluidas, temas(*), bloques(slug)";
 
-export async function getOposiciones(): Promise<Oposicion[]> {
+/** Igual que `SELECT_TEMA_OPOSICION` pero sin el cuerpo del tema (ver `getTemasDeOposicion`). */
+const SELECT_TEMA_OPOSICION_LIGERO =
+  "tema_slug, oposicion_slug, numero, orden, es_premium, publicado, secciones_incluidas, temas(slug, titulo, descripcion), bloques(slug)";
+
+export const getOposiciones = cacheado("getOposiciones", async (): Promise<Oposicion[]> => {
   const supabase = createClient();
   const { data, error } = await supabase.from("oposiciones").select("*").eq("activa", true);
   if (error) throw error;
   return (data ?? []).map(mapOposicion);
-}
+});
 
-export async function getOposicion(slug: string): Promise<Oposicion | undefined> {
+// La caché serializa a JSON: se guarda `null` y se convierte a `undefined`
+// fuera, para no depender de cómo se serializa un `undefined` de primer nivel.
+const getOposicionCacheada = cacheado("getOposicion", async (slug: string): Promise<Oposicion | null> => {
   const supabase = createClient();
   const { data, error } = await supabase.from("oposiciones").select("*").eq("slug", slug).maybeSingle();
   if (error) throw error;
-  return data ? mapOposicion(data) : undefined;
+  return data ? mapOposicion(data) : null;
+});
+
+export async function getOposicion(slug: string): Promise<Oposicion | undefined> {
+  return (await getOposicionCacheada(slug)) ?? undefined;
 }
 
 /**
@@ -136,16 +175,19 @@ export async function getOposicion(slug: string): Promise<Oposicion | undefined>
  * solo se justificaría si un organismo necesitara datos propios que no
  * dependan de ninguna oposición concreta (una descripción larga, un logo).
  */
-export async function getOposicionesDeOrganismo(organismoSlug: string): Promise<Oposicion[]> {
-  const supabase = createClient();
-  const { data, error } = await supabase
-    .from("oposiciones")
-    .select("*")
-    .eq("activa", true)
-    .eq("organismo_slug", organismoSlug);
-  if (error) throw error;
-  return (data ?? []).map(mapOposicion);
-}
+export const getOposicionesDeOrganismo = cacheado(
+  "getOposicionesDeOrganismo",
+  async (organismoSlug: string): Promise<Oposicion[]> => {
+    const supabase = createClient();
+    const { data, error } = await supabase
+      .from("oposiciones")
+      .select("*")
+      .eq("activa", true)
+      .eq("organismo_slug", organismoSlug);
+    if (error) throw error;
+    return (data ?? []).map(mapOposicion);
+  }
+);
 
 /**
  * Resuelve una oposición por los DOS segmentos de su URL pública
@@ -159,16 +201,23 @@ export async function getOposicionPorRuta(
   organismoSlug: string,
   puestoSlug: string
 ): Promise<Oposicion | undefined> {
-  const supabase = createClient();
-  const { data, error } = await supabase
-    .from("oposiciones")
-    .select("*")
-    .eq("organismo_slug", organismoSlug)
-    .eq("puesto_slug", puestoSlug)
-    .maybeSingle();
-  if (error) throw error;
-  return data ? mapOposicion(data) : undefined;
+  return (await getOposicionPorRutaCacheada(organismoSlug, puestoSlug)) ?? undefined;
 }
+
+const getOposicionPorRutaCacheada = cacheado(
+  "getOposicionPorRuta",
+  async (organismoSlug: string, puestoSlug: string): Promise<Oposicion | null> => {
+    const supabase = createClient();
+    const { data, error } = await supabase
+      .from("oposiciones")
+      .select("*")
+      .eq("organismo_slug", organismoSlug)
+      .eq("puesto_slug", puestoSlug)
+      .maybeSingle();
+    if (error) throw error;
+    return data ? mapOposicion(data) : null;
+  }
+);
 
 /**
  * Nº de preguntas distintas de `preguntas` que en realidad pertenecen a un
@@ -235,43 +284,79 @@ export async function getEstadisticasCatalogo() {
   };
 }
 
-export async function getBloquesDeOposicion(oposicionSlug: string): Promise<Bloque[]> {
-  const supabase = createClient();
-  const { data, error } = await supabase
-    .from("bloques")
-    .select("*")
-    .eq("oposicion_slug", oposicionSlug)
-    .order("orden");
-  if (error) throw error;
-  return (data ?? []).map(mapBloque);
+export const getBloquesDeOposicion = cacheado(
+  "getBloquesDeOposicion",
+  async (oposicionSlug: string): Promise<Bloque[]> => {
+    const supabase = createClient();
+    const { data, error } = await supabase
+      .from("bloques")
+      .select("*")
+      .eq("oposicion_slug", oposicionSlug)
+      .order("orden");
+    if (error) throw error;
+    return (data ?? []).map(mapBloque);
+  }
+);
+
+/**
+ * Todos los temas asignados a una oposición, SIN el cuerpo del tema
+ * (`contenido`, `enlacesBoe`, `indiceEstudio` quedan `undefined`): quien
+ * lo usa (menús laterales, recuentos, recorte por `seccionesIncluidas`)
+ * solo necesita título, número y sección — traer el texto completo de los
+ * ~22 temas en cada visita a /test o /flashcards era el grueso del
+ * trabajo. Para el tema completo, `getTemaDeOposicion`.
+ */
+export const getTemasDeOposicion = cacheado(
+  "getTemasDeOposicion",
+  async (oposicionSlug: string): Promise<TemaDeOposicion[]> => {
+    const supabase = createClient();
+    const { data, error } = await supabase
+      .from("tema_oposicion")
+      .select(SELECT_TEMA_OPOSICION_LIGERO)
+      .eq("oposicion_slug", oposicionSlug)
+      .order("numero");
+    if (error) throw error;
+    return (data ?? []).map((fila) => mapTemaDeOposicion(fila as unknown as FilaTemaOposicion));
+  }
+);
+
+/**
+ * La asignación de un tema a una oposición (para leer su
+ * `seccionesIncluidas`), resuelta desde la lista ya cacheada de
+ * `getTemasDeOposicion` en vez de una consulta propia por tema.
+ */
+async function getAsignacion(oposicionSlug: string, temaSlug: string): Promise<TemaDeOposicion | undefined> {
+  return (await getTemasDeOposicion(oposicionSlug)).find((t) => t.slug === temaSlug);
 }
 
-/** Todos los temas asignados a una oposición, con su contenido canónico ya resuelto. */
-export async function getTemasDeOposicion(oposicionSlug: string): Promise<TemaDeOposicion[]> {
-  const supabase = createClient();
-  const { data, error } = await supabase
-    .from("tema_oposicion")
-    .select(SELECT_TEMA_OPOSICION)
-    .eq("oposicion_slug", oposicionSlug)
-    .order("numero");
-  if (error) throw error;
-  return (data ?? []).map((fila) => mapTemaDeOposicion(fila as unknown as FilaTemaOposicion));
+/** Recorte por `secciones_incluidas`: `null`/vacío = tema completo. Mismo criterio que el antiguo `.in("seccion", ...)`. */
+function dentroDeSecciones<T extends { seccion: string | null }>(filas: T[], asignacion: TemaDeOposicion): T[] {
+  const secciones = asignacion.seccionesIncluidas;
+  if (!secciones || secciones.length === 0) return filas;
+  return filas.filter((f) => f.seccion != null && secciones.includes(f.seccion));
 }
 
-/** Un tema concreto ya resuelto en el contexto de una oposición (o `undefined` si no está asignado a ella). */
+const getTemaDeOposicionCacheado = cacheado(
+  "getTemaDeOposicion",
+  async (oposicionSlug: string, temaSlug: string): Promise<TemaDeOposicion | null> => {
+    const supabase = createClient();
+    const { data, error } = await supabase
+      .from("tema_oposicion")
+      .select(SELECT_TEMA_OPOSICION)
+      .eq("oposicion_slug", oposicionSlug)
+      .eq("tema_slug", temaSlug)
+      .maybeSingle();
+    if (error) throw error;
+    return data ? mapTemaDeOposicion(data as unknown as FilaTemaOposicion) : null;
+  }
+);
+
+/** Un tema concreto, con su contenido completo, en el contexto de una oposición (o `undefined` si no está asignado a ella). */
 export async function getTemaDeOposicion(
   oposicionSlug: string,
   temaSlug: string
 ): Promise<TemaDeOposicion | undefined> {
-  const supabase = createClient();
-  const { data, error } = await supabase
-    .from("tema_oposicion")
-    .select(SELECT_TEMA_OPOSICION)
-    .eq("oposicion_slug", oposicionSlug)
-    .eq("tema_slug", temaSlug)
-    .maybeSingle();
-  if (error) throw error;
-  return data ? mapTemaDeOposicion(data as unknown as FilaTemaOposicion) : undefined;
+  return (await getTemaDeOposicionCacheado(oposicionSlug, temaSlug)) ?? undefined;
 }
 
 /** Bloques de una oposición, cada uno con sus temas ya resueltos y ordenados. */
@@ -332,23 +417,25 @@ export async function getFlashcardsDeTema(
   oposicionSlug: string,
   temaSlug: string
 ): Promise<Flashcard[]> {
-  const asignacion = await getTemaDeOposicion(oposicionSlug, temaSlug);
+  const asignacion = await getAsignacion(oposicionSlug, temaSlug);
   if (!asignacion) return [];
-
-  const supabase = createClient();
-  let query = supabase
-    .from("flashcards")
-    .select("id, tema_slug, seccion, anverso, reverso")
-    .eq("tema_slug", temaSlug);
-
-  if (asignacion.seccionesIncluidas && asignacion.seccionesIncluidas.length > 0) {
-    query = query.in("seccion", asignacion.seccionesIncluidas);
-  }
-
-  const { data, error } = await query.order("created_at");
-  if (error) throw error;
-  return (data ?? []).map(mapFlashcard);
+  return dentroDeSecciones(await getFlashcardsCanonicasDeTema(temaSlug), asignacion);
 }
+
+/** Todas las flashcards del tema canónico, sin recorte (el recorte es por oposición, fuera de la caché). */
+const getFlashcardsCanonicasDeTema = cacheado(
+  "getFlashcardsCanonicasDeTema",
+  async (temaSlug: string): Promise<Flashcard[]> => {
+    const supabase = createClient();
+    const { data, error } = await supabase
+      .from("flashcards")
+      .select("id, tema_slug, seccion, anverso, reverso")
+      .eq("tema_slug", temaSlug)
+      .order("created_at");
+    if (error) throw error;
+    return (data ?? []).map(mapFlashcard);
+  }
+);
 
 /**
  * Todas las flashcards de una oposición (unión de todos sus temas
@@ -391,23 +478,24 @@ export async function getGlosarioDeTema(
   oposicionSlug: string,
   temaSlug: string
 ): Promise<TerminoGlosario[]> {
-  const asignacion = await getTemaDeOposicion(oposicionSlug, temaSlug);
+  const asignacion = await getAsignacion(oposicionSlug, temaSlug);
   if (!asignacion) return [];
-
-  const supabase = createClient();
-  let query = supabase
-    .from("glosario")
-    .select("id, tema_slug, seccion, termino, definicion")
-    .eq("tema_slug", temaSlug);
-
-  if (asignacion.seccionesIncluidas && asignacion.seccionesIncluidas.length > 0) {
-    query = query.in("seccion", asignacion.seccionesIncluidas);
-  }
-
-  const { data, error } = await query.order("termino");
-  if (error) throw error;
-  return (data ?? []).map(mapTerminoGlosario);
+  return dentroDeSecciones(await getGlosarioCanonicoDeTema(temaSlug), asignacion);
 }
+
+const getGlosarioCanonicoDeTema = cacheado(
+  "getGlosarioCanonicoDeTema",
+  async (temaSlug: string): Promise<TerminoGlosario[]> => {
+    const supabase = createClient();
+    const { data, error } = await supabase
+      .from("glosario")
+      .select("id, tema_slug, seccion, termino, definicion")
+      .eq("tema_slug", temaSlug)
+      .order("termino");
+    if (error) throw error;
+    return (data ?? []).map(mapTerminoGlosario);
+  }
+);
 
 /** Todos los términos de glosario de una oposición (unión de todos sus temas asignados). */
 export async function getGlosarioDeOposicion(oposicionSlug: string): Promise<TerminoGlosario[]> {
@@ -426,7 +514,7 @@ export async function getGlosarioDeOposicion(oposicionSlug: string): Promise<Ter
  * vez en la tabla (cuelga de `tema_slug`, no de oposición), así que no
  * hace falta deduplicar nada aquí.
  */
-export async function getGlosarioCompleto(): Promise<TerminoGlosario[]> {
+export const getGlosarioCompleto = cacheado("getGlosarioCompleto", async (): Promise<TerminoGlosario[]> => {
   const supabase = createClient();
   const { data, error } = await supabase
     .from("glosario")
@@ -434,7 +522,7 @@ export async function getGlosarioCompleto(): Promise<TerminoGlosario[]> {
     .order("termino");
   if (error) throw error;
   return (data ?? []).map(mapTerminoGlosario);
-}
+});
 
 type FilaPregunta = {
   id: string;
@@ -486,29 +574,31 @@ async function getPreguntaIdsDeCasosPracticos(temaSlug: string): Promise<Set<str
  * Devuelve `[]` si el tema no está asignado a la oposición.
  */
 export async function getPreguntasDeTema(oposicionSlug: string, temaSlug: string): Promise<Pregunta[]> {
-  const asignacion = await getTemaDeOposicion(oposicionSlug, temaSlug);
+  const asignacion = await getAsignacion(oposicionSlug, temaSlug);
   if (!asignacion) return [];
-
-  const supabase = createClient();
-  let query = supabase
-    .from("preguntas")
-    .select("id, tema_slug, seccion, enunciado, explicacion, dificultad, opciones(id, texto, es_correcta, orden)")
-    .eq("tema_slug", temaSlug);
-
-  if (asignacion.seccionesIncluidas && asignacion.seccionesIncluidas.length > 0) {
-    query = query.in("seccion", asignacion.seccionesIncluidas);
-  }
-
-  const [{ data, error }, idsCasoPractico] = await Promise.all([
-    query.order("created_at"),
-    getPreguntaIdsDeCasosPracticos(temaSlug),
-  ]);
-  if (error) throw error;
-  return (data ?? [])
-    .filter((fila) => !idsCasoPractico.has(fila.id))
-    .map((fila) => mapPregunta(fila as unknown as FilaPregunta))
-    .filter((p): p is Pregunta => p !== null);
+  return dentroDeSecciones(await getPreguntasCanonicasDeTema(temaSlug), asignacion);
 }
+
+/** Preguntas de test del tema canónico (ya sin las de caso práctico), sin recorte por oposición. */
+const getPreguntasCanonicasDeTema = cacheado(
+  "getPreguntasCanonicasDeTema",
+  async (temaSlug: string): Promise<Pregunta[]> => {
+    const supabase = createClient();
+    const [{ data, error }, idsCasoPractico] = await Promise.all([
+      supabase
+        .from("preguntas")
+        .select("id, tema_slug, seccion, enunciado, explicacion, dificultad, opciones(id, texto, es_correcta, orden)")
+        .eq("tema_slug", temaSlug)
+        .order("created_at"),
+      getPreguntaIdsDeCasosPracticos(temaSlug),
+    ]);
+    if (error) throw error;
+    return (data ?? [])
+      .filter((fila) => !idsCasoPractico.has(fila.id))
+      .map((fila) => mapPregunta(fila as unknown as FilaPregunta))
+      .filter((p): p is Pregunta => p !== null);
+  }
+);
 
 /** Todas las preguntas de test de una oposición (unión de todos sus temas asignados). */
 export async function getPreguntasDeOposicion(oposicionSlug: string): Promise<Pregunta[]> {
@@ -565,20 +655,37 @@ export async function getCasosPracticosDeTema(
   oposicionSlug: string,
   temaSlug: string
 ): Promise<CasoPracticoResumen[]> {
-  const asignacion = await getTemaDeOposicion(oposicionSlug, temaSlug);
+  const asignacion = await getAsignacion(oposicionSlug, temaSlug);
   if (!asignacion) return [];
-
-  const supabase = createClient();
-  const { data, error } = await supabase
-    .from("casos_practicos")
-    .select("id, tema_slug, slug, titulo, supuesto, caso_preguntas(preguntas(seccion))")
-    .eq("tema_slug", temaSlug)
-    .order("orden");
-  if (error) throw error;
-  return ((data ?? []) as unknown as FilaCasoPracticoResumen[])
-    .filter((fila) => casoDentroDeAlcance(fila.caso_preguntas.map((cp) => cp.preguntas.seccion), asignacion.seccionesIncluidas))
-    .map((fila) => mapCasoPracticoResumen(fila));
+  return (await getCasosResumenCanonicosDeTema(temaSlug))
+    .filter((caso) => casoDentroDeAlcance(caso.secciones, asignacion.seccionesIncluidas))
+    .map((caso) => ({
+      id: caso.id,
+      temaSlug: caso.temaSlug,
+      slug: caso.slug,
+      titulo: caso.titulo,
+      supuesto: caso.supuesto,
+      numPreguntas: caso.numPreguntas,
+    }));
 }
+
+/** Resúmenes de los casos del tema canónico, con las secciones de sus preguntas para recortar fuera de la caché. */
+const getCasosResumenCanonicosDeTema = cacheado(
+  "getCasosResumenCanonicosDeTema",
+  async (temaSlug: string): Promise<(CasoPracticoResumen & { secciones: (string | null)[] })[]> => {
+    const supabase = createClient();
+    const { data, error } = await supabase
+      .from("casos_practicos")
+      .select("id, tema_slug, slug, titulo, supuesto, caso_preguntas(preguntas(seccion))")
+      .eq("tema_slug", temaSlug)
+      .order("orden");
+    if (error) throw error;
+    return ((data ?? []) as unknown as FilaCasoPracticoResumen[]).map((fila) => ({
+      ...mapCasoPracticoResumen(fila),
+      secciones: fila.caso_preguntas.map((cp) => cp.preguntas.seccion),
+    }));
+  }
+);
 
 type FilaCasoPractico = {
   id: string;
@@ -619,46 +726,61 @@ export async function getCasoPractico(
   oposicionSlug: string,
   slug: string
 ): Promise<CasoPractico | undefined> {
-  const supabase = createClient();
-  const { data, error } = await supabase
-    .from("casos_practicos")
-    .select(SELECT_CASO_PRACTICO_COMPLETO)
-    .eq("slug", slug)
-    .maybeSingle();
-  if (error) throw error;
-  if (!data) return undefined;
+  const caso = await getCasoPracticoCanonico(slug);
+  if (!caso) return undefined;
 
-  const fila = data as unknown as FilaCasoPractico;
-  const asignacion = await getTemaDeOposicion(oposicionSlug, fila.tema_slug);
+  const asignacion = await getAsignacion(oposicionSlug, caso.temaSlug);
   if (!asignacion) return undefined;
-  if (!casoDentroDeAlcance(fila.caso_preguntas.map((cp) => cp.preguntas.seccion), asignacion.seccionesIncluidas)) return undefined;
+  if (!casoDentroDeAlcance(caso.preguntas.map((p) => p.seccion), asignacion.seccionesIncluidas)) return undefined;
 
-  return mapCasoPractico(fila);
+  return caso;
 }
+
+const getCasoPracticoCanonico = cacheado(
+  "getCasoPracticoCanonico",
+  async (slug: string): Promise<CasoPractico | null> => {
+    const supabase = createClient();
+    const { data, error } = await supabase
+      .from("casos_practicos")
+      .select(SELECT_CASO_PRACTICO_COMPLETO)
+      .eq("slug", slug)
+      .maybeSingle();
+    if (error) throw error;
+    return data ? mapCasoPractico(data as unknown as FilaCasoPractico) : null;
+  }
+);
+
+/** Casos completos del tema canónico, sin recorte por oposición. */
+const getCasosCompletosCanonicosDeTema = cacheado(
+  "getCasosCompletosCanonicosDeTema",
+  async (temaSlug: string): Promise<CasoPractico[]> => {
+    const supabase = createClient();
+    const { data, error } = await supabase
+      .from("casos_practicos")
+      .select(SELECT_CASO_PRACTICO_COMPLETO)
+      .eq("tema_slug", temaSlug)
+      .order("orden");
+    if (error) throw error;
+    return (data ?? []).map((fila) => mapCasoPractico(fila as unknown as FilaCasoPractico));
+  }
+);
 
 /**
  * Todos los casos prácticos completos (con sus preguntas) de los temas
  * asignados a una oposición — se usa en el simulacro, que necesita elegir
- * casos al azar de toda la oposición, no de un tema concreto.
+ * casos al azar de toda la oposición, no de un tema concreto (por eso da
+ * igual que salgan agrupados por tema en vez de por `orden` global).
  */
 export async function getCasosPracticosDeOposicion(oposicionSlug: string): Promise<CasoPractico[]> {
   const temas = await getTemasDeOposicion(oposicionSlug);
-  const temaSlugs = temas.map((t) => t.slug);
-  if (temaSlugs.length === 0) return [];
-  const seccionesPorTema = new Map(temas.map((t) => [t.slug, t.seccionesIncluidas]));
-
-  const supabase = createClient();
-  const { data, error } = await supabase
-    .from("casos_practicos")
-    .select(SELECT_CASO_PRACTICO_COMPLETO)
-    .in("tema_slug", temaSlugs)
-    .order("orden");
-  if (error) throw error;
-
-  return (data ?? [])
-    .map((fila) => fila as unknown as FilaCasoPractico)
-    .filter((fila) => casoDentroDeAlcance(fila.caso_preguntas.map((cp) => cp.preguntas.seccion), seccionesPorTema.get(fila.tema_slug)))
-    .map((fila) => mapCasoPractico(fila));
+  const porTema = await Promise.all(
+    temas.map(async (tema) =>
+      (await getCasosCompletosCanonicosDeTema(tema.slug)).filter((caso) =>
+        casoDentroDeAlcance(caso.preguntas.map((p) => p.seccion), tema.seccionesIncluidas)
+      )
+    )
+  );
+  return porTema.flat();
 }
 
 /** Todos los pares oposición/slug de caso práctico publicados, para `generateStaticParams`. */

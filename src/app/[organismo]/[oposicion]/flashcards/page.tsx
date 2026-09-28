@@ -145,6 +145,7 @@ export default async function FlashcardsPage({ params, searchParams }: PageProps
                       <li key={t.slug}>
                         <Link
                           href={`${base}/flashcards?tema=${t.slug}`}
+                          prefetch={false}
                           className="flex items-center gap-2 rounded-md px-2 py-1 text-xs text-slate-600 transition-colors hover:bg-brand-50 hover:text-brand-700"
                         >
                           <span className="font-semibold text-brand-600">T{t.numero}</span>

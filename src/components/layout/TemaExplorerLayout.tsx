@@ -76,6 +76,7 @@ export function TemaExplorerLayout({
           {opcionTodos && (
             <Link
               href={hrefTodas}
+              prefetch={false}
               className={`mb-3 flex items-center gap-2 rounded-lg px-3 py-2 text-sm font-medium transition-colors ${
                 opcionTodos.activo
                   ? "bg-brand-600 text-white"
@@ -98,6 +99,7 @@ export function TemaExplorerLayout({
                 <Link
                   key={t.slug}
                   href={hrefTema(t.slug)}
+                  prefetch={false}
                   className={`mb-0.5 block rounded-lg px-3 py-2 text-sm leading-snug transition-colors ${
                     temaActivoSlug === t.slug
                       ? "bg-brand-600 font-medium text-white"
@@ -121,6 +123,7 @@ export function TemaExplorerLayout({
             {opcionTodos && (
               <Link
                 href={hrefTodas}
+                prefetch={false}
                 className={`flex-shrink-0 rounded-full px-4 py-1.5 text-sm font-medium transition-colors ${
                   opcionTodos.activo
                     ? "bg-brand-600 text-white"
@@ -134,6 +137,7 @@ export function TemaExplorerLayout({
               <Link
                 key={t.slug}
                 href={hrefTema(t.slug)}
+                prefetch={false}
                 className={`flex-shrink-0 rounded-full px-4 py-1.5 text-sm font-medium transition-colors ${
                   temaActivoSlug === t.slug
                     ? "bg-brand-600 text-white"
