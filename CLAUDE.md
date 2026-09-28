@@ -97,6 +97,18 @@ La capa de acceso a datos de la app vive en `src/lib/oposiciones.ts` (todas
 las `getXxxDeOposicion`/`getXxxDeTema`) — es el sitio para ver exactamente
 qué consulta hace cada página antes de asumir la forma de una tabla.
 
+**Caché de contenido (septiembre 2026, por el límite de "Fluid Active CPU"
+de Vercel):** las consultas de contenido de `src/lib/oposiciones.ts` pasan
+por `unstable_cache` (1 hora, tag `contenido`), cacheadas por `tema_slug`
+canónico con el recorte de `secciones_incluidas` aplicado después en
+memoria. Consecuencia práctica: **un seed nuevo tarda hasta 1 hora en
+verse** en test/flashcards/casos prácticos/simulacro/glosario (las páginas
+estáticas siguen necesitando un despliegue, como siempre). La clave incluye
+el commit desplegado, así que un despliegue nuevo nunca sirve caché vieja.
+Relacionado: `robots.ts` cierra a los robots las variantes `?tema=`/`?modo=`,
+y los enlaces a esas variantes llevan `prefetch={false}` — ambos para no
+disparar renders dinámicos innecesarios. No revertir sin revisar el consumo.
+
 ## Convención de scripts de seed (`scripts/*.mjs`)
 
 Hay ~150 scripts, uno por unidad lógica de trabajo (un tema nuevo, una

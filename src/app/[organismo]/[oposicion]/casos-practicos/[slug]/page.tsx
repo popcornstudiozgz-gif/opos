@@ -63,6 +63,7 @@ export default async function CasoPracticoPage({ params }: PageProps) {
         <Container className="py-16 sm:py-20">
           <Link
             href={`${base}/casos-practicos?tema=${caso.temaSlug}`}
+            prefetch={false}
             className="text-sm font-medium text-brand-600 hover:underline"
           >
             ← Volver a casos prácticos
