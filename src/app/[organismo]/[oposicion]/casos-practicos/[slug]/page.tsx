@@ -7,11 +7,17 @@ import { crearMetadata } from "@/lib/site";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { getOposicionPorRuta, getCasoPractico, getParamsCasosPracticosEstatico } from "@/lib/oposiciones";
 import { CasoRunner } from "@/components/casos-practicos/CasoRunner";
-import { createClient } from "@/lib/supabase/server";
 
 interface PageProps {
   params: Promise<{ organismo: string; oposicion: string; slug: string }>;
 }
+
+/**
+ * Estática (se regenera como mucho cada hora): el usuario se resuelve en
+ * cliente (`CasoRunner` → `useUsuarioId`), no leyendo la sesión aquí.
+ */
+export const dynamic = "force-static";
+export const revalidate = 3600;
 
 export async function generateStaticParams() {
   return await getParamsCasosPracticosEstatico();
@@ -42,11 +48,7 @@ export default async function CasoPracticoPage({ params }: PageProps) {
   const oposicionSlug = oposicion.slug; // slug interno (PK) — para queries de contenido y progreso
   const base = `/${organismo}/${puesto}`;
 
-  const supabase = await createClient();
-  const [caso, { data: { user } }] = await Promise.all([
-    getCasoPractico(oposicionSlug, slug),
-    supabase.auth.getUser(),
-  ]);
+  const caso = await getCasoPractico(oposicionSlug, slug);
   if (!caso || caso.preguntas.length === 0) notFound();
 
   return (
@@ -62,7 +64,7 @@ export default async function CasoPracticoPage({ params }: PageProps) {
       <section className="bg-white">
         <Container className="py-16 sm:py-20">
           <Link
-            href={`${base}/casos-practicos?tema=${caso.temaSlug}`}
+            href={`${base}/casos-practicos/tema/${caso.temaSlug}`}
             prefetch={false}
             className="text-sm font-medium text-brand-600 hover:underline"
           >
@@ -80,7 +82,6 @@ export default async function CasoPracticoPage({ params }: PageProps) {
             <CasoRunner
               key={caso.slug}
               preguntas={caso.preguntas}
-              usuarioId={user?.id ?? null}
               oposicionSlug={oposicionSlug}
               casoId={caso.id}
             />

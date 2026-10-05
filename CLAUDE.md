@@ -109,6 +109,22 @@ Relacionado: `robots.ts` cierra a los robots las variantes `?tema=`/`?modo=`,
 y los enlaces a esas variantes llevan `prefetch={false}` — ambos para no
 disparar renders dinámicos innecesarios. No revertir sin revisar el consumo.
 
+**Páginas de estudio estáticas (octubre 2026, segunda ronda por el mismo
+límite):** test, flashcards, casos prácticos, simulacro y glosario ya no
+leen `searchParams` ni la sesión en el servidor — son estáticas/ISR
+(`force-static`, `revalidate = 3600`). El tema va en la ruta:
+`/[organismo]/[oposicion]/test/[tema]`, `/flashcards/[tema]`,
+`/casos-practicos/tema/[tema]`, `/glosario/[oposicion-slug-interno]/[tema]`
+(`[tema]` = slug del tema o `todas`); las URLs viejas con `?tema=` /
+`?oposicion=` redirigen desde `next.config.ts`. El usuario se resuelve en
+el navegador con `src/lib/useUsuarioId.ts` (progreso de flashcards incluido,
+y `?modo=repasar` se lee en cliente); el simulacro recibe una bolsa de 300
+preguntas/8 casos y sortea el examen en el navegador al pulsar "Comenzar".
+El proxy de sesión (`src/proxy.ts`) solo corre en `/perfil` y `/admin`:
+**si una página nueva lee la sesión en el servidor, añádela a su
+`matcher`**, y no vuelvas a leer cookies/`searchParams` en una página de
+contenido (la haría dinámica otra vez).
+
 ## Convención de scripts de seed (`scripts/*.mjs`)
 
 Hay ~150 scripts, uno por unidad lógica de trabajo (un tema nuevo, una

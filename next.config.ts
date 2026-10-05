@@ -47,7 +47,43 @@ const nextConfig: NextConfig = {
       // (404), en vez de en /glosario?oposicion=...
       {
         source: "/:oposicion/glosario",
-        destination: "/glosario?oposicion=:oposicion",
+        destination: "/glosario/:oposicion",
+        permanent: true,
+      },
+      // Octubre 2026: el filtro por tema (y por oposición en el glosario)
+      // pasó de `?tema=`/`?oposicion=` a segmentos de la ruta, para que
+      // cada vista sea una página estática cacheada en vez de renderizarse
+      // en cada visita (era el grueso del consumo de "Fluid Active CPU" de
+      // Vercel — ver TemaExplorerLayout). Estas reglas mandan cualquier
+      // URL vieja (marcadores, Google, enlaces de correos) a la nueva; las
+      // redirecciones de next.config las resuelve Vercel sin ejecutar
+      // ninguna función. El resto de la query (p. ej. `&modo=repasar`) se
+      // conserva.
+      {
+        source: "/glosario",
+        has: [
+          { type: "query", key: "oposicion", value: "(?<oposicion>[a-z0-9-]+)" },
+          { type: "query", key: "tema", value: "(?<tema>[a-z0-9-]+)" },
+        ],
+        destination: "/glosario/:oposicion/:tema",
+        permanent: true,
+      },
+      {
+        source: "/glosario",
+        has: [{ type: "query", key: "oposicion", value: "(?<oposicion>[a-z0-9-]+)" }],
+        destination: "/glosario/:oposicion",
+        permanent: true,
+      },
+      {
+        source: "/:organismo/:puesto/:seccion(test|flashcards)",
+        has: [{ type: "query", key: "tema", value: "(?<tema>[a-z0-9-]+)" }],
+        destination: "/:organismo/:puesto/:seccion/:tema",
+        permanent: true,
+      },
+      {
+        source: "/:organismo/:puesto/casos-practicos",
+        has: [{ type: "query", key: "tema", value: "(?<tema>[a-z0-9-]+)" }],
+        destination: "/:organismo/:puesto/casos-practicos/tema/:tema",
         permanent: true,
       },
       // Mismo caso que el glosario, pero con /noticias hacia /blog: un

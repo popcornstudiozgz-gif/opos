@@ -23,7 +23,10 @@ interface Props {
   titulo: string;
   subtitulo?: string;
   bloques: BloqueConTemas[];
-  /** Ruta base sin querystring, ej. `/ayuntamiento-zaragoza/aux-administrativo/test`. */
+  /**
+   * Ruta base a la que se añade `/<tema-slug>` o `/todas`, ej.
+   * `/ayuntamiento-zaragoza/aux-administrativo/test`.
+   */
   basePath: string;
   /** Ausente en páginas sin vista "todas" (ej. casos prácticos). */
   opcionTodos?: OpcionTodos;
@@ -31,6 +34,37 @@ interface Props {
   /** Ancho máximo del contenido principal. */
   anchoContenido?: string;
   children: ReactNode;
+}
+
+/**
+ * Rejilla de bloques con sus temas, para la portada (sin tema elegido) de
+ * test, flashcards, glosario y casos prácticos. Mismo destino de enlace que
+ * el menú lateral (`basePath/<tema-slug>`).
+ */
+export function RejillaTemas({ bloques, basePath }: { bloques: BloqueConTemas[]; basePath: string }) {
+  return (
+    <div className="grid gap-4 sm:grid-cols-2">
+      {bloques.map((bloque) => (
+        <div key={bloque.slug} className="rounded-xl border border-brand-100 bg-white p-5 shadow-sm">
+          <p className="text-xs font-semibold tracking-wider text-brand-500 uppercase">{bloque.titulo}</p>
+          <ul className="mt-3 space-y-1">
+            {bloque.temas.map((t) => (
+              <li key={t.slug}>
+                <Link
+                  href={`${basePath}/${t.slug}`}
+                  prefetch={false}
+                  className="flex items-center gap-2 rounded-md px-2 py-1 text-xs text-slate-600 transition-colors hover:bg-brand-50 hover:text-brand-700"
+                >
+                  <span className="font-semibold text-brand-600">T{t.numero}</span>
+                  {t.titulo}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+      ))}
+    </div>
+  );
 }
 
 /**
@@ -42,8 +76,16 @@ interface Props {
  * una sola vez aquí en vez de repetirlo en cada página.
  *
  * Server Component a propósito: el tema activo ya llega resuelto por
- * props desde `searchParams` en la página — no hace falta ningún estado
- * de cliente para saber qué resaltar.
+ * props desde el segmento `[tema]` de la ruta — no hace falta ningún
+ * estado de cliente para saber qué resaltar.
+ *
+ * El tema va en la ruta (`/test/tema-5`, `/test/todas`) y no en
+ * `?tema=` desde octubre de 2026: una página que lee `searchParams` se
+ * renderiza en cada visita, y eso era el grueso del consumo de "Fluid
+ * Active CPU" de Vercel; con el tema en la ruta, cada combinación es una
+ * página estática cacheada. Las URLs viejas con `?tema=` redirigen (ver
+ * `next.config.ts`). `prefetch={false}` en los enlaces: precargar los ~22
+ * temas de golpe regeneraría páginas que nadie ha pedido.
  */
 export function TemaExplorerLayout({
   titulo,
@@ -55,13 +97,8 @@ export function TemaExplorerLayout({
   anchoContenido = "max-w-2xl",
   children,
 }: Props) {
-  // `basePath` normalmente no trae querystring (ej. `/dpz/test`), pero el
-  // glosario en raíz sí puede traerlo ya (`/glosario?oposicion=dpz`) — se
-  // añade con `&` en vez de `?` cuando corresponda, para no generar una URL
-  // con dos signos de interrogación.
-  const separador = basePath.includes("?") ? "&" : "?";
-  const hrefTema = (slug: string) => `${basePath}${separador}tema=${slug}`;
-  const hrefTodas = `${basePath}${separador}tema=todas`;
+  const hrefTema = (slug: string) => `${basePath}/${slug}`;
+  const hrefTodas = `${basePath}/todas`;
 
   return (
     <div className="flex min-h-[calc(100vh-4rem)]">

@@ -30,6 +30,12 @@ import { SITE } from "@/lib/site";
  * eran el grueso del consumo de CPU de funciones en Vercel. Su versión
  * sin parámetros (la indexable) sigue abierta y enlaza a lo mismo, así que
  * Google no pierde ningún camino hacia el resto del sitio.
+ *
+ * Desde octubre de 2026 esas variantes ya no existen como páginas: el tema
+ * va en la ruta (`/test/tema-5`), son estáticas, y las URLs viejas con
+ * `?tema=` solo redirigen (next.config.ts). Se mantiene el Disallow por si
+ * algún robot conserva URLs viejas en cola; las nuevas sí son rastreables
+ * (estáticas, coste casi nulo) y siguen con `index: false`.
  */
 export default function robots(): MetadataRoute.Robots {
   return {

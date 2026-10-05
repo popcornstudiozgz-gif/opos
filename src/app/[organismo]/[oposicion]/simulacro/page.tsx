@@ -13,11 +13,22 @@ import {
 } from "@/lib/oposiciones";
 import { SimulacroRunner } from "@/components/simulacro/SimulacroRunner";
 import type { CasoPractico, Pregunta } from "@/lib/types";
-import { createClient } from "@/lib/supabase/server";
 import { mezclar } from "@/lib/mezclar";
 
 const NUM_PREGUNTAS_TEST = 50;
 const NUM_CASOS = 2;
+/** Tamaño de la bolsa que se envía al navegador para el sorteo final (ver SimulacroRunner). */
+const POOL_PREGUNTAS = 300;
+const POOL_CASOS = 8;
+
+/**
+ * Página estática regenerada como mucho cada hora (octubre 2026, por el
+ * consumo de "Fluid Active CPU" de Vercel): antes se renderizaba en cada
+ * visita para leer la sesión y sortear el examen. Ahora el usuario se
+ * resuelve en cliente y el sorteo final se hace en el navegador.
+ */
+export const dynamic = "force-static";
+export const revalidate = 3600;
 
 interface PageProps {
   params: Promise<{ organismo: string; oposicion: string }>;
@@ -42,11 +53,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 export default async function SimulacroPage({ params }: PageProps) {
   const { organismo, oposicion: puesto } = await params;
 
-  const supabase = await createClient();
-  const [oposicion, { data: { user } }] = await Promise.all([
-    getOposicionPorRuta(organismo, puesto),
-    supabase.auth.getUser(),
-  ]);
+  const oposicion = await getOposicionPorRuta(organismo, puesto);
   if (!oposicion) notFound();
   const oposicionSlug = oposicion.slug; // slug interno (PK) — para queries de contenido y progreso
   const base = `/${organismo}/${puesto}`;
@@ -59,8 +66,8 @@ export default async function SimulacroPage({ params }: PageProps) {
   // Las preguntas de un caso práctico dan por conocido su supuesto: se
   // excluyen del test suelto para no mostrarlas fuera de contexto.
   const idsEnCasos = new Set<string>(todosCasos.flatMap((c: CasoPractico) => c.preguntas.map((p) => p.id)));
-  const preguntas: Pregunta[] = mezclar(todasPreguntas.filter((p) => !idsEnCasos.has(p.id))).slice(0, NUM_PREGUNTAS_TEST);
-  const casos: CasoPractico[] = mezclar(todosCasos).slice(0, NUM_CASOS);
+  const poolPreguntas: Pregunta[] = mezclar(todasPreguntas.filter((p) => !idsEnCasos.has(p.id))).slice(0, POOL_PREGUNTAS);
+  const poolCasos: CasoPractico[] = mezclar(todosCasos).slice(0, POOL_CASOS);
 
   const temaABloque: Record<string, string> = {};
   for (const bloque of bloques) {
@@ -82,17 +89,18 @@ export default async function SimulacroPage({ params }: PageProps) {
       />
 
       <Container className="py-12">
-        {preguntas.length === 0 ? (
+        {poolPreguntas.length === 0 ? (
           <div className="mx-auto max-w-2xl rounded-xl border border-dashed border-brand-200 bg-brand-50/50 p-8 text-center text-slate-600">
             Todavía no hay preguntas suficientes para armar un simulacro de esta oposición.
           </div>
         ) : (
           <SimulacroRunner
             oposicionSlug={oposicionSlug}
-            preguntas={preguntas}
-            casos={casos}
+            poolPreguntas={poolPreguntas}
+            poolCasos={poolCasos}
+            numPreguntas={NUM_PREGUNTAS_TEST}
+            numCasos={NUM_CASOS}
             temaABloque={temaABloque}
-            usuarioId={user?.id ?? null}
           />
         )}
       </Container>

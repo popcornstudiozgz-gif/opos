@@ -35,7 +35,7 @@ export async function Navbar({ oposicionSlug }: { oposicionSlug?: string }) {
         { href: `${base}/temario`, label: "Temario", principal: true },
         { href: `${base}/test`, label: "Test", principal: true },
         { href: `${base}/simulacro`, label: "Simulacro", principal: true },
-        { href: `/glosario?oposicion=${oposicion.slug}`, label: "Glosario", principal: false },
+        { href: `/glosario/${oposicion.slug}`, label: "Glosario", principal: false },
         { href: `${base}/flashcards`, label: "Flashcards", principal: false },
         { href: `${base}/casos-practicos`, label: "Casos prácticos", principal: false },
         { href: `/blog?oposicion=${oposicion.slug}`, label: "Noticias", principal: false },
