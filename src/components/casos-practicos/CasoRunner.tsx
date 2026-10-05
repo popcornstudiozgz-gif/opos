@@ -6,7 +6,7 @@ import type { Pregunta } from "@/lib/types";
 import { createClient } from "@/lib/supabase/client";
 import { crearIntento, guardarRespuesta, cerrarIntento } from "@/lib/persistirIntento";
 import { mezclar } from "@/lib/mezclar";
-import { useUsuarioId } from "@/lib/useUsuarioId";
+import { obtenerUsuarioId } from "@/lib/useUsuarioId";
 
 /**
  * Recorre las preguntas de un caso práctico en el orden fijado por
@@ -25,7 +25,6 @@ interface Props {
 }
 
 export function CasoRunner({ preguntas, oposicionSlug, casoId }: Props) {
-  const usuarioId = useUsuarioId();
   const sesion = useMemo(() => preguntas.map((p) => ({ ...p, opciones: mezclar(p.opciones) })), [preguntas]);
   const [indice, setIndice] = useState(0);
   const [seleccion, setSeleccion] = useState<Record<string, string>>({});
@@ -33,17 +32,15 @@ export function CasoRunner({ preguntas, oposicionSlug, casoId }: Props) {
   const intentoPromiseRef = useRef<Promise<string | null> | null>(null);
 
   // El caso no tiene fase de configuración ni botón "comenzar": el intento
-  // se crea con la primera respuesta (el usuario se resuelve en cliente, y
-  // al montar todavía puede no conocerse).
+  // se crea con la primera respuesta, esperando a conocer al usuario (se
+  // resuelve en el navegador, la página es estática).
   function obtenerIntento() {
-    if (!intentoPromiseRef.current && usuarioId && oposicionSlug) {
-      intentoPromiseRef.current = crearIntento(createClient(), {
-        usuarioId,
-        oposicionSlug,
-        modo: "caso",
-        casoId,
-        total: sesion.length,
-      });
+    if (!intentoPromiseRef.current && oposicionSlug) {
+      intentoPromiseRef.current = obtenerUsuarioId().then((usuarioId) =>
+        usuarioId
+          ? crearIntento(createClient(), { usuarioId, oposicionSlug, modo: "caso", casoId, total: sesion.length })
+          : null
+      );
     }
     return intentoPromiseRef.current;
   }

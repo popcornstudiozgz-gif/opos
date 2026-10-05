@@ -18,7 +18,7 @@ import { mezclar } from "@/lib/mezclar";
 const NUM_PREGUNTAS_TEST = 50;
 const NUM_CASOS = 2;
 /** Tamaño de la bolsa que se envía al navegador para el sorteo final (ver SimulacroRunner). */
-const POOL_PREGUNTAS = 150;
+const POOL_PREGUNTAS = 300;
 const POOL_CASOS = 8;
 
 /**

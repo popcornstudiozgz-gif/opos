@@ -36,3 +36,20 @@ export function useUsuarioId(): string | null {
 
   return usuarioId;
 }
+
+/**
+ * Lo mismo que `useUsuarioId`, pero esperando a la respuesta: para crear un
+ * intento al pulsar "Comenzar" o al contestar, cuando el hook aún puede
+ * devolver `null` porque la comprobación de sesión no ha terminado (si no,
+ * un test empezado en el primer medio segundo no se guardaría).
+ */
+export async function obtenerUsuarioId(): Promise<string | null> {
+  try {
+    const {
+      data: { user },
+    } = await createClient().auth.getUser();
+    return user?.id ?? null;
+  } catch {
+    return null;
+  }
+}

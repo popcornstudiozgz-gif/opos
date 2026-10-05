@@ -118,7 +118,7 @@ leen `searchParams` ni la sesión en el servidor — son estáticas/ISR
 (`[tema]` = slug del tema o `todas`); las URLs viejas con `?tema=` /
 `?oposicion=` redirigen desde `next.config.ts`. El usuario se resuelve en
 el navegador con `src/lib/useUsuarioId.ts` (progreso de flashcards incluido,
-y `?modo=repasar` se lee en cliente); el simulacro recibe una bolsa de 150
+y `?modo=repasar` se lee en cliente); el simulacro recibe una bolsa de 300
 preguntas/8 casos y sortea el examen en el navegador al pulsar "Comenzar".
 El proxy de sesión (`src/proxy.ts`) solo corre en `/perfil` y `/admin`:
 **si una página nueva lee la sesión en el servidor, añádela a su

@@ -6,7 +6,7 @@ import type { Dificultad, Pregunta } from "@/lib/types";
 import { createClient } from "@/lib/supabase/client";
 import { crearIntento, guardarRespuesta, cerrarIntento } from "@/lib/persistirIntento";
 import { mezclar } from "@/lib/mezclar";
-import { useUsuarioId } from "@/lib/useUsuarioId";
+import { obtenerUsuarioId } from "@/lib/useUsuarioId";
 
 type FiltroDificultad = "todos" | Dificultad;
 type Cantidad = 10 | 20 | 30 | 50 | "todas";
@@ -42,7 +42,6 @@ export function TestRunner({
   modo = "aleatorio",
   temaSlug = null,
 }: Props) {
-  const usuarioId = useUsuarioId();
   const [fase, setFase] = useState<Fase>("config");
   const [filtro, setFiltro] = useState<FiltroDificultad>("todos");
   const [cantidad, setCantidad] = useState<Cantidad>(20);
@@ -80,16 +79,22 @@ export function TestRunner({
     setSeleccion({});
     setFase("sesion");
 
-    intentoPromiseRef.current =
-      usuarioId && oposicionSlug
-        ? crearIntento(createClient(), {
-            usuarioId,
-            oposicionSlug,
-            modo,
-            temaSlug: modo === "tema" ? temaSlug : null,
-            total: seleccionadas.length,
-          })
-        : null;
+    // Se espera a conocer al usuario (resuelto en el navegador, la página
+    // es estática) antes de crear el intento; las respuestas que lleguen
+    // mientras tanto esperan a esta misma promesa, así que no se pierden.
+    intentoPromiseRef.current = oposicionSlug
+      ? obtenerUsuarioId().then((usuarioId) =>
+          usuarioId
+            ? crearIntento(createClient(), {
+                usuarioId,
+                oposicionSlug,
+                modo,
+                temaSlug: modo === "tema" ? temaSlug : null,
+                total: seleccionadas.length,
+              })
+            : null
+        )
+      : null;
   }
 
   async function responder(preguntaId: string, opcionId: string) {

@@ -8,7 +8,7 @@ import { SimulacroQuiz, type PreguntaSimulacro } from "./SimulacroQuiz";
 import { createClient } from "@/lib/supabase/client";
 import { crearIntento, guardarRespuesta, cerrarIntento } from "@/lib/persistirIntento";
 import { mezclar } from "@/lib/mezclar";
-import { useUsuarioId } from "@/lib/useUsuarioId";
+import { obtenerUsuarioId } from "@/lib/useUsuarioId";
 
 /**
  * Simulacro completo: dos fases cronometradas (test + casos prácticos) con
@@ -196,7 +196,6 @@ interface Props {
 }
 
 export function SimulacroRunner({ oposicionSlug, poolPreguntas, poolCasos, numPreguntas, numCasos, temaABloque }: Props) {
-  const usuarioId = useUsuarioId();
   // Antes de comenzar, una selección determinista (igual en servidor y
   // cliente, sin desajuste de hidratación); el sorteo real va en `comenzar`.
   const [preguntas, setPreguntas] = useState<Pregunta[]>(() => poolPreguntas.slice(0, numPreguntas));
@@ -237,9 +236,10 @@ export function SimulacroRunner({ oposicionSlug, poolPreguntas, poolCasos, numPr
       };
       guardarHistorial(oposicionSlug, [entry, ...historial].slice(0, 5));
 
-      if (usuarioId) {
-        void persistirSimulacro(usuarioId, oposicionSlug, resultadoTest, r);
-      }
+      const test = resultadoTest;
+      void obtenerUsuarioId().then((usuarioId) => {
+        if (usuarioId) return persistirSimulacro(usuarioId, oposicionSlug, test, r);
+      });
     }
 
     setFase("resultado-final");
