@@ -83,7 +83,7 @@ export default async function OposicionHome({ params }: PageProps) {
     {
       titulo: "Glosario",
       descripcion: "Definiciones claras de los términos administrativos más importantes.",
-      href: `/glosario?oposicion=${slug}`,
+      href: `/glosario/${slug}`,
       icono: "🔎",
     },
     {

@@ -6,6 +6,7 @@ import type { Dificultad, Pregunta } from "@/lib/types";
 import { createClient } from "@/lib/supabase/client";
 import { crearIntento, guardarRespuesta, cerrarIntento } from "@/lib/persistirIntento";
 import { mezclar } from "@/lib/mezclar";
+import { useUsuarioId } from "@/lib/useUsuarioId";
 
 type FiltroDificultad = "todos" | Dificultad;
 type Cantidad = 10 | 20 | 30 | 50 | "todas";
@@ -29,8 +30,6 @@ const CANTIDADES: { id: Cantidad; label: string }[] = [
 interface Props {
   preguntas: Pregunta[];
   contextLabel?: string;
-  /** Id del usuario logueado, o null si es anónimo. Resuelto server-side. */
-  usuarioId?: string | null;
   oposicionSlug?: string;
   modo?: "tema" | "aleatorio";
   temaSlug?: string | null;
@@ -39,11 +38,11 @@ interface Props {
 export function TestRunner({
   preguntas,
   contextLabel,
-  usuarioId = null,
   oposicionSlug,
   modo = "aleatorio",
   temaSlug = null,
 }: Props) {
+  const usuarioId = useUsuarioId();
   const [fase, setFase] = useState<Fase>("config");
   const [filtro, setFiltro] = useState<FiltroDificultad>("todos");
   const [cantidad, setCantidad] = useState<Cantidad>(20);

@@ -1,11 +1,12 @@
 "use client";
 
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useMemo, useRef, useState } from "react";
 import { Button } from "@/components/ui/Button";
 import type { Pregunta } from "@/lib/types";
 import { createClient } from "@/lib/supabase/client";
 import { crearIntento, guardarRespuesta, cerrarIntento } from "@/lib/persistirIntento";
 import { mezclar } from "@/lib/mezclar";
+import { useUsuarioId } from "@/lib/useUsuarioId";
 
 /**
  * Recorre las preguntas de un caso práctico en el orden fijado por
@@ -19,33 +20,39 @@ import { mezclar } from "@/lib/mezclar";
 
 interface Props {
   preguntas: Pregunta[];
-  usuarioId?: string | null;
   oposicionSlug?: string;
   casoId?: string;
 }
 
-export function CasoRunner({ preguntas, usuarioId = null, oposicionSlug, casoId }: Props) {
+export function CasoRunner({ preguntas, oposicionSlug, casoId }: Props) {
+  const usuarioId = useUsuarioId();
   const sesion = useMemo(() => preguntas.map((p) => ({ ...p, opciones: mezclar(p.opciones) })), [preguntas]);
   const [indice, setIndice] = useState(0);
   const [seleccion, setSeleccion] = useState<Record<string, string>>({});
   const [terminado, setTerminado] = useState(false);
   const intentoPromiseRef = useRef<Promise<string | null> | null>(null);
 
-  // El caso no tiene fase de configuración: el intento se crea al montar,
-  // no tras un botón "comenzar" como en TestRunner.
-  useEffect(() => {
-    intentoPromiseRef.current =
-      usuarioId && oposicionSlug
-        ? crearIntento(createClient(), { usuarioId, oposicionSlug, modo: "caso", casoId, total: sesion.length })
-        : null;
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  // El caso no tiene fase de configuración ni botón "comenzar": el intento
+  // se crea con la primera respuesta (el usuario se resuelve en cliente, y
+  // al montar todavía puede no conocerse).
+  function obtenerIntento() {
+    if (!intentoPromiseRef.current && usuarioId && oposicionSlug) {
+      intentoPromiseRef.current = crearIntento(createClient(), {
+        usuarioId,
+        oposicionSlug,
+        modo: "caso",
+        casoId,
+        total: sesion.length,
+      });
+    }
+    return intentoPromiseRef.current;
+  }
 
   async function responder(preguntaId: string, opcionId: string) {
     if (seleccion[preguntaId]) return;
     setSeleccion((prev) => ({ ...prev, [preguntaId]: opcionId }));
 
-    const intentoId = await intentoPromiseRef.current;
+    const intentoId = await obtenerIntento();
     if (!intentoId) return;
     const opcion = sesion.find((p) => p.id === preguntaId)?.opciones.find((o) => o.id === opcionId);
     if (!opcion) return;
@@ -70,10 +77,7 @@ export function CasoRunner({ preguntas, usuarioId = null, oposicionSlug, casoId 
     setIndice(0);
     setSeleccion({});
     setTerminado(false);
-    intentoPromiseRef.current =
-      usuarioId && oposicionSlug
-        ? crearIntento(createClient(), { usuarioId, oposicionSlug, modo: "caso", casoId, total: sesion.length })
-        : null;
+    intentoPromiseRef.current = null;
   }
 
   if (terminado) {

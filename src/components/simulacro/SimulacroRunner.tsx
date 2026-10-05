@@ -7,6 +7,8 @@ import type { CasoPractico, Pregunta } from "@/lib/types";
 import { SimulacroQuiz, type PreguntaSimulacro } from "./SimulacroQuiz";
 import { createClient } from "@/lib/supabase/client";
 import { crearIntento, guardarRespuesta, cerrarIntento } from "@/lib/persistirIntento";
+import { mezclar } from "@/lib/mezclar";
+import { useUsuarioId } from "@/lib/useUsuarioId";
 
 /**
  * Simulacro completo: dos fases cronometradas (test + casos prácticos) con
@@ -180,13 +182,25 @@ async function persistirSimulacro(
 
 interface Props {
   oposicionSlug: string;
-  preguntas: Pregunta[];
-  casos: CasoPractico[];
+  /**
+   * Bolsa de preguntas/casos ya barajada en el servidor, más grande que el
+   * examen: la página es estática (se regenera como mucho cada hora), así
+   * que el sorteo final de `numPreguntas`/`numCasos` se hace aquí, al pulsar
+   * "Comenzar", para que cada intento sea distinto.
+   */
+  poolPreguntas: Pregunta[];
+  poolCasos: CasoPractico[];
+  numPreguntas: number;
+  numCasos: number;
   temaABloque: Record<string, string>;
-  usuarioId?: string | null;
 }
 
-export function SimulacroRunner({ oposicionSlug, preguntas, casos, temaABloque, usuarioId = null }: Props) {
+export function SimulacroRunner({ oposicionSlug, poolPreguntas, poolCasos, numPreguntas, numCasos, temaABloque }: Props) {
+  const usuarioId = useUsuarioId();
+  // Antes de comenzar, una selección determinista (igual en servidor y
+  // cliente, sin desajuste de hidratación); el sorteo real va en `comenzar`.
+  const [preguntas, setPreguntas] = useState<Pregunta[]>(() => poolPreguntas.slice(0, numPreguntas));
+  const [casos, setCasos] = useState<CasoPractico[]>(() => poolCasos.slice(0, numCasos));
   const [fase, setFase] = useState<Fase>("inicio");
   const [resultadoTest, setResultadoTest] = useState<ResultadoParcial | null>(null);
   const [resultadoCasos, setResultadoCasos] = useState<ResultadoParcial | null>(null);
@@ -197,6 +211,12 @@ export function SimulacroRunner({ oposicionSlug, preguntas, casos, temaABloque, 
   const preguntasCasos: PreguntaSimulacro[] = casos.flatMap((caso) =>
     caso.preguntas.map((p) => ({ ...p, casoTitulo: caso.titulo, casoSupuesto: caso.supuesto }))
   );
+
+  function comenzar() {
+    setPreguntas(mezclar(poolPreguntas).slice(0, numPreguntas));
+    setCasos(mezclar(poolCasos).slice(0, numCasos));
+    setFase("test");
+  }
 
   function handleFinTest(respuestas: Record<string, string>) {
     const r = calcularResultado(preguntas, respuestas, 10);
@@ -286,7 +306,7 @@ export function SimulacroRunner({ oposicionSlug, preguntas, casos, temaABloque, 
             </div>
           )}
 
-          <Button tamano="lg" onClick={() => setFase("test")} className="w-full" disabled={preguntas.length === 0}>
+          <Button tamano="lg" onClick={comenzar} className="w-full" disabled={preguntas.length === 0}>
             Comenzar Parte 1 · Test →
           </Button>
         </Card>

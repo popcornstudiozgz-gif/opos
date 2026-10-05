@@ -440,7 +440,7 @@ const getFlashcardsCanonicasDeTema = cacheado(
 /**
  * Todas las flashcards de una oposición (unión de todos sus temas
  * asignados, cada uno ya recortado por `secciones_incluidas`). Se usa en
- * la vista "Todas las tarjetas" de `/[oposicion]/flashcards?tema=todas`.
+ * la vista "Todas las tarjetas" de `/[organismo]/[oposicion]/flashcards/todas`.
  */
 export async function getFlashcardsDeOposicion(oposicionSlug: string): Promise<Flashcard[]> {
   const temas = await getTemasDeOposicion(oposicionSlug);

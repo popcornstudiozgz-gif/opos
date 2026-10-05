@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/Button";
 import type { Flashcard } from "@/lib/types";
 import { createClient } from "@/lib/supabase/client";
 import { calcularSM2, calidadDesdeBinario, ESTADO_SM2_INICIAL } from "@/lib/sm2";
+import { useUsuarioId } from "@/lib/useUsuarioId";
 
 type Cantidad = 10 | 20 | 30 | 50 | "todas";
 /**
@@ -102,16 +103,14 @@ export interface ProgresoFlashcard {
   proximaRevision: string; // YYYY-MM-DD
 }
 
+const sinSuscripcion = () => () => {};
+const leerModoUrl = (): Modo =>
+  new URLSearchParams(window.location.search).get("modo") === "repasar" ? "repasar" : "todas";
+
 interface Props {
   cards: Flashcard[];
   contextLabel?: string;
   oposicionSlug: string;
-  /** Id del usuario logueado, o null/undefined si es anónimo. */
-  usuarioId?: string | null;
-  /** Progreso SM-2 ya guardado en Supabase, solo relevante si hay usuarioId. */
-  progresoInicial?: Record<string, ProgresoFlashcard>;
-  /** Modo preseleccionado en la pantalla de configuración (p. ej. al llegar desde "Repasar ahora" en el perfil). */
-  modoInicial?: Modo;
 }
 
 /**
@@ -125,19 +124,57 @@ export function FlashcardsStudio({
   cards,
   contextLabel,
   oposicionSlug,
-  usuarioId = null,
-  progresoInicial = {},
-  modoInicial = "todas",
 }: Props) {
+  const usuarioId = useUsuarioId();
   const [fase, setFase] = useState<Fase>("config");
   const [cantidad, setCantidad] = useState<Cantidad>(20);
-  const [modo, setModo] = useState<Modo>(modoInicial);
+  // Deep-link desde "Repasar ahora" en /perfil (`?modo=repasar`): la página
+  // es estática, así que el parámetro se lee aquí, en el navegador, hasta
+  // que el usuario elija otro modo.
+  const modoUrl = useSyncExternalStore(sinSuscripcion, leerModoUrl, () => "todas" as Modo);
+  const [modoElegido, setModo] = useState<Modo | null>(null);
+  const modo = modoElegido ?? modoUrl;
   const [tarjetasSesion, setTarjetasSesion] = useState<Flashcard[]>([]);
   const [indice, setIndice] = useState(0);
   const [volteada, setVolteada] = useState(false);
   const [ultimaEval, setUltimaEval] = useState<boolean | null>(null);
   const stats = useStatsFlashcards(oposicionSlug);
-  const [progresoSM2, setProgresoSM2] = useState<Record<string, ProgresoFlashcard>>(progresoInicial);
+  const [progresoSM2, setProgresoSM2] = useState<Record<string, ProgresoFlashcard>>({});
+
+  // Progreso SM-2 guardado, cargado en cliente (la página es estática y no
+  // conoce al usuario). Sin filtrar por `flashcard_id`: con "Todas las
+  // tarjetas" en una oposición grande (~800 flashcards) un `.in()` con esa
+  // lista entera generaba una URL demasiado larga y la petición fallaba. La
+  // fila ya viene acotada a este usuario y esta oposición.
+  useEffect(() => {
+    if (!usuarioId) return;
+    let cancelado = false;
+    createClient()
+      .from("flashcard_progreso")
+      .select("flashcard_id, repeticiones, factor_facilidad, intervalo_dias, proxima_revision")
+      .eq("user_id", usuarioId)
+      .eq("oposicion_slug", oposicionSlug)
+      .then(({ data, error }) => {
+        if (error) console.error("No se pudo cargar el progreso de flashcards:", error);
+        if (cancelado || !data) return;
+        const cargado: Record<string, ProgresoFlashcard> = Object.fromEntries(
+          data.map((p) => [
+            p.flashcard_id,
+            {
+              repeticiones: p.repeticiones,
+              factorFacilidad: p.factor_facilidad,
+              intervaloDias: p.intervalo_dias,
+              proximaRevision: p.proxima_revision,
+            },
+          ])
+        );
+        // Lo evaluado en esta visita antes de que llegase la respuesta manda.
+        setProgresoSM2((prev) => ({ ...cargado, ...prev }));
+      });
+    return () => {
+      cancelado = true;
+    };
+  }, [usuarioId, oposicionSlug]);
   /**
    * Qué se respondió a cada tarjeta EN ESTA SESIÓN (id → sabe/no sabe).
    * Necesario para el resumen de "fin": no puede reutilizar `estaParaRepasar`,
