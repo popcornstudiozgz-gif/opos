@@ -82,6 +82,11 @@ comentarios directamente si algo aquí no cuadra.
   lo anterior, **no es reutilizable** entre oposiciones aunque compartan
   puesto. El contrato TypeScript exacto (`Convocatoria`,
   `mapConvocatoria()`) está en `src/data/convocatorias.ts`.
+  `convocatorias.estado` (`abierta`/`cerrada`/`pendiente_publicacion`)
+  se fija a mano; **al marcar una como `abierta`, rellena siempre
+  `plazo_fin`** (date, último día inclusive, migración 0017): la app la
+  trata como cerrada en cuanto pasa ese día (`src/lib/plazos.ts`) y la
+  home (`revalidate = 3600`) deja de mostrarla sola, sin script de cierre.
 - Progreso de usuario (`profiles`, `test_intentos`, `flashcard_progreso`,
   `tema_progreso`, etc. — `supabase/migrations/0007_usuarios_progreso.sql`)
   se guarda **por `oposicion_slug`**, no por tema: si dos oposiciones
