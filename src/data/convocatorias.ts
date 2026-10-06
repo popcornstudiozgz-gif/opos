@@ -1,4 +1,5 @@
 import { createClient } from "@/lib/supabase/public";
+import { plazoVencido } from "@/lib/plazos";
 
 /**
  * Datos de convocatoria, por oposición. A diferencia del temario, la
@@ -35,10 +36,10 @@ export interface PruebaExamen {
 }
 
 /**
- * Estado real del plazo de instancias, fijado a mano en cada script de
- * convocatoria (no calculado a partir de fechas: la fecha de publicación
- * en el BOE, de la que depende el cierre real del plazo, no siempre está
- * en la propia base de datos). "pendiente_publicacion" es el caso de una
+ * Estado del plazo de instancias, fijado a mano en cada script de
+ * convocatoria. Si la fila trae además `plazo_fin` (migración 0017), una
+ * 'abierta' cuyo último día ya pasó se devuelve como 'cerrada' sin tocar
+ * la BD (ver `lib/plazos.ts`). "pendiente_publicacion" es el caso de una
  * plaza prevista en la oferta de empleo público cuyas bases específicas
  * todavía no se han publicado (ver Oficial Fontanero).
  */
@@ -62,6 +63,8 @@ export interface Convocatoria {
   ultimaActualizacion: string;
   pruebas: PruebaExamen[];
   estado: EstadoConvocatoria;
+  /** Último día del plazo de instancias (YYYY-MM-DD, inclusive), si se conoce. */
+  plazoFin: string | null;
 }
 
 type FilaConvocatoria = {
@@ -82,7 +85,12 @@ type FilaConvocatoria = {
   ultima_actualizacion: string;
   pruebas: PruebaExamen[];
   estado: EstadoConvocatoria;
+  plazo_fin?: string | null;
 };
+
+function estadoEfectivo(estado: EstadoConvocatoria, plazoFin: string | null | undefined): EstadoConvocatoria {
+  return estado === "abierta" && plazoVencido(plazoFin) ? "cerrada" : estado;
+}
 
 function mapConvocatoria(fila: FilaConvocatoria): Convocatoria {
   return {
@@ -102,7 +110,8 @@ function mapConvocatoria(fila: FilaConvocatoria): Convocatoria {
     enlacesOficiales: fila.enlaces_oficiales,
     ultimaActualizacion: fila.ultima_actualizacion,
     pruebas: fila.pruebas,
-    estado: fila.estado,
+    estado: estadoEfectivo(fila.estado, fila.plazo_fin),
+    plazoFin: fila.plazo_fin ?? null,
   };
 }
 
@@ -128,8 +137,8 @@ export interface ConvocatoriaAbierta {
 }
 
 /**
- * Convocatorias con `estado = 'abierta'` ahora mismo, para el bloque de
- * la home. Al ser contenido opcional (la home debe seguir funcionando
+ * Convocatorias con `estado = 'abierta'` y `plazo_fin` sin vencer, para el
+ * bloque de la home. Al ser contenido opcional (la home debe seguir funcionando
  * igual si esto falla o si hoy no hay ninguna abierta) sigue el mismo
  * criterio "nunca se rechaza" que `lib/blog.ts`: `[]` ante cualquier
  * fallo, nunca tumba el resto de la página.
@@ -139,7 +148,7 @@ export async function getConvocatoriasAbiertas(): Promise<ConvocatoriaAbierta[]>
     const supabase = createClient();
     const { data, error } = await supabase
       .from("convocatorias")
-      .select("oposicion_slug, plazas_total, plazo_instancias, oposiciones!inner(nombre, organismo, organismo_slug, puesto_slug, activa)")
+      .select("oposicion_slug, plazas_total, plazo_instancias, plazo_fin, oposiciones!inner(nombre, organismo, organismo_slug, puesto_slug, activa)")
       .eq("estado", "abierta")
       .eq("oposiciones.activa", true)
       .returns<
@@ -147,13 +156,14 @@ export async function getConvocatoriasAbiertas(): Promise<ConvocatoriaAbierta[]>
           oposicion_slug: string;
           plazas_total: number;
           plazo_instancias: string;
+          plazo_fin: string | null;
           oposiciones: { nombre: string; organismo: string; organismo_slug: string; puesto_slug: string } | { nombre: string; organismo: string; organismo_slug: string; puesto_slug: string }[] | null;
         }[]
       >();
     if (error) throw error;
     return (data ?? []).flatMap((fila) => {
       const oposicion = Array.isArray(fila.oposiciones) ? fila.oposiciones[0] : fila.oposiciones;
-      if (!oposicion) return [];
+      if (!oposicion || plazoVencido(fila.plazo_fin)) return [];
       return [
         {
           oposicionSlug: fila.oposicion_slug,

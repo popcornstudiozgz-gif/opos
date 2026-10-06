@@ -23,6 +23,14 @@ export const metadata: Metadata = crearMetadata({
   ruta: "/",
 });
 
+/**
+ * La home lee Supabase al generarse; sin esto solo se regeneraba en cada
+ * despliegue y una convocatoria seguía saliendo como "abierta" después de
+ * su `plazo_fin`. Una regeneración por hora como mucho (mismo criterio que
+ * las páginas de estudio, ver CLAUDE.md sobre Fluid Active CPU).
+ */
+export const revalidate = 3600;
+
 const CARACTERISTICAS = [
   {
     titulo: "Temario interactivo",
