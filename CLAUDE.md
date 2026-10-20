@@ -815,15 +815,30 @@ excepto Auxiliar Administrativo en `dpz` y `gobierno-aragon`:
   polígonos; extraídos **por coordenadas** del PDF con pypdf — pdftotext
   desalineaba filas; la fila "MAYOR|MAYOR|MAYOR" es errata del anexo y se
   omite). Preguntas con **3 opciones** (como el examen real).
-  **Pendiente: temas 9-40 (Parte II)**, por este orden: los 16 con
-  apuntes oficiales de la Escuela de Bomberos (ya descargados en
-  `scripts/tmp-fuentes/bombero/escuela/`, texto extraíble: temas 9-13,
-  17, 18, 20, 26, 27, 28, 31-34, 36), luego los que el Servicio remite a
-  manuales externos (IVASPE, Arkaute, CEIS Guadalajara, DP Sevilla — ver
-  `Bibliografia_externa_recomendada_temario_BNI.pdf`), y por último los
-  normativos (CTE DB-SI Anejo A, Plan de Voluntarios de Protección Civil,
-  Ley 1/2013 y Decretos 158 y 159/2014 de Aragón, Ley 31/1995).
-  Mientras falte la Parte II, el simulacro sobrerrepresenta el callejero.
+  **Parte II completa (octubre 2026): los 41 números vinculados.**
+  Temas 9-40 = `tema-304` a `tema-335` (slug = 295 + número), salvo el
+  Tema 38 (Ley 31/1995), que reutiliza el canónico `tema-25`
+  (`fix-bombero-reusa-tema-25-prl.mjs`). Fuentes por grupos: (a) los 16
+  temas con apuntes oficiales de la Escuela de Bomberos (9-13, 17, 18,
+  20, 26-28, 31-34, 36; PDFs en `scripts/tmp-fuentes/bombero/escuela/`);
+  (b) los que la Escuela remite a manuales externos según
+  `Bibliografia_externa_recomendada_temario_BNI.pdf`, todos localizados
+  en webs públicas: Manual IVASPE nov. 2017 (temas 14-16, 23, 24, 29,
+  30; PDF de 235 MB en valencia.es), Manual de Arkaute 2011 (tema 19,
+  web de Bomberos Forales de Álava; escaneo parcialmente ilegible,
+  completado con IVASPE), CEIS Guadalajara (temas 21 y 25, en
+  ceis.antiun.net; CC BY-NC-SA) y DP Sevilla (tema 22: su capítulo de
+  ascensores está reproducido en la Guía Táctica GTA/CPEIS/9, en
+  dipusevilla.es); (c) normativos: CTE DB-SI Anejo A (consolidado mar.
+  2025), Reglamento municipal de Voluntarios de PC (sede zaragoza.es),
+  Ley 1/2013 (BOE-A-2013-3810) y Decretos 158 y 159/2014 (solo en BOA,
+  núm. 204 de 17-10-2014). Lagunas señaladas: el manual de IPSIGE (tema
+  34) es interno; los temas 36 y 37 citan la Ley 30/2002, sustituida por
+  la Ley 4/2024. **Helper compartido:** `scripts/lib/sembrar-tema.mjs`
+  (`sembrarTema(datos)` + constantes `BOMBERO`) valida y siembra tema,
+  flashcards, preguntas con la correcta en primer lugar, glosario, 3
+  casos de 10 preguntas y el vínculo — los `seed-tema-3NN-*.mjs` de
+  Bombero son solo datos; úsalo para oposiciones nuevas.
 
 Corrección hecha en esa sesión (`fix-tema-42-ivtm-obligatorio.mjs`):
 tema-42 (de las 16 "Oficial X") daba el IVTM como impuesto potestativo;
