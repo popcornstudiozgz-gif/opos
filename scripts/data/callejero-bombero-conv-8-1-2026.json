@@ -1,0 +1,2070 @@
+{
+ "fuente": "bases2107.pdf (CONV 8.1/2026, BOP núm. 170 de 27-07-2026), Anexo III. Extraído por posición del texto en el PDF.",
+ "calles": [
+  {
+   "calle": "ACUARIO",
+   "entrada": "CENTAURO",
+   "salida": "PERSEO"
+  },
+  {
+   "calle": "ADOLFO, HERMANO",
+   "entrada": "SERVET, MIGUEL",
+   "salida": "POBLET, MNTRIO. DE"
+  },
+  {
+   "calle": "ÁFRICA",
+   "entrada": "BUENAVISTA, CABEZO DE",
+   "salida": "PINAR"
+  },
+  {
+   "calle": "AGUADORES",
+   "entrada": "SAN BLAS",
+   "salida": "PREDICADORES"
+  },
+  {
+   "calle": "AGUSTÍN, MARÍA",
+   "entrada": "CÉSAR AUGUSTO",
+   "salida": "EUROPA"
+  },
+  {
+   "calle": "ALBA, DUQUE DE",
+   "entrada": "GARCÉS, FRAY JULIÁN",
+   "salida": "INFANTES DE ESPAÑA"
+  },
+  {
+   "calle": "ALBA, LAGOS DE",
+   "entrada": "SAN FELICES, MARQUÉS DE",
+   "salida": "PLAN, IBÓN DE"
+  },
+  {
+   "calle": "ALBAREDA, JOSÉ LUIS",
+   "entrada": "INDEPENDENCIA",
+   "salida": "FLEMING, DOCTOR"
+  },
+  {
+   "calle": "ALFONSO I",
+   "entrada": "COSO",
+   "salida": "PILAR, NTRA. SRA. DEL"
+  },
+  {
+   "calle": "ALIERTA, CESÁREO",
+   "entrada": "MINA, LA",
+   "salida": "HISPANIDAD"
+  },
+  {
+   "calle": "ALMOZARA, LA",
+   "entrada": "EUROPA",
+   "salida": "FRANCIA"
+  },
+  {
+   "calle": "ALMOZARA, DE LA",
+   "entrada": "EUROPA",
+   "salida": "BROTO, VALLE DE"
+  },
+  {
+   "calle": "ALONSO V",
+   "entrada": "COSO",
+   "salida": "ASALTO"
+  },
+  {
+   "calle": "ÁLVAREZ, MARCELINO",
+   "entrada": "CAMPILLO DE LLERENA",
+   "salida": "SAGRADA FAMILIA"
+  },
+  {
+   "calle": "ALLENDE, SALVADOR",
+   "entrada": "BROTO, VALLE DE",
+   "salida": "SAN JUAN DE LA PEÑA"
+  },
+  {
+   "calle": "AMÉRICA",
+   "entrada": "PIGNATELLI, RAMÓN",
+   "salida": "HISPANIDAD"
+  },
+  {
+   "calle": "AMERICANO EN PARÍS, UN",
+   "entrada": "SÉPTIMO ARTE",
+   "salida": "DILIGENCIA, LA"
+  },
+  {
+   "calle": "AMIGÓ, FRAY LUIS",
+   "entrada": "MORCILLO, ARZ. CASIMIRO",
+   "salida": "MARINA ESPAÑOLA"
+  },
+  {
+   "calle": "ANZANO, TOMÁS",
+   "entrada": "SAN JUAN BTA. DE LA SALLE",
+   "salida": "MAGO DE OZ, EL"
+  },
+  {
+   "calle": "AÑOA DEL BUSTO, ARZOBISPO",
+   "entrada": "MADRID",
+   "salida": "NAVARRA"
+  },
+  {
+   "calle": "APAOLAZA, ARZOBISPO",
+   "entrada": "SAN FRANCISCO",
+   "salida": "CARLOS, EMPERADOR"
+  },
+  {
+   "calle": "ARAGÓN",
+   "entrada": "INDEPENDENCIA",
+   "salida": "PARAÍSO, BASILIO"
+  },
+  {
+   "calle": "ARAGÓN, CONDES DE",
+   "entrada": "HUNGRÍA, VIOLANTE DE",
+   "salida": "HISPANIDAD"
+  },
+  {
+   "calle": "ARAGÓN, CORONA DE",
+   "entrada": "CATÓLICO, FERNANDO EL",
+   "salida": "VALENCIA"
+  },
+  {
+   "calle": "ARAGÓN, CORTES DE",
+   "entrada": "CARMEN",
+   "salida": "ARAGÓN, CORONA DE"
+  },
+  {
+   "calle": "ARAGÓN, FUEROS DE",
+   "entrada": "GOYA, FRANCISCO DE",
+   "salida": "VALENCIA"
+  },
+  {
+   "calle": "ARAGÓN, MARÍA DE",
+   "entrada": "LEPANTO, BATALLA DE",
+   "salida": "HISPANIDAD"
+  },
+  {
+   "calle": "ARAGÓN, RAMIRO I DE",
+   "entrada": "MADRID",
+   "salida": "NAVARRA"
+  },
+  {
+   "calle": "ARAGÓN, REYES DE",
+   "entrada": "HISPANIDAD",
+   "salida": "IBÉRICA"
+  },
+  {
+   "calle": "ARANDA, CONDE DE",
+   "entrada": "CÉSAR AUGUSTO",
+   "salida": "AGUSTÍN, MARÍA"
+  },
+  {
+   "calle": "ARGUALAS",
+   "entrada": "IBÉRICA",
+   "salida": "NO TIENE"
+  },
+  {
+   "calle": "ARIAS",
+   "entrada": "MADRID",
+   "salida": "NAVARRA"
+  },
+  {
+   "calle": "ARMAS",
+   "entrada": "CÉSAR AUGUSTO",
+   "salida": "SANTO DOMINGO"
+  },
+  {
+   "calle": "ARRUPE, PADRE",
+   "entrada": "CALAMITA, GONZALO",
+   "salida": "VÁZQUEZ DE MELLA"
+  },
+  {
+   "calle": "ASALTO",
+   "entrada": "SERVET, MIGUEL",
+   "salida": "MONREAL"
+  },
+  {
+   "calle": "ASÍN Y PALACIOS, MIGUEL",
+   "entrada": "HUNGRÍA, VIOLANTE DE",
+   "salida": "HISPANIDAD"
+  },
+  {
+   "calle": "ATARÉS, JOSÉ",
+   "entrada": "PIRINEOS, LOS",
+   "salida": "BOLTAÑA, DE"
+  },
+  {
+   "calle": "ATENAS, DUCADO DE",
+   "entrada": "ALIERTA, CESÁREO",
+   "salida": "JUNCO, DEL"
+  },
+  {
+   "calle": "AUGUSTO, EMPERADOR",
+   "entrada": "SAN JUAN DE LA CRUZ",
+   "salida": "BONET, JUAN PABLO"
+  },
+  {
+   "calle": "AULA, LUIS",
+   "entrada": "ALIERTA, CESÁREO",
+   "salida": "GALIAY, JOSÉ"
+  },
+  {
+   "calle": "AUTONOMÍA",
+   "entrada": "PUERTA DE SANCHO",
+   "salida": "FRANCIA"
+  },
+  {
+   "calle": "ÁVILA",
+   "entrada": "VALENCIA",
+   "salida": "SANTANDER"
+  },
+  {
+   "calle": "AZNAR, ADOLFO",
+   "entrada": "ZAMBRANO, MARÍA",
+   "salida": "SUÁREZ LÓPEZ, ANA MARÍA"
+  },
+  {
+   "calle": "BACH, JOHANN SEBASTIAN",
+   "entrada": "GRACIA IBERNI, LUIS",
+   "salida": "SUPER MARIO BROS"
+  },
+  {
+   "calle": "BAJA ARAGÓN",
+   "entrada": "HISPANIDAD",
+   "salida": "HISPANIDAD"
+  },
+  {
+   "calle": "BALLESTEROS, FLORENTINO",
+   "entrada": "CASPE, COMPROMISO DE",
+   "salida": "HIGUERA, TOMÁS"
+  },
+  {
+   "calle": "BANDERAS, LAS",
+   "entrada": "ATARÉS, JOSÉ",
+   "salida": "RANILLAS"
+  },
+  {
+   "calle": "BARBASÁN, MARIANO",
+   "entrada": "CATÓLICO, FERNANDO EL",
+   "salida": "SAN JUAN DE LA CRUZ"
+  },
+  {
+   "calle": "BEETHOVEN, LUDWIG VAN",
+   "entrada": "GRACIA IBERNI, LUIS",
+   "salida": "SUPER MARIO BROS"
+  },
+  {
+   "calle": "BERDUSÁN, VICENTE",
+   "entrada": "ESCORIAZA Y FABRO, MANUEL",
+   "salida": "ROMA"
+  },
+  {
+   "calle": "BERMEJO, LUIS",
+   "entrada": "CATÓLICA, ISABEL LA",
+   "salida": "ARAGÓN, CONDES DE"
+  },
+  {
+   "calle": "BIEL",
+   "entrada": "RODRÍGUEZ AYUSO, MANUEL",
+   "salida": "SAGITARIO"
+  },
+  {
+   "calle": "BIEL, MARIANO",
+   "entrada": "ZARAGOZA",
+   "salida": "ESCUELAS"
+  },
+  {
+   "calle": "BIELSA",
+   "entrada": "CAMINOS DEL NORTE",
+   "salida": "CATALUÑA"
+  },
+  {
+   "calle": "BOGGIERO, BASILIO",
+   "entrada": "CÉSAR AUGUSTO",
+   "salida": "AGUSTÍN, MARÍA"
+  },
+  {
+   "calle": "BOLONIA",
+   "entrada": "SAGASTA",
+   "salida": "SCHWEITZER, ALBERT"
+  },
+  {
+   "calle": "BOLTAÑA, DE",
+   "entrada": "HUESCA",
+   "salida": "ATARÉS, JOSÉ"
+  },
+  {
+   "calle": "BONET, JUAN PABLO",
+   "entrada": "SAGASTA",
+   "salida": "AUGUSTO, EMPERADOR"
+  },
+  {
+   "calle": "BRETÓN, MAESTRO TOMÁS",
+   "entrada": "CATÓLICO, FERNANDO EL",
+   "salida": "VALENCIA"
+  },
+  {
+   "calle": "BROTO, VALLE DE",
+   "entrada": "SAN JUAN DE LA PEÑA",
+   "salida": "ATARES, JOSÉ"
+  },
+  {
+   "calle": "CABALDÓS",
+   "entrada": "SERVET, MIGUEL",
+   "salida": "HISPANIDAD"
+  },
+  {
+   "calle": "CABALLERO, ALCALDE FCO.",
+   "entrada": "JOTA, LA",
+   "salida": "SAN JUAN DE LA PEÑA"
+  },
+  {
+   "calle": "CADENA, MARQUÉS DE LA",
+   "entrada": "UNIÓN, DE LA",
+   "salida": "SAN JUAN DE LA PEÑA"
+  },
+  {
+   "calle": "CALAMITA, GONZALO",
+   "entrada": "CATÓLICA, ISABEL LA",
+   "salida": "NO TIENE"
+  },
+  {
+   "calle": "CALANDA",
+   "entrada": "NAVARRA",
+   "salida": "VILLAHERMOSA, DUQUESA"
+  },
+  {
+   "calle": "CAMINOS DEL NORTE",
+   "entrada": "ZURIZA, VALLE DE",
+   "salida": "CADENA, MARQUÉS DE LA"
+  },
+  {
+   "calle": "CAMPILLO DE LLERENA",
+   "entrada": "VERDE, CORREDOR",
+   "salida": "BIEL"
+  },
+  {
+   "calle": "CAMPOAMOR, CLARA",
+   "entrada": "GÓMEZ DE AVELLANEDA, G.",
+   "salida": "ATARÉS, JOSÉ"
+  },
+  {
+   "calle": "CANAL, DEL",
+   "entrada": "CUÉLLAR",
+   "salida": "HISPANIDAD"
+  },
+  {
+   "calle": "CÁNCER, JERÓNIMO",
+   "entrada": "SAN ELOY",
+   "salida": "ESCALAR, IBÓN DE"
+  },
+  {
+   "calle": "CANFRANC",
+   "entrada": "ARAGÓN",
+   "salida": "CÉSAR AUGUSTO"
+  },
+  {
+   "calle": "CANTANDO BAJO LA LLUVIA",
+   "entrada": "SÉPTIMO ARTE",
+   "salida": "MAGO DE OZ, EL"
+  },
+  {
+   "calle": "CANTERAS, LAS",
+   "entrada": "AMÉRICA",
+   "salida": "GARCÉS, FRAY JULIÁN"
+  },
+  {
+   "calle": "CANTÍN Y GAMBOA, FCO.",
+   "entrada": "COSO",
+   "salida": "ASALTO"
+  },
+  {
+   "calle": "CARLOS, EMPERADOR",
+   "entrada": "CATÓLICO, FERNANDO EL",
+   "salida": "HUNGRÍA, VIOLANTE DE"
+  },
+  {
+   "calle": "CARMEN",
+   "entrada": "CORTÉS, HERNÁN",
+   "salida": "GOYA, FRANCISCO DE"
+  },
+  {
+   "calle": "CASABLANCA",
+   "entrada": "IBÉRICA",
+   "salida": "MADRID, AUTOVÍA DE"
+  },
+  {
+   "calle": "CASANOVA, FRAY JOSÉ",
+   "entrada": "NAVARRA",
+   "salida": "AUTONOMÍA"
+  },
+  {
+   "calle": "CASPE, COMPROMISO DE",
+   "entrada": "SERVET, MIGUEL",
+   "salida": "HISPANIDAD"
+  },
+  {
+   "calle": "CASTELAR, EMILIO",
+   "entrada": "SAN JOSÉ",
+   "salida": "ZABALA, VALENTÍN"
+  },
+  {
+   "calle": "CATALUÑA",
+   "entrada": "RIBERA, DE LA",
+   "salida": "GÁLLEGO, DEL"
+  },
+  {
+   "calle": "CEJADOR FRAUCA, JULIO",
+   "entrada": "RUISEÑORES",
+   "salida": "RENOVALES, MARIANO"
+  },
+  {
+   "calle": "CELMA BERNAL, RAMÓN",
+   "entrada": "SANTA LUCÍA",
+   "salida": "ECHEGARAY Y CABALLERO"
+  },
+  {
+   "calle": "CELORRIO, SIXTO",
+   "entrada": "RIBERA, DE LA",
+   "salida": "OROEL, PEÑA"
+  },
+  {
+   "calle": "CENTAURO",
+   "entrada": "HYDRA",
+   "salida": "PERSEO"
+  },
+  {
+   "calle": "CENTRO",
+   "entrada": "VÍA, LA",
+   "salida": "PELAYO, TOMÁS"
+  },
+  {
+   "calle": "CERBUNA, PEDRO",
+   "entrada": "ARAGÓN, CORONA DE",
+   "salida": "CARLOS, EMPERADOR"
+  },
+  {
+   "calle": "CEREZO, MARIANO",
+   "entrada": "PIGNATELLI, RAMÓN",
+   "salida": "SAN BLAS"
+  },
+  {
+   "calle": "CERRADA, DOCTOR",
+   "entrada": "PAMPLONA",
+   "salida": "GRAN VÍA"
+  },
+  {
+   "calle": "CÉSAR AUGUSTO",
+   "entrada": "PAMPLONA",
+   "salida": "ECHEGARAY Y CABALLERO"
+  },
+  {
+   "calle": "CIUDAD DE TOULOUSE",
+   "entrada": "CATÓLICA, ISABEL LA",
+   "salida": "IBÉRICA"
+  },
+  {
+   "calle": "CIUDADANÍA, DE LA",
+   "entrada": "MADRID",
+   "salida": "SORIA, CIUDAD DE"
+  },
+  {
+   "calle": "CLAVÉ, JOSÉ ANSELMO",
+   "entrada": "AGUSTÍN, MARÍA",
+   "salida": "TERUEL"
+  },
+  {
+   "calle": "COCI, JORGE",
+   "entrada": "ASALTO",
+   "salida": "CASPE, COMPROMISO DE"
+  },
+  {
+   "calle": "COGULLADA",
+   "entrada": "CABALLERO, ALCALDE FCO.",
+   "salida": "RÍO"
+  },
+  {
+   "calle": "COLOMA, JUAN",
+   "entrada": "LASIERRA PURROY",
+   "salida": "SAN JOSÉ PIGNATELLI"
+  },
+  {
+   "calle": "COLÓN",
+   "entrada": "CUÉLLAR",
+   "salida": "ARAGÓN, REYES DE"
+  },
+  {
+   "calle": "CONSTITUCIÓN",
+   "entrada": "PARAÍSO, BASILIO",
+   "salida": "MINA, LA"
+  },
+  {
+   "calle": "CORONAS, LAGOS DE",
+   "entrada": "PILÓN, EL",
+   "salida": "MILLARES, LAGOS DE"
+  },
+  {
+   "calle": "CORTÉS, HERNÁN",
+   "entrada": "PAMPLONA",
+   "salida": "CARMEN"
+  },
+  {
+   "calle": "CORUÑA, LA",
+   "entrada": "AMÉRICA",
+   "salida": "PARELLADA, PABLO"
+  },
+  {
+   "calle": "COSO",
+   "entrada": "ARANDA, CONDE DE",
+   "salida": "ECHEGARAY Y CABALLERO"
+  },
+  {
+   "calle": "COSUENDA",
+   "entrada": "CADENA, MARQUÉS DE LA",
+   "salida": "RIBERA, DE LA"
+  },
+  {
+   "calle": "CUARTA AVENIDA",
+   "entrada": "OVIEDO",
+   "salida": "CONSEJO DE CIENTO"
+  },
+  {
+   "calle": "CUARTE",
+   "entrada": "ALICANTE",
+   "salida": "HISPANIDAD"
+  },
+  {
+   "calle": "CUÉLLAR",
+   "entrada": "SAGASTA",
+   "salida": "PIGNATELLI, RAMÓN"
+  },
+  {
+   "calle": "CURIE, MARIE",
+   "entrada": "PORTILLO, EL",
+   "salida": "AGUSTÍN, MARÍA"
+  },
+  {
+   "calle": "CHAMINADE, PADRE G. JOSÉ",
+   "entrada": "SERVET, MIGUEL",
+   "salida": "ARAGÓN, MARÍA DE"
+  },
+  {
+   "calle": "DAMAS, DE LAS",
+   "entrada": "SAN IGNACIO DE LOYOLA",
+   "salida": "SCHWEITZER, ALBERT"
+  },
+  {
+   "calle": "DELICIAS",
+   "entrada": "MADRID",
+   "salida": "VILLAHERMOSA, DUQUESA"
+  },
+  {
+   "calle": "DESAYUNO CON DIAMANTES",
+   "entrada": "ISLA DEL TESORO, LA",
+   "salida": "CASABLANCA"
+  },
+  {
+   "calle": "DESCALZAS REALES, MNTRIO.",
+   "entrada": "CABALLERO, ALCALDE FCO.",
+   "salida": "VIRGEN DEL BUEN ACUERDO"
+  },
+  {
+   "calle": "DÍEZ DE AUX, MARTÍN",
+   "entrada": "MESTA, DE LA",
+   "salida": "MAGO DE OZ, EL"
+  },
+  {
+   "calle": "DIPUTADOS, DE LOS",
+   "entrada": "EUROPA",
+   "salida": "MADRID"
+  },
+  {
+   "calle": "DOCE DE OCTUBRE",
+   "entrada": "SAN JOSÉ",
+   "salida": "DOS DE MAYO"
+  },
+  {
+   "calle": "DOMENECH, ARZOBISPO",
+   "entrada": "GRAN VÍA",
+   "salida": "MONCASI, JOSÉ"
+  },
+  {
+   "calle": "ECHEGARAY Y CABALLERO",
+   "entrada": "EUROPA",
+   "salida": "HISPANIDAD"
+  },
+  {
+   "calle": "EINSTEIN, ALBERT",
+   "entrada": "FERRÁN, JAIME",
+   "salida": "CIERVA, JUAN DE LA"
+  },
+  {
+   "calle": "EMBARCADERO",
+   "entrada": "IBÉRICA",
+   "salida": "PELAYO, TOMÁS"
+  },
+  {
+   "calle": "ESCORIAZA Y FABRO, MANUEL",
+   "entrada": "VALENCIA",
+   "salida": "MADRID"
+  },
+  {
+   "calle": "ESCOSURA, DESIDERIO",
+   "entrada": "VALENCIA",
+   "salida": "ROMA"
+  },
+  {
+   "calle": "ESPAÑA",
+   "entrada": "COSO",
+   "salida": "INDEPENDENCIA"
+  },
+  {
+   "calle": "ESPARTERO",
+   "entrada": "COSO",
+   "salida": "SAN MIGUEL"
+  },
+  {
+   "calle": "ESPÉS, DIEGO DE",
+   "entrada": "SERVET, MIGUEL",
+   "salida": "ARAGÓN, MARÍA DE"
+  },
+  {
+   "calle": "ESPOZ Y MINA",
+   "entrada": "ALFONSO I",
+   "salida": "JAIME I"
+  },
+  {
+   "calle": "ESTUDIANTES",
+   "entrada": "INDUSTRIA, LA",
+   "salida": "REAL ZARAGOZA"
+  },
+  {
+   "calle": "EUROPA",
+   "entrada": "ECHEGARAY Y CABALLERO",
+   "salida": "AGUSTÍN, MARÍA"
+  },
+  {
+   "calle": "EXPO 2008",
+   "entrada": "SORIA, CIUDAD DE",
+   "salida": "TERCER MILENIO, DEL"
+  },
+  {
+   "calle": "CATÓLICO, FERNANDO EL",
+   "entrada": "GOYA, FRANCISCO DE",
+   "salida": "CARLOS, EMPERADOR"
+  },
+  {
+   "calle": "FERREIRO, CELSO EMILIO",
+   "entrada": "RIOJA",
+   "salida": "ARAGÓN, RAMIRO I DE"
+  },
+  {
+   "calle": "FLEMING, DOCTOR",
+   "entrada": "AGUSTÍN, MARÍA",
+   "salida": "RAFOLS, MADRE"
+  },
+  {
+   "calle": "FLETA, TENOR",
+   "entrada": "SAGASTA",
+   "salida": "HISPANIDAD"
+  },
+  {
+   "calle": "FOZ, BRAULIO",
+   "entrada": "REINO",
+   "salida": "MAZO, JUAN BAUTISTA DEL"
+  },
+  {
+   "calle": "FRAGUA, LA",
+   "entrada": "VOLAVÉRUNT",
+   "salida": "BOLTAÑA, DE"
+  },
+  {
+   "calle": "FRANCIA",
+   "entrada": "AUTONOMÍA",
+   "salida": "ALMOZARA, LA"
+  },
+  {
+   "calle": "FRANCO Y LÓPEZ",
+   "entrada": "VALENCIA",
+   "salida": "VILLAHERMOSA, DUQUESA"
+  },
+  {
+   "calle": "GALÁN BERGUA, DEMETRIO",
+   "entrada": "MADRID",
+   "salida": "ANDORRA, VILLA DE"
+  },
+  {
+   "calle": "GALÉ, FELISA",
+   "entrada": "CATALUÑA",
+   "salida": "ORENSANZ, BALBINO"
+  },
+  {
+   "calle": "GALIAY, JOSÉ",
+   "entrada": "FLETA, TENOR",
+   "salida": "CABALDÓS"
+  },
+  {
+   "calle": "GÁLLEGO, DEL",
+   "entrada": "CATALUÑA",
+   "salida": "SANTA ISABEL"
+  },
+  {
+   "calle": "GARCÉS, FRAY JULIÁN",
+   "entrada": "AMÉRICA",
+   "salida": "CUARTE"
+  },
+  {
+   "calle": "GARCÍA CONDOY, HONORIO",
+   "entrada": "TIERNO GALVÁN",
+   "salida": "MONZÓN"
+  },
+  {
+   "calle": "GARCÍA LORCA, FEDERICO",
+   "entrada": "SAN JOSÉ",
+   "salida": "SOROLLA, JOAQUÍN"
+  },
+  {
+   "calle": "GARCÍA SÁNCHEZ, JOSÉ",
+   "entrada": "VALENCIA",
+   "salida": "VILLAHERMOSA, DUQUESA"
+  },
+  {
+   "calle": "GARGALLO, PABLO",
+   "entrada": "EUROPA",
+   "salida": "FRANCIA"
+  },
+  {
+   "calle": "GASCÓN DE GOTOR, ANSELMO",
+   "entrada": "BONET, JUAN PABLO",
+   "salida": "LUZ"
+  },
+  {
+   "calle": "GIMÉNEZ ABAD, MANUEL",
+   "entrada": "HISPANIDAD",
+   "salida": "HISPANIDAD"
+  },
+  {
+   "calle": "GÓMEZ LAGUNA, ALCALDE",
+   "entrada": "UNIVÉRSITAS",
+   "salida": "IBÉRICA"
+  },
+  {
+   "calle": "GOMEZ AVELLANEDA",
+   "entrada": "ATARÉS JOSÉ",
+   "salida": "FERRER FRANCISCO"
+  },
+  {
+   "calle": "GÓMEZ SALVO, VICENTE",
+   "entrada": "PIGNATELLI, RAMÓN",
+   "salida": "AGUSTÍN, MARÍA"
+  },
+  {
+   "calle": "GOYA, FRANCISCO DE",
+   "entrada": "SAGASTA",
+   "salida": "VALENCIA"
+  },
+  {
+   "calle": "GRACIA, LUCIANO",
+   "entrada": "BOROBIA GONZÁLEZ, JOSÉ",
+   "salida": "BOLTAÑA, DE"
+  },
+  {
+   "calle": "GRACIA IBERNI, LUIS",
+   "entrada": "SAN JUAN BTA. DE LA SALLE",
+   "salida": "CASABLANCA"
+  },
+  {
+   "calle": "GRACIÁN, BALTASAR",
+   "entrada": "GOYA, FRANCISCO DE",
+   "salida": "SAN FRANCISCO"
+  },
+  {
+   "calle": "GRAN VÍA",
+   "entrada": "PARAÍSO, BASILIO",
+   "salida": "GOYA, FRANCISCO DE"
+  },
+  {
+   "calle": "GUINDA, ÁNGEL",
+   "entrada": "ZAMBRANO, MARÍA",
+   "salida": "RUIZ PICASSO, PABLO"
+  },
+  {
+   "calle": "HEROÍSMO",
+   "entrada": "COSO",
+   "salida": "ASALTO"
+  },
+  {
+   "calle": "HERRERO RGUEZ-MIÑÓN, M.",
+   "entrada": "NAVARRA",
+   "salida": "CONEXIÓN A-68"
+  },
+  {
+   "calle": "HIGUERA, TOMÁS",
+   "entrada": "SERVET, MIGUEL",
+   "salida": "URBANO, FRAY LUIS"
+  },
+  {
+   "calle": "HISPANIDAD",
+   "entrada": "CIUDAD DE TOULOUSE",
+   "salida": "AUTOPISTA RONDA NORTE"
+  },
+  {
+   "calle": "HISPANIDAD",
+   "entrada": "CIUDAD DE TOULOUSE",
+   "salida": "NAVARRA"
+  },
+  {
+   "calle": "HUESCA",
+   "entrada": "MADRID",
+   "salida": "TORRES QUEVEDO, LEONARDO"
+  },
+  {
+   "calle": "HUNGRÍA, VIOLANTE DE",
+   "entrada": "CARLOS, EMPERADOR",
+   "salida": "GÓMEZ LAGUNA, ALCALDE"
+  },
+  {
+   "calle": "IBÉRICA",
+   "entrada": "CIUDAD DE TOULOUSE",
+   "salida": "CASABLANCA"
+  },
+  {
+   "calle": "IBÓN",
+   "entrada": "ILUSTRACIÓN, DE LA",
+   "salida": "GRACIA IBERNI, LUIS"
+  },
+  {
+   "calle": "ILUSTRACIÓN, DE LA",
+   "entrada": "GÓMEZ LAGUNA, ALCALDE",
+   "salida": "CASABLANCA"
+  },
+  {
+   "calle": "INDEPENDENCIA",
+   "entrada": "ESPAÑA",
+   "salida": "ARAGÓN"
+  },
+  {
+   "calle": "INDUSTRIA, LA",
+   "entrada": "SANTA ISABEL",
+   "salida": "MONTAÑANA"
+  },
+  {
+   "calle": "INFANTES DE ESPAÑA",
+   "entrada": "IBÉRICA",
+   "salida": "ALBA, DUQUE DE"
+  },
+  {
+   "calle": "IRANZO, DOCTOR",
+   "entrada": "QUEVEDO, FRANCISCO DE",
+   "salida": "ECHEGARAY Y CABALLERO"
+  },
+  {
+   "calle": "IRIARTE REINOSO, TEODORO",
+   "entrada": "NAVARRA",
+   "salida": "SORIA, CIUDAD DE"
+  },
+  {
+   "calle": "CATÓLICA, ISABEL LA",
+   "entrada": "CARLOS, EMPERADOR",
+   "salida": "CIUDAD DE TOULOUSE"
+  },
+  {
+   "calle": "ITALIA",
+   "entrada": "SARASATE, PABLO",
+   "salida": "ROMA"
+  },
+  {
+   "calle": "JAIME I",
+   "entrada": "COSO",
+   "salida": "ECHEGARAY Y CABALLERO"
+  },
+  {
+   "calle": "JERUSALÉN",
+   "entrada": "CATÓLICA, ISABEL LA",
+   "salida": "IBARRA, EDUARDO"
+  },
+  {
+   "calle": "JESÚS",
+   "entrada": "CATALUÑA",
+   "salida": "PUENTE DEL PILAR"
+  },
+  {
+   "calle": "JOTA, LA",
+   "entrada": "CADENA, MARQUÉS DE LA",
+   "salida": "HISPANIDAD"
+  },
+  {
+   "calle": "JUAN CARLOS I",
+   "entrada": "VILLAHERMOSA, DUQUESA",
+   "salida": "ARAGÓN, CONDES DE"
+  },
+  {
+   "calle": "JUAN PABLO II",
+   "entrada": "VILLAHERMOSA, DUQUESA",
+   "salida": "ARAGÓN, CONDES DE"
+  },
+  {
+   "calle": "JUNQUERA, FUENTE DE LA",
+   "entrada": "INFANTES DE ESPAÑA",
+   "salida": "CAMINO"
+  },
+  {
+   "calle": "LABORDETA, MIGUEL",
+   "entrada": "MADRID",
+   "salida": "HISPANIDAD"
+  },
+  {
+   "calle": "FIGUERA, DE LA",
+   "entrada": "GARCÍA ARISTA, GREGORIO",
+   "salida": "PIRINEOS, LOS"
+  },
+  {
+   "calle": "GASCA, MARIANO DE LA",
+   "entrada": "SAGASTA",
+   "salida": "GRAN VÍA"
+  },
+  {
+   "calle": "LAGO",
+   "entrada": "PUERTA DE SANCHO",
+   "salida": "MAZO, JUAN BAUTISTA DEL"
+  },
+  {
+   "calle": "LAPUYADE, PEDRO",
+   "entrada": "CUÉLLAR",
+   "salida": "ROYO VILLANOVA, LUIS"
+  },
+  {
+   "calle": "LASALA, MANUEL",
+   "entrada": "SAN JUAN DE LA CRUZ",
+   "salida": "CATÓLICO, FERNANDO EL"
+  },
+  {
+   "calle": "LASIERRA PURROY",
+   "entrada": "SANCHO RAMÍREZ",
+   "salida": "OVIEDO"
+  },
+  {
+   "calle": "LASTANOSA",
+   "entrada": "ZAPATA, MARCOS",
+   "salida": "RIOJA"
+  },
+  {
+   "calle": "LATASSA, FÉLIX",
+   "entrada": "GOYA, FRANCISCO DE",
+   "salida": "SAN FRANCISCO"
+  },
+  {
+   "calle": "LEGAZ LACAMBRA, LUIS",
+   "entrada": "GÓMEZ DE AVELLANEDA, G.",
+   "salida": "ATARÉS, JOSÉ"
+  },
+  {
+   "calle": "LEÓN XIII",
+   "entrada": "CONSTITUCIÓN",
+   "salida": "SAGASTA"
+  },
+  {
+   "calle": "LEPANTO, BATALLA DE",
+   "entrada": "HERRERÍN, JAIME BAL.",
+   "salida": "URBANO, FRAY LUIS"
+  },
+  {
+   "calle": "LEYVA, ANTONIO DE",
+   "entrada": "NOBEL, ALFREDO",
+   "salida": "PLAN, IBÓN DE"
+  },
+  {
+   "calle": "LEZÁUN, TOMÁS DE",
+   "entrada": "SAN JUAN BTA. DE LA SALLE",
+   "salida": "MAGO DE OZ, EL"
+  },
+  {
+   "calle": "LONGARES",
+   "entrada": "CATALUÑA",
+   "salida": "COSUENDA"
+  },
+  {
+   "calle": "LÓPEZ DE LUNA, PEDRO",
+   "entrada": "SAN JUAN BOSCO",
+   "salida": "VILLAHERMOSA, DUQUESA"
+  },
+  {
+   "calle": "LORENTE, JUAN JOSÉ",
+   "entrada": "ARAGÓN, FUEROS DE",
+   "salida": "ARAGÓN, CORONA DE"
+  },
+  {
+   "calle": "LORENZO PARDO, MANUEL",
+   "entrada": "ECHEGARAY Y CABALLERO",
+   "salida": "RIBERA, DE LA"
+  },
+  {
+   "calle": "LUNA, DON PEDRO DE",
+   "entrada": "MADRID",
+   "salida": "VILLAHERMOSA, DUQUESA"
+  },
+  {
+   "calle": "MADRID",
+   "entrada": "AGUSTÍN, MARÍA",
+   "salida": "HISPANIDAD"
+  },
+  {
+   "calle": "MAGO DE OZ, EL",
+   "entrada": "SÉPTIMO ARTE",
+   "salida": "CASABLANCA"
+  },
+  {
+   "calle": "MAJAS DE GOYA, LAS",
+   "entrada": "ACADEMIA GENERAL MILITAR",
+   "salida": "BOLTAÑA, DE"
+  },
+  {
+   "calle": "MANIFESTACIÓN",
+   "entrada": "CÉSAR AUGUSTO",
+   "salida": "ALFONSO I"
+  },
+  {
+   "calle": "MANJÓN, PADRE",
+   "entrada": "MONTERDE, RICARDO",
+   "salida": "SANGENIS, ANTONIO"
+  },
+  {
+   "calle": "MARCIAL, MARCO",
+   "entrada": "GRAN VÍA",
+   "salida": "ARAGÓN, CORTES DE"
+  },
+  {
+   "calle": "MAYANDÍA, GENERAL",
+   "entrada": "AGUSTÍN, MARÍA",
+   "salida": "CLAVÉ, JOSÉ ANSELMO"
+  },
+  {
+   "calle": "MAYOR",
+   "entrada": "JAIME I",
+   "salida": "COSO"
+  },
+  {
+   "calle": "MAYORAL",
+   "entrada": "PIGNATELLI, RAMÓN",
+   "salida": "SANTO DOMINGO"
+  },
+  {
+   "calle": "MENÉNDEZ PELAYO",
+   "entrada": "CERBUNA, PEDRO",
+   "salida": "SAN JUAN BOSCO"
+  },
+  {
+   "calle": "MILAGROSA, LA",
+   "entrada": "SAN JUAN BOSCO",
+   "salida": "VILLAHERMOSA, DUQUESA"
+  },
+  {
+   "calle": "MILLÁN SERRANO, FRANCISCA",
+   "entrada": "VALDEFIERRO",
+   "salida": "OZANAM, FEDERICO"
+  },
+  {
+   "calle": "MINA, LA",
+   "entrada": "CONSTITUCIÓN",
+   "salida": "SERVET, MIGUEL"
+  },
+  {
+   "calle": "MINGUIJÓN, SALVADOR",
+   "entrada": "LEPANTO, BATALLA DE",
+   "salida": "ECHEGARAY Y CABALLERO"
+  },
+  {
+   "calle": "MIRAL, DOMINGO",
+   "entrada": "CERBUNA, PEDRO",
+   "salida": "SAN JUAN BOSCO"
+  },
+  {
+   "calle": "MOLINER, MARÍA",
+   "entrada": "SAGASTA",
+   "salida": "SAN JOSÉ"
+  },
+  {
+   "calle": "MOLINOS, LOS",
+   "entrada": "SAN JUAN DE LA PEÑA",
+   "salida": "SAN GREGORIO"
+  },
+  {
+   "calle": "MONREAL",
+   "entrada": "ECHEGARAY Y CABALLERO",
+   "salida": "ASALTO"
+  },
+  {
+   "calle": "MONTAÑANA",
+   "entrada": "INDUSTRIA, LA",
+   "salida": "CTRA. STA. ISABEL A ZUERA"
+  },
+  {
+   "calle": "MORCILLO, ARZ. CASIMIRO",
+   "entrada": "LUZ",
+   "salida": "RENOVALES, MARIANO"
+  },
+  {
+   "calle": "MOREA, PRINCIPADO DE",
+   "entrada": "SERVET, MIGUEL",
+   "salida": "ALIERTA, CESÁREO"
+  },
+  {
+   "calle": "MOZART, W. AMADEO",
+   "entrada": "CATALUÑA",
+   "salida": "CADENA, MARQUÉS DE LA"
+  },
+  {
+   "calle": "MUEL",
+   "entrada": "PUENTE DEL PILAR",
+   "salida": "CATALUÑA"
+  },
+  {
+   "calle": "NAVARRA",
+   "entrada": "MADRID",
+   "salida": "HISPANIDAD"
+  },
+  {
+   "calle": "NEPTUNO",
+   "entrada": "CANAL, DEL",
+   "salida": "ZARAGOZA LA VIEJA"
+  },
+  {
+   "calle": "NERUDA, PABLO",
+   "entrada": "ZAMBRANO, MARÍA",
+   "salida": "SUÁREZ LÓPEZ, ANA MARÍA"
+  },
+  {
+   "calle": "NOBEL, ALFREDO",
+   "entrada": "HISPANIDAD",
+   "salida": "BRAVO ORTEGA, ÁNGELA"
+  },
+  {
+   "calle": "OCTAVIO DE TOLEDO, J.",
+   "entrada": "PIGNATELLI, RAMÓN",
+   "salida": "BUENAVISTA, CABEZO DE"
+  },
+  {
+   "calle": "OLIVÁN BAYLE, FRANCISCO",
+   "entrada": "SAN JUAN DE LA PEÑA",
+   "salida": "SANGÜESA CASTAÑOSA, M."
+  },
+  {
+   "calle": "OLVIDADOS, DE LOS",
+   "entrada": "TODO SOBRE MI MADRE",
+   "salida": "CASABLANCA"
+  },
+  {
+   "calle": "ORENSANZ, BALBINO",
+   "entrada": "JOTA, LA",
+   "salida": "RIBERA, DE LA"
+  },
+  {
+   "calle": "ORIÓN",
+   "entrada": "OZANAM, FEDERICO",
+   "salida": "RODRÍGUEZ AYUSO, MANUEL"
+  },
+  {
+   "calle": "OVIEDO",
+   "entrada": "AMÉRICA",
+   "salida": "CUARTA AVENIDA"
+  },
+  {
+   "calle": "OZA, VALLE DE",
+   "entrada": "OROEL, PEÑA",
+   "salida": "BROTO, VALLE DE"
+  },
+  {
+   "calle": "OZANAM, FEDERICO",
+   "entrada": "INMACULADA, LA",
+   "salida": "ALDEBARÁN"
+  },
+  {
+   "calle": "PÁJAROS, LOS",
+   "entrada": "CIUDADANO KANE",
+   "salida": "MAQUINISTA DE LA GRAL., EL"
+  },
+  {
+   "calle": "PALAO, ESCULTOR",
+   "entrada": "MOMPEÓN MOTOS, ANTONIO",
+   "salida": "HISPANIDAD"
+  },
+  {
+   "calle": "PALENCIA",
+   "entrada": "TURMO, MARIANO",
+   "salida": "FIGUERA, DE LA"
+  },
+  {
+   "calle": "PAMPLONA",
+   "entrada": "PARAÍSO, BASILIO",
+   "salida": "CÉSAR AUGUSTO"
+  },
+  {
+   "calle": "PARAÍSO, BASILIO",
+   "entrada": "ARAGÓN",
+   "salida": "GRAN VÍA"
+  },
+  {
+   "calle": "PARQUE",
+   "entrada": "GARCÉS, FRAY JULIÁN",
+   "salida": "CUARTE"
+  },
+  {
+   "calle": "PAU, VILLA DE",
+   "entrada": "TIERNO GALVÁN",
+   "salida": "TIERNO GALVÁN"
+  },
+  {
+   "calle": "PAZ, LA",
+   "entrada": "SAGASTA",
+   "salida": "SCHWEITZER, ALBERT"
+  },
+  {
+   "calle": "PEDRO III EL GRANDE",
+   "entrada": "IBARRA, EDUARDO",
+   "salida": "ARAGÓN, CONDES DE"
+  },
+  {
+   "calle": "PELLICER, JOSÉ",
+   "entrada": "SAN JOSÉ",
+   "salida": "TORRES, DE LAS"
+  },
+  {
+   "calle": "PÉREZ, SILVESTRE",
+   "entrada": "MINGUIJÓN, SALVADOR",
+   "salida": "TORRES, DE LAS"
+  },
+  {
+   "calle": "PÉREZ LLORCA, JOSÉ PEDRO",
+   "entrada": "NAVARRA",
+   "salida": "ROCA I JUNYENT, MIQUEL"
+  },
+  {
+   "calle": "PIEDRA, DE",
+   "entrada": "JAIME I",
+   "salida": "CATALUÑA"
+  },
+  {
+   "calle": "PIGNATELLI, RAMÓN",
+   "entrada": "CÉSAR AUGUSTO",
+   "salida": "PORTILLO, EL"
+  },
+  {
+   "calle": "PIGNATELLI, RAMÓN",
+   "entrada": "AMÉRICA",
+   "salida": "OCTAVIO DE TOLEDO, J."
+  },
+  {
+   "calle": "PILAR, DEL",
+   "entrada": "COSO",
+   "salida": "PUENTE DEL PILAR"
+  },
+  {
+   "calle": "PILÓN, EL",
+   "entrada": "LOGROÑO, AUTOVÍA DE",
+   "salida": "AEROPUERTO"
+  },
+  {
+   "calle": "PINAR",
+   "entrada": "ÁFRICA",
+   "salida": "CUARTE"
+  },
+  {
+   "calle": "PIQUER, ANDRÉS",
+   "entrada": "SAN FRANCISCO",
+   "salida": "VIVES, LUIS"
+  },
+  {
+   "calle": "PIRINEOS, LOS",
+   "entrada": "SANTIAGO",
+   "salida": "HUESCA"
+  },
+  {
+   "calle": "PLAN, IBÓN DE",
+   "entrada": "RODRÍGUEZ AYUSO, MANUEL",
+   "salida": "AEROPUERTO"
+  },
+  {
+   "calle": "POBLET, MNTRIO. DE",
+   "entrada": "MATADERO",
+   "salida": "CABALDÓS"
+  },
+  {
+   "calle": "PORTER, PEDRO",
+   "entrada": "SAN ELOY",
+   "salida": "SAN FELICES, MARQUÉS DE"
+  },
+  {
+   "calle": "PORTILLO, EL",
+   "entrada": "ARANDA, CONDE DE",
+   "salida": "CURIE, MARIE"
+  },
+  {
+   "calle": "PRADO",
+   "entrada": "EMBARCADERO",
+   "salida": "CENTRO"
+  },
+  {
+   "calle": "PREDICADORES",
+   "entrada": "CÉSAR AUGUSTO",
+   "salida": "SANTO DOMINGO"
+  },
+  {
+   "calle": "PRIVILEGIO DE LA UNIÓN",
+   "entrada": "SAN JOSÉ",
+   "salida": "CABALDÓS"
+  },
+  {
+   "calle": "PUENTE VIRREY",
+   "entrada": "ALIERTA, CESÁREO",
+   "salida": "PUENTE VIRREY"
+  },
+  {
+   "calle": "PUERTA DE SANCHO",
+   "entrada": "AUTONOMÍA",
+   "salida": "ALMOZARA, LA"
+  },
+  {
+   "calle": "PUEYO, EDUARDO DEL",
+   "entrada": "ARAGÓN, CORONA DE",
+   "salida": "MENÉNDEZ PELAYO"
+  },
+  {
+   "calle": "QUEVEDO, FRANCISCO DE",
+   "entrada": "SERVET, MIGUEL",
+   "salida": "ARAGÓN, MARÍA DE"
+  },
+  {
+   "calle": "RAFOLS, MADRE",
+   "entrada": "RAMÓN Y CAJAL, S.",
+   "salida": "AZNÁREZ, JOSÉ"
+  },
+  {
+   "calle": "RALLO LAHOZ, FRANCISCO",
+   "entrada": "HISPANIDAD",
+   "salida": "VAL, ENRIQUE"
+  },
+  {
+   "calle": "RAMÓN Y CAJAL, S.",
+   "entrada": "BOGGIERO, BASILIO",
+   "salida": "CÉSAR AUGUSTO"
+  },
+  {
+   "calle": "AV. RANILLAS",
+   "entrada": "ATARÉS, JOSÉ",
+   "salida": "TERCER MILENIO, PUENTE"
+  },
+  {
+   "calle": "REAL ZARAGOZA",
+   "entrada": "SANTA ISABEL",
+   "salida": "VILLAMAYOR"
+  },
+  {
+   "calle": "REBOLLEDO, RODRIGO DE",
+   "entrada": "SANCHO ARROYO, JOSÉ",
+   "salida": "HISPANIDAD"
+  },
+  {
+   "calle": "REINO",
+   "entrada": "GARGALLO, PABLO",
+   "salida": "FOZ, BRAULIO"
+  },
+  {
+   "calle": "REMACHA, PABLO",
+   "entrada": "PUENTE VIRREY",
+   "salida": "ARRIBAS SÁNCHEZ, RAMÓN"
+  },
+  {
+   "calle": "RENOVALES, MARIANO",
+   "entrada": "COLÓN",
+   "salida": "LASALA, MANUEL"
+  },
+  {
+   "calle": "RIBERA, DE LA",
+   "entrada": "GARCÍA ARISTA, GREGORIO",
+   "salida": "HISPANIDAD"
+  },
+  {
+   "calle": "RIOJA",
+   "entrada": "MADRID",
+   "salida": "SORIA, CIUDAD DE"
+  },
+  {
+   "calle": "ROCA I JUNYENT, MIQUEL",
+   "entrada": "RIOJA",
+   "salida": "HERRERO RGUEZ-MIÑÓN, M."
+  },
+  {
+   "calle": "RODRIGO, JOAQUÍN",
+   "entrada": "SAN JUAN BTA. DE LA SALLE",
+   "salida": "VIVALDI, ANTONIO"
+  },
+  {
+   "calle": "RODRIGUEZ AYUSO MANUEL",
+   "entrada": "HISPANIDAD",
+   "salida": "MADRID, AUTOVÍA"
+  },
+  {
+   "calle": "ROMA",
+   "entrada": "VILLAHERMOSA, DUQUESA",
+   "salida": "SANTANDER"
+  },
+  {
+   "calle": "ROMEO, LEOPOLDO",
+   "entrada": "MINGUIJÓN, SALVADOR",
+   "salida": "RUSIÑOL, SANTIAGO"
+  },
+  {
+   "calle": "ROSALES, DE LOS",
+   "entrada": "SAN JOSÉ",
+   "salida": "TORRES, DE LAS"
+  },
+  {
+   "calle": "RUISEÑORES",
+   "entrada": "VELÁZQUEZ, DIEGO",
+   "salida": "COLÓN"
+  },
+  {
+   "calle": "RUIZANGLADA, MARTÍN",
+   "entrada": "GRAN VÍA",
+   "salida": "SAN JUAN DE LA CRUZ"
+  },
+  {
+   "calle": "RUIZ PICASSO, PABLO",
+   "entrada": "ALLENDE, SALVADOR",
+   "salida": "ATARÉS, JOSÉ"
+  },
+  {
+   "calle": "SACRAMENTO, MADRE",
+   "entrada": "CORTÉS, HERNÁN",
+   "salida": "CLAVÉ, JOSÉ ANSELMO"
+  },
+  {
+   "calle": "SAGASTA",
+   "entrada": "PARAÍSO, BASILIO",
+   "salida": "CUÉLLAR"
+  },
+  {
+   "calle": "SAGRADA FAMILIA",
+   "entrada": "BEARNE, GASTÓN DE",
+   "salida": "ARGUALAS"
+  },
+  {
+   "calle": "SALAMERO, MIGUEL",
+   "entrada": "CINCO DE MARZO",
+   "salida": "VALENZUELA, TTE. CORONEL"
+  },
+  {
+   "calle": "SAMOS, MONASTERIO DE",
+   "entrada": "MAURA, ANTONIO",
+   "salida": "CASPE, COMPROMISO DE"
+  },
+  {
+   "calle": "SAN ALBERTO MAGNO",
+   "entrada": "MILLARES, LAGOS DE",
+   "salida": "CÁNCER, JERÓNIMO"
+  },
+  {
+   "calle": "SAN ANTONIO ABAD",
+   "entrada": "SOLDEVILA, ARZOBISPO",
+   "salida": "RIOJA"
+  },
+  {
+   "calle": "SAN ANTONIO MARÍA CLARET",
+   "entrada": "GOYA, FRANCISCO DE",
+   "salida": "MENÉNDEZ PELAYO"
+  },
+  {
+   "calle": "SAN BLAS",
+   "entrada": "CÉSAR AUGUSTO",
+   "salida": "SANTO DOMINGO"
+  },
+  {
+   "calle": "SAN FERNANDO",
+   "entrada": "CUÉLLAR",
+   "salida": "SAN JOSÉ"
+  },
+  {
+   "calle": "SAN FRANCISCO",
+   "entrada": "CATÓLICO, FERNANDO EL",
+   "salida": "CATÓLICO, FERNANDO EL"
+  },
+  {
+   "calle": "SAN GREGORIO",
+   "entrada": "CELORRIO, SIXTO",
+   "salida": "GRACIA GAZULLA, FDO."
+  },
+  {
+   "calle": "SAN IGNACIO DE LOYOLA",
+   "entrada": "CONSTITUCIÓN",
+   "salida": "DAMAS, DE LAS"
+  },
+  {
+   "calle": "SAN JORGE",
+   "entrada": "JAIME I",
+   "salida": "COSO"
+  },
+  {
+   "calle": "SAN JOSÉ",
+   "entrada": "SERVET, MIGUEL",
+   "salida": "CANAL, DEL"
+  },
+  {
+   "calle": "SAN JOSEMARÍA ESCRIVÁ",
+   "entrada": "CLAVÉ, JOSÉ ANSELMO",
+   "salida": "MADRID"
+  },
+  {
+   "calle": "SAN JUAN BTA. DE LA SALLE",
+   "entrada": "GÓMEZ LAGUNA, ALCALDE",
+   "salida": "RODRÍGUEZ AYUSO, MANUEL"
+  },
+  {
+   "calle": "SAN JUAN BOSCO",
+   "entrada": "ARAGÓN, CORONA DE",
+   "salida": "UNIVÉRSITAS"
+  },
+  {
+   "calle": "SAN JUAN DE LA CRUZ",
+   "entrada": "CATÓLICO, FERNANDO EL",
+   "salida": "AUGUSTO, EMPERADOR"
+  },
+  {
+   "calle": "SAN JUAN DE LA PEÑA",
+   "entrada": "SOBRARBE",
+   "salida": "ALLENDE, SALVADOR"
+  },
+  {
+   "calle": "SAN MIGUEL PLAZA",
+   "entrada": "ESPARTERO",
+   "salida": "SERVET MIGUEL"
+  },
+  {
+   "calle": "SAN PABLO",
+   "entrada": "CÉSAR AUGUSTO",
+   "salida": "SANTA INÉS"
+  },
+  {
+   "calle": "SANCHO ABARCA, NTRA. SRA.",
+   "entrada": "MOLINER, MARÍA",
+   "salida": "TORRES, DE LAS"
+  },
+  {
+   "calle": "SANCHO RAMÍREZ",
+   "entrada": "AMÉRICA",
+   "salida": "TIERNO GALVÁN"
+  },
+  {
+   "calle": "SANGÜESA CASTAÑOSA, M.",
+   "entrada": "CATALUÑA",
+   "salida": "CADENA, MARQUÉS DE LA"
+  },
+  {
+   "calle": "SANTA INÉS",
+   "entrada": "ARANDA, CONDE DE",
+   "salida": "SANTA LUCÍA"
+  },
+  {
+   "calle": "SANTA ISABEL",
+   "entrada": "GÁLLEGO, DEL",
+   "salida": "CTRA. BARCELONA N-2"
+  },
+  {
+   "calle": "SANTA LUCÍA",
+   "entrada": "SANTO DOMINGO",
+   "salida": "AGUSTÍN, MARÍA"
+  },
+  {
+   "calle": "SANTA OROSIA",
+   "entrada": "SINUÉS Y NAVARRO, PILAR",
+   "salida": "RIOJA"
+  },
+  {
+   "calle": "SANTA TERESA DE JESÚS",
+   "entrada": "BARBASÁN, MARIANO",
+   "salida": "VIVES, LUIS"
+  },
+  {
+   "calle": "SANTANDER",
+   "entrada": "ESCORIAZA Y FABRO, MANUEL",
+   "salida": "ROMA"
+  },
+  {
+   "calle": "SANTO DOMINGO",
+   "entrada": "SAN BLAS",
+   "salida": "SANTA LUCÍA"
+  },
+  {
+   "calle": "SAN VIATOR",
+   "entrada": "PAU, VILLA DE",
+   "salida": "CUARTA AVENIDA"
+  },
+  {
+   "calle": "SAN VICENTE MÁRTIR",
+   "entrada": "ALIERTA, CESÁREO",
+   "salida": "DAMAS, DE LAS"
+  },
+  {
+   "calle": "SAN VICENTE DE PAÚL",
+   "entrada": "COSO",
+   "salida": "ECHEGARAY Y CABALLERO"
+  },
+  {
+   "calle": "SANZ GADEA, JOAQUÍN",
+   "entrada": "CASPE, COMPROMISO DE",
+   "salida": "TORRES, DE LAS"
+  },
+  {
+   "calle": "SANZ IBÁÑEZ, DR. JULIÁN",
+   "entrada": "RIOJA",
+   "salida": "HISPANIDAD"
+  },
+  {
+   "calle": "SCHWEITZER, ALBERT",
+   "entrada": "DAMAS, DE LAS",
+   "salida": "TORRES, DE LAS"
+  },
+  {
+   "calle": "SELEC.ESP. FÚTBOL LA ROJA",
+   "entrada": "ALIERTA, CESÁREO",
+   "salida": "ALIERTA, CESÁREO"
+  },
+  {
+   "calle": "SÉPTIMO ARTE",
+   "entrada": "GÓMEZ LAGUNA, ALCALDE",
+   "salida": "CASABLANCA"
+  },
+  {
+   "calle": "SERVET, MIGUEL",
+   "entrada": "PZA. SAN MIGUEL",
+   "salida": "CTRA. CASTELLÓN"
+  },
+  {
+   "calle": "SEVILLA",
+   "entrada": "RUISEÑORES",
+   "salida": "SÁBADO, DEL"
+  },
+  {
+   "calle": "SIGÜÉS",
+   "entrada": "ANDORRA, VILLA DE",
+   "salida": "VILLAHERMOSA, DUQUESA"
+  },
+  {
+   "calle": "SOBRARBE",
+   "entrada": "RIBERA, DE LA",
+   "salida": "SAN JUAN DE LA PEÑA"
+  },
+  {
+   "calle": "PUERTA DEL SOL",
+   "entrada": "COSO",
+   "salida": "ECHEGARAY Y CABALLERO"
+  },
+  {
+   "calle": "SOMPORT",
+   "entrada": "SAN JUAN DE LA PEÑA",
+   "salida": "ALLENDE, SALVADOR"
+  },
+  {
+   "calle": "SORIA, CIUDAD DE",
+   "entrada": "CIUDADANÍA, DE LA",
+   "salida": "EXPO 2008"
+  },
+  {
+   "calle": "SOROLLA, JOAQUÍN",
+   "entrada": "DOCE DE OCTUBRE",
+   "salida": "MARÍN BAGÜÉS"
+  },
+  {
+   "calle": "SUPERVÍA, MARIANO",
+   "entrada": "SAN JUAN DE LA CRUZ",
+   "salida": "VIVES, LUIS"
+  },
+  {
+   "calle": "TARRAGONA",
+   "entrada": "ESCORIAZA Y FABRO, MANUEL",
+   "salida": "ESCOSURA, DESIDERIO"
+  },
+  {
+   "calle": "TCHAIKOVSKY, PIOTR ILYCH",
+   "entrada": "GRACIA IBERNI, LUIS",
+   "salida": "RAVEL, MAURICE"
+  },
+  {
+   "calle": "TERCER MILENIO, DEL",
+   "entrada": "EXPO 2008",
+   "salida": "RANILLAS"
+  },
+  {
+   "calle": "TERRAZAS DE CUÉLLAR",
+   "entrada": "MARÍN BAGÜÉS",
+   "salida": "CANAL, DEL"
+  },
+  {
+   "calle": "TERUEL",
+   "entrada": "CORTÉS, HERNÁN",
+   "salida": "GOYA, FRANCISCO DE"
+  },
+  {
+   "calle": "TIERNO GALVÁN",
+   "entrada": "AMÉRICA",
+   "salida": "PESCARA"
+  },
+  {
+   "calle": "TORRECILLAS",
+   "entrada": "BIELSA",
+   "salida": "FRANKLIN, BENJAMÍN"
+  },
+  {
+   "calle": "TORRES, DE LAS",
+   "entrada": "UNIÓN, DE LA",
+   "salida": "SAGASTA"
+  },
+  {
+   "calle": "UNCASTILLO",
+   "entrada": "ALIERTA, CESÁREO",
+   "salida": "FLETA, TENOR"
+  },
+  {
+   "calle": "UNCETA",
+   "entrada": "MADRID",
+   "salida": "VILLAHERMOSA, DUQUESA"
+  },
+  {
+   "calle": "UNIÓN, DE LA",
+   "entrada": "TORRES, DE LAS",
+   "salida": "CADENA, MARQUÉS DE LA"
+  },
+  {
+   "calle": "UNIVÉRSITAS",
+   "entrada": "GÓMEZ LAGUNA, ALCALDE",
+   "salida": "MADRID"
+  },
+  {
+   "calle": "URBANO, FRAY LUIS",
+   "entrada": "ECHEGARAY Y CABALLERO",
+   "salida": "ARAGÓN, MARÍA DE"
+  },
+  {
+   "calle": "VADO, DEL",
+   "entrada": "PUENTE DEL PILAR",
+   "salida": "ARNAL CAVERO, PEDRO"
+  },
+  {
+   "calle": "VALDEFIERRO",
+   "entrada": "RODRÍGUEZ AYUSO, MANUEL",
+   "salida": "RIGEL"
+  },
+  {
+   "calle": "VALENCIA",
+   "entrada": "GOYA, FRANCISCO DE",
+   "salida": "ARAGÓN, CORONA DE"
+  },
+  {
+   "calle": "VALENCIA",
+   "entrada": "IBÉRICA",
+   "salida": "LÍMITE TÉRMINO"
+  },
+  {
+   "calle": "VÁZQUEZ DE MELLA",
+   "entrada": "CATÓLICA, ISABEL LA",
+   "salida": "HISPANIDAD"
+  },
+  {
+   "calle": "VELILLA DE EBRO",
+   "entrada": "CADENA, MARQUÉS DE LA",
+   "salida": "ORENSANZ, BALBINO"
+  },
+  {
+   "calle": "VENTANA INDISCRETA, LA",
+   "entrada": "CIUDADANO KANE",
+   "salida": "MAQUINISTA DE LA GRAL., EL"
+  },
+  {
+   "calle": "VERÓNICA",
+   "entrada": "SAN ANDRÉS",
+   "salida": "SOLER, PEDRO JOAQUÍN"
+  },
+  {
+   "calle": "VÍA, LA",
+   "entrada": "EMBARCADERO",
+   "salida": "HISPANIDAD"
+  },
+  {
+   "calle": "VICENTE, MOSÉN ANDRÉS",
+   "entrada": "MADRID",
+   "salida": "GALÁN BERGUA, DEMETRIO"
+  },
+  {
+   "calle": "VILLAHERMOSA, DUQUESA",
+   "entrada": "ROMA",
+   "salida": "HISPANIDAD"
+  },
+  {
+   "calle": "VITORIA, FRANCISCO DE",
+   "entrada": "SAN IGNACIO DE LOYOLA",
+   "salida": "TORRES, DE LAS"
+  },
+  {
+   "calle": "VIVES, LUIS",
+   "entrada": "CATÓLICO, FERNANDO EL",
+   "salida": "LASALA, MANUEL"
+  },
+  {
+   "calle": "VOLVER A EMPEZAR",
+   "entrada": "BELLE ÉPOQUE",
+   "salida": "GÓMEZ LAGUNA, ALCALDE"
+  },
+  {
+   "calle": "YESA, PANTANO DE",
+   "entrada": "SAN JUAN DE LA PEÑA",
+   "salida": "ALLENDE, SALVADOR"
+  },
+  {
+   "calle": "ZAFIRO",
+   "entrada": "CUARTA AVENIDA",
+   "salida": "HISPANIDAD"
+  },
+  {
+   "calle": "ZAMBRANO, MARÍA",
+   "entrada": "ATARÉS, JOSÉ",
+   "salida": "BOROBIA GONZÁLEZ, JOSÉ"
+  },
+  {
+   "calle": "ZAPATER CERDÁN, ALFONSO",
+   "entrada": "ORENSANZ, BALBINO",
+   "salida": "HISPANIDAD"
+  },
+  {
+   "calle": "ZARAGOZA LA VIEJA",
+   "entrada": "PUENTE VIRREY",
+   "salida": "VICO, ANTONIO"
+  },
+  {
+   "calle": "ZURIZA, VALLE DE",
+   "entrada": "CELORRIO, SIXTO",
+   "salida": "CATALUÑA"
+  }
+ ],
+ "calles_omitidas": [
+  {
+   "calle": "MAYOR",
+   "entrada": "MAYOR",
+   "salida": "MAYOR",
+   "motivo": "Errata del documento oficial: la fila repite MAYOR en las tres columnas."
+  }
+ ],
+ "filas_repetidas_descartadas": [
+  {
+   "calle": "ACUARIO",
+   "entrada": "CENTAURO",
+   "salida": "PERSEO"
+  },
+  {
+   "calle": "ADOLFO, HERMANO",
+   "entrada": "SERVET, MIGUEL",
+   "salida": "POBLET, MNTRIO. DE"
+  }
+ ],
+ "poligonos": [
+  {
+   "denominacion": "ARGUALAS, POLIGONO INDUSTRIAL",
+   "situacion": "CALLE ARGUALAS (BR. NTRA. SRA. LAS NIEVES)"
+  },
+  {
+   "denominacion": "CABALLERO, FCO. (ALCALDE) PG.",
+   "situacion": "CABALLERO, FCO. (ALCALDE) AV."
+  },
+  {
+   "denominacion": "CARTUJA BAJA, PG.IND.",
+   "situacion": "CT. CASTELLON, KM.230,3EN BR. CARTUJA BAJA"
+  },
+  {
+   "denominacion": "CIUDAD DEL TRANSPORTE",
+   "situacion": "CARRETERA DE HUESCA KM. 508"
+  },
+  {
+   "denominacion": "COGULLADA, POLIGONO INDUSTRIAL",
+   "situacion": "AVDA. CATALUÑA-ALCALDE CABALLERO"
+  },
+  {
+   "denominacion": "EMPRESARIUM, (POLIGONO INDUSTRIAL)",
+   "situacion": "CARRETERA CASTELLON, KM. 230,3"
+  },
+  {
+   "denominacion": "EUROPA, POLIGONO INDUSTRIAL (FASE I)",
+   "situacion": "AUTOVIA DE LOGROÑO, KM. 246,3"
+  },
+  {
+   "denominacion": "EUROPA, POLIGONO INDUSTRIAL (FASE II)",
+   "situacion": "AUTOVIA DE LOGROÑO, KM. 246,6"
+  },
+  {
+   "denominacion": "EXPO-ZARAGOZA, PG.",
+   "situacion": "CT. MADRID, KM.315,800"
+  },
+  {
+   "denominacion": "GREGO, EL (POLIGONO INDUSTRIAL)",
+   "situacion": "CALLE ARGUALAS,40 Y CALLE EL GRECO"
+  },
+  {
+   "denominacion": "INSIDER, POLIGONO INDUSTRIAL",
+   "situacion": "CARRETERA CASTELLON, KM. 230,3"
+  },
+  {
+   "denominacion": "LOPEZ SORIANO, PARQUE TECNOLOGICO PG.",
+   "situacion": "CT. CARTUJA A TORRECILLA"
+  },
+  {
+   "denominacion": "MALPICA, POLIGONO INDUSTRIAL (CALLE A)",
+   "situacion": "CARRETERA MADRID-BARCELONA, KM. 331"
+  },
+  {
+   "denominacion": "MALPICA, POLIGONO INDUSTRIAL (CALLE B)",
+   "situacion": "CARRETERA MADRID-BARCELONA, KM. 331"
+  },
+  {
+   "denominacion": "MALPICA, POLIGONO INDUSTRIAL (CALLE C)",
+   "situacion": "CARRETERA MADRID-BARCELONA, KM. 331"
+  },
+  {
+   "denominacion": "MALPICA, POLIGONO INDUSTRIAL (CALLE D)",
+   "situacion": "CARRETERA MADRID-BARCELONA, KM. 331"
+  },
+  {
+   "denominacion": "MALPICA, POLIGONO INDUSTRIAL (CALLE E)",
+   "situacion": "CARRETERA MADRID-BARCELONA, KM. 331"
+  },
+  {
+   "denominacion": "MALPICA, POLIGONO INDUSTRIAL (CALLE F)",
+   "situacion": "CARRETERA MADRID-BARCELONA, KM. 331"
+  },
+  {
+   "denominacion": "MALPICA, POLIGONO INDUSTRIAL (CALLE G)",
+   "situacion": "CARRETERA MADRID-BARCELONA. KM. 331"
+  },
+  {
+   "denominacion": "MALPICA II, POLIGONO INDUSTRIAL (CALLE A)",
+   "situacion": "CARRETERA MADRID-BARCELONA, KM. 330"
+  },
+  {
+   "denominacion": "MALPICA II, POLIGONO INDUSTRIAL (CALLE D)",
+   "situacion": "CARRETERA MADRID-BARCELONA, KM. 330"
+  },
+  {
+   "denominacion": "MALPICA II, POLIGONO INDUSTRIAL (CALLE E)",
+   "situacion": "CARRETERA MADRID-BARCELONA, KM. 330"
+  },
+  {
+   "denominacion": "MALPICA II, POLIGONO INDUSTRIAL (CALLE F)",
+   "situacion": "CARRETERA MADRID-BARCELONA, KM. 330"
+  },
+  {
+   "denominacion": "MALPICA II, POLIGONO INDUSTRIAL (CALLE J)",
+   "situacion": "CARRETERA MADRID-BARCELONA, KM. 330"
+  },
+  {
+   "denominacion": "MALPICA II, POLIGONO INDUSTRIAL (CALLE L)",
+   "situacion": "CARRETERA MADRID-BARCELONA, KM. 330"
+  },
+  {
+   "denominacion": "MALPICA II, POLIGONO INDUSTRIAL (CALLE M)",
+   "situacion": "CARRETERA MADRID-BARCELONA, KM. 330"
+  },
+  {
+   "denominacion": "MALPICA II, POLIGONO INDUSTRIAL (CALLE N)",
+   "situacion": "CARRETERA MADRID-BARCELONA, KM. 330"
+  },
+  {
+   "denominacion": "MALPICA II, POLIGONO INDUSTRIAL (CALLE O)",
+   "situacion": "CARRETERA MADRID-BARCELONA, KM. 330"
+  },
+  {
+   "denominacion": "MALPICA II, POLIGONO INDUSTRIAL (CALLE P)",
+   "situacion": "CARRETERA MADRID-BARCELONA, KM. 330"
+  },
+  {
+   "denominacion": "MALPICA II, POLIGONO INDUSTRIAL (CALLE H)",
+   "situacion": "CARRETERA MADRID-BARCELONA, KM.330"
+  },
+  {
+   "denominacion": "MALPICA II, POLIGONO INDUSTRIAL (CALLE Q)",
+   "situacion": "CARRETERA MADRID-BARCELONA, KM. 330"
+  },
+  {
+   "denominacion": "MIRAFLORES (PG. EMPRESARIAL)",
+   "situacion": "CARRETERA CASTELLON, KM. 231,6"
+  },
+  {
+   "denominacion": "MOLINO PILAR, POLIGONO INDUSTRIAL",
+   "situacion": "CN. MOLINOS, NUM.60"
+  },
+  {
+   "denominacion": "MONTEMOLIN (POLIGONO INDUSTRIAL)",
+   "situacion": "CARRETERA CASTELLON KM. 233,3"
+  },
+  {
+   "denominacion": "PUERTA NORTE, PG. EMPRESARIAL",
+   "situacion": "CARRETARA DE HUESCA, KM. 509"
+  },
+  {
+   "denominacion": "NAVAS, PG. SJN",
+   "situacion": "CALLE TORRE DEL CEREZO-BR.SAN JUAN M."
+  },
+  {
+   "denominacion": "PILAR, DEL POLIGONO INDUSTRIAL",
+   "situacion": "AV CATALUÑA-ISABEL DE STO.DOMINGO"
+  },
+  {
+   "denominacion": "PLAZA, (POLIGONO)",
+   "situacion": "CT. MADRID, KM.311 - CT. AEROPUERTO, KM. 004"
+  },
+  {
+   "denominacion": "PORTAZGO, POLIGONO INDUSTRIAL",
+   "situacion": "AUTOVIA LOGROÑO, KM. 245,3"
+  },
+  {
+   "denominacion": "PRYDES (POLIGONO INDUSTRIAL)",
+   "situacion": "CARRETERA CASTELLON KM.226,3"
+  },
+  {
+   "denominacion": "QUATTRO (POLIGONO INDUSTRIAL)",
+   "situacion": "CARRETERA CASTELLON KM.233,4"
+  },
+  {
+   "denominacion": "RUISEÑORES I, POLIGONO INDUSTRIAL",
+   "situacion": "AUTOVIA DE LOGROÑO, KM. 247,5"
+  },
+  {
+   "denominacion": "RUISEÑORES II, POLIGONO INDUSTRIAL",
+   "situacion": "AUTOVIA DE LOGROÑO, KM. 247,6"
+  },
+  {
+   "denominacion": "SAN CARLOS, POLIGONO INDUSTRIAL",
+   "situacion": "CARRETERA CASTELLON KM. 233,8"
+  },
+  {
+   "denominacion": "SAN VALERO, POLIGONO INDUSTRIAL",
+   "situacion": "CARRETERA CASTELLON, KM. 232"
+  },
+  {
+   "denominacion": "SERVET, MIGUEL (POLIGONO INDUSTRIAL)",
+   "situacion": "CARRETERA CASTELLON KM.233"
+  },
+  {
+   "denominacion": "TECNUM, POLIGONO INDUSTRIAL",
+   "situacion": "CARRETERA CASTELLON KM. 230"
+  },
+  {
+   "denominacion": "UNION I, LA POLIGONO INDUSTRIAL",
+   "situacion": "CARRETERA CASTELLON, KM. 232,8"
+  },
+  {
+   "denominacion": "UNION II, LA POLIGONO INDUSTRIAL",
+   "situacion": "CARRETERA CASTELLON KM.233"
+  },
+  {
+   "denominacion": "VALSECA, POLIGONO INDUSTRIAL",
+   "situacion": "CN DE COGULLADA, ESCATRON, VALDEALGORFA"
+  },
+  {
+   "denominacion": "VENTAS, LAS POLIGONO INDUSTRIAL",
+   "situacion": "CARRETERA DE LOGROÑO, KM. 248,5"
+  },
+  {
+   "denominacion": "VISTA BELLA, POLIGONO INDUSTRIAL",
+   "situacion": "AUTOVIA DE LOGROÑO, KM.244,9"
+  }
+ ]
+}
