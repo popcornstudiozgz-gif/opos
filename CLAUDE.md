@@ -287,7 +287,7 @@ principio; lo que se hace tema a tema es casos_practicos, con scripts
 
 ## Estado actual del contenido (referencia rápida — puede quedar desactualizado, comprobar en BD si hay dudas)
 
-19 oposiciones en la base de datos, todas bajo `ayuntamiento-zaragoza`
+20 oposiciones en la base de datos, todas bajo `ayuntamiento-zaragoza`
 excepto Auxiliar Administrativo en `dpz` y `gobierno-aragon`:
 
 - **Auxiliar Administrativo** (Ayto. Zaragoza / DPZ / DGA): 20 temas cada
@@ -792,6 +792,42 @@ excepto Auxiliar Administrativo en `dpz` y `gobierno-aragon`:
   fueran las de 2026 (1 plaza prevista, id 2111 en zaragoza.es/oferta).
   Precedente a seguir si se repite el caso de una "Oficial X" sin
   bases del ciclo vigente todavía publicadas.
+
+- **Bombero/a Conductor/a** (`bombero-conductor-ayto-zaragoza`, octubre
+  2026): **fase 1 hecha, Parte II pendiente.** Convocatoria CONV 8.1/2026
+  (bases2107.pdf, BOP 170 de 27-07-2026; BOE-A-2026-19150; 37 plazas C1;
+  plazo cerrado 05-10-2026) con 4 ejercicios (test 100 preg. + prueba de
+  callejero 50 preg., psicotécnico, físicas, capacidad de trabajo — base
+  9.4.C de las bases generales del turno libre). **Convención distinta a
+  las "Oficial X": `numero` = número oficial del tema** (1-40; el
+  callejero va como 41, bloque-3), porque con 40 temas un desfase
+  confundiría. Bloques: bloque-1 Parte I `653513ce-b965-421a-a408-
+  7bcc01058baf`, bloque-2 Parte II `336ae10e-fe81-42fe-8f98-8e9d201f5ac2`,
+  bloque-3 municipio `4cfdb495-22b3-40c9-a2c5-808c6d5286ea`. Hecho:
+  temas 1, 2, 4 y 6 reutilizan tema-1 (con sección nueva
+  `antecedentes-estructura`, `fix-tema-1-antecedentes-estructura.mjs`),
+  tema-3, tema-14 y tema-43; temas 3, 5, 7 y 8 son dedicados
+  (`tema-299` a `tema-302`: cada número admite un solo canónico y esos
+  temas mezclan materias de 2-3 canónicos — incluye la Ordenanza de
+  Transparencia de Zaragoza, leída íntegra); tema 41 = `tema-303`,
+  callejero y polígonos generados desde
+  `scripts/data/callejero-bombero-conv-8-1-2026.json` (367 calles, 52
+  polígonos; extraídos **por coordenadas** del PDF con pypdf — pdftotext
+  desalineaba filas; la fila "MAYOR|MAYOR|MAYOR" es errata del anexo y se
+  omite). Preguntas con **3 opciones** (como el examen real).
+  **Pendiente: temas 9-40 (Parte II)**, por este orden: los 16 con
+  apuntes oficiales de la Escuela de Bomberos (ya descargados en
+  `scripts/tmp-fuentes/bombero/escuela/`, texto extraíble: temas 9-13,
+  17, 18, 20, 26, 27, 28, 31-34, 36), luego los que el Servicio remite a
+  manuales externos (IVASPE, Arkaute, CEIS Guadalajara, DP Sevilla — ver
+  `Bibliografia_externa_recomendada_temario_BNI.pdf`), y por último los
+  normativos (CTE DB-SI Anejo A, Plan de Voluntarios de Protección Civil,
+  Ley 1/2013 y Decretos 158 y 159/2014 de Aragón, Ley 31/1995).
+  Mientras falte la Parte II, el simulacro sobrerrepresenta el callejero.
+
+Corrección hecha en esa sesión (`fix-tema-42-ivtm-obligatorio.mjs`):
+tema-42 (de las 16 "Oficial X") daba el IVTM como impuesto potestativo;
+el art. 59.1 TRLRHL lo hace obligatorio junto a IBI e IAE.
 
 Con esto, **las 16 oposiciones "Oficial X" del Ayuntamiento de
 Zaragoza tienen temario y convocatoria completos** — ya no queda
