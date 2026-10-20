@@ -13,11 +13,11 @@ interface PageProps {
 }
 
 /**
- * Estática (se regenera como mucho cada hora): el usuario se resuelve en
+ * Estática (se regenera solo con cada despliegue): el usuario se resuelve en
  * cliente (`CasoRunner` → `useUsuarioId`), no leyendo la sesión aquí.
  */
 export const dynamic = "force-static";
-export const revalidate = 3600;
+export const revalidate = false;
 
 export async function generateStaticParams() {
   return await getParamsCasosPracticosEstatico();
