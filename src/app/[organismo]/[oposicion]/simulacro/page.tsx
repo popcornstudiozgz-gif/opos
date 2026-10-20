@@ -22,13 +22,13 @@ const POOL_PREGUNTAS = 300;
 const POOL_CASOS = 8;
 
 /**
- * Página estática regenerada como mucho cada hora (octubre 2026, por el
+ * Página estática regenerada solo con cada despliegue (octubre 2026, por el
  * consumo de "Fluid Active CPU" de Vercel): antes se renderizaba en cada
  * visita para leer la sesión y sortear el examen. Ahora el usuario se
  * resuelve en cliente y el sorteo final se hace en el navegador.
  */
 export const dynamic = "force-static";
-export const revalidate = 3600;
+export const revalidate = false;
 
 interface PageProps {
   params: Promise<{ organismo: string; oposicion: string }>;

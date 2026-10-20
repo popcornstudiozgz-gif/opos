@@ -15,7 +15,7 @@ interface PageProps {
  * `TemaExplorerLayout` sobre por qué ya no es `?tema=`).
  */
 export const dynamic = "force-static";
-export const revalidate = 3600;
+export const revalidate = false;
 
 export async function generateStaticParams() {
   const oposiciones = await getOposiciones();

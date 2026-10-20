@@ -19,13 +19,13 @@ interface PageProps {
 /**
  * Test de un tema (`tema-5`) o de toda la oposición (`todas`). Página
  * estática generada la primera vez que alguien la pide y cacheada (se
- * regenera como mucho cada hora): el usuario se resuelve en cliente
+ * regenera solo con cada despliegue): el usuario se resuelve en cliente
  * (`TestRunner` → `useUsuarioId`), así que el servidor no necesita la
  * sesión. `generateStaticParams` vacío = no se pre-generan en el build
  * (serían ~400 páginas por sección), pero sí se cachean al pedirse.
  */
 export const dynamic = "force-static";
-export const revalidate = 3600;
+export const revalidate = false;
 
 export async function generateStaticParams() {
   return [];

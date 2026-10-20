@@ -32,13 +32,14 @@ import type {
  */
 
 /**
- * Tiempo máximo que un cambio de contenido sembrado en Supabase tarda en
- * verse en las páginas dinámicas. Las estáticas no se ven afectadas: se
- * regeneran con cada despliegue, y la clave incluye el commit desplegado
- * para que un build nuevo nunca lea la caché del anterior (la Data Cache
- * de Vercel sobrevive entre despliegues).
+ * Sin caducidad (octubre 2026, por el límite de "ISR Writes" de Vercel):
+ * con 1 hora, cada entrada y cada página de estudio se reescribía cada hora
+ * aunque nada hubiera cambiado. El contenido solo cambia al sembrar, y tras
+ * sembrar siempre se despliega: la clave incluye el commit desplegado, así
+ * que un build nuevo nunca lee la caché del anterior (la Data Cache de
+ * Vercel sobrevive entre despliegues). Un seed se ve tras el despliegue.
  */
-const REVALIDAR_SEGUNDOS = 3600;
+const REVALIDAR_SEGUNDOS = false;
 const VERSION_CACHE = process.env.VERCEL_GIT_COMMIT_SHA ?? "local";
 
 function cacheado<A extends unknown[], R>(nombre: string, fn: (...args: A) => Promise<R>) {

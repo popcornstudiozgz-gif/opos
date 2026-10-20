@@ -12,7 +12,7 @@ interface PageProps {
 
 /** Glosario de una oposición, sin tema elegido. Estática (ver `/glosario/page.tsx`). */
 export const dynamic = "force-static";
-export const revalidate = 3600;
+export const revalidate = false;
 
 export async function generateStaticParams() {
   const oposiciones = await getOposiciones();

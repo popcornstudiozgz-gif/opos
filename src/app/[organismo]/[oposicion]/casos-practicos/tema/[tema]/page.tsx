@@ -14,7 +14,7 @@ interface PageProps {
 
 /** Casos prácticos de un tema. Estática y cacheada, mismo criterio que `/test/[tema]`. */
 export const dynamic = "force-static";
-export const revalidate = 3600;
+export const revalidate = false;
 
 export async function generateStaticParams() {
   return [];

@@ -104,12 +104,18 @@ qué consulta hace cada página antes de asumir la forma de una tabla.
 
 **Caché de contenido (septiembre 2026, por el límite de "Fluid Active CPU"
 de Vercel):** las consultas de contenido de `src/lib/oposiciones.ts` pasan
-por `unstable_cache` (1 hora, tag `contenido`), cacheadas por `tema_slug`
-canónico con el recorte de `secciones_incluidas` aplicado después en
-memoria. Consecuencia práctica: **un seed nuevo tarda hasta 1 hora en
-verse** en test/flashcards/casos prácticos/simulacro/glosario (las páginas
-estáticas siguen necesitando un despliegue, como siempre). La clave incluye
-el commit desplegado, así que un despliegue nuevo nunca sirve caché vieja.
+por `unstable_cache` (sin caducidad, tag `contenido`), cacheadas por
+`tema_slug` canónico con el recorte de `secciones_incluidas` aplicado
+después en memoria. Consecuencia práctica: **un seed nuevo solo se ve tras
+un despliegue** (`git push` o "Redeploy" en Vercel) en todas las páginas de
+contenido. La clave incluye el commit desplegado, así que un despliegue
+nuevo nunca sirve caché vieja. Hasta octubre 2026 caducaba cada hora (igual
+que las páginas de estudio, `revalidate = 3600`), y eso disparó el límite
+de "ISR Writes" de Vercel: miles de páginas × ~10 ficheros por página
+(segmentos de prefetch) reescritas cada hora, sobre todo por robots. **No
+volver a poner caducidad horaria** en páginas de estudio ni en `cacheado()`;
+la home sí mantiene `revalidate = 3600` (1 sola página, necesaria para el
+cierre automático de plazos; convocatorias y blog no pasan por la caché).
 Relacionado: `robots.ts` cierra a los robots las variantes `?tema=`/`?modo=`,
 y los enlaces a esas variantes llevan `prefetch={false}` — ambos para no
 disparar renders dinámicos innecesarios. No revertir sin revisar el consumo.
@@ -117,7 +123,7 @@ disparar renders dinámicos innecesarios. No revertir sin revisar el consumo.
 **Páginas de estudio estáticas (octubre 2026, segunda ronda por el mismo
 límite):** test, flashcards, casos prácticos, simulacro y glosario ya no
 leen `searchParams` ni la sesión en el servidor — son estáticas/ISR
-(`force-static`, `revalidate = 3600`). El tema va en la ruta:
+(`force-static`, `revalidate = false`). El tema va en la ruta:
 `/[organismo]/[oposicion]/test/[tema]`, `/flashcards/[tema]`,
 `/casos-practicos/tema/[tema]`, `/glosario/[oposicion-slug-interno]/[tema]`
 (`[tema]` = slug del tema o `todas`); las URLs viejas con `?tema=` /
