@@ -840,6 +840,55 @@ excepto Auxiliar Administrativo en `dpz` y `gobierno-aragon`:
   casos de 10 preguntas y el vínculo — los `seed-tema-3NN-*.mjs` de
   Bombero son solo datos; úsalo para oposiciones nuevas.
 
+- **Policía Local** (`policia-local-ayto-zaragoza`, octubre 2026):
+  **completa — 50/50 temas y convocatoria.** CONV 7.1/2026 (bases2106.pdf,
+  BOP 170 de 27-07-2026; BOE-A-2026-19150; 43 plazas: 31 TLO + 4
+  ampliación + 8 TLRMIL; plazo cerrado 05-10-2026; 4 ejercicios según la
+  base 8.4.C de las bases generales: test de 100 preguntas de 3 opciones,
+  físicas, psicotécnico y 2 supuestos prácticos; curso de formación con
+  nota final (oposición + curso×2)/2). **Misma convención que Bombero:
+  `numero` = número oficial del tema.** Bloques: Parte primera
+  `771bb2f3-bae8-4261-9b68-17e519bd6991`, Parte segunda
+  `a09c8f20-db05-4c77-8db9-8db6dcac4fa8` (constante `POLICIA` en
+  `scripts/lib/sembrar-tema.mjs`). Reutilizados: Tema 1 → tema-1
+  (recortado a antecedentes, preliminar y Título I), 3 → tema-3, 4 →
+  tema-299, 5 → tema-14, 7 → tema-300 (recortado a presupuesto e
+  ingresos), 8 → tema-43 (recortado; hereda 0 glosario y 0 casos), 9 →
+  tema-301, 10 → tema-302. Dedicados: Tema 2 = `tema-336`, 6 = `tema-337`,
+  11-13 = `tema-338` a `tema-340`, y 14-50 = `tema-341` a `tema-377` (slug
+  = 327 + número). Todos los `seed-tema-3NN-*.mjs` de esta oposición son
+  solo datos para `sembrarTema()`; verificación final en
+  `scripts/verificar-policia-local.mjs`. Hechos y lagunas a recordar:
+  - **Normas citadas por el temario que están derogadas**, estudiadas en
+    su versión vigente: la Ordenanza General de Tráfico, la de peatones y
+    ciclistas y la de VMP de Zaragoza → Ordenanza de Movilidad Urbana
+    (BOPZ 192 de 21-08-2024; Temas 41 y 42); la Ordenanza de Limpieza de
+    1986 → Ordenanza de limpieza viaria y residuos (BOPZ 123 de
+    02-06-2023; Tema 48).
+  - **Reformas de 2026 incorporadas:** RD 518/2026 (BOE-A-2026-13889)
+    sobre el Reglamento General de Circulación, con un nuevo Título VI de
+    zonas urbanas (en vigor el 01-10-2026); RD 52/2026 (BOE-A-2026-2140),
+    que exige registro y etiqueta a los VMP; Decreto-ley aragonés 2/2026
+    (BOE-A-2026-20473), que prohíbe las fiestas sin título habilitante en
+    la Ley 11/2005; reforma del art. 69.3 de la Constitución, de 19-05-2026
+    (BOE-A-2026-10881), sobre los senadores de Ibiza y Formentera.
+  - **Discrepancias señaladas, no resueltas:** la Ley 8/2013 de Aragón
+    fija una edad máxima de 35 años y las bases de 2026 solo exigen no
+    superar la de jubilación (tema-363); la Ordenanza de Movilidad exige
+    16 años para el VMP y el RGC (art. 155.3) prohíbe a los menores de 15
+    (tema-369).
+  - **Multas en pesetas sin actualizar** en la ORACITP de 1981 (Tema 47) y
+    en la Ordenanza de Ruidos de 2001 (con su equivalencia en euros).
+  - **Identificador del RD 920/2017 (ITV): BOE-A-2017-12841.**
+    BOE-A-2017-12659 es otra norma; no confundirlos.
+  - El texto refundido de la Ley de Urbanismo de Aragón no está en el BOE
+    como BOE-A: su consolidado es `BOA-d-2014-90410` (misma API).
+  - Temas 11-13 (criminología, marginación, drogas) se apoyan en la
+    LOFCS, la LO 4/2015, la Ley 5/2014 de Seguridad Privada, la LO 4/2000
+    y la Ley aragonesa 3/2001 (BOE-A-2001-9342); las teorías criminológicas
+    se tratan como conocimiento académico tras buscar sin éxito un temario
+    oficial público. No hay cifras estadísticas.
+
 Corrección hecha en esa sesión (`fix-tema-42-ivtm-obligatorio.mjs`):
 tema-42 (de las 16 "Oficial X") daba el IVTM como impuesto potestativo;
 el art. 59.1 TRLRHL lo hace obligatorio junto a IBI e IAE.

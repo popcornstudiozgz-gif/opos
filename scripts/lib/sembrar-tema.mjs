@@ -105,3 +105,10 @@ export const BOMBERO = {
   bloqueParteII: "336ae10e-fe81-42fe-8f98-8e9d201f5ac2",
   escuela: (archivo) => `https://www.zaragoza.es/cont/vistas/portal/bomberos/doc/${archivo}`,
 };
+
+/** Constantes de Policía Local (Ayto. de Zaragoza); slug de tema = 327 + número en la Parte segunda. */
+export const POLICIA = {
+  oposicion: "policia-local-ayto-zaragoza",
+  bloqueParte1: "771bb2f3-bae8-4261-9b68-17e519bd6991",
+  bloqueParte2: "a09c8f20-db05-4c77-8db9-8db6dcac4fa8",
+};
