@@ -106,6 +106,15 @@ export const BOMBERO = {
   escuela: (archivo) => `https://www.zaragoza.es/cont/vistas/portal/bomberos/doc/${archivo}`,
 };
 
+/** Constantes de Administrativo del Gobierno de Aragón (C1); slug de tema nuevo = 372 + número. */
+export const ADMIN_DGA = {
+  oposicion: "administrativo-dga",
+  bloqueDerecho: "f8053568-c72a-4125-b6e4-6a52cfe8e7e2",
+  bloquePersonal: "5f860e9b-f3ec-4a75-b8c1-4bb29e816334",
+  bloquePresupuesto: "9fdc5770-0578-40c6-8ca5-2495ae151e15",
+  bloqueInformatica: "099011bb-5ff8-48bd-846b-fd0e92ccd080",
+};
+
 /** Constantes de Policía Local (Ayto. de Zaragoza); slug de tema = 327 + número en la Parte segunda. */
 export const POLICIA = {
   oposicion: "policia-local-ayto-zaragoza",

@@ -889,6 +889,58 @@ excepto Auxiliar Administrativo en `dpz` y `gobierno-aragon`:
     se tratan como conocimiento académico tras buscar sin éxito un temario
     oficial público. No hay cifras estadísticas.
 
+- **Administrativo (C1) del Gobierno de Aragón** (`administrativo-dga`,
+  organismo `gobierno-aragon`, puesto `administrativo`; octubre 2026):
+  **completa — 35/35 temas y convocatoria.** Convocatoria: BOA 247/2025,
+  código 25/0102 (Resolución 19-12-2025; 144 plazas: 139 TLO + 3 víctimas
+  de violencia de género + 1 terrorismo + 1 personas trans; plazo
+  24-12-2025 a 23-01-2026, `estado` cerrada; dos ejercicios tipo test con
+  penalización −0,3333; curso de 20 h apto/no apto). Programa: Anexo XXV
+  (el tema 24 viene truncado en el PDF y se completó con el programa del
+  BOA de 19-07-2022). **`numero` = 1-35 correlativo** (comunes 1-5;
+  específico N = 5 + N) y **slug nuevo = 372 + número** (`tema-378` a
+  `tema-407`; `tema-394` y `tema-406` no existen porque esos números
+  reutilizan canónicos). Reutilizados: 1 → tema-1 (recortado), 2 →
+  tema-29, 3 → tema-3 (recortado), 4 → tema-30, 5 → tema-25, 22 → tema-32
+  (recortado a negociación/conflictos/convenios), 34 → tema-36 (recortado
+  a Internet y navegadores; por eso la informática básica del 33 es el
+  canónico nuevo `tema-405`). Bloques en la constante `ADMIN_DGA` de
+  `scripts/lib/sembrar-tema.mjs` (bloque-1 comunes
+  `dc4bd89d-4f12-45ed-85cf-d125b119a939`). Scripts:
+  `seed-administrativo-dga-setup-y-reutilizados.mjs`,
+  `seed-convocatoria-administrativo-dga.mjs`, `seed-tema-378…407-*.mjs`
+  (solo datos para `sembrarTema()`) y `verificar-administrativo-dga.mjs`.
+  Hechos y lagunas a recordar:
+  - **Normas aragonesas clave verificadas:** TR Ley de Hacienda de Aragón
+    = DLeg 3/2023 (BOE-A-2023-14052; derogó el DLeg 1/2000); TR Patrimonio
+    = DLeg 1/2023 (BOE-A-2023-7507); TR Función Pública = DLeg 1/1991
+    (`BOA-d-1991-90001`, misma API del BOE); Ley 5/2012 de Estabilidad
+    Presupuestaria de Aragón (BOE-A-2012-9063); Ley 11/2009 de la Cámara de
+    Cuentas (BOE-A-2010-2162); Ley 11/2023 de contratación (BOE-A-2023-10876);
+    Ley 5/2021 de organización y régimen jurídico (BOE-A-2021-12701).
+  - **Normas que solo están en el BOA** (descargadas con
+    `BRSCGI?CMD=VERLST…&TITU-C=` y `CMD=VEROBJ&MLKOB=`): Orden HAP/883/2026
+    (instrucciones del presupuesto 2027: secciones, capítulos, programas),
+    Orden HAP/1848/2025 (prórroga del presupuesto 2024 para 2026),
+    Decreto 232/1999 + Decreto 186/2005 (caja fija: pagos de hasta 3.750 €,
+    7 % del capítulo 2; pagos a justificar en tres meses), Orden
+    HAP/535/2018 (PGCP de Aragón, aplicable desde 2019).
+  - **Situación presupuestaria real de 2026:** presupuesto de 2024 (Ley
+    17/2023) prorrogado; Decreto-ley 1/2026 (BOE-A-2026-17288) concedió un
+    suplemento de crédito de unos 619 M€, convalidado por las Cortes.
+  - **Financiación autonómica:** vigente la Ley 22/2009; la reforma
+    acordada en el CPFF el 4-09-2026 (IRPF 55 %, IVA 56,5 %) está tratada
+    en una sección aparte como **no vigente** hasta que se apruebe la ley.
+  - **Lagunas señaladas:** documentos contables (RC, AD, OK…) y nóminas
+    (Orden de 30-07-1992, Ley 33/1987 arts. 33-34) se explican con la norma
+    **estatal** porque no se ha localizado norma aragonesa publicada; no se
+    leyeron la Ley 17/2023 ni el Reglamento de las Cortes (no se citan sus
+    listas ni plazos); decreto aragonés de dietas y Decretos 80/1997 y
+    122/1986 no leídos.
+  - **Hueco heredado:** los canónicos reutilizados tema-29, tema-30,
+    tema-32 y tema-36 (de Auxiliar DGA) no tienen glosario ni casos
+    prácticos; candidatos a retrofit.
+
 Corrección hecha en esa sesión (`fix-tema-42-ivtm-obligatorio.mjs`):
 tema-42 (de las 16 "Oficial X") daba el IVTM como impuesto potestativo;
 el art. 59.1 TRLRHL lo hace obligatorio junto a IBI e IAE.
