@@ -287,7 +287,7 @@ principio; lo que se hace tema a tema es casos_practicos, con scripts
 
 ## Estado actual del contenido (referencia rápida — puede quedar desactualizado, comprobar en BD si hay dudas)
 
-23 oposiciones en la base de datos, todas bajo `ayuntamiento-zaragoza`
+24 oposiciones en la base de datos, todas bajo `ayuntamiento-zaragoza`
 excepto Auxiliar Administrativo en `dpz` y `gobierno-aragon` y
 Administrativo (C1) en `gobierno-aragon`:
 
@@ -949,9 +949,8 @@ Administrativo (C1) en `gobierno-aragon`:
   05-10-2026; base 7.4.E de las bases generales: test de 40 preguntas de 3
   opciones en 45 min y 4 supuestos de 5 preguntas de 4 opciones en 30 min,
   el mismo día, con penalización de 1/4; 362 pasan el primer ejercicio).
-  Las mismas bases convocan 4 plazas de Subalterna/o (solo TLRINTEC, otro
-  temario de 10 temas) que **no se han incorporado** — candidata natural,
-  reutilizaría los temas 1, 2, 3 y 10. **`numero` = número oficial (1-10)**,
+  Las mismas bases convocan Subalterna/o (ver la entrada siguiente).
+  **`numero` = número oficial (1-10)**,
   un único bloque (`OPERARIO` en `scripts/lib/sembrar-tema.mjs`), slug
   nuevo = 407 + número (`tema-408` a `tema-416`; no existen `tema-413` ni
   `tema-417`). Reutilizados: 6 → tema-45 (albañilería, completo) y 10 →
@@ -972,6 +971,33 @@ Administrativo (C1) en `gobierno-aragon`:
     BOE-A-1997-8670. **Corregido** (`fix-enlace-rd-1215-1997.mjs`): tema-123
     y tema-132 citaban BOE-A-1997-16776 (una orden judicial sin relación)
     como RD 1215/1997.
+
+- **Subalterno/a** (`subalterno-ayto-zaragoza`, octubre 2026): **completa —
+  10/10 temas y convocatoria.** Misma CONV 5/2026 que Operario: 4 plazas
+  (OEP 24/25) en convocatoria independiente **exclusiva para personas con
+  discapacidad intelectual**; dos ejercicios en 2 h (test de 20 preguntas y
+  3 supuestos de 5, ambos de 3 opciones y **sin penalización**). La OEP
+  2026 prevé otras 2 plazas (ficha id=2082) aún sin convocar. Por el
+  público al que va, los temas nuevos usan **lenguaje sencillo** y frases
+  cortas. `numero` = número oficial; constante `SUBALTERNO`; slug nuevo =
+  414 + número (`tema-417`, 418, 420, 421, 422, 423). Reutilizados: 1 →
+  tema-408, 2 → tema-409, 10 → tema-2 (mismo recorte que Operario) y 5 →
+  tema-410 completo, **ampliado** con la sección `web-quejas-cita-previa`
+  (`seed-tema-410-ampliacion-web-quejas-cita-previa.mjs`); en Operario
+  tema-410 queda recortado a las 5 secciones del Manual. Fuentes: padrón
+  (LBRL 15-18, RD 1690/1986 tras el RD 141/2024, Resolución INE de 2020
+  BOE-A-2020-4784, fichas de zaragoza.es); documentos (Ley 39/2015 y ROF
+  BOE-A-1986-33252); sedes y juntas (ROTPC normativa/109 y API de
+  equipamientos: 15 Juntas Municipales, 14 Vecinales, 32 centros de
+  convivencia, 24 centros cívicos); Reglamento de Centros Cívicos
+  (normativa/4443) y Ordenanza de Centros de Convivencia (normativa/942);
+  papel: ISO 216 (no se ha confirmado su número UNE). Verificación:
+  `scripts/verificar-subalterno.mjs`.
+  - **Ojo al probar en local:** la caché de datos del servidor de
+    desarrollo está en `.next/dev/cache` (no en `.next/cache`) y su clave
+    es "local", así que tras un seed que cambie `tema_oposicion` hay que
+    borrarla para ver el cambio en `npm run dev`. En Vercel no hace falta,
+    porque la clave es el commit.
 
 Corrección hecha en esa sesión (`fix-tema-42-ivtm-obligatorio.mjs`):
 tema-42 (de las 16 "Oficial X") daba el IVTM como impuesto potestativo;
