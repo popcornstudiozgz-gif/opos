@@ -115,6 +115,12 @@ export const ADMIN_DGA = {
   bloqueInformatica: "099011bb-5ff8-48bd-846b-fd0e92ccd080",
 };
 
+/** Constantes de Operario/a Especialista (Ayto. de Zaragoza); slug de tema nuevo = 407 + número. */
+export const OPERARIO = {
+  oposicion: "operario-especialista-ayto-zaragoza",
+  bloque: "d9850c68-d26c-48c4-84a7-00027874e94c",
+};
+
 /** Constantes de Policía Local (Ayto. de Zaragoza); slug de tema = 327 + número en la Parte segunda. */
 export const POLICIA = {
   oposicion: "policia-local-ayto-zaragoza",

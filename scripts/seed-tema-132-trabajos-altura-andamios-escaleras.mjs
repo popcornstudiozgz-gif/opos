@@ -91,12 +91,12 @@ await insertar("temas", [
     contenido:
       "Desarrolla el marco normativo de los trabajos temporales en altura (RD 1215/1997, modificado por el RD 2177/2004), las tipologías de andamios modulares y su composición, las disposiciones mínimas de seguridad y las medidas de protección individual y colectiva aplicables, el procedimiento de montaje y desmontaje seguro, y las escaleras de mano como medio auxiliar de trabajos en altura de menor entidad, conforme al RD 486/1997.",
     enlaces_boe: [
-      "https://www.boe.es/buscar/act.php?id=BOE-A-1997-16776",
+      "https://www.boe.es/buscar/act.php?id=BOE-A-1997-17824",
       "https://www.boe.es/buscar/act.php?id=BOE-A-1997-8669",
     ],
     indice_estudio: [
-      { url: "https://www.boe.es/buscar/act.php?id=BOE-A-1997-16776", titulo: "Normativa y tipologías de andamios", seccion: "normativa-tipologias-andamios", articulos: "RD 1215/1997, modificado por RD 2177/2004" },
-      { url: "https://www.boe.es/buscar/act.php?id=BOE-A-1997-16776", titulo: "Composición, montaje y desmontaje de andamios", seccion: "composicion-montaje-desmontaje-andamios", articulos: "RD 1215/1997, modificado por RD 2177/2004" },
+      { url: "https://www.boe.es/buscar/act.php?id=BOE-A-1997-17824", titulo: "Normativa y tipologías de andamios", seccion: "normativa-tipologias-andamios", articulos: "RD 1215/1997, modificado por RD 2177/2004" },
+      { url: "https://www.boe.es/buscar/act.php?id=BOE-A-1997-17824", titulo: "Composición, montaje y desmontaje de andamios", seccion: "composicion-montaje-desmontaje-andamios", articulos: "RD 1215/1997, modificado por RD 2177/2004" },
       { url: "https://www.boe.es/buscar/act.php?id=BOE-A-1997-8669", titulo: "Las escaleras de mano y sus usos", seccion: "escaleras-manuales-usos", articulos: "RD 486/1997, Anexo I" },
     ],
   },

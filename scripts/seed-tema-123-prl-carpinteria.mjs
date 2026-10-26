@@ -16,7 +16,7 @@
  *   anteriores del proyecto (Oficial Albañil y siguientes).
  * - RD 1215/1997, de 18 de julio, por el que se establecen las
  *   disposiciones mínimas de seguridad y salud para la utilización por
- *   los trabajadores de los equipos de trabajo (BOE-A-1997-16776) —
+ *   los trabajadores de los equipos de trabajo (BOE-A-1997-17824) —
  *   aplicable a las máquinas de carpintería (sierra circular,
  *   cepilladora, fresadora, taladradora) del tema-115.
  * - RD 773/1997, de 30 de mayo, sobre disposiciones mínimas de seguridad
@@ -104,14 +104,14 @@ await insertar("temas", [
       "Desarrolla el marco normativo de prevención de riesgos laborales aplicable a los trabajos de carpintería (Ley 31/1995, RD 1215/1997 de equipos de trabajo, RD 773/1997 de EPI), las condiciones de seguridad exigibles en el uso de las máquinas, herramientas manuales y medios auxiliares propios del oficio, y los riesgos higiénicos característicos de la carpintería —en particular la exposición al polvo de madera, clasificado como agente cancerígeno por el RD 665/1997 modificado por el RD 349/2003— junto con sus medidas preventivas.",
     enlaces_boe: [
       "https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292",
-      "https://www.boe.es/buscar/act.php?id=BOE-A-1997-16776",
+      "https://www.boe.es/buscar/act.php?id=BOE-A-1997-17824",
       "https://www.boe.es/buscar/act.php?id=BOE-A-1997-12735",
       "https://www.boe.es/buscar/act.php?id=BOE-A-1997-11145",
       "https://www.boe.es/buscar/doc.php?id=BOE-A-2003-6934",
     ],
     indice_estudio: [
       { url: "https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292", titulo: "Marco general de PRL aplicable a la carpintería", seccion: "normativa-general-prl-carpinteria", articulos: "Ley 31/1995; RD 1215/1997; RD 773/1997" },
-      { url: "https://www.boe.es/buscar/act.php?id=BOE-A-1997-16776", titulo: "Condiciones de seguridad en equipos, herramientas y medios auxiliares", seccion: "riesgos-mecanicos-equipos-medios-auxiliares", articulos: "RD 1215/1997" },
+      { url: "https://www.boe.es/buscar/act.php?id=BOE-A-1997-17824", titulo: "Condiciones de seguridad en equipos, herramientas y medios auxiliares", seccion: "riesgos-mecanicos-equipos-medios-auxiliares", articulos: "RD 1215/1997" },
       { url: "https://www.boe.es/buscar/act.php?id=BOE-A-1997-11145", titulo: "Riesgos higiénicos y medidas preventivas", seccion: "riesgos-higienicos-medidas-preventivas", articulos: "RD 665/1997, modificado por RD 349/2003; RD 1299/2006" },
     ],
   },
