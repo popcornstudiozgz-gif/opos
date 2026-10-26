@@ -121,6 +121,12 @@ export const OPERARIO = {
   bloque: "d9850c68-d26c-48c4-84a7-00027874e94c",
 };
 
+/** Constantes de Subalterno/a (Ayto. de Zaragoza); slug de tema nuevo = 414 + número. */
+export const SUBALTERNO = {
+  oposicion: "subalterno-ayto-zaragoza",
+  bloque: "116c92c6-2c45-4720-b528-8f5adb4453ba",
+};
+
 /** Constantes de Policía Local (Ayto. de Zaragoza); slug de tema = 327 + número en la Parte segunda. */
 export const POLICIA = {
   oposicion: "policia-local-ayto-zaragoza",
