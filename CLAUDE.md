@@ -287,8 +287,9 @@ principio; lo que se hace tema a tema es casos_practicos, con scripts
 
 ## Estado actual del contenido (referencia rápida — puede quedar desactualizado, comprobar en BD si hay dudas)
 
-20 oposiciones en la base de datos, todas bajo `ayuntamiento-zaragoza`
-excepto Auxiliar Administrativo en `dpz` y `gobierno-aragon`:
+23 oposiciones en la base de datos, todas bajo `ayuntamiento-zaragoza`
+excepto Auxiliar Administrativo en `dpz` y `gobierno-aragon` y
+Administrativo (C1) en `gobierno-aragon`:
 
 - **Auxiliar Administrativo** (Ayto. Zaragoza / DPZ / DGA): 20 temas cada
   una, temario + convocatoria completos.
@@ -940,6 +941,37 @@ excepto Auxiliar Administrativo en `dpz` y `gobierno-aragon`:
   - **Hueco heredado:** los canónicos reutilizados tema-29, tema-30,
     tema-32 y tema-36 (de Auxiliar DGA) no tienen glosario ni casos
     prácticos; candidatos a retrofit.
+
+- **Operario/a Especialista** (`operario-especialista-ayto-zaragoza`,
+  octubre 2026): **completa — 10/10 temas y convocatoria.** CONV 5/2026
+  (bases2125.pdf, BOP 170 de 27-07-2026; BOE-A-2026-19150; 18 plazas: 15
+  TLO + 1 ampliación + 1 TLRINTEL + 1 TLRMEN; sin titulación; plazo cerrado
+  05-10-2026; base 7.4.E de las bases generales: test de 40 preguntas de 3
+  opciones en 45 min y 4 supuestos de 5 preguntas de 4 opciones en 30 min,
+  el mismo día, con penalización de 1/4; 362 pasan el primer ejercicio).
+  Las mismas bases convocan 4 plazas de Subalterna/o (solo TLRINTEC, otro
+  temario de 10 temas) que **no se han incorporado** — candidata natural,
+  reutilizaría los temas 1, 2, 3 y 10. **`numero` = número oficial (1-10)**,
+  un único bloque (`OPERARIO` en `scripts/lib/sembrar-tema.mjs`), slug
+  nuevo = 407 + número (`tema-408` a `tema-416`; no existen `tema-413` ni
+  `tema-417`). Reutilizados: 6 → tema-45 (albañilería, completo) y 10 →
+  tema-2 (recortado a LO 3/2007, Ley 4/2007 caps. I y IV y Plan de
+  Igualdad). Preguntas sueltas de 3 opciones y de casos de 4, como el
+  examen. Verificación: `scripts/verificar-operario-especialista.mjs`.
+  Hechos a recordar:
+  - **Tema 3 = Manual de Atención a la Ciudadanía** (PDF municipal, revisión
+    de marzo de 2018, leído íntegro): tema-410 lo cubre entero.
+  - **Pesos de manipulación de cargas: Guía INSST de septiembre de 2024**
+    (25 kg hombres 20-45 años; 20 kg mujeres 20-45 y hombres de otras
+    edades; 15 kg mujeres de otras edades; >25 kg probablemente no
+    tolerable). Sustituye a los 25/15/40 kg de la edición anterior; el RD
+    487/1997 no fija pesos.
+  - **Identificadores comprobados:** RD 1215/1997 = BOE-A-1997-17824; RD
+    2177/2004 = BOE-A-2004-19311 (no BOE-A-2004-18911); RD 614/2001 =
+    BOE-A-2001-11881; RIPCI = BOE-A-2017-6606; RD 487/1997 =
+    BOE-A-1997-8670. **Corregido** (`fix-enlace-rd-1215-1997.mjs`): tema-123
+    y tema-132 citaban BOE-A-1997-16776 (una orden judicial sin relación)
+    como RD 1215/1997.
 
 Corrección hecha en esa sesión (`fix-tema-42-ivtm-obligatorio.mjs`):
 tema-42 (de las 16 "Oficial X") daba el IVTM como impuesto potestativo;
