@@ -287,7 +287,7 @@ principio; lo que se hace tema a tema es casos_practicos, con scripts
 
 ## Estado actual del contenido (referencia rápida — puede quedar desactualizado, comprobar en BD si hay dudas)
 
-24 oposiciones en la base de datos, todas bajo `ayuntamiento-zaragoza`
+25 oposiciones en la base de datos, todas bajo `ayuntamiento-zaragoza`
 excepto Auxiliar Administrativo en `dpz` y `gobierno-aragon` y
 Administrativo (C1) en `gobierno-aragon`:
 
@@ -998,6 +998,41 @@ Administrativo (C1) en `gobierno-aragon`:
     es "local", así que tras un seed que cambie `tema_oposicion` hay que
     borrarla para ver el cambio en `npm run dev`. En Vercel no hace falta,
     porque la clave es el commit.
+
+- **Administrativa/o del Ayuntamiento de Zaragoza**
+  (`administrativo-ayto-zaragoza`, puesto `administrativo`; octubre 2026):
+  **completa — 32/32 temas y convocatoria.** Solo se convoca por
+  **promoción interna** desde Auxiliar Administrativo (C2, 2 años). CONV
+  5.2bis/2025 (bases1739.pdf, BOP 267 de 20-11-2025; BOE-A-2025-26760; 63
+  plazas OEP 23/24/25; plazo 28-12-2025 a 16-01-2026; ejercicio único ya
+  celebrado, notas el 21-10-2026). **La Parte primera del Anexo I la
+  sustituyó la rectificación del BOP 278 de 3-12-2025** (deberes, código de
+  conducta, calendario laboral, jornada/permisos/vacaciones, evaluación del
+  desempeño, faltas, PRL, Plan de Igualdad) y la nota pasó a 0-100 (mín. 50):
+  leer siempre las rectificaciones de unas bases antes de sembrar. La Parte
+  segunda trocea la Ley 39/2015 en 24 temas. `numero` = número oficial;
+  slug nuevo = 422 + número; constante `ADMIN_AYTO`. Reutilizados: 1 →
+  tema-17, 6 → tema-18, 7 → tema-44, 8 → tema-2, 9 → tema-4, 11 → tema-5 y
+  28 → tema-8, todos recortados a una sección. Como un tema solo puede
+  vincularse una vez por oposición, el resto de capítulos de la Ley 39/2015
+  son temas nuevos (tema-432 a tema-454); 13 y 16 empezaron reutilizando
+  tema-6/tema-7, pero con 2-4 flashcards se cambiaron por tema-435 y tema-438
+  (`fix-administrativo-ayto-temas-dedicados-13-16.mjs`). Verificación:
+  `scripts/verificar-administrativo-ayto.mjs`. A recordar:
+  - **El slug de `casos_practicos` es único en toda la BD**: prefijarlo por
+    oposición (aquí `adm-ayto-`). Un slug repetido corta `sembrarTema()` a
+    medias; hay que borrar el tema (cascada) y volver a sembrar.
+  - **TREBEP actualizado en el BOE el 14-10-2026**: la copia de
+    `content-raw/trebep-...` (agosto 2026) no recoge el art. 49.e) de la Ley
+    4/2026 (BOE-A-2026-20528). Permisos por nacimiento: 19 semanas (RDL
+    9/2025). Usar la API del BOE para artículos de permisos.
+  - **Acuerdo de condiciones de trabajo del personal funcionario 2024-2027**:
+    articulado en el BOPZ 134 de 13-06-2024 (PDF del BOA, MLKOB=1337816230404).
+    Su art. 18 aún dice 16 semanas por nacimiento: discrepancia señalada.
+  - Lagunas: la Instrucción municipal de control del calendario laboral
+    (18-01-2023) no está publicada; no hay sistema municipal de evaluación
+    del desempeño publicado. Ley aragonesa 5/2017 de Integridad y Ética
+    Públicas = BOE-A-2017-10292 (se aplica a las entidades locales).
 
 Corrección hecha en esa sesión (`fix-tema-42-ivtm-obligatorio.mjs`):
 tema-42 (de las 16 "Oficial X") daba el IVTM como impuesto potestativo;

@@ -133,3 +133,11 @@ export const POLICIA = {
   bloqueParte1: "771bb2f3-bae8-4261-9b68-17e519bd6991",
   bloqueParte2: "a09c8f20-db05-4c77-8db9-8db6dcac4fa8",
 };
+
+/** Constantes de Administrativa/o (Ayto. de Zaragoza, promoción interna); slug de tema nuevo = 422 + número. */
+export const ADMIN_AYTO = {
+  oposicion: "administrativo-ayto-zaragoza",
+  bloqueParte1: "76450193-ac36-4905-85a3-883ec25c033a",
+  bloqueParte2: "34a5b3b4-00ed-4546-a290-de70298b4800",
+  ley39: "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+};
