@@ -29,7 +29,13 @@ export async function Navbar({ oposicionSlug }: { oposicionSlug?: string }) {
   // `base` es la ruta pública (organismo + puesto), distinta del `slug`
   // interno (PK) — ver el comentario de `slug` en `lib/types.ts`.
   const base = oposicion ? `/${oposicion.organismoSlug}/${oposicion.puestoSlug}` : "";
-  const navLinks = oposicion
+  const navLinks = oposicion?.soloFicha
+    ? [
+        // Solo ficha: sin material de estudio; el temario oficial vive en la propia portada.
+        { href: `${base}/convocatoria`, label: "Convocatoria", principal: true },
+        { href: `${base}#temario-oficial`, label: "Temario oficial", principal: true },
+      ]
+    : oposicion
     ? [
         { href: `${base}/convocatoria`, label: "Convocatoria", principal: true },
         { href: `${base}/temario`, label: "Temario", principal: true },

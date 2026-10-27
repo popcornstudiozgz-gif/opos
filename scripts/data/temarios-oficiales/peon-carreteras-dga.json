@@ -1,0 +1,60 @@
+[
+ {
+  "bloque": "Materias comunes",
+  "temas": [
+   {
+    "numero": 1,
+    "titulo": "Constitución Española de 1978: Estructura y Título Preliminar; Derechos fundamentales; Título VIII: Organización territorial del Estado: Principios generales."
+   },
+   {
+    "numero": 2,
+    "titulo": "Estatuto de Autonomía de Aragón: Título Preliminar; Título II: Organización institucional de la Comunidad Autónoma de Aragón: Disposiciones generales; Título VI: Organización territorial: el municipio, la provincia y la comarca. Título IX: Reforma del Estatuto de Autonomía."
+   },
+   {
+    "numero": 3,
+    "titulo": "Ley 5/2021, de 29 de junio, de organización y régimen jurídico del sector publico autonómico de Aragón. Título III: Administración de la comunidad autónoma de Aragón Capítulo I: Organización; Capítulo II: Departamentos y su estructura interna; Capítulo III: Órganos territoriales."
+   },
+   {
+    "numero": 4,
+    "titulo": "Texto Refundido de la Ley del Estatuto Básico del Empleado Público, aprobado por Real Decreto Legislativo 5/2015, de 30 de octubre: Normativa aplicable al personal laboral; Personal al servicio de las Administraciones Públicas: Clases de personal. Especial referencia al Convenio colectivo para el Personal Laboral de la Administración de la Comunidad Autónoma de Aragón: Condiciones económicas; Jornada, descansos, permisos y vacaciones; Medidas contra la violencia de género; Situaciones del personal laboral; Traslados, ascensos e ingresos; Régimen disciplinario; Representación colectiva."
+   },
+   {
+    "numero": 5,
+    "titulo": "Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres: Título preliminar: Objeto y ámbito de la ley; título I: El principio de igualdad y la tutela contra la discriminación. Ley 7/2018, de 28 de junio, de igualdad de oportunidades entre mujeres y hombres en Aragón: Título II: Políticas Públicas para la igualdad de género. Ley 5/2019, de 21 de marzo, de derechos y garantías de las personas con discapacidad en Aragón: Medidas en materia de empleo público."
+   },
+   {
+    "numero": 6,
+    "titulo": "Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos Laborales: Capítulo I: objeto, ámbito de aplicación y definiciones; Capítulo II: Política en materia de prevención de riesgos para proteger la seguridad y la salud en el trabajo. Capítulo III: derechos y obligaciones."
+   }
+  ]
+ },
+ {
+  "bloque": "Materias específicas",
+  "temas": [
+   {
+    "numero": 1,
+    "titulo": "Aritmética básica. Operaciones elementales, sistema de medidas. Geometría básica. Líneas, ángulos, figuras planas, áreas, volúmenes. Interpretación básica de planos de carreteras: Planta. Escalas a emplear. La carretera: clasificación. Definición de las partes fundamentales."
+   },
+   {
+    "numero": 2,
+    "titulo": "Movimiento de tierras. Explanaciones. El desmonte, el terraplén y el pedraplén. Conocimientos básicos sobre la ejecución. Limpiezas de arcenes, cunetas y aceras. Equipos de maquinaria."
+   },
+   {
+    "numero": 3,
+    "titulo": "Obras de fábrica. Materiales que se emplean. Conocimiento de sus distintas clases. Partes de las mismas. Mantenimiento de obras de fábrica, drenajes y canalizaciones. Limpieza y reparación."
+   },
+   {
+    "numero": 4,
+    "titulo": "Descripción de las obras de tierra, firmes y pavimentos. Materiales empleados. Conservación y reparación. Mezclas bituminosas. Tratamientos superficiales. Bacheos. Riegos asfálticos. Maquinaria y herramientas de pequeña potencia a utilizar."
+   },
+   {
+    "numero": 5,
+    "titulo": "Señalización: normas generales, señalización horizontal y vertical. Señalización de obras. Barreras de seguridad y balizamiento. Defensas. Instalación y conservación."
+   },
+   {
+    "numero": 6,
+    "titulo": "Los trabajos de conservación. Blandones. Podas, cortes, talas de árboles, arbustos, maleza, hierbas, tratados de prevención y, en general, todo tipo de material que haya de retirarse de la carretera o de sus zonas, o sea necesario para la seguridad. Áreas de descanso. Maquinaria y herramientas de pequeña potencia a utilizar. Vialidad invernal: Tipos de maquinaria. Tipos de fundentes y tratamientos."
+   }
+  ]
+ }
+]

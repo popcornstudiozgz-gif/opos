@@ -16,7 +16,7 @@ export const revalidate = false;
 
 export async function generateStaticParams() {
   const oposiciones = await getOposiciones();
-  return oposiciones.map((o) => ({ oposicion: o.slug }));
+  return oposiciones.filter((o) => !o.soloFicha).map((o) => ({ oposicion: o.slug }));
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
@@ -33,7 +33,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 export default async function GlosarioOposicionPage({ params }: PageProps) {
   const { oposicion: oposicionSlug } = await params;
   const oposicion = await getOposicion(oposicionSlug);
-  if (!oposicion) notFound();
+  // Una oposición "solo ficha" no tiene material de estudio (ver `Oposicion.soloFicha`).
+  if (!oposicion || oposicion.soloFicha) notFound();
   const bloques = await getBloquesConTemas(oposicionSlug);
 
   return (

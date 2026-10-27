@@ -30,14 +30,17 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     oposiciones.map(async (o) => {
       const base = `/${o.organismoSlug}/${o.puestoSlug}`;
       const convocatoria = await getConvocatoria(o.slug);
-      const rutasOposicion = [
-        base,
-        `${base}/temario`,
-        `${base}/test`,
-        `${base}/casos-practicos`,
-        `${base}/flashcards`,
-        `${base}/simulacro`,
-      ];
+      // Una oposición "solo ficha" no tiene páginas de estudio (dan 404).
+      const rutasOposicion = o.soloFicha
+        ? [base]
+        : [
+            base,
+            `${base}/temario`,
+            `${base}/test`,
+            `${base}/casos-practicos`,
+            `${base}/flashcards`,
+            `${base}/simulacro`,
+          ];
       if (convocatoria) rutasOposicion.push(`${base}/convocatoria`);
       return rutasOposicion;
     })

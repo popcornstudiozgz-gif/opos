@@ -1,0 +1,92 @@
+[
+ {
+  "bloque": "Materias comunes",
+  "temas": [
+   {
+    "numero": 1,
+    "titulo": "La Constitución Española de 1978: estructura y contenido. Derechos y deberes fundamentales."
+   },
+   {
+    "numero": 2,
+    "titulo": "La organización territorial del Estado: las Comunidades Autónomas. La Administración Local."
+   },
+   {
+    "numero": 3,
+    "titulo": "El Estatuto de Autonomía de Aragón. La organización institucional de la Comunidad Autónoma de Aragón. Las Cortes. El Justicia de Aragón."
+   },
+   {
+    "numero": 4,
+    "titulo": "Los órganos de gobierno y administración de la Comunidad Autónoma de Aragón. El Gobierno de Aragón. La estructura administrativa."
+   },
+   {
+    "numero": 5,
+    "titulo": "El personal de las Administraciones Públicas. Estructura y organización de la Función Pública de la Comunidad Autónoma de Aragón. Derechos y deberes de los funcionarios. Incompatibilidades. Régimen disciplinario."
+   }
+  ]
+ },
+ {
+  "bloque": "Materias específicas",
+  "temas": [
+   {
+    "numero": 1,
+    "titulo": "El modelo de atención centrado en la persona como garantía de calidad de vida. Principios y criterios de actuación. El Plan de Atención y Vida. El papel del TCAE en los nuevos modelos de atención. El cuidador de referencia."
+   },
+   {
+    "numero": 2,
+    "titulo": "Ética y buenas prácticas en los cuidados. Prevención, detección y actuación ante el maltrato. Carta de derechos y deberes de las personas usuarias de los Servicios Sociales de Aragón. Manual de Buenas Prácticas en Centros del IASS."
+   },
+   {
+    "numero": 3,
+    "titulo": "La atención a personas con discapacidad o en situación de dependencia. Tipos, causas, prevención y necesidades de apoyo."
+   },
+   {
+    "numero": 4,
+    "titulo": "Alimentación y nutrición. Necesidades nutricionales en las diferentes etapas de la vida. Dietas, concepto y tipos. Disfagia. Productos de apoyo. Técnicas y cuidados en la nutrición parenteral y enteral."
+   },
+   {
+    "numero": 5,
+    "titulo": "Higiene e imagen corporal. Cuidados de la piel, mucosas, cabello y uñas. Apoyos en el cuidado de la piel y la imagen personal de la persona con dependencia y/o discapacidad."
+   },
+   {
+    "numero": 6,
+    "titulo": "Apoyos y cuidados en las necesidades de eliminación y control de esfínteres. Prevención del estreñimiento y la incontinencia. Productos de apoyo para la eliminación. Absorbentes. Enemas, sondajes y ostomías. Recogida, transporte y conservación de muestras."
+   },
+   {
+    "numero": 7,
+    "titulo": "Apoyo ante las necesidades psicosociales de las personas en situación de dependencia. Relación entre estas necesidades y las características del entorno. Técnicas de comunicación y acompañamiento. Inclusión y participación en la comunidad."
+   },
+   {
+    "numero": 8,
+    "titulo": "Prevención de enfermedades transmisibles. Vías de contagio. Medidas universales. Tipos y técnicas de aislamiento. Limpieza, desinfección y esterilización."
+   },
+   {
+    "numero": 9,
+    "titulo": "El proceso del envejecimiento. Las demencias. Tipos y causas. La enfermedad de Alzheimer. Prevención de las demencias. Envejecimiento activo."
+   },
+   {
+    "numero": 10,
+    "titulo": "Atención y cuidados al residente en sus necesidades de movilidad. Movilización, traslado y deambulación. Productos de apoyo. Prevención de caídas. Protocolos de actuación."
+   },
+   {
+    "numero": 11,
+    "titulo": "Promoción de la autonomía y la seguridad. La eliminación de contenciones en el ámbito residencial. Protocolo de buenas prácticas en la aplicación de medidas de sujeción."
+   },
+   {
+    "numero": 12,
+    "titulo": "Úlceras por presión. Concepto, clasificación y factores de riesgo. Medidas preventivas. Movilización y cambios posturales. Productos de apoyo."
+   },
+   {
+    "numero": 13,
+    "titulo": "Los cuidados del TCAE a la persona con enfermedad crónica terminal. Acompañamiento y cuidados en el proceso de final de la vida. Técnicas de los cuidados post mortem."
+   },
+   {
+    "numero": 14,
+    "titulo": "Salud laboral: condiciones físico-ambientales del trabajo, riesgos de naturaleza biológico, químico y físico. Medidas de prevención. Factores de naturaleza psicosocial: estrés, burnout, acoso. Medidas de prevención."
+   },
+   {
+    "numero": 15,
+    "titulo": "Concepto de urgencia y emergencia. Protocolos de actuación en primeros auxilios. Reanimación cardiopulmonar básica. Carro de paradas: reposición y mantenimiento del material. Actuación ante crisis epilépticas, atragantamientos, quemaduras y traumatismos."
+   }
+  ]
+ }
+]

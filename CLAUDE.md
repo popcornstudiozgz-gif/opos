@@ -1034,6 +1034,45 @@ Administrativo (C1) en `gobierno-aragon`:
     del desempeño publicado. Ley aragonesa 5/2017 de Integridad y Ética
     Públicas = BOE-A-2017-10292 (se aplica a las entidades locales).
 
+## Oposiciones "solo ficha" (octubre 2026)
+
+Estrategia SEO decidida por el propietario: publicar primero la página
+principal de muchas oposiciones y añadir el material (temas, test,
+flashcards...) más adelante. **Sin formularios de captación de email.**
+
+- Una oposición es "solo ficha" cuando no tiene ninguna fila en
+  `tema_oposicion` (`Oposicion.soloFicha`, derivado del recuento
+  `tema_oposicion(count)` en `src/lib/oposiciones.ts`; no hay bandera que
+  mantener). Deja de serlo sola al sembrar su primer tema.
+- Su programa oficial (solo enunciados) va en `oposiciones.temario_oficial`
+  (jsonb, migración 0018): `[{ bloque, temas: [{ numero, titulo }] }]`.
+- La portada la pinta `src/components/oposicion/FichaOposicion.tsx`:
+  datos clave, requisitos, examen, temario oficial y FAQ generadas de los
+  datos (con JSON-LD FAQPage). Test/flashcards/casos/simulacro/temario/
+  glosario devuelven 404 y salen del menú y del sitemap.
+- Siembra: `scripts/lib/sembrar-ficha.mjs` (`sembrarFicha`, upsert de
+  oposición + convocatoria, valida numeración y suma de plazas) +
+  `scripts/seed-ficha-<slug>.mjs` (datos y fuentes en la cabecera) +
+  `scripts/data/temarios-oficiales/<slug>.json`.
+- **Primera tanda (12 fichas):** DGA — `tcae-dga` (155 plazas, TCAE de la
+  DGA/IASS, no del Salud), `servicios-domesticos-dga`, `agente-proteccion-
+  naturaleza-dga`, `tecnico-gestion-dga`, `ayudante-cocina-dga`,
+  `administrador-superior-dga`, `servicios-auxiliares-dga`,
+  `peon-carreteras-dga`; Ayto. — `tag-ayto-zaragoza` (CONV 1/2026),
+  `tecnico-medio-gestion-ayto-zaragoza` (OEP 2026 sin bases: estado
+  `pendiente_publicacion`, temario y examen del proceso de 2025, patrón
+  Fontanero); DPZ — `tag-dpz`, `administrativo-dpz`.
+- Fuentes DGA útiles: buscador oficial de convocatorias
+  `aplicaciones.aragon.es/oepc` (por categoría: plazas, plazo, tasa); los
+  programas de funcionarios están en PDF sueltos de aragon.es enlazados en
+  `https://www.aragon.es/-/empleo-publico-en-aragon-convocatorias` (el CSV
+  de mia.aragon.es exige sesión); los de personal laboral, en el anexo II
+  de las propias bases. El BOPZ publica cada número completo en texto en
+  `bop.dpz.es/BOPZ/UploadServlet?ruta=Boletines\AAAA\NNN\bop.txt`
+  (codificación Mac Roman) y cada edicto en `...\Edictos\bop_NNNN_AAAA.pdf`.
+- El Salud (SALUD) y Educación quedan fuera por ahora (decisión del
+  propietario, octubre 2026).
+
 Corrección hecha en esa sesión (`fix-tema-42-ivtm-obligatorio.mjs`):
 tema-42 (de las 16 "Oficial X") daba el IVTM como impuesto potestativo;
 el art. 59.1 TRLRHL lo hace obligatorio junto a IBI e IAE.

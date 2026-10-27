@@ -36,7 +36,9 @@ interface PageProps {
 
 export async function generateStaticParams() {
   const oposiciones = await getOposiciones();
-  return oposiciones.map((o) => ({ organismo: o.organismoSlug, oposicion: o.puestoSlug }));
+  return oposiciones
+    .filter((o) => !o.soloFicha)
+    .map((o) => ({ organismo: o.organismoSlug, oposicion: o.puestoSlug }));
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
@@ -54,7 +56,8 @@ export default async function SimulacroPage({ params }: PageProps) {
   const { organismo, oposicion: puesto } = await params;
 
   const oposicion = await getOposicionPorRuta(organismo, puesto);
-  if (!oposicion) notFound();
+  // Una oposición "solo ficha" no tiene material de estudio (ver `Oposicion.soloFicha`).
+  if (!oposicion || oposicion.soloFicha) notFound();
   const oposicionSlug = oposicion.slug; // slug interno (PK) — para queries de contenido y progreso
   const base = `/${organismo}/${puesto}`;
   const [bloques, todasPreguntas, todosCasos] = await Promise.all([

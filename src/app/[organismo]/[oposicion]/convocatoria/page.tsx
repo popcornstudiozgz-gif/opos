@@ -26,6 +26,8 @@ function resumirTexto(texto: string, maxLen: number): { corto: string; truncado:
   return { corto: `${texto.slice(0, limite).trimEnd()}…`, truncado: true };
 }
 
+const NUMEROS: Record<number, string> = { 2: "dos", 3: "tres", 4: "cuatro", 5: "cinco", 6: "seis" };
+
 export async function generateStaticParams() {
   const oposiciones = await getOposiciones();
   const convocatorias = await Promise.all(oposiciones.map((o) => getConvocatoria(o.slug)));
@@ -62,7 +64,11 @@ export default async function ConvocatoriaPage({ params }: PageProps) {
 
   const datosClave = [
     { etiqueta: "Plazas convocadas", valor: `${convocatoria.plazasTotal}`, detalle: oposicion.nombre },
-    { etiqueta: "Sistema de selección", valor: "Oposición", detalle: convocatoria.sistemaSeleccion },
+    {
+      etiqueta: "Sistema de selección",
+      valor: /^concurso/i.test(convocatoria.sistemaSeleccion) ? "Concurso-oposición" : "Oposición",
+      detalle: convocatoria.sistemaSeleccion,
+    },
     {
       etiqueta: "Titulación requerida",
       valor: titulacion.corto,
@@ -140,8 +146,9 @@ export default async function ConvocatoriaPage({ params }: PageProps) {
         <section>
           <h2 className="text-2xl font-bold text-brand-900">¿Cómo es el examen?</h2>
           <p className="mt-2 max-w-2xl text-slate-600">
-            El proceso selectivo consta de tres ejercicios eliminatorios, en este orden. Solo se
-            avanza al siguiente si se supera el anterior.
+            {convocatoria.pruebas.length === 1
+              ? "El proceso selectivo consta de una única prueba."
+              : `El proceso selectivo consta de ${NUMEROS[convocatoria.pruebas.length] ?? convocatoria.pruebas.length} pruebas, en este orden.`}
           </p>
 
           <div className="mt-6 grid gap-6 md:grid-cols-3">
@@ -152,7 +159,7 @@ export default async function ConvocatoriaPage({ params }: PageProps) {
                     {prueba.icono}
                   </span>
                   <div>
-                    <span className="text-xs font-semibold text-brand-500">Ejercicio {prueba.numero}</span>
+                    <span className="text-xs font-semibold text-brand-500">Prueba {prueba.numero}</span>
                     <h3 className="text-lg font-bold text-brand-900">{prueba.nombre}</h3>
                   </div>
                 </div>
@@ -178,6 +185,7 @@ export default async function ConvocatoriaPage({ params }: PageProps) {
           </div>
         </section>
 
+        {convocatoria.aspirantesQuePasanFase.length > 0 && (
         <section>
           <h2 className="text-2xl font-bold text-brand-900">La criba en cada fase</h2>
           <p className="mt-2 max-w-2xl text-slate-600">
@@ -193,6 +201,7 @@ export default async function ConvocatoriaPage({ params }: PageProps) {
             ))}
           </Card>
         </section>
+        )}
 
         <section>
           <h2 className="text-2xl font-bold text-brand-900">Fuentes oficiales</h2>

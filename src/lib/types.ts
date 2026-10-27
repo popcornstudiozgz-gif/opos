@@ -53,6 +53,26 @@ export interface Oposicion {
   descripcionLarga: string;
   /** Si no está activa, no se genera su ruta ni aparece en el catálogo. */
   activa: boolean;
+  /**
+   * Programa oficial (solo enunciados) tal como lo publica la convocatoria,
+   * agrupado por bloques (migración 0018). Vacío en las oposiciones
+   * sembradas antes de octubre de 2026, que ya muestran su temario desde
+   * `tema_oposicion`.
+   */
+  temarioOficial: BloqueTemarioOficial[];
+  /**
+   * Sin ningún tema vinculado en `tema_oposicion`: la oposición solo tiene
+   * ficha (página principal + convocatoria), sin test, flashcards, casos ni
+   * simulacro. Se deriva del recuento, no se fija a mano: deja de ser ficha
+   * en cuanto se siembra su primer tema.
+   */
+  soloFicha: boolean;
+}
+
+/** Un bloque del programa oficial de una oposición (ver `Oposicion.temarioOficial`). */
+export interface BloqueTemarioOficial {
+  bloque: string;
+  temas: { numero: number; titulo: string }[];
 }
 
 /** Enlace a una norma o documento oficial completo (BOE, boletín autonómico, web municipal...). */
