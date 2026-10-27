@@ -1,0 +1,152 @@
+[
+ {
+  "bloque": "Materias comunes",
+  "temas": [
+   {
+    "numero": 1,
+    "titulo": "La Constitución Española de 1978: estructura, contenido y principios que la informan. Los derechos fundamentales y sus garantías. La Corona. Las Cortes Generales. El Poder Judicial. El Tribunal Constitucional. El Defensor del Pueblo."
+   },
+   {
+    "numero": 2,
+    "titulo": "La organización territorial del Estado. Gobierno de la Nación y Administración General del Estado. Comunidades Autónomas. Administración Local. Las relaciones entre los entes territoriales. Especial referencia a la comarcalización de Aragón."
+   },
+   {
+    "numero": 3,
+    "titulo": "El Estatuto de Autonomía de Aragón. La organización institucional de la Comunidad Autónoma de Aragón. Las Cortes de Aragón. El Justicia de Aragón."
+   },
+   {
+    "numero": 4,
+    "titulo": "Los órganos de gobierno y administración de la Comunidad Autónoma de Aragón. El Presidente y el Gobierno de Aragón. Los Consejeros. La Administración Pública de la Comunidad Autónoma. La estructura administrativa. El Sector Público de la Comunidad Autónoma de Aragón. La Administración consultiva: el Consejo de Estado y el Consejo Consultivo de Aragón."
+   },
+   {
+    "numero": 5,
+    "titulo": "La prevención de riesgos laborales: derechos y obligaciones en materia de seguridad y salud en el trabajo."
+   }
+  ]
+ },
+ {
+  "bloque": "Materias específicas",
+  "temas": [
+   {
+    "numero": 1,
+    "titulo": "La protección de datos personales. Régimen jurídico. El Reglamento (UE) 2016/679, de 27 de abril, relativo a la protección de las personas físicas en lo que respecta al tratamiento de datos personales y a la libre circulación de estos datos. Principios y derechos. Obligaciones. La Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales. El Delegado de Protección de Datos en las Administraciones Públicas. La Agencia de Protección de Datos: competencias y funciones."
+   },
+   {
+    "numero": 2,
+    "titulo": "La sociedad de la información y sociedad del conocimiento. Comercio electrónico, medios y pasarelas de pago."
+   },
+   {
+    "numero": 3,
+    "titulo": "Administración electrónica en España y en la Comunidad Autónoma de Aragón. La gestión electrónica de los procedimientos administrativos."
+   },
+   {
+    "numero": 4,
+    "titulo": "Esquema Nacional de Seguridad, guías técnicas de seguridad (STIC). Esquena Nacional de Interoperabilidad, notas técnicas de interoperabilidad, instrumentos para la interoperabilidad."
+   },
+   {
+    "numero": 5,
+    "titulo": "Identificación y firma electrónica. El cifrado, funciones hash, infraestructura de clave pública (PKI). Certificados locales y en la nube. Identidad digital. Normativa."
+   },
+   {
+    "numero": 6,
+    "titulo": "Arquitectura y organización de computadores. Componentes internos, periféricos. Sistemas distribuidos y alta disponibilidad. Sistemas de almacenamiento."
+   },
+   {
+    "numero": 7,
+    "titulo": "Sistemas operativos. Características y elementos constitutivos. Sistemas Windows. Sistemas Unix y Linux. Administración del sistema operativo."
+   },
+   {
+    "numero": 8,
+    "titulo": "Computación en la nube: nube privada, pública e híbrida. Serverless computing. Virtualización de servidores y redes."
+   },
+   {
+    "numero": 9,
+    "titulo": "Algoritmos y estructuras de datos. Tipos abstractos. Vectores y registros. Persistencia de datos. Organizaciones de ficheros. Formatos de información y ficheros."
+   },
+   {
+    "numero": 10,
+    "titulo": "Diseño de bases de datos. Modelos conceptual, lógico y físico. Modelo Entidad-Relación. Modelo relacional. Normalización."
+   },
+   {
+    "numero": 11,
+    "titulo": "Sistemas de gestión de bases de datos. Bases de datos relacionales, documentales, y orientadas a objetos. Características y componentes. Bases de datos NoSQL."
+   },
+   {
+    "numero": 12,
+    "titulo": "Lenguajes de definición, manipulación y consulta de bases de datos. Estándar ANSI SQL. Procedimientos almacenados. Eventos y disparadores."
+   },
+   {
+    "numero": 13,
+    "titulo": "Análisis y diseño estructurado. Flujo de datos, diccionario de datos, diagramas de estructura. Cohesión y acoplamiento."
+   },
+   {
+    "numero": 14,
+    "titulo": "Análisis y diseño orientados a objetos. Elementos y componentes software: objetos, clases, herencia, polimorfismo, atributos, métodos, sobrecarga. Ventajas e inconvenientes. Patrones de diseño y lenguaje de modelado unificado (UML)."
+   },
+   {
+    "numero": 15,
+    "titulo": "Lenguajes de programación. Representación de tipos de datos. Operadores. Instrucciones condicionales. Bucles y recursividad. Procedimientos, funciones y parámetros. Estructura de un programa."
+   },
+   {
+    "numero": 16,
+    "titulo": "Arquitectura Java EE, componentes, persistencia y seguridad. Características, elementos y funciones. Servidores de aplicaciones y frameworks."
+   },
+   {
+    "numero": 17,
+    "titulo": "Arquitectura de sistemas cliente/servidor y multicapa: componentes y operación. Arquitecturas de servicios web y protocolos asociados. Servicios SOAP y REST. Arquitecturas de microservicios."
+   },
+   {
+    "numero": 18,
+    "titulo": "Aplicaciones web. Desarrollo en frontend y servidor, multiplataforma y multidispositivo. Navegadores y lenguajes de programación web: HTML, CSS, XML. Lenguajes de script. Frameworks de desarrollo frontend."
+   },
+   {
+    "numero": 19,
+    "titulo": "Aplicaciones móviles. Tecnologías de programación móviles. PWA, aplicaciones nativas e híbridas."
+   },
+   {
+    "numero": 20,
+    "titulo": "Accesibilidad, diseño universal y usabilidad. Acceso y usabilidad de las tecnologías. Design Thinking y el rediseño de servicios."
+   },
+   {
+    "numero": 21,
+    "titulo": "Procesos de pruebas y garantía de calidad en el desarrollo de software. Niveles, técnicas y herramientas de pruebas de software. DevOps."
+   },
+   {
+    "numero": 22,
+    "titulo": "Sistemas de información, ciclo de vida, elementos constitutivos. Ciclo de vida del software. Metodologías de desarrollo predictivas y ágiles. Metodologías Métrica y Scrum."
+   },
+   {
+    "numero": 23,
+    "titulo": "Seguridad de los sistemas de información. Seguridad física. Seguridad lógica. Activos, debilidades, riesgos, amenazas y vulnerabilidades. Técnicas criptográficas y protocolos seguros."
+   },
+   {
+    "numero": 24,
+    "titulo": "Medios de transmisión. Modos de comunicación. Equipos terminales y equipos de interconexión y conmutación. Redes de comunicaciones. Redes de conmutación y redes de difusión. Comunicaciones móviles e inalámbricas."
+   },
+   {
+    "numero": 25,
+    "titulo": "Redes locales. Topología. Técnicas de transmisión. Métodos de acceso. Dispositivos de interconexión. Administración de redes locales."
+   },
+   {
+    "numero": 26,
+    "titulo": "El modelo de referencia de interconexión de sistemas abiertos (OSI) de ISO. Familia de protocolos TCP/IP: aplicación, transporte, red, enlace."
+   },
+   {
+    "numero": 27,
+    "titulo": "Internet: arquitectura de red. Origen, evolución y estado actual. Gobernanza. Sistemas Autónomos. Principales servicios."
+   },
+   {
+    "numero": 28,
+    "titulo": "Seguridad y protección en redes de comunicaciones. Protocolos SSL y TLS. Seguridad perimetral. Acceso remoto seguro a redes. Redes privadas virtuales (VPN). Seguridad en el puesto del usuario. Autenticación multifactor."
+   },
+   {
+    "numero": 29,
+    "titulo": "Sistemas ERP (Enterprise Resource Planning) y CRM (Customer Relationship Management). Generación de informes."
+   },
+   {
+    "numero": 30,
+    "titulo": "Ciencia de datos. Tecnologías de Business Intelligence. Data Warehouse. Data Mining. Data Lakes. Big Data. Machine Learning. Modelos LLM. Inteligencia Artificial."
+   }
+  ]
+ }
+]
