@@ -2,6 +2,7 @@ import { unstable_cache } from "next/cache";
 import { createClient } from "@/lib/supabase/public";
 import type {
   Bloque,
+  BloqueTemarioOficial,
   CasoPractico,
   CasoPracticoResumen,
   EnlaceLegal,
@@ -58,7 +59,17 @@ type FilaOposicion = {
   descripcion_corta: string;
   descripcion_larga: string;
   activa: boolean;
+  /** Ausente hasta aplicar la migración 0018. */
+  temario_oficial?: BloqueTemarioOficial[] | null;
+  /** Recuento embebido de PostgREST (ver `SELECT_OPOSICION`). */
+  tema_oposicion?: { count: number }[];
 };
+
+/**
+ * Cada consulta de `oposiciones` trae también cuántos temas tiene
+ * vinculados, para saber sin otra consulta si es "solo ficha".
+ */
+const SELECT_OPOSICION = "*, tema_oposicion(count)";
 
 function mapOposicion(fila: FilaOposicion): Oposicion {
   return {
@@ -70,6 +81,8 @@ function mapOposicion(fila: FilaOposicion): Oposicion {
     descripcionCorta: fila.descripcion_corta,
     descripcionLarga: fila.descripcion_larga,
     activa: fila.activa,
+    temarioOficial: fila.temario_oficial ?? [],
+    soloFicha: (fila.tema_oposicion?.[0]?.count ?? 0) === 0,
   };
 }
 
@@ -150,7 +163,7 @@ const SELECT_TEMA_OPOSICION_LIGERO =
 
 export const getOposiciones = cacheado("getOposiciones", async (): Promise<Oposicion[]> => {
   const supabase = createClient();
-  const { data, error } = await supabase.from("oposiciones").select("*").eq("activa", true);
+  const { data, error } = await supabase.from("oposiciones").select(SELECT_OPOSICION).eq("activa", true);
   if (error) throw error;
   return (data ?? []).map(mapOposicion);
 });
@@ -159,7 +172,7 @@ export const getOposiciones = cacheado("getOposiciones", async (): Promise<Oposi
 // fuera, para no depender de cómo se serializa un `undefined` de primer nivel.
 const getOposicionCacheada = cacheado("getOposicion", async (slug: string): Promise<Oposicion | null> => {
   const supabase = createClient();
-  const { data, error } = await supabase.from("oposiciones").select("*").eq("slug", slug).maybeSingle();
+  const { data, error } = await supabase.from("oposiciones").select(SELECT_OPOSICION).eq("slug", slug).maybeSingle();
   if (error) throw error;
   return data ? mapOposicion(data) : null;
 });
@@ -182,7 +195,7 @@ export const getOposicionesDeOrganismo = cacheado(
     const supabase = createClient();
     const { data, error } = await supabase
       .from("oposiciones")
-      .select("*")
+      .select(SELECT_OPOSICION)
       .eq("activa", true)
       .eq("organismo_slug", organismoSlug);
     if (error) throw error;
@@ -211,7 +224,7 @@ const getOposicionPorRutaCacheada = cacheado(
     const supabase = createClient();
     const { data, error } = await supabase
       .from("oposiciones")
-      .select("*")
+      .select(SELECT_OPOSICION)
       .eq("organismo_slug", organismoSlug)
       .eq("puesto_slug", puestoSlug)
       .maybeSingle();

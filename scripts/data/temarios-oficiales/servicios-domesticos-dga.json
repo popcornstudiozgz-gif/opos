@@ -1,0 +1,60 @@
+[
+ {
+  "bloque": "Materias comunes",
+  "temas": [
+   {
+    "numero": 1,
+    "titulo": "Constitución Española de 1978: Estructura y Título Preliminar; Derechos fundamentales; Título VIII: Organización territorial del Estado: Principios generales."
+   },
+   {
+    "numero": 2,
+    "titulo": "Estatuto de Autonomía de Aragón: Título Preliminar; Título II: Organización institucional de la Comunidad Autónoma de Aragón: Disposiciones generales; Título VI: Organización territorial: el municipio, la provincia y la comarca. Título IX: Reforma del Estatuto de Autonomía."
+   },
+   {
+    "numero": 3,
+    "titulo": "Ley 5/2021, de 29 de junio, de organización y régimen jurídico del sector publico autonómico de Aragón. Título III: Administración de la comunidad autónoma de Aragón Capítulo I: Organización; Capítulo II: Departamentos y su estructura interna; Capítulo III: Órganos territoriales."
+   },
+   {
+    "numero": 4,
+    "titulo": "Texto Refundido de la Ley del Estatuto Básico del Empleado Público, aprobado por Real Decreto Legislativo 5/2015, de 30 de octubre: Normativa aplicable al personal laboral; Personal al servicio de las Administraciones Públicas: Clases de personal. Especial referencia al Convenio colectivo para el Personal Laboral de la Administración de la Comunidad Autónoma de Aragón: Condiciones económicas; Jornada, descansos, permisos y vacaciones; Medidas contra la violencia de género; Situaciones del personal laboral; Traslados, ascensos e ingresos; Régimen disciplinario; Representación colectiva."
+   },
+   {
+    "numero": 5,
+    "titulo": "Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres: Título preliminar: Objeto y ámbito de la ley; título I: El principio de igualdad y la tutela contra la discriminación. Ley 7/2018, de 28 de junio, de igualdad de oportunidades entre mujeres y hombres en Aragón: Título II: Políticas Públicas para la igualdad de género. Ley 5/2019, de 21 de marzo, de derechos y garantías de las personas con discapacidad en Aragón: Medidas en materia de empleo público."
+   },
+   {
+    "numero": 6,
+    "titulo": "Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos Laborales: Capítulo I: objeto, ámbito de aplicación y definiciones; Capítulo II: Política en materia de prevención de riesgos para proteger la seguridad y la salud en el trabajo. Capítulo III: derechos y obligaciones."
+   }
+  ]
+ },
+ {
+  "bloque": "Materias específicas",
+  "temas": [
+   {
+    "numero": 1,
+    "titulo": "Productos y útiles de limpieza: Tipología. Aplicación, composición y propiedades. Formas de empleo y condiciones de uso. La limpieza de las manchas: Tipos y tratamiento. Marcas y rozaduras."
+   },
+   {
+    "numero": 2,
+    "titulo": "La limpieza de las dependencias: Limpieza general. Suelos. Paredes. Techos. Muebles. Baños. Cocinas."
+   },
+   {
+    "numero": 3,
+    "titulo": "La limpieza de los enseres: Limpieza general. Limpieza del equipamiento. Especial referencia a la maquinaria, equipos y útiles de trabajo, decoración y otros."
+   },
+   {
+    "numero": 4,
+    "titulo": "Limpieza y funcionamiento de electrodomésticos y utensilios de cocina y comedor. El Servicio de comedor y bar."
+   },
+   {
+    "numero": 5,
+    "titulo": "La limpieza en las instituciones investigadoras, docentes y asistenciales. Laboratorios y talleres. Recintos polideportivos y espacios recreativos. Algunas nociones de limpieza industrial."
+   },
+   {
+    "numero": 6,
+    "titulo": "Componentes tóxicos y peligrosos de los productos de limpieza. Los residuos derivados del trabajo en cocinas, talleres y laboratorios. Buenas prácticas ambientales. El etiquetado de los productos y otras medidas preventivas. Acciones curativas ante sus afecciones."
+   }
+  ]
+ }
+]

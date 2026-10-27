@@ -1,0 +1,527 @@
+[
+ {
+  "bloque": "Programa de materias",
+  "temas": [
+   {
+    "numero": 1,
+    "titulo": "Concepto y clases de Constitución. Nociones de poder constituyente y constituido. Valor normativo de la Constitución. La reforma de la Constitución."
+   },
+   {
+    "numero": 2,
+    "titulo": "La Constitución española de 1978. Principios constitucionales. Derechos fundamentales y libertades públicas. Deberes de los Ciudadanos. Garantía y suspensión de los derechos y libertades."
+   },
+   {
+    "numero": 3,
+    "titulo": "Concepto de Estado social y democrático de Derecho. La monarquía parlamentaria. La Corona en la Constitución Española."
+   },
+   {
+    "numero": 4,
+    "titulo": "El sistema de fuentes del derecho y las relaciones entre ordenamientos jurídicos. La Constitución como norma suprema y la primacía del derecho comunitario."
+   },
+   {
+    "numero": 5,
+    "titulo": "Participación política. Formas de participación directa de los ciudadanos. Régimen jurídico de los partidos políticos."
+   },
+   {
+    "numero": 6,
+    "titulo": "El régimen electoral general. Sistema, administración y procedimiento electoral. Regulación de las elecciones a Cortes de Aragón."
+   },
+   {
+    "numero": 7,
+    "titulo": "Las Cortes Generales. Congreso de los Diputados y Senado: composición, funciones y régimen de funcionamiento. El procedimiento legislativo."
+   },
+   {
+    "numero": 8,
+    "titulo": "El Gobierno en el sistema constitucional español. Formación, composición y funciones. Control parlamentario del Gobierno."
+   },
+   {
+    "numero": 9,
+    "titulo": "El Poder Judicial. El Consejo General del Poder Judicial. El Ministerio Fiscal."
+   },
+   {
+    "numero": 10,
+    "titulo": "El Tribunal Constitucional. Organización y atribuciones. Procedimientos de control de constitucionalidad de las leyes. Conflictos constitucionales. Efectos de las sentencias."
+   },
+   {
+    "numero": 11,
+    "titulo": "El Defensor del Pueblo y el Tribunal de Cuentas. La función consultiva: el Consejo de Estado y el Consejo Económico y Social."
+   },
+   {
+    "numero": 12,
+    "titulo": "Las Comunidades Autónomas en la Constitución de 1978. Los Estatutos de Autonomía: naturaleza y contenido. La reforma de los Estatutos."
+   },
+   {
+    "numero": 13,
+    "titulo": "Distribución de competencias entre Estado y Comunidades Autónomas. Normas de delimitación de competencias. Proceso de traspasos de funciones y servicios. Relaciones entre la Administración del Estado y las Administraciones de las Comunidades Autónomas."
+   },
+   {
+    "numero": 14,
+    "titulo": "Relaciones entre ordenamiento jurídico estatal y ordenamientos autonómicos. Ejecución autonómica de la legislación estatal. Cláusulas de prevalencia y supletoriedad del Derecho estatal."
+   },
+   {
+    "numero": 15,
+    "titulo": "La financiación de las Comunidades Autónomas. Principios generales. Recursos de las Comunidades Autónomas. El Fondo de Compensación Interterritorial. Fondos Europeos y Comunidades Autónomas."
+   },
+   {
+    "numero": 16,
+    "titulo": "El Estatuto de Autonomía de Aragón. Proceso de elaboración, estructura y características generales. El procedimiento de reforma del Estatuto de Autonomía de Aragón. Régimen de competencias de la Comunidad Autónoma."
+   },
+   {
+    "numero": 17,
+    "titulo": "Las Cortes de Aragón. Composición y régimen de funcionamiento. Funciones legislativa, presupuestaria y de control. Estatuto de los parlamentarios."
+   },
+   {
+    "numero": 18,
+    "titulo": "El Presidente. El Gobierno de Aragón o Diputación General. El estatuto personal de sus miembros. Responsabilidad política del Presidente y de los Consejeros. Funciones y reglas de funcionamiento."
+   },
+   {
+    "numero": 19,
+    "titulo": "El Justicia de Aragón. La Cámara de Cuentas. El Tribunal Superior de Justicia de Aragón."
+   },
+   {
+    "numero": 20,
+    "titulo": "Régimen Local español: principios básicos. La Provincia y el Municipio. Relaciones de la Administración Local con la Administración estatal y autonómica"
+   },
+   {
+    "numero": 21,
+    "titulo": "El concepto positivo de derecho administrativo. Consecuencias de este concepto. La especificidad del derecho administrativo y sus características: el equilibrio entre prerrogativas y garantías. Límite de aplicación del derecho administrativo."
+   },
+   {
+    "numero": 22,
+    "titulo": "Fuentes del Derecho Administrativo. La Constitución. Los Estatutos de Autonomía. La Ley: sus clases. Leyes orgánicas y ordinarias. Leyes de las Comunidades Autónomas. Decretos Legislativos. Decretos-Leyes. Leyes básicas. Leyes marco. Leyes de transferencia y delegación. Leyes de armonización."
+   },
+   {
+    "numero": 23,
+    "titulo": "El reglamento. Concepto y justificación. Requisitos de validez. La inderogabilidad singular de los reglamentos. Clases de reglamentos. Reglamentos ilegales."
+   },
+   {
+    "numero": 24,
+    "titulo": "Principios que presiden las relaciones entre ley y reglamentos: la primacía de la ley y la reserva de ley. La delegación legislativa."
+   },
+   {
+    "numero": 25,
+    "titulo": "La Administración Pública y su personalidad jurídica. Clases de Administraciones Públicas y tipología de los entes públicos. Capacidad jurídica de los entes públicos."
+   },
+   {
+    "numero": 26,
+    "titulo": "La Administración Pública de la Comunidad Autónoma de Aragón. Principios generales. Organización administrativa. Ejercicio de las competencias atribuidas."
+   },
+   {
+    "numero": 27,
+    "titulo": "El sector público institucional en la Comunidad Autónoma de Aragón. Organismos Públicos: clasificación, adscripción, creación, régimen jurídico y extinción. Organismos Autónomos. Entidades de derecho público. Empresas de la Comunidad Autónoma"
+   },
+   {
+    "numero": 28,
+    "titulo": "Otras fórmulas de personificación: las fundaciones públicas, los consorcios. Administración corporativa: Colegios profesionales y Cámaras Agrarias. Administración consultiva: el Consejo Consultivo de Aragón, el Consejo Económico y Social de Aragón."
+   },
+   {
+    "numero": 29,
+    "titulo": "La Administración General del Estado. Órganos centrales. Órganos periféricos. Administración institucional. Administración consultiva."
+   },
+   {
+    "numero": 30,
+    "titulo": "La Ley de Administración Local de Aragón. Municipio y demás entidades locales. Regulación común a las entidades locales. La comarcalización de Aragón: regulación general de las comarcas y régimen jurídico de sus competencias."
+   },
+   {
+    "numero": 31,
+    "titulo": "El principio de legalidad de la Administración. Las potestades administrativas: potestades regladas y discrecionales. El control de la discrecionalidad. Las relaciones entre Administración y Justicia y el principio de autotutela."
+   },
+   {
+    "numero": 32,
+    "titulo": "Posición jurídica del particular en sus relaciones con la Administración. Capacidad jurídica y de obrar. Las situaciones jurídicas del ciudadano ante la Administración. Derechos públicos subjetivos, intereses legítimos y libertades públicas. Las situaciones pasivas. Las prestaciones del administrado."
+   },
+   {
+    "numero": 33,
+    "titulo": "El acto administrativo: concepto, elementos y clases. La eficacia de los actos. Notificación y publicación de los actos administrativos. El silencio administrativo. Ejecución de los actos administrativos."
+   },
+   {
+    "numero": 34,
+    "titulo": "La teoría de la nulidad en el Derecho Administrativo. La nulidad absoluta. La anulabilidad. Las irregularidades no invalidantes. Convalidación, conservación y conversión de los actos administrativos. La revisión y revocación de los actos."
+   },
+   {
+    "numero": 35,
+    "titulo": "El procedimiento administrativo: concepto, naturaleza y fines. Ley del Procedimiento Administrativo Común de las Administraciones Públicas: ámbito de aplicación y principios informadores. Fases del procedimiento. Cómputo de plazos."
+   },
+   {
+    "numero": 36,
+    "titulo": "Los recursos administrativos: concepto y caracterización. Clases de recursos y regulación positiva. Recurso de alzada. Recurso de reposición. Recurso extraordinario de revisión. Las reclamaciones económico-administrativas."
+   },
+   {
+    "numero": 37,
+    "titulo": "La actividad de las Administraciones Públicas (I). Actividad limitativa y protección del orden público. Actividad de fomento."
+   },
+   {
+    "numero": 38,
+    "titulo": "La actividad de las Administraciones Públicas (II). Servicio público. La doctrina clásica y su evolución. Los distintos modos de gestión de los servicios públicos. La llamada actividad industrial de la Administración. La asunción por la Administración de actividades privadas: sus instrumentos."
+   },
+   {
+    "numero": 39,
+    "titulo": "Contratación pública (I). Directivas comunitarias en materia de contratación pública. Legislación estatal en materia de contratos del Sector Público. Objeto y ámbito de aplicación subjetivo y objetivo. Normativa aragonesa en materia de contratación pública."
+   },
+   {
+    "numero": 40,
+    "titulo": "Contratación pública (II). Los contratos del sector público. Clases de contratos. Configuración general de la contratación del sector público y elementos estructurales de los contratos."
+   },
+   {
+    "numero": 41,
+    "titulo": "Contratación pública (III). Contratos de las Administraciones Públicas: preparación de los contratos. Selección del contratista y adjudicación de los contratos. Prerrogativas de la Administración. Ejecución y modificación de los contratos; legislación sobre lucha contra la morosidad de las Administraciones Públicas. Extinción. La cesión de los contratos y la subcontratación."
+   },
+   {
+    "numero": 42,
+    "titulo": "Contratación pública (IV). Contratación de las entidades del sector público que no tienen el carácter de Administración Pública. Técnicas para la racionalización de la contratación. Contratación electrónica."
+   },
+   {
+    "numero": 43,
+    "titulo": "Los convenios de colaboración. Naturaleza jurídica: deslinde de los contratos y las subvenciones. Régimen jurídico de los Convenios. Normativa específica aragonesa en materia de Convenios."
+   },
+   {
+    "numero": 44,
+    "titulo": "La potestad sancionadora. Concepto. Principios de la potestad sancionadora y del procedimiento sancionador. Clases de sanciones. El procedimiento sancionador, especialidades en materia sancionadora y tramitación simplificada."
+   },
+   {
+    "numero": 45,
+    "titulo": "La potestad expropiatoria: naturaleza y justificación. Los sujetos, el objeto y la causa. El procedimiento expropiatorio en general. La indemnización expropiatoria o justiprecio. Procedimientos especiales: la expropiación por razones de urgencia. Sistema de garantías."
+   },
+   {
+    "numero": 46,
+    "titulo": "La responsabilidad patrimonial de las Administraciones Públicas. Antecedentes y régimen vigente. Presupuestos. Efectividad de la reparación. El procedimiento de responsabilidad patrimonial, especialidades en esta materia y tramitación simplificada. Responsabilidad de las autoridades y personal al servicio de las Administraciones Públicas. Responsabilidad de la Administración por actos de los contratistas. La responsabilidad del Estado legislador."
+   },
+   {
+    "numero": 47,
+    "titulo": "El control jurisdiccional de la Administración (I). El recurso contencioso-administrativo. Las partes. El objeto. El procedimiento. La sentencia. Recursos contra las sentencias."
+   },
+   {
+    "numero": 48,
+    "titulo": "El control jurisdiccional de la Administración (II). La Administración y la Justicia ordinaria. La posición especial de la Administración en el proceso ordinario."
+   },
+   {
+    "numero": 49,
+    "titulo": "El patrimonio de la Comunidad Autónoma de Aragón (I). El dominio público: concepto, naturaleza jurídica y elementos. Régimen jurídico."
+   },
+   {
+    "numero": 50,
+    "titulo": "El patrimonio de la Comunidad Autónoma de Aragón (II). El dominio privado: concepto y régimen jurídico. El sector empresarial del patrimonio de Aragón."
+   },
+   {
+    "numero": 51,
+    "titulo": "La Función Pública en Aragón (I). Bases constitucionales y estatutarias, regulación legal. Clases de Empleados Públicos. Acceso a la función pública. Carrera administrativa. Situaciones administrativas y extinción de la relación funcionarial."
+   },
+   {
+    "numero": 52,
+    "titulo": "La Función Pública en Aragón (II). Derechos y deberes. Incompatibilidades. Régimen disciplinario. Órganos de representación y participación. Régimen del personal laboral. Seguridad social de los empleados públicos."
+   },
+   {
+    "numero": 53,
+    "titulo": "La Función Pública en Aragón (III). Personal docente e investigador. Personal de las instituciones sanitarias. Personal al servicio de la Administración de Justicia."
+   },
+   {
+    "numero": 54,
+    "titulo": "Sanidad Pública en Aragón. Bases constitucionales y estatutarias. El Sistema Nacional de Salud. El Servicio Aragonés de Salud: organización territorial y ordenación funcional. Derechos y autonomía del paciente."
+   },
+   {
+    "numero": 55,
+    "titulo": "La Educación en Aragón. Bases constitucionales y estatutarias. Estructura del sistema educativo. La autonomía universitaria. Investigación e innovación en Aragón: bases constitucionales y estatutarias. El Sistema Aragonés de Investigación, Desarrollo y Transferencia de conocimiento."
+   },
+   {
+    "numero": 56,
+    "titulo": "Servicios Sociales en Aragón. Bases constitucionales y estatutarias y régimen jurídico. Situaciones de dependencia. Marginación o exclusión social. Políticas de apoyo a colectivos desfavorecidos: inmigración, mayores, menores. Políticas de igualdad entre hombres y mujeres. Voluntariado social."
+   },
+   {
+    "numero": 57,
+    "titulo": "Cultura y Deporte en Aragón. Bases constitucionales y estatutarias. Acción cultural. Patrimonio cultural. Propiedad intelectual. Deporte: la ordenación jurídica del deporte."
+   },
+   {
+    "numero": 58,
+    "titulo": "Ordenación del Territorio en Aragón. Bases constitucionales y estatutarias. Instrumentos de ordenación territorial en Aragón. Ordenación del territorio y regulaciones sectoriales. El modelo territorial europeo. La ordenación del territorio y el desarrollo sostenible."
+   },
+   {
+    "numero": 59,
+    "titulo": "Medio Ambiente en Aragón (I). Bases constitucionales y estatutarias. Información y participación ambiental. Espacios naturales protegidos de Aragón. Protección de la flora y fauna silvestres."
+   },
+   {
+    "numero": 60,
+    "titulo": "Medio Ambiente en Aragón (II). Montes: concepto, clasificación y régimen jurídico. El catálogo de montes. Incendios forestales. Gestión sostenible de los montes. Caza y pesca fluvial. Vías pecuarias."
+   },
+   {
+    "numero": 61,
+    "titulo": "Medio Ambiente en Aragón (III). Residuos. Contaminación atmosférica. Ruido. Técnicas de control ambiental: actividades molestas, insalubres, nocivas y peligrosas; evaluación de impacto ambiental; prevención y control integrado de la contaminación."
+   },
+   {
+    "numero": 62,
+    "titulo": "Aguas en Aragón. Bases constitucionales y estatutarias. Dominio público hidráulico. Gestión pública del agua: planes hidrológicos y organismos de cuenca. La utilización del dominio público hidráulico. Protección y calidad de las aguas."
+   },
+   {
+    "numero": 63,
+    "titulo": "Agricultura y ganadería en Aragón. Bases constitucionales y estatutarias. Medidas de reforma y desarrollo agrario. Protección y Sanidad Animal. Calidad y seguridad alimentaria."
+   },
+   {
+    "numero": 64,
+    "titulo": "Urbanismo en Aragón (I). Bases constitucionales y estatutarias. Normativa urbanística de aplicación en la Comunidad Autónoma de Aragón. Clasificación y régimen del suelo. Planeamiento urbanístico: clases de planes, formación, aprobación y efectos; vigencia, revisión y modificación."
+   },
+   {
+    "numero": 65,
+    "titulo": "Urbanismo en Aragón (II). La gestión urbanística: ejecución del planeamiento. Presupuestos. Actuaciones aisladas y actuaciones integradas o ejecución sistemática. Gestión directa y gestión indirecta. La obtención de terrenos dotacionales."
+   },
+   {
+    "numero": 66,
+    "titulo": "Urbanismo en Aragón (III). Edificación y uso del suelo. Normas de directa aplicación y edificación forzosa. La licencia urbanística. El deber de conservación y la ruina. Disciplina urbanística. Régimen urbanístico de pequeños municipios."
+   },
+   {
+    "numero": 67,
+    "titulo": "Vivienda: control y fomento de la construcción de viviendas."
+   },
+   {
+    "numero": 68,
+    "titulo": "Carreteras y transportes en Aragón. Bases constitucionales y estatutarias. Transportes: ordenación jurídica. Carreteras: régimen jurídico."
+   },
+   {
+    "numero": 69,
+    "titulo": "Industria, energía y minas en Aragón. Bases constitucionales y estatutarias. Industria: intervención pública. Energía: régimen jurídico del sector eléctrico, gas e hidrocarburos. Energías renovables y transición energética. Minas: propiedad, clasificación de los recursos mineros, investigación y explotación."
+   },
+   {
+    "numero": 70,
+    "titulo": "Comercio interior y turismo en Aragón. Bases constitucionales y estatutarias. Comercio interior: ordenación de la actividad comercial. Consumo y defensa de los consumidores. Turismo: ordenación de la actividad turística."
+   },
+   {
+    "numero": 71,
+    "titulo": "De la Comunidad Económica Europea a la Unión Europea. El Tratado de la Unión Europea. Evolución y ampliación de la Unión. El Tratado de Lisboa: el Tratado de la Unión Europea y el Tratado de Funcionamiento de la Unión Europea."
+   },
+   {
+    "numero": 72,
+    "titulo": "Política exterior y de seguridad común de la Unión Europea. Cooperación en los ámbitos de justicia e interior. El acuerdo de Schengen."
+   },
+   {
+    "numero": 73,
+    "titulo": "El Derecho comunitario (I). Las fuentes: derecho originario y derecho derivado. Las relaciones entre el Derecho comunitario y el ordenamiento jurídico de los Estados miembros. La participación de los Estados miembros en la formación del derecho comunitario."
+   },
+   {
+    "numero": 74,
+    "titulo": "El Derecho comunitario (II). La aplicación del Derecho comunitario. La participación de las Comunidades Autónomas en la aplicación del Derecho comunitario."
+   },
+   {
+    "numero": 75,
+    "titulo": "Las Instituciones de la Unión Europea (I). El Consejo Europeo, el Consejo de Ministros y la Comisión. El Parlamento, el Tribunal de Justicia y el Tribunal de Cuentas."
+   },
+   {
+    "numero": 76,
+    "titulo": "Las Instituciones de la Unión Europea (II). Los medios financieros y personales. El Presupuesto. La función pública comunitaria."
+   },
+   {
+    "numero": 77,
+    "titulo": "Las Instituciones de la Unión Europea (III). La ciudadanía de la Unión Europea. La libre circulación de personas. Los derechos de residencia. Derecho de sufragio activo y pasivo. El Defensor del Pueblo y el derecho de petición. La protección diplomática y consular. La libre circulación de trabajadores y la política social."
+   },
+   {
+    "numero": 78,
+    "titulo": "La libertad de establecimiento y la libre prestación de servicios. La libertad de circulación de capitales. La Unión Económica y Monetaria y la política económica."
+   },
+   {
+    "numero": 79,
+    "titulo": "Libre circulación de mercancías y política comercial común. El régimen sobre la competencia."
+   },
+   {
+    "numero": 80,
+    "titulo": "La política regional de la Unión Europea. Los fondos estructurales. La cohesión económica y social."
+   },
+   {
+    "numero": 81,
+    "titulo": "Las regiones en la Unión Europea: participación en fase ascendente. Participación interna o indirecta: participación en la formación de la voluntad estatal. Participación externa o directa en las Instituciones europeas. Especial mención a la participación a través del Comité de las Regiones."
+   },
+   {
+    "numero": 82,
+    "titulo": "La acción exterior de la Comunidad Autónoma de Aragón. La cooperación interregional y transfronteriza. La cooperación al desarrollo."
+   },
+   {
+    "numero": 83,
+    "titulo": "Población y territorio en Aragón. Desequilibrios demográficos en Aragón. Despoblación: causas, consecuencias y estrategias posibles. Inmigración: la integración social de los inmigrantes. Características de la inmigración en Aragón."
+   },
+   {
+    "numero": 84,
+    "titulo": "Población y mercado de trabajo. Población activa y empleo en Aragón: distribución por sectores productivos y evolución. Políticas de empleo: programas de fomento del empleo. Pobreza y exclusión social: realidad y estrategias."
+   },
+   {
+    "numero": 85,
+    "titulo": "Desarrollo y bienestar social: educación, salud, vivienda, medio ambiente. Investigación, desarrollo e innovación tecnológica."
+   },
+   {
+    "numero": 86,
+    "titulo": "Participación social. Partidos políticos y sindicatos. Comportamiento electoral. La sociedad civil: asociacionismo y participación ciudadana. Medios de comunicación: prensa, radio y televisión. La Corporación Aragonesa de Radio y Televisión."
+   },
+   {
+    "numero": 87,
+    "titulo": "Caracterización de la economía aragonesa. Magnitudes más relevantes de la economía aragonesa. Evolución reciente de la actividad económica en Aragón. Infraestructuras públicas y vertebración territorial."
+   },
+   {
+    "numero": 88,
+    "titulo": "El sector primario. Introducción histórica y evolución reciente del sector. Estructura y configuración de las explotaciones agrarias. El complejo agroindustrial: la transformación base del valor añadido. Incidencia de la Política Agraria Común (PAC) y sus reformas."
+   },
+   {
+    "numero": 89,
+    "titulo": "El sector industrial. Panorámica y estructura sectorial de la industria en Aragón. La deslocalización industrial. Factores de localización industrial y fomento de la industria aragonesa. El sector energético."
+   },
+   {
+    "numero": 90,
+    "titulo": "El sector servicios. El avance de la terciarización en la economía aragonesa. Principales actividades del sector servicios aragonés, con especial referencia al turismo en Aragón. La logística en Aragón: los polígonos tecnológicos y logísticos, su distribución territorial."
+   },
+   {
+    "numero": 91,
+    "titulo": "La apertura externa de la economía aragonesa. La renta de situación de Aragón en el contexto económico español. Aragón y el resto de las Comunidades: relaciones económicas detectadas a través de las tablas Input-Output de Aragón. Comercio exterior: principales flujos de importaciones y exportaciones."
+   },
+   {
+    "numero": 92,
+    "titulo": "La legitimidad democrática de la Administración. La cultura del servicio a los intereses generales y la ética en las instituciones públicas."
+   },
+   {
+    "numero": 93,
+    "titulo": "Las políticas públicas: formulación, implementación, ejecución, control y evaluación. La función directiva en las organizaciones públicas. El directivo público y sus instrumentos de actuación. La participación cívica."
+   },
+   {
+    "numero": 94,
+    "titulo": "Planificación estratégica y planificación operativa. Presupuestación de planes y de inversiones. Planificación de recursos humanos: oferta de empleo público y relación de puestos de trabajo."
+   },
+   {
+    "numero": 95,
+    "titulo": "Técnicas directivas de gestión. Análisis de problemas y toma de decisiones: generación de alternativas e identificación de riesgos. La gestión del conocimiento."
+   },
+   {
+    "numero": 96,
+    "titulo": "Organización formal e informal en la Administración. La gestión de personal y las relaciones humanas. Liderazgo, trabajo en equipo y motivación del factor humano."
+   },
+   {
+    "numero": 97,
+    "titulo": "El nuevo derecho a una buena administración: su proclamación europea en la Carta de Niza y sus posibles manifestaciones en el ordenamiento interno español. Administrado, cliente-usuario de los servicios públicos, contribuyente y ciudadano. La gestión de la calidad. Indicadores. Planes y normas de calidad: las cartas de servicios."
+   },
+   {
+    "numero": 98,
+    "titulo": "La transparencia de las Administraciones Públicas. Legislación en la materia."
+   },
+   {
+    "numero": 99,
+    "titulo": "El régimen jurídico de la protección de datos de carácter personal: regulación europea, estatal y autonómica. Principios relativos al tratamiento de los datos personales. Responsable, encargado de tratamiento y delegado de protección de datos. La seguridad de los datos. Los derechos del interesado: ejercicio y tutela. La Agencia Española de Protección de Datos. Garantía de los derechos digitales."
+   },
+   {
+    "numero": 100,
+    "titulo": "La Administración electrónica. Identificación y firma de los interesados en el procedimiento. Portales de internet, sede electrónica y Punto de Acceso General. La interoperabilidad en el ámbito de la Administración Pública. El procedimiento administrativo electrónico."
+   },
+   {
+    "numero": 101,
+    "titulo": "El Derecho Civil Español. El Código Civil y la legislación complementaria. Derechos Civiles Forales o especiales y su relación con la Constitución de 1978. El Derecho Civil Aragonés según la Constitución y el Estatuto de Autonomía. El Derecho Civil Aragonés. Código de Derecho Foral de Aragón: antecedentes y regulación actual."
+   },
+   {
+    "numero": 102,
+    "titulo": "El concepto de persona. La persona física. Capacidad jurídica y de obrar. Los estados civiles. Especialidades en el Derecho Civil de Aragón. La vecindad civil aragonesa."
+   },
+   {
+    "numero": 103,
+    "titulo": "El derecho real: naturaleza y caracteres. La tipicidad de los derechos reales. Derechos reales conocidos en la legislación española. El usufructo. La servidumbre."
+   },
+   {
+    "numero": 104,
+    "titulo": "El derecho real de dominio. La posesión. Derecho inmobiliario y derecho hipotecario: el Registro de la Propiedad. Principios hipotecarios."
+   },
+   {
+    "numero": 105,
+    "titulo": "Los derechos reales de garantía. La hipoteca: tipos, requisitos y efectos."
+   },
+   {
+    "numero": 106,
+    "titulo": "Los contratos de transmisión de la propiedad. La compra-venta: concepto y elementos personales, reales y formales. Obligaciones del vendedor y del comprador. Perfección del contrato. La donación: concepto y elementos personales, reales y formales."
+   },
+   {
+    "numero": 107,
+    "titulo": "El contrato de arrendamiento. El arrendamiento de fincas urbanas y su legislación especial. El arrendamiento de fincas rústicas y su legislación especial."
+   },
+   {
+    "numero": 108,
+    "titulo": "El Derecho de familia. El matrimonio: sistema español vigente. Principios generales del régimen de la tutela en el Código Civil. Derecho Civil Aragonés: la autoridad familiar y el deber de crianza y educación, relaciones entre ascendientes y descendientes, efectos de la ruptura de la convivencia de los padres con hijos a cargo, la tutela, la junta de parientes. El acogimiento y la adopción. Legislación general y autonómica en materia de protección de menores."
+   },
+   {
+    "numero": 109,
+    "titulo": "Los efectos patrimoniales del matrimonio. El régimen económico conyugal en el Derecho Civil de Aragón. El régimen matrimonial paccionado. El régimen matrimonial legal. El régimen de separación de bienes. La comunidad que continúa tras la disolución. La viudedad foral aragonesa. Régimen de las parejas estables no casadas."
+   },
+   {
+    "numero": 110,
+    "titulo": "testamentaria: modalidades. La sucesión paccionada: su régimen. La fiducia sucesoria. La legítima. La sucesión legal. El consorcio foral."
+   },
+   {
+    "numero": 111,
+    "titulo": "La empresa. Concepto y clases de empresas. Estatuto jurídico del empresario mercantil. El Registro Mercantil: funciones, organización y principios registrales."
+   },
+   {
+    "numero": 112,
+    "titulo": "Las sociedades mercantiles. Concepto y clases de sociedad mercantil. Fusión y escisión de sociedades. Grupos de sociedades: Agrupaciones de Interés Económico y Uniones Temporales de Empresas."
+   },
+   {
+    "numero": 113,
+    "titulo": "Sociedad anónima. Concepto y constitución. Capital social: aportaciones de los socios, acciones de la sociedad. Emisión de obligaciones. Órganos de la sociedad anónima. Modificación de estatutos. Cuentas anuales. Disolución y liquidación de la sociedad anónima."
+   },
+   {
+    "numero": 114,
+    "titulo": "Sociedad de responsabilidad limitada. Concepto y fundación. Régimen de las participaciones sociales. Órganos sociales. Modificación de estatutos. Disolución y liquidación."
+   },
+   {
+    "numero": 115,
+    "titulo": "Sociedades de base mutualista. La cooperativa: concepto, clases, constitución, socios, capital y órganos sociales. Mutuas de seguros y mutualidades de previsión social. Sociedades de garantía recíproca."
+   },
+   {
+    "numero": 116,
+    "titulo": "El Derecho del Trabajo: principios fundamentales. Las fuentes del ordenamiento jurídico laboral. Especial referencia al Estatuto de los Trabajadores."
+   },
+   {
+    "numero": 117,
+    "titulo": "El contrato de trabajo: concepto y naturaleza jurídica, sujetos, objeto y forma. Modalidades del contrato de trabajo."
+   },
+   {
+    "numero": 118,
+    "titulo": "Las relaciones laborales colectivas. La negociación colectiva: el Convenio Colectivo. Ámbito, contenido, extensión y adhesión. La acción administrativa en materia de conflictividad laboral: mediación, arbitraje y conciliación. La libertad sindical y el derecho a la huelga. Otras medidas de conflicto colectivo."
+   },
+   {
+    "numero": 119,
+    "titulo": "La prevención de riesgos laborales en España. Concepto y naturaleza. Deberes y responsabilidades del empresario en materia de seguridad y salud en el trabajo. La organización de la prevención en las empresas."
+   },
+   {
+    "numero": 120,
+    "titulo": "Seguridad Social. Caracteres generales del sistema español. Normas del régimen general. Referencia a los regímenes especiales de la Seguridad Social. La acción protectora. Las prestaciones por desempleo."
+   },
+   {
+    "numero": 121,
+    "titulo": "La renta nacional en España. La estabilidad presupuestaria. El Pacto Europeo de Estabilidad y Crecimiento. Legislación estatal y autonómica."
+   },
+   {
+    "numero": 122,
+    "titulo": "El presupuesto: concepto, naturaleza y clases. El presupuesto de la Comunidad Autónoma de Aragón: régimen jurídico de su elaboración, aprobación, modificación, ejecución y liquidación. Presupuestos de los Organismos Autónomos y Entidades de Derecho Público. Programas de las empresas públicas."
+   },
+   {
+    "numero": 123,
+    "titulo": "La Intervención General de la Administración de la Comunidad Autónoma: contenido de la función interventora y del control financiero. La Contabilidad Nacional. El Sistema Europeo de Cuentas. La contabilidad pública de la Comunidad Autónoma. La Cuenta General. La Tesorería: fianzas y depósitos. Avales."
+   },
+   {
+    "numero": 124,
+    "titulo": "El Gasto Público: principios constitucionales en la materia. Las subvenciones: concepto, clases y régimen jurídico. Los ingresos públicos de la Comunidad Autónoma: concepto y clasificación."
+   },
+   {
+    "numero": 125,
+    "titulo": "El Derecho Tributario, concepto y contenido. La Ley General Tributaria: principios generales. Los tributos: conceptos, fines y clases. La potestad tributaria de las Comunidades Autónomas. Los tributos propios de la Comunidad Autónoma de Aragón."
+   },
+   {
+    "numero": 126,
+    "titulo": "El Impuesto de la Renta de las Personas Físicas."
+   },
+   {
+    "numero": 127,
+    "titulo": "El Impuesto de Sociedades."
+   },
+   {
+    "numero": 128,
+    "titulo": "El Impuesto sobre el Valor Añadido."
+   },
+   {
+    "numero": 129,
+    "titulo": "El régimen de los tributos cedidos a las Comunidades Autónomas. La cesión a la Comunidad Autónoma de Aragón. El Impuesto sobre el Patrimonio."
+   },
+   {
+    "numero": 130,
+    "titulo": "El Impuesto de Transmisiones Patrimoniales y Actos Jurídicos Documentados. El Impuesto de Sucesiones y Donaciones."
+   }
+  ]
+ }
+]

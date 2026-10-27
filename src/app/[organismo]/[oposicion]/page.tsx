@@ -11,6 +11,7 @@ import { getOposicionPorRuta, getOposiciones, getEstadisticasOposicion } from "@
 import { getConvocatoria } from "@/data/convocatorias";
 import { getArticulosDeOposicion } from "@/lib/blog";
 import { ArticuloCard } from "@/components/blog/ArticuloCard";
+import { FichaOposicion } from "@/components/oposicion/FichaOposicion";
 
 interface PageProps {
   params: Promise<{ organismo: string; oposicion: string }>;
@@ -30,7 +31,9 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     // Diputación, del Gobierno de Aragón...) vía organismoConPreposicionCompleto
     // — mismo criterio que el H1, más abajo.
     titulo: `${oposicion.nombre} ${organismoConPreposicionCompleto(oposicion.organismoSlug, oposicion.organismo)} | Oposición`,
-    descripcion: `Prepara la oposición de ${oposicion.nombre} · ${oposicion.organismo}: temas, test, flashcards, casos prácticos y simulacro. Empieza gratis.`,
+    descripcion: oposicion.soloFicha
+      ? `Oposición de ${oposicion.nombre} · ${oposicion.organismo}: plazas, requisitos, cómo es el examen y temario oficial completo.`
+      : `Prepara la oposición de ${oposicion.nombre} · ${oposicion.organismo}: temas, test, flashcards, casos prácticos y simulacro. Empieza gratis.`,
     ruta: `/${organismo}/${puesto}`,
   });
 }
@@ -41,6 +44,20 @@ export default async function OposicionHome({ params }: PageProps) {
   if (!oposicion) notFound();
   const slug = oposicion.slug; // slug interno (PK) — para queries de contenido, no para URLs
   const base = `/${organismo}/${puesto}`;
+
+  if (oposicion.soloFicha) {
+    return (
+      <>
+        <Breadcrumbs
+          items={[
+            { label: oposicion.organismo, href: `/${organismo}` },
+            { label: oposicion.nombre, href: base },
+          ]}
+        />
+        <FichaOposicion oposicion={oposicion} convocatoria={await getConvocatoria(slug)} />
+      </>
+    );
+  }
 
   const [estadisticas, convocatoria, noticias] = await Promise.all([
     getEstadisticasOposicion(slug),

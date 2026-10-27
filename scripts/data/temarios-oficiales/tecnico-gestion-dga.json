@@ -1,0 +1,227 @@
+[
+ {
+  "bloque": "Programa de materias",
+  "temas": [
+   {
+    "numero": 1,
+    "titulo": "La Constitución Española de 1978: estructura y contenido. Valores superiores y principios inspiradores. El Estado Social y Democrático de Derecho. La Corona. Las Cortes Generales. El Poder Judicial. Derechos y libertades. Deberes de los ciudadanos. Principios rectores de la política social y económica. Garantías. Defensor del Pueblo."
+   },
+   {
+    "numero": 2,
+    "titulo": "La organización territorial del Estado. Gobierno de la Nación y Administración General del Estado. Comunidades Autónomas. Administración Local. Las relaciones entre los entes territoriales. Especial referencia a la comarcalización de Aragón."
+   },
+   {
+    "numero": 3,
+    "titulo": "El Estatuto de Autonomía de Aragón: naturaleza y contenido. Competencias de la Comunidad Autónoma. La reforma del Estatuto. La organización institucional de la Comunidad Autónoma de Aragón. Las Cortes y el Justicia de Aragón."
+   },
+   {
+    "numero": 4,
+    "titulo": "El Presidente y el Gobierno de Aragón. Los Consejeros. La Administración Pública de la Comunidad Autónoma. Los órganos administrativos: su régimen y el ejercicio de las competencias."
+   },
+   {
+    "numero": 5,
+    "titulo": "La Unión Europea. Antecedentes y evolución histórica. Las fuentes del Derecho de la Unión Europea. Las Instituciones de la Unión Europea. La participación de las Comunidades Autónomas en la aplicación del Derecho Comunitario."
+   },
+   {
+    "numero": 6,
+    "titulo": "Ley del Procedimiento Administrativo Común de las Administraciones Públicas: ámbito de aplicación y principios informadores. Los interesados: capacidad y representación. Derechos de los ciudadanos en sus relaciones con las Administraciones Públicas, especial referencia a la administración electrónica. Sujetos obligados a relacionarse electrónicamente con la Administración. Identificación y firma de los interesados. Representación. Procedimiento administrativo: las garantías en el desarrollo del procedimiento y las fases de iniciación, ordenación, instrucción y finalización. La transparencia de las Administraciones Públicas y acceso a la información pública."
+   },
+   {
+    "numero": 7,
+    "titulo": "El acto administrativo: concepto, elementos y clases. Requisitos y eficacia de los actos administrativos. Nulidad y anulabilidad. La obligación de la Administración de resolver y notificar Silencio administrativo. Términos y plazos. Sistema de Interconexión de Registros. Notificación electrónica. Revisión de los actos administrativos."
+   },
+   {
+    "numero": 8,
+    "titulo": "La responsabilidad patrimonial de la Administración Pública. Responsabilidad de las autoridades y personal a su servicio."
+   },
+   {
+    "numero": 9,
+    "titulo": "El Estatuto Básico del Empleado Público. El personal funcionario de la Administración de la Comunidad Autónoma de Aragón: clases de empleados públicos, selección, provisión y carrera administrativa. Personal laboral. Integridad y Ética pública. Código de conducta del personal empleado público. Régimen disciplinario y normativa penal relativa a la función pública."
+   },
+   {
+    "numero": 10,
+    "titulo": "El presupuesto: sus principios. Estructura del presupuesto de la Comunidad Autónoma de Aragón. Los créditos y sus modificaciones. Ejecución del presupuesto. El control presupuestario."
+   },
+   {
+    "numero": 11,
+    "titulo": "Las fuentes del Derecho Administrativo. La jerarquía de las fuentes. La Constitución. La ley: tipos de leyes. Reserva de ley. Disposiciones administrativas con fuerza de ley."
+   },
+   {
+    "numero": 12,
+    "titulo": "El reglamento: concepto, naturaleza y clases. Límites de la potestad reglamentaria. La costumbre. Los principios generales del Derecho. Los Tratados Internacionales."
+   },
+   {
+    "numero": 13,
+    "titulo": "Las potestades administrativas: atribución de las potestades. Potestades regladas y potestades discrecionales: distinción. El control de la discrecionalidad. Los conceptos jurídicos indeterminados."
+   },
+   {
+    "numero": 14,
+    "titulo": "La nulidad absoluta de los actos administrativos: supuestos legales. La anulabilidad de los actos: especial consideración de la desviación de poder. Las irregularidades no invalidantes. La impugnación de los actos nulos y de los anulables."
+   },
+   {
+    "numero": 15,
+    "titulo": "Los recursos administrativos: clases de recursos, elementos y requisitos formales. Efectos de su interposición."
+   },
+   {
+    "numero": 16,
+    "titulo": "La Jurisdicción Contencioso-Administrativa (I): órganos y competencias. Capacidad procesal. Legitimación. Representación y defensa de las partes. El recurso contenciosoadministrativo. Procedimiento: requisitos previos, iniciación y tramitación. Procedimiento abreviado."
+   },
+   {
+    "numero": 17,
+    "titulo": "La Jurisdicción Contencioso-Administrativa (II): recursos contra providencias, autos y sentencias. Ejecución de las sentencias. Referencia a los procedimientos especiales previstos en la Ley Reguladora de la Jurisdicción Contencioso Administrativa."
+   },
+   {
+    "numero": 18,
+    "titulo": "Las subvenciones públicas en la Comunidad Autónoma de Aragón: concepto, elementos y requisitos. Procedimiento de concesión, gestión y justificación de subvenciones. Infracciones y sanciones en materia de subvenciones: el reintegro de subvenciones. El control de las subvenciones."
+   },
+   {
+    "numero": 19,
+    "titulo": "Licencias y autorizaciones. Los convenios de colaboración. El servicio público. Las formas de gestión de los servicios públicos: consideración especial de la concesión. La actividad empresarial de las Administraciones Públicas."
+   },
+   {
+    "numero": 20,
+    "titulo": "La potestad sancionadora de la Administración: principios informadores. Límites constitucionales. Clases de sanciones. El procedimiento sancionador: principios que lo informan. El procedimiento ordinario. Prescripción de las infracciones y sanciones."
+   },
+   {
+    "numero": 21,
+    "titulo": "Los bienes de las Administraciones Públicas (I). Estudio de los bienes y derechos de dominio público: adquisición y transmisión, protección y defensa, afectación y desafectación, su uso y aprovechamiento, responsabilidades. Normas de la Comunidad Autónoma de Aragón."
+   },
+   {
+    "numero": 22,
+    "titulo": "Los bienes de las Administraciones Públicas (II). Estudio de los bienes y derechos de dominio privado: adquisición y transmisión, protección y defensa, su uso y aprovechamiento, responsabilidades. Normas de la Comunidad Autónoma de Aragón."
+   },
+   {
+    "numero": 23,
+    "titulo": "Los Contratos del Sector Público (I): legislación aplicable. Objeto y ámbito de aplicación. Negocios y contratos excluidos. Tipos de contratos y régimen jurídico aplicable. Disposiciones generales sobre la contratación del sector público. Partes en el contrato. Objeto, precio y cuantía. Garantías exigibles y modificación de los contratos. Normas de la Comunidad Autónoma de Aragón."
+   },
+   {
+    "numero": 24,
+    "titulo": "Los Contratos del Sector Publico (II): preparación de los contratos. La selección del contratista. Adjudicación de los contratos. Procedimientos de contratación. Efectos, cumplimiento y extinción de los contratos administrativos. Legislación sobre lucha contra la morosidad de las Administraciones Públicas. Revisión de precios. Organización administrativa para la gestión de los contratos. Régimen especial de revisión de decisiones en materia de contratación y medios de resolución de conflictos."
+   },
+   {
+    "numero": 25,
+    "titulo": "Los Contratos del Sector Público (III): el contrato de obras. Los contratos mixtos."
+   },
+   {
+    "numero": 26,
+    "titulo": "Los Contratos del Sector Público (IV): el contrato de concesión de obras."
+   },
+   {
+    "numero": 27,
+    "titulo": "Los Contratos del Sector Público (V): el contrato de concesión de servicios. El contrato de suministro. El contrato de servicios."
+   },
+   {
+    "numero": 28,
+    "titulo": "El Personal al servicio de la Comunidad Autónoma de Aragón (I): derechos de los funcionarios. Derechos de contenido no económico. Relaciones laborales: órganos de representación, determinación de las condiciones de trabajo y participación del personal al servicio de la Comunidad Autónoma de Aragón. El proceso de negociación colectiva. Derechos de contenido económico. Sistema retributivo. Indemnizaciones por razón del servicio."
+   },
+   {
+    "numero": 29,
+    "titulo": "El Personal al servicio de la Comunidad Autónoma de Aragón (II): deberes de los funcionarios. Incompatibilidades. Régimen disciplinario. Responsabilidad civil y penal del personal al servicio de la Comunidad Autónoma de Aragón."
+   },
+   {
+    "numero": 30,
+    "titulo": "El Personal de la Administración de la Comunidad Autónoma de Aragón (III): el personal laboral. Selección. Derechos, deberes e incompatibilidades. El contrato laboral: contenido, duración y suspensión."
+   },
+   {
+    "numero": 31,
+    "titulo": "El personal de la Administración de la Comunidad Autónoma de Aragón (IV): el personal estatutario. El personal al servicio de la Administración de Justicia."
+   },
+   {
+    "numero": 32,
+    "titulo": "La Seguridad Social del personal al servicio de las Administraciones Públicas. La acción protectora del Sistema de la Seguridad Social. Estudio y características de las prestaciones. Referencia al régimen especial: MUFACE y Clases Pasivas."
+   },
+   {
+    "numero": 33,
+    "titulo": "Campo de aplicación: inclusiones y exclusiones y composición del sistema de la Seguridad Social. Régimen General y Regímenes Especiales: características y enumeración. Sistemas especiales: características especiales."
+   },
+   {
+    "numero": 34,
+    "titulo": "La constitución de la relación jurídica de aseguramiento. Inscripción de empresas. Afiliación de trabajadores. Altas, bajas y variaciones de datos. Procedimiento."
+   },
+   {
+    "numero": 35,
+    "titulo": "La cotización. Bases y tipos de cotización. Sujetos obligados y sujetos responsables. La gestión recaudatoria de las cuotas de la Seguridad Social. Aplazamiento de pago de cuotas. Procedimiento."
+   },
+   {
+    "numero": 36,
+    "titulo": "La jubilación: concepto y requisitos. Incompatibilidad con el trabajo. Suspensión y extinción de la pensión de jubilación. Determinación de la cuantía de las pensiones. Tipos de jubilación. La protección por muerte y supervivencia. Hecho causante. Beneficiarios. Requisitos, prestaciones y cuantía."
+   },
+   {
+    "numero": 37,
+    "titulo": "El presupuesto. Concepto y clases. Principios presupuestarios. El ciclo presupuestario. El presupuesto por programas. Objetivos. Programas y su evaluación."
+   },
+   {
+    "numero": 38,
+    "titulo": "La estabilidad presupuestaria. El Pacto europeo de Estabilidad y Crecimiento. Legislación estatal y autonómica."
+   },
+   {
+    "numero": 39,
+    "titulo": "El Presupuesto de la Comunidad Autónoma de Aragón. Elaboración, contenido y aprobación del Presupuesto de la Comunidad Autónoma. La Ley anual del Presupuesto de la Comunidad Autónoma de Aragón."
+   },
+   {
+    "numero": 40,
+    "titulo": "Ingresos y gastos públicos. Estructura y clasificación: orgánica, funcional y económica."
+   },
+   {
+    "numero": 41,
+    "titulo": "Los créditos y sus modificaciones. Clases. Órganos competentes. Procedimiento."
+   },
+   {
+    "numero": 42,
+    "titulo": "La ejecución del Presupuesto: fases. La ordenación del gasto: órganos competentes, fases del procedimiento y documentos contables que intervienen. Gastos de carácter plurianual. La ejecución del Presupuesto de ingresos: reconocimiento y liquidación de derechos. Liquidación y cierre del ejercicio."
+   },
+   {
+    "numero": 43,
+    "titulo": "La ordenación del pago: órganos competentes, fases y procedimiento. Pagos: concepto y clasificación. Pagos por ordenaciones presupuestarias: pagos por obligaciones de ejercicios cerrados. Pagos en firme y a justificar. Los anticipos de caja fija."
+   },
+   {
+    "numero": 44,
+    "titulo": "La Tesorería de la Comunidad Autónoma de Aragón. Funciones. Anticipos de Tesorería. Operaciones de crédito. Los avales. El endeudamiento."
+   },
+   {
+    "numero": 45,
+    "titulo": "La Contabilidad pública: concepto. Contabilidad preventiva, ejecutiva y crítica. Fines. Órganos competentes. Las cuentas anuales: elementos, documentos que las integran y requisitos de la información. Los principios contables. La Cuenta General de la Comunidad Autónoma de Aragón."
+   },
+   {
+    "numero": 46,
+    "titulo": "La contabilidad Nacional. El Sistema Europeo de Cuentas. Plan General de Contabilidad Pública. Ámbito y contenido del Plan. Objetivos. Cuadro de cuentas: grupos y subgrupos de cuentas. Criterios de valoración. La contabilidad de la Comunidad Autónoma de Aragón, sus organismos públicos y empresas."
+   },
+   {
+    "numero": 47,
+    "titulo": "El control del gasto público en España. Clases. Especial referencia al control de legalidad. El Tribunal de Cuentas y la Cámara de Cuentas de Aragón."
+   },
+   {
+    "numero": 48,
+    "titulo": "Las retribuciones de los empleados públicos. Nóminas: estructura y normas de confección. Altas, bajas y variación de datos. Justificación. Conceptos retributivos. Devengo y liquidación de derechos económicos. Pago de las retribuciones del personal en activo."
+   },
+   {
+    "numero": 49,
+    "titulo": "Financiación de las Comunidades Autónomas (I): el modelo de financiación autonómica. Normativa, principios generales y recursos que se atribuyen a las Comunidades Autónomas. Estudio de los distintos Fondos de financiación. La participación en los ingresos del Estado. El Consejo de Política Fiscal y Financiera."
+   },
+   {
+    "numero": 50,
+    "titulo": "Financiación de las Comunidades Autónomas (II): tributos cedidos a las Comunidades Autónomas. Normativa aplicable y puntos de conexión de los diferentes tributos. Competencias atribuidas y reservadas por la Administración Central."
+   },
+   {
+    "numero": 51,
+    "titulo": "Financiación de las Comunidades Autónomas (III): tributos cedidos a las Comunidades Autónomas. El Impuesto sobre Transmisiones Patrimoniales y Actos Jurídicos Documentados. El Impuesto sobre Sucesiones y Donaciones."
+   },
+   {
+    "numero": 52,
+    "titulo": "Financiación de las Comunidades Autónomas (IV): tributos propios. Fondo de Compensación Interterritorial. Ingresos de derecho privado. Revisión administrativa en materia de tributos propios y otros recursos de Derecho público de la Comunidad Autónoma de Aragón. Procedimiento. La Junta de Reclamaciones Económico-Administrativas de la Comunidad Autónoma de Aragón."
+   },
+   {
+    "numero": 53,
+    "titulo": "Financiación de las Comunidades Autónomas (V): los Fondos Europeos."
+   },
+   {
+    "numero": 54,
+    "titulo": "El sistema tributario español. Principios generales: especial referencia a los contenidos en la Constitución. Tasas y precios públicos."
+   },
+   {
+    "numero": 55,
+    "titulo": "Reglamento europeo relativo a la protección de las personas físicas en lo que respecta al tratamiento de datos personales y a la libre circulación de estos datos y la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales."
+   }
+  ]
+ }
+]

@@ -46,7 +46,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 export default async function TemaPage({ params }: PageProps) {
   const { organismo, oposicion: puesto, slug } = await params;
   const oposicion = await getOposicionPorRuta(organismo, puesto);
-  if (!oposicion) notFound();
+  // Una oposición "solo ficha" no tiene material de estudio (ver `Oposicion.soloFicha`).
+  if (!oposicion || oposicion.soloFicha) notFound();
   const oposicionSlug = oposicion.slug; // slug interno (PK) — para queries de contenido y progreso
   const base = `/${organismo}/${puesto}`;
 

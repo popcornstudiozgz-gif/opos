@@ -37,7 +37,9 @@ export const metadata: Metadata = crearMetadata({
 });
 
 export default async function GlosarioPage() {
-  const [terminos, oposiciones] = await Promise.all([getGlosarioCompleto(), getOposiciones()]);
+  const [terminos, todas] = await Promise.all([getGlosarioCompleto(), getOposiciones()]);
+  // Las oposiciones "solo ficha" no tienen glosario propio (ni ruta /glosario/[slug]).
+  const oposiciones = todas.filter((o) => !o.soloFicha);
   return (
     <>
       <Navbar />

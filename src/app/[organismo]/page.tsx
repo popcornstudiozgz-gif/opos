@@ -91,12 +91,16 @@ export default async function OrganismoPage({ params }: PageProps) {
                 <Card key={oposicion.slug} className="flex flex-col p-6 transition-shadow hover:shadow-md">
                   <h3 className="text-xl font-bold text-brand-900">{oposicion.nombre}</h3>
                   <p className="mt-3 flex-1 text-slate-600">{oposicion.descripcionCorta}</p>
-                  <p className="mt-4 text-sm text-slate-500">{numTemas} temas en el temario oficial</p>
+                  <p className="mt-4 text-sm text-slate-500">
+                    {oposicion.soloFicha
+                      ? `${oposicion.temarioOficial.reduce((n, b) => n + b.temas.length, 0)} temas en el programa · material en preparación`
+                      : `${numTemas} temas en el temario oficial`}
+                  </p>
                   <Button
                     href={`/${oposicion.organismoSlug}/${oposicion.puestoSlug}`}
                     className="mt-6 self-start"
                   >
-                    Empezar a estudiar →
+                    {oposicion.soloFicha ? "Ver plazas y temario →" : "Empezar a estudiar →"}
                   </Button>
                 </Card>
               );

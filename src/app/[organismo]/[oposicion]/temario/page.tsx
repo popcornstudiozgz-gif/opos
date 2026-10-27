@@ -14,7 +14,9 @@ interface PageProps {
 
 export async function generateStaticParams() {
   const oposiciones = await getOposiciones();
-  return oposiciones.map((o) => ({ organismo: o.organismoSlug, oposicion: o.puestoSlug }));
+  return oposiciones
+    .filter((o) => !o.soloFicha)
+    .map((o) => ({ organismo: o.organismoSlug, oposicion: o.puestoSlug }));
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
@@ -31,7 +33,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 export default async function TemarioPage({ params }: PageProps) {
   const { organismo, oposicion: puesto } = await params;
   const oposicion = await getOposicionPorRuta(organismo, puesto);
-  if (!oposicion) notFound();
+  // Una oposición "solo ficha" no tiene material de estudio (ver `Oposicion.soloFicha`).
+  if (!oposicion || oposicion.soloFicha) notFound();
   const base = `/${organismo}/${puesto}`;
 
   const bloques = await getBloquesConTemas(oposicion.slug);

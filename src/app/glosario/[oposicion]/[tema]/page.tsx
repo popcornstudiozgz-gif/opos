@@ -36,7 +36,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 export default async function GlosarioTemaPage({ params }: PageProps) {
   const { oposicion: oposicionSlug, tema: temaParam } = await params;
   const oposicion = await getOposicion(oposicionSlug);
-  if (!oposicion) notFound();
+  // Una oposición "solo ficha" no tiene material de estudio (ver `Oposicion.soloFicha`).
+  if (!oposicion || oposicion.soloFicha) notFound();
   const bloques = await getBloquesConTemas(oposicionSlug);
 
   const todasActivo = temaParam === "todas";

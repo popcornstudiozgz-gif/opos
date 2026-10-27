@@ -1,0 +1,172 @@
+[
+ {
+  "bloque": "Materias comunes",
+  "temas": [
+   {
+    "numero": 1,
+    "titulo": "La Constitución española de 1978. Principios generales. Derechos y deberes fundamentales de los españoles"
+   },
+   {
+    "numero": 2,
+    "titulo": "Fuentes del Derecho Administrativo. Leyes orgánicas y ordinarias. Disposiciones administrativas con fuerza de ley. El reglamento: concepto, naturaleza y clases."
+   },
+   {
+    "numero": 3,
+    "titulo": "Limites de la potestad reglamentaria. Autonomía y sistema de fuentes."
+   },
+   {
+    "numero": 4,
+    "titulo": "Organización territorial del Estado. Los Estatutos de autonomía: su significado. El Estatuto de Autonomía de Aragón."
+   },
+   {
+    "numero": 5,
+    "titulo": "Derecho Administrativo. Concepto. Sometimiento de la Administración a la Ley y al Derecho"
+   },
+   {
+    "numero": 6,
+    "titulo": "Régimen local español. Principios constitucionales y regulación jurídica. El régimen jurídico de la Administración Local de Aragón. Normativa de la Comunidad Autónoma de Aragón en materia de Régimen Local."
+   },
+   {
+    "numero": 7,
+    "titulo": "Haciendas Locales: Clasificación de los ingresos. Tributos Locales. Procedimiento de recaudación de los ingresos locales."
+   },
+   {
+    "numero": 8,
+    "titulo": "Derecho a la igualdad y a la no discriminación por razón de sexo. Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres."
+   }
+  ]
+ },
+ {
+  "bloque": "Materias específicas",
+  "temas": [
+   {
+    "numero": 9,
+    "titulo": "El expediente administrativo. Términos y plazos. Concepto de documento, registro y archivo. Criterios de ordenación del archivo. El Registro de Entrada y Salida de documentos. La ventanilla única"
+   },
+   {
+    "numero": 10,
+    "titulo": "El Procedimiento Administrativo Común de las Administraciones Públicas (I): estructura, ámbito de aplicación y principios generales."
+   },
+   {
+    "numero": 11,
+    "titulo": "El Procedimiento Administrativo Común de las Administraciones Públicas (II): Concepto y fases del procedimiento. El silencio administrativo. Ejecución."
+   },
+   {
+    "numero": 12,
+    "titulo": "El acto administrativo. Motivación. Notificación. Publicación. Eficacia de los actos administrativos. Validez e invalidez de los actos administrativos."
+   },
+   {
+    "numero": 13,
+    "titulo": "La revisión de los actos administrativos. Revisión de oficio. Recursos administrativos. La responsabilidad patrimonial de la Administración."
+   },
+   {
+    "numero": 14,
+    "titulo": "La Jurisdicción Contencioso Administrativa. Su organización. Las partes. Actos impugnables. Idea general del proceso."
+   },
+   {
+    "numero": 15,
+    "titulo": "La provincia en el régimen local: Organización provincial y Competencias. El municipio en el régimen local: Organización y Competencias."
+   },
+   {
+    "numero": 16,
+    "titulo": "Ordenanzas y reglamentos de las entidades locales. Clases. Procedimiento, elaboración y aprobación."
+   },
+   {
+    "numero": 17,
+    "titulo": "La contratación pública: Principios generales, clases de contratos, formas y procedimientos de contratación."
+   },
+   {
+    "numero": 18,
+    "titulo": "Formas de acción administrativa. Policía. Fomento. Servicio Público."
+   },
+   {
+    "numero": 19,
+    "titulo": "Formas de gestión de los servicios públicos. Referencia al ámbito local."
+   },
+   {
+    "numero": 20,
+    "titulo": "Los bienes de las Entidades locales. Concepto y clases de bienes. Prerrogativas. Adquisición y enajenación. Modalidades de utilización y aprovechamiento."
+   },
+   {
+    "numero": 21,
+    "titulo": "La Ley General de Subvenciones y Ley de Subvenciones de Aragón. Concepto, naturaleza y clasificación de las subvenciones. Elementos personales. Bases reguladoras. Procedimiento de concesión, pago y justificación. Reintegro. Ordenanza General de Subvenciones de la Diputación Provincial de Zaragoza."
+   },
+   {
+    "numero": 22,
+    "titulo": "Los contratos del Sector público (I); conceptos y clases. Preparación del expediente. Las partes del contrato administrativo."
+   },
+   {
+    "numero": 23,
+    "titulo": "Los contratos del Sector público (II); El expediente administrativo. Procedimiento de adjudicación. Las garantías y clases."
+   },
+   {
+    "numero": 24,
+    "titulo": "Los contratos del Sector público (III); La revisión de precios y otras alteraciones del contrato. La extinción de los contratos."
+   },
+   {
+    "numero": 25,
+    "titulo": "El personal al servicio de las Administraciones Publicas (I): Concepto y clases de empleados públicos. Derechos y deberes. Código de Conducta de los empleados públicos. Sistema de retribuciones. Incompatibilidades"
+   },
+   {
+    "numero": 26,
+    "titulo": "El personal al servicio de las Administraciones Públicas (II): Estructura y organización de la Función Pública. Registro de Personal. Programación y oferta de empleo."
+   },
+   {
+    "numero": 27,
+    "titulo": "El personal al servicio de las Administraciones Públicas (III): El personal funcionario. Selección. Provisión de puestos de trabajo. Promoción profesional de los funcionarios."
+   },
+   {
+    "numero": 28,
+    "titulo": "El personal al servicio de las Administraciones Públicas (IV): Adquisición y pérdida de la condición de funcionario. Situaciones de los funcionarios: supuestos y efectos de cada una de ellas. Régimen disciplinario."
+   },
+   {
+    "numero": 29,
+    "titulo": "El personal al servicio de las Administraciones Públicas (V): El personal laboral al servicio de las administraciones públicas; selección. Deberes, derechos e incompatibilidades. El contrato de trabajo."
+   },
+   {
+    "numero": 30,
+    "titulo": "Los presupuestos locales. El gasto público local. Concepto. Principios y procedimiento de ejecución. La contabilidad de las entidades locales: documentos y libros contables"
+   },
+   {
+    "numero": 31,
+    "titulo": "El ciclo presupuestario. El presupuesto por programas. Créditos presupuestarios y sus modificaciones."
+   },
+   {
+    "numero": 32,
+    "titulo": "La ejecución del presupuesto: fases. Ordenación del gasto y ordenación del pago: órganos competentes, fases del procedimiento y documentos contables que intervienen."
+   },
+   {
+    "numero": 33,
+    "titulo": "Gastos de carácter plurianual. La ejecución del presupuesto de ingresos: reconocimiento y liquidación de derechos. Liquidación y cierre del ejercicio."
+   },
+   {
+    "numero": 34,
+    "titulo": "Sistemas de información para la gestión. La información como recurso para la Administración Pública. La protección de datos de carácter personal."
+   },
+   {
+    "numero": 35,
+    "titulo": "Aplicación de las tecnologías de la información a los sistemas de información. Sistemas de información y gestión para la Administración Local: gestión de la organización y gestión de la calidad."
+   },
+   {
+    "numero": 36,
+    "titulo": "La transparencia de la actividad pública: publicidad activa y derecho de acceso a la información pública. Protección de datos personales: principios generales."
+   },
+   {
+    "numero": 37,
+    "titulo": "El principio de igualdad y la tutela contra la discriminación; políticas públicas para la igualdad; el derecho al trabajo en igualdad de oportunidades; el principio de igualdad en el empleo público. De la política social al “mainstreaming” o transversalidad de género."
+   },
+   {
+    "numero": 38,
+    "titulo": "Principios generales de la actuación de los poderes públicos aragoneses en materia de igualdad de oportunidades entre hombres y mujeres"
+   },
+   {
+    "numero": 39,
+    "titulo": "La Administración electrónica. Documentos y expedientes electrónicos. Conceptos básicos sobre LibreOffice, Procesadores de textos, Hojas de cálculo y Bases de Datos."
+   },
+   {
+    "numero": 40,
+    "titulo": "La Ley de Prevención de Riesgos Laborales: objeto y conceptos básicos. Derechos y obligaciones. Prevención de riesgos laborales en la Administración Pública."
+   }
+  ]
+ }
+]

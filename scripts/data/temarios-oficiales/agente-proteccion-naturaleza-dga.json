@@ -1,0 +1,152 @@
+[
+ {
+  "bloque": "Materias comunes",
+  "temas": [
+   {
+    "numero": 1,
+    "titulo": "La Constitución Española de 1978: estructura, contenido y principios que la informan. Los derechos fundamentales y sus garantías. La Corona. Las Cortes Generales. El Poder Judicial. El Tribunal Constitucional. El Defensor del Pueblo."
+   },
+   {
+    "numero": 2,
+    "titulo": "La organización territorial del Estado. Gobierno de la Nación y Administración General del Estado. Comunidades Autónomas. Administración Local. Las relaciones entre los entes territoriales. Especial referencia a la comarcalización de Aragón."
+   },
+   {
+    "numero": 3,
+    "titulo": "El Estatuto de Autonomía de Aragón. La organización institucional de la Comunidad Autónoma de Aragón. Las Cortes de Aragón. El Justicia de Aragón."
+   },
+   {
+    "numero": 4,
+    "titulo": "Los órganos de gobierno y administración de la Comunidad Autónoma de Aragón. El Presidente y el Gobierno de Aragón. Los Consejeros. La Administración Pública de la Comunidad Autónoma. La estructura administrativa. El Sector Público de la Comunidad Autónoma de Aragón. La Administración consultiva: el Consejo de Estado y el Consejo Consultivo de Aragón."
+   },
+   {
+    "numero": 5,
+    "titulo": "La prevención de riesgos laborales: derechos y obligaciones en materia de seguridad y salud en el trabajo."
+   }
+  ]
+ },
+ {
+  "bloque": "Materias específicas",
+  "temas": [
+   {
+    "numero": 1,
+    "titulo": "La Ley 4/2024, de 8 de noviembre, básica de agentes forestales y medioambientales."
+   },
+   {
+    "numero": 2,
+    "titulo": "Los Agentes para la Protección de la Naturaleza en Aragón. Estructura Periférica del Departamento de Medio Ambiente. Las Áreas Medioambientales en Aragón. Funciones de los Agentes para la Protección de la Naturaleza y de los Coordinadores Medioambientales."
+   },
+   {
+    "numero": 3,
+    "titulo": "Los Agentes para la Protección de la Naturaleza y la educación ambiental. La labor preventiva de los APNS frente a las infracciones administrativas: información y orientación a los ciudadanos en el buen uso, disfrute y conservación del medio. Educación medioambiental en colegios e institutos: programas de educación ambiental, charlas informativas y talleres. El cambio climático. Conocimiento del medio. Colaboración con la sociedad civil."
+   },
+   {
+    "numero": 4,
+    "titulo": "Regulación legal de los Montes en Aragón Normativa nacional y autonómica. Disposiciones generales. Clasificación y régimen jurídico de los montes. Investigación, deslinde, adquisición e inscripción de los montes. Política forestal, ordenación y gestión de los montes. Régimen de uso y aprovechamiento de los montes. Protección de los montes. Fomento de las actuaciones forestales. Policía forestal e infracciones."
+   },
+   {
+    "numero": 5,
+    "titulo": "Selvicultura. Formas culturales de masa. Clases naturales y artificiales de edad. Clasificación sociológica de los pies de una masa arbórea. Cuantificación de la espesura de una masa arbórea. Caracterización del crecimiento de una masa. Concepto de posibilidad, turno, edad de madurez y diámetro de cortabilidad."
+   },
+   {
+    "numero": 6,
+    "titulo": "Dasometría y dendrometría. Mediciones sobre el árbol en pie y apeado. Instrumentos de medida. Estimación de volumen del árbol en pie y apeado. Cubicación de madera apilada y leñas."
+   },
+   {
+    "numero": 7,
+    "titulo": "Tratamientos selvícolas: tipos de cortas; tratamientos parciales. Aprovechamientos forestales; clases y unidades de medida. Aprovechamientos forestales maderables y leñosos: tipos, sistemas y fases; herramientas, maquinaria, equipos y materiales empleados."
+   },
+   {
+    "numero": 8,
+    "titulo": "Ordenación de montes. Principios y objetivos. Contenido mínimo de los Instrumentos de Gestión Forestal en Aragón; especial mención a la división inventarial y al cálculo de existencias. Métodos de ordenación en masas regulares, semirregulares e irregulares. División dasocrática."
+   },
+   {
+    "numero": 9,
+    "titulo": "Viveros y repoblaciones forestales. Viveros: instalaciones, técnicas de producción de planta forestal, manejos culturales y maquinaria empleada. Material forestal de reproducción. Materiales de base. Regiones de procedencia. Recolección y manejo de semillas forestales. Identificación, análisis y conservación de semillas forestales. Repoblaciones: concepto y objetivos. Planificación. Elección de especie, tratamiento de la vegetación, preparación del terreno, siembra y plantación, cuidados culturales. Aperos y maquinaria utilizada en las repoblaciones."
+   },
+   {
+    "numero": 10,
+    "titulo": "Adversidades forestales abióticas y bióticas. Plagas y enfermedades principales de las masas forestales aragonesas y viveros forestales. Métodos de control y lucha."
+   },
+   {
+    "numero": 11,
+    "titulo": "Regulación legal de las vías pecuarias en Aragón. Normativa nacional y autonómica. Concepto, naturaleza jurídica y tipos. Competencias y ejercicio de potestades de la Comunidad Autónoma y de las Entidades Locales. Clasificación, deslinde, amojonamiento y señalización. Ocupaciones, aprovechamientos y régimen de usos y actividades en vías pecuarias. Funciones de policía, vigilancia e inspección. Infracciones y sanciones."
+   },
+   {
+    "numero": 12,
+    "titulo": "Regulación legal de residuos y emisiones. Normativa nacional y autonómica. Residuos sólidos urbanos, industriales, agroganaderos y aguas residuales: situación en Aragón, gestión y tratamiento."
+   },
+   {
+    "numero": 13,
+    "titulo": "Regulación de los Incendios forestales en Aragón: Normativa nacional y autonómica. Los incendios forestales en la Ley de Montes de Aragón. Competencias estatales, autonómicas y de las entidades locales en materia de incendios forestales en Aragón. El Reglamento de incendios forestales y la Orden anual sobre prevención y lucha contra los incendios forestales en la Comunidad Autónoma de Aragón. El Plan Especial de Protección Civil de Emergencias por Incendios Forestales en Aragón (PROCINFO)."
+   },
+   {
+    "numero": 14,
+    "titulo": "Incendios forestales. Concepto, partes de un incendio y factores que influyen en la propagación del fuego. Prevención: objetivos y actuaciones; red de vigilancia en Aragón. Incendios forestales en Aragón: estadísticas y causalidad; índices de peligro y sistemas de alerta. La investigación de las causas de los incendios forestales. Extinción: medios humanos y materiales en Aragón y su organización. La seguridad del personal y las comunicaciones en los incendios forestales (sistema TETRA)."
+   },
+   {
+    "numero": 15,
+    "titulo": "Regulación legal de la Caza de Aragón. Normativa nacional y autonómica. Requisitos para el ejercicio de la caza; licencias, permisos y seguros. Clasificación de los terrenos a los efectos de la caza. La planificación cinegética. Vigilancia de la actividad cinegética. Infracciones y sanciones. Comisos y retirada de las armas. Reglamento de Armas: definiciones, clasificación de las armas reglamentadas, guías de pertenencia, licencias, cesiones, uso de armas para menores, disposiciones generales sobre tenencia y uso de armas, armas depositadas y decomisadas. Especies y piezas de caza. La protección y conservación de las especies de caza. La responsabilidad por daños."
+   },
+   {
+    "numero": 16,
+    "titulo": "Regulación legal de la pesca en Aragón. Normativa nacional y autonómica. Requisitos para el ejercicio de la pesca; licencias, permisos y autorizaciones. Artes, medios y cebos; periodos, días y horarios hábiles; distancias. Clasificación y señalización de las aguas a efectos de la pesca. Ordenación del aprovechamiento de especies de pesca. Infracciones y sanciones. Comisos. Especies piscícolas. Gestión de hábitats piscícolas. Protección de los ecosistemas acuáticos. Medidas específicas contra la dispersión de especies exóticas."
+   },
+   {
+    "numero": 17,
+    "titulo": "Regulación legal de las aguas continentales. Normativa nacional y autonómica. Competencias estatales y autonómicas. El dominio público hidráulico: bienes que lo integran, zonas de policía y de servidumbre y régimen de utilización. Infracciones y sanciones en materia de dominio público hidráulico. Normas sobre navegación en las Cuencas de Aragón."
+   },
+   {
+    "numero": 18,
+    "titulo": "La ley de protección de los derechos y el bienestar de los animales. La Ley 7/2023, de 28 de marzo. Disposiciones generales. Fomento de la protección animal. Tenencia y convivencia responsable con animales. Cría, comercio, identificación y trasmisión de animales de compañía. Empleo de animales en actividades culturales y festivas. Inspección y vigilancia. Régimen sancionador."
+   },
+   {
+    "numero": 19,
+    "titulo": "La Ley de Patrimonio Cultural Aragonés. La ley 3/1999, de 10 de marzo. Disposiciones generales. Bienes que integran el patrimonio cultural aragonés. Régimen general de protección y conservación del patrimonio cultural aragonés. Patrimonio paleontológico y arqueológico. Patrimonio etnográfico e industrial. Régimen sancionador."
+   },
+   {
+    "numero": 20,
+    "titulo": "Ley del Patrimonio Natural y Biodiversidad: estructura, objeto y principios. Conservación de la biodiversidad; garantías de conservación de especies autóctonas silvestres."
+   },
+   {
+    "numero": 21,
+    "titulo": "Ley de Espacios Naturales Protegidos de Aragón y Red Natura 2000 (I). Finalidad, concepto, categorías y requisitos de declaración. Planes de Ordenación de los Recursos Naturales. Planificación de los Espacios Naturales Protegidos (ENP): Plan Rector de Uso y Gestión (PRUG) y zonificación. Usos permitidos y prohibidos en los ENP. Infracciones y sanciones."
+   },
+   {
+    "numero": 22,
+    "titulo": "Ley de Espacios Naturales Protegidos de Aragón y Red Natura 2000 (II). Red de Espacios Naturales Protegidos: normas de declaración y de planificación, situación, valores naturales. Red Natura 2000. Áreas Naturales Singulares. Red Natural de Aragón. Parque Nacional de Ordesa y Monte Perdido: regulación legal y competencias administrativas."
+   },
+   {
+    "numero": 23,
+    "titulo": "Convenios internacionales ratificados por España sobre protección de especies y de hábitats y lucha del cambio climático. Directiva relativa a la conservación de hábitats naturales y flora y fauna silvestres. Directiva relativa a la conservación de las aves silvestres. Acuerdo de París. Agenda 2030. Convenio CITES."
+   },
+   {
+    "numero": 24,
+    "titulo": "Ley de Prevención y Protección Ambiental de Aragón. Evaluación ambiental en zonas ambientalmente sensibles. Evaluación de impacto ambiental de proyectos. Proyectos sometidos a evaluación de impacto ambiental. Infracciones y sanciones."
+   },
+   {
+    "numero": 25,
+    "titulo": "El medio natural y sus ecosistemas: estructura, composición y funcionamiento. La biodiversidad; concepto y cuantificación. Formaciones y asociaciones vegetales. La sucesión vegetal. Pisos bioclimáticos y vegetación potencial."
+   },
+   {
+    "numero": 26,
+    "titulo": "Geografía de la Comunidad Autónoma de Aragón: Geografía física: clima, geomorfología, orografía, hidrología, principales infraestructuras viarias de la comunidad. Geografía política: población, provincias, comarcas, principales núcleos de población. Geografía económica: principales recursos económicos de la Comunidad Autónoma de Aragón."
+   },
+   {
+    "numero": 27,
+    "titulo": "El medio natural en Aragón. Principales ecosistemas forestales en Aragón. Principales series de vegetación potencial y catenas de vegetación."
+   },
+   {
+    "numero": 28,
+    "titulo": "Especies arbóreas, de matorral y pretenses más representativas en Aragón. Distribución, características botánicas, ecológicas y culturales. Vegetación de ribera. Otras especies arbóreas de interés forestal. Matorrales climácicos y seriales. Pastizales aragoneses; clasificación, características y aprovechamientos. Características de las principales especies pratenses."
+   },
+   {
+    "numero": 29,
+    "titulo": "Principales especies amenazadas en Aragón. El Catálogo de Especies Amenazadas de Aragón: categorías; distribución, ecología, estado y problemática de conservación de las principales especies catalogadas; planes de recuperación, conservación y mejora. Listado de especies silvestres en régimen de protección especial. Principales especies exóticas invasoras en Aragón; daños y métodos de control."
+   },
+   {
+    "numero": 30,
+    "titulo": "Interpretación cartográfica: Cartografía, sistemas de proyección y GPS. Aplicación en la gestión del medio natural y trabajos de campo."
+   }
+  ]
+ }
+]
