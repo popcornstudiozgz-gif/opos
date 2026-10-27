@@ -71,4 +71,48 @@ export const DGA = {
   oep2026: { titulo: "Oferta de Empleo Público 2026 (Decreto 11/2026, BOA núm. 22, 3 de febrero de 2026)", url: "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1433527770303" },
   ficha: (codigo, clave) => ({ titulo: `Datos básicos de la convocatoria (código ${clave})`, url: `https://aplicaciones.aragon.es/oepc/oepc?dga_accion_app=mostrar_convocatoria&convocatoria_codigo=${codigo}` }),
   portal: { titulo: "Empleo público en Aragón: convocatorias", url: "https://www.aragon.es/-/empleo-publico-en-aragon-convocatorias" },
+  /**
+   * Ejercicios comunes a todas las clases de un mismo cuerpo, según las
+   * bases de diciembre de 2025 (BOA núm. 247, de 23-12-2025, base 6).
+   */
+  pruebas: {
+    /** Cuerpo de Funcionarios Técnicos (A2), bases 6.2-6.3 y 8.1-8.2. */
+    tecnicosA2: [
+      {
+        id: "primer-ejercicio", icono: "📝", numero: 1,
+        nombre: "Primer ejercicio (teórico)",
+        formato: "Test",
+        duracion: "2 horas",
+        opciones: "90 preguntas + 10 de reserva, 4 alternativas, 1 válida",
+        detalle: "Se califica de 0 a 90 puntos y hay que sacar al menos 45. Cada acierto suma 1 punto, cada error resta 0,3333 y las preguntas en blanco no penalizan.",
+      },
+      {
+        id: "segundo-ejercicio", icono: "📋", numero: 2,
+        nombre: "Segundo ejercicio (práctico)",
+        formato: "Preguntas cortas sobre supuestos + informe o dictamen",
+        duracion: "3 horas",
+        opciones: "20 preguntas cortas sobre un máximo de 3 supuestos",
+        detalle: "Primera parte (0-20 puntos, mínimo 10): preguntas cortas sobre los supuestos. Segunda parte (0-10 puntos, mínimo 5): un informe, dictamen o análisis. Se pueden usar libros y textos propios, y un ordenador o tableta sin conexión a internet.",
+      },
+    ],
+    /** Cuerpo Ejecutivo (C1), bases 6.1-6.3 y 8.1-8.2. */
+    ejecutivoC1: [
+      {
+        id: "primer-ejercicio", icono: "📝", numero: 1,
+        nombre: "Primer ejercicio (teórico)",
+        formato: "Test",
+        duracion: "2 horas",
+        opciones: "80 preguntas + 10 de reserva, 4 alternativas, 1 válida",
+        detalle: "Se califica de 0 a 80 puntos y hay que sacar al menos 40. Cada acierto suma 1 punto, cada error resta 0,3333 y las preguntas en blanco no penalizan.",
+      },
+      {
+        id: "segundo-ejercicio", icono: "📋", numero: 2,
+        nombre: "Segundo ejercicio (práctico)",
+        formato: "Test sobre supuestos prácticos",
+        duracion: "2 horas",
+        opciones: "40 preguntas + 5 de reserva, 4 alternativas, 1 válida",
+        detalle: "Se hace el mismo día que el primero y solo se corrige a quien lo haya superado. Se califica de 0 a 40 puntos y hay que sacar al menos 20, con la misma penalización por error.",
+      },
+    ],
+  },
 };

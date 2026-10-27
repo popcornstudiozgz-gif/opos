@@ -1062,6 +1062,16 @@ flashcards...) más adelante. **Sin formularios de captación de email.**
   `tecnico-medio-gestion-ayto-zaragoza` (OEP 2026 sin bases: estado
   `pendiente_publicacion`, temario y examen del proceso de 2025, patrón
   Fontanero); DPZ — `tag-dpz`, `administrativo-dpz`.
+- **Segunda tanda (7 fichas):** DGA — `trabajador-social-dga` (41; el tema
+  específico 36 viene **sin enunciado** en el programa oficial publicado y
+  así se muestra), `educador-social-dga` (30), `ejecutivo-informatica-dga`
+  (17), `tecnico-medio-gestion-empleo-dga` (12), `conductor-dga` (5; la
+  OEP 2026 trae 27 más); Ayto. CONV 3/2026 (C1) —
+  `tecnico-auxiliar-informatica-ayto-zaragoza` (10) y
+  `tecnico-auxiliar-emergencias-sanitarias-ayto-zaragoza` (7; estructura
+  propia fijada por la **rectificación** del BOPZ 196 de 27-08-2026, con
+  cuestionario de callejero y 5 pruebas físicas). Los ejercicios comunes
+  por cuerpo de la DGA están en `DGA.pruebas` de `sembrar-ficha.mjs`.
 - Fuentes DGA útiles: buscador oficial de convocatorias
   `aplicaciones.aragon.es/oepc` (por categoría: plazas, plazo, tasa); los
   programas de funcionarios están en PDF sueltos de aragon.es enlazados en

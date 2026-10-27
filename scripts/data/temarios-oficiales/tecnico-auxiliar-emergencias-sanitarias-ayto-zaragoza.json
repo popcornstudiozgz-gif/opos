@@ -1,0 +1,172 @@
+[
+ {
+  "bloque": "Parte primera",
+  "temas": [
+   {
+    "numero": 1,
+    "titulo": "La Constitución española: estructura y título preliminar. La Administración pública en la Constitución. Organización territorial del Estado en la Constitución: principios generales y Administración local."
+   },
+   {
+    "numero": 2,
+    "titulo": "La Ley para la igualdad efectiva de mujeres y hombres: el principio de igualdad y la tutela contra la discriminación. El Plan de Igualdad para empleadas y empleados del Ayuntamiento de Zaragoza."
+   },
+   {
+    "numero": 3,
+    "titulo": "El Estatuto de Autonomía de Aragón: título preliminar, aspectos básicos de la organización institucional de la Comunidad autónoma y clases de competencias."
+   },
+   {
+    "numero": 4,
+    "titulo": "La Ley del Procedimiento Administrativo Común de las Administraciones Públicas: disposiciones sobre el procedimiento administrativo común."
+   },
+   {
+    "numero": 5,
+    "titulo": "La Ley de régimen especial del municipio de Zaragoza como capital de Aragón: disposiciones generales, gobierno y administración del municipio de Zaragoza."
+   },
+   {
+    "numero": 6,
+    "titulo": "La Ley reguladora de las Haciendas Locales: enumeración de los recursos de las entidades locales y regulación de los impuestos municipales."
+   },
+   {
+    "numero": 7,
+    "titulo": "Los empleados públicos: clases. Derechos y deberes. Adquisición y pérdida de la relación de servicio, situaciones administrativas y régimen disciplinario."
+   },
+   {
+    "numero": 8,
+    "titulo": "Peculiaridades del régimen de los empleados públicos de las entidades locales. Estructura de la función pública local. La Ley de Prevención de Riesgos laborales: objeto y carácter de la norma, derecho a la protección frente a los riesgos laborales, servicios de prevención."
+   }
+  ]
+ },
+ {
+  "bloque": "Parte segunda",
+  "temas": [
+   {
+    "numero": 9,
+    "titulo": "La organización del cuerpo humano. Conceptos de salud y enfermedad."
+   },
+   {
+    "numero": 10,
+    "titulo": "El sistema nervioso y los sentidos."
+   },
+   {
+    "numero": 11,
+    "titulo": "El aparato locomotor."
+   },
+   {
+    "numero": 12,
+    "titulo": "El aparato respiratorio y el circulatorio."
+   },
+   {
+    "numero": 13,
+    "titulo": "El aparato digestivo y excretor."
+   },
+   {
+    "numero": 14,
+    "titulo": "El sistema endocrino."
+   },
+   {
+    "numero": 15,
+    "titulo": "La protección del cuerpo humano: las barreras exteriores y el sistema inmunitario."
+   },
+   {
+    "numero": 16,
+    "titulo": "Situaciones de Emergencia. Identificación de los riesgos. Seguridad activa y pasiva."
+   },
+   {
+    "numero": 17,
+    "titulo": "Actuación en el Accidente de Trafico. Evaluación del escenario, medidas de protección. Rescate y evacuación de la víctima."
+   },
+   {
+    "numero": 18,
+    "titulo": "Biomecánica del trauma. Inmovilización del cuello y la columna."
+   },
+   {
+    "numero": 19,
+    "titulo": "Movilización e inmovilización. Tipos y técnicas."
+   },
+   {
+    "numero": 20,
+    "titulo": "Fisiopatología y conducción en el transporte sanitario."
+   },
+   {
+    "numero": 21,
+    "titulo": "La transferencia del paciente."
+   },
+   {
+    "numero": 22,
+    "titulo": "Escenarios con riesgos especiales."
+   },
+   {
+    "numero": 23,
+    "titulo": "Soporte Vital Avanzado en adultos y pediatría."
+   },
+   {
+    "numero": 24,
+    "titulo": "Oxigenoterapia y administración de medicamentos."
+   },
+   {
+    "numero": 25,
+    "titulo": "Lesión por traumatismos."
+   },
+   {
+    "numero": 26,
+    "titulo": "Lesión por agentes físicos, químicos y biológicos."
+   },
+   {
+    "numero": 27,
+    "titulo": "Patología cardiovascular urgente."
+   },
+   {
+    "numero": 28,
+    "titulo": "Patología respiratoria urgente."
+   },
+   {
+    "numero": 29,
+    "titulo": "Patología neurológica y psiquiátrica."
+   },
+   {
+    "numero": 30,
+    "titulo": "Patología endocrina y digestiva."
+   },
+   {
+    "numero": 31,
+    "titulo": "Atención al parto inminente."
+   },
+   {
+    "numero": 32,
+    "titulo": "Los planes de emergencia. Estructura formal de los siniestros."
+   },
+   {
+    "numero": 33,
+    "titulo": "Análisis de riesgos, medios y recursos intervinientes en los Incidentes con Múltiples Victimas."
+   },
+   {
+    "numero": 34,
+    "titulo": "Medidas preventivas de intervención y de rehabilitación en un Incidente con Múltiples Victimas."
+   },
+   {
+    "numero": 35,
+    "titulo": "Activación e implantación del plan de emergencias."
+   },
+   {
+    "numero": 36,
+    "titulo": "Los dispositivos de riesgos previsibles."
+   },
+   {
+    "numero": 37,
+    "titulo": "Fase de diseño de un dispositivo de riesgos previsibles: estudios previos."
+   },
+   {
+    "numero": 38,
+    "titulo": "Fase de diseño de un dispositivo de riesgos previsibles: planificación operativa."
+   },
+   {
+    "numero": 39,
+    "titulo": "Las fases de ejecución y desactivación de un dispositivo de riesgos previsibles."
+   },
+   {
+    "numero": 40,
+    "titulo": "Plan específico de actuación del grupo de acción sanitario en Incidentes con Múltiples Víctimas en el medio extrahospitalario (PEASIMV) del Ayuntamiento de Zaragoza."
+   }
+  ]
+ }
+]

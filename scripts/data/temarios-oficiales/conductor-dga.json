@@ -1,0 +1,84 @@
+[
+ {
+  "bloque": "Materias comunes",
+  "temas": [
+   {
+    "numero": 1,
+    "titulo": "Constitución Española de 1978: Estructura y Título Preliminar; Derechos fundamentales; Título VIII: Organización territorial del Estado: Principios generales."
+   },
+   {
+    "numero": 2,
+    "titulo": "Estatuto de Autonomía de Aragón: Título Preliminar; Título II: Organización institucional de la Comunidad Autónoma de Aragón: Disposiciones generales; Título VI: Organización territorial: el municipio, la provincia y la comarca. Título IX: Reforma del Estatuto de Autonomía."
+   },
+   {
+    "numero": 3,
+    "titulo": "Ley 5/2021, de 29 de junio, de organización y régimen jurídico del sector publico autonómico de Aragón. Título III: Administración de la comunidad autónoma de Aragón Capítulo I: Organización; Capítulo II: Departamentos y su estructura interna; Capítulo III: Órganos territoriales."
+   },
+   {
+    "numero": 4,
+    "titulo": "Texto Refundido de la Ley del Estatuto Básico del Empleado Público, aprobado por Real Decreto Legislativo 5/2015, de 30 de octubre: Normativa aplicable al personal laboral; Personal al servicio de las Administraciones Públicas: Clases de personal. Especial referencia al Convenio colectivo para el Personal Laboral de la Administración de la Comunidad Autónoma de Aragón: Condiciones económicas; Jornada, descansos, permisos y vacaciones; Medidas contra la violencia de género; Situaciones del personal laboral; Traslados, ascensos e ingresos; Régimen disciplinario; Representación colectiva."
+   },
+   {
+    "numero": 5,
+    "titulo": "Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres: Título preliminar: Objeto y ámbito de la ley; título I: El principio de igualdad y la tutela contra la discriminación. Ley 7/2018, de 28 de junio, de igualdad de oportunidades entre mujeres y hombres en Aragón: Título II: Políticas Públicas para la igualdad de género. Ley 5/2019, de 21 de marzo, de derechos y garantías de las personas con discapacidad en Aragón: Medidas en materia de empleo público."
+   },
+   {
+    "numero": 6,
+    "titulo": "Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos Laborales: Capítulo I: objeto, ámbito de aplicación y definiciones; Capítulo II: Política en materia de prevención de riesgos para proteger la seguridad y la salud en el trabajo. Capítulo III: derechos y obligaciones."
+   }
+  ]
+ },
+ {
+  "bloque": "Materias específicas",
+  "temas": [
+   {
+    "numero": 1,
+    "titulo": "Normativa vigente en materia de tráfico, circulación de vehículos a motor, vías públicas, uso de las vías. Velocidad. Marcas viales. Maniobras. Prioridad de paso. La carga y las personas transportadas. Luces en los vehículos. Señales de Circulación: Tipos y características."
+   },
+   {
+    "numero": 2,
+    "titulo": "Reglamento General de Conductores: Permisos y licencias de conducción. Reglamento General de Vehículos: Permiso de circulación y documentación de vehículos. Estado físico del conductor. Inspección Técnica de Vehículos."
+   },
+   {
+    "numero": 3,
+    "titulo": "Seguridad Vial: Medidas de seguridad Vial y mejora de las condiciones de circulación que favorezcan la seguridad vial. La visibilidad. Conducción económica y la contaminación. La conducción nocturna. Accidentes de circulación: socorrismo. Primeros auxilios."
+   },
+   {
+    "numero": 4,
+    "titulo": "Motores térmicos. Tipos y diferencias. Elementos básicos de los motores de gasolina y diésel. Sistemas de alimentación, refrigeración, distribución y engrase. Motores de varios cilindros. Cilindrada, compresión y potencia. Reglajes. Averías en la compresión."
+   },
+   {
+    "numero": 5,
+    "titulo": "Sistemas de refrigeración y lubricación. Tipos, características y funcionamiento. Lubricación y engrase en los vehículos. Elementos que lo componen. Averías y sus consecuencias. Engrases de piezas móviles. Tipos de lubricantes: aceites, valvolinas, grasas, fluidos hidráulicos, líquidos de dirección y frenos. Empleo y cuidados. Líquidos de refrigeración: mantenimiento, niveles y conservación."
+   },
+   {
+    "numero": 6,
+    "titulo": "El motor: carburación: arranque en frío. Colector de admisión. Doble carburador (dual). Carburadores escalonados. Carburadores anticontaminantes. Carburadores cuádruples. Cárter. Calefacción de la mezcla. Compresores. Filtros de aire y gasolina. Alimentación del carburador. Averías en la carburación. Inyección de gasolina. Inyección eléctrica."
+   },
+   {
+    "numero": 7,
+    "titulo": "Equipo eléctrico del automóvil: generadores, semiconductores, limitadores y regulado-res, baterías y sistema de arranque, alumbrado y aparatos de medida y esquema general eléctrico. Averías más comunes y consecuencias posibles. Conocimientos básicos de funcionamiento."
+   },
+   {
+    "numero": 8,
+    "titulo": "Transmisiones: tipos y elementos. Embragues: tipos, funcionamiento y averías. Cajas de cambio: tipos, funcionamiento y averías. Árboles de transmisión y rótulas. Conocimientos de grupo cónico, palieres y mandos finales. Tracción y propulsión y sus averías más frecuentes. Transmisiones hidrostáticas e hidrodinámicas. Sistema hidráulico."
+   },
+   {
+    "numero": 9,
+    "titulo": "Sistemas de dirección. Descripción, características, funcionamiento y tipos. Cuidados. Averías más comunes y consecuencias posibles."
+   },
+   {
+    "numero": 10,
+    "titulo": "Frenos. Sistemas de frenados. Sistema convencional. Sistema neumático. Sistemas mixtos (hidroneumáticos). Ralentizados eléctricos e hidrodinámicos. Ruedas y neumáticos en los distintos vehículos: características, medidas, estructura, uso y conservación."
+   },
+   {
+    "numero": 11,
+    "titulo": "Suspensión: Amortiguadores. Estabilizadores. Averías en la suspensión. Ruedas y Neumáticos: Neumáticos. Estabilidad. Duración y cuidados. Averías en los neumáticos. Tablas de carga y presiones."
+   },
+   {
+    "numero": 12,
+    "titulo": "Maquinaria pesada. Componentes, utilización y mantenimiento. Maquinaria para obras de movimientos de tierras: buldózeres, moto-niveladoras, compactadores, etc. Maquinaria para obras de firmes para carreteras: camiones con basculante, palas cargadoras frontales y retroexcavadoras, esparcidoras de áridos, cisternas de riego, etc."
+   }
+  ]
+ }
+]

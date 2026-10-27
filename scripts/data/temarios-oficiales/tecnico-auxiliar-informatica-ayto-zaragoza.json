@@ -1,0 +1,172 @@
+[
+ {
+  "bloque": "Parte primera",
+  "temas": [
+   {
+    "numero": 1,
+    "titulo": "La Constitución española: estructura y título preliminar. La Administración pública en la Constitución. Organización territorial del Estado en la Constitución: principios generales y Administración local."
+   },
+   {
+    "numero": 2,
+    "titulo": "La Ley para la igualdad efectiva de mujeres y hombres: el principio de igualdad y la tutela contra la discriminación. El Plan de Igualdad para empleadas y empleados del Ayuntamiento de Zaragoza."
+   },
+   {
+    "numero": 3,
+    "titulo": "El Estatuto de Autonomía de Aragón: título preliminar, aspectos básicos de la organización institucional de la Comunidad autónoma y clases de competencias."
+   },
+   {
+    "numero": 4,
+    "titulo": "La Ley del Procedimiento Administrativo Común de las Administraciones Públicas: disposiciones sobre el procedimiento administrativo común."
+   },
+   {
+    "numero": 5,
+    "titulo": "La Ley de régimen especial del municipio de Zaragoza como capital de Aragón: disposiciones generales, gobierno y administración del municipio de Zaragoza."
+   },
+   {
+    "numero": 6,
+    "titulo": "La Ley reguladora de las Haciendas Locales: enumeración de los recursos de las entidades locales y regulación de los impuestos municipales."
+   },
+   {
+    "numero": 7,
+    "titulo": "Los empleados públicos: clases. Derechos y deberes. Adquisición y pérdida de la relación de servicio, situaciones administrativas y régimen disciplinario."
+   },
+   {
+    "numero": 8,
+    "titulo": "Peculiaridades del régimen de los empleados públicos de las entidades locales. Estructura de la función pública local. La Ley de Prevención de Riesgos laborales: objeto y carácter de la norma, derecho a la protección frente a los riesgos laborales, servicios de prevención."
+   }
+  ]
+ },
+ {
+  "bloque": "Parte segunda",
+  "temas": [
+   {
+    "numero": 9,
+    "titulo": "Ordenadores Personales. Arquitectura. Procesadores. Tipos y características. Instalación y configuración de componentes hardware. BIOS y UEFI. Dispositivos de almacenamiento, memorias, tarjetas gráficas, tarjetas de red, Escáneres, Impresión. Puertos y conectores."
+   },
+   {
+    "numero": 10,
+    "titulo": "Redes de Área Local. Conceptos. Topologías. Elementos. Router, hub, switch y cortafuegos: configuración, características y diferencias. Puntos de acceso inalámbricos wifi."
+   },
+   {
+    "numero": 11,
+    "titulo": "Sistemas Operativos Windows. Conceptos Generales. Instalación en los puestos de trabajo. Dominios y Grupos de trabajo. Administración: usuarios, unidades, archivos y directorios. sistema de impresión. Registro de Windows. Directivas y políticas. Acceso remoto."
+   },
+   {
+    "numero": 12,
+    "titulo": "Sistemas operativos GNU/Linux. Conceptos de software libre. Distribuciones. Acceso al sistema. Archivos y directorios. El Shell. Superusuario. Herramientas básicas de administración. sistema de impresión. Entornos de Escritorio. Acceso remoto. Emulación del S.O. Windows sobre Linux"
+   },
+   {
+    "numero": 13,
+    "titulo": "Ofimática. Paquetes integrados: características y ventajas. Procesadores de textos. Hojas de cálculo. Bases de datos. Presentaciones y diagramas. Formatos abiertos. Trabajo concurrente en documentos ofimáticos."
+   },
+   {
+    "numero": 14,
+    "titulo": "Internet. Navegadores y sus protocolos, plugins y extensiones. Configuración de conexión a red. Proxys. Instalación y gestión de certificados digitales. Correo electrónico: protocolos (SMTP, POP, IMAP, ICAL, LDAP). Mensajería: protocolos (XMPP, SIMPLE)."
+   },
+   {
+    "numero": 15,
+    "titulo": "Redes de Comunicaciones. Protocolo TCP/IP (v4, v6). Direccionamiento, enrutamiento, resolución de nombres, traducción de direcciones. Protocolos HTTP, HTTPS, FTP, telnet, ssh, NCP, CIFS, NFS. Herramientas para el análisis de conexiones de red de un equipo. Captura y análisis del tráfico de red desde un equipo."
+   },
+   {
+    "numero": 16,
+    "titulo": "Servicios de Directorio. Conceptos, estándar X500.- Protocolo LDAP. eDirectory de Novell. Directorio Activo. Radius. Herramientas de gestión."
+   },
+   {
+    "numero": 17,
+    "titulo": "Dispositivos móviles. Tipos de dispositivos. Características. Conectividad inalámbrica Wifi y 3G/4G/5G. Acceso a servicios de red corporativos. sistemas operativos Android e iOS. Herramientas de gestión."
+   },
+   {
+    "numero": 18,
+    "titulo": "Centro de proceso de datos. sistemas de soporte de CPD: eléctricos, clima, incendios. Seguridad lógica, seguridad física."
+   },
+   {
+    "numero": 19,
+    "titulo": "Equipos de centro de proceso de datos. Servidores: características memoria, cpu, almacenamiento interno. Entornos BLADE. sistemas de almacenamiento centralizado (SAN y NAS)."
+   },
+   {
+    "numero": 20,
+    "titulo": "Virtualización de sistemas y de centros de datos. Hipervisores. Entornos VMWARE: gestión de recursos, gestión de máquinas virtuales, gestión del almacenamiento. Virtualización de puestos de trabajo. Virtualización de aplicaciones. Servicios de Cloud."
+   },
+   {
+    "numero": 21,
+    "titulo": "Servidores WEB. Publicación HTTP y HTTPS. Servidor web Apache: configuraciones, procesos y módulos. Servidores de aplicaciones Java EE. Acceso a Base de Datos. Gestión de Aplicaciones."
+   },
+   {
+    "numero": 22,
+    "titulo": "Bases de Datos Relacionales. Conceptos, organización y gestión. sistemas de gestión de Base de datos. Concepto. Funciones. sistemas de Gestión de base de datos Oracle: tipos de objetos de una BBDD Oracle."
+   },
+   {
+    "numero": 23,
+    "titulo": "Otros sistemas de gestión de información. Conceptos básicos de: Business Intelligence, Big Data, sistemas de gestión documental, sistemas Gis."
+   },
+   {
+    "numero": 24,
+    "titulo": "Modelo de entidad - relación: entidades, atributos, relaciones. Diagramas entidadrelación. Proceso de normalización. El Modelo relacional. Terminología. Elementos: estructuras de datos, relaciones, restricciones y álgebra relacional."
+   },
+   {
+    "numero": 25,
+    "titulo": "Lenguajes de interrogación de bases de datos SQL. Lenguaje de definición, manipulación y control de da - tos. Lenguaje PL/SQL. Ejecución de código en bases de datos Oracle."
+   },
+   {
+    "numero": 26,
+    "titulo": "El ciclo de vida de las aplicaciones informáticas. Evolución. El modelo en cascada. El modelo en espiral. Metodologías de desarrollo de sistemas de información. La metodología Métrica."
+   },
+   {
+    "numero": 27,
+    "titulo": "Arquitecturas en el desarrollo de aplicaciones. Modelo de 2 capas. Modelo de 3 capas. Componentes y operación."
+   },
+   {
+    "numero": 28,
+    "titulo": "Conceptos básicos de metodología de la programación: Análisis y Diseño, estructurado y orientado a objetos. Diagramas empleados en el análisis, diagramas empleados en el diseño, El lenguaje unificado de datos, UML."
+   },
+   {
+    "numero": 29,
+    "titulo": "Conceptos básicos de metodología de la programación: Verificación y Validación del sistema: técnicas de pruebas. Mantenimiento y control de versiones de sistemas de información. Gestión de la configuración."
+   },
+   {
+    "numero": 30,
+    "titulo": "Lenguajes de programación: estructurados, funcionales, orientados a objetos."
+   },
+   {
+    "numero": 31,
+    "titulo": "Programación orientada a objetos. Elementos y componentes software: objetos, clases, herencia, métodos. Patrones de diseño."
+   },
+   {
+    "numero": 32,
+    "titulo": "Lenguaje de programación Java. Características, elementos y funciones. JVM y JRE. Versiones. Java EE: tecnologías RMI, EJB, JDBC. Arquitecturas de servicios web (WS): SOAP, Axis, Cxf. Servicios REST. Estándares y seguridad en Servicios Web. Arquitectura SOA."
+   },
+   {
+    "numero": 33,
+    "titulo": "Aplicaciones en entorno Web. Tecnologías de programación. Lenguajes de descripción de datos HTML y XML. HTML 5.- JavaScript, Ajax, hojas de estilo. Accesibilidad y usabilidad. Entorno Web Java: JSP/servlets/JSF/Struts/Spring."
+   },
+   {
+    "numero": 34,
+    "titulo": "Programación de aplicaciones en entornos móviles (IOS, Android). Entornos y tecnología de programación para móviles."
+   },
+   {
+    "numero": 35,
+    "titulo": "Herramientas CASE. Entornos de desarrollo integrado IDE. Repositorios: estructura y actualización. Generación de código y documentación. Programas para control de versiones. Gestión de la configuración."
+   },
+   {
+    "numero": 36,
+    "titulo": "Administración Electrónica y Firma Electrónica. Conceptos y Definición. Métodos de Firma electrónica. Plataforma @FIRMA."
+   },
+   {
+    "numero": 37,
+    "titulo": "La legislación en materia de sociedad de la información, la Administración Electrónica y la Transparencia en Aragón, España y Europa. El acceso electrónico a las Administraciones Públicas. Leyes 39/2015 y 40/2015.- Esquema Nacional de Interoperabilidad y las Normas Técnicas de Interoperabilidad."
+   },
+   {
+    "numero": 38,
+    "titulo": "Seguridad de los sistemas de información. Seguridad física. Seguridad lógica. Herramientas para detección de amenazas y vulnerabilidades. Herramientas para la gestión de incidencias. Seguridad en el puesto del usuario. Herramientas para la protección frente a todo tipo de software malicioso (malware): antivirus, antispam, otros."
+   },
+   {
+    "numero": 39,
+    "titulo": "Normativa en materia de seguridad. Esquema Nacional de Seguridad. Ámbito. Conceptos básicos. Apartados. Política de seguridad. Gestión de Riesgos. Medidas de seguridad."
+   },
+   {
+    "numero": 40,
+    "titulo": "La protección de datos personales. Régimen jurídico. Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales. Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo, de 27 de abril de 2016, relativo a la protección de las personas físicas en lo que respecta al tratamiento de datos personales y a la libre circulación de estos datos. La Agencia de Protección de Datos: estructura, competencias y funciones."
+   }
+  ]
+ }
+]
