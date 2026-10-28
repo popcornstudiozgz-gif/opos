@@ -1,0 +1,372 @@
+[
+ {
+  "bloque": "Materias comunes",
+  "temas": [
+   {
+    "numero": 1,
+    "titulo": "La Constitución Española de 1978: estructura y contenido. Valores superiores y principios inspiradores. El Estado Social y Democrático de Derecho. La Corona. Las Cortes Generales. El Poder Judicial."
+   },
+   {
+    "numero": 2,
+    "titulo": "Derechos y libertades. Deberes de los ciudadanos. Principios rectores de la política social y económica. Garantías. Defensor del Pueblo."
+   },
+   {
+    "numero": 3,
+    "titulo": "La organización territorial del Estado. El Gobierno de la Nación y la Administración General del Estado. Las Comunidades Autónomas. La Administración Local. Las relaciones entre los entes territoriales. Especial referencia a la comarcalización de Aragón."
+   },
+   {
+    "numero": 4,
+    "titulo": "El Estatuto de Autonomía de Aragón: naturaleza y contenido. Competencias de la Comunidad Autónoma de Aragón. Organización institucional de la Comunidad Autónoma de Aragón."
+   },
+   {
+    "numero": 5,
+    "titulo": "El Presidente y el Gobierno de Aragón. La Administración Pública de la Comunidad Autónoma de Aragón. Los órganos administrativos: su régimen y el ejercicio de las competencias. Las Cortes y el Justicia de Aragón."
+   },
+   {
+    "numero": 6,
+    "titulo": "El procedimiento administrativo: concepto, naturaleza y fines. Ley del Procedimiento Administrativo Común de las Administraciones Públicas: ámbito de aplicación y principios informadores. Los interesados: capacidad y representación. Derechos de los ciudadanos en sus relaciones con las Administraciones Públicas. La transparencia y el acceso a la información pública."
+   },
+   {
+    "numero": 7,
+    "titulo": "El acto administrativo: concepto, elementos y clases. Requisitos y eficacia de los actos administrativos. Nulidad y anulabilidad. El silencio administrativo. Procedimientos de ejecución de los actos administrativos."
+   },
+   {
+    "numero": 8,
+    "titulo": "Fases del procedimiento administrativo: iniciación, ordenación, instrucción y finalización. Revisión de los actos administrativos. El procedimiento sancionador. La responsabilidad patrimonial de las Administraciones Públicas. La responsabilidad de las autoridades y personal a su servicio."
+   },
+   {
+    "numero": 9,
+    "titulo": "El Estatuto Básico del Empleado Público. El personal funcionario de la Administración de la Comunidad Autónoma de Aragón: clases de empleados públicos, selección, provisión y carrera administrativa. Personal laboral. Integridad y ética pública. Código de Conducta del personal empleado público. Régimen disciplinario y normativa penal relativa a la función pública."
+   },
+   {
+    "numero": 10,
+    "titulo": "Protección de datos personales. Marco normativo básico en materia de Prevención de Riesgos Laborales. Derechos y obligaciones. Principios de la acción preventiva. Igualdad de oportunidades entre mujeres y hombres en Aragón. La identidad y expresión de género e igualdad social y no discriminación en la Comunidad Autónoma de Aragón."
+   },
+   {
+    "numero": 11,
+    "titulo": "La financiación de las Comunidades Autónomas. Los Fondos de la Unión Europea. El Presupuesto de la Comunidad Autónoma de Aragón. La Ley de Hacienda de la Comunidad Autónoma de Aragón y Leyes de Presupuestos."
+   },
+   {
+    "numero": 12,
+    "titulo": "El Patrimonio de las Administraciones Públicas. El Patrimonio de la Comunidad Autónoma de Aragón: bienes que lo integran y régimen jurídico."
+   },
+   {
+    "numero": 13,
+    "titulo": "Los contratos del Sector Público: concepto y clases. Los contratos de las Administraciones Públicas: preparación, adjudicación y formalización, ejecución y modificación. Garantías y extinción."
+   },
+   {
+    "numero": 14,
+    "titulo": "La potestad expropiatoria: su justificación. Los sujetos, el objeto y la causa. El procedimiento expropiatorio en general. La indemnización expropiatoria o justo precio."
+   },
+   {
+    "numero": 15,
+    "titulo": "La Unión Europea: objetivos y fundamentos. Los Tratados originarios y modificativos. El Tratado de Lisboa: el Tratado de la Unión y el Tratado de Funcionamiento de la Unión Europea. Las Instituciones de la Unión Europea. Las fuentes del Derecho de la Unión Europea. Las Comunidades Autónomas y el Derecho Comunitario."
+   }
+  ]
+ },
+ {
+  "bloque": "Materias específicas",
+  "temas": [
+   {
+    "numero": 1,
+    "titulo": "El sector de las telecomunicaciones. Evolución normativa sobre las telecomunicaciones. Regulación actual y normas principales del sector en España. Tendencias en el proceso de regulación."
+   },
+   {
+    "numero": 2,
+    "titulo": "Las telecomunicaciones en la UE. Evolución del marco regulatorio de las telecomunicaciones en la UE. Los procesos de liberalización, armonización y normalización. Principales Directivas Marco."
+   },
+   {
+    "numero": 3,
+    "titulo": "La Administración de las telecomunicaciones. Distribución de competencias entre la Administración General del Estado, las Comunidades Autónomas y la Administración Local. Principales instituciones públicas aragonesas relacionadas con el sector audiovisual y de las telecomunicaciones."
+   },
+   {
+    "numero": 4,
+    "titulo": "Autoridades Regulatorias Europeas y Nacionales en telecomunicaciones. La Comisión Nacional de los Mercados y Competencias (CNMC) en el ámbito de las telecomunicaciones. Distribución de competencias y principales organismos que afectan a la ejecución de despliegues de redes y la prestación de servicios."
+   },
+   {
+    "numero": 5,
+    "titulo": "Normalización técnica. Instituciones y organizaciones internacionales relacionadas con la normalización y regulación de las telecomunicaciones y las tecnologías de la información: ITU, ISO-IEC, ETSI, IEEE."
+   },
+   {
+    "numero": 6,
+    "titulo": "Organismos de gobierno de Internet. Normas de facto. Organismos reguladores de asignación de direcciones IP y dominios."
+   },
+   {
+    "numero": 7,
+    "titulo": "La Ley General de Telecomunicaciones. Estructura. Objeto y principios generales. Normativa de desarrollo."
+   },
+   {
+    "numero": 8,
+    "titulo": "Obligaciones de servicio público y derechos y obligaciones de carácter público en la explotación de redes y en la prestación de servicios de comunicaciones electrónicas. Regulación del servicio universal. Los derechos de los usuarios en relación con las redes y los servicios de comunicaciones electrónicas. La protección de la intimidad en el sector de las comunicaciones electrónicas y la protección de los consumidores."
+   },
+   {
+    "numero": 9,
+    "titulo": "El dominio público radioeléctrico: concepto, marco normativo, administración, planificación, control y protección. El Cuadro Nacional de Atribución de Frecuencias (CNAF). Mercado secundario del espectro."
+   },
+   {
+    "numero": 10,
+    "titulo": "Los títulos habilitantes para el establecimiento y explotación de redes y para la prestación de servicios. Registro de operadores. El Reglamento sobre mercados de comunicaciones electrónicas, acceso a las redes y numeración. Numeración. El Plan Nacional de Numeración para los servicios de telecomunicaciones."
+   },
+   {
+    "numero": 11,
+    "titulo": "Emisiones radioeléctricas y salud pública. Inspección de estaciones radioeléctricas, procedimientos y certificación. Régimen sancionador. Reglamentación."
+   },
+   {
+    "numero": 12,
+    "titulo": "La prestación del servicio de comunicación audiovisual televisivo: régimen jurídico y títulos habilitantes. El Plan Técnico Nacional de la TDT: bandas, canales, servicios, obligaciones de los operadores. Reordenación del espectro y futuro de la banda TDT. La prestación del servicio TDT en Aragón. Licencias autonómicas y locales. Actuaciones para el desarrollo del servicio. Nuevas modalidades: Televisión Digital en movilidad, IPTV, OTT, servicios de intercambio de vídeos y plataformas de Straming."
+   },
+   {
+    "numero": 13,
+    "titulo": "La prestación del servicio de comunicación audiovisual radiofónico y sonoro a petición: régimen jurídico y emisiones en Cadena. Planes Técnicos Nacionales de radiodifusión sonora en ondas medias (hectométricas), ondas métricas con modulación de frecuencia y digital terrenal: bandas, canales y servicios. Evolución y tendencias del servicio de comunicación audiovisual radiofónico."
+   },
+   {
+    "numero": 14,
+    "titulo": "La Corporación Aragonesa de Radio y Televisión: naturaleza jurídica, objetivos, estructura, funciones, inicio de emisiones y evolución. Influencia del servicio público audiovisual en el desarrollo autonómico. El Registro de Prestadores de Servicios de Comunicación Audiovisual en Aragón."
+   },
+   {
+    "numero": 15,
+    "titulo": "Fundamentos de telecomunicaciones digitales. Teoría de la información. Cuantificación de la información. Capacidad de canal. Codificación y compresión de datos. Detección y corrección de errores. Teoría de colas. Modelos de tráfico. Dimensionamiento de redes."
+   },
+   {
+    "numero": 16,
+    "titulo": "Campos electromagnéticos y homologación de equipos de telecomunicación. Conceptos básicos de compatibilidad electromagnética. Regulación comunitaria y su transposición al derecho español."
+   },
+   {
+    "numero": 17,
+    "titulo": "Radiocomunicaciones. Conceptos fundamentales. Características de la propagación radioeléctrica. Fundamentos técnicos de los sistemas de radiocomunicaciones. Servicios de radiocomunicaciones. Estaciones radioeléctricas y modos de explotación. Diseño de redes de radiocomunicaciones: ubicación, dimensionamiento y elementos clave. Normativa, licencias y permisos de las redes de radiocomunicaciones."
+   },
+   {
+    "numero": 18,
+    "titulo": "Fundamentos técnicos de los servicios de radiodifusión sonora analógica. Características y tipos de servicios soportados. Elementos de red. Fundamentos técnicos de los servicios de radiodifusión sonora digital. Descripción general del estándar de radiodifusión digital (DAB). Características y tipos de servicios soportados."
+   },
+   {
+    "numero": 19,
+    "titulo": "Descripción del estándar DVB-T y T2. Solución técnica elegida en España. Descripción de los formatos digitales SD, HD y UHD. Relación entre formatos y estándar de transmisión. Del centro de producción audiovisual al ciudadano: sistemas de transmisión y distribución de TDT. Elementos de red. Redes SFN y MFN."
+   },
+   {
+    "numero": 20,
+    "titulo": "Radiodifusión por satélite. Regulación y parámetros técnicos del servicio. Sistemas de televisión digital por satélite. Descripción general de los estándares DVB-S y DVB-S2. Tipos de servicios proporcionados. Elementos de red y arquitectura básica."
+   },
+   {
+    "numero": 21,
+    "titulo": "Comunicaciones por satélite. Fundamentos técnicos. Tecnologías. Componentes de las comunicaciones por satélite: subsistemas integrados en el segmento espacial y terrenal (equipamiento de operador y equipamiento de usuario). Parámetros de diseño clave: tipo de órbita, latencia, presupuesto de potencia, ruido térmico, efecto Doppler. Concesiones y licencias."
+   },
+   {
+    "numero": 22,
+    "titulo": "Servicios de comunicaciones por satélite: fundamentos técnicos. Redes VSAT. Sistemas de radiodifusión y televisión por satélite. Telefonía Satelital. Tendencias: satélites de alta capacidad (HTS), constelaciones masivas, impacto de sistemas basados en satélites LEO y servicios globales NTN 5G. Aplicación práctica en las Administraciones Públicas."
+   },
+   {
+    "numero": 23,
+    "titulo": "Sistemas de radiolocalización y radionavegación. Sistemas de navegación por satélite GNSS: arquitectura y principales sistemas (GPS, GLONASS, Galileo, BeiDou QZSS e IRNSS. Funcionalidades avanzadas: navegación de precisión, geolocalización en tiempo real, multi- GNSS y GPS diferencial. Aplicaciones en gestión de flotas, transporte inteligente, agricultura de precisión y sistemas de emergencia y defensa."
+   },
+   {
+    "numero": 24,
+    "titulo": "Comunicaciones móviles. Características generales de los sistemas de comunicaciones móviles. Fundamentos técnicos. Arquitectura celular. Tipos de redes y servicios móviles. Componentes de las redes de comunicaciones móviles: estación base, repetidor, red de transporte, core de red y equipo de usuario. Criterios de diseño y planificación: balance de potencia, bandas de frecuencia, reutilización frecuencial, interferencia, capacidad de tráfico, cobertura y sus métodos de cálculo."
+   },
+   {
+    "numero": 25,
+    "titulo": "Comunicaciones móviles de nueva generación: evolución desde 2G a 5G, características generales y fundamentos técnicos (multiplexación, gestión del espectro, MIMO, redes Aplicación práctica en las Administraciones Públicas: redes privadas 4G/5G en bandas dedicadas para usos industriales y de emergencia y redes híbridas público-privadas. Nuevas tendencias."
+   },
+   {
+    "numero": 26,
+    "titulo": "Redes de comunicaciones móviles de misión crítica. Concepto, requisitos esenciales y tecnologías aplicadas: TETRA, DMR y LTE/5G para redes privadas de misión crítica (PPDR). Diseño de la red: arquitectura, bandas de frecuencia, Plan de numeración y gestión de usuarios. Servicios y funcionalidades: tipos de llamadas, voz, datos, geolocalización, multimedia y MCX según 3GPP. Elementos y despliegue: Centros de coordinación y control de las comunicaciones, celdas tácticas vehiculares para extensión de cobertura de red e integración con redes LTE privadas y redes híbridas público-privadas."
+   },
+   {
+    "numero": 27,
+    "titulo": "Redes de acceso. Fundamentos técnicos de las redes de acceso de banda ancha. Transición desde las redes de acceso basadas en cobre y tecnologías xDSL a redes pasivas ópticas FTTx. Redes de acceso 4G y 5G. Redes de acceso inalámbricas en frecuencias de uso libre. Tendencias y retos."
+   },
+   {
+    "numero": 28,
+    "titulo": "Redes ópticas. Fundamentos técnicos. Tecnologías. Componentes de las redes ópticas: tipos de emisores y receptores, fibras monomodo y multimodo, amplificadores, multiplexores y demultiplexores. Parámetros de diseño clave: dispersión, atenuación, presupuesto de potencia y capacidad de transporte. Redes ópticas de transporte: xWDM. Mallas ópticas de transporte. Redes ópticas pasivas: G-PON, XG-PON, NG-PON2. Uso de redes ópticas pasivas en redes de área local."
+   },
+   {
+    "numero": 29,
+    "titulo": "Normativa reguladora, ofertas reguladas y mercado de las redes de acceso de banda ancha. Aplicación práctica en las Administraciones Públicas: impacto del despliegue de las redes de acceso en áreas rurales y planes de ayudas al despliegue de redes de acceso de banda ancha. Extensión de cobertura de banda ancha a zonas rurales. Tecnologías. Proyectos. ConectAragón."
+   },
+   {
+    "numero": 30,
+    "titulo": "Redes de transporte por radioenlace. Fundamentos técnicos. Arquitectura y componentes de los sistemas de radioenlace: IDU, ODU. Plan de frecuencias. Parámetros de diseño clave: calidad y disponibilidad objetivo, atenuación en espacio libre, propagación, desvanecimiento, técnicas de diversidad y protección, presupuesto de potencia, ruido e interferencias. Normativa y regulación. Capacidad de transporte. Bandas de frecuencia disponibles."
+   },
+   {
+    "numero": 31,
+    "titulo": "Redes de área metropolitana (MAN) y redes de área amplia (WAN). Modos de acceso al medio, topologías y arquitectura de red. Tecnologías, infraestructuras y equipamiento. Protocolos y estándares. ATM, Gigabit Ethernet, MPLS, QinQ, etc. Redes corporativas."
+   },
+   {
+    "numero": 32,
+    "titulo": "Redes de área local (LAN). Arquitectura y tipologías. Equipos y funciones. Administración y seguridad: gestión de usuarios y redes virtuales (VLAN), protocolos de configuración y seguridad (802.1X, NAC, etc.). Encaminamiento y protocolos: RIP, OSPF, IS-IS y BGP."
+   },
+   {
+    "numero": 33,
+    "titulo": "Redes inalámbricas. Redes de área local inalámbricas (WLAN). Modo de acceso al medio. Topologías, infraestructuras y componentes de red. Protocolos. Estándares. Características de las bandas WLAN. Seguridad en redes inalámbricas. Evolución y tendencias. WPAN: Tecnologías inalámbricas a corta y muy corta distancia. NFC. Sistemas de identificación por radio frecuencia: RFID. Alianza Wi-Fi. Bluetooth y Zigbee. Sistemas DECT. Estándares y tendencias. Normativa reguladora."
+   },
+   {
+    "numero": 34,
+    "titulo": "Las infraestructuras comunes en los edificios para el acceso a los servicios de telecomunicación. Reglamentación y normas técnicas. Ejecución y estructura del proyecto técnico. Cableado estructurado: Estándares, tecnología, equipamientos, diseño, instalación y certificación. Nuevas tendencias de cableados de fibra óptica."
+   },
+   {
+    "numero": 35,
+    "titulo": "Infraestructuras para redes de telecomunicaciones (urbanas e interurbanas): Canalizaciones subterráneas: arquetas, registros, torpedos y postes. Líneas aéreas y despliegues por fachada. Técnicas de tendido de fibra óptica. Diseño de la red: dimensionamiento, materiales y tipo de fibra óptica. Aspectos clave del proyecto: canalización, etiquetado, repartidores, armarios de interconexión. Normativa, estándares y permisos de construcción. Consideraciones técnicas, socioeconómicas y operativas."
+   },
+   {
+    "numero": 36,
+    "titulo": "Gestión y explotación de infraestructuras de telecomunicaciones. Paso a producción de las infraestructuras. Gestión avanzada de la información: modelo BIM, sistemas de información geográfica (GIS), CAD. Monitorización y gestión de infraestructuras y elementos activos: plataformas de gestión unificada OSS y protocolos de gestión (SNMP, NETCONF/YANG). Desarrollo de APIs. Planes de mantenimiento y riesgos. Modificaciones estructurales y funcionales."
+   },
+   {
+    "numero": 37,
+    "titulo": "Modelo de referencia y arquitecturas de red: OSI y TCP/IP. Modelo de interconexión de sistemas abiertos (OSI): estructura, funciones, protocolos y estándares internacionales. Arquitectura TCP/IP: estructura, Protocolos, Direccionamiento IP, Sistema de nombres de dominio y su gestión en España, Servicios y migración y coexistencia de IPv4 e IPv6. Comparación OSI vs TCP/IP y aplicación práctica en redes actuales."
+   },
+   {
+    "numero": 38,
+    "titulo": "Redes privadas virtuales. Tunelización y Protocolos: SSL, IPSec, GRE. Tipos de VPN: L2VPN y L3VPN, VPLS y EVPN. Redes definidas por Software (SDN). Casos de uso, seguridad y tendencias."
+   },
+   {
+    "numero": 39,
+    "titulo": "La red telefónica básica (RTB) o conmutada (RTC), basada en tecnología de transmisión analógica. Características y estructuras de la red telefónica. Conmutación y transmisión. Señalización de usuario y señalización de red. El servicio telefónico básico y los servicios suplementarios. Evolución histórica y normativa. Proyecto FARO."
+   },
+   {
+    "numero": 40,
+    "titulo": "La Red Digital de Servicios Integrados (RDSI). Digitalización del bucle de abonado. Componentes y tipos de acceso. Servicios portadores, teleservicios y servicios suplementarios. Implantación de la RDSI, aplicación y tendencias. Arquitectura de una red inteligente: componentes, servicios y funcionalidades."
+   },
+   {
+    "numero": 41,
+    "titulo": "Redes de nueva generación (NGN), evolución de la actual infraestructura de redes de telecomunicaciones y acceso telefónico. Redes de transporte basadas en protocolos IP y Ethernet. Convergencia tecnológica de los servicios multimedia. Seguridad en redes VoIP. Session Border Controler (SBC): tipos y funciones. Enlaces troncales (Trunk SIP). Unificación de entornos y acceso a las redes públicas tradicionales y de nueva generación (NGN)."
+   },
+   {
+    "numero": 42,
+    "titulo": "Servicios de telefonía corporativa. Sistemas de Centralita, VoIP y ToIP. Terminales, arquitecturas y equipamiento. Protocolos: SIP, H.323, RTP, G.711, G.729, etc. Sistemas opensource Asterisk."
+   },
+   {
+    "numero": 43,
+    "titulo": "Servicios avanzados de telefonía y centralita. Centros de atención al cliente Call-Centers, ACD, el IVR y la integración CTI: componentes y funcionalidades. Sistemas de grabación de llamadas."
+   },
+   {
+    "numero": 44,
+    "titulo": "Servicios de colaboración y videoconferencia. Video y audio sobre Protocolo de Internet (IP). Protocolos más utilizados SIP, H323, webRTC. Videoconferencias: arquitecturas, tecnologías, estándares y tendencias de mercado. MCU, GateKeeper. Sistemas de videoconferencia en la nube. Sistemas de videoconferencia para grabaciones audiovisuales de vistas judiciales. Streaming. Comunicaciones unificadas."
+   },
+   {
+    "numero": 45,
+    "titulo": "Servicios de datos corporativos. Intranets, extranets y redes privadas virtuales. Servicios de comunicaciones sobre IP. Características básicas, requisitos de QoS, aplicaciones y tendencias. Protocolos de codificación de audio y video. Servicios multimedia sobre redes de paquetes. Diseño, gestión y explotación de redes privadas virtuales. Estrategias de implantación en la Comunidad Autónoma."
+   },
+   {
+    "numero": 46,
+    "titulo": "Servicios básicos de una red corporativa. Control de Identidad y Gestión de Acceso (IAM): DHCP y DNS. Protocolo LDAP y Directorio Activo. Sistemas de directorio y gestión de identidades. SNMP. Autenticación y autorización, control de acceso basado en roles (RBAC), y sistemas de autenticación multifactor (MFA, 2FA). Single Sign On. Sistemas de autenticación RADIUS. BYOD (Bring Your Own Device) y gestión segura de dispositivos móviles (MDM)."
+   },
+   {
+    "numero": 47,
+    "titulo": "Monitorización y gestión de sistemas y redes de telecomunicaciones. Sistemas de gestión de red, de servidores y de eventos. Protocolo SNMP. MIBs. El modelo TMN y FCAPS. Calidad y acuerdos de nivel de servicio (SLA)."
+   },
+   {
+    "numero": 48,
+    "titulo": "Los Centros de Proceso de Datos (CPD): tipologías, diseño y gestión. Grados de disponibilidad y alta disponibilidad. Infraestructuras físicas: alimentación, refrigeración y seguridad. Tendencias y sostenibilidad ambiental."
+   },
+   {
+    "numero": 49,
+    "titulo": "Arquitecturas de red en los CPDs. Arquitectura en 3 capas y Spine-Leaf. Topologías de red para nube híbrida y de múltiples nubes. Equipamiento de red. Gestión y orquestación."
+   },
+   {
+    "numero": 50,
+    "titulo": "Tipos de servidores: Rack, Torre, Chasis/Blades, Hiperconvergentes, Microservidores y servidores Edge para IoT y 5G. Virtualización: tipos, contenedores (Docker, Kubernetes) y servidores físicos dedicados sin capa de virtualización (bare-metal)."
+   },
+   {
+    "numero": 51,
+    "titulo": "Sistemas de almacenamiento de datos. Almacenamiento de ficheros, de bloques y de objetos. Arquitectura, componentes, protocolos e interfaces del almacenamiento remoto (DAS, NAS, SAN). NVMe sobre Fabric (NVMe-oF). Tipos de replicación de almacenamiento. Redes de almacenamiento. Almacenamiento en la nube: servicios y arquitecturas híbridas (AWS S3, Google Cloud Storage, Azure Blob)."
+   },
+   {
+    "numero": 52,
+    "titulo": "Cloud Computing. Principios básicos. Servicios en la nube: IaaS, PaaS, SaaS, otros. Nubes privadas, públicas e híbridas. Red de distribución de contenidos. Seguridad en la nube: SASE y privacidad. La Ley 7/2023, de 23 de febrero, de medidas para la implantación y desarrollo en Aragón de tecnologías en la nube (tecnologías Cloud)."
+   },
+   {
+    "numero": 53,
+    "titulo": "Sistemas de mensajería electrónica. Estándares y formatos para el intercambio de información: MIME, XML, JSON y APIs de mensajería (REST, Webhooks). Protocolos de mensajería: SMTP, POP, IMAP. Seguridad en mensajería electrónica: herramientas cliente, cifrado extremo a extremo, estándares de seguridad OpenPGP y S/MIME."
+   },
+   {
+    "numero": 54,
+    "titulo": "Contratación en Internet y comercio electrónico: marco regulatorio nacional y europeo. Medios de pago y seguridad en transacciones. Factura electrónica. Infraestructuras tecnológicas y herramientas relacionadas con el comercio electrónico. Gestión del negocio."
+   },
+   {
+    "numero": 55,
+    "titulo": "Identificación y Firma Electrónica: normativa reguladora en la UE, en España y en la Comunidad Autónoma de Aragón. Certificados electrónicos, Servicios de confianza y autoridades de certificación. Identificación electrónica y autenticación. Aplicaciones prácticas de la firma electrónica. Seguridad y protección en la firma electrónica."
+   },
+   {
+    "numero": 56,
+    "titulo": "Criptografía: objetivos, servicios y mecanismos. Técnicas y métodos de cifrado: simétrico, asimétrico, hash y firma digital. Protocolos seguros (IPsec, TLS/SSL, HTTPS, RADIUS, DIAMETER, VPN). Autoridades de certificación y servicios de certificación electrónica. Aplicaciones de criptografía en comunicaciones y sistemas."
+   },
+   {
+    "numero": 57,
+    "titulo": "Sistemas de Información Geográfica (GIS). Conceptos básicos. Georreferenciación. Elementos y funciones. Estructura de la información: capas y modelos de datos. Aplicaciones. Soluciones comerciales. Tendencias. La plataforma ICEARAGON."
+   },
+   {
+    "numero": 58,
+    "titulo": "Gobierno del Dato. Concepto, metodologías y beneficios. Formatos de los Datos Abiertos. Normativa sobre reutilización de la información en el sector público. Estrategias en la apertura y publicación de Datos Abiertos por parte de las Administraciones Públicas. Seguridad, privacidad y ética en datos abiertos. Aragón Open Data."
+   },
+   {
+    "numero": 59,
+    "titulo": "Inteligencia Artificial (IA). Marco normativo y regulación a nivel europeo, nacional y autonómico. Proyectos, Planes e Iniciativas relevantes de IA a nivel nacional y autonómico."
+   },
+   {
+    "numero": 60,
+    "titulo": "Inteligencia Artificial (IA). Clasificación. Tipos de Aprendizaje. Algoritmos. Arquitecturas. IA Generativa. Casos de uso y aspectos éticos."
+   },
+   {
+    "numero": 61,
+    "titulo": "Internet de las cosas (IoT): concepto, características principales y arquitecturas. Estándares y protocolos. Edge Computing. Elementos de la IoT: elementos físicos y virtuales, dispositivos y pasarelas. Seguridad y privacidad. Aplicaciones y casos de uso de IoT. Tendencias y futuro."
+   },
+   {
+    "numero": 62,
+    "titulo": "Dirección y gestión de proyectos de tecnologías de la información y la comunicación (TIC). Planificación estratégica, gestión de recursos y seguimiento de proyectos. Modelos de gobernanza TIC y gestión del valor de las TIC."
+   },
+   {
+    "numero": 63,
+    "titulo": "Metodologías de Gestión de Proyectos TIC: características, ejemplos y comparativa de metodologías predictivas y ágiles. Normas y estándares de referencia: UNE-ISO 21500 y UNE- ISO 21502. Herramientas de planificación, gestión y control de proyectos. Métricas, parámetros de calidad, acuerdos de nivel de servicio e incidencias en la prestación de servicios TIC"
+   },
+   {
+    "numero": 64,
+    "titulo": "Estrategia, habilidades, objetivos y funciones del directivo de sistemas y tecnologías de la información en la Administración. Gestión de conflictos, competencias y personas. Inteligencia emocional y toma de decisiones."
+   },
+   {
+    "numero": 65,
+    "titulo": "La contratación de bienes y servicios TIC en la Administración Pública. Régimen jurídico. Iniciativas e instrumentos nacionales y europeos relativos a la contratación de bienes y servicios TIC. Contratación Centralizada y Acuerdos Marco."
+   },
+   {
+    "numero": 66,
+    "titulo": "La Administración Electrónica. Régimen jurídico. Plataformas, infraestructuras, servicios comunes y compartidos para la interoperabilidad entre Administraciones públicas. La transformación digital de la Administración de la Comunidad Autónoma de Aragón."
+   },
+   {
+    "numero": 67,
+    "titulo": "Interoperabilidad de sistemas. El Esquema Nacional de Interoperabilidad. Dimensiones de la interoperabilidad. Las Normas Técnicas de Interoperabilidad."
+   },
+   {
+    "numero": 68,
+    "titulo": "Régimen jurídico de la protección de datos de carácter personal. Regulación europea. Regulación estatal. La Agencia Española de Protección de Datos. Ley 25/2007, de conservación de datos relativos a las comunicaciones electrónicas y a las redes públicas de comunicaciones."
+   },
+   {
+    "numero": 69,
+    "titulo": "Seguridad de la información: concepto, objetivos, principios y pilares fundamentales. Amenazas y riesgos en la seguridad de la información. Medidas de protección y controles. Gobernanza y gestión de la seguridad. Gestión de incidentes y continuidad. Tendencias y retos actuales. Políticas de seguridad de la información en la administración de la Comunidad Autónoma de Aragón."
+   },
+   {
+    "numero": 70,
+    "titulo": "Régimen jurídico de la Seguridad de la información y estándares aplicables: directivas Europeas, Esquema Nacional de Seguridad, Real Decreto-ley 12/2018 de seguridad de las redes y sistemas de información y Real Decreto 43/2021 que lo desarrolla. Adecuación al Esquema Nacional de Seguridad."
+   },
+   {
+    "numero": 71,
+    "titulo": "Ciberseguridad. Concepto, objetivos e importancia. Normativa y principios fundamentales. Amenazas y vulnerabilidades. Medidas de protección y controles. Gestión de incidentes y continuidad. Tendencias y retos actuales."
+   },
+   {
+    "numero": 72,
+    "titulo": "Ciberseguridad en Redes (I). Seguridad perimetral y segmentación interna. Arquitecturas seguras: DMZ y modelo en tres capas. Cortafuegos: tipos y tecnologías. Sistemas complementarios: filtrado web. protección anti-DDoS y supervisión del trafico encriptado."
+   },
+   {
+    "numero": 73,
+    "titulo": "Ciberseguridad en Redes (II): protección frente a ataques como ARP Spoofing, IP Spoofing, DDoS, y Man-in-the-Middle. Técnicas de detección y mitigación de ataques en redes: sniffing y envenenamiento de cachés (DNS/ARP). Sistemas de monitorización, correlación y respuesta automatizada: SIEM, SOAR, EDR y XDR. Detección y respuesta de la red (NDR)."
+   },
+   {
+    "numero": 74,
+    "titulo": "Resiliencia y continuidad: ISO 22301. Punto objetivo de recuperación de datos (RPO). Tiempo objetivo de recuperación (RTO). Análisis de impacto al negocio (BIA). Plan de recuperación ante desastres (DRP). Plan de Continuidad de Negocio (BCP). Alta Disponibilidad (HA). Backup 3 2 1."
+   },
+   {
+    "numero": 75,
+    "titulo": "Prevención y respuesta ante Incidentes: procedimientos de respuesta a incidentes (IRP). Indicadores de compromiso (IOC). Análisis forense digital (DFIR). Ejercicios red team-blue team y pentesting. Equipo de respuesta (SOC, CERT o CSIRT). CCN-CERT. Bastionado de dispositivos (Hardering). Ciclo de vida de los productos y gestión de las actualizaciones."
+   }
+  ]
+ }
+]

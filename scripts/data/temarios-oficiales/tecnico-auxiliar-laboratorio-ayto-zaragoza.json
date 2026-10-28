@@ -1,0 +1,172 @@
+[
+ {
+  "bloque": "Parte primera",
+  "temas": [
+   {
+    "numero": 1,
+    "titulo": "La Constitución española: estructura y título preliminar. La Administración pública en la Constitución. Organización territorial del Estado en la Constitución: principios generales y Administración local."
+   },
+   {
+    "numero": 2,
+    "titulo": "La Ley para la igualdad efectiva de mujeres y hombres: el principio de igualdad y la tutela contra la discriminación. El Plan de Igualdad para empleadas y empleados del Ayuntamiento de Zaragoza."
+   },
+   {
+    "numero": 3,
+    "titulo": "El Estatuto de Autonomía de Aragón: título preliminar, aspectos básicos de la organización institucional de la Comunidad autónoma y clases de competencias."
+   },
+   {
+    "numero": 4,
+    "titulo": "La Ley del Procedimiento Administrativo Común de las Administraciones Públicas: disposiciones sobre el procedimiento administrativo común."
+   },
+   {
+    "numero": 5,
+    "titulo": "La Ley de régimen especial del municipio de Zaragoza como capital de Aragón: disposiciones generales, gobierno y administración del municipio de Zaragoza."
+   },
+   {
+    "numero": 6,
+    "titulo": "La Ley reguladora de las Haciendas Locales: enumeración de los recursos de las entidades locales y regulación de los impuestos municipales."
+   },
+   {
+    "numero": 7,
+    "titulo": "Los empleados públicos: clases. Derechos y deberes. Adquisición y pérdida de la relación de servicio, situaciones administrativas y régimen disciplinario."
+   },
+   {
+    "numero": 8,
+    "titulo": "Peculiaridades del régimen de los empleados públicos de las entidades locales. Estructura de la función pública local. La Ley de Prevención de Riesgos laborales: objeto y carácter de la norma, derecho a la protección frente a los riesgos laborales, servicios de prevención."
+   }
+  ]
+ },
+ {
+  "bloque": "Parte segunda",
+  "temas": [
+   {
+    "numero": 9,
+    "titulo": "Seguridad en el laboratorio de microbiología. Clasificación de microorganismos según el riesgo. Vías de infección. Medidas de prevención."
+   },
+   {
+    "numero": 10,
+    "titulo": "Equipo básico del laboratorio de microbiología I: Microscopios. Estufas y baños de incubación. Centrífugas. Cabinas de seguridad."
+   },
+   {
+    "numero": 11,
+    "titulo": "Equipo básico del laboratorio de microbiología II: Hornos y autoclaves. Esterilización. Desinfección. Tratamiento de materiales contaminados. Preparación del material para cultivo."
+   },
+   {
+    "numero": 12,
+    "titulo": "Medios de cultivo. Componentes básicos y preparación. Técnicas de siembra. Técnicas de aislamiento. Conservación de cepas."
+   },
+   {
+    "numero": 13,
+    "titulo": "Técnicas de recuento de microorganismos mediante cultivo. Concentración. Dilución. Número Más Probable."
+   },
+   {
+    "numero": 14,
+    "titulo": "Examen microscópico de las bacterias. Observación en fresco. Métodos de tinción. Principales tinciones bacterianas."
+   },
+   {
+    "numero": 15,
+    "titulo": "Clasificación de microorganismos. Principales grupos de microorganismos. Características de los diferentes grupos de microorganismos: Bacterias, hongos, virus, protozoos y helminstos, algas."
+   },
+   {
+    "numero": 16,
+    "titulo": "Técnicas de identificación de bacterias. Morfológicas. Serológicas. Bioquímicas. Genéticas."
+   },
+   {
+    "numero": 17,
+    "titulo": "El control de calidad en el laboratorio de microbiología. Control de medios. Control de técnicas. Utilización de materiales de referencia. Control de equipos."
+   },
+   {
+    "numero": 18,
+    "titulo": "Análisis bacteriológico del agua. Toma de muestras. Recuento de microorganismos indicadores: técnicas por filtración y número más probable."
+   },
+   {
+    "numero": 19,
+    "titulo": "Análisis bacteriológico de alimentos. Toma de muestras. Preparación. Recuento de microorganismos indicadores: técnicas por filtración y número más probable."
+   },
+   {
+    "numero": 20,
+    "titulo": "Seguridad en el laboratorio físico-químico: Clases de riesgos de los productos químicos. Frases de riesgo. Consejos de seguridad. Equipos de Protección Individual. Almacenamiento de productos químicos. Eliminación de residuos."
+   },
+   {
+    "numero": 21,
+    "titulo": "Análisis gravimétrico: Concepto, material y operaciones. Manejo y calibración de balanzas analíticas. Clases de determinaciones gravimétricas."
+   },
+   {
+    "numero": 22,
+    "titulo": "Análisis volumétrico: Concepto, material y operaciones. Manejo y calibración de material volumétrico. Clases de volumetrías."
+   },
+   {
+    "numero": 23,
+    "titulo": "Potenciometría: Concepto y fundamento teórico. Medida de pH. Calibración de pHímetros. Volumetrías con indicación potenciométrica: punto de equivalencia. Valoradores automáticos."
+   },
+   {
+    "numero": 24,
+    "titulo": "Electrodos selectivos: Clases. Fundamentos y métodos de cálculo. Medida de la conductividad eléctrica de agua. Medida electroquímica de oxígeno disuelto en agua."
+   },
+   {
+    "numero": 25,
+    "titulo": "Espectrofotometría de absorción molecular: Concepto. Leyes de absorción de la luz. Instrumentación visible-ultravioleta. Fuentes comunes de error. Utilización de la espectrofotometría molecular en análisis de agua."
+   },
+   {
+    "numero": 26,
+    "titulo": "Espectroscopía atómica: Espectroscopía de absorción atómica: fundamentos e instrumentación. Utilización de la espectroscopía atómica en análisis de agua."
+   },
+   {
+    "numero": 27,
+    "titulo": "Espectroscopía de Masas con Plasma Acoplado Inductivamente (ICP): fundamentos e instrumentación. Utilización en análisis de agua."
+   },
+   {
+    "numero": 28,
+    "titulo": "Otros métodos ópticos: Medida de la turbidez. Medida del índice de refracción. Polarimetría."
+   },
+   {
+    "numero": 29,
+    "titulo": "Determinación de Radiactividad en agua: instrumentación. Origen de la radiactividad en el agua."
+   },
+   {
+    "numero": 30,
+    "titulo": "Cromatografía: Fundamentos y Tipos de cromatografía. Cromatografía iónica: instrumentación. Utilización de la cromatografía iónica en análisis de agua."
+   },
+   {
+    "numero": 31,
+    "titulo": "Cromatografía de gases: instrumentación. Utilización de la cromatografía de gases en análisis de agua."
+   },
+   {
+    "numero": 32,
+    "titulo": "Cromatografía de líquidos: instrumentación. Utilización de la cromatografía de líquidos en análisis de agua."
+   },
+   {
+    "numero": 33,
+    "titulo": "Análisis de agua de consumo. Tipos de análisis para verificar su aptitud al consumo. Determinación de cloro, amonio, nitritos, oxidabilidad, dureza, alcalinidad."
+   },
+   {
+    "numero": 34,
+    "titulo": "Análisis de aguas residuales I. Determinación de: sólidos en suspensión: Demanda Química de Oxígeno y Demanda Bioquímica de Oxígeno."
+   },
+   {
+    "numero": 35,
+    "titulo": "Análisis de aguas residuales II. Determinación de: Nitrógeno total, Fósforo total y Metales."
+   },
+   {
+    "numero": 36,
+    "titulo": "Toma de muestras para análisis de agua: Tipos de Envases, Conservación de las muestras, procedimientos de toma de muestras en función parámetros a determinar."
+   },
+   {
+    "numero": 37,
+    "titulo": "Análisis de aire y contaminación atmosférica: principales contaminantes. Análisis de PM 2,5, PM10 y análisis de metales."
+   },
+   {
+    "numero": 38,
+    "titulo": "Validación de procedimientos analíticos: definición, rango de validación, criterios de validación, sistemática de validación, cálculos de incertidumbres."
+   },
+   {
+    "numero": 39,
+    "titulo": "Control de calidad en determinaciones físico-químicas: Patrones primarios y materiales de referencia. Trazabilidad. Calibración lineal: ajuste por mínimos cuadrados."
+   },
+   {
+    "numero": 40,
+    "titulo": "Acreditación de laboratorios. ISO 17025.- Procedimiento de acreditación. Auditorías. No conformidades. Entidad Nacional de Acreditación."
+   }
+  ]
+ }
+]

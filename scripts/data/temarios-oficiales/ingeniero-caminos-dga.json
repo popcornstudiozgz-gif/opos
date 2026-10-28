@@ -1,0 +1,372 @@
+[
+ {
+  "bloque": "Materias comunes",
+  "temas": [
+   {
+    "numero": 1,
+    "titulo": "La Constitución Española de 1978: estructura y contenido. Valores superiores y principios inspiradores. El Estado Social y Democrático de Derecho. La Corona. Las Cortes Generales. El Poder Judicial."
+   },
+   {
+    "numero": 2,
+    "titulo": "Derechos y libertades. Deberes de los ciudadanos. Principios rectores de la política social y económica. Garantías. Defensor del Pueblo."
+   },
+   {
+    "numero": 3,
+    "titulo": "La organización territorial del Estado. El Gobierno de la Nación y la Administración General del Estado. Las Comunidades Autónomas. La Administración Local. Las relaciones entre los entes territoriales. Especial referencia a la comarcalización de Aragón."
+   },
+   {
+    "numero": 4,
+    "titulo": "El Estatuto de Autonomía de Aragón: naturaleza y contenido. Competencias de la Comunidad Autónoma de Aragón. Organización institucional de la Comunidad Autónoma de Aragón."
+   },
+   {
+    "numero": 5,
+    "titulo": "El Presidente y el Gobierno de Aragón. La Administración Pública de la Comunidad Autónoma de Aragón. Los órganos administrativos: su régimen y el ejercicio de las competencias. Las Cortes y el Justicia de Aragón."
+   },
+   {
+    "numero": 6,
+    "titulo": "El procedimiento administrativo: concepto, naturaleza y fines. Ley del Procedimiento Administrativo Común de las Administraciones Públicas: ámbito de aplicación y principios informadores. Los interesados: capacidad y representación. Derechos de los ciudadanos en sus relaciones con las Administraciones Públicas. La transparencia y el acceso a la información pública."
+   },
+   {
+    "numero": 7,
+    "titulo": "El acto administrativo: concepto, elementos y clases. Requisitos y eficacia de los actos administrativos. Nulidad y anulabilidad. El silencio administrativo. Procedimientos de ejecución de los actos administrativos."
+   },
+   {
+    "numero": 8,
+    "titulo": "Fases del procedimiento administrativo: iniciación, ordenación, instrucción y finalización. Revisión de los actos administrativos. El procedimiento sancionador. La responsabilidad patrimonial de las Administraciones Públicas. La responsabilidad de las autoridades y personal a su servicio."
+   },
+   {
+    "numero": 9,
+    "titulo": "El Estatuto Básico del Empleado Público. El personal funcionario de la Administración de la Comunidad Autónoma de Aragón: clases de empleados públicos, selección, provisión y carrera administrativa. Personal laboral. Integridad y ética pública. Código de Conducta del personal empleado público. Régimen disciplinario y normativa penal relativa a la función pública."
+   },
+   {
+    "numero": 10,
+    "titulo": "Protección de datos personales. Marco normativo básico en materia de Prevención de Riesgos Laborales. Derechos y obligaciones. Principios de la acción preventiva. Igualdad de oportunidades entre mujeres y hombres en Aragón. La identidad y expresión de género e igualdad social y no discriminación en la Comunidad Autónoma de Aragón."
+   },
+   {
+    "numero": 11,
+    "titulo": "La financiación de las Comunidades Autónomas. Los Fondos de la Unión Europea. El Presupuesto de la Comunidad Autónoma de Aragón. La Ley de Hacienda de la Comunidad Autónoma de Aragón y Leyes de Presupuestos."
+   },
+   {
+    "numero": 12,
+    "titulo": "El Patrimonio de las Administraciones Públicas. El Patrimonio de la Comunidad Autónoma de Aragón: bienes que lo integran y régimen jurídico."
+   },
+   {
+    "numero": 13,
+    "titulo": "Los contratos del Sector Público: concepto y clases. Los contratos de las Administraciones Públicas: preparación, adjudicación y formalización, ejecución y modificación. Garantías y extinción."
+   },
+   {
+    "numero": 14,
+    "titulo": "La potestad expropiatoria: su justificación. Los sujetos, el objeto y la causa. El procedimiento expropiatorio en general. La indemnización expropiatoria o justo precio."
+   },
+   {
+    "numero": 15,
+    "titulo": "La Unión Europea: objetivos y fundamentos. Los Tratados originarios y modificativos. El Tratado de Lisboa: el Tratado de la Unión y el Tratado de Funcionamiento de la Unión Europea. Las Instituciones de la Unión Europea. Las fuentes del Derecho de la Unión Europea. Las Comunidades Autónomas y el Derecho Comunitario."
+   }
+  ]
+ },
+ {
+  "bloque": "Materias específicas",
+  "temas": [
+   {
+    "numero": 1,
+    "titulo": "La política regional de la Unión Europea. Actuales instrumentos comunitarios. Fondos estructurales comunitarios para el período 2021-2027. Fondos de la política de cohesión: FEDER, FSE, FEADER y FEMP. El Fondo de Compensación Interterritorial."
+   },
+   {
+    "numero": 2,
+    "titulo": "Contratos del Sector Público (I) aplicados a la obra y los servicios públicos. Preparación del contrato. Pliego de Prescripciones Técnicas y de Cláusulas Administrativas. Selección del contratista. Procedimientos de contratación. Adjudicación. Revisión de precios."
+   },
+   {
+    "numero": 3,
+    "titulo": "Contratos del Sector público (II) aplicados a la obra y los servicios públicos. Tipos de contratos. Presupuesto y Precio del contrato. Comprobación del replanteo. Certificaciones. Abonos a cuenta. Modificación del contrato. Recepción de obra y certificación final."
+   },
+   {
+    "numero": 4,
+    "titulo": "Contratos del Sector Público (III). Particularidades del contrato de Obras, Servicios y del contrato de suministros. La industria de materiales de construcción. La prefabricación. Las industrias auxiliares de la construcción. Variables macroeconómicas."
+   },
+   {
+    "numero": 5,
+    "titulo": "La maquinaria de obras públicas. Criterios de selección y utilización."
+   },
+   {
+    "numero": 6,
+    "titulo": "Seguridad y salud. Disposiciones durante el proyecto y durante la ejecución. Estudios y Planes de seguridad. Competencias y responsabilidades del coordinador de seguridad y salud en las obras de construcción."
+   },
+   {
+    "numero": 7,
+    "titulo": "Control de calidad en obras públicas. Aseguramiento de la calidad. Pliegos de condiciones y normas técnicas."
+   },
+   {
+    "numero": 8,
+    "titulo": "Obtención de cartografía. Aplicación de las nuevas técnicas cartográficas y sistemas de posicionamiento global G.P.S. Sistemas de información geográfica aplicación en los procesos de planificación."
+   },
+   {
+    "numero": 9,
+    "titulo": "La programación del trabajo. Planificación a largo, medio y corto plazo de proyectos y obras. El diagrama de Gantt, Método PERT y Camino Crítico."
+   },
+   {
+    "numero": 10,
+    "titulo": "Ejecución de obras: seguimiento y control. La subcontratación. La suspensión. Modificación del proyecto. Proyectos complementarios. Recepción de obra y Certificación Final o liquidación."
+   },
+   {
+    "numero": 11,
+    "titulo": "La financiación de las obras públicas. Sistemas de financiación. La concesión de obra pública. Financiación público-privada."
+   },
+   {
+    "numero": 12,
+    "titulo": "Evaluación socio-económica de los proyectos de inversión pública: criterios y variables."
+   },
+   {
+    "numero": 13,
+    "titulo": "Análisis de Demanda y Criterios de planificación en las obras públicas."
+   },
+   {
+    "numero": 14,
+    "titulo": "Gestión Estratégica en el Sector Público. Políticas públicas. Metodologías para la gestión de Proyectos de inversión"
+   },
+   {
+    "numero": 15,
+    "titulo": "Ley 8/98, de 17 diciembre, de Carreteras de Aragón. Marco competencial. Decreto 206/2003, de 22 de julio, Reglamento General de Carreteras de Aragón. Estructura de la Red de Carreteras de la Comunidad Autónoma de Aragón."
+   },
+   {
+    "numero": 16,
+    "titulo": "El Plan General de Carreteras de Aragón 2013-2024. Estructura y contenido. Criterios. Necesidades. Propuestas de actuación y programación. Plan Extraordinario de Carreteras de Aragón."
+   },
+   {
+    "numero": 17,
+    "titulo": "Estudios y proyectos de carreteras."
+   },
+   {
+    "numero": 18,
+    "titulo": "Trazado de carreteras (I): trazado en planta, alzado, sección transversal."
+   },
+   {
+    "numero": 19,
+    "titulo": "Trazado de carreteras (II): enlaces e intersecciones. Glorietas."
+   },
+   {
+    "numero": 20,
+    "titulo": "Estudios geológicos y geotécnicos de las carreteras."
+   },
+   {
+    "numero": 21,
+    "titulo": "Estudios climatológicos e hidrológicos. Normativa vigente. Cálculo de precipitaciones e intensidades de lluvia. Cálculo de los caudales de referencia."
+   },
+   {
+    "numero": 22,
+    "titulo": "Drenaje superficial. Estudios hidráulicos y dimensionamiento del drenaje transversal y longitudinal: normativa aplicable. Drenaje subterráneo. Geotextiles: funciones, aplicaciones y características."
+   },
+   {
+    "numero": 23,
+    "titulo": "Tráfico. Estudios de tráfico. Estudios de intensidad, de capacidad, estudios de origen-destino. Sistemas de aforo."
+   },
+   {
+    "numero": 24,
+    "titulo": "Obras de paso. Estructuras, puentes y viaductos. Tipología y condicionantes de diseño. Normativa aplicable al proyecto. Construcción y explotación."
+   },
+   {
+    "numero": 25,
+    "titulo": "Túneles en carreteras. Proyecto, construcción y explotación. Maquinaria y medios auxiliares. Sostenimiento y revestimiento. Instalaciones auxiliares."
+   },
+   {
+    "numero": 26,
+    "titulo": "Explanaciones. Construcción de terraplenes y pedraplenes. Caracterización de explanadas: normativa y especificaciones. Estabilizaciones."
+   },
+   {
+    "numero": 27,
+    "titulo": "Proyectos y construcción de firmes (I): normativa aplicable y factores de dimensionamiento. Métodos de diseño. Tipos de firmes."
+   },
+   {
+    "numero": 28,
+    "titulo": "Firmes (II): conservación y auscultación de firmes."
+   },
+   {
+    "numero": 29,
+    "titulo": "Señalización, balizamiento y defensa. Normativa aplicable estatal y autonómica."
+   },
+   {
+    "numero": 30,
+    "titulo": "El pliego de prescripciones técnicas particulares para obras de carreteras y puentes."
+   },
+   {
+    "numero": 31,
+    "titulo": "Recomendaciones para los pliegos de prescripciones técnicas particulares de firmes y pavimentos bituminosos. Nuevas técnicas. Carreteras de baja intensidad de tráfico."
+   },
+   {
+    "numero": 32,
+    "titulo": "Construcción de carreteras. Fases."
+   },
+   {
+    "numero": 33,
+    "titulo": "Organización de la conservación de carreteras. Sectores de conservación. Trabajos de conservación ordinaria con medios propios y con empresas especializadas. Conservación Integral. Indicadores de conservación."
+   },
+   {
+    "numero": 34,
+    "titulo": "Labores de Auscultación, Inspección y Mantenimiento de elementos singulares: obras de drenaje y de fábrica, viaductos y túneles."
+   },
+   {
+    "numero": 35,
+    "titulo": "Vialidad invernal. Tratamientos preventivos y curativos. Gestión de la vialidad. La importancia de la previsión meteorológica. Estudio de riesgo de aludes."
+   },
+   {
+    "numero": 36,
+    "titulo": "Autopistas de peaje: estudios previos, anteproyecto. Contratación. Seguimiento e inspección. Tipologías de peaje."
+   },
+   {
+    "numero": 37,
+    "titulo": "La seguridad vial. Estudios de accidentes. Factores condicionantes. Índices de peligrosidad y mortalidad. Tramos de Concentración de Accidentes. Planes de seguridad vial. Inspecciones y medidas de seguridad vial. Auditorias de seguridad vial."
+   },
+   {
+    "numero": 38,
+    "titulo": "La infraestructura ferroviaria dentro de la Ley 38/2015, de 29 de septiembre, del Sector Ferroviario, y su Reglamento de desarrollo: la red ferroviaria de interés general. La planificación, proyecto y construcción de sus infraestructuras. Estudios y proyectos: tipos, contenido y tramitación. La construcción y puesta en servicio."
+   },
+   {
+    "numero": 39,
+    "titulo": "La infraestructura ferroviaria dentro de la Ley 38/2015, de 29 de septiembre, del Sector Ferroviario, y su Reglamento de desarrollo: incidencia sobre el planeamiento urbanístico. Zonas de servicio. Limitaciones a la propiedad. Infraestructuras ferroviarias en puertos y aeropuertos. Infraestructuras ferroviarias privadas."
+   },
+   {
+    "numero": 40,
+    "titulo": "La política europea de transporte. El espacio único europeo de transporte. Las redes transeuropeas de transportes. Las nuevas orientaciones comunitarias para el desarrollo de las RTE-T. Propuesta de Reglamentos para el futuro Marco de Financiación 2021-2027."
+   },
+   {
+    "numero": 41,
+    "titulo": "Los transportes en España. Evolución de la política de transportes. La ordenación del transporte."
+   },
+   {
+    "numero": 42,
+    "titulo": "La red de transportes en Aragón. El transporte por carretera. El transporte ferroviario. El Transporte aéreo. Intermodalidad. Plataformas logísticas y puertos secos."
+   },
+   {
+    "numero": 43,
+    "titulo": "La gestión de los servicios públicos de transporte. Gestión directa y gestión indirecta. Obligaciones de servicio público. El Reglamento Europeo (CE) 1370/2007 sobre servicios públicos de transporte de viajeros por ferrocarril y carretera."
+   },
+   {
+    "numero": 44,
+    "titulo": "El transporte en medio urbano: movilidad sostenible. Transporte público y privado. Reparto competencial."
+   },
+   {
+    "numero": 45,
+    "titulo": "El transporte metropolitano. Sistemas de transporte público. Planificación y gestión. Consorcios de transporte."
+   },
+   {
+    "numero": 46,
+    "titulo": "Estaciones de viajeros y mercancías. Diferencias entre estaciones de autobuses y ferroviarias. Criterios de dimensionamiento y principales parámetros."
+   },
+   {
+    "numero": 47,
+    "titulo": "Infraestructuras aeroportuarias. Aeropuertos, aeródromos y helipuertos. Características básicas de la infraestructura civil."
+   },
+   {
+    "numero": 48,
+    "titulo": "Hidrología. Magnitudes hidrológicas. Rasgos hidrológicos e hidrográficos del territorio aragonés."
+   },
+   {
+    "numero": 49,
+    "titulo": "Hidrología superficial. Avenidas y sequías. Previsión y cálculo de máximas crecidas. Regulación de caudales. Directiva 2007/60/CE del Parlamento Europeo y del Consejo, relativa a la evaluación y gestión de los riesgos de inundación. Protección de márgenes."
+   },
+   {
+    "numero": 50,
+    "titulo": "Hidrología subterránea. Efecto regulador y recarga de acuíferos. Contribución de los acuíferos a la optimización de los recursos hídricos. Problemas actuales y potenciales de la explotación de aguas subterráneas."
+   },
+   {
+    "numero": 51,
+    "titulo": "Calidad del agua. Normativa estatal y autonómica y directivas europeas. Zonas sensibles. Vertidos. Autorizaciones de vertidos."
+   },
+   {
+    "numero": 52,
+    "titulo": "Obras hidráulicas de regulación. Embalses y presas: tipologías. Normativa de seguridad de presas. Elementos constructivos Explotación y conservación. Elementos de desagüe."
+   },
+   {
+    "numero": 53,
+    "titulo": "Canales. Tipos. Revestimientos. Juntas. Canales en terrenos yesíferos. Sifones y acueductos. Elementos funcionales. Maquinaria específica para la construcción. Explotación y conservación."
+   },
+   {
+    "numero": 54,
+    "titulo": "Abastecimiento de agua. Prognosis de la demanda de abastecimiento. Obras de captación. Redes de abastecimiento. Pérdidas en la red de distribución."
+   },
+   {
+    "numero": 55,
+    "titulo": "Tratamiento de aguas potables. Condiciones de potabilidad del agua. Técnicas de potabilización y desalación."
+   },
+   {
+    "numero": 56,
+    "titulo": "Saneamiento y depuración de aguas residuales. Redes de saneamiento y estaciones depuradoras. Reutilización de agua depurada."
+   },
+   {
+    "numero": 57,
+    "titulo": "Ley 10/2014, de Aguas y Ríos de Aragón. Administración hidráulica de Aragón. Planes. Dominio Público Hidráulico, zonas de servidumbre y policía. Disciplina en materia de agua. Canon de saneamiento."
+   },
+   {
+    "numero": 58,
+    "titulo": "Encauzamiento y defensa de ríos. Bioingeniería fluvial: técnicas y objetivos."
+   },
+   {
+    "numero": 59,
+    "titulo": "Obras civiles de carácter hidroeléctrico. Otros almacenamientos de energía."
+   },
+   {
+    "numero": 60,
+    "titulo": "La directiva Marco del Agua. Red Natura 2000. LIC y ZEPAS. Zonas húmedas. Delimitación, mecanismos de protección y conservación. Directiva de hábitats y de aves."
+   },
+   {
+    "numero": 61,
+    "titulo": "La contaminación: costes sociales y costes ecológicos. Legislación de Medio Ambiente."
+   },
+   {
+    "numero": 62,
+    "titulo": "El impacto ambiental en las obras públicas. Marco competencial y legislación aplicable. El procedimiento de evaluación de impacto ambiental en Aragón. Clases y contenido de los estudios."
+   },
+   {
+    "numero": 63,
+    "titulo": "La planificación territorial. Marco competencial. Texto Refundido de la Ley de Ordenación del Territorio de Aragón (Decreto Legislativo 2/2015) y modificaciones posteriores. Instrumentos de planeamiento territorial."
+   },
+   {
+    "numero": 64,
+    "titulo": "La Estrategia de Ordenación del Territorio en Aragón (EOTA). Estructura del Sistema de Asentamientos. Índice Sintético de Desarrollo Territorial."
+   },
+   {
+    "numero": 65,
+    "titulo": "Los Planes y Proyectos de Interés General de Aragón. Contenido y tramitación. Instrumentos de protección, gestión y ordenación del paisaje. Mapas de Paisaje."
+   },
+   {
+    "numero": 66,
+    "titulo": "Marco competencial del urbanismo: Estado, Comunidades Autónomas y Entidades Locales. Legislación vigente: situación actual."
+   },
+   {
+    "numero": 67,
+    "titulo": "Decreto Legislativo 1/2014, de 8 de julio, por el que se aprueba el Texto Refundido de la Ley de Urbanismo de Aragón. Principios que la informan y análisis de su contenido. Norma Técnica de Planeamiento de Aragón."
+   },
+   {
+    "numero": 68,
+    "titulo": "Organización, planeamiento urbanístico y régimen especial de pequeños municipios. Marco legislativo actual."
+   },
+   {
+    "numero": 69,
+    "titulo": "La clasificación del suelo. Criterios. Régimen jurídico de las distintas clases de suelo."
+   },
+   {
+    "numero": 70,
+    "titulo": "Planeamiento general de acuerdo a la normativa aragonesa. Planes generales de ordenación urbana. Determinaciones generales. Contenido y tramitación. Régimen urbanístico simplificado. Delimitación de suelo urbano en municipios sin Plan General."
+   },
+   {
+    "numero": 71,
+    "titulo": "Planeamiento de desarrollo en la Comunidad Autónoma de Aragón. Planes parciales. Planes especiales y su tipología. Estudios de detalle. Contenido y tramitación."
+   },
+   {
+    "numero": 72,
+    "titulo": "Ejecución del planeamiento. Proyectos de reparcelación. Proyectos de urbanización. Sistemas de gestión: gestión directa por expropiación, cooperación, gestión indirecta, compensación."
+   },
+   {
+    "numero": 73,
+    "titulo": "Edificación y régimen de obra en zonas afectas a carreteras."
+   },
+   {
+    "numero": 74,
+    "titulo": "Las autopistas y las grandes infraestructuras en la ordenación del territorio."
+   },
+   {
+    "numero": 75,
+    "titulo": "Urbanismo y patrimonio histórico-artístico cultural. La Ley 3/1999, de 10 de marzo de Patrimonio Cultural Aragonés."
+   }
+  ]
+ }
+]

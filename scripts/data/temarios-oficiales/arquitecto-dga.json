@@ -1,0 +1,372 @@
+[
+ {
+  "bloque": "Materias comunes",
+  "temas": [
+   {
+    "numero": 1,
+    "titulo": "La Constitución Española de 1978: estructura y contenido. Valores superiores y principios inspiradores. El Estado Social y Democrático de Derecho. La Corona. Las Cortes Generales. El Poder Judicial."
+   },
+   {
+    "numero": 2,
+    "titulo": "Derechos y libertades. Deberes de los ciudadanos. Principios rectores de la política social y económica. Garantías. Defensor del Pueblo."
+   },
+   {
+    "numero": 3,
+    "titulo": "La organización territorial del Estado. El Gobierno de la Nación y la Administración General del Estado. Las Comunidades Autónomas. La Administración Local. Las relaciones entre los entes territoriales. Especial referencia a la comarcalización de Aragón."
+   },
+   {
+    "numero": 4,
+    "titulo": "El Estatuto de Autonomía de Aragón: naturaleza y contenido. Competencias de la Comunidad Autónoma de Aragón. Organización institucional de la Comunidad Autónoma de Aragón."
+   },
+   {
+    "numero": 5,
+    "titulo": "El Presidente y el Gobierno de Aragón. La Administración Pública de la Comunidad Autónoma de Aragón. Los órganos administrativos: su régimen y el ejercicio de las competencias. Las Cortes y el Justicia de Aragón."
+   },
+   {
+    "numero": 6,
+    "titulo": "El procedimiento administrativo: concepto, naturaleza y fines. Ley del Procedimiento Administrativo Común de las Administraciones Públicas: ámbito de aplicación y principios informadores. Los interesados: capacidad y representación. Derechos de los ciudadanos en sus relaciones con las Administraciones Públicas. La transparencia y el acceso a la información pública."
+   },
+   {
+    "numero": 7,
+    "titulo": "El acto administrativo: concepto, elementos y clases. Requisitos y eficacia de los actos administrativos. Nulidad y anulabilidad. El silencio administrativo. Procedimientos de ejecución de los actos administrativos."
+   },
+   {
+    "numero": 8,
+    "titulo": "Fases del procedimiento administrativo: iniciación, ordenación, instrucción y finalización. Revisión de los actos administrativos. El procedimiento sancionador. La responsabilidad patrimonial de las Administraciones Públicas. La responsabilidad de las autoridades y personal a su servicio."
+   },
+   {
+    "numero": 9,
+    "titulo": "El Estatuto Básico del Empleado Público. El personal funcionario de la Administración de la Comunidad Autónoma de Aragón: clases de empleados públicos, selección, provisión y carrera administrativa. Personal laboral. Integridad y ética pública. Código de Conducta del personal empleado público. Régimen disciplinario y normativa penal relativa a la función pública."
+   },
+   {
+    "numero": 10,
+    "titulo": "Protección de datos personales. Marco normativo básico en materia de Prevención de Riesgos Laborales. Derechos y obligaciones. Principios de la acción preventiva. Igualdad de oportunidades entre mujeres y hombres en Aragón. La identidad y expresión de género e igualdad social y no discriminación en la Comunidad Autónoma de Aragón."
+   },
+   {
+    "numero": 11,
+    "titulo": "La financiación de las Comunidades Autónomas. Los Fondos de la Unión Europea. El Presupuesto de la Comunidad Autónoma de Aragón. La Ley de Hacienda de la Comunidad Autónoma de Aragón y Leyes de Presupuestos."
+   },
+   {
+    "numero": 12,
+    "titulo": "El Patrimonio de las Administraciones Públicas. El Patrimonio de la Comunidad Autónoma de Aragón: bienes que lo integran y régimen jurídico."
+   },
+   {
+    "numero": 13,
+    "titulo": "Los contratos del Sector Público: concepto y clases. Los contratos de las Administraciones Públicas: preparación, adjudicación y formalización, ejecución y modificación. Garantías y extinción."
+   },
+   {
+    "numero": 14,
+    "titulo": "La potestad expropiatoria: su justificación. Los sujetos, el objeto y la causa. El procedimiento expropiatorio en general. La indemnización expropiatoria o justo precio."
+   },
+   {
+    "numero": 15,
+    "titulo": "La Unión Europea: objetivos y fundamentos. Los Tratados originarios y modificativos. El Tratado de Lisboa: el Tratado de la Unión y el Tratado de Funcionamiento de la Unión Europea. Las Instituciones de la Unión Europea. Las fuentes del Derecho de la Unión Europea. Las Comunidades Autónomas y el Derecho Comunitario."
+   }
+  ]
+ },
+ {
+  "bloque": "Materias específicas",
+  "temas": [
+   {
+    "numero": 1,
+    "titulo": "Legislación de Ordenación del Territorio de Aragón."
+   },
+   {
+    "numero": 2,
+    "titulo": "Estrategia de Ordenación Territorial Aragón: ejes de desarrollo y modelo territorial. Infraestructuras y sistemas de asentamiento."
+   },
+   {
+    "numero": 3,
+    "titulo": "Directrices territoriales. Planes y Proyectos de Interés General de Aragón."
+   },
+   {
+    "numero": 4,
+    "titulo": "Legislación sobre la información geográfica de Aragón. Sistema de Información Geográfica (SIG). Sistema cartográfico de Aragón."
+   },
+   {
+    "numero": 5,
+    "titulo": "Afecciones que inciden en la planificación territorial y urbanística: informes sectoriales preceptivos en el planeamiento. Afecciones en relación a infraestructuras de transporte y redes de suministro."
+   },
+   {
+    "numero": 6,
+    "titulo": "Legislación sobre Aguas y Ríos en Aragón. Afecciones que inciden en la planificación territorial y urbanística en relación a cauces: dominio público, servidumbres, policía. Limitaciones de usos ante riesgos: zona de flujo preferente y zona inundable. Infraestructuras de abastecimiento y depuración de aguas de la Comunidad Autónoma de Aragón."
+   },
+   {
+    "numero": 7,
+    "titulo": "El paisaje. Elementos básicos para su definición, caracterización y protección. Los mapas de paisaje de Aragón."
+   },
+   {
+    "numero": 8,
+    "titulo": "Política medioambiental de la Unión Europea. Disposiciones medioambientales en España y específicas en Aragón."
+   },
+   {
+    "numero": 9,
+    "titulo": "Estrategia Aragonesa de Cambio Climático. Estrategia Aragonesa de Educación Ambiental."
+   },
+   {
+    "numero": 10,
+    "titulo": "Legislación de Espacios Protegidos de Aragón: Espacios Naturales protegidos y Áreas Naturales singulares. Régimen general de protección de los espacios naturales protegidos."
+   },
+   {
+    "numero": 11,
+    "titulo": "Legislación de prevención y protección ambiental de Aragón: evaluación ambiental de planes, programas y proyectos, en zonas ambientalmente sensibles. Especialidad en el planeamiento urbanístico."
+   },
+   {
+    "numero": 12,
+    "titulo": "Legislación de prevención y protección ambiental de Aragón. Autorización ambiental integrada. Licencia ambiental de actividades clasificadas. Licencia de inicio de actividad."
+   },
+   {
+    "numero": 13,
+    "titulo": "Edificación y régimen de obras en zonas afectas a carreteras, cauces, ferrocarriles y aeropuertos. Uso y defensa de carreteras: limitaciones de la propiedad. Dominio público hidráulico. Limitaciones de propiedad en el sector ferroviario. Servidumbres aeronáuticas."
+   },
+   {
+    "numero": 14,
+    "titulo": "Legislación de calidad del aire y protección de la atmósfera. Actividades potencialmente contaminadoras."
+   },
+   {
+    "numero": 15,
+    "titulo": "Legislación sobre el ruido. Protección contra la contaminación acústica de Aragón: calidad acústica. Prevención y corrección de la contaminación acústica. Inspección y régimen sancionador."
+   },
+   {
+    "numero": 16,
+    "titulo": "Legislación en materia de residuos y suelos contaminados. Gestión de residuos de construcción y demolición y su trazabilidad. Su circularidad."
+   },
+   {
+    "numero": 17,
+    "titulo": "Estrategia Nacional de Protección Civil. Sistema de Protección Civil y Gestión de Emergencias de Aragón. Plan Territorial de Protección Civil de Aragón."
+   },
+   {
+    "numero": 18,
+    "titulo": "Legislación estatal en materia de suelo, evolución histórica y principios. Legislación en materia de urbanismo de Aragón. Competencias. Organización administrativa. Régimen urbanístico del suelo: clasificación y categorías, régimen estatutario de la propiedad del suelo y contenido particular en función de la clase de suelo."
+   },
+   {
+    "numero": 19,
+    "titulo": "Planeamiento urbanístico: Plan General de Ordenación Urbana. Plan General Simplificado. Régimen urbanístico simplificado. Municipios sin planeamiento. Delimitaciones de suelo urbano."
+   },
+   {
+    "numero": 20,
+    "titulo": "Planeamiento urbanístico de desarrollo: planes parciales. Planes especiales. Estudios de Detalle, ordenanzas de edificación y urbanización."
+   },
+   {
+    "numero": 21,
+    "titulo": "Vigencia y alteración de planes e instrumentos de ordenación urbanística. Instrumentos de política urbanística y de suelo. Norma Técnica de Planeamiento."
+   },
+   {
+    "numero": 22,
+    "titulo": "Edificación y usos del suelo: normas de directa aplicación. Edificación forzosa. Títulos habilitantes de naturaleza urbanística. Parcelaciones."
+   },
+   {
+    "numero": 23,
+    "titulo": "Edificación y usos del suelo: deber de conservación. Disciplina urbanística."
+   },
+   {
+    "numero": 24,
+    "titulo": "Gestión urbanística: actuaciones aisladas, actuaciones integradas, actuaciones de rehabilitación urbana. Obtención de terrenos dotacionales. Expropiación forzosa."
+   },
+   {
+    "numero": 25,
+    "titulo": "Equipamientos urbanos. El paisaje urbano. Espacios libres urbanos y zonas verdes."
+   },
+   {
+    "numero": 26,
+    "titulo": "Servicios urbanos de abastecimiento de agua y saneamiento. Patología de daños en el patrimonio inmobiliarios."
+   },
+   {
+    "numero": 27,
+    "titulo": "Servicios urbanos de transporte, telecomunicaciones y de energía. Aspectos estéticos en la perspectiva urbana."
+   },
+   {
+    "numero": 28,
+    "titulo": "Estrategias de desarrollo urbano sostenible. Agenda Urbana Española."
+   },
+   {
+    "numero": 29,
+    "titulo": "Legislación en materia de rehabilitación, regeneración y renovación urbanas. Agenda urbana española."
+   },
+   {
+    "numero": 30,
+    "titulo": "Política estatal en materia de vivienda: planes estatales de vivienda y ayudas de la vivienda y rehabilitación."
+   },
+   {
+    "numero": 31,
+    "titulo": "Legislación autonómica en materia de vivienda y rehabilitación. Normas de diseño y calidad de viviendas protegidas en Aragón. Legislación sobre calidad de la arquitectura. Derechos e información a suministrar en la compraventa y arrendamiento de viviendas."
+   },
+   {
+    "numero": 32,
+    "titulo": "Legislación en materia de ordenación de la edificación. Objeto y ámbito de aplicación. Requisitos técnicos y exigencias administrativas. Los agentes. Responsabilidades y garantías."
+   },
+   {
+    "numero": 33,
+    "titulo": "Código Técnico de la Edificación. Parte I: disposiciones generales. Condiciones técnicas y administrativas. Exigencias básicas. Contenido del proyecto. Documentación seguimiento de obra."
+   },
+   {
+    "numero": 34,
+    "titulo": "Normativa en materia de seguridad estructural: seguridad estructural y acciones en la edificación."
+   },
+   {
+    "numero": 35,
+    "titulo": "Normativa relativa a la seguridad estructural. Cimientos: bases de cálculo. Mecánica del suelo, identificación de rocas y suelos. El estudio geotécnico: tipos de ensayos y su interpretación. Acondicionamiento. Mejoras o refuerzo del terreno. Anclajes. Sistemas de apeos y apuntalamientos."
+   },
+   {
+    "numero": 36,
+    "titulo": "Normativa relativa a la seguridad estructural: tipos de cimentaciones y elementos de contención."
+   },
+   {
+    "numero": 37,
+    "titulo": "Normativa en materia de seguridad estructural: estructuras de acero."
+   },
+   {
+    "numero": 38,
+    "titulo": "Normativa en materia de seguridad estructural: fábrica."
+   },
+   {
+    "numero": 39,
+    "titulo": "Normativa en materia de seguridad estructural: madera."
+   },
+   {
+    "numero": 40,
+    "titulo": "Normativa en materia de seguridad en caso de incendio en edificios no industriales. Documentos de apoyo. Reglamento de Seguridad contra incendios en establecimientos industriales. Normativa de autoprotección de centros, establecimientos y dependencias dedicadas a actividades que puedan dar origen a situaciones de emergencia."
+   },
+   {
+    "numero": 41,
+    "titulo": "Normativa en materia de seguridad de utilización y accesibilidad en edificaciones. Adecuación efectiva de las condiciones de accesibilidad en edificios existentes. Condiciones básicas de accesibilidad y no discriminación para el acceso y la utilización de los espacios públicos urbanizados. Normativa en materia de accesibilidad y no discriminación en Aragón."
+   },
+   {
+    "numero": 42,
+    "titulo": "Normativa en materia de ahorro de energía en la edificación."
+   },
+   {
+    "numero": 43,
+    "titulo": "Normativa relativa a la protección frente al ruido en la edificación."
+   },
+   {
+    "numero": 44,
+    "titulo": "Normativa en materia de salubridad en la edificación. Rehabilitación frente al radón. Soluciones de aislamiento del edificio."
+   },
+   {
+    "numero": 45,
+    "titulo": "Código estructural: requisitos de las estructuras. Contribución de la estructura a la sostenibilidad. Bases generales para el proyecto, criterios de seguridad, para la ejecución de las estructuras, gestión de calidad de las estructuras."
+   },
+   {
+    "numero": 46,
+    "titulo": "Código estructural: criterios generales para las estructuras de hormigón. Propiedades tecnológicas de los materiales. Durabilidad y ejecución de estructuras de hormigón."
+   },
+   {
+    "numero": 47,
+    "titulo": "Reglamento de Instalaciones Térmicas en los Edificios."
+   },
+   {
+    "numero": 48,
+    "titulo": "Normativa europea relativa a la eficiencia energética de los edificios. Sistema de Certificados de Ahorro Energético. Certificación de eficiencia energética de edificios."
+   },
+   {
+    "numero": 49,
+    "titulo": "Reglamento electrotécnico para baja tensión."
+   },
+   {
+    "numero": 50,
+    "titulo": "Reglamento técnico de distribución y utilización de combustibles gaseosos. Infraestructura común de telecomunicaciones. Normativa de protección frente al rayo."
+   },
+   {
+    "numero": 51,
+    "titulo": "Seguridad y salud en las obras de construcción. Normativa reguladora. Aplicación de la prevención de riesgos laborales en las obras de construcción. Estudio de seguridad y salud en los proyectos de obra. Plan de seguridad y salud. Libro de Incidencias. Coordinador de seguridad y salud."
+   },
+   {
+    "numero": 52,
+    "titulo": "Demoliciones y excavaciones. Tipos y soluciones. Medidas de seguridad. Técnicas de Intervención."
+   },
+   {
+    "numero": 53,
+    "titulo": "Criterios de conservación y mantenimiento de los edificios. Libro del edificio. Medidas preventivas de conservación y mantenimiento."
+   },
+   {
+    "numero": 54,
+    "titulo": "Patologías en estructuras: tipos, características, causas y efectos. Medidas de prevención y tratamiento."
+   },
+   {
+    "numero": 55,
+    "titulo": "Patologías en cerramientos y cubiertas de los edificios. Tipos, características, causas y efectos. Medidas de prevención y tratamiento."
+   },
+   {
+    "numero": 56,
+    "titulo": "Edificios educativos en la Comunidad Autónoma de Aragón. Requisitos mínimos de los centros que impartan las enseñanzas del primer y segundo ciclo de la educación infantil, la educación primaria, la educación secundaria y enseñanzas de régimen especial. Normativa de aplicación. Criterios generales para la construcción de centros docentes públicos."
+   },
+   {
+    "numero": 57,
+    "titulo": "Normativa Básica de Instalaciones y Equipamientos Deportivos. Las normas de proyecto y reglamentarias de la normativa sobre instalaciones deportivas y para el esparcimiento (NIDE) del Consejo Superior de Deportes. El estudio de viabilidad de la gestión, mantenimiento sostenible de las mismas."
+   },
+   {
+    "numero": 58,
+    "titulo": "Legislación que regula la celebración de los espectáculos públicos y actividades recreativas de carácter ocasional y extraordinario y se establecen medidas para la mejora de la convivencia en la celebración de los espectáculos públicos y de las actividades recreativa."
+   },
+   {
+    "numero": 59,
+    "titulo": "Equipamientos sanitarios en la Comunidad Autónoma de Aragón. Requisitos técnicos complementarios para la autorización de centros y servicios sanitarios en la Comunidad Autónoma de Aragón. Normativa de aplicación."
+   },
+   {
+    "numero": 60,
+    "titulo": "Reglamento sobre protección de la salud contra los riesgos derivados de la exposición a las radiaciones ionizantes. Requisitos sanitarios para la prevención y control de la legionelosis"
+   },
+   {
+    "numero": 61,
+    "titulo": "Edificios de servicios sociales en la Comunidad Autónoma de Aragón. Condiciones técnicas especiales exigibles. Normativa de aplicación."
+   },
+   {
+    "numero": 62,
+    "titulo": "Establecimientos turísticos en la Comunidad Autónoma de Aragón. Requisitos técnicos en alojamientos turísticos: hoteleros y complejos balnearios, casas rurales, alojamientos turísticos al aire libre y alojamientos turísticos singulares. Normativa de aplicación."
+   },
+   {
+    "numero": 63,
+    "titulo": "Gestión del patrimonio cultural en el territorio. Figura de los Parques Culturales. Normativa en Aragón."
+   },
+   {
+    "numero": 64,
+    "titulo": "Legislación sobre el Patrimonio Histórico Español. Los Planes Nacionales de Patrimonio Cultural: catedrales. Patrimonio industrial. Arquitectura tradicional. Arquitectura contemporánea. Arquitectura defensiva."
+   },
+   {
+    "numero": 65,
+    "titulo": "Legislación de Patrimonio Cultural Aragonés: bienes que integran el Patrimonio Cultural Aragonés. Clases. Régimen general de protección y conservación."
+   },
+   {
+    "numero": 66,
+    "titulo": "Legislación de Patrimonio Cultural Aragonés: patrimonio etnográfico e industrial. Patrimonio paleontológico y arqueológico. Organización, medidas financieras y régimen sancionador."
+   },
+   {
+    "numero": 67,
+    "titulo": "Criterios y metodología de conservación del Patrimonio Cultural. Cartas y Convenciones Internacionales."
+   },
+   {
+    "numero": 68,
+    "titulo": "Valor de mercado. Diferencia entre precio y valor. Mercados inmobiliarios urbanos de suelo, vivienda y otros usos. Factores que intervienen en la evolución del valor de la construcción y de la vivienda. Intervención administrativa en el mercado inmobiliario del suelo y vivienda."
+   },
+   {
+    "numero": 69,
+    "titulo": "Métodos de valoración inmobiliaria. Formas de valorar un inmueble, valor del suelo, valor de la construcción y derechos reales. Módulo unitario básico y aspectos de apreciación y depreciación con incidencia en el valor del inmueble, formas de obtención y fuente de procedencia de estos valores."
+   },
+   {
+    "numero": 70,
+    "titulo": "Valoraciones en el ámbito urbanístico: reparcelaciones, expropiaciones y justiprecio en el marco de la legislación urbanística de Aragón. Reglamento de valoración del suelo: valoración del suelo en situación de suelo rural, en situación de suelo urbanizado, indemnizaciones y gastos de urbanización."
+   },
+   {
+    "numero": 71,
+    "titulo": "Valoraciones a efectos de liquidación de los impuestos gestionados por la Administración Tributaria de Aragón. Valoraciones catastrales. El valor catastral y el valor de referencia de Catastro. Mapas de valores y Resolución de la Dirección General del Catastro sobre elementos precisos para la determinación de los valores de referencia de los inmuebles urbanos."
+   },
+   {
+    "numero": 72,
+    "titulo": "Legislación en materia de contratos del sector público: de los distintos tipos de contratos de las Administraciones Públicas. Del contrato de obras y del contrato de servicios."
+   },
+   {
+    "numero": 73,
+    "titulo": "Legislación en materia de contratos del sector público: de los requisitos para contratar con la administración: capacidad y solvencia de las empresas. Clasificación y registro de las empresas. Disposiciones sobre la revisión de precios."
+   },
+   {
+    "numero": 74,
+    "titulo": "Libro Verde de contratación pública en la UE. Uso estratégico de la contratación: contratación pública ecológica aragonesa de obras y servicios."
+   },
+   {
+    "numero": 75,
+    "titulo": "Incorporación de la metodología BIM en la contratación pública. El plan de ejecución BIM. Conceptos generales y aplicación en las fases de proyecto, obra y mantenimiento. Creación y uso de gemelos digitales. Inteligencia Artificial en del diseño arquitectónico con BIM."
+   }
+  ]
+ }
+]
