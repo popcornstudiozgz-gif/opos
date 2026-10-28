@@ -76,6 +76,29 @@ export const DGA = {
    * bases de diciembre de 2025 (BOA núm. 247, de 23-12-2025, base 6).
    */
   pruebas: {
+    /**
+     * Cuerpo de Funcionarios Superiores (A1) convocado en el mismo BOA núm.
+     * 247 (Resolución de 19-12-2025), bases 6.2-6.3 y 8.1-8.2. No vale para
+     * Administradores Superiores, que tienen convocatoria propia (BOA 35/2026).
+     */
+    superioresA1: [
+      {
+        id: "primer-ejercicio", icono: "📝", numero: 1,
+        nombre: "Primer ejercicio (teórico)",
+        formato: "Test",
+        duracion: "2 horas",
+        opciones: "100 preguntas + 10 de reserva, 4 alternativas, 1 válida",
+        detalle: "Se califica de 0 a 100 puntos y hay que sacar al menos 50. Cada acierto suma 1 punto, cada error resta 0,3333 y las preguntas en blanco no penalizan.",
+      },
+      {
+        id: "segundo-ejercicio", icono: "📋", numero: 2,
+        nombre: "Segundo ejercicio (práctico)",
+        formato: "Preguntas cortas sobre supuestos + informe o dictamen",
+        duracion: "3 horas",
+        opciones: "30 preguntas cortas sobre un máximo de 3 supuestos",
+        detalle: "Primera parte (0-30 puntos, mínimo 15): preguntas cortas sobre los supuestos. Segunda parte (0-10 puntos, mínimo 5): un informe, dictamen o análisis. Se pueden usar libros y textos propios, y un ordenador o tableta sin conexión a internet. Se lee ante el tribunal.",
+      },
+    ],
     /** Cuerpo de Funcionarios Técnicos (A2), bases 6.2-6.3 y 8.1-8.2. */
     tecnicosA2: [
       {

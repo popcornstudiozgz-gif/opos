@@ -1,0 +1,262 @@
+[
+ {
+  "bloque": "Parte primera",
+  "temas": [
+   {
+    "numero": 1,
+    "titulo": "La Constitución española: estructura y título preliminar. La Administración pública en la Constitución. Organización territorial del Estado en la Constitución: principios generales y Administración local."
+   },
+   {
+    "numero": 2,
+    "titulo": "La Ley para la igualdad efectiva de mujeres y hombres: el principio de igualdad y la tutela contra la discriminación."
+   },
+   {
+    "numero": 3,
+    "titulo": "La Ley de Prevención y Protección Integral a las Mujeres Víctimas de Violencia en Aragón: disposiciones generales y medidas de protección y apoyo a las víctimas. El Plan de Igualdad para empleadas y empleados del Ayuntamiento de Zaragoza."
+   },
+   {
+    "numero": 4,
+    "titulo": "El Estatuto de Autonomía de Aragón: título preliminar, aspectos básicos de la organización institucional de la Comunidad Autónoma y clases de competencias."
+   },
+   {
+    "numero": 5,
+    "titulo": "La Ley del Procedimiento Administrativo Común de las Administraciones Públicas: disposiciones sobre el procedimiento administrativo común (iniciación, ordenación, instrucción, finalización y ejecución)."
+   },
+   {
+    "numero": 6,
+    "titulo": "Los contratos del sector público: delimitación de los tipos contractuales. Competencias en materia de contratación en las Entidades Locales. Normas específicas de contratación pública en las Entidades Locales. Los bienes de las entidades locales: bienes de dominio público y bienes patrimoniales."
+   },
+   {
+    "numero": 7,
+    "titulo": "La actividad de las entidades Locales. Policía. El fomento. El servicio público local y sus formas de gestión."
+   },
+   {
+    "numero": 8,
+    "titulo": "La Ley reguladora de las Haciendas Locales: los recursos de las haciendas municipales y el presupuesto de los municipios (contenido, aprobación y ejecución)."
+   },
+   {
+    "numero": 9,
+    "titulo": "El municipio: territorio y población. La Ley de régimen especial del municipio de Zaragoza como capital de Aragón: disposiciones generales, especialidades en materia de organización y en materia procedimental."
+   },
+   {
+    "numero": 10,
+    "titulo": "Los empleados públicos: clases. Derechos y deberes. Adquisición y pérdida de la relación de servicio, situaciones administrativas y régimen disciplinario."
+   },
+   {
+    "numero": 11,
+    "titulo": "Peculiaridades del régimen de los empleados públicos de las entidades locales. Estructura de la función pública local."
+   },
+   {
+    "numero": 12,
+    "titulo": "La Ley de Prevención de Riesgos laborales: objeto y carácter de la norma, derecho a la protección frente a los riesgos laborales, servicios de prevención."
+   }
+  ]
+ },
+ {
+  "bloque": "Parte segunda",
+  "temas": [
+   {
+    "numero": 13,
+    "titulo": "Gestión del conocimiento en las Administraciones Públicas. El impacto de las nuevas tecnologías. La administración electrónica. Ordenanza Administración Electrónica en el Ayuntamiento de Zaragoza"
+   },
+   {
+    "numero": 14,
+    "titulo": "Sistemas de información para la gestión. La información como recurso para la Administración Pública. el archivo electrónico, expediente y documento electrónico. Seguridad de la información: Ciberseguridad y protección de datos de carácter personal. Aplicación de las tecnologías de la información a los sistemas de información."
+   },
+   {
+    "numero": 15,
+    "titulo": "Concepto de calidad. Modelos estándar de calidad: Normas ISO. El modelo EFQM de excelencia. Aplicación en la Administración Pública. Análisis comparativo entre los diferentes modelos."
+   },
+   {
+    "numero": 16,
+    "titulo": "Aplicaciones para productividad personal. Ofimática (procesadores de texto, hojas de cálculo, presentaciones y otras) implementación LibreOffice. Herramientas de trabajo cooperativo (mensajería instantánea, correo electrónico y otras). Navegadores (Mozilla Firefox, Google Chrome, Edge): características, diferencias."
+   }
+  ]
+ },
+ {
+  "bloque": "Parte tercera",
+  "temas": [
+   {
+    "numero": 17,
+    "titulo": "Instalaciones eléctricas de Alta Tensión: Líneas aéreas y subterráneas. Diseño y dimensionamiento. Normativa aplicable. Legalización y puesta en servicio. Revisiones e inspecciones. Especial referencia al municipio de Zaragoza."
+   },
+   {
+    "numero": 18,
+    "titulo": "Instalaciones eléctricas de Alta Tensión: Centros de transformación. Diseño y dimensionamiento. Normativa aplicable. Legalización y puesta en servicio. Revisiones e inspecciones. Especial referencia al municipio de Zaragoza."
+   },
+   {
+    "numero": 19,
+    "titulo": "Instalaciones eléctricas de baja tensión: Redes de distribución y acometidas. Diseño y dimensionamiento. Normativa aplicable. Legalización y puesta en servicio. Revisiones e inspecciones. Especial referencia al municipio de Zaragoza."
+   },
+   {
+    "numero": 20,
+    "titulo": "Instalaciones eléctricas de baja tensión: instalaciones eléctricas en edificios y equipamientos. Diseño y dimensionamiento. Normativa aplicable. Legalización y puesta en servicio. Revisiones e inspecciones."
+   },
+   {
+    "numero": 21,
+    "titulo": "Instalaciones eléctricas de baja tensión: instalaciones eléctricas en locales de pública concurrencia. Diseño y dimensionamiento. Normativa aplicable. Legalización y puesta en servicio. Revisiones e inspecciones. Especial referencia al municipio de Zaragoza."
+   },
+   {
+    "numero": 22,
+    "titulo": "Instalaciones eléctricas de baja tensión: instalaciones eléctricas en locales mojados y húmedos, fuentes, piscinas e instalaciones temporales. Diseño y dimensionamiento. Normativa aplicable. Legalización y puesta en servicio. Revisiones e inspecciones. Especial referencia al municipio de Zaragoza."
+   },
+   {
+    "numero": 23,
+    "titulo": "Coste energético de la electricidad y del gas. Sistemas de tarifas energéticas. Gestión energética. Auditoria energética"
+   },
+   {
+    "numero": 24,
+    "titulo": "Redes de distribución de gas natural en el municipio de Zaragoza: Diseño y dimensionado. Acometidas de gas natural e instalaciones receptoras. Diseño y dimensionado. Normativa aplicable. Legalización y puesta en servicio. Revisiones e inspecciones. Especial referencia al municipio de Zaragoza."
+   },
+   {
+    "numero": 25,
+    "titulo": "Instalaciones interiores de gas. Diseño y dimensionado. Normativa aplicable. Legalización y puesta en servicio. Revisiones e inspecciones. Especial referencia al municipio de Zaragoza."
+   },
+   {
+    "numero": 26,
+    "titulo": "Instalaciones de suministro de gas. Diseño y dimensionado. Normativa aplicable. Legalización y puesta en servicio. Revisiones e inspecciones. Especial referencia al municipio de Zaragoza."
+   },
+   {
+    "numero": 27,
+    "titulo": "Magnitudes y unidades fotométricas. Fuentes de luz, luminarias, equipos eléctricos auxiliares, elementos de soporte, eficiencia energética. Normativa aplicable."
+   },
+   {
+    "numero": 28,
+    "titulo": "Instalaciones de alumbrado interior y exterior de edificios y de equipamientos deportivos. Fuentes de luz, luminarias y equipos auxiliares. Diseño y dimensionado. Cálculos eléctricos y luminotécnicos. Legalización y puesta en servicio. Revisiones e inspecciones. Normativa aplicable. Especial referencia al municipio de Zaragoza."
+   },
+   {
+    "numero": 29,
+    "titulo": "Instalaciones de alumbrado público. Fuentes de luz, luminarias y equipos auxiliares. Diseño y dimensionado. Cálculos eléctricos y luminotécnicos. Legalización y puesta en servicio. Revisiones e inspecciones. Normativa aplicable. Especial referencia al municipio de Zaragoza."
+   },
+   {
+    "numero": 30,
+    "titulo": "Ruidos y vibraciones. Diseño y dimensionado. Normativa aplicable: Código Técnico de la Edificación: DB HR Protección frente al ruido, Ordenanza para la Protección contra Ruidos y Vibraciones en el Término Municipal de Zaragoza, Seguridad y Salud."
+   },
+   {
+    "numero": 31,
+    "titulo": "Autorizaciones en Vía Pública: Ocupación de dominio público por empresas de servicios. Condiciones generales de estética y de las fachadas. Criterios municipales para la ubicación de servicios en vías urbanas."
+   },
+   {
+    "numero": 32,
+    "titulo": "Espectáculos Públicos, Actividades Recreativas y Establecimientos Públicos: Normativa. Objeto y ámbito de aplicación. Autorizaciones y licencias. Ordenanza Municipal de distancias mínimas y zonas saturadas."
+   },
+   {
+    "numero": 33,
+    "titulo": "Contaminantes primarios y secundarios. Sanidad ambiental: guías y normas de calidad del aire. Efectos de la contaminación atmosférica sobre la salud y el ecosistema. Redes de control de la contaminación atmosférica. Ordenanza municipal de Protección del Medio Ambiente Atmosférico."
+   },
+   {
+    "numero": 34,
+    "titulo": "Evacuación de aguas residuales en edificios. Elementos integrantes, características, diseño, dimensionado, equipos de presión, materiales constructivos. Conservación y mantenimiento. Protecciones a tener en cuenta en las fases de diseño, dimensionado y montaje. Inspecciones. Puesta en servicio de las instalaciones. Normativa aplicable. Ordenanza municipal para la ecoeficiencia y calidad de la gestión integral del agua. Especial referencia al municipio de Zaragoza."
+   },
+   {
+    "numero": 35,
+    "titulo": "Agua para consumo humano: criterios de calidad, captación, conducción, tratamiento, potabilización, almacenamiento, distribución, depósitos, cisternas, controles, inspecciones, materiales utilizados. Normativa aplicable. Especial referencia al municipio de Zaragoza."
+   },
+   {
+    "numero": 36,
+    "titulo": "Suministro de agua en edificios y agua caliente sanitaria (acs). Elementos integrantes, características, diseño, dimensionado, equipos de presión, materiales constructivos. Conservación y mantenimiento. Protecciones a tener en cuenta en el diseño, dimensionado y montaje. Inspecciones. Puesta en servicio de las instalaciones. Normativa aplicable. Especial referencia al municipio de Zaragoza."
+   }
+  ]
+ },
+ {
+  "bloque": "Parte cuarta",
+  "temas": [
+   {
+    "numero": 37,
+    "titulo": "Residuos urbanos: normativa. Recogida mecanizada y selectiva. Medios y funcionamiento. Clasificación, tratamiento y eliminación. Residuos industriales y peligrosos. Normativa aplicable. Tipos de tratamiento."
+   },
+   {
+    "numero": 38,
+    "titulo": "Limpieza pública urbana. Modalidades de limpieza y medios utilizados. Programación. Ordenanza municipal de limpieza pública, recogida y tratamiento de Residuos Sólidos."
+   },
+   {
+    "numero": 39,
+    "titulo": "Seguridad en caso de incendio en edificios de uso no industrial: concepto, diseño y dimensionado. Instalaciones contra incendios, puesta en servicio, inspecciones y revisiones. Normativa aplicable. Especial referencia al municipio de Zaragoza."
+   },
+   {
+    "numero": 40,
+    "titulo": "Seguridad en caso de incendio en edificios de uso industrial: concepto, diseño y dimensionado. Instalaciones contra incendios, puesta en servicio, inspecciones y revisiones. Normativa aplicable. Especial referencia al municipio de Zaragoza."
+   },
+   {
+    "numero": 41,
+    "titulo": "Reglamento de instalaciones de protección contra incendios y Ordenanza municipal de protección contra Incendios de Zaragoza: Concepto, disposiciones generales, características y estructuras. Puesta en servicio de instalaciones, revisiones e inspecciones."
+   },
+   {
+    "numero": 42,
+    "titulo": "Real Decreto 393/2007, de 23 de marzo, por el que se aprueba la Norma Básica de Autoprotección de los centros, establecimientos y dependencias dedicados a actividades que puedan dar origen a situaciones de emergencia y modificaciones posteriores."
+   },
+   {
+    "numero": 43,
+    "titulo": "Plan Municipal de Protección Civil de Zaragoza. Promoción de la Autoprotección. Organización Local de Protección Civil."
+   },
+   {
+    "numero": 44,
+    "titulo": "Características básicas del tráfico. Conceptos de intensidad, composición, velocidad, capacidad y niveles de servicio. Relación entre dichas características y factores que les afectan. Capacidad en circulación discontinua, cálculo de la capacidad y niveles de servicio."
+   },
+   {
+    "numero": 45,
+    "titulo": "Señalización vertical y horizontal. Ordenación de la circulación de peatones. Política general de estacionamiento. Regulación semafórica. Cálculo del ciclo y reparto. Reguladores y detectores. Diagramas espaciostiempos."
+   },
+   {
+    "numero": 46,
+    "titulo": "Ordenanza General de Tráfico. Concesión, señalización y tramitación de reservas de estacionamiento en la vía pública. Normas sobre circulación, estacionamiento y obras en la vía pública."
+   },
+   {
+    "numero": 47,
+    "titulo": "Aparatos elevadores para transporte de personas en edificios municipales: Diseño y dimensionado, tipos, elementos constitutivos, puesta en servicio. Conservación, mantenimiento e inspección de las instalaciones. Normativa aplicable"
+   },
+   {
+    "numero": 48,
+    "titulo": "Instalaciones Térmicas en los Edificios: Disposiciones generales, exigencias técnicas, ejecución, puesta en servicio e inspección de las instalaciones. Empresas instaladoras y mantenedoras. Puesta en servicio, inspecciones y revisiones. Normativa aplicable."
+   },
+   {
+    "numero": 49,
+    "titulo": "Instalaciones Térmicas en los Edificios, Instrucciones Técnicas: Diseño, dimensionado y montaje. Normativa aplicable"
+   },
+   {
+    "numero": 50,
+    "titulo": "Instalaciones Térmicas en los Edificios, Instrucciones Técnicas: Montaje, mantenimiento, conservación y utilización. Obligaciones del propietario y del conservador. Normativa aplicable"
+   },
+   {
+    "numero": 51,
+    "titulo": "Eficiencia energética: Auditoria energética de edificios e instalaciones. Referencia a las municipales. Organización de la gestión energética: Áreas de actuación, programas y planes. Normativa aplicable"
+   },
+   {
+    "numero": 52,
+    "titulo": "La legislación de protección de datos de carácter personal: La Directiva 95/46/CE. La Ley Orgánica de Protección de Datos de carácter Personal. Reglamento de medidas de seguridad de los ficheros automatizados que contengan datos de carácter personal. La Agencia de Protección de Datos. Normativa aplicable"
+   },
+   {
+    "numero": 53,
+    "titulo": "Actividades clasificadas. Normativa aplicable, Ordenanzas Municipales. Competencias municipales. Autorización Ambiental Integrada. Licencia Ambiental de actividad clasificada. Evaluación de impacto ambiental. Puesta en funcionamiento actividades clasificadas. Cambio de titularidad. Normativa aplicable. La intervención de otros órganos no municipales. Especial referencia al municipio de Zaragoza."
+   },
+   {
+    "numero": 54,
+    "titulo": "La Licencia Urbanística: concepto, naturaleza y carácter. Actos sujetos a licencia. Procedimiento de otorgamiento. Competencias. Tipología. Efectos y extinción. Normativa aplicable. Especial referencia al municipio de Zaragoza."
+   },
+   {
+    "numero": 55,
+    "titulo": "El Urbanismo: concepto. Real Decreto Legislativo 7/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley de Suelo y Rehabilitación Urbana: Disposiciones generales, características y estructura."
+   },
+   {
+    "numero": 56,
+    "titulo": "El Urbanismo en Aragón: Decreto-Legislativo 1/2014, de 8 de julio, del Gobierno de Aragón, por el que se aprueba el Texto Refundido de la Ley de Urbanismo de Aragón: disposiciones generales, características y estructuras, y el Decreto Legislativo 2/2015, de 17 de noviembre, del Gobierno de Aragón, por el que se aprueba el texto refundido de la Ley de Ordenación del Territorio de Aragón."
+   },
+   {
+    "numero": 57,
+    "titulo": "Planeamiento de desarrollo I. Planes Parciales: contenido y procedimiento de iniciativa municipal y procedimiento de iniciativa privada. Reservas del suelo para dotaciones en los planes parciales. Condiciones en el vigente Plan General de Zaragoza."
+   },
+   {
+    "numero": 58,
+    "titulo": "Planeamiento de desarrollo II. Planes Especiales: contenido y clases. Planes independientes. Planes de desarrollo de directrices territoriales. Planes de desarrollo del plan general. Planes especiales de reforma interior. Conjuntos de interés cultural."
+   },
+   {
+    "numero": 59,
+    "titulo": "El Plan General de Ordenación Urbana de Zaragoza y sus Normas Urbanísticas: disposiciones generales, características y estructura."
+   },
+   {
+    "numero": 60,
+    "titulo": "Los Proyectos de Urbanización: concepto, contenido y documentación. Las infraestructuras urbanas. Los Proyectos de Obras Ordinarias."
+   }
+  ]
+ }
+]

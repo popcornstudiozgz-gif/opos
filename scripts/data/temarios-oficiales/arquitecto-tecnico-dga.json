@@ -1,0 +1,232 @@
+[
+ {
+  "bloque": "Materias comunes",
+  "temas": [
+   {
+    "numero": 1,
+    "titulo": "La Constitución Española de 1978: estructura y contenido. Valores superiores y principios inspiradores. El Estado Social y Democrático de Derecho. La Corona. Las Cortes Generales. El Poder Judicial. Derechos y libertades. Deberes de los ciudadanos. Principios rectores de la política social y económica. Garantías. Defensor del Pueblo."
+   },
+   {
+    "numero": 2,
+    "titulo": "La organización territorial del Estado. Gobierno de la Nación y Administración General del Estado. Comunidades Autónomas. Administración Local. Las relaciones entre los entes territoriales. Especial referencia a la comarcalización de Aragón."
+   },
+   {
+    "numero": 3,
+    "titulo": "El Estatuto de Autonomía de Aragón: naturaleza y contenido. Competencias de la Comunidad Autónoma. La reforma del Estatuto. La organización institucional de la Comunidad Autónoma de Aragón. Las Cortes y el Justicia de Aragón."
+   },
+   {
+    "numero": 4,
+    "titulo": "El Presidente y el Gobierno de Aragón. Los Consejeros. La Administración Pública de la Comunidad Autónoma. Los órganos administrativos: su régimen y el ejercicio de las competencias."
+   },
+   {
+    "numero": 5,
+    "titulo": "La Unión Europea. Antecedentes y evolución histórica. Las fuentes del Derecho de la Unión Europea. Las Instituciones de la Unión Europea. La participación de las Comunidades Autónomas en la aplicación del Derecho Comunitario."
+   },
+   {
+    "numero": 6,
+    "titulo": "Ley del Procedimiento Administrativo Común de las Administraciones Públicas: ámbito de aplicación y principios informadores. Los interesados: capacidad y representación. Derechos de los ciudadanos en sus relaciones con las Administraciones Públicas, especial referencia a la administración electrónica. Sujetos obligados a relacionarse electrónicamente con la Administración. Identificación y firma de los interesados. Representación Procedimiento administrativo: las garantías en el desarrollo del procedimiento y las fases de iniciación, ordenación, instrucción y finalización. La transparencia de las Administraciones Públicas y acceso a la información pública."
+   },
+   {
+    "numero": 7,
+    "titulo": "El acto administrativo: concepto, elementos y clases. Requisitos y eficacia de los actos administrativos. Nulidad y anulabilidad. La obligación de la Administración de resolver y notificar Silencio administrativo. Términos y plazos. Sistema de Interconexión de Registros. Notificación electrónica. Revisión de los actos administrativos."
+   },
+   {
+    "numero": 8,
+    "titulo": "La responsabilidad patrimonial de la Administración Pública. Responsabilidad de las autoridades y personal a su servicio."
+   },
+   {
+    "numero": 9,
+    "titulo": "El Estatuto Básico del Empleado Público. El personal funcionario de la Administración de la Comunidad Autónoma de Aragón: clases de empleados públicos, selección, provisión y carrera administrativa. Personal laboral. Integridad y Ética pública. Código de Conducta del personal empleado público. Régimen disciplinario y normativa penal relativa a la función pública."
+   },
+   {
+    "numero": 10,
+    "titulo": "El presupuesto: sus principios. Estructura del presupuesto de la Comunidad Autónoma de Aragón. Los créditos y sus modificaciones. Ejecución del presupuesto. El control presupuestario."
+   }
+  ]
+ },
+ {
+  "bloque": "Materias específicas",
+  "temas": [
+   {
+    "numero": 1,
+    "titulo": "Ley de Ordenación de la Edificación. Objeto y ámbito de aplicación. Requisitos básicos de la edificación. Agentes que intervienen: concepto y obligaciones. Responsabilidades y garantías. Las atribuciones y competencias del arquitecto técnico."
+   },
+   {
+    "numero": 2,
+    "titulo": "Legislación estatal en materia de régimen del suelo. Legislación urbanística en la Comunidad Autónoma de Aragón. Régimen urbanístico del suelo: situaciones, clases y categorías del suelo. Planeamiento urbanístico: instrumentos de planificación urbana. Política urbanística y de suelo. Directriz especial de urbanismo. Norma técnica de planeamiento (NOTEPA)."
+   },
+   {
+    "numero": 3,
+    "titulo": "El Plan General de Ordenación Urbana. Planes parciales. Planes especiales. Otros instrumentos de ordenación urbanística: estudios de detalle, ordenanzas de edificación y de urbanización, la delimitación del suelo urbano en municipios que carezcan de plan general."
+   },
+   {
+    "numero": 4,
+    "titulo": "Gestión urbanística. Alternativas de ejecución de las actuaciones urbanísticas. Aprovechamiento urbanístico. Reparcelación. Sistemas de gestión directa e indirecta. Actuaciones de rehabilitación urbana. Obtención de terrenos dotacionales. Expropiación forzosa."
+   },
+   {
+    "numero": 5,
+    "titulo": "Edificación y uso del suelo. Edificación forzosa. Títulos habilitantes de naturaleza urbanística. Parcelaciones. Deber de conservación. Declaración de ruina. Disciplina urbanística. Régimen urbanístico simplificado. Autorización de construcciones e instalaciones en suelo no urbanizable. Afecciones al dominio público."
+   },
+   {
+    "numero": 6,
+    "titulo": "Instrumentos de política de suelo y vivienda. Patrimonios públicos de suelo. Actuaciones protegidas en materia de vivienda y suelo en Aragón. Planes de vivienda y rehabilitación. La vivienda de protección oficial. Marco legal y normativa de diseño y calidad. Régimen de descalificaciones y régimen sancionador."
+   },
+   {
+    "numero": 7,
+    "titulo": "Valoraciones según la normativa urbanística y expropiatoria. Régimen de las valoraciones urbanísticas. Conceptos y criterios para la realización de las valoraciones. Valoración en situación de suelo rural. Valoración en situación de suelo urbanizado."
+   },
+   {
+    "numero": 8,
+    "titulo": "Métodos de valoración según su finalidad. La valoración inmobiliaria. Valoración catastral y valor de referencia. Valoraciones a efectos tributarios. Valor del suelo. Valoración de construcciones, obras de infraestructura y servicios urbanísticos."
+   },
+   {
+    "numero": 9,
+    "titulo": "Los Sistemas de Información Geográfica (SIG). Definición, componentes, organización, implementación y aplicaciones de un SIG. Las Infraestructuras de Datos Espaciales (IDE) e ICEAragon. Sistema de información urbanística de Aragón (SIUA). Cartografía catastral."
+   },
+   {
+    "numero": 10,
+    "titulo": "El Código Técnico de la Edificación (CTE). Objeto, ámbito de aplicación, contenido del CTE. Documentos reconocidos y registro general del CTE. Condiciones y exigencias básicas que establece. Contenido del proyecto. Documentación del seguimiento de la obra."
+   },
+   {
+    "numero": 11,
+    "titulo": "Demoliciones, trabajos previos y acondicionamiento del terreno. Excavaciones, vaciados, rellenos, gestión del agua, mejora del terreno y anclajes al terreno. Procesos y condiciones de ejecución según el CTE. Sistemas de apeos y apuntalamientos."
+   },
+   {
+    "numero": 12,
+    "titulo": "Cimentaciones en los edificios. Estudios geotécnicos. Tipos de cimentaciones y descripción. Elementos de contención. Requisitos y condiciones constructivas según el CTE. Criterios de diseño y condiciones de ejecución."
+   },
+   {
+    "numero": 13,
+    "titulo": "Acciones en la edificación. Estructuras de hormigón en los edificios. Tipos y descripción. Requisitos y exigencias básicas según la normativa de aplicación. Criterios de diseño y condiciones de ejecución."
+   },
+   {
+    "numero": 14,
+    "titulo": "Estructuras de acero y estructuras mixtas en los edificios. Tipos y descripción. Requisitos y exigencias básicas según la normativa de aplicación. Criterios de diseño y condiciones de ejecución."
+   },
+   {
+    "numero": 15,
+    "titulo": "Estructuras de fábrica y estructuras de madera en los edificios. Tipos de muros y descripción. Sistemas estructurales de madera, uniones. Requisitos y exigencias básicas según el CTE. Criterios de diseño y condiciones de ejecución. Materiales empleados."
+   },
+   {
+    "numero": 16,
+    "titulo": "Salubridad. Requisitos y exigencias básicas de higiene, salud y protección del medio ambiente en los edificios según el CTE. Protección frente a la humedad: muros, suelos, fachadas y cubiertas. Recogida y evacuación de residuos. Calidad del aire interior. Protección frente a la exposición al radón. Criterios de diseño y condiciones de ejecución."
+   },
+   {
+    "numero": 17,
+    "titulo": "Cubiertas en los edificios. Revestimientos y acabados de los edificios. Cerramientos y particiones. Pavimentos. Carpinterías, acristalamientos y elementos de seguridad y protección en los edificios. Tipos y descripción. Requisitos y exigencias básicas según el CTE. Condiciones que han de reunir los materiales y condiciones de ejecución."
+   },
+   {
+    "numero": 18,
+    "titulo": "Confort térmico y ahorro de energía. Estrategias para la reducción de la demanda. Requisitos y exigencias básicas según el CTE. Condiciones de diseño y ejecución. Características exigibles a los productos y a los elementos constructivos. Contribución de las energías renovables en el proceso edificatorio."
+   },
+   {
+    "numero": 19,
+    "titulo": "Eficiencia energética. Indicadores. La calificación de la eficiencia energética de los edificios. Certificación energética de edificios. Normativa de aplicación. Procedimientos para la certificación de edificios. Actuaciones y tramitación. El Registro de Certificación de Eficiencia Energética de Edificios en Aragón."
+   },
+   {
+    "numero": 20,
+    "titulo": "Aislamiento vibroacústivo. Conceptos acústicos básicos. Sistemas de aislamiento y absorción. Protección frente al ruido. Requisitos y exigencias básicas según el CTE. Diseño y dimensionado, condiciones de ejecución. Características exigibles a los productos y a los elementos constructivos. Mapas de ruido."
+   },
+   {
+    "numero": 21,
+    "titulo": "Seguridad en caso de incendio. Requisitos y exigencias básicas según el CTE. Resistencia al fuego de los elementos constructivos. Compartimentación, evacuación de ocupantes y señalización. Dotación de instalaciones de protección contra incendios. Intervención de los bomberos. Resistencia al fuego de la estructura. Condiciones de diseño y ejecución. Características exigibles a los productos y a los elementos constructivos."
+   },
+   {
+    "numero": 22,
+    "titulo": "Instalaciones de saneamiento y fontanería en los edificios. Tipos y descripción. Redes de evacuación y subsistemas de ventilación. Redes de suministro de agua fría y agua caliente sanitaria. Elementos que componen las instalaciones. Requisitos y exigencias básicas según el CTE. Criterios de diseño y condiciones de ejecución."
+   },
+   {
+    "numero": 23,
+    "titulo": "Instalaciones eléctricas y de telecomunicaciones en los edificios. Tipos y descripción. Normativa de aplicación. Partes que componen las instalaciones. Criterios de diseño, requisitos y prescripciones técnicas que han cumplir. Condiciones de ejecución."
+   },
+   {
+    "numero": 24,
+    "titulo": "Instalaciones de climatización y ventilación en los edificios. Instalaciones de gas en las viviendas. Normativa de aplicación. Confort térmico y calidad del aire interior. Tipos y descripción. Partes que componen las instalaciones. Requisitos, exigencias y prescripciones que han de cumplir. Condiciones de ejecución."
+   },
+   {
+    "numero": 25,
+    "titulo": "Otras instalaciones en los edificios. Aparatos elevadores. Pararrayos. Instalaciones de protección contra incendios. Normativa de aplicación. Requisitos, exigencias y prescripciones que han de cumplir. Condiciones de ejecución."
+   },
+   {
+    "numero": 26,
+    "titulo": "Rehabilitación, renovación y regeneración urbana. Obras en edificios existentes; análisis, investigaciones previas y trabajos preparatorios. Diagnosis y tratamientos. Contenido específico del proyecto de ejecución. El CTE y la intervención en edificios existentes. Rehabilitación energética de edificios existentes."
+   },
+   {
+    "numero": 27,
+    "titulo": "El uso, conservación y mantenimiento de los edificios. Normativa reguladora. Documentación de la obra ejecutada: el libro del edificio y el libro del edificio existente. Instrucciones de uso, conservación y mantenimiento."
+   },
+   {
+    "numero": 28,
+    "titulo": "Daños y defectos en los edificios. Lesiones, humedades, fisuras y grietas: tipos, características, causas, efectos, prevención y tratamiento. Patologías de la piedra, la madera, obras de fábrica y el hormigón: tipos, características, causas, efectos, prevención y tratamiento. Otros daños y defectos."
+   },
+   {
+    "numero": 29,
+    "titulo": "El control de calidad en las obras de edificación. Normativa de aplicación. Plan de control de calidad. Registro y justificación documental de los controles realizados. Marcado CE, certificaciones de conformidad y otros distintivos de calidad. Las entidades y los laboratorios de control de calidad. El Registro de laboratorios de ensayos y de entidades de control de calidad de la edificación de Aragón."
+   },
+   {
+    "numero": 30,
+    "titulo": "La seguridad y salud en las obras de construcción. Normativa de aplicación. Evaluación y prevención de riesgos. Principios de la acción preventiva. Obligaciones de los agentes intervinientes. El estudio y el estudio básico de seguridad y salud. El coordinador de seguridad y salud. El plan de seguridad y salud en el trabajo. El libro de incidencias. La subcontratación en el sector de la construcción."
+   },
+   {
+    "numero": 31,
+    "titulo": "Accesibilidad universal. La accesibilidad en las infraestructuras, el urbanismo, la edificación y la comunicación. Normativa de regulación. Ámbito de aplicación y definiciones. Diseño y ejecución, medidas de fomento y financiación. Las intervenciones de mejora de la accesibilidad en edificios existentes, obligaciones de las comunidades en régimen de propiedad horizontal."
+   },
+   {
+    "numero": 32,
+    "titulo": "Urbanización y reurbanización: viales, pavimentaciones, redes e instalaciones, jardinería, mobiliario urbano. Tipos y descripción. Prescripciones técnicas y normativa de aplicación. Criterios de diseño y condiciones de ejecución."
+   },
+   {
+    "numero": 33,
+    "titulo": "Normas especiales sobre construcción de infraestructuras y equipamientos; centros sanitarios, asistenciales, docentes, administrativos y culturales. Normativa técnica de aplicación. Criterios de diseño y calidad. Equipamiento, dotaciones e instalaciones. Establecimientos de uso turístico, viviendas de uso turístico."
+   },
+   {
+    "numero": 34,
+    "titulo": "Protección y prevención ambiental. Normativa de aplicación. Impacto medioambiental del proceso edificatorio. Evaluación ambiental estratégica. Evaluación de impacto ambiental. Autorización ambiental integrada. Actividades clasificadas."
+   },
+   {
+    "numero": 35,
+    "titulo": "Gestión de residuos de construcción y demolición. Normativa de aplicación. Obligaciones de los agentes intervinientes en el proceso edificatorio. El estudio de gestión de residuos y el plan de gestión de residuos. Prevención de residuos en obra, reutilización, valorización, tratamiento y eliminación de residuos. Gestión de residuos con amianto."
+   },
+   {
+    "numero": 36,
+    "titulo": "Sostenibilidad en el proceso edificatorio. Análisis del ciclo de vida de los edificios. Impacto climático en la construcción, en el uso y al final de su vida útil. La economía circular en el sector de la edificación."
+   },
+   {
+    "numero": 37,
+    "titulo": "El Patrimonio histórico-artístico y cultural. Normas reguladoras de protección. Bienes que integran el patrimonio cultural aragonés; protección y conservación. Rehabilitación y restauración del patrimonio arquitectónico. Intervenciones en otros bienes inmuebles protegidos. Criterios de intervención en el patrimonio cultural."
+   },
+   {
+    "numero": 38,
+    "titulo": "Norma Básica de Protección Civil. Marco legal y competencial del sistema de protección civil de Aragón. Planificación de protección civil de Aragón. Riesgos de protección civil de acuerdo a la Norma Básica de Protección Civil. Riesgos de protección civil de acuerdo al Plan Territorial de Protección Civil de Aragón."
+   },
+   {
+    "numero": 39,
+    "titulo": "Planes territoriales de protección civil de acuerdo a la legislación autonómica y al plan territorial de protección civil de Aragón. Planes especiales de protección civil de acuerdo a la Norma Básica de Protección Civil y a la legislación autonómica. Planes de autoprotección: contenido, actividades afectadas, aprobación y registro."
+   },
+   {
+    "numero": 40,
+    "titulo": "Ley de contratos del sector público. Delimitación de los tipos contractuales. Partes en el contrato. Solvencia y clasificación de las empresas. Presupuesto base de licitación, valor estimado y precio del contrato. Garantías exigibles."
+   },
+   {
+    "numero": 41,
+    "titulo": "Ley de contratos del sector público. Expedientes de contratación. Expediente de contratación en contratos menores. Pliegos de cláusulas administrativas y de prescripciones técnicas. Procedimientos de adjudicación. Ejecución, modificación suspensión y extinción de los contratos. Cesión de los contratos y subcontratación."
+   },
+   {
+    "numero": 42,
+    "titulo": "El contrato de obras en la Administración. Actuaciones preparatorias del contrato de obras. El proyecto de obras: contenido, supervisión y tramitación. Ejecución del contrato de obra. Comprobación del replanteo. Recepción y plazo de garantía, responsabilidad por vicios ocultos. Obligaciones del contratista durante el plazo de garantía."
+   },
+   {
+    "numero": 43,
+    "titulo": "El abono de la obra de contratación pública. Certificaciones y abonos a cuenta. Mediciones y relaciones valoradas. Obras a tanto alzado y obras con precio cerrado. Revisión de precios en los contratos de obras: procedencia y límites. Procedimiento para la revisión de precios. Relación de materiales básicos y las fórmulas-tipo generales de revisión de precios de los contratos de obras."
+   },
+   {
+    "numero": 44,
+    "titulo": "La modificación de los contratos de obras en la Administración. Modificaciones previstas y no previstas en los pliegos. Precio de las unidades de obra no previstas en el contrato. Variaciones en los plazos de ejecución por modificaciones del proyecto."
+   },
+   {
+    "numero": 45,
+    "titulo": "Modelización informática de edificios y construcciones, metodología BIM; incorporación en la contratación pública. Conceptos generales. Cronología de implantación y evolución. Sistemas de apoyo para la organización y seguimiento de la obra; programas y aplicaciones de diseño asistido por ordenador, planificación de la obra, mediciones y presupuestos, bases de precios."
+   }
+  ]
+ }
+]

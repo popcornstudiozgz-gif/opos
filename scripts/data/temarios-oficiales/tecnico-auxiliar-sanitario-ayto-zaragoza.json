@@ -1,0 +1,172 @@
+[
+ {
+  "bloque": "Parte primera",
+  "temas": [
+   {
+    "numero": 1,
+    "titulo": "La Constitución española: estructura y título preliminar. La Administración pública en la Constitución. Organización territorial del Estado en la Constitución: principios generales y Administración local."
+   },
+   {
+    "numero": 2,
+    "titulo": "La Ley para la igualdad efectiva de mujeres y hombres: el principio de igualdad y la tutela contra la discriminación. El Plan de Igualdad para empleadas y empleados del Ayuntamiento de Zaragoza."
+   },
+   {
+    "numero": 3,
+    "titulo": "El Estatuto de Autonomía de Aragón: título preliminar, aspectos básicos de la organización institucional de la Comunidad autónoma y clases de competencias."
+   },
+   {
+    "numero": 4,
+    "titulo": "La Ley del Procedimiento Administrativo Común de las Administraciones Públicas: disposiciones sobre el procedimiento administrativo común."
+   },
+   {
+    "numero": 5,
+    "titulo": "La Ley de régimen especial del municipio de Zaragoza como capital de Aragón: disposiciones generales, gobierno y administración del municipio de Zaragoza."
+   },
+   {
+    "numero": 6,
+    "titulo": "La Ley reguladora de las Haciendas Locales: enumeración de los recursos de las entidades locales y regulación de los impuestos municipales."
+   },
+   {
+    "numero": 7,
+    "titulo": "Los empleados públicos: clases. Derechos y deberes. Adquisición y pérdida de la relación de servicio, situaciones administrativas y régimen disciplinario."
+   },
+   {
+    "numero": 8,
+    "titulo": "Peculiaridades del régimen de los empleados públicos de las entidades locales. Estructura de la función pública local. La Ley de Prevención de Riesgos laborales: objeto y carácter de la norma, derecho a la protección frente a los riesgos laborales, servicios de prevención."
+   }
+  ]
+ },
+ {
+  "bloque": "Parte segunda",
+  "temas": [
+   {
+    "numero": 9,
+    "titulo": "Introducción a la Salud Pública. Concepto de Salud y enfermedad. Interdisciplinariedad y Salud Pública. Funciones de la Salud Pública. Marco jurídico"
+   },
+   {
+    "numero": 10,
+    "titulo": "Principales problemas de la salud pública actual. Objetivos de Desarrollo sostenible. Agenda 2030. Objetivos y metas en materia de salud. Logros mundiales en materia de salud pública."
+   },
+   {
+    "numero": 11,
+    "titulo": "Determinantes de la Salud. Clasificación. Desigualdades y Salud. Recomendaciones de la Organización Mundial de la Salud."
+   },
+   {
+    "numero": 12,
+    "titulo": "Importancia de la Seguridad Alimentaria en la Salud Pública. Objetivos. Estrategia de Seguridad Alimentaria en la Unión Europea. Reglamentos. Normativa de aplicación."
+   },
+   {
+    "numero": 13,
+    "titulo": "Plan nacional y autonómico de Control de la Cadena alimentaria. Objetivos. Programas. Gestión de Alertas Alimentarias. Agencia Española de Seguridad Alimentaria y Nutrición."
+   },
+   {
+    "numero": 14,
+    "titulo": "Etiquetado de Alimentos y bebidas. Información facilitada al consumidor. Normativa."
+   },
+   {
+    "numero": 15,
+    "titulo": "Métodos de conservación de los alimentos. Almacenamiento no frigorífico y frigorífico de los alimentos. Aditivos alimentarios. Normativa."
+   },
+   {
+    "numero": 16,
+    "titulo": "Contaminantes químicos de los alimentos. Clasificación. Normativa."
+   },
+   {
+    "numero": 17,
+    "titulo": "Contaminantes biológicos de los alimentos. Enfermedades transmitidas por alimentos. Principales agentes causales. Zoonosis parasitarias transmisibles por los alimentos"
+   },
+   {
+    "numero": 18,
+    "titulo": "Toma de muestras de alimentos. Objetivos. Normativa. Planes de muestreo. Técnicas de muestreo. Envases y conservación de muestras. Trazabilidad."
+   },
+   {
+    "numero": 19,
+    "titulo": "Venta y elaboración de alimentos en ferias, establecimientos de venta ambulante o no permanente. Legislación aplicable. Restauración colectiva. Actividades de control. Establecimientos de elaboración, distribución y comercio de comidas preparadas. Principales riesgos. Normativa."
+   },
+   {
+    "numero": 20,
+    "titulo": "Importancia de la Sanidad Ambiental en la Salud Pública. Contaminación Atmosférica. Naturaleza y características de los agentes contaminantes: contaminantes primarios y secundarios. Alérgenos ambientales. Campos electromagnéticos. Riesgos para la salud. Vigilancia de la contaminación atmosférica en la ciudad de Zaragoza."
+   },
+   {
+    "numero": 21,
+    "titulo": "Aguas de consumo humano. Sistemas de potabilización de agua. Decantación. Filtración. Floculación. Desinfección. El abastecimiento de agua de consumo en la ciudad de Zaragoza"
+   },
+   {
+    "numero": 22,
+    "titulo": "Aspectos sanitarios del agua. Control de calidad del agua de consumo humano en la normativa actual. Objetivos. Tipos de análisis. Parámetros. Evaluación de la calidad. Gestión de incumplimientos. Excepciones. El Sistema de Información Nacional de Aguas de Consumo Humano (SINAC)."
+   },
+   {
+    "numero": 23,
+    "titulo": "Legionelosis. Descripción enfermedad y agente causal. Instalaciones de riesgo de legionelosis. Clasificación. Medidas preventivas y Control. Normativa"
+   },
+   {
+    "numero": 24,
+    "titulo": "Aguas recreativas. Piscinas. Aguas de baño. Prevención y Control. Criterios de calidad. Evaluación. Incumplimientos. Normativas. Información a usuarios. Sistemas de información SILOÉ y NÁYADE."
+   },
+   {
+    "numero": 25,
+    "titulo": "Muestreo en aguas de consumo, residuales y superficiales. Tipos de muestras. Técnicas de muestreo. Equipos de muestreo. Envases y Conservación de muestras. Trazabilidad."
+   },
+   {
+    "numero": 26,
+    "titulo": "Aguas residuales. Definición y Tipos. Importancia sanitaria. Sistemas de depuración. Reutilización. Normativas. Referencia a la ciudad de Zaragoza."
+   },
+   {
+    "numero": 27,
+    "titulo": "Cambio climático y salud. Situación actual: datos. Problemas sanitarios derivados del cambio climático. Cumbres de cambio climático. Planes"
+   },
+   {
+    "numero": 28,
+    "titulo": "Plagas y vectores (organismos nocivos): Principales especies, características biológicas relativas a animales urbanos con potencialidad de devenir en plagas."
+   },
+   {
+    "numero": 29,
+    "titulo": "Plagas Urbanas I. Programas de desratización. Plan de actuación. Especies de roedores más frecuentes. Problemática. Prevención y control. Biocidas para control de roedores."
+   },
+   {
+    "numero": 30,
+    "titulo": "Plagas Urbanas II. Programas de desinsectación. Plan de actuación. Especies de artrópodos que constituyen plagas en ciudades. Cucarachas. Chinches. Garrapatas. Pulgas. Mosquitos. Otras especies. Problemática. Prevención y control. Biocidas"
+   },
+   {
+    "numero": 31,
+    "titulo": "Plagas urbanas III. Problemática por la presencia de otras plagas: mosca negra, aves, mosquito tigre, otros... Sistemas de control. Significación sanitaria."
+   },
+   {
+    "numero": 32,
+    "titulo": "Plagas urbanas IV. Servicios de Control de Plagas: requisitos. Norma UNE EN 16636. Certificado CEPA. Reglamentación. Registro Oficial de Establecimientos de Servicios Biocidas."
+   },
+   {
+    "numero": 33,
+    "titulo": "Biocidas. Tipos. Clasificación. Toxicología. Capacitación y cualificación profesional para Biocidas. La etiqueta. la Ficha de Datos de Seguridad (FDS). Normativa."
+   },
+   {
+    "numero": 34,
+    "titulo": "Control de plagas y vectores mediante procedimientos no químicos: Tipos. Indicaciones aplicabilidad y limitaciones. Seguridad. Normas y precauciones generales y específicas aplicables."
+   },
+   {
+    "numero": 35,
+    "titulo": "Riesgos laborales en control de Plagas. Legislación aplicable en materia de seguridad y salud. Normas y procedimientos de seguridad y prevención en el control de plagas : roedores, ácaros, insectos. Equipos de Protección Individual Categorías y usos."
+   },
+   {
+    "numero": 36,
+    "titulo": "Sistemas de Gestión de Calidad. Norma ISO 9001. Política de Calidad, Manual de Calidad y Procedimientos Generales. Enfoque basado en riesgos. Planes de Objetivos, Planes estratégicos, Indicadores, Informes de revisión por la Dirección. Auditorías Internas. Gestión de No Conformidades"
+   },
+   {
+    "numero": 37,
+    "titulo": "Requisitos de los Laboratorios de ensayo acreditados. Norma ISO 17025. Diferencia entre certificación y acreditación. Importancia acreditación Laboratorios de Salud Pública. Organismos de Acreditación."
+   },
+   {
+    "numero": 38,
+    "titulo": "Control de calidad en la Toma de muestras de aguas de consumo y de aguas residuales. Concepto. Sistemática. Planificación. Evaluación."
+   },
+   {
+    "numero": 39,
+    "titulo": "Análisis de aguas residuales: Demanda Química de Oxígeno. Demanda Bioquímica de Oxígeno. Sólidos en Suspensión. Nitrógeno Total. Fósforo Total. Aceites y grasas. Toma de muestras. Envases. Métodos analíticos."
+   },
+   {
+    "numero": 40,
+    "titulo": "Laboratorio de Fisicoquímica. Seguridad frente a riesgos químicos. Normativa. Equipamiento de prevención de riesgos: armarios para reactivos, vitrinas de seguridad, EPI’s. Gestión de residuos."
+   }
+  ]
+ }
+]

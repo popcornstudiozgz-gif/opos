@@ -1072,6 +1072,28 @@ flashcards...) más adelante. **Sin formularios de captación de email.**
   propia fijada por la **rectificación** del BOPZ 196 de 27-08-2026, con
   cuestionario de callejero y 5 pruebas físicas). Los ejercicios comunes
   por cuerpo de la DGA están en `DGA.pruebas` de `sembrar-ficha.mjs`.
+- **Tercera tanda (16 fichas, 28-10-2026):** DGA, cuerpo superior (BOA
+  247/2025, `DGA.pruebas.superioresA1`) — `veterinario-dga` (93),
+  `farmaceutico-dga` (20), `medico-administracion-sanitaria-dga` (15),
+  `economista-dga` (10), `medico-atencion-primaria-dga` (1; OEP 2026: 10);
+  cuerpo técnico — `ingeniero-tecnico-agricola-dga` (41),
+  `ingeniero-tecnico-industrial-dga` (21), `arquitecto-tecnico-dga` (18),
+  `ingeniero-tecnico-forestal-dga` (10); cuerpo auxiliar —
+  `auxiliar-educacion-especial-dga` (35); laborales (BOA 96/2026) —
+  `peon-agrario-dga` (12), `oficial-mantenimiento-dga` (Oficial **Primera**,
+  5: la Segunda no tiene convocatoria en curso). Ayto. —
+  `subinspector-policia-local-ayto-zaragoza` (CONV 6/2026, 11 plazas, base
+  8.4.B del TRBGTL: oral, físicas, psicotécnico y supuesto; rectificada en
+  el BOPZ 196 por la exención del CAF),
+  `ingeniero-tecnico-industrial-ayto-zaragoza` (CONV 2/2026, 4),
+  `tecnico-auxiliar-delineante-ayto-zaragoza` (5) y
+  `tecnico-auxiliar-sanitario-ayto-zaragoza` (4), ambas de CONV 3/2026. Las
+  sanitarias de la DGA/Ayto. **no son del Salud**; el propietario aceptó
+  incluirlas. **Laguna:** en el PDF oficial del programa de Economistas el
+  tema específico 10 no tiene enunciado y al 8 le falta texto (se muestra
+  así). Técnico Auxiliar de Intervención Comunitaria (Ayto., 5 plazas OEP
+  2026) se descartó: sin convocatoria ni temario publicado (la antigua
+  "Sociocultural" no es comparable).
 - Fuentes DGA útiles: buscador oficial de convocatorias
   `aplicaciones.aragon.es/oepc` (por categoría: plazas, plazo, tasa); los
   programas de funcionarios están en PDF sueltos de aragon.es enlazados en

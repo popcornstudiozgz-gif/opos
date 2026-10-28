@@ -1,0 +1,232 @@
+[
+ {
+  "bloque": "Materias comunes",
+  "temas": [
+   {
+    "numero": 1,
+    "titulo": "La Constitución Española de 1978: estructura y contenido. Valores superiores y principios inspiradores. El Estado Social y Democrático de Derecho. La Corona. Las Cortes Generales. El Poder Judicial. Derechos y libertades. Deberes de los ciudadanos. Principios rectores de la política social y económica. Garantías. Defensor del Pueblo."
+   },
+   {
+    "numero": 2,
+    "titulo": "La organización territorial del Estado. Gobierno de la Nación y Administración General del Estado. Comunidades Autónomas. Administración Local. Las relaciones entre los entes territoriales. Especial referencia a la comarcalización de Aragón."
+   },
+   {
+    "numero": 3,
+    "titulo": "El Estatuto de Autonomía de Aragón: naturaleza y contenido. Competencias de la Comunidad Autónoma. La reforma del Estatuto. La organización institucional de la Comunidad Autónoma de Aragón. Las Cortes y el Justicia de Aragón."
+   },
+   {
+    "numero": 4,
+    "titulo": "El Presidente y el Gobierno de Aragón. Los Consejeros. La Administración Pública de la Comunidad Autónoma. Los órganos administrativos: su régimen y el ejercicio de las competencias."
+   },
+   {
+    "numero": 5,
+    "titulo": "La Unión Europea. Antecedentes y evolución histórica. Las fuentes del Derecho de la Unión Europea. Las Instituciones de la Unión Europea. La participación de las Comunidades Autónomas en la aplicación del Derecho Comunitario."
+   },
+   {
+    "numero": 6,
+    "titulo": "Ley del Procedimiento Administrativo Común de las Administraciones Públicas: ámbito de aplicación y principios informadores. Los interesados: capacidad y representación. Derechos de los ciudadanos en sus relaciones con las Administraciones Públicas, especial referencia a la administración electrónica. Sujetos obligados a relacionarse electrónicamente con la Administración. Identificación y firma de los interesados. Representación Procedimiento administrativo: las garantías en el desarrollo del procedimiento y las fases de iniciación, ordenación, instrucción y finalización. La transparencia de las Administraciones Públicas y acceso a la información pública."
+   },
+   {
+    "numero": 7,
+    "titulo": "El acto administrativo: concepto, elementos y clases. Requisitos y eficacia de los actos administrativos. Nulidad y anulabilidad. La obligación de la Administración de resolver y notificar Silencio administrativo. Términos y plazos. Sistema de Interconexión de Registros. Notificación electrónica. Revisión de los actos administrativos."
+   },
+   {
+    "numero": 8,
+    "titulo": "La responsabilidad patrimonial de la Administración Pública. Responsabilidad de las autoridades y personal a su servicio."
+   },
+   {
+    "numero": 9,
+    "titulo": "El Estatuto Básico del Empleado Público. El personal funcionario de la Administración de la Comunidad Autónoma de Aragón: clases de empleados públicos, selección, provisión y carrera administrativa. Personal laboral. Integridad y Ética pública. Código de Conducta del personal empleado público. Régimen disciplinario y normativa penal relativa a la función pública."
+   },
+   {
+    "numero": 10,
+    "titulo": "El presupuesto: sus principios. Estructura del presupuesto de la Comunidad Autónoma de Aragón. Los créditos y sus modificaciones. Ejecución del presupuesto. El control presupuestario."
+   }
+  ]
+ },
+ {
+  "bloque": "Materias específicas",
+  "temas": [
+   {
+    "numero": 1,
+    "titulo": "Las subvenciones en materia de industria, energía y medioambiente. Normativa estatal y de la Comunidad Autónoma de Aragón. Procedimiento de concesión y gestión de subvenciones."
+   },
+   {
+    "numero": 2,
+    "titulo": "La política de desarrollo regional en España. Participación de la Unión Europea y de las Comunidades Autónomas. Instrumentos y estructuras."
+   },
+   {
+    "numero": 3,
+    "titulo": "Las políticas de tecnología, investigación e innovación industrial de la Unión Europea y en España."
+   },
+   {
+    "numero": 4,
+    "titulo": "Transporte por cable. Normativa de la Unión Europea y de la Comunidad Autónoma de Aragón."
+   },
+   {
+    "numero": 5,
+    "titulo": "Legislación estatal y de la Comunidad Autónoma de Aragón en materia de industria. Infraestructura para la calidad industrial. Infraestructura para la seguridad industrial."
+   },
+   {
+    "numero": 6,
+    "titulo": "La gestión medioambiental en la empresa. Instrumentos y programas. Responsabilidad medioambiental."
+   },
+   {
+    "numero": 7,
+    "titulo": "Normativa de Prevención y Protección Ambiental en España y Aragón (I). Evaluación ambiental Estratégica de planes y programas. Evaluación de impacto ambiental de proyectos. Evaluación Ambiental en zonas ambientalmente sensibles."
+   },
+   {
+    "numero": 8,
+    "titulo": "Normativa de Prevención y Protección Ambiental en España y Aragón (II). Autorización Ambiental Integrada. Licencia Ambiental de Actividades Clasificadas."
+   },
+   {
+    "numero": 9,
+    "titulo": "La contaminación de origen industrial (I): la Ley de residuos: producción y gestión de residuos. La gestión integral de residuos en la Comunidad Autónoma de Aragón."
+   },
+   {
+    "numero": 10,
+    "titulo": "La contaminación de origen industrial (II): legislación sobre suelos contaminados. Actividades potencialmente contaminantes del suelo. Calidad del aire y protección de la atmósfera. Sistemas de vertido, depuración."
+   },
+   {
+    "numero": 11,
+    "titulo": "Productos industriales: nuevo marco legislativo. Requisitos aplicables a los productos. Evaluación de la conformidad."
+   },
+   {
+    "numero": 12,
+    "titulo": "Política energética en la Unión Europea, España y Aragón. Planificación energética."
+   },
+   {
+    "numero": 13,
+    "titulo": "El Sector Eléctrico. Normativa reguladora. Actividades de producción, transporte distribución y comercialización. Normativa de aplicación. Tarifas de electricidad."
+   },
+   {
+    "numero": 14,
+    "titulo": "El sector de hidrocarburos. Legislación en la materia. Actividades de producción, transporte, distribución y comercialización. Tarifas de gas natural."
+   },
+   {
+    "numero": 15,
+    "titulo": "Las energías renovables. Normativa de aplicación y su desarrollo en Aragón. Autoconsumo."
+   },
+   {
+    "numero": 16,
+    "titulo": "Eficiencia energética. Normativa de aplicación. Los sistemas de gestión energética, la certificación energética de los edificios y las auditorías energéticas"
+   },
+   {
+    "numero": 17,
+    "titulo": "Código Técnico de la Edificación (I). Documentos Básicos: SI y HR."
+   },
+   {
+    "numero": 18,
+    "titulo": "Código Técnico de la Edificación (II). Documentos Básicos: HE y HS."
+   },
+   {
+    "numero": 19,
+    "titulo": "El Registro Integrado Industrial. Obligaciones y procedimientos de inscripción. Registro Industrial de Aragón."
+   },
+   {
+    "numero": 20,
+    "titulo": "Instalaciones de distribución y utilización de combustibles gaseosos. Procedimientos de puesta en servicio e inspección. Empresas instaladoras, requisitos y habilitaciones."
+   },
+   {
+    "numero": 21,
+    "titulo": "Instalaciones receptoras de gases combustibles. Almacenamiento de G.L.P. y G.N.L. Prescripciones técnicas y normativa de aplicación. Procedimientos de puesta en servicio e inspección."
+   },
+   {
+    "numero": 22,
+    "titulo": "Instalaciones petrolíferas. Prescripciones técnicas y normativa de aplicación. Procedimientos de puesta en servicio, mantenimiento e inspección. Empresas habilitadas."
+   },
+   {
+    "numero": 23,
+    "titulo": "Instalaciones térmicas en los edificios. Prescripciones técnicas y normativa de aplicación. Procedimientos de puesta en servicio, mantenimiento e inspección. Empresas habilitadas"
+   },
+   {
+    "numero": 24,
+    "titulo": "Instalaciones frigoríficas. Prescripciones técnicas y normativa de aplicación. Procedimientos de puesta en servicio, mantenimiento e inspección. Normativa de aplicación y puesta en el mercado de gases fluorados. Empresas habilitadas."
+   },
+   {
+    "numero": 25,
+    "titulo": "Instalaciones y líneas eléctricas de alta tensión. Prescripciones técnicas y normativa de aplicación. Procedimientos de puesta en servicio, mantenimiento e inspección. Empresas habilitadas."
+   },
+   {
+    "numero": 26,
+    "titulo": "Instalaciones y líneas eléctricas de baja tensión. Prescripciones técnicas y normativa de aplicación. Procedimientos de puesta en servicio, mantenimiento e inspección. Empresas habilitadas."
+   },
+   {
+    "numero": 27,
+    "titulo": "Ascensores: normativa, puesta en servicio, modificación, mantenimiento e inspección de los ascensores. Empresas habilitadas."
+   },
+   {
+    "numero": 28,
+    "titulo": "Grúas torre para obras u otras aplicaciones y grúas móviles autopropulsadas: normativa, puesta en servicio, modificación, mantenimiento e inspección. Empresas habilitadas."
+   },
+   {
+    "numero": 29,
+    "titulo": "Equipos a presión. Prescripciones técnicas y normativa de aplicación. Procedimientos de puesta en servicio e inspección. Empresas habilitadas."
+   },
+   {
+    "numero": 30,
+    "titulo": "Almacenamiento de productos químicos. Prescripciones técnicas y normativa de aplicación. Procedimientos de puesta en servicio e inspección."
+   },
+   {
+    "numero": 31,
+    "titulo": "Instalaciones de protección contra incendios. Procedimientos de puesta en servicio e inspección. Empresas habilitadas."
+   },
+   {
+    "numero": 32,
+    "titulo": "Seguridad contra incendios en establecimientos industriales. Procedimientos de puesta en servicio e inspección."
+   },
+   {
+    "numero": 33,
+    "titulo": "Instalaciones radioactivas con fines de diagnóstico médico e industrial. Prescripciones técnicas y normativa de aplicación. Procedimientos de puesta en servicio e inspección."
+   },
+   {
+    "numero": 34,
+    "titulo": "Legislación en materia de ruido y vibraciones. Competencias de la Comunidad Autónoma de Aragón."
+   },
+   {
+    "numero": 35,
+    "titulo": "Instalaciones de telecomunicaciones en edificios. Prescripciones técnicas y normativa de aplicación. Procedimientos de puesta en servicio e inspección."
+   },
+   {
+    "numero": 36,
+    "titulo": "Vehículos automóviles. Prescripciones técnicas y normativa de aplicación sobre homologaciones. Procedimientos de homologación."
+   },
+   {
+    "numero": 37,
+    "titulo": "Reformas de importancia e inspecciones técnicas de vehículos: requisitos. Prescripciones técnicas de las estaciones de inspección técnica de vehículos."
+   },
+   {
+    "numero": 38,
+    "titulo": "Vehículos y contenedores destinados al transporte de mercancías peligrosas y perecederas. Prescripciones técnicas, normativa de aplicación y requisitos técnicos que deben cumplir los vehículos destinados a estos transportes. Procedimientos de puesta en servicio e inspección."
+   },
+   {
+    "numero": 39,
+    "titulo": "Regulación de los instrumentos de medida instalados en vehículos, tacógrafos y limitadores de velocidad."
+   },
+   {
+    "numero": 40,
+    "titulo": "Metrología. La Ley de metrología. Normas de desarrollo. Fases del control metrológico. Instrumentos de medida regulados. Agentes intervinientes."
+   },
+   {
+    "numero": 41,
+    "titulo": "Comercialización y puesta en servicio de las máquinas. Disposiciones mínimas de seguridad y salud para la utilización por los trabajadores de los equipos de trabajo"
+   },
+   {
+    "numero": 42,
+    "titulo": "Reglamentación aplicable a los objetos fabricados con metales preciosos. Requisitos de los productos y de los agentes que intervienen."
+   },
+   {
+    "numero": 43,
+    "titulo": "El uso, conservación y mantenimiento de los edificios. Mantenimiento de las instalaciones generales de los edificios. Normativa de aplicación. Documentación de la obra ejecutada. El libro del edificio. Libros de mantenimiento. Tipos de mantenimientos: el mantenimiento correctivo, preventivo, y predictivo."
+   },
+   {
+    "numero": 44,
+    "titulo": "Normativa de aplicación al control de los riesgos inherentes a los accidentes graves en los que intervengan sustancias peligrosas. Procedimientos. Notificación, planes de emergencia, informe de seguridad. Planes de autoprotección. Inspecciones. Sistema de protección civil en Aragón."
+   },
+   {
+    "numero": 45,
+    "titulo": "Tecnologías de la información y la comunicación. Datos abiertos. Reutilización de la información. El derecho de acceso. Tramitación electrónica. Inteligencia artificial."
+   }
+  ]
+ }
+]
