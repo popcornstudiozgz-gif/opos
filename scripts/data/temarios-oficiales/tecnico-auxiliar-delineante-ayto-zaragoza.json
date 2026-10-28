@@ -1,0 +1,172 @@
+[
+ {
+  "bloque": "Parte primera",
+  "temas": [
+   {
+    "numero": 1,
+    "titulo": "La Constitución española: estructura y título preliminar. La Administración pública en la Constitución. Organización territorial del Estado en la Constitución: principios generales y Administración local."
+   },
+   {
+    "numero": 2,
+    "titulo": "La Ley para la igualdad efectiva de mujeres y hombres: el principio de igualdad y la tutela contra la discriminación. El Plan de Igualdad para empleadas y empleados del Ayuntamiento de Zaragoza."
+   },
+   {
+    "numero": 3,
+    "titulo": "El Estatuto de Autonomía de Aragón: título preliminar, aspectos básicos de la organización institucional de la Comunidad autónoma y clases de competencias."
+   },
+   {
+    "numero": 4,
+    "titulo": "La Ley del Procedimiento Administrativo Común de las Administraciones Públicas: disposiciones sobre el procedimiento administrativo común."
+   },
+   {
+    "numero": 5,
+    "titulo": "La Ley de régimen especial del municipio de Zaragoza como capital de Aragón: disposiciones generales, gobierno y administración del municipio de Zaragoza."
+   },
+   {
+    "numero": 6,
+    "titulo": "La Ley reguladora de las Haciendas Locales: enumeración de los recursos de las entidades locales y regulación de los impuestos municipales."
+   },
+   {
+    "numero": 7,
+    "titulo": "Los empleados públicos: clases. Derechos y deberes. Adquisición y pérdida de la relación de servicio, situaciones administrativas y régimen disciplinario."
+   },
+   {
+    "numero": 8,
+    "titulo": "Peculiaridades del régimen de los empleados públicos de las entidades locales. Estructura de la función pública local. La Ley de Prevención de Riesgos laborales: objeto y carácter de la norma, derecho a la protección frente a los riesgos laborales, servicios de prevención."
+   }
+  ]
+ },
+ {
+  "bloque": "Parte segunda",
+  "temas": [
+   {
+    "numero": 9,
+    "titulo": "El dibujo como medio de expresión gráfica. Técnicas de expresión gráfica en el dibujo y la pintura: enumeración y características básicas. Orígenes y evolución histórica."
+   },
+   {
+    "numero": 10,
+    "titulo": "El dibujo Técnico: Evolución histórica. Normalización. Representación gráfica. Soportes, formatos, escalas y tipos de línea."
+   },
+   {
+    "numero": 11,
+    "titulo": "Geometría: dibujo de formas y resolución de supuestos. Trazado de polígonos y curvas cónicas. Tangencias. Superficies."
+   },
+   {
+    "numero": 12,
+    "titulo": "Tipos de proyecciones: Conceptos generales, clases y correspondencia con los distintos sistemas de representación."
+   },
+   {
+    "numero": 13,
+    "titulo": "Sistema Diédrico y sistema de Planos Acotados. Características generales. Adecuación a las distintas ramas de la Técnica."
+   },
+   {
+    "numero": 14,
+    "titulo": "Sistema Axonométrico y sistema Cónico. Características generales. Perspectivas."
+   },
+   {
+    "numero": 15,
+    "titulo": "Las escalas y la representación gráfica. Conceptos generales. Escalas habituales: clases y adecuación a las distintas ramas de la Delineación."
+   },
+   {
+    "numero": 16,
+    "titulo": "El levantamiento de planos. Toma de datos, tratamiento de la información y representación gráfica. El Croquis como medio de representación gráfica. Acotación del croquis."
+   },
+   {
+    "numero": 17,
+    "titulo": "Acotación: conceptos generales, sistemas de acotación y referencia en las distintas ramas de la Delineación. Acotación en serie, en paralelo, combinada y progresiva."
+   },
+   {
+    "numero": 18,
+    "titulo": "Desarrollo de proyectos de Arquitectura e Ingeniería. Particularidades. Proyecciones, secciones, escalas habituales, acotación y detalles. Mediciones y presupuestos."
+   },
+   {
+    "numero": 19,
+    "titulo": "Levantamientos topográficos: curvas de nivel, rasantes, perfiles longitudinales y transversales, escalas habituales, acotación y detalles. Mediciones y cubicaciones."
+   },
+   {
+    "numero": 20,
+    "titulo": "Diseño gráfico. Evolución histórica. Maquetación. Soportes, formatos, escalas, tipos de línea y tipografía. Edición gráfica, sistemas de reproducción. Reprografía, conceptos generales y evolución histórica. sistemas actuales."
+   },
+   {
+    "numero": 21,
+    "titulo": "Tratamiento de la imagen. Fotografía. Concepto y evolución histórica. Formatos vectoriales y ráster: aplicaciones, tipos de archivo y características."
+   },
+   {
+    "numero": 22,
+    "titulo": "Modelización. Maquetas: materiales, escalas y técnicas. Modelos digitales: software, materiales, texturas e iluminación. Impresión en 3D."
+   },
+   {
+    "numero": 23,
+    "titulo": "El dibujo en la configuración del Proyecto de Arquitectura: Fases del desarrollo planimétrico, contenido básico de cada plano. Escalas, formatos y tratamiento informático."
+   },
+   {
+    "numero": 24,
+    "titulo": "El dibujo en la configuración de Planes de Ordenación y Proyectos de Planificación de Urbanismo: Fases del desarrollo planimétrico, contenido básico de cada plano. Escalas, formatos y tratamiento informático."
+   },
+   {
+    "numero": 25,
+    "titulo": "El dibujo en la configuración del Proyecto de Urbanización e Ingeniería Civil: Fases del desarrollo planimétrico, contenido básico de cada plano. Escalas, formatos y tratamiento informático."
+   },
+   {
+    "numero": 26,
+    "titulo": "El dibujo en la configuración del Proyecto de Ingeniería Industrial. Fases del desarrollo: bocetos, planos de conjunto y despieces. Cortes y secciones. Vistas normalizadas. Perspectivas. Acotación, escalas, formatos y tratamiento informático."
+   },
+   {
+    "numero": 27,
+    "titulo": "Cartografía. Referencias catastrales. Manzanas. Polígonos. Cartografía Digital: Fotografía aérea, restitución, redes y apoyo de campo. Métodos modernos para revisión y edición. La red Topográfica Municipal y las descargas cartográficas en la Sede Electrónica del Ayuntamiento de Zaragoza."
+   },
+   {
+    "numero": 28,
+    "titulo": "Diseño asistido por ordenador. Concepto. Elementos que lo constituyen: hardware y software. Evolución histórica. Principales aplicaciones del mercado. Tipos de archivo. Exportación, importación y tratamiento de datos."
+   },
+   {
+    "numero": 29,
+    "titulo": "Autocad. Conceptos básicos. Menús y herramientas principales. Capas y simbología. Espacios de trabajo. Plantillas y automatización de procesos. Tipos de archivo. Uso de las referencias."
+   },
+   {
+    "numero": 30,
+    "titulo": "Microstation. Conceptos básicos. Menús y herramientas principales. Niveles y simbología. Vistas de trabajo. Plantillas y automatización de procesos. Tipos de archivo. Uso de las referencias."
+   },
+   {
+    "numero": 31,
+    "titulo": "Sistemas de Información Geográfica. Conceptos generales y evolución. Partes integrantes de un SIG. Entorno gráfico: tipos de elementos y soportes cartográficos. Tratamiento de la información: obtención, vinculación y almacenaje de los datos. Georreferenciación. Publicación y accesibilidad de la información."
+   },
+   {
+    "numero": 32,
+    "titulo": "El Trabajo colaborativo: BIM. Conceptos generales. Cronología de implantación y evolución. Dimensiones: del 3D al 7D. Niveles: LOD. Particularidades. Conectividad: modelado, mediciones y valoración. Software existente. Campos de aplicación."
+   },
+   {
+    "numero": 33,
+    "titulo": "El planeamiento como instrumento de la política urbanística. Los diferentes tipos de planes de ordenación."
+   },
+   {
+    "numero": 34,
+    "titulo": "Ordenación urbanística de los municipios. Plan General de Ordenación Urbana: contenido."
+   },
+   {
+    "numero": 35,
+    "titulo": "Edificación y uso del suelo: Normas de directa aplicación."
+   },
+   {
+    "numero": 36,
+    "titulo": "Edificación y uso del suelo: Edificación forzosa."
+   },
+   {
+    "numero": 37,
+    "titulo": "Deber de conservación, órdenes de ejecución e inspecciones periódicas. Declaración de ruina."
+   },
+   {
+    "numero": 38,
+    "titulo": "Los Patrimonios Públicos del Suelo: Áreas de tanteo y retracto."
+   },
+   {
+    "numero": 39,
+    "titulo": "Los Patrimonios Públicos del Suelo: Derecho de superficie."
+   },
+   {
+    "numero": 40,
+    "titulo": "Tributos relacionados con la actividad urbanística y la propiedad del suelo."
+   }
+  ]
+ }
+]

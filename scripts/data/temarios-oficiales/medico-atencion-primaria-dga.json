@@ -1,0 +1,372 @@
+[
+ {
+  "bloque": "Materias comunes",
+  "temas": [
+   {
+    "numero": 1,
+    "titulo": "La Constitución Española de 1978: estructura y contenido. Valores superiores y principios inspiradores. El Estado Social y Democrático de Derecho. La Corona. Las Cortes Generales. El Poder Judicial."
+   },
+   {
+    "numero": 2,
+    "titulo": "Derechos y libertades. Deberes de los ciudadanos. Principios rectores de la política social y económica. Garantías. Defensor del Pueblo."
+   },
+   {
+    "numero": 3,
+    "titulo": "La organización territorial del Estado. El Gobierno de la Nación y la Administración General del Estado. Las Comunidades Autónomas. La Administración Local. Las relaciones entre los entes territoriales. Especial referencia a la comarcalización de Aragón."
+   },
+   {
+    "numero": 4,
+    "titulo": "El Estatuto de Autonomía de Aragón: naturaleza y contenido. Competencias de la Comunidad Autónoma de Aragón. Organización institucional de la Comunidad Autónoma de Aragón."
+   },
+   {
+    "numero": 5,
+    "titulo": "El Presidente y el Gobierno de Aragón. La Administración Pública de la Comunidad Autónoma de Aragón. Los órganos administrativos: su régimen y el ejercicio de las competencias. Las Cortes y el Justicia de Aragón."
+   },
+   {
+    "numero": 6,
+    "titulo": "El procedimiento administrativo: concepto, naturaleza y fines. Ley del Procedimiento Administrativo Común de las Administraciones Públicas: ámbito de aplicación y principios informadores. Los interesados: capacidad y representación. Derechos de los ciudadanos en sus relaciones con las Administraciones Públicas. La transparencia y el acceso a la información pública."
+   },
+   {
+    "numero": 7,
+    "titulo": "El acto administrativo: concepto, elementos y clases. Requisitos y eficacia de los actos administrativos. Nulidad y anulabilidad. El silencio administrativo. Procedimientos de ejecución de los actos administrativos."
+   },
+   {
+    "numero": 8,
+    "titulo": "Fases del procedimiento administrativo: iniciación, ordenación, instrucción y finalización. Revisión de los actos administrativos. El procedimiento sancionador. La responsabilidad patrimonial de las Administraciones Públicas. La responsabilidad de las autoridades y personal a su servicio."
+   },
+   {
+    "numero": 9,
+    "titulo": "El Estatuto Básico del Empleado Público. El personal funcionario de la Administración de la Comunidad Autónoma de Aragón: clases de empleados públicos, selección, provisión y carrera administrativa. Personal laboral. Integridad y ética pública. Código de Conducta del personal empleado público. Régimen disciplinario y normativa penal relativa a la función pública."
+   },
+   {
+    "numero": 10,
+    "titulo": "Protección de datos personales. Marco normativo básico en materia de Prevención de Riesgos Laborales. Derechos y obligaciones. Principios de la acción preventiva. Igualdad de oportunidades entre mujeres y hombres en Aragón. La identidad y expresión de género e igualdad social y no discriminación en la Comunidad Autónoma de Aragón."
+   },
+   {
+    "numero": 11,
+    "titulo": "La financiación de las Comunidades Autónomas. Los Fondos de la Unión Europea. El Presupuesto de la Comunidad Autónoma de Aragón. La Ley de Hacienda de la Comunidad Autónoma de Aragón y Leyes de Presupuestos."
+   },
+   {
+    "numero": 12,
+    "titulo": "El Patrimonio de las Administraciones Públicas. El Patrimonio de la Comunidad Autónoma de Aragón: bienes que lo integran y régimen jurídico."
+   },
+   {
+    "numero": 13,
+    "titulo": "Los contratos del Sector Público: concepto y clases. Los contratos de las Administraciones Públicas: preparación, adjudicación y formalización, ejecución y modificación. Garantías y extinción."
+   },
+   {
+    "numero": 14,
+    "titulo": "La potestad expropiatoria: su justificación. Los sujetos, el objeto y la causa. El procedimiento expropiatorio en general. La indemnización expropiatoria o justo precio."
+   },
+   {
+    "numero": 15,
+    "titulo": "La Unión Europea: objetivos y fundamentos. Los Tratados originarios y modificativos. El Tratado de Lisboa: el Tratado de la Unión y el Tratado de Funcionamiento de la Unión Europea. Las Instituciones de la Unión Europea. Las fuentes del Derecho de la Unión Europea. Las Comunidades Autónomas y el Derecho Comunitario."
+   }
+  ]
+ },
+ {
+  "bloque": "Materias específicas",
+  "temas": [
+   {
+    "numero": 1,
+    "titulo": "Salud Pública. Concepto. Funciones y actividades de salud pública. Niveles de prevención."
+   },
+   {
+    "numero": 2,
+    "titulo": "Sistemas sanitarios. Modelos de sistemas sanitarios. Análisis comparativo. El Sistema Sanitario Español."
+   },
+   {
+    "numero": 3,
+    "titulo": "Demografía sanitaria: concepto. Fuentes de datos demográficos y principales indicadores."
+   },
+   {
+    "numero": 4,
+    "titulo": "Tipos de estudios epidemiológicos. Epidemiología descriptiva y analítica."
+   },
+   {
+    "numero": 5,
+    "titulo": "Valoración integral del paciente anciano. Estado confusional agudo: factores causales, clínica y manejo en el anciano."
+   },
+   {
+    "numero": 6,
+    "titulo": "Síndrome de inmovilidad prolongada en el anciano. Concepto. Valoración. Tratamiento."
+   },
+   {
+    "numero": 7,
+    "titulo": "Incontinencia vesical en el anciano. Tipos. Valoración y diagnóstico clínicos. Manejo terapéutico y asistencial."
+   },
+   {
+    "numero": 8,
+    "titulo": "Úlceras por presión. Etiopatogenia. Clínica. Prevención. Tratamiento."
+   },
+   {
+    "numero": 9,
+    "titulo": "Inestabilidad y caídas en el anciano. Causas y mecanismos de producción. Evaluación del riesgo. Consecuencias. Prevención. Recursos socio-sanitarios para la atención de las personas mayores en Aragón."
+   },
+   {
+    "numero": 10,
+    "titulo": "Enfermedad de Alzheimer. Etiopatogenia. Clínica. Diagnóstico. Tratamiento y manejo asistencial."
+   },
+   {
+    "numero": 11,
+    "titulo": "Enfermedad de Parkinson. Concepto. Etiopatogenia. Clínica. Diagnóstico. Manejo terapéutico."
+   },
+   {
+    "numero": 12,
+    "titulo": "Valoración nutricional de las personas mayores. Características adecuadas de las dietas en el anciano sano y en el enfermo."
+   },
+   {
+    "numero": 13,
+    "titulo": "Demencias en el anciano. Concepto y clínica. Clasificación etiopatogénica."
+   },
+   {
+    "numero": 14,
+    "titulo": "Control de síntomas en el paciente terminal."
+   },
+   {
+    "numero": 15,
+    "titulo": "Enfermedad articular degenerativa. Concepto. patogenia. Clínica. Diagnóstico. Tratamiento."
+   },
+   {
+    "numero": 16,
+    "titulo": "Gota. Concepto. Patogenia. Clínica. Diagnóstico. Tratamiento."
+   },
+   {
+    "numero": 17,
+    "titulo": "Artritis reumatoide. Concepto. Patogenia. Clínica. Diagnóstico y tratamiento."
+   },
+   {
+    "numero": 18,
+    "titulo": "Diabetes mellitus. Concepto. Clasificación. Clínica. Diagnóstico y tratamiento."
+   },
+   {
+    "numero": 19,
+    "titulo": "Complicaciones agudas de la diabetes Hipoglucemia, Cetoacidosis diabética y coma hiperosmolar. Concepto. Tratamiento en atención primaria."
+   },
+   {
+    "numero": 20,
+    "titulo": "Hipertiroidismo. Enfermedad de Graves-Basedow: clínica. Diagnóstico y tratamiento médico."
+   },
+   {
+    "numero": 21,
+    "titulo": "Hipotiroidismo. Etiología. Clínica. Diagnóstico y tratamiento."
+   },
+   {
+    "numero": 22,
+    "titulo": "Trastornos de las glándulas suprarrenales: enfermedad de Addison y Síndrome de Cushing."
+   },
+   {
+    "numero": 23,
+    "titulo": "Fiebre tifoidea. Etiología. Epidemiología. Clínica. Diagnóstico. Profilaxis y tratamiento."
+   },
+   {
+    "numero": 24,
+    "titulo": "Síndrome de inmunodeficiencia adquirida. Etiología. Transmisión. Clínica. Diagnóstico. Pronóstico y tratamiento."
+   },
+   {
+    "numero": 25,
+    "titulo": "Infecciones causadas por legionella. Etiología. Epidemiología. Clínica. Diagnóstico y tratamiento."
+   },
+   {
+    "numero": 26,
+    "titulo": "Métodos de planificación familiar: métodos naturales, químico-farmacológicos y métodos de barrera. Criterios para la elección del método."
+   },
+   {
+    "numero": 27,
+    "titulo": "Diagnóstico precoz del cáncer genital femenino."
+   },
+   {
+    "numero": 28,
+    "titulo": "Infecciones del aparato respiratorio. Neumonías extrahospitalarias: etiología. Clínica. Diagnóstico y tratamiento."
+   },
+   {
+    "numero": 29,
+    "titulo": "Gripe. Concepto. Epidemiología. Clínica. Tratamiento y profilaxis."
+   },
+   {
+    "numero": 30,
+    "titulo": "Tromboembolismo pulmonar. Etiopatogenia. Clínica. Diagnóstico. Tratamiento y profilaxis."
+   },
+   {
+    "numero": 31,
+    "titulo": "Tuberculosis pulmonar. Etiopatogenia. Clínica. Diagnóstico y tratamiento."
+   },
+   {
+    "numero": 32,
+    "titulo": "Enfermedad pulmonar obstructiva crónica. Patogenia. Clínica. Diagnóstico y tratamiento."
+   },
+   {
+    "numero": 33,
+    "titulo": "Asma bronquial. Concepto. Factores etiopatogénicos. Clínica. Diagnóstico y tratamiento."
+   },
+   {
+    "numero": 34,
+    "titulo": "Trastornos de ansiedad y depresión, Tipos. Clínica. Manejo."
+   },
+   {
+    "numero": 35,
+    "titulo": "Litiasis renal. Etiología. Patogenia. Clínica. Diagnóstico y tratamiento."
+   },
+   {
+    "numero": 36,
+    "titulo": "Patología prostática e hipertrofia benigna de próstata. Etiología, patogenia, clínica, diagnóstico y tratamiento."
+   },
+   {
+    "numero": 37,
+    "titulo": "Hipertrofia prostática benigna. Etiología. Patogenia. Clínica. Diagnóstico. Tratamiento."
+   },
+   {
+    "numero": 38,
+    "titulo": "Infecciones del tracto urinario."
+   },
+   {
+    "numero": 39,
+    "titulo": "Ulcera péptica. Etiopatogenia. Clínica. Diagnóstico. Complicaciones y tratamiento médico."
+   },
+   {
+    "numero": 40,
+    "titulo": "Enfermedades inflamatorias del intestino grueso: enfermedad de Crohn y colitis ulcerosa."
+   },
+   {
+    "numero": 41,
+    "titulo": "Pancreatitis aguda y crónica. Etiopatogenia. Clínica. Diagnóstico. Complicaciones y tratamiento médico."
+   },
+   {
+    "numero": 42,
+    "titulo": "Cáncer colorrectal. Clínica. Diagnóstico. Pronóstico y tratamiento."
+   },
+   {
+    "numero": 43,
+    "titulo": "Enfermedades agudas de las vías biliares: colelitiasis, colecistitis y colangitis. Fisiopatología. Clínica. Diagnóstico y tratamiento."
+   },
+   {
+    "numero": 44,
+    "titulo": "Hepatitis crónica. Etiología. Patogenia. Clínica. Diagnóstico. Pronóstico y tratamiento."
+   },
+   {
+    "numero": 45,
+    "titulo": "Tumores hepáticos. Tipos. Clínica. Diagnóstico. Pronóstico. Tratamiento."
+   },
+   {
+    "numero": 46,
+    "titulo": "Hepatopatía alcohólica. Concepto. Epidemiología. Clínica. Pronóstico y tratamiento."
+   },
+   {
+    "numero": 47,
+    "titulo": "Gastroenteritis aguda infecciosa. Etilogía. Epidemiología. Clínica. Diagnóstico y tratamiento."
+   },
+   {
+    "numero": 48,
+    "titulo": "Hipertensión arterial. Prevalencia. Etiología y patogenia. Estudio del paciente hipertenso y tratamiento farmacológico."
+   },
+   {
+    "numero": 49,
+    "titulo": "Infarto agudo de miocardio. Etiología y patogenia. Factores de riesgo. Clínica. Exploración. Complicaciones. Tratamiento."
+   },
+   {
+    "numero": 50,
+    "titulo": "Angina de pecho. Tipos. Diagnóstico. Exploración y tratamiento."
+   },
+   {
+    "numero": 51,
+    "titulo": "Taquiarritmias. Clasificación y tratamiento."
+   },
+   {
+    "numero": 52,
+    "titulo": "Bradiarritmias. Bloqueos auriculoventriculares. Clasificación. Estudio y tratamiento."
+   },
+   {
+    "numero": 53,
+    "titulo": "Insuficiencia cardíaca. Concepto. Etiología. Fisiopatología. Valoración y tratamiento."
+   },
+   {
+    "numero": 54,
+    "titulo": "Infecciones de la piel: bacterianas, micóticas y víricas."
+   },
+   {
+    "numero": 55,
+    "titulo": "Infecciones parasitarias de la piel: escabiosis y pediculosis."
+   },
+   {
+    "numero": 56,
+    "titulo": "Tumores malignos de la piel: carcinoma basocelular. Carcinoma espinocelular. Melanoma."
+   },
+   {
+    "numero": 57,
+    "titulo": "Las vacunaciones. Calendario vacunal. Contraindicaciones. Riesgos y efectos adversos de las vacunas."
+   },
+   {
+    "numero": 58,
+    "titulo": "El examen de salud en edad escolar, especial referencia a la salud bucodental. Problemas de salud del adolescente: diagnóstico y manejo."
+   },
+   {
+    "numero": 59,
+    "titulo": "Parada cardiorrespiratoria. Manejo en atención primaria."
+   },
+   {
+    "numero": 60,
+    "titulo": "Cefaleas. Criterios generales de diagnóstico y actuación en atención primaria."
+   },
+   {
+    "numero": 61,
+    "titulo": "Accidentes cerebrovasculares. Clasificación. Factores de riesgo. Prevención. Diagnóstico. Tratamiento."
+   },
+   {
+    "numero": 62,
+    "titulo": "Trastornos hidroelectrolíticos: sodio, calcio y potasio. Valoración y tratamiento."
+   },
+   {
+    "numero": 63,
+    "titulo": "Manejo del síndrome febril agudo en el adulto. Valoración y actuación."
+   },
+   {
+    "numero": 64,
+    "titulo": "Síndrome meníngeo agudo. Etiología. Diagnóstico y manejo clínico."
+   },
+   {
+    "numero": 65,
+    "titulo": "Dolor torácico agudo. Diagnóstico y manejo en atención primaria."
+   },
+   {
+    "numero": 66,
+    "titulo": "Dolor abdominal agudo. Diagnóstico y manejo en atención primaria."
+   },
+   {
+    "numero": 67,
+    "titulo": "Alteraciones del nivel de conciencia. Estupor y coma. Concepto. Etiología y actitud diagnóstica y terapéutica."
+   },
+   {
+    "numero": 68,
+    "titulo": "Síncope. Etiopatogenia. Clínica. Diagnóstico y tratamiento."
+   },
+   {
+    "numero": 69,
+    "titulo": "Manejo del paciente intoxicado agudo."
+   },
+   {
+    "numero": 70,
+    "titulo": "Tratamiento de urgencias: quemaduras. Electrocución. Congelación. Ahogamiento."
+   },
+   {
+    "numero": 71,
+    "titulo": "Manejo extrahospitalario del paciente politraumatizado."
+   },
+   {
+    "numero": 72,
+    "titulo": "Patología venosa. Tromboflebitis superficial. Trombosis venosa profunda."
+   },
+   {
+    "numero": 73,
+    "titulo": "Patología O.R.L. en atención primaria. Otitis. Sinusitis. Vértigo. Hipoacusia."
+   },
+   {
+    "numero": 74,
+    "titulo": "Patología oltalmológica más frecuente en atención primaria. Diagnóstico diferencial del ojo rojo."
+   },
+   {
+    "numero": 75,
+    "titulo": "El síndrome anémico. Concepto de anemia. Clasificación. Diagnóstico. Principios terapéuticos."
+   }
+  ]
+ }
+]

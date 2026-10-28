@@ -1,0 +1,372 @@
+[
+ {
+  "bloque": "Materias comunes",
+  "temas": [
+   {
+    "numero": 1,
+    "titulo": "La Constitución Española de 1978: estructura y contenido. Valores superiores y principios inspiradores. El Estado Social y Democrático de Derecho. La Corona. Las Cortes Generales. El Poder Judicial."
+   },
+   {
+    "numero": 2,
+    "titulo": "Derechos y libertades. Deberes de los ciudadanos. Principios rectores de la política social y económica. Garantías. Defensor del Pueblo."
+   },
+   {
+    "numero": 3,
+    "titulo": "La organización territorial del Estado. El Gobierno de la Nación y la Administración General del Estado. Las Comunidades Autónomas. La Administración Local. Las relaciones entre los entes territoriales. Especial referencia a la comarcalización de Aragón."
+   },
+   {
+    "numero": 4,
+    "titulo": "El Estatuto de Autonomía de Aragón: naturaleza y contenido. Competencias de la Comunidad Autónoma de Aragón. Organización institucional de la Comunidad Autónoma de Aragón."
+   },
+   {
+    "numero": 5,
+    "titulo": "El Presidente y el Gobierno de Aragón. La Administración Pública de la Comunidad Autónoma de Aragón. Los órganos administrativos: su régimen y el ejercicio de las competencias. Las Cortes y el Justicia de Aragón."
+   },
+   {
+    "numero": 6,
+    "titulo": "El procedimiento administrativo: concepto, naturaleza y fines. Ley del Procedimiento Administrativo Común de las Administraciones Públicas: ámbito de aplicación y principios informadores. Los interesados: capacidad y representación. Derechos de los ciudadanos en sus relaciones con las Administraciones Públicas. La transparencia y el acceso a la información pública."
+   },
+   {
+    "numero": 7,
+    "titulo": "El acto administrativo: concepto, elementos y clases. Requisitos y eficacia de los actos administrativos. Nulidad y anulabilidad. El silencio administrativo. Procedimientos de ejecución de los actos administrativos."
+   },
+   {
+    "numero": 8,
+    "titulo": "Fases del procedimiento administrativo: iniciación, ordenación, instrucción y finalización. Revisión de los actos administrativos. El procedimiento sancionador. La responsabilidad patrimonial de las Administraciones Públicas. La responsabilidad de las autoridades y personal a su servicio."
+   },
+   {
+    "numero": 9,
+    "titulo": "El Estatuto Básico del Empleado Público. El personal funcionario de la Administración de la Comunidad Autónoma de Aragón: clases de empleados públicos, selección, provisión y carrera administrativa. Personal laboral. Integridad y ética pública. Código de Conducta del personal empleado público. Régimen disciplinario y normativa penal relativa a la función pública."
+   },
+   {
+    "numero": 10,
+    "titulo": "Protección de datos personales. Marco normativo básico en materia de Prevención de Riesgos Laborales. Derechos y obligaciones. Principios de la acción preventiva. Igualdad de oportunidades entre mujeres y hombres en Aragón. La identidad y expresión de género e igualdad social y no discriminación en la Comunidad Autónoma de Aragón."
+   },
+   {
+    "numero": 11,
+    "titulo": "La financiación de las Comunidades Autónomas. Los Fondos de la Unión Europea. El Presupuesto de la Comunidad Autónoma de Aragón. La Ley de Hacienda de la Comunidad Autónoma de Aragón y Leyes de Presupuestos."
+   },
+   {
+    "numero": 12,
+    "titulo": "El Patrimonio de las Administraciones Públicas. El Patrimonio de la Comunidad Autónoma de Aragón: bienes que lo integran y régimen jurídico."
+   },
+   {
+    "numero": 13,
+    "titulo": "Los contratos del Sector Público: concepto y clases. Los contratos de las Administraciones Públicas: preparación, adjudicación y formalización, ejecución y modificación. Garantías y extinción."
+   },
+   {
+    "numero": 14,
+    "titulo": "La potestad expropiatoria: su justificación. Los sujetos, el objeto y la causa. El procedimiento expropiatorio en general. La indemnización expropiatoria o justo precio."
+   },
+   {
+    "numero": 15,
+    "titulo": "La Unión Europea: objetivos y fundamentos. Los Tratados originarios y modificativos. El Tratado de Lisboa: el Tratado de la Unión y el Tratado de Funcionamiento de la Unión Europea. Las Instituciones de la Unión Europea. Las fuentes del Derecho de la Unión Europea. Las Comunidades Autónomas y el Derecho Comunitario."
+   }
+  ]
+ },
+ {
+  "bloque": "Materias específicas",
+  "temas": [
+   {
+    "numero": 1,
+    "titulo": "Concepto de salud y Salud Pública. Determinantes de la salud. Principales problemas de Salud Pública en el mundo y en España."
+   },
+   {
+    "numero": 2,
+    "titulo": "Organismos internacionales de Salud. La Salud Pública en el marco de la Unión Europea: principios, desarrollo normativo, planes y programas de acción."
+   },
+   {
+    "numero": 3,
+    "titulo": "Normativa que regula la Salud Pública en España y en la Comunidad Autónoma de Aragón. Plan de Salud de Aragón."
+   },
+   {
+    "numero": 4,
+    "titulo": "Estructura orgánica y funciones del departamento del Gobierno de Aragón con competencias en Salud Pública. Organización y funciones de los Farmacéuticos de Administración Sanitaria en Aragón."
+   },
+   {
+    "numero": 5,
+    "titulo": "Bioestadística. Estadística descriptiva: tipos de variables; medidas de tendencia central, posición y dispersión; tabulación y representación gráfica de variables. Distribuciones de probabilidad. Distribución normal. Fundamentos de estadística inferencial. Fundamentos de muestreo."
+   },
+   {
+    "numero": 6,
+    "titulo": "Concepto, usos y principales actividades de la epidemiología. Medidas de frecuencia y medidas de asociación en epidemiología. Clasificación, características y validez de los estudios epidemiológicos."
+   },
+   {
+    "numero": 7,
+    "titulo": "La epidemiología aplicada al estudio de las enfermedades transmisibles y a las enfermedades crónicas. Vigilancia epidemiológica. Reglamento Sanitario Internacional."
+   },
+   {
+    "numero": 8,
+    "titulo": "Epidemiología de las enfermedades de origen hídrico y alimentario y de las enfermedades transmitidas por vectores. Estudio de brotes epidémicos en Salud Pública."
+   },
+   {
+    "numero": 9,
+    "titulo": "Promoción de la salud. Concepto y enfoques. Métodos y estrategias de la promoción de la salud. Red Aragonesa de proyectos de promoción de la salud."
+   },
+   {
+    "numero": 10,
+    "titulo": "Educación para la salud. Conceptos y objetivos. Modelos de educación para la salud. Programas de educación para la salud en la Comunidad Autónoma de Aragón."
+   },
+   {
+    "numero": 11,
+    "titulo": "La protección de la salud. Actuaciones de protección de la salud en Salud Pública en la Comunidad Autónoma de Aragón."
+   },
+   {
+    "numero": 12,
+    "titulo": "Sistemas de información: definición, importancia sanitaria y principales sistemas de información en Salud Pública."
+   },
+   {
+    "numero": 13,
+    "titulo": "Adicciones. Tipos. Situación actual de las adicciones en España y Aragón. Legislación aplicable. Importancia de la salud comunitaria. Programas de lucha contra las adicciones en Aragón."
+   },
+   {
+    "numero": 14,
+    "titulo": "Trabajo y salud. Protección de los trabajadores contra los riesgos relacionados con la exposición a agentes químicos, físicos y biológicos durante el trabajo. Disposiciones mínimas en materia de señalización de seguridad y salud en el trabajo."
+   },
+   {
+    "numero": 15,
+    "titulo": "Planificación y programación sanitaria: principios generales. Diseño y puesta en marcha de programas sanitarios. Análisis de situación y determinación de prioridades. Fijación de objetivos, actividades y recursos. Evaluación de programas."
+   },
+   {
+    "numero": 16,
+    "titulo": "Alertas en Salud Pública. Organización del Sistema de Atención de Alertas en Salud Pública en la Comunidad Autónoma de Aragón."
+   },
+   {
+    "numero": 17,
+    "titulo": "La protección y seguridad de los consumidores y usuarios. Seguridad general de los productos. Normativa aragonesa en materia de Protección y Defensa de los Consumidores y Usuarios."
+   },
+   {
+    "numero": 18,
+    "titulo": "Revisión sistemática del conocimiento científico. Lectura crítica de la literatura científica."
+   },
+   {
+    "numero": 19,
+    "titulo": "Salud y medio ambiente. Políticas europeas de medio ambiente y salud."
+   },
+   {
+    "numero": 20,
+    "titulo": "La Sanidad Ambiental como estrategia en Salud Pública. Plan Marco de Sanidad Ambiental en la Comunidad Autónoma de Aragón."
+   },
+   {
+    "numero": 21,
+    "titulo": "Calidad sanitaria del agua: fuentes de contaminación y riesgos para la salud."
+   },
+   {
+    "numero": 22,
+    "titulo": "Calidad de las aguas que van a ser destinadas a la producción de agua de consumo. Redes de alerta de calidad de aguas superficiales."
+   },
+   {
+    "numero": 23,
+    "titulo": "Abastecimientos de agua de consumo humano: infraestructuras y tratamientos de potabilización."
+   },
+   {
+    "numero": 24,
+    "titulo": "Criterios sanitarios de la calidad del agua de consumo humano. Normativa. Vigilancia sanitaria."
+   },
+   {
+    "numero": 25,
+    "titulo": "Sistema de Información Nacional del Agua de Consumo."
+   },
+   {
+    "numero": 26,
+    "titulo": "Criterios de calidad del agua de baño. Normativa. Vigilancia sanitaria."
+   },
+   {
+    "numero": 27,
+    "titulo": "Criterios sanitarios y de seguridad de las piscinas. Normativa. Vigilancia sanitaria."
+   },
+   {
+    "numero": 28,
+    "titulo": "Importancia sanitaria y epidemiología de la legionelosis."
+   },
+   {
+    "numero": 29,
+    "titulo": "Instalaciones de riesgo de proliferación y diseminación de legionela. Normativa y vigilancia sanitaria para el control de la legionelosis."
+   },
+   {
+    "numero": 30,
+    "titulo": "Las aguas mineromedicinales en establecimientos balnearios. Normativa. Vigilancia sanitaria."
+   },
+   {
+    "numero": 31,
+    "titulo": "Aguas residuales. Sistemas de evacuación y depuración de aguas residuales. Reutilización de aguas depuradas. Riesgos para la salud."
+   },
+   {
+    "numero": 32,
+    "titulo": "Contaminación química del aire. Calidad ambiental en interiores y exteriores. Riesgos para la salud."
+   },
+   {
+    "numero": 33,
+    "titulo": "Contaminación ambiental física: contaminación acústica y campos electromagnéticos. Riesgos para la salud."
+   },
+   {
+    "numero": 34,
+    "titulo": "Cambio climático y temperaturas extremas. Riesgos para la salud."
+   },
+   {
+    "numero": 35,
+    "titulo": "Contaminación del suelo. Actividades potencialmente contaminantes del suelo. Declaración de suelos contaminados. Riesgos para la salud."
+   },
+   {
+    "numero": 36,
+    "titulo": "Gestión de residuos sólidos urbanos, industriales, peligrosos y sanitarios. Sistemas de gestión. Normativa. Riesgos para la salud."
+   },
+   {
+    "numero": 37,
+    "titulo": "Riesgos sanitarios por exposición a productos químicos. Redes de vigilancia y alerta."
+   },
+   {
+    "numero": 38,
+    "titulo": "Registro, evaluación, autorización y restricción de sustancias químicas."
+   },
+   {
+    "numero": 39,
+    "titulo": "Clasificación, etiquetado y envasado de productos químicos."
+   },
+   {
+    "numero": 40,
+    "titulo": "Agencia Europea de Sustancias y Mezclas Químicas. Fichas de datos de seguridad."
+   },
+   {
+    "numero": 41,
+    "titulo": "Productos biocidas. Normativa. Vigilancia sanitaria."
+   },
+   {
+    "numero": 42,
+    "titulo": "Condiciones para la comercialización y uso de biocidas. Normativa. Vigilancia sanitaria."
+   },
+   {
+    "numero": 43,
+    "titulo": "Política sanitaria mortuoria. Normativa."
+   },
+   {
+    "numero": 44,
+    "titulo": "Bronceado artificial por radiaciones ultravioleta. Normativa. Riesgos sanitarios."
+   },
+   {
+    "numero": 45,
+    "titulo": "La protección ambiental. Actividades sometidas a Autorización Ambiental Integrada. Normativa."
+   },
+   {
+    "numero": 46,
+    "titulo": "Dieta y nutrición. Valores dietéticos de referencia. La gestión de riesgos nutricionales. Planes y estrategias de Seguridad Nutricional y su implementación en Aragón."
+   },
+   {
+    "numero": 47,
+    "titulo": "Seguridad alimentaria. Principios y requisitos generales de la seguridad alimentaria. El control integrado en la cadena alimentaria."
+   },
+   {
+    "numero": 48,
+    "titulo": "Gestión y análisis de riesgos en seguridad alimentaria. Agencias de Seguridad Alimentaria. Redes de alerta."
+   },
+   {
+    "numero": 49,
+    "titulo": "Sistemas de Autocontrol en la cadena alimentaria. Principios, conceptos, implementación y flexibilidad."
+   },
+   {
+    "numero": 50,
+    "titulo": "Planes de control nacional de la cadena alimentaria. Plan autonómico de Control de la Cadena Alimentaria en Aragón."
+   },
+   {
+    "numero": 51,
+    "titulo": "Organización de los controles oficiales en seguridad alimentaria: marcos normativos comunitario, nacional y en Aragón."
+   },
+   {
+    "numero": 52,
+    "titulo": "Principios básicos de la auditoría. Tipos de auditoría en seguridad alimentaria."
+   },
+   {
+    "numero": 53,
+    "titulo": "Autorizaciones y Registros Sanitarios en seguridad alimentaria: tipos, características, normativa y control."
+   },
+   {
+    "numero": 54,
+    "titulo": "Información alimentaria facilitada al consumidor. Declaraciones nutricionales y de propiedades saludables en los alimentos. Normativa y control."
+   },
+   {
+    "numero": 55,
+    "titulo": "Contaminación biótica en los alimentos: enfermedades de transmisión alimentaria, importancia y distribución."
+   },
+   {
+    "numero": 56,
+    "titulo": "Criterios microbiológicos aplicables a los alimentos. Estudios de vida útil."
+   },
+   {
+    "numero": 57,
+    "titulo": "Contaminación abiótica en los alimentos: sistemas de prevención y control de los contaminantes químicos industriales y de procesamiento. Contaminantes físicos y radioactivos."
+   },
+   {
+    "numero": 58,
+    "titulo": "Contaminación abiótica en los alimentos: sistemas de prevención y control de los contaminantes químicos medioambientales: metales pesados, agrícolas, micotoxinas y otras toxinas vegetales."
+   },
+   {
+    "numero": 59,
+    "titulo": "Nuevos alimentos y nuevos ingredientes. Alimentos modificados genéticamente. Normativa, características y control oficial."
+   },
+   {
+    "numero": 60,
+    "titulo": "Complementos alimenticios. Alimentos destinados a grupos específicos de población. Normativa, características y control oficial."
+   },
+   {
+    "numero": 61,
+    "titulo": "Ingredientes tecnológicos: aditivos, enzimas, aromas y coadyuvantes. Procedimiento de autorización y condiciones de uso. Normativa, características y control oficial."
+   },
+   {
+    "numero": 62,
+    "titulo": "Materiales en contacto con alimentos. Normativa, características y control oficial."
+   },
+   {
+    "numero": 63,
+    "titulo": "Normativa y criterios técnico-sanitarios aplicables al control de productos cárnicos, productos de la pesca, huevos y ovoproductos, leche y productos lácteos."
+   },
+   {
+    "numero": 64,
+    "titulo": "Normativa y criterios técnico-sanitarios aplicables al control de miel y productos derivados, azúcares, turrones, mazapanes, harinas y derivados y productos de pastelería."
+   },
+   {
+    "numero": 65,
+    "titulo": "Normativa y criterios técnico-sanitarios aplicables al control de frutas, verduras, hortalizas, setas y derivados, y aceites vegetales comestibles."
+   },
+   {
+    "numero": 66,
+    "titulo": "Normativa y criterios técnico-sanitarios aplicables al control de bebidas alcohólicas, bebidas no alcohólicas y aguas de bebida envasadas."
+   },
+   {
+    "numero": 67,
+    "titulo": "Normativa y criterios técnico-sanitarios aplicables al control de estimulantes y productos derivados, especies vegetales para infusión, condimentos y especias."
+   },
+   {
+    "numero": 68,
+    "titulo": "Normativa y criterios técnico-sanitarios aplicables al control del comercio minorista de alimentos y la venta online. Formación del personal en higiene alimentaria."
+   },
+   {
+    "numero": 69,
+    "titulo": "Normativa y criterios técnico-sanitarios aplicables al control de comidas preparadas y de las actividades de restauración colectiva."
+   },
+   {
+    "numero": 70,
+    "titulo": "Laboratorios de análisis de sanidad ambiental y seguridad alimentaria. Laboratorios de referencia. Organismos de acreditación. Sistemas de garantía de calidad. Laboratorio de Salud Pública en Aragón."
+   },
+   {
+    "numero": 71,
+    "titulo": "La Ordenación Farmacéutica en Aragón y normativa aplicable. El Centro de Farmacovigilancia en Aragón."
+   },
+   {
+    "numero": 72,
+    "titulo": "La autorización y comercialización de medicamentos en España. Agencia Europea de Evaluación de Medicamentos y la Agencia Española del Medicamento. Bases jurídicas, estructura y funciones."
+   },
+   {
+    "numero": 73,
+    "titulo": "Normativa de la receta médica y orden de dispensación. Control de estupefacientes y psicótropos."
+   },
+   {
+    "numero": 74,
+    "titulo": "La función inspectora de las Administraciones Públicas en materia de fabricación y distribución de medicamentos."
+   },
+   {
+    "numero": 75,
+    "titulo": "La función inspectora de las Administraciones Públicas en materia de fabricación de productos sanitarios y cosméticos. El control de los establecimientos sanitarios (ópticas, ortopedias y audioprótesis)."
+   }
+  ]
+ }
+]

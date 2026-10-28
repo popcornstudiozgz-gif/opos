@@ -1,0 +1,92 @@
+[
+ {
+  "bloque": "Materias comunes",
+  "temas": [
+   {
+    "numero": 1,
+    "titulo": "La Constitución Española de 1978: estructura y contenido. Derechos y deberes fundamentales."
+   },
+   {
+    "numero": 2,
+    "titulo": "La organización territorial del Estado: las Comunidades Autónomas. La Administración Local."
+   },
+   {
+    "numero": 3,
+    "titulo": "El Estatuto de Autonomía de Aragón. La organización institucional de la Comunidad Autónoma de Aragón. Las Cortes. El Justicia de Aragón."
+   },
+   {
+    "numero": 4,
+    "titulo": "Los órganos de gobierno y administración de la Comunidad Autónoma de Aragón. El Gobierno de Aragón. La estructura administrativa."
+   },
+   {
+    "numero": 5,
+    "titulo": "El personal de las Administraciones Públicas. Estructura y organización de la Función Pública de la Comunidad Autónoma de Aragón. Derechos y deberes de los funcionarios. Incompatibilidades. Régimen disciplinario."
+   }
+  ]
+ },
+ {
+  "bloque": "Materias específicas",
+  "temas": [
+   {
+    "numero": 1,
+    "titulo": "Relaciones laborales y prevención de riesgos en el entorno laboral. Derechos y deberes del Auxiliar de Educación Especial en los centros educativos."
+   },
+   {
+    "numero": 2,
+    "titulo": "Derechos de las personas con discapacidad. Descripción de buenas prácticas en la intervención con alumnado con diversidad funcional."
+   },
+   {
+    "numero": 3,
+    "titulo": "El alumnado con discapacidad física. Intervención del Auxiliar de Educación Especial."
+   },
+   {
+    "numero": 4,
+    "titulo": "El alumnado con discapacidad intelectual y del desarrollo. Intervención del Auxiliar de Educación Especial."
+   },
+   {
+    "numero": 5,
+    "titulo": "El alumnado con discapacidad sensorial. Intervención del Auxiliar de Educación Especial."
+   },
+   {
+    "numero": 6,
+    "titulo": "Conductas desafiantes en alumnado con discapacidad. Intervención del Auxiliar de Educación Especial."
+   },
+   {
+    "numero": 7,
+    "titulo": "Fortalezas y apoyos necesarios para el alumnado con necesidades educativas especiales en relación con los hábitos de autonomía en la alimentación y el vestido. Intervención del Auxiliar de Educación Especial."
+   },
+   {
+    "numero": 8,
+    "titulo": "Fortalezas y apoyos necesarios para el alumnado con necesidades educativas especiales en relación con los hábitos de autonomía en el control de esfínteres, higiene y aseo personal. Intervención del Auxiliar de Educación Especial."
+   },
+   {
+    "numero": 9,
+    "titulo": "Fortalezas y apoyos necesarios para el alumnado con necesidades educativas especiales en relación con la comunicación. Intervención del Auxiliar de Educación Especial."
+   },
+   {
+    "numero": 10,
+    "titulo": "Intervención del Auxiliar de Educación Especial en el acompañamiento al alumnado con necesidades educativas especiales. Dificultades más habituales, formas de atención, prevención y detección de riesgos para la salud del alumnado."
+   },
+   {
+    "numero": 11,
+    "titulo": "Fortalezas y apoyos necesarios para el alumnado con necesidades educativas especiales en relación con las habilidades de interacción y participación social, tanto en el centro educativo como en actividades complementarias y extraescolares. Intervención del Auxiliar de Educación Especial."
+   },
+   {
+    "numero": 12,
+    "titulo": "Intervención del Auxiliar de Educación Especial en el patio de recreo."
+   },
+   {
+    "numero": 13,
+    "titulo": "La educación inclusiva. Concepto, características e implicaciones en la intervención del Auxiliar de Educación Especial, en centros ordinarios y de educación especial."
+   },
+   {
+    "numero": 14,
+    "titulo": "Ayudas técnicas: cuidado, mantenimiento y uso adecuado por parte del Auxiliar de Educación Especial."
+   },
+   {
+    "numero": 15,
+    "titulo": "Personal docente y personal no docente de atención educativa complementaria de los centros docentes y de educación especial. Colaboración y coordinación del Auxiliar de Educación Especial con profesionales y familias. Documentos de centro."
+   }
+  ]
+ }
+]

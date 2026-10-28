@@ -1,0 +1,257 @@
+[
+ {
+  "bloque": "Parte I",
+  "temas": [
+   {
+    "numero": 1,
+    "titulo": "La Constitución española: estructura y título preliminar. La Administración pública en la Constitución. Organización territorial del Estado en la Constitución: principios generales y Administración local."
+   },
+   {
+    "numero": 2,
+    "titulo": "La Ley para la igualdad efectiva de mujeres y hombres: el principio de igualdad y la tutela contra la discriminación. El II Plan de Igualdad para empleadas y empleados del Ayuntamiento de Zaragoza."
+   },
+   {
+    "numero": 3,
+    "titulo": "La Ley de Prevención y Protección Integral a las Mujeres Víctimas de Violencia en Aragón: medidas de protección y apoyo a las víctimas."
+   },
+   {
+    "numero": 4,
+    "titulo": "El Estatuto de Autonomía de Aragón: título preliminar, organización institucional de la Comunidad Autónoma, la Administración pública en Aragón, competencias de la Comunidad Autónoma."
+   },
+   {
+    "numero": 5,
+    "titulo": "La Ley del Procedimiento Administrativo Común de las Administraciones Públicas: disposiciones sobre el procedimiento administrativo común (iniciación, ordenación, instrucción y finalización)."
+   },
+   {
+    "numero": 6,
+    "titulo": "Los contratos del sector público: delimitación de los tipos contractuales. Competencias en materia de contratación en las Entidades Locales. Normas específicas de contratación pública en las Entidades Locales. Los bienes de las entidades locales: bienes de dominio público y bienes patrimoniales."
+   },
+   {
+    "numero": 7,
+    "titulo": "La actividad de las entidades Locales. Policía. El fomento. El servicio público local y sus formas de gestión."
+   },
+   {
+    "numero": 8,
+    "titulo": "La Ley reguladora de las Haciendas Locales: los recursos de las haciendas municipales, el presupuesto de los municipios (contenido, aprobación y ejecución)."
+   },
+   {
+    "numero": 9,
+    "titulo": "El municipio: territorio y población. La Ley de régimen especial del municipio de Zaragoza como capital de Aragón: disposiciones generales, especialidades en materia de organización y en materia procedimental."
+   },
+   {
+    "numero": 10,
+    "titulo": "Los empleados públicos: clases. Derechos y deberes. Adquisición y pérdida de la relación de servicio, situaciones administrativas y régimen disciplinario."
+   },
+   {
+    "numero": 11,
+    "titulo": "Peculiaridades del régimen de los empleados públicos de las entidades locales."
+   },
+   {
+    "numero": 12,
+    "titulo": "La Ley de Prevención de Riesgos laborales: objeto y carácter de la norma, derecho a la protección frente a los riesgos laborales, servicios de prevención."
+   }
+  ]
+ },
+ {
+  "bloque": "Parte II",
+  "temas": [
+   {
+    "numero": 13,
+    "titulo": "Jerarquía y consenso; iniciativa individual y responsabilidad en los equipos. Liderazgo en los Cuerpos de Policía."
+   },
+   {
+    "numero": 14,
+    "titulo": "Habilidades de mando. El líder. Formación y desarrollo de los grupos. El trabajo en equipo. La capacidad para delegar. La persuasión. La comunicación verbal y no verbal. La escucha activa."
+   },
+   {
+    "numero": 15,
+    "titulo": "Estrategias y habilidades para el mando. Habilidades de gestión y fomento de la motivación en los equipos de trabajo. Gestión del equipo."
+   },
+   {
+    "numero": 16,
+    "titulo": "Técnicas de negociación y resolución de conflictos. Tipología. Estilos de gestión de conflictos y negociación. Ordenanza sobre Transparencia y Libre Acceso a la Información del Ayuntamiento de Zaragoza."
+   },
+   {
+    "numero": 17,
+    "titulo": "El mando en su dimensión social. La ética profesional en el liderazgo de personas. Actuación orientada hacia la comunidad."
+   },
+   {
+    "numero": 18,
+    "titulo": "Estrategias de habilidades sociales y de comunicación en la relación con los responsables políticos, los medios de comunicación y los grupos de interés."
+   },
+   {
+    "numero": 19,
+    "titulo": "La intervención policial: asistencia, preventiva y represiva. Medios y técnicas más frecuentes de utilización. La policía como servicio público: el auxilio al ciudadano. Causas de la intervención. Toma de decisiones. Las diligencias policiales y el informe."
+   },
+   {
+    "numero": 20,
+    "titulo": "La víctima de la delincuencia: concepto y tipología. El tratamiento de la víctima. Los grupos de riesgo: mujeres, menores, tercera edad. Atención policial a las víctimas. Victimización secundaria. Generar espacios para la denuncia. Aspectos relevantes."
+   },
+   {
+    "numero": 21,
+    "titulo": "Aspectos psicológicos de la violencia en grupos de riesgo. Características de personalidad del agresor y de la víctima. La violencia de género: trasfondo psicológico. La violencia contra menores y personas de la tercera edad."
+   },
+   {
+    "numero": 22,
+    "titulo": "El servicio policial como servicio público. Tipos de servicio. Modalidades generales de prestación."
+   },
+   {
+    "numero": 23,
+    "titulo": "La Patrulla Policial: objetivos generales. Tipos de patrullas. Composición, estructura y dependencia."
+   },
+   {
+    "numero": 24,
+    "titulo": "La protección integral y la protección estática."
+   },
+   {
+    "numero": 25,
+    "titulo": "La prevención. Vigilancia en las ciudades. Presencia policial en las calles. Autoprotección durante el servicio."
+   },
+   {
+    "numero": 26,
+    "titulo": "Custodia de personas e ingresos de detenidos en dependencias policiales, detención y entrada y registro en lugar cerrado. La prevención de riesgos laborales en la Policía Local."
+   }
+  ]
+ },
+ {
+  "bloque": "Parte III",
+  "temas": [
+   {
+    "numero": 27,
+    "titulo": "Título Preliminar del Código Penal. De los delitos (Libro I, Título I, Capítulo I). Circunstancias modificativas de la responsabilidad criminal (Libro I, Título I, Capítulo II, III, IV, V y VI). Personas criminalmente responsables de los delitos (Libro I, Título II)."
+   },
+   {
+    "numero": 28,
+    "titulo": "De las penas, sus clases y efectos (Libro I, Título III, Capítulo I). De las medidas de seguridad (Libro I, Título IV, Capítulo I)."
+   },
+   {
+    "numero": 29,
+    "titulo": "Del homicidio y sus formas (Libro II, Título I). De las lesiones (Libro II, Título III). Delitos contra la libertad (Libro II, Título VI)."
+   },
+   {
+    "numero": 30,
+    "titulo": "De las torturas y otros delitos contra la integridad moral (Libro II, Título VII). Delitos contra la libertad e indemnidad sexuales (Libro II, Título VIII)."
+   },
+   {
+    "numero": 31,
+    "titulo": "De la omisión del deber de socorro (Libro II, Título IX). Del allanamiento de morada, domicilio de personas jurídicas y establecimientos abiertos al público (Libro II, Título X, Capítulo II)."
+   },
+   {
+    "numero": 32,
+    "titulo": "Delitos contra el patrimonio y contra el orden socioeconómico: hurtos, robos, extorsión, robo y hurto de uso de vehículos, usurpación, defraudaciones, frustración de la ejecución, insolvencias punibles, alteración de precios en concursos y subastas públicas y daños. Disposiciones comunes. (Libro II, Título XIII, Capítulos I a X)."
+   },
+   {
+    "numero": 33,
+    "titulo": "Delitos relativos a la propiedad intelectual. Delitos relativos a la propiedad industrial. Delitos relativos al mercado y a los consumidores. Delitos de corrupción en los negocios. Disposiciones comunes. (Libro II, Título XIII, Capítulo XI). De los delitos contra los recursos naturales y el medio ambiente (Libro II, Título XVI, Capítulo III)."
+   },
+   {
+    "numero": 34,
+    "titulo": "Delitos contra la salud pública (Libro II, Título XVII, Capítulo III). Delitos contra la seguridad vial (Libro II, Título XVII, Capítulo IV)."
+   },
+   {
+    "numero": 35,
+    "titulo": "Delitos contra la Administración Pública (Libro II, Título XIX)."
+   },
+   {
+    "numero": 36,
+    "titulo": "Delitos contra la Administración de Justicia (Libro II, Título XX). Delitos cometidos por los funcionarios públicos contra las garantías constitucionales (Libro II, Título XXI, Capítulo V)."
+   },
+   {
+    "numero": 37,
+    "titulo": "Delitos contra el Orden Público: De los atentados contra la autoridad, sus agentes y los funcionarios públicos y de la resistencia y desobediencia (Libro II, Título XXII, Capítulo II)."
+   },
+   {
+    "numero": 38,
+    "titulo": "Ley Reguladora de la Responsabilidad Penal de los Menores: Títulos I y II."
+   },
+   {
+    "numero": 39,
+    "titulo": "Ley Orgánica del Poder Judicial. Libro I, Título IV: Composición y atribuciones de los órganos judiciales."
+   },
+   {
+    "numero": 40,
+    "titulo": "Regulación de la Policía Judicial. Ley Orgánica del Poder Judicial y Ley de Enjuiciamiento Criminal. R.D. 769/1987, de 19 de junio, sobre Regulación de la Policía Judicial."
+   },
+   {
+    "numero": 41,
+    "titulo": "Ley de Enjuiciamiento Criminal: De la detención (Libro II, Título VI, Capítulo II). De la entrada y registro en lugar cerrado (Libro II, Título VIII)"
+   },
+   {
+    "numero": 42,
+    "titulo": "Del procedimiento para el enjuiciamiento rápido de determinados delitos (Libro IV, Título III), y el procedimiento para el juicio de delitos leves."
+   },
+   {
+    "numero": 43,
+    "titulo": "Ley Orgánica de Fuerzas y Cuerpos de Seguridad."
+   },
+   {
+    "numero": 44,
+    "titulo": "La Ley Orgánica de Protección de la Seguridad Ciudadana."
+   },
+   {
+    "numero": 45,
+    "titulo": "La Ley de Coordinación de Policías Locales de Aragón y normativa de desarrollo."
+   },
+   {
+    "numero": 46,
+    "titulo": "Reglamento del Cuerpo de la Policía Local de Zaragoza."
+   },
+   {
+    "numero": 47,
+    "titulo": "Reglamento de Armas."
+   },
+   {
+    "numero": 48,
+    "titulo": "Régimen general de extranjería. El asilado y el desplazado. Situaciones de los extranjeros en España: tipos de estancia y residencia."
+   },
+   {
+    "numero": 49,
+    "titulo": "Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial."
+   },
+   {
+    "numero": 50,
+    "titulo": "Reglamento General de Circulación"
+   },
+   {
+    "numero": 51,
+    "titulo": "Reglamento General de Conductores."
+   },
+   {
+    "numero": 52,
+    "titulo": "Reglamento General de Vehículos. Real Decreto por el que se regula la Inspección Técnica de Vehículos. Real Decreto por el que se regula la tramitación de las reformas de vehículos."
+   },
+   {
+    "numero": 53,
+    "titulo": "Ordenanza de Movilidad Urbana de Zaragoza. Ordenanza Municipal de Zona de Bajas Emisiones."
+   },
+   {
+    "numero": 54,
+    "titulo": "Reglamento sobre Responsabilidad Civil y Seguro en la Circulación de Vehículos a Motor. Ley de Transportes Urbanos de Aragón y Transporte Escolar"
+   },
+   {
+    "numero": 55,
+    "titulo": "Reglamento del Servicio Público de Transporte Urbano de Viajeros por Autobús y en Tranvía en la ciudad de Zaragoza. Reglamento Municipal del Servicio Urbano de Taxi."
+   },
+   {
+    "numero": 56,
+    "titulo": "Ordenanza Reguladora de Actividades Comerciales e Industriales en Terrenos Públicos."
+   },
+   {
+    "numero": 57,
+    "titulo": "Ordenanza para la Protección de Ruidos y Vibraciones. Ordenanza Municipal de Limpieza Viaria y Gestión de Residuos Domésticos. Ordenanza Municipal de Uso de Zonas Verdes. Protección de arbolado."
+   },
+   {
+    "numero": 58,
+    "titulo": "Ordenanza Municipal Reguladora del Procedimiento para el Ejercicio de la Potestad Sancionadora. Normativa sobre tenencia, circulación y protección de animales"
+   },
+   {
+    "numero": 59,
+    "titulo": "Normativa de espectáculos y establecimientos públicos. La Ley de establecimientos, espectáculos públicos y actividades recreativas de Aragón y normas de desarrollo (Reglamento de admisión, Reglamento de espectáculos públicos y actividades recreativas, ocasionales y extraordinarias, Catalogo de espectáculos públicos)."
+   },
+   {
+    "numero": 60,
+    "titulo": "La Disciplina urbanística. El Titulo VI del Decreto Legislativo por el que se aprueba el Texto Refundido de la Ley Urbanística de Aragón. El Título II de la Ordenanza Municipal de Medios de Intervención de la Actividad Urbanística."
+   }
+  ]
+ }
+]
