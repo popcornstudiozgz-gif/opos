@@ -1,0 +1,262 @@
+[
+ {
+  "bloque": "Parte primera",
+  "temas": [
+   {
+    "numero": 1,
+    "titulo": "La Constitución española: estructura y título preliminar. La Administración pública en la Constitución. Organización territorial del Estado en la Constitución: principios generales y Administración local."
+   },
+   {
+    "numero": 2,
+    "titulo": "La Ley para la igualdad efectiva de mujeres y hombres: el principio de igualdad y la tutela contra la discriminación."
+   },
+   {
+    "numero": 3,
+    "titulo": "La Ley de Prevención y Protección Integral a las Mujeres Víctimas de Violencia en Aragón: disposiciones generales y medidas de protección y apoyo a las víctimas. El Plan de Igualdad para empleadas y empleados del Ayuntamiento de Zaragoza."
+   },
+   {
+    "numero": 4,
+    "titulo": "El Estatuto de Autonomía de Aragón: título preliminar, aspectos básicos de la organización institucional de la Comunidad Autónoma y clases de competencias."
+   },
+   {
+    "numero": 5,
+    "titulo": "La Ley del Procedimiento Administrativo Común de las Administraciones Públicas: disposiciones sobre el procedimiento administrativo común (iniciación, ordenación, instrucción, finalización y ejecución)."
+   },
+   {
+    "numero": 6,
+    "titulo": "Los contratos del sector público: delimitación de los tipos contractuales. Competencias en materia de contratación en las Entidades Locales. Normas específicas de contratación pública en las Entidades Locales. Los bienes de las entidades locales: bienes de dominio público y bienes patrimoniales."
+   },
+   {
+    "numero": 7,
+    "titulo": "La actividad de las entidades Locales. Policía. El fomento. El servicio público local y sus formas de gestión."
+   },
+   {
+    "numero": 8,
+    "titulo": "La Ley reguladora de las Haciendas Locales: los recursos de las haciendas municipales y el presupuesto de los municipios (contenido, aprobación y ejecución)."
+   },
+   {
+    "numero": 9,
+    "titulo": "El municipio: territorio y población. La Ley de régimen especial del municipio de Zaragoza como capital de Aragón: disposiciones generales, especialidades en materia de organización y en materia procedimental."
+   },
+   {
+    "numero": 10,
+    "titulo": "Los empleados públicos: clases. Derechos y deberes. Adquisición y pérdida de la relación de servicio, situaciones administrativas y régimen disciplinario."
+   },
+   {
+    "numero": 11,
+    "titulo": "Peculiaridades del régimen de los empleados públicos de las entidades locales. Estructura de la función pública local."
+   },
+   {
+    "numero": 12,
+    "titulo": "La Ley de Prevención de Riesgos laborales: objeto y carácter de la norma, derecho a la protección frente a los riesgos laborales, servicios de prevención."
+   }
+  ]
+ },
+ {
+  "bloque": "Parte segunda",
+  "temas": [
+   {
+    "numero": 13,
+    "titulo": "Gestión del conocimiento en las Administraciones Públicas. El impacto de las nuevas tecnologías. La administración electrónica. Ordenanza Administración Electrónica en el Ayuntamiento de Zaragoza"
+   },
+   {
+    "numero": 14,
+    "titulo": "Sistemas de información para la gestión. La información como recurso para la Administración Pública. el archivo electrónico, expediente y documento electrónico. Seguridad de la información: Ciberseguridad y protección de datos de carácter personal. Aplicación de las tecnologías de la información a los sistemas de información."
+   },
+   {
+    "numero": 15,
+    "titulo": "Concepto de calidad. Modelos estándar de calidad: Normas ISO. El modelo EFQM de excelencia. Aplicación en la Administración Pública. Análisis comparativo entre los diferentes modelos."
+   },
+   {
+    "numero": 16,
+    "titulo": "Aplicaciones para productividad personal. Ofimática (procesadores de texto, hojas de cálculo, presentaciones y otras) implementación LibreOffice. Herramientas de trabajo cooperativo (mensajería instantánea, correo electrónico y otras). Navegadores (Mozilla Firefox, Google Chrome, Edge): características, diferencias."
+   }
+  ]
+ },
+ {
+  "bloque": "Parte tercera",
+  "temas": [
+   {
+    "numero": 17,
+    "titulo": "Ley 5/2009, de 30 de junio, de Servicios Sociales de Aragón: Sistema Público de Servicios Sociales. Estructura funcional y territorial. Decreto 66/2016, de 31 de mayo, Carta de Derechos y Deberes de las personas usuarias de servicios sociales."
+   },
+   {
+    "numero": 18,
+    "titulo": "Decreto 30/2023, de 22 de marzo, del Gobierno de Aragón, por el que se regula la organización y funcionamiento de los Centros de Servicios Sociales en Aragón. Reglamento de los Centros Municipales de Servicios Sociales del Ayuntamiento de Zaragoza."
+   },
+   {
+    "numero": 19,
+    "titulo": "Los Servicios Sociales Comunitarios. Concepto, ámbito y organización en el Ayuntamiento de Zaragoza. Programas de actuación. E/la educador/a social en los Servicios Sociales Comunitarios."
+   },
+   {
+    "numero": 20,
+    "titulo": "Los Servicios Sociales Especializados. Concepto, ámbito y organización en el Ayuntamiento de Zaragoza. Programas de actuación. El/la educador/a social en los Servicios Sociales Especializados."
+   },
+   {
+    "numero": 21,
+    "titulo": "Los Servicios Sociales para las minorías étnicas y la extranjería. Marco jurídico actual. Plan Municipal de Convivencia e Interculturalidad 2030. Programas de actuación."
+   },
+   {
+    "numero": 22,
+    "titulo": "Salud y Servicios Sociales. La prevención y la promoción de la salud desde las Administraciones Locales. La intervención desde la educación social."
+   },
+   {
+    "numero": 23,
+    "titulo": "Prevención y atención de adicciones en el Ayuntamiento de Zaragoza. Plan Municipal de Adicciones. Servicios y Programas. La coordinación con otros recursos del ámbito local y autonómico."
+   },
+   {
+    "numero": 24,
+    "titulo": "Los Servicios Sociales para las personas sin hogar. Estrategia Nacional Integral para Personas Sin Hogar. Plan Integral para personas sin hogar del Ayuntamiento de Zaragoza. Programas y Servicios Municipales. La relación con otras áreas y recursos."
+   },
+   {
+    "numero": 25,
+    "titulo": "Desigualdad, marginación, pobreza y exclusión social. El Plan Nacional de Inclusión Social."
+   },
+   {
+    "numero": 26,
+    "titulo": "Igualdad de género: definición y conceptos básicos. Marco legislativo nacional y en la Comunidad Autónoma de Aragón. Plan Municipal de Igualdad del Ayuntamiento de Zaragoza. Servicios y recursos Municipales."
+   },
+   {
+    "numero": 27,
+    "titulo": "Violencia contra las mujeres. Marco legislativo nacional y en la Comunidad Autónoma de Aragón. Planes, programas y recursos para mujeres y menores víctimas de violencia en la Comunidad Autónoma de Aragón."
+   },
+   {
+    "numero": 28,
+    "titulo": "La Accesibilidad Universal: evolución, concepto y ámbitos de aplicación. La Ordenanza Municipal de Accesibilidad: estructura, Titulo Preliminar, Título IV y Titulo VI. El Plan Estratégico de Accesibilidad Universal de Zaragoza."
+   },
+   {
+    "numero": 29,
+    "titulo": "Planes y Estrategias Estatales en el ámbito de la Infancia y la Adolescencia. Estrategia Estatal de Derechos de la Infancia y la Adolescencia (2023-2030). Plan de Acción Estatal para la Implementación de la Garantía Infantil Europea (2022-2030). Estrategia de Erradicación de la Violencia contra la infancia y adolescencia (2023-2030)."
+   },
+   {
+    "numero": 30,
+    "titulo": "Planes y Estrategias Municipales en materia de infancia, adolescencia y juventud del Ayuntamiento de Zaragoza. Líneas estratégicas y principales actuaciones."
+   },
+   {
+    "numero": 31,
+    "titulo": "Ley 12/2001 de 2 de julio, de la Infancia y Adolescencia en Aragón. La protección social y jurídica de los menores. La situación de riesgo y desamparo. Menores en conflicto social. Distribución de competencias. El Plan Integral de la infancia y la adolescencia de Aragón."
+   },
+   {
+    "numero": 32,
+    "titulo": "Ley Orgánica 5/2000, de 12 de enero, reguladora de la responsabilidad penal de los menores. Ley 26/2015, de 28 de julio, de modificación del sistema de protección a la infancia y a la adolescencia."
+   },
+   {
+    "numero": 33,
+    "titulo": "Ley Orgánica 8/2021, de 4 de junio, de protección integral a la infancia y la adolescencia frente a la violencia (LOPIVI)."
+   },
+   {
+    "numero": 34,
+    "titulo": "La intervención educativa en el ámbito del Ocio y el Tiempo Libre. Los Recursos Municipales dirigidos a la infancia y la adolescencia. Su relación con los Servicios Sociales Comunitarios y con el entorno."
+   },
+   {
+    "numero": 35,
+    "titulo": "Los Malos tratos a la infancia. Tipos de maltrato, indicadores y niveles de gravedad. Instrumentos y protocolos elaborados por el Instituto Aragón de Servicios Sociales (IASS)."
+   },
+   {
+    "numero": 36,
+    "titulo": "El Proceso de detección, notificación e investigación del maltrato infantil desde los Centros Municipales de Servicios Sociales. El papel del educador/a social en el equipo multidisciplinar."
+   },
+   {
+    "numero": 37,
+    "titulo": "El Absentismo escolar. Marco jurídico. Competencias del Ayuntamiento de Zaragoza. Intervención desde los Servicios Sociales Comunitarios."
+   },
+   {
+    "numero": 38,
+    "titulo": "Educación para la convivencia y para la participación social. La participación infantil. El Consejo Sectorial de Infancia y Adolescencia de Zaragoza. Organización y competencias."
+   }
+  ]
+ },
+ {
+  "bloque": "Parte cuarta",
+  "temas": [
+   {
+    "numero": 39,
+    "titulo": "Definición de Educación Social. Ética y deontología del educador social. Competencias y habilidades."
+   },
+   {
+    "numero": 40,
+    "titulo": "El equipo de trabajo. Tipos de equipo. El educador social en el Equipo interprofesional. Relación y coordinación con otros profesionales. El trabajo en red."
+   },
+   {
+    "numero": 41,
+    "titulo": "El proyecto socioeducativo como eje de la intervención del educador/a. Diseño e implementación de proyectos socioeducativos. Objetivos e hipótesis de trabajo. Indicadores de evaluación."
+   },
+   {
+    "numero": 42,
+    "titulo": "Modelos teóricos de la Educación Social. Métodos y estrategias socioeducativas de tipo individual, grupal y comunitaria. Procesos participativos."
+   },
+   {
+    "numero": 43,
+    "titulo": "La evaluación en Educación Social. Concepto, tipo y modelos. Funciones de la evaluación en Educación Social. Evaluación de procesos y resultados. Evaluación del impacto en procesos de intervención educativa. Técnicas y recursos de evaluación participativa."
+   },
+   {
+    "numero": 44,
+    "titulo": "La investigación en Educación Social. Paradigmas y métodos. Estrategias y técnicas de recogida y análisis de datos. La investigación – acción participativa."
+   },
+   {
+    "numero": 45,
+    "titulo": "La entrevista en la relación educativa y de ayuda: tipología, pautas, criterios, y condiciones para favorecer el cambio y el aprendizaje."
+   },
+   {
+    "numero": 46,
+    "titulo": "La Mediación. Marco normativo Aragonés. Mediación y gestión de conflictos: conceptos básicos. Tipos de mediación. Proceso y técnicas en mediación. El/la profesional de la Educación Social y la función de mediación."
+   },
+   {
+    "numero": 47,
+    "titulo": "Las TIC en el desarrollo profesional del Educador y la Educadora Social. Las TIC en la intervención educativa: propuestas y recursos para formar ciudadanos y ciudadanas."
+   },
+   {
+    "numero": 48,
+    "titulo": "Los informes socio-educativos. Tipos de Informes. Características, estructura y objetivos. La redacción del informe. Consideraciones éticas en su elaboración."
+   },
+   {
+    "numero": 49,
+    "titulo": "Psicología evolutiva: El desarrollo temprano de 0 a 6 años. La importancia de la fase de apego. La formación del vínculo afectivo. Consecuencias de la privación afectiva en esta etapa."
+   },
+   {
+    "numero": 50,
+    "titulo": "Psicología evolutiva: El desarrollo cognitivo, social y afectivo de los 7 a los 16 años."
+   },
+   {
+    "numero": 51,
+    "titulo": "La socialización. Procesos de socialización. Agentes de Socialización: familia, escuela, grupo de iguales y redes sociales."
+   },
+   {
+    "numero": 52,
+    "titulo": "Los grupos sociales. Dinámica grupal. Roles. Liderazgos. Las normas grupales. Comunicación e interacción en el grupo. Método y técnicas de intervención educativa con grupos en la educación social. Resolución de conflictos."
+   },
+   {
+    "numero": 53,
+    "titulo": "Género, Igualdad, Coeducación y Educación Social. Perspectiva de género en los procesos socioeducativos. Intervención desde la educación social para promover la igualdad y prevenir la violencia y discriminación por razones de género."
+   },
+   {
+    "numero": 54,
+    "titulo": "Programa Municipal de Atención Integral a la Violencia contra la mujer en la relación de pareja o expareja del Ayuntamiento de Zaragoza. Intervención socioeducativa con mujeres y menores víctimas de violencia en el marco de la L.O. 1/2004, de 28 de diciembre, de Medidas de Protección Integral contra la Violencia de Género."
+   },
+   {
+    "numero": 55,
+    "titulo": "La familia como espacio de intervención social. Concepción actual de la familia. Competencias emocionales educativas para las familias. Las familias multiproblemáticas."
+   },
+   {
+    "numero": 56,
+    "titulo": "El Programa Municipal de Apoyo a la Familia. Destinatarios. Objetivos. Metodología. Intervención en el ámbito familiar."
+   },
+   {
+    "numero": 57,
+    "titulo": "Las personas con discapacidad: concepto y evolución. Modelos de intervención. Estrategias para la inclusión y participación de colectivos específicos con discapacidad: infancia, mujer y personas mayores."
+   },
+   {
+    "numero": 58,
+    "titulo": "El Proceso de envejecimiento. La promoción de la salud, la autonomía y el bienestar en personas mayores. Programas y actuaciones municipales para promover el envejecimiento activo y la participación social de las personas mayores."
+   },
+   {
+    "numero": 59,
+    "titulo": "La comunidad como objeto de intervención de la educación social. Protagonistas de la acción comunitaria. La intervención comunitaria en el ámbito de los servicios sociales. Planes integrales. Programas de desarrollo local."
+   },
+   {
+    "numero": 60,
+    "titulo": "La educación social en el ámbito de las adicciones. Tipología de las adicciones. Motivación. Estrategias de intervención. La coordinación con otros recursos."
+   }
+  ]
+ }
+]

@@ -1,0 +1,372 @@
+[
+ {
+  "bloque": "Materias comunes",
+  "temas": [
+   {
+    "numero": 1,
+    "titulo": "La Constitución Española de 1978: estructura y contenido. Valores superiores y principios inspiradores. El Estado Social y Democrático de Derecho. La Corona. Las Cortes Generales. El Poder Judicial."
+   },
+   {
+    "numero": 2,
+    "titulo": "Derechos y libertades. Deberes de los ciudadanos. Principios rectores de la política social y económica. Garantías. Defensor del Pueblo."
+   },
+   {
+    "numero": 3,
+    "titulo": "La organización territorial del Estado. El Gobierno de la Nación y la Administración General del Estado. Las Comunidades Autónomas. La Administración Local. Las relaciones entre los entes territoriales. Especial referencia a la comarcalización de Aragón."
+   },
+   {
+    "numero": 4,
+    "titulo": "El Estatuto de Autonomía de Aragón: naturaleza y contenido. Competencias de la Comunidad Autónoma de Aragón. Organización institucional de la Comunidad Autónoma de Aragón."
+   },
+   {
+    "numero": 5,
+    "titulo": "El Presidente y el Gobierno de Aragón. La Administración Pública de la Comunidad Autónoma de Aragón. Los órganos administrativos: su régimen y el ejercicio de las competencias. Las Cortes y el Justicia de Aragón."
+   },
+   {
+    "numero": 6,
+    "titulo": "El procedimiento administrativo: concepto, naturaleza y fines. Ley del Procedimiento Administrativo Común de las Administraciones Públicas: ámbito de aplicación y principios informadores. Los interesados: capacidad y representación. Derechos de los ciudadanos en sus relaciones con las Administraciones Públicas. La transparencia y el acceso a la información pública."
+   },
+   {
+    "numero": 7,
+    "titulo": "El acto administrativo: concepto, elementos y clases. Requisitos y eficacia de los actos administrativos. Nulidad y anulabilidad. El silencio administrativo. Procedimientos de ejecución de los actos administrativos."
+   },
+   {
+    "numero": 8,
+    "titulo": "Fases del procedimiento administrativo: iniciación, ordenación, instrucción y finalización. Revisión de los actos administrativos. El procedimiento sancionador. La responsabilidad patrimonial de las Administraciones Públicas. La responsabilidad de las autoridades y personal a su servicio."
+   },
+   {
+    "numero": 9,
+    "titulo": "El Estatuto Básico del Empleado Público. El personal funcionario de la Administración de la Comunidad Autónoma de Aragón: clases de empleados públicos, selección, provisión y carrera administrativa. Personal laboral. Integridad y ética pública. Código de Conducta del personal empleado público. Régimen disciplinario y normativa penal relativa a la función pública."
+   },
+   {
+    "numero": 10,
+    "titulo": "Protección de datos personales. Marco normativo básico en materia de Prevención de Riesgos Laborales. Derechos y obligaciones. Principios de la acción preventiva. Igualdad de oportunidades entre mujeres y hombres en Aragón. La identidad y expresión de género e igualdad social y no discriminación en la Comunidad Autónoma de Aragón."
+   },
+   {
+    "numero": 11,
+    "titulo": "La financiación de las Comunidades Autónomas. Los Fondos de la Unión Europea. El Presupuesto de la Comunidad Autónoma de Aragón. La Ley de Hacienda de la Comunidad Autónoma de Aragón y Leyes de Presupuestos."
+   },
+   {
+    "numero": 12,
+    "titulo": "El Patrimonio de las Administraciones Públicas. El Patrimonio de la Comunidad Autónoma de Aragón: bienes que lo integran y régimen jurídico."
+   },
+   {
+    "numero": 13,
+    "titulo": "Los contratos del Sector Público: concepto y clases. Los contratos de las Administraciones Públicas: preparación, adjudicación y formalización, ejecución y modificación. Garantías y extinción."
+   },
+   {
+    "numero": 14,
+    "titulo": "La potestad expropiatoria: su justificación. Los sujetos, el objeto y la causa. El procedimiento expropiatorio en general. La indemnización expropiatoria o justo precio."
+   },
+   {
+    "numero": 15,
+    "titulo": "La Unión Europea: objetivos y fundamentos. Los Tratados originarios y modificativos. El Tratado de Lisboa: el Tratado de la Unión y el Tratado de Funcionamiento de la Unión Europea. Las Instituciones de la Unión Europea. Las fuentes del Derecho de la Unión Europea. Las Comunidades Autónomas y el Derecho Comunitario."
+   }
+  ]
+ },
+ {
+  "bloque": "Materias específicas",
+  "temas": [
+   {
+    "numero": 1,
+    "titulo": "El sector agrario español y aragonés: importancia estratégica; importancia relativa y evolución respecto al resto de sectores; principales macromagnitudes; principales producciones de los sectores económicos agrarios y evolución."
+   },
+   {
+    "numero": 2,
+    "titulo": "La población urbana y la población rural. Evolución histórica, crecimiento y límites. Fenómenos migratorios en el medio rural. Despoblación y envejecimiento en el medio rural. Población activa agraria. Previsión de evolución a futuro."
+   },
+   {
+    "numero": 3,
+    "titulo": "El medio rural: consideraciones sociológicas, socioeconómicas y espaciales. La prestación de servicios públicos en el medio rural. Núcleos de población y comarcas rurales."
+   },
+   {
+    "numero": 4,
+    "titulo": "La política regional en la Unión Europea. Política regional nacional. Breve historia. Fondos e Instrumentos vigentes."
+   },
+   {
+    "numero": 5,
+    "titulo": "La política regional y de estructuras en la Unión Europea. Fondos Estructurales y de Inversión: FEDER, FSE, Fondo de Cohesión, FEADER, Otros Fondos e Instrumentos."
+   },
+   {
+    "numero": 6,
+    "titulo": "El medio rural y los desequilibrios territoriales. El desarrollo rural: objetivos y programas comunitarios. Diversificación de la economía en el medio rural: iniciativa LEADER."
+   },
+   {
+    "numero": 7,
+    "titulo": "La estadística aplicada al sector agrario. Estadística pública agraria. Las macromagnitudes agrarias."
+   },
+   {
+    "numero": 8,
+    "titulo": "La Estadística: caracteres cualitativos y cuantitativos. Estadística descriptiva e inferencial. Métodos de ajuste estadístico. Muestreo estadístico y probabilística: concepto y métodos."
+   },
+   {
+    "numero": 9,
+    "titulo": "El sector industrial agroalimentario. Estructura y principales magnitudes. Relación con el sector agrario."
+   },
+   {
+    "numero": 10,
+    "titulo": "El sector industrial agroalimentario aragonés. Relación con el sector productor agrario aragonés. Situación actual y perspectivas de futuro, por tipos de industria."
+   },
+   {
+    "numero": 11,
+    "titulo": "La política agrícola en el marco de la Unión Europea. Características diferenciadoras del sector. Principales magnitudes y caracterización del sector agrario y del medio rural en la UE."
+   },
+   {
+    "numero": 12,
+    "titulo": "Política agrícola comunitaria. Orígenes y evolución a través de las diferentes reformas. Situación actual y sus perspectivas de futuro."
+   },
+   {
+    "numero": 13,
+    "titulo": "Política agraria (I): política de rentas. Política fiscal agraria. Seguridad Social Agraria."
+   },
+   {
+    "numero": 14,
+    "titulo": "Política agraria (II): política de precios y mercados."
+   },
+   {
+    "numero": 15,
+    "titulo": "Política agraria (III): política de seguros agrarios. Principios, normas y tipos. El sistema de seguros agrarios combinados. Los Planes Anuales. Tipos de seguros agrarios. Gestión y subvenciones a la contratación."
+   },
+   {
+    "numero": 16,
+    "titulo": "Plan Estratégico de la PAC (PEPAC). Principales objetivos y necesidades. Condiciones para recibir las ayudas directas en determinados sectores y para el desarrollo rural. El marco de rendimiento de la PAC, sistema de indicadores e informes de rendimiento."
+   },
+   {
+    "numero": 17,
+    "titulo": "El Desarrollo Rural. Antecedentes de la política de desarrollo rural en el marco de la Política Agrícola Común (PAC). La política de Desarrollo Rural en el periodo 2023-2027: novedades, objetivos y características. La planificación en España y Aragón. Las intervenciones para el Desarrollo Rural. Las intervenciones de ámbito supraautonómico."
+   },
+   {
+    "numero": 18,
+    "titulo": "Gestión de las ayudas agrarias (I): las funciones del Organismo Pagador, de los Servicios Centrales, de los Servicios Provinciales y las Oficinas Comarcales Agrarias"
+   },
+   {
+    "numero": 19,
+    "titulo": "Gestión de las ayudas agrarias (II): la solicitud conjunta de ayudas."
+   },
+   {
+    "numero": 20,
+    "titulo": "Gestión de las ayudas agrarias (III): fases de la gestión; procedimientos; controles administrativos sobre el terreno y de calidad; pagos y reintegros."
+   },
+   {
+    "numero": 21,
+    "titulo": "Condicionalidad. Requisitos legales de gestión y buenas condiciones agrícolas y medioambientales. Controles y penalizaciones."
+   },
+   {
+    "numero": 22,
+    "titulo": "Instituciones y organizaciones internacionales relacionadas con la agricultura, la alimentación y el desarrollo."
+   },
+   {
+    "numero": 23,
+    "titulo": "Población mundial y alimentación, relación con la agricultura."
+   },
+   {
+    "numero": 24,
+    "titulo": "El comercio mundial de productos agroalimentarios. Relaciones comerciales agrarias. El origen del GATT y la OMC. Situación actual."
+   },
+   {
+    "numero": 25,
+    "titulo": "Comercio exterior agrario. El comercio exterior agrario en España y Aragón."
+   },
+   {
+    "numero": 26,
+    "titulo": "El suministro de materias primas: características y problemática, actuaciones históricas y actuales de la Administración Pública. Dependencia exterior."
+   },
+   {
+    "numero": 27,
+    "titulo": "La política comercial en el mundo actual. Bloque occidental y BRICS. Globalización y proteccionismo. Situación de la Unión Europea y perspectivas de futuro."
+   },
+   {
+    "numero": 28,
+    "titulo": "La política agraria en la Unión Europea (I): comercio mundial de productos agrarios y alimentarios. La Organización Mundial del Comercio (OMC). Acuerdos preferenciales en productos agrarios."
+   },
+   {
+    "numero": 29,
+    "titulo": "La política agraria en la Unión Europea (II): situación actual de los sectores de cereales, forrajes desecados y arroz en Aragón. Aportación a la producción final agraria aragonesa y nacional. Perspectivas en la Unión Europea. Evolución en su regulación y regulación actual en el seno de la OCM única."
+   },
+   {
+    "numero": 30,
+    "titulo": "La política agraria en la Unión Europea (III): situación actual de los sectores del aceite de oliva y aceituna de mesa, de las frutas, hortalizas y sus transformados, y del sector del vino en Aragón. Aportación a la producción final agraria aragonesa y nacional. Perspectivas en la Unión Europea, evolución en su regulación y regulación actual en el seno de la OCM única."
+   },
+   {
+    "numero": 31,
+    "titulo": "La política agraria en la Unión Europea (IV): situación actual de los sectores de la leche y los productos lácteos, del sector de la carne de vacuno y ovino y del sector del porcino, aves y huevos en Aragón y aportación a la producción final agraria aragonesa y nacional. Perspectivas en la Unión Europea, evolución en su regulación y regulación actual en el seno de la OCM única."
+   },
+   {
+    "numero": 32,
+    "titulo": "Transformación e industrialización de productos agrarios. La tecnología en las empresas agroindustriales y alimentarias."
+   },
+   {
+    "numero": 33,
+    "titulo": "La comercialización agraria y alimentaria. Circuitos comerciales. Información de precios. Tipificación y normalización."
+   },
+   {
+    "numero": 34,
+    "titulo": "La comercialización en origen y en destino de productos agrarios."
+   },
+   {
+    "numero": 35,
+    "titulo": "La cadena alimentaria. Definición. Principales operadores. Directiva relativa a las prácticas comerciales desleales. Medidas de mejora."
+   },
+   {
+    "numero": 36,
+    "titulo": "Calidad alimentaria. Calidad estándar y calidad diferenciada. Conceptos y normativa. Ley de Calidad Alimentaria de Aragón. Los sistemas de defensa de la calidad de la Comunidad Autónoma de Aragón."
+   },
+   {
+    "numero": 37,
+    "titulo": "La calidad diferenciada: denominaciones de origen protegidas, indicaciones geográficas, especialidades tradicionales garantizadas. Legislación vigente. Importancia económica."
+   },
+   {
+    "numero": 38,
+    "titulo": "La seguridad alimentaria. Normativa. Autoridad europea y Agencias española y aragonesa competentes en la materia: estructura y funciones. El sistema de alerta rápida, gestión de crisis y situaciones de emergencia. Ley de la Cadena Alimentaria. Organismos de control."
+   },
+   {
+    "numero": 39,
+    "titulo": "La biotecnología en la industria agroalimentaria: su incidencia e interés. Principales técnicas y aplicaciones."
+   },
+   {
+    "numero": 40,
+    "titulo": "Los factores productivos agrarios (I): la tierra. Sistemas de tenencia. Los usos de la tierra y su distribución. La agricultura de secano y la agricultura de regadío. Situación actual. Problemática y perspectivas de futuro."
+   },
+   {
+    "numero": 41,
+    "titulo": "Los factores productivos agrarios (II): el agua como factor de producción. La Ley de Aguas. Directiva Marco del Agua. Planificación hidrológica de cuenca. Gestión sostenible de los recursos hídricos. El coste del agua y el de la energía. La calidad de las aguas para el riego."
+   },
+   {
+    "numero": 42,
+    "titulo": "Los factores productivos agrarios (III): el capital. Inversiones agrarias. La financiación y el crédito en el sector agrario. Antecedentes y evolución. Instituciones financieras y crédito agrario en España y en Aragón. Necesidades de financiación del sector agrario. Crédito oficial y financiación agraria."
+   },
+   {
+    "numero": 43,
+    "titulo": "Los factores productivos agrarios (IV): la política de investigación, desarrollo e innovación agraria y alimentaria. La tecnología e innovación tecnológica y su difusión en el sector agrario. La mejora de la productividad. Límites. Investigación pública agraria y transferencia de tecnología."
+   },
+   {
+    "numero": 44,
+    "titulo": "Los factores productivos agrarios (V): el suelo. Técnicas para el estudio agraria del suelo. Características físicas, biológicas y químicas que sustentan su fertilidad. Caracterización de los principales suelos agrícolas en Aragón. Movilidad de la tierra y precio como condicionante de la estructura empresarial agraria."
+   },
+   {
+    "numero": 45,
+    "titulo": "Los factores productivos agrarios (VI): el clima. Principales factores climáticos. Caracterización climática de Aragón. La bioclimatología."
+   },
+   {
+    "numero": 46,
+    "titulo": "Política de adaptación y transformación agraria (I). El agua como factor de producción en la empresa agraria: el regadío frente al secano. Política de regadíos. Especial referencia al regadío en Aragón."
+   },
+   {
+    "numero": 47,
+    "titulo": "Política de adaptación y transformación agraria (II). La concentración parcelaria: antecedentes y evolución."
+   },
+   {
+    "numero": 48,
+    "titulo": "Política de adaptación y transformación agraria (III). La modernización de explotaciones y la incorporación de jóvenes. Antecedentes y evolución. Relevo generacional, zonas rurales desfavorecidas. Principales líneas de actuación. Futuro y principales retos."
+   },
+   {
+    "numero": 49,
+    "titulo": "Los proyectos de infraestructura rural (I). Redacción de proyectos, supervisión de proyectos. Evaluación de Impacto Ambiental. Plan de seguridad y salud."
+   },
+   {
+    "numero": 50,
+    "titulo": "Los proyectos de infraestructura rural (II). Dirección de obra y coordinación de seguridad y salud. Seguimiento ambiental en la obra. Modificación del proyecto, modificaciones previstas y no previstas, límites. Publicidad, notificación y formalización. Certificación. Medición final, recepción, liquidación, entrega y garantía de las obras."
+   },
+   {
+    "numero": 51,
+    "titulo": "Caminos rurales. Necesidad. Diseño. Estructura de un camino rural. Tipos de caminos. Materiales, cálculos y ensayos."
+   },
+   {
+    "numero": 52,
+    "titulo": "Obras para regadío (I). Canales, acequias, pequeños embalses, desagües, drenajes. Cálculo hidrológico, hidráulico y mecánico. Restauración de daños por tormentas. Materiales y criterios de diseño."
+   },
+   {
+    "numero": 53,
+    "titulo": "Obras para regadío (II). Instalaciones para el regadío a presión. Sistemas de riego a presión. Redes de riego, instalaciones de bombeo. Materiales y criterios de diseño, cálculo y su automatización."
+   },
+   {
+    "numero": 54,
+    "titulo": "Los Planes Coordinados de Obras de las Zonas de Interés Nacional. Comisiones Técnicas Mixtas. La determinación legal de la condición de regadío. Liquidación de zonas regables. Censos de regadío."
+   },
+   {
+    "numero": 55,
+    "titulo": "Eficiencia energética del regadío. Auditorías energéticas. Aplicación actual de las energías renovables en el sector agrario y sus perspectivas de futuro."
+   },
+   {
+    "numero": 56,
+    "titulo": "La subvención: su naturaleza jurídica. Normativa en materia de subvenciones. Auditorías."
+   },
+   {
+    "numero": 57,
+    "titulo": "Contratación administrativa en la administración agraria. Las obras públicas, encargo y contratación. Licitación. Pliego de cláusulas administrativas: clasificación, categorías, adscripción de medios, valoración, subcontratación, precio estimado. Otros contratos. Encargos a medios propios."
+   },
+   {
+    "numero": 58,
+    "titulo": "Presupuestos y ejecución presupuestaria. Elaboración del presupuesto de un Departamento. Elaboración de documentos contables. Modificaciones presupuestarias."
+   },
+   {
+    "numero": 59,
+    "titulo": "La Informática en la Administración Pública. Administración electrónica. Sistemas de Gestión de Bases de datos. Inteligencia artificial."
+   },
+   {
+    "numero": 60,
+    "titulo": "Aplicación de la informática al sector agrario. Regulación de las infraestructuras y los servicios de información geográfica. Geodesia y Cartografía. Sistemas de información geográfica. La fotogrametría y la teledetección aplicadas a la agricultura."
+   },
+   {
+    "numero": 61,
+    "titulo": "Cartografía y gestión del territorio. Coordinación catastral y Registro de la Propiedad según la Ley Hipotecaria. Formalización de escrituras de parcelas rústicas. Aplicación a la administración agraria."
+   },
+   {
+    "numero": 62,
+    "titulo": "Agricultura y medio ambiente. Evolución de los sistemas de producción agrarios y su sostenibilidad. Perspectivas de futuro. Condicionantes de la legislación medioambiental europea en la actividad agraria."
+   },
+   {
+    "numero": 63,
+    "titulo": "Evaluación de Impacto Ambiental de planes y proyectos: tipología y procedimiento. Normativa de aplicación. Contenidos mínimos del Estudio de Impacto Ambiental. Tramitación en zonas ambientalmente sensibles."
+   },
+   {
+    "numero": 64,
+    "titulo": "Seguimiento ambiental. Plan de vigilancia. Personas implicadas en el desarrollo de un plan o proyecto desde la base ambiental. Procedimiento sancionador."
+   },
+   {
+    "numero": 65,
+    "titulo": "Normativa respecto a nitratos y zonas vulnerables. Fertilización y enmiendas del suelo. Necesidades de los cultivos. Tipos de fertilizantes y métodos de aplicación. Normativa aplicable. Condicionantes para la fertilización de la legislación medioambiental."
+   },
+   {
+    "numero": 66,
+    "titulo": "Zonas afectadas por limitaciones naturales o medioambientales. Red Natura 2000. Zonas LIC, ZEPAS, hábitats de interés comunitario."
+   },
+   {
+    "numero": 67,
+    "titulo": "La agricultura y el uso de recursos. Consumo de energía fósil. Tasa de Retorno Energético. Emisión directa e indirecta de gases de efecto invernadero (GEI). Efectos de la agricultura en la contaminación del agua y el suelo: normativa aplicable en materia de residuos y suelos contaminados. Erosión y desertización."
+   },
+   {
+    "numero": 68,
+    "titulo": "La ley de sanidad vegetal. Distribución de competencias, organización administrativa. Situación fitosanitaria en España y Aragón: principales plagas y enfermedades de interés."
+   },
+   {
+    "numero": 69,
+    "titulo": "Semillas y plantas de reproducción vegetativa. La certificación del material vegetal. El sector productor de semillas y plantas de vivero en España y Aragón. Normativa reguladora. Los organismos modificados genéticamente."
+   },
+   {
+    "numero": 70,
+    "titulo": "Los productos y los medios de defensa fitosanitaria. Tipos y características. Normativa reguladora sobre los productos fitosanitarios en la Unión Europea, España y Aragón. El uso sostenible de los productos fitosanitarios. Programas de vigilancia de comercialización y uso de los productos fitosanitarios. El Registro oficial de Productores y operadores."
+   },
+   {
+    "numero": 71,
+    "titulo": "La empresa agraria. Características e indicadores económicos diferenciales. Estructura productiva. Análisis de la información económico-financiera de la empresa agraria."
+   },
+   {
+    "numero": 72,
+    "titulo": "Tipologías de empresas agrarias. La empresa familiar. El agricultor a tiempo parcial. Grandes empresas. Fondos de inversión en agricultura. Situación actual en Aragón y perspectivas de futuro."
+   },
+   {
+    "numero": 73,
+    "titulo": "La tecnología en la empresa agraria. Mecanización. Maquinaria y equipos. Agricultura de precisión. Cálculo de costes. Perspectivas de su evolución futura."
+   },
+   {
+    "numero": 74,
+    "titulo": "Asociacionismo agrario: cooperativas, sociedades agrarias de transformación, agrupaciones de productores. Otras figuras asociativas. Ley de cooperativas de Aragón."
+   },
+   {
+    "numero": 75,
+    "titulo": "Valoración agraria. Objeto. Métodos clásicos y modernos de valoración. Tipos y usos. Tasación de cosechas, explotaciones agrarias, infraestructuras y coste de trabajos. La expropiación forzosa."
+   }
+  ]
+ }
+]

@@ -1,0 +1,227 @@
+[
+ {
+  "bloque": "Programa de materias",
+  "temas": [
+   {
+    "numero": 1,
+    "titulo": "La Constitución Española de 1978: estructura y contenido. Valores superiores y principios inspiradores. El Estado Social y Democrático de Derecho. La Corona. Las Cortes Generales. El Poder Judicial. Derechos y libertades. Deberes de los ciudadanos. Principios rectores de la política social y económica. Garantías. Defensor del Pueblo."
+   },
+   {
+    "numero": 2,
+    "titulo": "La organización territorial del Estado. Gobierno de la Nación y Administración General del Estado. Comunidades Autónomas. Administración Local. Las relaciones entre los entes territoriales. Especial referencia a la comarcalización de Aragón."
+   },
+   {
+    "numero": 3,
+    "titulo": "El Estatuto de Autonomía de Aragón: naturaleza y contenido. Competencias de la Comunidad Autónoma. La reforma del Estatuto. La organización institucional de la Comunidad Autónoma de Aragón. Las Cortes y el Justicia de Aragón."
+   },
+   {
+    "numero": 4,
+    "titulo": "El Presidente y el Gobierno de Aragón. Los Consejeros. La Administración Pública de la Comunidad Autónoma. Los órganos administrativos: su régimen y el ejercicio de las competencias."
+   },
+   {
+    "numero": 5,
+    "titulo": "La Unión Europea. Antecedentes y evolución histórica. Las fuentes del Derecho de la Unión Europea. Las Instituciones de la Unión Europea. La participación de las Comunidades Autónomas en la aplicación del Derecho Comunitario."
+   },
+   {
+    "numero": 6,
+    "titulo": "Ley del Procedimiento Administrativo Común de las Administraciones Públicas: ámbito de aplicación y principios informadores. Los interesados: capacidad y representación. Derechos de los ciudadanos en sus relaciones con las Administraciones Públicas, especial referencia a la administración electrónica. Sujetos obligados a relacionarse electrónicamente con la Administración. Identificación y firma de los interesados. Representación Procedimiento administrativo: las garantías en el desarrollo del procedimiento y las fases de iniciación, ordenación, instrucción y finalización. La transparencia de las Administraciones Públicas y acceso a la información pública."
+   },
+   {
+    "numero": 7,
+    "titulo": "El acto administrativo: concepto, elementos y clases. Requisitos y eficacia de los actos administrativos. Nulidad y anulabilidad. La obligación de la Administración de resolver y notificar Silencio administrativo. Términos y plazos. Sistema de Interconexión de Registros. Notificación electrónica. Revisión de los actos administrativos."
+   },
+   {
+    "numero": 8,
+    "titulo": "La responsabilidad patrimonial de la Administración Pública. Responsabilidad de las autoridades y personal a su servicio."
+   },
+   {
+    "numero": 9,
+    "titulo": "El Estatuto Básico del Empleado Público. El personal funcionario de la Administración de la Comunidad Autónoma de Aragón: clases de empleados públicos, selección, provisión y carrera administrativa. Personal laboral. Integridad y Ética pública. Código de Conducta del personal empleado público. Régimen disciplinario y normativa penal relativa a la función pública."
+   },
+   {
+    "numero": 10,
+    "titulo": "El presupuesto: sus principios. Estructura del presupuesto de la Comunidad Autónoma de Aragón. Los créditos y sus modificaciones. Ejecución del presupuesto. El control presupuestario."
+   },
+   {
+    "numero": 11,
+    "titulo": "La protección de datos personales. Régimen jurídico. El Reglamento (UE) 2016/679, de 27 de abril, relativo a la protección de las personas físicas en lo que respecta al tratamiento de datos personales y a la libre circulación de estos datos. Principios y derechos. Obligaciones. El Delegado de Protección de Datos en las Administraciones Públicas. La Agencia Española de Protección de Datos. La Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales."
+   },
+   {
+    "numero": 12,
+    "titulo": "Las Leyes del Procedimiento Administrativo Común de las Administraciones Públicas y de Régimen Jurídico del Sector Público, y su normativa de desarrollo. La gestión electrónica de los procedimientos administrativos. Esquema Nacional de Seguridad (ENS). Esquema Nacional de Interoperabilidad (ENI). Normas técnicas de interoperabilidad. Guías CCN-STIC serie 800."
+   },
+   {
+    "numero": 13,
+    "titulo": "Instrumentos para el acceso electrónico a las Administraciones Públicas: sedes electrónicas, canales y punto de acceso, identificación y autenticación."
+   },
+   {
+    "numero": 14,
+    "titulo": "Instrumentos y órganos para la cooperación entre Administraciones Públicas en materia de Administración Electrónica. Interoperabilidad, infraestructuras y servicios comunes. Plataformas de validación e interconexión de redes."
+   },
+   {
+    "numero": 15,
+    "titulo": "Los datos abiertos. Características. Datos abiertos de las administraciones. Sindicación de datos abiertos. Aragón Open Data y datos.gob."
+   },
+   {
+    "numero": 16,
+    "titulo": "Software libre y software propietario. Características y tipos de licencias. La protección jurídica de los programas de ordenador. Tecnologías de protección de derechos digitales."
+   },
+   {
+    "numero": 17,
+    "titulo": "Accesibilidad, diseño universal y usabilidad. Accesibilidad y usabilidad de las tecnologías, productos y servicios relacionados con la sociedad de la información. Experiencia de Usuario o UX. La Guía de comunicación digital de la Administración del Estado."
+   },
+   {
+    "numero": 18,
+    "titulo": "Tecnologías actuales de ordenadores: desde dispositivos móviles hasta superordenadores, incluyendo arquitecturas escalables y de alto rendimiento. Equipos departamentales, servidores y dispositivos personales (PC y móviles). Medidas de seguridad en equipos. Diseño, implantación y gestión de centros de procesamiento de datos."
+   },
+   {
+    "numero": 19,
+    "titulo": "Conceptos y fundamentos de los sistemas operativos. Características técnicas y funcionales de los sistemas operativos: Windows, Linux, Unix. Sistemas operativos para dispositivos móviles. Sistemas operativos multiprocesador."
+   },
+   {
+    "numero": 20,
+    "titulo": "La arquitectura ANSI/SPARC. Los sistemas de gestión de bases de datos relacionales. Modelos y arquitecturas. El lenguaje SQL y otros lenguajes de interrogación. Normas y estándares para la interoperabilidad entre gestores de bases de datos relacionales."
+   },
+   {
+    "numero": 21,
+    "titulo": "Arquitectura de sistemas cliente-servidor, multicapas y multidispositivo: tipología. Componentes. Interoperabilidad de componentes. Ventajas e inconvenientes. Arquitectura de servicios web."
+   },
+   {
+    "numero": 22,
+    "titulo": "Seguridad física y lógica de un sistema de información. Herramientas en ciberseguridad. Gestión de incidentes. Informática forense. Plan de contingencia y recuperación de errores."
+   },
+   {
+    "numero": 23,
+    "titulo": "Documática. Gestión y archivo electrónico de documentos. Sistemas de gestión documental (DMS) y de contenidos (CMS). Gestión de flujos de trabajo (Workflow). Sindicación de contenido. Búsqueda y recuperación de información: indexadores (robots, spiders) y motores de búsqueda; posicionamiento (SEO). Política de gestión y archivo de documentos electrónicos de la Administración de la Comunidad Autónoma de Aragón y sus Organismos Públicos."
+   },
+   {
+    "numero": 24,
+    "titulo": "Minería de datos. Aplicación a la resolución de problemas de gestión. Tecnología y algoritmos. Procesamiento analítico en línea (OLAP). Big data. Entornos Hadoop o similares. Bases de datos NoSQL."
+   },
+   {
+    "numero": 25,
+    "titulo": "Inteligencia artificial: finalidad y clasificación: machine learning, deep learning, NLP, sistemas expertos y agentes inteligentes. La Ley de Inteligencia Artificial de la UE."
+   },
+   {
+    "numero": 26,
+    "titulo": "Virtualización: conceptos, evolución, tipos. Virtualización de servidores. Otras formas de virtualización: redes, aplicaciones y escritorio. Hiperconvergencia. Arquitectura de contenedores. Docker y Kubernetes."
+   },
+   {
+    "numero": 27,
+    "titulo": "Almacenamiento masivo de datos. Sistemas SAN, NAS y DAS: componentes, protocolos, gestión y administración. Virtualización del almacenamiento. Gestión de volúmenes."
+   },
+   {
+    "numero": 28,
+    "titulo": "Cloud Computing. Base tecnológica. Componentes, funcionalidades y capacidades. IaaS, PaaS, SaaS. Nubes privadas, públicas e híbridas. Serverless computing."
+   },
+   {
+    "numero": 29,
+    "titulo": "Aplicaciones basadas en microservicios y contenedores. Desarrollo, despliegue, monitorización y escalado. Plataformas de orquestación. Herramientas."
+   },
+   {
+    "numero": 30,
+    "titulo": "Lenguajes y herramientas para la utilización de redes globales. HTML, CSS y XML. Navegadores web y compatibilidad con estándares."
+   },
+   {
+    "numero": 31,
+    "titulo": "Análisis y gestión de riesgos de los sistemas de información. La metodología MAGERIT: método, elementos y técnicas."
+   },
+   {
+    "numero": 32,
+    "titulo": "Auditoría informática: concepto, objetivos, alcance y metodología. Técnicas y herramientas. Normas y estándares. Auditoría del ENS y de protección de datos. Auditoría de seguridad física."
+   },
+   {
+    "numero": 33,
+    "titulo": "Gestión de la atención a clientes y usuarios: centros de contacto, CRM. Arquitectura multicanal. ERP (Enterprise Resource Planning). Factura electrónica. Pasarelas de pagos."
+   },
+   {
+    "numero": 34,
+    "titulo": "Modelos de ciclo de vida. Metodologías de desarrollo. La metodología Métrica. Metodologías de desarrollo ágil de software. Técnicas BPM (Business Process Management)."
+   },
+   {
+    "numero": 35,
+    "titulo": "Gestión y planificación del proceso de desarrollo. Técnicas de evaluación de alternativas y análisis de viabilidad. Planificación, presupuestación y control de costes de un proyecto informático. Técnicas y prácticas de gestión y planificación de proyectos."
+   },
+   {
+    "numero": 36,
+    "titulo": "Estrategias de determinación de requerimientos: entrevistas, derivación de sistemas existentes, análisis y prototipos. La especificación de requisitos de software."
+   },
+   {
+    "numero": 37,
+    "titulo": "Modelado de datos y metodologías. Diseño de bases de datos. El modelo lógico relacional. Normalización. Diseño lógico y físico. Problemas de concurrencia de acceso. Mecanismos de resolución de conflictos."
+   },
+   {
+    "numero": 38,
+    "titulo": "Tipos abstractos de datos y estructuras de datos. Grafos. Tipos de algoritmos: ordenación y búsqueda. Estrategias de diseño de algoritmos."
+   },
+   {
+    "numero": 39,
+    "titulo": "Construcción del sistema. Entornos de desarrollo software (Eclipse, NetBeans, IDEA, etc.) Características y ventajas. Herramientas para la construcción de proyectos software (Maven, Apache Ant): dependencias y empaquetado. Formación de usuarios y personal técnico: métodos y materiales. Herramientas de seguimiento de proyectos e incidencias."
+   },
+   {
+    "numero": 40,
+    "titulo": "Pruebas. Planificación y documentación. Utilización de datos de prueba. Pruebas de software, hardware, procedimientos y datos. Pruebas: funcionales y no funcionales, los test de usuario, herramientas de testeo. Conceptos, participantes, métodos y técnicas."
+   },
+   {
+    "numero": 41,
+    "titulo": "Integración continua. DevOps. Instalación y cambio. Estrategias de sustitución. Recepción e instalación. Evaluación post-implementación. Mantenimiento."
+   },
+   {
+    "numero": 42,
+    "titulo": "Análisis y diseño orientado a objetos. Elementos. El proceso unificado de software. El lenguaje de modelado unificado (UML). Patrones de diseño."
+   },
+   {
+    "numero": 43,
+    "titulo": "La arquitectura Java EE y la plataforma. NET. Características de funcionamiento. Elementos constitutivos. Productos y herramientas. Persistencia. Seguridad."
+   },
+   {
+    "numero": 44,
+    "titulo": "Aplicaciones web. Diseño web multiplataforma/multidispositivo. Desarrollo web frontend y en servidor. Componentes de tecnologías de programación. Servicios web: estándares, protocolos asociados, interoperabilidad y seguridad. Internacionalización y localización."
+   },
+   {
+    "numero": 45,
+    "titulo": "La calidad del software y su medida. Modelos, métricas, normas y estándares."
+   },
+   {
+    "numero": 46,
+    "titulo": "El cifrado. Algoritmos de cifrado simétricos y asimétricos. Servicios de autenticación: certificados digitales. Infraestructura de clave pública (PKI). DNI electrónico. Certificados en la nube."
+   },
+   {
+    "numero": 47,
+    "titulo": "El modelo TCP/IP y el modelo de referencia de interconexión de sistemas abiertos (OSI) de ISO: arquitectura, capas, interfaces, protocolos, direccionamiento y encaminamiento."
+   },
+   {
+    "numero": 48,
+    "titulo": "Medios de transmisión guiados y no guiados (inalámbricos). Cables metálicos. Cable coaxial. Fibra óptica. Tipología de redes de cable. Sistemas de transmisión por satélite. Elementos del cableado estructurado."
+   },
+   {
+    "numero": 49,
+    "titulo": "Redes locales. Arquitectura. Tipología. Medios de trasmisión. Métodos de acceso. Dispositivos de interconexión. Configuración y gestión de redes virtuales (VLAN)."
+   },
+   {
+    "numero": 50,
+    "titulo": "Administración de redes locales. Gestión de usuarios y dispositivos. Monitorización y control de tráfico. Gestión SNMP. Soluciones de gestión de dispositivos móviles (MDM)."
+   },
+   {
+    "numero": 51,
+    "titulo": "Redes de área extensa. Conmutación de circuitos y de paquetes. Integración voz-datos. Tecnologías WDM y MPLS SD-WAN. Protocolos de encaminamiento."
+   },
+   {
+    "numero": 52,
+    "titulo": "La seguridad en redes. Tipos de ataques y herramientas para su prevención: cortafuegos, control de accesos, técnicas criptográficas, etc. Protocolos de seguridad. Redes privadas virtuales. La seguridad en el nivel de aplicación. Tipos de ataques y protección de servicios web, bases de datos e interfaces de usuario."
+   },
+   {
+    "numero": 53,
+    "titulo": "Internet: infraestructura global y principios de funcionamiento. World Wide Web. Evolución de la Web (2.0 a 3.0), el impacto de las redes sociales y tendencias de futuro."
+   },
+   {
+    "numero": 54,
+    "titulo": "Sistemas de comunicaciones móviles. Generaciones. Redes de nueva generación y servicios convergentes (NGN/IMS). VoIP, ToIP y comunicaciones unificadas. Convergencia telefonía fija-telefonía móvil. Internet de las Cosas (IoT)."
+   },
+   {
+    "numero": 55,
+    "titulo": "Conectividad inalámbrica y redes. Protocolos. Características funcionales y técnicas. Sistemas de expansión del espectro. Sistemas de acceso. Modos de operación. Seguridad. Normativa reguladora."
+   }
+  ]
+ }
+]

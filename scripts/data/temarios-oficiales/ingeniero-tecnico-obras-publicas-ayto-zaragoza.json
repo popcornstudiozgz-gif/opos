@@ -1,0 +1,262 @@
+[
+ {
+  "bloque": "Parte primera",
+  "temas": [
+   {
+    "numero": 1,
+    "titulo": "La Constitución española: estructura y título preliminar. La Administración pública en la Constitución. Organización territorial del Estado en la Constitución: principios generales y Administración local."
+   },
+   {
+    "numero": 2,
+    "titulo": "La Ley para la igualdad efectiva de mujeres y hombres: el principio de igualdad y la tutela contra la discriminación."
+   },
+   {
+    "numero": 3,
+    "titulo": "La Ley de Prevención y Protección Integral a las Mujeres Víctimas de Violencia en Aragón: disposiciones generales y medidas de protección y apoyo a las víctimas. El Plan de Igualdad para empleadas y empleados del Ayuntamiento de Zaragoza."
+   },
+   {
+    "numero": 4,
+    "titulo": "El Estatuto de Autonomía de Aragón: título preliminar, aspectos básicos de la organización institucional de la Comunidad Autónoma y clases de competencias."
+   },
+   {
+    "numero": 5,
+    "titulo": "La Ley del Procedimiento Administrativo Común de las Administraciones Públicas: disposiciones sobre el procedimiento administrativo común (iniciación, ordenación, instrucción, finalización y ejecución)."
+   },
+   {
+    "numero": 6,
+    "titulo": "Los contratos del sector público: delimitación de los tipos contractuales. Competencias en materia de contratación en las Entidades Locales. Normas específicas de contratación pública en las Entidades Locales. Los bienes de las entidades locales: bienes de dominio público y bienes patrimoniales."
+   },
+   {
+    "numero": 7,
+    "titulo": "La actividad de las entidades Locales. Policía. El fomento. El servicio público local y sus formas de gestión."
+   },
+   {
+    "numero": 8,
+    "titulo": "La Ley reguladora de las Haciendas Locales: los recursos de las haciendas municipales y el presupuesto de los municipios (contenido, aprobación y ejecución)."
+   },
+   {
+    "numero": 9,
+    "titulo": "El municipio: territorio y población. La Ley de régimen especial del municipio de Zaragoza como capital de Aragón: disposiciones generales, especialidades en materia de organización y en materia procedimental."
+   },
+   {
+    "numero": 10,
+    "titulo": "Los empleados públicos: clases. Derechos y deberes. Adquisición y pérdida de la relación de servicio, situaciones administrativas y régimen disciplinario."
+   },
+   {
+    "numero": 11,
+    "titulo": "Peculiaridades del régimen de los empleados públicos de las entidades locales. Estructura de la función pública local."
+   },
+   {
+    "numero": 12,
+    "titulo": "La Ley de Prevención de Riesgos laborales: objeto y carácter de la norma, derecho a la protección frente a los riesgos laborales, servicios de prevención."
+   }
+  ]
+ },
+ {
+  "bloque": "Parte segunda",
+  "temas": [
+   {
+    "numero": 13,
+    "titulo": "Gestión del conocimiento en las Administraciones Públicas. El impacto de las nuevas tecnologías. La administración electrónica. Ordenanza Administración Electrónica en el Ayuntamiento de Zaragoza"
+   },
+   {
+    "numero": 14,
+    "titulo": "Sistemas de información para la gestión. La información como recurso para la Administración Pública. el archivo electrónico, expediente y documento electrónico. Seguridad de la información: Ciberseguridad y protección de datos de carácter personal. Aplicación de las tecnologías de la información a los sistemas de información."
+   },
+   {
+    "numero": 15,
+    "titulo": "Concepto de calidad. Modelos estándar de calidad: Normas ISO. El modelo EFQM de excelencia. Aplicación en la Administración Pública. Análisis comparativo entre los diferentes modelos."
+   },
+   {
+    "numero": 16,
+    "titulo": "Aplicaciones para productividad personal. Ofimática (procesadores de texto, hojas de cálculo, presentaciones y otras) implementación LibreOffice. Herramientas de trabajo cooperativo (mensajería instantánea, correo electrónico y otras). Navegadores (Mozilla Firefox, Google Chrome, Edge): características, diferencias."
+   }
+  ]
+ },
+ {
+  "bloque": "Parte tercera",
+  "temas": [
+   {
+    "numero": 17,
+    "titulo": "Hidrología de las aguas superficiales y subterráneas. El ciclo hidrológico. Regulación de caudales. El concepto de la garantía en el suministro. Presas y embalses."
+   },
+   {
+    "numero": 18,
+    "titulo": "Usos del agua: urbanos, agrícolas, industriales y energéticos. Los caudales ecológicos de los ríos. Aguas para el abastecimiento urbano. Caudales necesarios. Criterios de calidad. Medidas de ahorro de caudales. Aplicación al caso de Zaragoza."
+   },
+   {
+    "numero": 19,
+    "titulo": "La potabilización del agua. Normativa sobre agua potable. Esquema de una instalación de potabilización. Procesos a utilizar en función de las aguas a tratar. Aplicación al caso de Zaragoza."
+   },
+   {
+    "numero": 20,
+    "titulo": "Procesos de potabilización: la eliminación de la materia en suspensión, la desinfección, procesos de afino. El tratamiento de los fangos generados."
+   },
+   {
+    "numero": 21,
+    "titulo": "Estructura general de una red de distribución de agua potable: elementos que la componen. Tipos de redes. Cálculo de la pérdida de carga en una tubería. Dimensionamiento hidráulico de una red. Cálculo de redes malladas. Modelos matemáticos de redes complejas. Sectorización de redes."
+   },
+   {
+    "numero": 22,
+    "titulo": "Depósitos de almacenamiento. Funciones que desarrollan. Criterios de dimensionamiento, ubicación y diseño. Tipología. Instalaciones de bombeo de agua potable. Tipos de bombas empleadas. El golpe de ariete: concepto, cálculo y dispositivos para reducir sus efectos."
+   },
+   {
+    "numero": 23,
+    "titulo": "Tuberías empleadas en redes de distribución. Materiales y tipos de juntas. Criterios de selección. Válvulas: tipos y características. Elementos complementarios de las redes de distribución: arquetas, bocas de riego, hidrantes, ventosas acometidas, etc. Aplicación al caso de Zaragoza."
+   },
+   {
+    "numero": 24,
+    "titulo": "La construcción de redes de distribución de agua. Secciones tipo de zanjas. La conservación y explotación de estas redes. Sistemas de telecontrol y telemando. Medida de consumos."
+   },
+   {
+    "numero": 25,
+    "titulo": "Estructura de una red de alcantarillado urbano. Redes unitarias y separativas. Elementos constitutivos. Criterios de diseño. Cálculo de caudales de aguas residuales y pluviales. El método racional. Cálculo hidráulico de colectores."
+   },
+   {
+    "numero": 26,
+    "titulo": "Conductos utilizados en redes de alcantarillado: secciones prefabricada e in situ. Materiales empleados, tipos de juntas. Cálculo resistente. Instalaciones complementarias: pozos de registro, sumideros, aliviaderos, acometidas domiciliarias, tanques de tormenta, etc. Aplicación al caso de Zaragoza."
+   },
+   {
+    "numero": 27,
+    "titulo": "Construcción de redes de alcantarillado. Secciones tipo de zanjas. La conservación y explotación de estas redes. Limpieza del alcantarillado. Reparación de conductos desde el interior."
+   },
+   {
+    "numero": 28,
+    "titulo": "Las aguas residuales. Características de las aguas domésticas e industriales. Efectos sobre el medio del vertido directo de aguas residuales. Normativa sobre depuración. Estructura de una depuradora de aguas residuales. Aplicación al caso de Zaragoza."
+   },
+   {
+    "numero": 29,
+    "titulo": "La depuración de las aguas residuales. Procesos de la línea de agua: pretratamiento, tratamiento primario, tratamientos biológicos. Tecnologías blandas de depuración. Reutilización del agua depurada."
+   },
+   {
+    "numero": 30,
+    "titulo": "La depuración de las aguas residuales. Procesos de la línea de fangos: espesamiento, estabilización de la materia orgánica, deshidratación. Utilización agrícola del fango."
+   },
+   {
+    "numero": 31,
+    "titulo": "El viario urbano. Elementos y trazado de la calle en planta y alzado. La distribución de espacios y usos. Condiciones de accesibilidad del espacio público urbanizado."
+   },
+   {
+    "numero": 32,
+    "titulo": "Construcción y conservación de viales en entorno urbano: organización y maquinaria."
+   },
+   {
+    "numero": 33,
+    "titulo": "Firmes flexibles y rígidos: concepto y dimensionamiento. Capas granulares. Tratamientos superficiales. Mezclas bituminosas. Capas tratadas con ligantes hidráulicos. Pavimentos de hormigón."
+   },
+   {
+    "numero": 34,
+    "titulo": "La Inspección y conservación de las obras de paso."
+   },
+   {
+    "numero": 35,
+    "titulo": "Los proyectos de obras. - Estructura y contenido del proyecto. - Los pliegos de cláusulas administrativas generales y particulares. - Normas técnicas y los pliegos de condiciones técnicas. Aplicación al caso concreto de la ciudad de Zaragoza."
+   },
+   {
+    "numero": 36,
+    "titulo": "Formas de adjudicación de los contratos. Casos de aplicación y condiciones de cada caso."
+   },
+   {
+    "numero": 37,
+    "titulo": "Tipos de contratos administrativo. Aspectos específicos de cada tipo de contrato."
+   },
+   {
+    "numero": 38,
+    "titulo": "El contrato de obras. Su ejecución y Cumplimiento. Modificaciones y resolución."
+   }
+  ]
+ },
+ {
+  "bloque": "Parte cuarta",
+  "temas": [
+   {
+    "numero": 39,
+    "titulo": "Características básicas del tráfico. Conceptos de intensidad, composición y velocidad. Densidad de tráfico. Relaciones entre intensidad, velocidad y densidad."
+   },
+   {
+    "numero": 40,
+    "titulo": "Conceptos generales de capacidad y nivel de servicio. Factores que afectan a la capacidad. Capacidad en condiciones de circulación discontinua. Índice de congestión. Cálculo de la capacidad y del nivel de servicio."
+   },
+   {
+    "numero": 41,
+    "titulo": "Aforos. Objetivo de los mismos. Métodos de aforo. Aforos en zona urbana. Plan anual de aforos. Tipos de detectores y tecnologías aplicadas."
+   },
+   {
+    "numero": 42,
+    "titulo": "Planes de movilidad urbana sostenible. Proceso de desarrollo y alcance del Plan. Medidas y objetivos. Seguimiento y evaluación del Plan. Plan de Movilidad Urbana Sostenible de Zaragoza."
+   },
+   {
+    "numero": 43,
+    "titulo": "Ordenación de la circulación ciclista. Infraestructura ciclista. Tipología. Criterios de diseño. Plan director de la Bicicleta de Zaragoza."
+   },
+   {
+    "numero": 44,
+    "titulo": "Señalización. Prioridad entre señales. Señalización horizontal. Función de las marcas viales. Color, reflectancia y materiales. Tipos de marcas viales. Conservación."
+   },
+   {
+    "numero": 45,
+    "titulo": "Señalización vertical. Función de las señales. Criterios de señalización. Situación de las señales. Señalización de obras. Señalización fija y móvil."
+   },
+   {
+    "numero": 46,
+    "titulo": "Seguridad vial. Planes de seguridad vial urbana. Procedimiento de elaboración del plan. Seguimiento. Aplicación al caso concreto de la ciudad de Zaragoza."
+   },
+   {
+    "numero": 47,
+    "titulo": "Ordenanza de Movilidad Urbana de Zaragoza. Título Primero: Normas Generales, Seguridad Vial, Regulación y Control. Título Segundo: Ordenación y Señalización. Título Tercero: Parada y Estacionamiento. Título Sexto: Obras en Vía Pública. Instrucciones Técnicas que lo desarrollan."
+   },
+   {
+    "numero": 48,
+    "titulo": "Ordenanza de Movilidad Urbana de Zaragoza. Título Cuarto: Modos de Movilidad Urbana."
+   },
+   {
+    "numero": 49,
+    "titulo": "Ordenanza de Zaragoza para la construcción, instalación y uso de estacionamientos y garajes. Normas del Plan General de Ordenación Urbana de Zaragoza. Capítulo 2.4.- Dotación de los estacionamientos de los edificios."
+   },
+   {
+    "numero": 50,
+    "titulo": "El transporte público colectivo en las ciudades. Oferta y demanda de transporte. Sistemas de gestión de transporte colectivo. Modos de transporte público colectivo. Características de cada modo. Aplicación al caso concreto de la ciudad de Zaragoza."
+   },
+   {
+    "numero": 51,
+    "titulo": "El plan general de ordenación urbana de Zaragoza y sus planes de desarrollo: clases de suelo, planes parciales y planes especiales. Determinaciones y contenido. Aplicación al caso concreto de la ciudad de Zaragoza."
+   },
+   {
+    "numero": 52,
+    "titulo": "Proyectos de urbanización y proyectos de obras ordinarias. Formulación, contenido y documentación. Diseño y materiales. Aplicación al caso concreto de la ciudad de Zaragoza."
+   },
+   {
+    "numero": 53,
+    "titulo": "Infraestructuras básicas en el planeamiento urbano. Criterios de diseño y evaluación socio-económica. Coordinación y problemática."
+   },
+   {
+    "numero": 54,
+    "titulo": "El medio ambiente y las obras públicas. El estudio de impacto ambiental. La declaración de impacto ambiental."
+   },
+   {
+    "numero": 55,
+    "titulo": "Los tramos urbanos de los ríos: Problemática. Protección frente a avenidas. Legislación: zonas inundables, mapas de peligrosidad y riesgo. Tratamiento de las riberas. Integración con la ciudad. Aplicación al caso concreto de la ciudad de Zaragoza."
+   },
+   {
+    "numero": 56,
+    "titulo": "Características mecánicas del hormigón y del acero. Hormigón armado. Cálculo, uso y propiedades. Dosificación del hormigón. La puesta en obra del hormigón."
+   },
+   {
+    "numero": 57,
+    "titulo": "Estructuras en medio urbano. Puentes. Pasos elevados y subterráneos. Túneles y excavaciones subterráneas. Muros de contención de tierras."
+   },
+   {
+    "numero": 58,
+    "titulo": "Geotecnia: aptitud de los suelos para servir de cimentación. Características y clasificación de los suelos. Caracterización: Sondeos y ensayos. Riesgo de subsidencia. Aplicación al caso concreto de la ciudad de Zaragoza."
+   },
+   {
+    "numero": 59,
+    "titulo": "Zonas verdes. Proyectos de zonas verdes. Ejecución de obras de ajardinamiento. Sistemas de riego: tipología y criterios de diseño. Ordenanzas municipales de aplicación al caso concreto de la ciudad de Zaragoza."
+   },
+   {
+    "numero": 60,
+    "titulo": "La prevención de riesgos laborales: planes, procedimientos de trabajo. Actividades potencialmente peligrosas: trabajos con amianto y en espacios confinados. Problemática de la ejecución de obras en medio urbano."
+   }
+  ]
+ }
+]

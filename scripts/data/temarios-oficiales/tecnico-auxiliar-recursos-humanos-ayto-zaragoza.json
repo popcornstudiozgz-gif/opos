@@ -1,0 +1,172 @@
+[
+ {
+  "bloque": "Parte primera",
+  "temas": [
+   {
+    "numero": 1,
+    "titulo": "La Constitución española: estructura y título preliminar. La Administración pública en la Constitución. Organización territorial del Estado en la Constitución: principios generales y Administración local."
+   },
+   {
+    "numero": 2,
+    "titulo": "La Ley para la igualdad efectiva de mujeres y hombres: el principio de igualdad y la tutela contra la discriminación. El Plan de Igualdad para empleadas y empleados del Ayuntamiento de Zaragoza."
+   },
+   {
+    "numero": 3,
+    "titulo": "El Estatuto de Autonomía de Aragón: título preliminar, aspectos básicos de la organización institucional de la Comunidad autónoma y clases de competencias."
+   },
+   {
+    "numero": 4,
+    "titulo": "La Ley del Procedimiento Administrativo Común de las Administraciones Públicas: disposiciones sobre el procedimiento administrativo común."
+   },
+   {
+    "numero": 5,
+    "titulo": "La Ley de régimen especial del municipio de Zaragoza como capital de Aragón: disposiciones generales, gobierno y administración del municipio de Zaragoza."
+   },
+   {
+    "numero": 6,
+    "titulo": "La Ley reguladora de las Haciendas Locales: enumeración de los recursos de las entidades locales y regulación de los impuestos municipales."
+   },
+   {
+    "numero": 7,
+    "titulo": "Los empleados públicos: clases. Derechos y deberes. Adquisición y pérdida de la relación de servicio, situaciones administrativas y régimen disciplinario."
+   },
+   {
+    "numero": 8,
+    "titulo": "Peculiaridades del régimen de los empleados públicos de las entidades locales. Estructura de la función pública local. La Ley de Prevención de Riesgos laborales: objeto y carácter de la norma, derecho a la protección frente a los riesgos laborales, servicios de prevención."
+   }
+  ]
+ },
+ {
+  "bloque": "Parte segunda",
+  "temas": [
+   {
+    "numero": 9,
+    "titulo": "Sistemas de Información para la gestión de Recursos Humanos en la Administración Pública: soluciones informáticas, módulos, funcionalidades, beneficios, implantación. sistema Integrado de Gestión de Personal (SIGP)."
+   },
+   {
+    "numero": 10,
+    "titulo": "El sistema RED de la Tesorería General de la Seguridad Social. El sistema de Liquidación Directa de cotizaciones a la Seguridad Social. Software SILTRA: cotización, afiliación/INSS, conceptos retributivos abonados, envío, recepción y consulta de ficheros. Portal de declaraciones Informativas de la Agencia Tributaria: Modelo 190.-"
+   },
+   {
+    "numero": 11,
+    "titulo": "Sistemas de apoyo a la toma de decisiones (DSS) y su evolución hacia el Business Intelligence (BI) y People Analytics: características principales, clasificación, arquitectura y tecnologías. Indicadores relativos a recursos humanos."
+   },
+   {
+    "numero": 12,
+    "titulo": "Sistemas de gestión integral (ERP) de centros de formación: beneficios, funcionalidades y características."
+   },
+   {
+    "numero": 13,
+    "titulo": "Herramientas de gestión del aprendizaje: beneficios, funcionalidades y características. Especial referencia a Moodle."
+   },
+   {
+    "numero": 14,
+    "titulo": "La estructura del Procedimiento Administrativo Común (I): Iniciación. Clases de iniciación. Subsanación y mejora de la solicitud. Presentación de solicitudes. Los registros administrativos. Términos y plazos. Ordenación."
+   },
+   {
+    "numero": 15,
+    "titulo": "La estructura del Procedimiento Administrativo Común (II): Instrucción. Alegación. La prueba en el procedimiento administrativo. Informes. Participación de los interesados. Finalización. Terminación convencional. Resolución. Desistimientos y renuncia. Caducidad."
+   },
+   {
+    "numero": 16,
+    "titulo": "Recursos administrativos: Concepto. Principios Generales. Interposición del recurso. Suspensión de la ejecución. Audiencia de los interesados. Resolución. Clases: recurso de alzada, recurso potestativo de reposición y recurso extraordinario de revisión."
+   },
+   {
+    "numero": 17,
+    "titulo": "La función pública en la Constitución. Reserva de ley en función pública."
+   },
+   {
+    "numero": 18,
+    "titulo": "Distribución de competencias en materia de función pública: competencias estatales, autonómicas y locales."
+   },
+   {
+    "numero": 19,
+    "titulo": "Clases de empleados públicos: funcionarios de carrera, funcionarios interinos, personal laboral y personal eventual. El personal directivo."
+   },
+   {
+    "numero": 20,
+    "titulo": "Estructura objetiva de la función pública: planificación de recursos humanos, oferta de empleo público, registro de personal, relaciones de puesto de trabajo, plantilla."
+   },
+   {
+    "numero": 21,
+    "titulo": "Estructura subjetiva de la función pública: cuerpos y escalas, grupos de clasificación. Estructuras de participación y representación: delegados y juntas de personal."
+   },
+   {
+    "numero": 22,
+    "titulo": "Ingreso en la función pública (I). Principios constitucionales de igualdad, mérito y capacidad. Excepciones."
+   },
+   {
+    "numero": 23,
+    "titulo": "Ingreso en la función pública (II). Requisitos personales para el acceso a la función pública."
+   },
+   {
+    "numero": 24,
+    "titulo": "Ingreso en la función pública (III). El proceso selectivo. Los órganos de selección. Los sistemas selectivos. Convocatorias y bases."
+   },
+   {
+    "numero": 25,
+    "titulo": "Carrera administrativa de los funcionarios (I): carrera vertical y horizontal."
+   },
+   {
+    "numero": 26,
+    "titulo": "Carrera administrativa de los funcionarios (II):promoción interna vertical y horizontal."
+   },
+   {
+    "numero": 27,
+    "titulo": "La evaluación del desempeño en el Estatuto Básico del Empleado Público."
+   },
+   {
+    "numero": 28,
+    "titulo": "La provisión de puestos de trabajo en la función pública (I). Concurso y libre designación."
+   },
+   {
+    "numero": 29,
+    "titulo": "La provisión de puestos de trabajo en la función pública (II). Permuta. Formas temporales de provisión. Movilidad funcionarial."
+   },
+   {
+    "numero": 30,
+    "titulo": "Situaciones administrativas de los funcionarios de carrera: Servicio activo, servicios especiales, servicio en otras administraciones públicas, excedencia y suspensión de funciones."
+   },
+   {
+    "numero": 31,
+    "titulo": "Causas de pérdida de la condición de funcionario de carrera; especial referencia a la jubilación. Rehabilitación de la condición de funcionario."
+   },
+   {
+    "numero": 32,
+    "titulo": "Derechos individuales de los funcionarios; especial referencia a los derechos retributivos."
+   },
+   {
+    "numero": 33,
+    "titulo": "La Seguridad Social de los funcionarios públicos. Los derechos pasivos. El mutualismo administrativo."
+   },
+   {
+    "numero": 34,
+    "titulo": "Derechos colectivos de los funcionarios. Libertad sindical. Derecho a la negociación colectiva. Derecho de huelga. Derecho de reunión."
+   },
+   {
+    "numero": 35,
+    "titulo": "Deberes de los funcionarios públicos. Ética funcionarial y código de conducta. Los deberes en particular."
+   },
+   {
+    "numero": 36,
+    "titulo": "Régimen de incompatibilidad de los funcionarios públicos."
+   },
+   {
+    "numero": 37,
+    "titulo": "Responsabilidad de los funcionarios públicos. Responsabilidad disciplinaria. Responsabilidad penal. Responsabilidad civil."
+   },
+   {
+    "numero": 38,
+    "titulo": "Función pública local (I). Normativa. Organización."
+   },
+   {
+    "numero": 39,
+    "titulo": "Función pública local (II). Los funcionarios con habilitación de carácter nacional."
+   },
+   {
+    "numero": 40,
+    "titulo": "Función pública local (III). Los demás funcionarios de carrera: escala de Administración general y escala de Administración especial."
+   }
+  ]
+ }
+]

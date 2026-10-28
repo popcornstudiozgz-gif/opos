@@ -1094,6 +1094,26 @@ flashcards...) más adelante. **Sin formularios de captación de email.**
   así). Técnico Auxiliar de Intervención Comunitaria (Ayto., 5 plazas OEP
   2026) se descartó: sin convocatoria ni temario publicado (la antigua
   "Sociocultural" no es comparable).
+- **Cuarta tanda (13 fichas, 28-10-2026):** DGA, cuerpo técnico (BOA
+  247/2025) — `enfermero-dga` (57; Escala Técnica Sanitaria, no Salud),
+  `tecnico-informatica-dga` (28), `ingeniero-tecnico-telecomunicaciones-dga`
+  (15), `tecnico-inspeccion-financiera-dga` (12; programa en tres bloques
+  con la parte 2 de contabilidad sin numerar, **laguna**: al tema 12 de
+  Derecho le falta el comienzo en el PDF oficial); cuerpo superior —
+  `ingeniero-industrial-dga` (18), `arquitecto-dga` (16),
+  `ingeniero-telecomunicaciones-dga` (15), `ingeniero-caminos-dga` (11),
+  `ingeniero-agronomo-dga` (10). Ayto. — `educador-social-ayto-zaragoza`
+  (9) e `ingeniero-tecnico-obras-publicas-ayto-zaragoza` (5; temas 46-48
+  según la **rectificación** del BOPZ 196, edicto 5765), ambas de CONV
+  2/2026; `tecnico-auxiliar-laboratorio-ayto-zaragoza` (6) y
+  `tecnico-auxiliar-recursos-humanos-ayto-zaragoza` (6), de CONV 3/2026.
+  Ojo al extraer programas: algunos PDF pegan el número al texto («10.La…»)
+  y `parse_programa` no lo separa; comprobar siempre que el recuento de
+  temas cuadra.
+- **Lo que queda sin ficha** son categorías de 1 a 5 plazas (el
+  propietario decidió no priorizarlas) y el Salud/Educación. Siguiente paso
+  propuesto: empezar a meter material (test, flashcards) en las fichas de más
+  demanda.
 - Fuentes DGA útiles: buscador oficial de convocatorias
   `aplicaciones.aragon.es/oepc` (por categoría: plazas, plazo, tasa); los
   programas de funcionarios están en PDF sueltos de aragon.es enlazados en
