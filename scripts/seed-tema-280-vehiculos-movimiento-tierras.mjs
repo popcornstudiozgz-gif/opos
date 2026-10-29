@@ -58,12 +58,12 @@ await insertar("temas", [{
   descripcion: "Excavadoras y palas cargadoras. Motoniveladoras, bulldozer y compactadores. Dúmperes rígidos y articulados. Métodos generales de trabajo y riesgos asociados.",
   contenido: "Desarrolla, a nivel introductorio y orientado a un conductor generalista, los principales tipos de vehículos y maquinaria empleados en el movimiento de tierras (excavadoras, palas cargadoras, motoniveladoras, bulldozer, compactadores, dúmperes) y sus métodos generales de trabajo, sin alcanzar el nivel de especialización propio de un Oficial Conductor de la especialidad de Maquinaria Pesada.",
   enlaces_boe: [
-    { url: "https://www.insst.es/documentacion/documentacion-tecnica-en-linea/notas-tecnicas-de-prevencion", titulo: "NTP 126 del INSST: Máquinas para movimiento de tierras (identificación de riesgos)" },
+    { url: "https://www.insst.es/documentacion/colecciones-tecnicas/ntp-notas-tecnicas-de-prevencion/4-serie-ntp-numeros-121-a-155-ano-1985/ntp-126-maquinas-para-movimiento-de-tierras", titulo: "NTP 126 del INSST: Máquinas para movimiento de tierras (identificación de riesgos)" },
   ],
   indice_estudio: [
     { url: "", titulo: "Excavadoras y palas cargadoras", seccion: "excavadoras-y-palas-cargadoras", articulos: "Conceptos fundamentales" },
     { url: "", titulo: "Motoniveladoras, bulldozer y compactadores", seccion: "motoniveladoras-bulldozer-y-compactadores", articulos: "Conceptos fundamentales" },
-    { url: "https://www.insst.es/documentacion/documentacion-tecnica-en-linea/notas-tecnicas-de-prevencion", titulo: "Dúmperes y métodos generales de trabajo", seccion: "dumperes-y-metodos-generales-de-trabajo", articulos: "NTP 126 del INSST" },
+    { url: "https://www.insst.es/documentacion/colecciones-tecnicas/ntp-notas-tecnicas-de-prevencion/4-serie-ntp-numeros-121-a-155-ano-1985/ntp-126-maquinas-para-movimiento-de-tierras", titulo: "Dúmperes y métodos generales de trabajo", seccion: "dumperes-y-metodos-generales-de-trabajo", articulos: "NTP 126 del INSST" },
   ],
 }]);
 

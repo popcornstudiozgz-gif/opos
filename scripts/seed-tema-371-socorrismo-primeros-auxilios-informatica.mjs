@@ -27,7 +27,7 @@
  */
 import { sembrarTema, POLICIA } from "./lib/sembrar-tema.mjs";
 
-const ESCUELA = "https://www.zaragoza.es/sede/portal/bomberos/temarios";
+const ESCUELA = "https://www.zaragoza.es/sede/portal/bomberos/temarios/";
 const IVASPE = "https://www.valencia.es/documents/d/guest/manual-20bomberos-pdf";
 const S1 = "pas-soporte-vital-rcp";
 const S2 = "hemorragias-traumatismos";
