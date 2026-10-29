@@ -26,7 +26,7 @@
  */
 import { sembrarTema, POLICIA } from "./lib/sembrar-tema.mjs";
 
-const ESCUELA = "https://www.zaragoza.es/sede/portal/bomberos/temarios";
+const ESCUELA = "https://www.zaragoza.es/sede/portal/bomberos/temarios/";
 const UIT = "https://itu.int/dms_pub/itu-r/opb/act/R-ACT-WRC.8-2007-PDF-S.pdf";
 const OTLAI = "https://www.zaragoza.es/sede/servicio/normativa/3983";
 const S1 = "radiocomunicaciones-conceptos";

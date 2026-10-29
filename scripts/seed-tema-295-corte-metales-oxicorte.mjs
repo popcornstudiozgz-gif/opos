@@ -51,12 +51,12 @@ await insertar("temas", [{
   descripcion: "Fundamentos del oxicorte: precalentamiento y chorro de oxígeno puro. Gases utilizados (oxígeno comburente, acetileno combustible). Equipo: botellas, manorreductores, soplete, mangueras codificadas por color, válvulas antirretorno.",
   contenido: "Desarrolla el proceso de corte de metales por oxicorte: su fundamento (precalentamiento de la zona de corte y posterior chorro de oxígeno puro que oxida y expulsa el metal fundido), los gases empleados —oxígeno como comburente y acetileno como combustible más habitual—, y el equipo necesario para ejecutarlo con seguridad: botellas, manorreductores, soplete, mangueras codificadas por color y válvulas antirretorno, junto con las presiones de trabajo y las normas básicas de seguridad de referencia (NTP 495 del INSST).",
   enlaces_boe: [
-    { url: "https://www.insst.es/documents/94886/326962/ntp_495.pdf", titulo: "NTP 495 (INSST): Soldadura oxiacetilénica y oxicorte: normas de seguridad" },
+    { url: "https://www.insst.es/documentacion/colecciones-tecnicas/ntp-notas-tecnicas-de-prevencion/14-serie-ntp-numeros-471-a-505-ano-1999/ntp-495-soldadura-oxiacetilenica-y-oxicorte-normas-de-seguridad", titulo: "NTP 495 (INSST): Soldadura oxiacetilénica y oxicorte: normas de seguridad" },
   ],
   indice_estudio: [
     { url: "", titulo: "Fundamentos del oxicorte y gases utilizados", seccion: "fundamentos-del-oxicorte-y-gases-utilizados", articulos: "Conocimiento técnico del oficio" },
     { url: "", titulo: "El equipo de oxicorte", seccion: "el-equipo-de-oxicorte", articulos: "Conocimiento técnico del oficio" },
-    { url: "https://www.insst.es/documents/94886/326962/ntp_495.pdf", titulo: "Presiones de trabajo y seguridad", seccion: "presiones-de-trabajo-y-seguridad", articulos: "NTP 495 (INSST)" },
+    { url: "https://www.insst.es/documentacion/colecciones-tecnicas/ntp-notas-tecnicas-de-prevencion/14-serie-ntp-numeros-471-a-505-ano-1999/ntp-495-soldadura-oxiacetilenica-y-oxicorte-normas-de-seguridad", titulo: "Presiones de trabajo y seguridad", seccion: "presiones-de-trabajo-y-seguridad", articulos: "NTP 495 (INSST)" },
   ],
 }]);
 
