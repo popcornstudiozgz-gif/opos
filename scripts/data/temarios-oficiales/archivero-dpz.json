@@ -1,0 +1,464 @@
+[
+  {
+    "bloque": "Parte general",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "La Constitución española de 1978. Principios generales. Derechos y deberes fundamentales de los españoles."
+      },
+      {
+        "numero": 2,
+        "titulo": "La organización territorial del Estado. Las Comunidades Autónomas. Formas de acceso a la autonomía en la Constitución Española. Los Estatutos de Autonomía: Su significado. En particular el Estatuto de Autonomía de Aragón: Características. Estructura. Proceso de elaboración y reforma."
+      },
+      {
+        "numero": 3,
+        "titulo": "La Administración Pública en el ordenamiento español. Administración del Estado. Administración Local. Administración Institucional y corporativa."
+      },
+      {
+        "numero": 4,
+        "titulo": "El procedimiento administrativo I: naturaleza y fines. Los sujetos del procedimiento administrativo. Fases. Cómputo de plazos"
+      },
+      {
+        "numero": 5,
+        "titulo": "El procedimiento administrativo II: El administrado. Colaboración y participación de los ciudadanos en las funciones administrativas. El registro de entrada y salida de documentos. Requisitos en la presentación de documentos. Comunicaciones y notificaciones."
+      },
+      {
+        "numero": 6,
+        "titulo": "El funcionamiento electrónico del sector público. Derecho y obligación de relacionarse electrónicamente con las Administraciones Públicas."
+      },
+      {
+        "numero": 7,
+        "titulo": "Régimen local español. Principios constitucionales y regulación jurídica. La Ley de Administración Local de Aragón."
+      },
+      {
+        "numero": 8,
+        "titulo": "La provincia en el régimen local. Organización provincial. Competencias. Funcionamiento de los Órganos Colegiados Locales. Convocatoria y orden del día. Actas y certificados de acuerdos."
+      },
+      {
+        "numero": 9,
+        "titulo": "El empleo público. El Estatuto Básico del Empleado Público. Clases de personal al servicio de las Administraciones Públicas. Derechos y deberes del funcionario público. Personal al servicio de las Entidades Locales."
+      },
+      {
+        "numero": 10,
+        "titulo": "Los contratos del sector público (I). Fuentes, ámbito de aplicación, y objeto de la contratación pública. Delimitación de los tipos contractuales. Contratos sujetos a regulación armonizada. Régimen jurídico de los contratos administrativos y contratos privados; los actos separables."
+      },
+      {
+        "numero": 11,
+        "titulo": "Los contratos del sector público (II). Los principios generales de la contratación del sector público: racionalidad, libertad de pactos, contenido mínimo, la información, perfección y forma. Régimen de invalidez de los contratos. Las partes de los contratos del sector público. Órgano de contratación. Capacidad y solvencia del contratista. Objeto, precio y valor estimado del contrato. Garantías exigibles en la contratación del sector público."
+      },
+      {
+        "numero": 12,
+        "titulo": "Los contratos del sector público (III). La preparación de los contratos por las Administraciones Públicas. Clases de expedientes de contratación. La selección del contratista: procedimientos, formas y criterios de adjudicación. Perfeccionamiento y formalización del contrato. Ejecución y modificación de los contratos administrativos. Prerrogativas de la Administración. La revisión de precios. La extinción de los contratos administrativos. La cesión de los contratos y la subcontratación."
+      },
+      {
+        "numero": 13,
+        "titulo": "La igualdad y la no discriminación por razón de sexo en la Constitución. La ley Orgánica 3/2007, de 22 de marzo, para la igualdad entre mujeres y hombres. Plan de Igualdad de la Diputación Provincial de Zaragoza."
+      },
+      {
+        "numero": 14,
+        "titulo": "La transparencia en la Administración Pública. Legislación básica estatal y autonómica aragonesa sobre la materia."
+      },
+      {
+        "numero": 15,
+        "titulo": "La Protección de Datos y acceso a la información. Legislación en la materia."
+      },
+      {
+        "numero": 16,
+        "titulo": "La Ley de Prevención de Riesgos Laborales: objeto y conceptos básicos. Derechos y obligaciones. Principios de la acción preventiva. Disciplinas que la integran. Servicios de prevención. Prevención de riesgos laborales en la Administración Pública."
+      },
+      {
+        "numero": 17,
+        "titulo": "El Presupuesto de las Entidades Locales. Principios. Contenido. Elaboración y aprobación del Presupuesto general. La prórroga del presupuesto. Impugnación. Estructuras presupuestarias. Referencia al Presupuesto General de la Diputación Provincial de Zaragoza."
+      },
+      {
+        "numero": 18,
+        "titulo": "Las Haciendas Locales: Concepto. Normativa aplicable. Principios Generales. Clasificación de los recursos de las Haciendas Locales. El poder financiero-tributario de las entidades locales territoriales. Imposición y ordenación de los tributos locales. Contenido de las ordenanzas fiscales, tramitación y régimen de impugnación de los actos de imposición y ordenación de tributos. El establecimiento de recursos no tributarios."
+      },
+      {
+        "numero": 19,
+        "titulo": "Potestad sancionadora. Principios Generales. El procedimiento sancionador y sus especialidades."
+      },
+      {
+        "numero": 20,
+        "titulo": "Expropiación forzosa. Fundamento y naturaleza. Sujeto, objeto y causa de la expropiación. Procedimiento General. Peculiaridades del procedimiento de urgencia. Las expropiaciones especiales."
+      },
+      {
+        "numero": 21,
+        "titulo": "La Responsabilidad patrimonial de las Administraciones Públicas. Evolución y régimen actual. Principios y presupuestos. Responsabilidad concurrente de las Administraciones Públicas. Responsabilidad de las autoridades y personal al servicio de las Administraciones Públicas."
+      },
+      {
+        "numero": 22,
+        "titulo": "La Unión Europea: objetivos y fundamentos. Los Tratados originarios y modificativos. El Tratado de Lisboa: el Tratado de la Unión y el Tratado de Funcionamiento de la Unión Europea."
+      },
+      {
+        "numero": 23,
+        "titulo": "Las Instituciones de la Unión Europea. Las fuentes del Derecho de la Unión Europea. Las Comunidades Autónomas y el Derecho Comunitario."
+      }
+    ]
+  },
+  {
+    "bloque": "Parte específica",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "Monarquía y Estado en el Aragón medieval."
+      },
+      {
+        "numero": 2,
+        "titulo": "Las instituciones políticas del reino de Aragón hasta los Decretos de Nueva Planta: las Cortes de Aragón, la Diputación del Reino, el Justicia de Aragón."
+      },
+      {
+        "numero": 3,
+        "titulo": "La Administración de Justicia en Aragón hasta los Decretos de Nueva Planta."
+      },
+      {
+        "numero": 4,
+        "titulo": "Las instituciones administrativas y la organización del territorio en el reino de Aragón hasta los Decretos de Nueva Planta."
+      },
+      {
+        "numero": 5,
+        "titulo": "El municipio aragonés hasta los Decretos de Nueva Planta."
+      },
+      {
+        "numero": 6,
+        "titulo": "El sistema fiscal y la Administración de la Hacienda Pública en Aragón hasta los Decretos de Nueva Planta."
+      },
+      {
+        "numero": 7,
+        "titulo": "La estructura social y económica en Aragón hasta el s. XVIII."
+      },
+      {
+        "numero": 8,
+        "titulo": "El señorío en España, con especial referencia a Aragón."
+      },
+      {
+        "numero": 9,
+        "titulo": "El Derecho aragonés."
+      },
+      {
+        "numero": 10,
+        "titulo": "Las instituciones notarial y registral en Aragón, desde la Edad Media a la actualidad."
+      },
+      {
+        "numero": 11,
+        "titulo": "La organización territorial y el gobierno de la Iglesia en Aragón, desde la Edad Media a la actualidad. Clero secular y regular. Las Órdenes Militares."
+      },
+      {
+        "numero": 12,
+        "titulo": "Las instituciones de beneficencia en Aragón, desde la Edad Media a la actualidad."
+      },
+      {
+        "numero": 13,
+        "titulo": "La enseñanza en Aragón, desde la Edad media hasta la actualidad."
+      },
+      {
+        "numero": 14,
+        "titulo": "La Cancillería de la Corona de Aragón."
+      },
+      {
+        "numero": 15,
+        "titulo": "Diplomática documental y tipos de escritura en el Aragón medieval y moderno."
+      },
+      {
+        "numero": 16,
+        "titulo": "La Administración Central y el sistema de Consejos durante los ss. XVI y XVII. El Consejo de Aragón."
+      },
+      {
+        "numero": 17,
+        "titulo": "Las reformas político-administrativas del siglo XVIII en España."
+      },
+      {
+        "numero": 18,
+        "titulo": "La Administración Territorial y Local en Aragón en el s. XVIII."
+      },
+      {
+        "numero": 19,
+        "titulo": "Los regímenes constitucionales españoles en los siglos XIX y XX. Sus instituciones políticas."
+      },
+      {
+        "numero": 20,
+        "titulo": "La Administración del Estado en la España contemporánea. Órganos centrales y periféricos."
+      },
+      {
+        "numero": 21,
+        "titulo": "La Administración Local en la España contemporánea, con especial referencia a Aragón."
+      },
+      {
+        "numero": 22,
+        "titulo": "La Diputación Provincial de Zaragoza y los establecimientos de beneficencia."
+      },
+      {
+        "numero": 23,
+        "titulo": "La Administración de Justicia en la Edad Contemporánea."
+      },
+      {
+        "numero": 24,
+        "titulo": "El sistema fiscal y la Administración de la Hacienda Pública en España en la Edad Contemporánea."
+      },
+      {
+        "numero": 25,
+        "titulo": "Los procesos desamortizadores del siglo XIX. Su repercusión en los archivos."
+      },
+      {
+        "numero": 26,
+        "titulo": "La organización político-administrativa española durante el régimen franquista: Administración del Estado, Movimiento y Sindicatos."
+      },
+      {
+        "numero": 27,
+        "titulo": "Los partidos políticos y las organizaciones sindicales en la España contemporánea."
+      },
+      {
+        "numero": 28,
+        "titulo": "Estructura económica y social de Aragón en los siglos XIX y XX."
+      },
+      {
+        "numero": 29,
+        "titulo": "La prensa y las publicaciones periódicas como fuente para el estudio de Aragón."
+      },
+      {
+        "numero": 30,
+        "titulo": "Fuentes documentales y bibliografía para el estudio de las instituciones políticas de La Corona de Aragón."
+      },
+      {
+        "numero": 31,
+        "titulo": "Fuentes documentales y bibliografía para el estudio de las instituciones políticas del Reino de Aragón hasta los Decretos de Nueva Planta."
+      },
+      {
+        "numero": 32,
+        "titulo": "Fuentes documentales y bibliografía para el estudio de la Administración de Justicia y la Fe Pública en Aragón hasta los Decretos de Nueva Planta."
+      },
+      {
+        "numero": 33,
+        "titulo": "Fuentes documentales y bibliografía para el estudio del municipio en Aragón hasta los Decretos de Nueva Planta."
+      },
+      {
+        "numero": 34,
+        "titulo": "Fuentes documentales y bibliografía para el estudio de la Administración de Justicia y la Fe Pública en España desde el siglo XVIII."
+      },
+      {
+        "numero": 35,
+        "titulo": "Fuentes documentales y bibliografía para el estudio de los organismos de la Administración Central desde el siglo XVIII."
+      },
+      {
+        "numero": 36,
+        "titulo": "Fuentes documentales y bibliografía para el estudio de la Administración Local en España desde el siglo XVIII."
+      },
+      {
+        "numero": 37,
+        "titulo": "Fuentes documentales y bibliografía para la historia de la Hacienda Pública en España desde el siglo XVIII."
+      },
+      {
+        "numero": 38,
+        "titulo": "Fuentes documentales y bibliografía para el estudio de las Instituciones Eclesiásticas en España, con especial referencia a Aragón."
+      },
+      {
+        "numero": 39,
+        "titulo": "Fuentes documentales y bibliografía para el estudio de las organizaciones políticas y sindicales españolas."
+      },
+      {
+        "numero": 40,
+        "titulo": "Fuentes documentales y bibliografía para el estudio del señorío, con especial referencia a Aragón."
+      },
+      {
+        "numero": 41,
+        "titulo": "Fuentes documentales y bibliografía para el estudio del mundo agrario y los regadíos en Aragón."
+      },
+      {
+        "numero": 42,
+        "titulo": "Fuentes documentales y bibliografía para el estudio de la industria, el comercio y las comunicaciones en Aragón."
+      },
+      {
+        "numero": 43,
+        "titulo": "El Sistema Español de Archivos. El Sistema Estatal de Archivos y los Sistemas de las Comunidades Autónomas. Normativa, composición y funciones."
+      },
+      {
+        "numero": 44,
+        "titulo": "El Sistema de Archivos de Aragón. Normativa, composición y funciones."
+      },
+      {
+        "numero": 45,
+        "titulo": "Los Archivos Históricos Provinciales. Historia y funciones. En especial, El Archivo Histórico Provincial de Zaragoza."
+      },
+      {
+        "numero": 46,
+        "titulo": "Los archivos de la Administración Local aragonesa: Diputaciones, Comarcas y Ayuntamientos. En especial la Diputación Provincial de Zaragoza. Evolución histórica. Competencias a lo largo de su historia. Fuentes documentales para su estudio."
+      },
+      {
+        "numero": 47,
+        "titulo": "El Archivo de la Diputación Provincial de Zaragoza (I). Historia, funciones y servicios."
+      },
+      {
+        "numero": 48,
+        "titulo": "El Archivo de la Diputación Provincial de Zaragoza (II). Fondos documentales. Especial referencia a la Institución Fernando el Católico."
+      },
+      {
+        "numero": 49,
+        "titulo": "Archivos y fondos eclesiásticos aragoneses."
+      },
+      {
+        "numero": 50,
+        "titulo": "El Archivo de la Corona de Aragón."
+      },
+      {
+        "numero": 51,
+        "titulo": "Patrimonio Cultural en España y en Aragón: concepto y régimen jurídico."
+      },
+      {
+        "numero": 52,
+        "titulo": "La protección del patrimonio documental en España. La Ley 6/1985, de 25 de junio, del Patrimonio Histórico Español y su normativa de desarrollo."
+      },
+      {
+        "numero": 53,
+        "titulo": "La protección del patrimonio documental en Aragón. La Ley 6/1986, de 28 de noviembre, de Archivos de Aragón y su normativa de desarrollo. Ley 3/1999, de 10 de marzo, del Patrimonio Cultural Aragonés: principios aplicables."
+      },
+      {
+        "numero": 54,
+        "titulo": "Competencias del Estado, de la Comunidad Autónoma de Aragón y de las administraciones locales aragonesas en materia de patrimonio documental y archivos."
+      },
+      {
+        "numero": 55,
+        "titulo": "Legislación de propiedad intelectual e industrial en España. Los sistemas de licencias de compartir información (creative commons) y la reutilización de la información del sector público. Su influencia en los archivos."
+      },
+      {
+        "numero": 56,
+        "titulo": "La legislación española y aragonesa de la memoria histórica: su repercusión en los archivos."
+      },
+      {
+        "numero": 57,
+        "titulo": "Normativa y directrices de la Unión Europea en materia de archivos y patrimonio documental."
+      },
+      {
+        "numero": 58,
+        "titulo": "Concepto y definición de Archivo. Análisis de su evolución histórica. Tipos de archivos y sus funciones."
+      },
+      {
+        "numero": 59,
+        "titulo": "Concepto y definición de Archivística. Su evolución como disciplina. Ciencias y técnicas auxiliares. Obras de referencia, repertorios bibliográficos y principales revistas especializadas."
+      },
+      {
+        "numero": 60,
+        "titulo": "La Archivística en el contexto de las disciplinas documentales. El respeto de procedencia de los fondos y la teoría de las edades de los documentos."
+      },
+      {
+        "numero": 61,
+        "titulo": "El documento. Concepto, características y valores. Génesis y tradición documental."
+      },
+      {
+        "numero": 62,
+        "titulo": "El documento electrónico: Concepto, elementos, formatos, estándares y características. El expediente electrónico: creación, estructura, y formación. Principales herramientas para su creación y gestión."
+      },
+      {
+        "numero": 63,
+        "titulo": "Implantación de un sistema de gestión de documentos en el ámbito de la administración pública. Políticas de gestión de documentos. La Política de Gestión de Documentos Electrónicos del Gobierno de Aragón. El archivo electrónico."
+      },
+      {
+        "numero": 64,
+        "titulo": "El esquema nacional de interoperabilidad y las normas técnicas de interoperabilidad. El esquema Nacional de Seguridad. Los esquemas de metadatos."
+      },
+      {
+        "numero": 65,
+        "titulo": "Entrada y salida de documentos de los archivos. Modalidades, metodología e instrumentos de control. La adquisición de fondos y documentos por las Administraciones Públicas: normativa aplicable y criterios técnicos de tasación."
+      },
+      {
+        "numero": 66,
+        "titulo": "El procedimiento administrativo en la España contemporánea. Su evolución histórica."
+      },
+      {
+        "numero": 67,
+        "titulo": "Archivos de oficina: pautas para la organización, instalación, descripción y preparación de las transferencias de su documentación."
+      },
+      {
+        "numero": 68,
+        "titulo": "La identificación de fondos. Las series documentales. Metodología y sistemas de clasificación y ordenación. Los Cuadros de Clasificación."
+      },
+      {
+        "numero": 69,
+        "titulo": "Las agrupaciones documentales de los archivos: concepto y definición de grupo de fondos, fondo, sección o división del fondo, serie documental, expediente, unidad archivística simple y compuesta y colección de documentos. Su relación con los instrumentos de descripción."
+      },
+      {
+        "numero": 70,
+        "titulo": "La valoración de fondos. Las Comisiones de Valoración de Documentos. La selección documental. La valoración de fondos en Aragón."
+      },
+      {
+        "numero": 71,
+        "titulo": "La descripción archivística. Concepto y evolución. Los instrumentos de descripción. La norma ISAD (G), normas nacionales y autonómicas relacionadas."
+      },
+      {
+        "numero": 72,
+        "titulo": "El control de autoridades en archivos. Concepto y normas. ISAAR(CPF), EAC y ARANOR Lenguajes controlados y tesauros."
+      },
+      {
+        "numero": 73,
+        "titulo": "Otras normas internacionales de descripción e intercambio de la información archivística. Principales modelos lógicos y conceptuales internacionales de descripción archivística."
+      },
+      {
+        "numero": 74,
+        "titulo": "El modelo conceptual para la descripción archivística en España. La Comisión de Normas Españolas de Descripción Archivística (CNEDA)."
+      },
+      {
+        "numero": 75,
+        "titulo": "El acceso a los documentos. Régimen y normas legales."
+      },
+      {
+        "numero": 76,
+        "titulo": "La transparencia activa: la puesta a disposición de la información pública. El Portal de Transparencia de la Diputación Provincial de Zaragoza. La iniciativa Open data: aplicación en archivos."
+      },
+      {
+        "numero": 77,
+        "titulo": "El servicio a los usuarios en los archivos: Administración y ciudadanos."
+      },
+      {
+        "numero": 78,
+        "titulo": "El archivo como centro de divulgación y dinamización cultural. Técnicas de difusión: estrategias de marketing y comunicación, redes sociales."
+      },
+      {
+        "numero": 79,
+        "titulo": "La proyección de los archivos en el mundo de la educación. Concepto y potencial. Actividades y recursos."
+      },
+      {
+        "numero": 80,
+        "titulo": "Portales de difusión de contenidos archivísticos internacionales, españoles y autonómicos."
+      },
+      {
+        "numero": 81,
+        "titulo": "DARA como sistema de información de archivos de Aragón: portales, subportales y normas técnicas."
+      },
+      {
+        "numero": 82,
+        "titulo": "Gestión de la calidad en los servicios de archivo. Las Cartas de Servicio."
+      },
+      {
+        "numero": 83,
+        "titulo": "Los soportes documentales. Tipos y causas fisicoquímicas, biológicas y medioambientales de alteración. Métodos y recursos de conservación preventiva."
+      },
+      {
+        "numero": 84,
+        "titulo": "La restauración de documentos. Criterios, medios y procedimientos."
+      },
+      {
+        "numero": 85,
+        "titulo": "El archivo como centro de conservación: edificio, instalaciones y equipamientos."
+      },
+      {
+        "numero": 86,
+        "titulo": "Gestión de catástrofes y planes de emergencia en los archivos."
+      },
+      {
+        "numero": 87,
+        "titulo": "La reproducción de documentos. Técnicas, objetivos y formatos. La preservación digital."
+      },
+      {
+        "numero": 88,
+        "titulo": "La dimensión internacional de los archivos. Organismos internacionales de archivos."
+      },
+      {
+        "numero": 89,
+        "titulo": "Los recursos humanos en los archivos: estructura y organización. Perfiles profesionales, formación y funciones básicas. La deontología profesional."
+      },
+      {
+        "numero": 90,
+        "titulo": "Los documentos audiovisuales, sonoros y fotográficos. Concepto, clases y características. Su tratamiento archivístico."
+      }
+    ]
+  }
+]

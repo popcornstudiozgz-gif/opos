@@ -1,0 +1,107 @@
+[
+  {
+    "bloque": "Temario",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "La Constitución española de 1978. Derechos y deberes fundamentales de los españoles."
+      },
+      {
+        "numero": 2,
+        "titulo": "La Institución Fernando el Católico: Estatutos, historia, órganos de gobierno y centros asociados."
+      },
+      {
+        "numero": 3,
+        "titulo": "La Institución Fernando el Católico: Publicaciones y actividades."
+      },
+      {
+        "numero": 4,
+        "titulo": "Principales características que definen la corrección. La labor del corrector: objetividad y perspectiva. Tipos de corrección. Limitaciones del corrector. Coherencia, configuración de criterios."
+      },
+      {
+        "numero": 5,
+        "titulo": "Particularidades de la corrección según el tipo de producto (libro, manual, revista, documento de trabajo, folletos, piezas gráficas diversas, etc.)."
+      },
+      {
+        "numero": 6,
+        "titulo": "Fundamentos de la ortografía española. Correspondencia del abecedario del español con su sistema fonológico. Sincronía y diacronía en el sistema fonológico español."
+      },
+      {
+        "numero": 7,
+        "titulo": "La coherencia textual. El orden de colocación de los elementos oracionales. Orden lineal y orden envolvente. La deixis, la anáfora y la catáfora. La progresión temática. El ritmo. Los enlaces extraoracionales. Enlaces de relación lógica y de relación intradiscursiva."
+      },
+      {
+        "numero": 8,
+        "titulo": "Las relaciones oracionales. La oración simple y la oración compuesta. La coordinación y la subordinación. La cohesión morfosintáctica. Concordancia entre sujeto y predicado, sustantivo y adjetivo, sustantivo y determinante, pronombres con antecedentes y consecuentes. Casos especiales de la concordancia nominal y verbal."
+      },
+      {
+        "numero": 9,
+        "titulo": "Las lenguas especiales. Jergas y lenguajes sectoriales. Estudio y características del lenguaje administrativo. Latinismos. Extranjerismos. Arcaísmos. Barbarismos. Vulgarismos. Calcos sintácticos. Falsos amigos."
+      },
+      {
+        "numero": 10,
+        "titulo": "Corrección ortográfica. Uso de mayúsculas y minúsculas. Acentuación. Escritura de números. Abreviaturas, siglas y acrónimos."
+      },
+      {
+        "numero": 11,
+        "titulo": "Corrección tipográfica. Metodología y normas a seguir. Signos de corrección tipográfica. Llamadas, signos y señales. Unificación de criterios. Norma UNE 54051:2016."
+      },
+      {
+        "numero": 12,
+        "titulo": "Corrección gramatical. Gramática del español. La oración y sus elementos. Errores más comunes. Sustantivos y adjetivos. Superlativos. Concordancia gramatical. El género y el número."
+      },
+      {
+        "numero": 13,
+        "titulo": "Los signos de puntuación. Uso de punto, coma, punto y coma, dos puntos, puntos suspensivos. Comillas, raya y guión. Signos de exclamación, signos de interrogación, los paréntesis, corchetes."
+      },
+      {
+        "numero": 14,
+        "titulo": "El verbo y el adverbio. Verbos defectivos, irregulares, participios dobles. Usos del gerundio. Correlación de tiempos verbales. Perífrasis."
+      },
+      {
+        "numero": 15,
+        "titulo": "El análisis del discurso oral y escrito. Pragmática lingüística en un texto escrito. Lengua y estilo. Denotación y connotación. Recursos en los planos de la expresión y el contenido."
+      },
+      {
+        "numero": 16,
+        "titulo": "Corrección de estilo. Uso de los manuales de estilo. Definir un método de trabajo. Saber distinguir entre error gramatical y error de estilo."
+      },
+      {
+        "numero": 17,
+        "titulo": "Elementos gráficos de una página: Blancos, márgenes, caja, blancos de cortesía. El interlineado y la línea. Medición. Cambios de interlineado. Líneas cortas incorrectas."
+      },
+      {
+        "numero": 18,
+        "titulo": "El tracking: líneas abiertas y líneas cerradas. Partición de líneas. Particiones incorrectas. Líneas huérfana, viuda y ladrona."
+      },
+      {
+        "numero": 19,
+        "titulo": "Elementos textuales de una página: Encabezados y pies de página. Tipos de párrafos. Definición y clases: ordinario, francés, alemán, forma epigráfica, en bloque, quebrado, triángulo español, base de lámpara. Tipos de sangría. Títulos y subtítulos. Entradillas. Ladillos. Anotación de citas, pies de foto. Notas a pie de página."
+      },
+      {
+        "numero": 20,
+        "titulo": "Materiales, diccionarios, gramáticas, libros de referencia, herramientas informáticas, Internet. La informática en los procesos de edición."
+      },
+      {
+        "numero": 21,
+        "titulo": "Sistemas de gestión y protección medioambiental en la industria gráfica. Normativa. Identificación de factores de impacto medioambiental en las diferentes áreas funcionales de la empresa gráfica."
+      },
+      {
+        "numero": 22,
+        "titulo": "Planes de prevención y seguridad en la empresa gráfica. Normativa. Identificación de riesgos laborales en el sector gráfico. Planificación de la acción preventiva."
+      },
+      {
+        "numero": 23,
+        "titulo": "La igualdad y la no discriminación por razón de sexo en la Constitución. La Ley Orgánica 3/2007, de 22 de marzo, para la Igualdad entre Mujeres y Hombres."
+      },
+      {
+        "numero": 24,
+        "titulo": "La transparencia en la Administración Pública. Legislación básica estatal y autonómica aragonesa en la materia."
+      },
+      {
+        "numero": 25,
+        "titulo": "Protección de datos de carácter personal: objeto y ámbito de aplicación. Principios de protección de datos. Derechos de las personas."
+      }
+    ]
+  }
+]

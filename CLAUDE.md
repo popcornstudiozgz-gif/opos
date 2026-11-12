@@ -1130,10 +1130,21 @@ flashcards...) más adelante. **Sin formularios de captación de email.**
   sin convocar (Decreto 90/2025, Decreto 12/2026 extraordinario) no están.
   Buscador del BOA por título, útil para repetirlo:
   `boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VERLST&BASE=BOLE&DOCS=1-200&SEC=FIRMA&SORT=-PUBL&SEPARADOR=&TITU-C=<palabras>`.
+- **Sexta tanda: DPZ (22 fichas, 12-11-2026).** Sale de la lista de
+  convocatorias de nuevo ingreso de `dpz.es/ciudadanos/empleo-publico/nuevo-ingreso/`
+  (cada convocatoria tiene su página con plazas, plazo y PDF de las bases).
+  `scripts/seed-fichas-dpz.mjs` + `scripts/data/fichas-dpz-2.json` (cabecera
+  con fuentes y lagunas). Patrón de examen: las de personal laboral, test de
+  60 preguntas en 75 min + práctico; las de funcionario A1/A2, test de 100 +
+  desarrollo de temas + supuestos; Letrado/a, dos orales y un escrito
+  judicial. Una ficha por categoría (procesos duplicados y turnos reservados,
+  citados en la ficha principal). **La web de la DPZ trae erratas en la escala
+  de algunas plazas: manda la base 2 de las bases.** Oficial 1.ª de Almacén
+  estaba abierta hasta el 11-12-2026.
 - **Agrupación en la home y en la página del organismo:** `src/lib/grupos.ts`
-  reparte las oposiciones del SALUD por tipo de puesto (enfermería, técnicos
+  reparte las oposiciones del SALUD y de la DPZ por tipo de puesto (en el SALUD: enfermería, técnicos
   sanitarios, medicina, gestión, servicios generales). **Al añadir una ficha
-  del SALUD, añade su `puestoSlug` a su grupo** (si no, sale en "Otras
+  del SALUD o de la DPZ, añade su `puestoSlug` a su grupo** (si no, sale en "Otras
   categorías"). La home ordena los organismos por número de oposiciones con
   material, así el SALUD (solo fichas) va el último.
 - **Lo que queda sin ficha** son categorías de 1 a 5 plazas de DGA/Ayto. (el

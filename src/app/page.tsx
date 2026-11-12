@@ -230,7 +230,7 @@ export default async function Home() {
                   <Card key={c.oposicionSlug} className="p-5">
                     <p className="text-sm font-semibold text-brand-600">{c.organismo}</p>
                     <h3 className="mt-1 text-lg font-bold text-brand-900">{c.nombre}</h3>
-                    <p className="mt-2 text-sm text-slate-600">{c.plazasTotal} plazas · {c.plazoInstancias}</p>
+                    <p className="mt-2 text-sm text-slate-600">{c.plazasTotal} {c.plazasTotal === 1 ? "plaza" : "plazas"} · {c.plazoInstancias}</p>
                     <Button
                       href={`/${c.organismoSlug}/${c.puestoSlug}/convocatoria`}
                       tamano="sm"

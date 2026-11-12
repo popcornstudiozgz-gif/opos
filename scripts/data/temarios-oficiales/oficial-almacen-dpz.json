@@ -1,0 +1,92 @@
+[
+  {
+    "bloque": "Parte general",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "La Constitución española de 1978. Derechos y deberes fundamentales de los españoles."
+      },
+      {
+        "numero": 2,
+        "titulo": "La igualdad y la no discriminación por razón de sexo en la Constitución. La Ley Orgánica 3/2007, de 22 de marzo, para la igualdad entre mujeres y hombres. Nociones generales."
+      },
+      {
+        "numero": 3,
+        "titulo": "La transparencia en la Administración Pública. Legislación básica estatal y autonómica aragonesa en la materia."
+      },
+      {
+        "numero": 4,
+        "titulo": "Protección de datos de carácter personal: objeto y ámbito de aplicación. Principios de protección de datos. Derechos de las personas."
+      }
+    ]
+  },
+  {
+    "bloque": "Parte específica",
+    "temas": [
+      {
+        "numero": 5,
+        "titulo": "Cálculo numérico."
+      },
+      {
+        "numero": 6,
+        "titulo": "Control de entradas y salidas."
+      },
+      {
+        "numero": 7,
+        "titulo": "La logística comercial y el almacenaje. Logística integral. Cadena Logística o cadena de suministro: logística interna y externa. Almacenaje. Flujo físico, de bienes, de materiales y flujo de información. Objetivo de la logística: costes logísticos. Funciones de la logística: aprovisionamiento, proceso de fabricación y de distribución. Logística inversa: devolución y recuperación."
+      },
+      {
+        "numero": 8,
+        "titulo": "El almacén. Funciones. Tipos de almacenes. Diseño del almacén."
+      },
+      {
+        "numero": 9,
+        "titulo": "Equipos de manipulación y sistemas de almacenamiento. Características de la mercancía. Sistemas de almacenamiento."
+      },
+      {
+        "numero": 10,
+        "titulo": "Recepción y ubicación de la mercancía. La recepción de la mercancía. Documentación: pedido, registro de pedidos, albarán, hoja de recepción, factura y sistema de intercambio electrónico de documentos EDI."
+      },
+      {
+        "numero": 11,
+        "titulo": "Normas para la colocación de mercancías en el almacén. Codificación y trazabilidad de mercancías: código de barras y etiquetas electrónicas."
+      },
+      {
+        "numero": 12,
+        "titulo": "Gestión de stocks. Importancia de los stocks. Concepto y necesidad. Tipos de stocks. Costes de stocks. Sistemas de reaprovisionamiento."
+      },
+      {
+        "numero": 13,
+        "titulo": "Valoración de existencias e inventarios. Valoración de existencias. Fichas de almacén. Inventario."
+      },
+      {
+        "numero": 14,
+        "titulo": "Envases y embalajes. Definición de envase y embalaje. Funciones de envase y embalaje. Tipos de envases. Materiales. Etiquetado. Normativa de envases y embalajes."
+      },
+      {
+        "numero": 15,
+        "titulo": "La expedición y el transporte de mercancías. Gestión administrativa. Gestión de devoluciones de productos, envases y embalajes."
+      },
+      {
+        "numero": 16,
+        "titulo": "Registro de la mercancía. Transmisión electrónica de documentos."
+      },
+      {
+        "numero": 17,
+        "titulo": "Informática de gestión y gestión de personal. El sistema de gestión de almacenes (SGA). SGA y sistema de radiofrecuencia. La gestión y funciones del personal en el almacén."
+      },
+      {
+        "numero": 18,
+        "titulo": "Seguridad e higiene en el almacén. Normativa de seguridad e higiene en el trabajo: Constitución Española, Estatuto de los trabajadores y Ley de prevención de riesgos laborales."
+      },
+      {
+        "numero": 19,
+        "titulo": "Normativa en el almacenamiento de mercancías peligrosas y perecederas. Riesgos laborales en la salud del trabajador. Riesgos laborales en la manipulación de cargas: manual y medios mecánicos. Prevención: Epis y señales. Criterios para el uso de señales. Tipos de señales."
+      },
+      {
+        "numero": 20,
+        "titulo": "Riesgos de incendios: prevención, detención, evacuación por peligro de incendios y extinción."
+      }
+    ]
+  }
+]

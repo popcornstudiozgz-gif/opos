@@ -1,0 +1,372 @@
+[
+  {
+    "bloque": "Parte general",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "La Constitución española de 1978. Principios generales. Derechos y deberes fundamentales de los españoles."
+      },
+      {
+        "numero": 2,
+        "titulo": "La organización territorial del Estado. Las Comunidades Autónomas. Formas de acceso a la autonomía en la Constitución Española. Los Estatutos de Autonomía: Su significado. En particular el Estatuto de Autonomía de Aragón: Características. Estructura. Proceso de elaboración y reforma."
+      },
+      {
+        "numero": 3,
+        "titulo": "La Administración Pública en el ordenamiento español. Administración del Estado. Administración Local. Administración Institucional y corporativa."
+      },
+      {
+        "numero": 4,
+        "titulo": "El procedimiento administrativo I: naturaleza y fines. Los sujetos del procedimiento administrativo. Fases. Cómputo de plazos"
+      },
+      {
+        "numero": 5,
+        "titulo": "El procedimiento administrativo II: El administrado. Colaboración y participación de los ciudadanos en las funciones administrativas. El registro de entrada y salida de documentos. Requisitos en la presentación de documentos. Comunicaciones y notificaciones."
+      },
+      {
+        "numero": 6,
+        "titulo": "El funcionamiento electrónico del sector público. Derecho y obligación de relacionarse electrónicamente con las Administraciones Públicas."
+      },
+      {
+        "numero": 7,
+        "titulo": "Régimen local español. Principios constitucionales y regulación jurídica. La Ley de Administración Local de Aragón."
+      },
+      {
+        "numero": 8,
+        "titulo": "La provincia en el régimen local. Organización provincial. Competencias. Funcionamiento de los Órganos Colegiados Locales. Convocatoria y orden del día. Actas y certificados de acuerdos."
+      },
+      {
+        "numero": 9,
+        "titulo": "El empleo público. El Estatuto Básico del Empleado Público. Clases de personal al servicio de las Administraciones Públicas. Derechos y deberes del funcionario público. Personal al servicio de las Entidades Locales."
+      },
+      {
+        "numero": 10,
+        "titulo": "Los contratos del sector público (I). Fuentes, ámbito de aplicación, y objeto de la contratación pública. Delimitación de los tipos contractuales. Contratos sujetos a regulación armonizada. Régimen jurídico de los contratos administrativos y contratos privados; los actos separables."
+      },
+      {
+        "numero": 11,
+        "titulo": "Los contratos del sector público (II). Los principios generales de la contratación del sector público: racionalidad, libertad de pactos, contenido mínimo, la información, perfección y forma. Régimen de invalidez de los contratos. Las partes de los contratos del sector público. Órgano de contratación. Capacidad y solvencia del contratista. Objeto, precio y valor estimado del contrato. Garantías exigibles en la contratación del sector público."
+      },
+      {
+        "numero": 12,
+        "titulo": "Los contratos del sector público (III). La preparación de los contratos por las Administraciones Públicas. Clases de expedientes de contratación. La selección del contratista: procedimientos, formas y criterios de adjudicación. Perfeccionamiento y formalización del contrato. Ejecución y modificación de los contratos administrativos. Prerrogativas de la Administración. La revisión de precios. La extinción de los contratos administrativos. La cesión de los contratos y la subcontratación."
+      },
+      {
+        "numero": 13,
+        "titulo": "La igualdad y la no discriminación por razón de sexo en la Constitución. La ley Orgánica 3/2007, de 22 de marzo, para la igualdad entre mujeres y hombres. Plan de Igualdad de la Diputación Provincial de Zaragoza."
+      },
+      {
+        "numero": 14,
+        "titulo": "La transparencia en la Administración Pública. Legislación básica estatal y autonómica aragonesa sobre la materia."
+      },
+      {
+        "numero": 15,
+        "titulo": "La Protección de Datos y acceso a la información. Legislación en la materia."
+      },
+      {
+        "numero": 16,
+        "titulo": "La Ley de Prevención de Riesgos Laborales: objeto y conceptos básicos. Derechos y obligaciones. Principios de la acción preventiva. Disciplinas que la integran. Servicios de prevención. Prevención de riesgos laborales en la Administración Pública."
+      },
+      {
+        "numero": 17,
+        "titulo": "El Presupuesto de las Entidades Locales. Principios. Contenido. Elaboración y aprobación del Presupuesto general. La prórroga del presupuesto. Impugnación. Estructuras presupuestarias. Referencia al Presupuesto General de la Diputación Provincial de Zaragoza."
+      },
+      {
+        "numero": 18,
+        "titulo": "Las Haciendas Locales: Concepto. Normativa aplicable. Principios Generales. Clasificación de los recursos de las Haciendas Locales. El poder financiero-tributario de las entidades locales territoriales. Imposición y ordenación de los tributos locales. Contenido de las ordenanzas fiscales, tramitación y régimen de impugnación de los actos de imposición y ordenación de tributos. El establecimiento de recursos no tributarios."
+      },
+      {
+        "numero": 19,
+        "titulo": "La Responsabilidad patrimonial de las Administraciones Públicas. Evolución y régimen actual. Principios y presupuestos. Responsabilidad concurrente de las Administraciones Públicas. Responsabilidad de las autoridades y personal al servicio de las Administraciones Públicas."
+      }
+    ]
+  },
+  {
+    "bloque": "Parte específica",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "La Diputación Provincial de Zaragoza. Organización administrativa."
+      },
+      {
+        "numero": 2,
+        "titulo": "La Diputación Provincial de Zaragoza. Actividad cultural."
+      },
+      {
+        "numero": 3,
+        "titulo": "La Diputación Provincial de Zaragoza. Historia y patrimonio."
+      },
+      {
+        "numero": 4,
+        "titulo": "La Diputación Provincial de Zaragoza. La descentralización cultural."
+      },
+      {
+        "numero": 5,
+        "titulo": "La Institución “Fernando el Católico”. Organización administrativa."
+      },
+      {
+        "numero": 6,
+        "titulo": "La Institución “Fernando el Católico”. Organización académica."
+      },
+      {
+        "numero": 7,
+        "titulo": "La Institución “Fernando el Católico”. Actividad editorial."
+      },
+      {
+        "numero": 8,
+        "titulo": "La Institución “Fernando el Católico”. Actividad docente."
+      },
+      {
+        "numero": 9,
+        "titulo": "La Institución “Fernando el Católico”. Archivo, biblioteca e intercambio editorial."
+      },
+      {
+        "numero": 10,
+        "titulo": "La Institución “Fernando el Católico”. Difusión cultural a través de Internet."
+      },
+      {
+        "numero": 11,
+        "titulo": "El Centro de Estudios Bilbilitanos."
+      },
+      {
+        "numero": 12,
+        "titulo": "El Centro de Estudios del Bajo Aragón – Caspe."
+      },
+      {
+        "numero": 13,
+        "titulo": "El Centro de Estudios Borjanos."
+      },
+      {
+        "numero": 14,
+        "titulo": "El Centro de Estudios Turiasonenses."
+      },
+      {
+        "numero": 15,
+        "titulo": "El Centro de Estudios de las Cinco Villas."
+      },
+      {
+        "numero": 16,
+        "titulo": "El Centro de Estudios Darocenses."
+      },
+      {
+        "numero": 17,
+        "titulo": "La CECEL y los centros de estudios locales en España."
+      },
+      {
+        "numero": 18,
+        "titulo": "Los centros de estudios locales en la provincia de Huesca."
+      },
+      {
+        "numero": 19,
+        "titulo": "Los centros de estudios locales en la provincia de Teruel."
+      },
+      {
+        "numero": 20,
+        "titulo": "La Universidad de Zaragoza. Historia y patrimonio."
+      },
+      {
+        "numero": 21,
+        "titulo": "La Iglesia en Aragón. Historia y patrimonio."
+      },
+      {
+        "numero": 22,
+        "titulo": "Evolución histórica de las diócesis aragonesas."
+      },
+      {
+        "numero": 23,
+        "titulo": "Actividad cultural de las instituciones públicas y privadas en Aragón."
+      },
+      {
+        "numero": 24,
+        "titulo": "El Justicia de Aragón."
+      },
+      {
+        "numero": 25,
+        "titulo": "Museos y colecciones públicas en Aragón."
+      },
+      {
+        "numero": 26,
+        "titulo": "Archivos y bibliotecas en Aragón."
+      },
+      {
+        "numero": 27,
+        "titulo": "Edición de publicaciones científicas en las instituciones públicas."
+      },
+      {
+        "numero": 28,
+        "titulo": "Contratos de edición y gestión de derechos de autor en las instituciones públicas."
+      },
+      {
+        "numero": 29,
+        "titulo": "El proceso de producción editorial."
+      },
+      {
+        "numero": 30,
+        "titulo": "Almacenaje y venta de libros en las instituciones públicas."
+      },
+      {
+        "numero": 31,
+        "titulo": "Zaragoza y su provincia en la época prerromana."
+      },
+      {
+        "numero": 32,
+        "titulo": "Zaragoza y su provincia en la época romana. Historia."
+      },
+      {
+        "numero": 33,
+        "titulo": "Zaragoza y su provincia en la época romana. Arte y patrimonio."
+      },
+      {
+        "numero": 34,
+        "titulo": "Zaragoza y su provincia en la época islámica. Historia."
+      },
+      {
+        "numero": 35,
+        "titulo": "Zaragoza y su provincia en la época islámica. Arte y patrimonio."
+      },
+      {
+        "numero": 36,
+        "titulo": "Zaragoza y su provincia en la época de la Casa de Aragón. Historia."
+      },
+      {
+        "numero": 37,
+        "titulo": "Zaragoza y su provincia en la época de la Casa de Aragón. Arte y patrimonio."
+      },
+      {
+        "numero": 38,
+        "titulo": "El “Libro de los hechos” de Jaime I. Monarquía y reino en el Aragón del siglo XIII."
+      },
+      {
+        "numero": 39,
+        "titulo": "La expansión mediterránea de la Corona de Aragón."
+      },
+      {
+        "numero": 40,
+        "titulo": "El interregno y el Compromiso de Caspe."
+      },
+      {
+        "numero": 41,
+        "titulo": "Zaragoza y su provincia en la época de la Casa de Trastámara. Historia."
+      },
+      {
+        "numero": 42,
+        "titulo": "Zaragoza y su provincia en la época de la Casa de Trastámara. Arte y patrimonio."
+      },
+      {
+        "numero": 43,
+        "titulo": "Zaragoza y su provincia en la época de la Casa de Austria. Historia."
+      },
+      {
+        "numero": 44,
+        "titulo": "Zaragoza y su provincia en la época de la Casa de Austria. Arte y patrimonio."
+      },
+      {
+        "numero": 45,
+        "titulo": "Jerónimo Zurita y los “Anales” de Aragón."
+      },
+      {
+        "numero": 46,
+        "titulo": "El sistema foral aragonés y las alteraciones de 1591."
+      },
+      {
+        "numero": 47,
+        "titulo": "Zaragoza y su provincia en el siglo XVIII. Historia."
+      },
+      {
+        "numero": 48,
+        "titulo": "Zaragoza y su provincia en el siglo XVIII. Arte y patrimonio."
+      },
+      {
+        "numero": 49,
+        "titulo": "La Sociedad Económica Aragonesa de Amigos del País."
+      },
+      {
+        "numero": 50,
+        "titulo": "La Revolución Francesa y el fin del Antiguo Régimen en Aragón."
+      },
+      {
+        "numero": 51,
+        "titulo": "Zaragoza y su provincia en el siglo XIX. Historia."
+      },
+      {
+        "numero": 52,
+        "titulo": "Zaragoza y su provincia en el siglo XIX. Arte y patrimonio."
+      },
+      {
+        "numero": 53,
+        "titulo": "La Guerra de la Independencia en Aragón."
+      },
+      {
+        "numero": 54,
+        "titulo": "Ramón y Cajal y la investigación científica en España."
+      },
+      {
+        "numero": 55,
+        "titulo": "Zaragoza y su provincia en el siglo XX. Historia."
+      },
+      {
+        "numero": 56,
+        "titulo": "Zaragoza y su provincia en el siglo XX. Arte y patrimonio."
+      },
+      {
+        "numero": 57,
+        "titulo": "Joaquín Costa y el Regeneracionismo."
+      },
+      {
+        "numero": 58,
+        "titulo": "La guerra civil en Aragón."
+      },
+      {
+        "numero": 59,
+        "titulo": "Zaragoza y su provincia. El entorno físico."
+      },
+      {
+        "numero": 60,
+        "titulo": "Zaragoza y su provincia. La población."
+      },
+      {
+        "numero": 61,
+        "titulo": "Zaragoza y su provincia. El sistema productivo."
+      },
+      {
+        "numero": 62,
+        "titulo": "La ciudad de Zaragoza. Historia y patrimonio."
+      },
+      {
+        "numero": 63,
+        "titulo": "Calatayud y su comarca. Historia y patrimonio."
+      },
+      {
+        "numero": 64,
+        "titulo": "Borja y su comarca. Historia y patrimonio."
+      },
+      {
+        "numero": 65,
+        "titulo": "Caspe y el Bajo Aragón. Historia y patrimonio."
+      },
+      {
+        "numero": 66,
+        "titulo": "Tarazona y su comarca. Historia y patrimonio."
+      },
+      {
+        "numero": 67,
+        "titulo": "Las Cinco Villas. Historia y patrimonio."
+      },
+      {
+        "numero": 68,
+        "titulo": "Daroca y su comarca. Historia y patrimonio."
+      },
+      {
+        "numero": 69,
+        "titulo": "El río Ebro y Aragón."
+      },
+      {
+        "numero": 70,
+        "titulo": "El sistema aragonés de riegos. Del bronce de Contrebia a los Riegos del Alto Aragón."
+      },
+      {
+        "numero": 71,
+        "titulo": "El sistema aragonés de comunicaciones terrestres. De las vías romanas al AVE."
+      }
+    ]
+  }
+]

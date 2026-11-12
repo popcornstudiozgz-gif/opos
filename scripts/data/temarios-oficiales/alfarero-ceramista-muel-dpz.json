@@ -1,0 +1,72 @@
+[
+  {
+    "bloque": "Parte general",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "La Constitución española de 1978. Derechos y deberes fundamentales de los españoles."
+      },
+      {
+        "numero": 2,
+        "titulo": "Organización y funcionamiento de la Diputación Provincial de Zaragoza."
+      },
+      {
+        "numero": 3,
+        "titulo": "La igualdad y la no discriminación por razón de sexo en la Constitución. La Ley Orgánica 3/2007, de 22 de marzo, para la Igualdad entre Mujeres y Hombres."
+      },
+      {
+        "numero": 4,
+        "titulo": "La transparencia en la Administración Pública. Legislación básica estatal y autonómica aragonesa en la materia."
+      },
+      {
+        "numero": 5,
+        "titulo": "Protección de datos de carácter personal: objeto y ámbito de aplicación. Principios de protección de datos. Derechos de las personas."
+      }
+    ]
+  },
+  {
+    "bloque": "Parte específica",
+    "temas": [
+      {
+        "numero": 6,
+        "titulo": "Historia del Taller Escuela Cerámica de Muel."
+      },
+      {
+        "numero": 7,
+        "titulo": "Producción, tipología y características de la cerámica tradicional de Muel."
+      },
+      {
+        "numero": 8,
+        "titulo": "Las pastas cerámicas: Composición y clasificación. Propiedades físico-químicas."
+      },
+      {
+        "numero": 9,
+        "titulo": "Técnicas de decoración y recubrimientos cerámicos."
+      },
+      {
+        "numero": 10,
+        "titulo": "Conformado de piezas por el torno: Conformado de piezas de una, dos o más secciones. Repasado y acabado de las piezas. Útiles y herramientas."
+      },
+      {
+        "numero": 11,
+        "titulo": "Técnicas específicas de modelado para terracota. Materiales, útiles y herramientas."
+      },
+      {
+        "numero": 12,
+        "titulo": "Técnicas específicas de aplicación de los vidriados en cerámica."
+      },
+      {
+        "numero": 13,
+        "titulo": "Carga y descarga de los hornos. Distribución de la carga. Materiales de ahornado."
+      },
+      {
+        "numero": 14,
+        "titulo": "Ciclos de cocción según los productos cerámicos. Curvas de cocción. Control de temperatura y atmósfera."
+      },
+      {
+        "numero": 15,
+        "titulo": "Ley de prevención de riesgos. Riesgos y medidas preventivas en la actividad de un taller de cerámica."
+      }
+    ]
+  }
+]

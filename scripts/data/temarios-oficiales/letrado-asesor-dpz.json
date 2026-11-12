@@ -1,0 +1,1108 @@
+[
+  {
+    "bloque": "Derecho Constitucional",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "Derecho constitucional. La Constitución: contenido y clases. La Constitución como norma jurídica."
+      },
+      {
+        "numero": 2,
+        "titulo": "La Constitución española de 1978. Sistemática y estructura. Contenido básico y principios constitucionales. El bloque de la constitucionalidad. La reforma constitucional."
+      },
+      {
+        "numero": 3,
+        "titulo": "Valores constitucionales y principios en la Constitución. La soberanía nacional. La división de poderes. La representación política. La participación política."
+      },
+      {
+        "numero": 4,
+        "titulo": "El Estado en la Constitución. Estado de Derecho. Estado social. Estado democrático. Estado pluralista. La forma de Estado en la Constitución: el Estado español como Estado compuesto."
+      },
+      {
+        "numero": 5,
+        "titulo": "La Corona. Funciones constitucionales del Rey. El refrendo. El orden de sucesión. La Regencia. La tutela del Rey."
+      },
+      {
+        "numero": 6,
+        "titulo": "El Gobierno. Su composición. El Gobierno y la Administración General del Estado. Las funciones del Gobierno. La función normativa. La función política. La función administrativa."
+      },
+      {
+        "numero": 7,
+        "titulo": "Las Cortes Generales. Composición y estructura del Congreso de los Diputados y del Senado. Referencia al funcionamiento de las Cámaras: Plenos y Comisiones; grupos parlamentarios y sesiones. Referencia a las funciones de las Cortes: legislativa, de control, financiera, económica y en materia de política internacional."
+      },
+      {
+        "numero": 8,
+        "titulo": "El sistema electoral español. Capacidad electoral activa y pasiva. Administración electoral. Convocatoria de elecciones y sus plazos. La campaña electoral. Procedimiento electoral. Referencia a reclamaciones, delitos e infracciones electorales. Legislación aragonesa en materia electoral. Disposiciones especiales en las elecciones municipales."
+      },
+      {
+        "numero": 9,
+        "titulo": "El Poder Judicial. El Consejo General del Poder Judicial. La independencia del Poder Judicial y las actuaciones judiciales: principios constitucionales. El Ministerio Fiscal. La policía judicial."
+      },
+      {
+        "numero": 10,
+        "titulo": "Los derechos fundamentales y las libertades públicas en la Constitución. Clasificación. Su eficacia, garantía y límites. El Defensor del Pueblo. La suspensión de Derechos."
+      },
+      {
+        "numero": 11,
+        "titulo": "El principio y derecho fundamental a la igualdad. Derecho a la vida y a la integridad física y moral. Derecho a la libertad ideológica y religiosa. Derecho a la libertad y a la seguridad. El habeas corpus."
+      },
+      {
+        "numero": 12,
+        "titulo": "Derecho a la igualdad y a la no discriminación por razón de sexo: legislación para la protección contra la violencia de género y legislación para la igualdad efectiva de mujeres y hombres."
+      },
+      {
+        "numero": 13,
+        "titulo": "Derecho al honor, a la intimidad personal y familiar y a la propia imagen. La inviolabilidad del domicilio. Secreto de las comunicaciones. La protección de la intimidad frente al uso de la informática. Libertades de residencia y desplazamiento. Las libertades de expresión y de información."
+      },
+      {
+        "numero": 14,
+        "titulo": "Derecho de reunión. Derecho de asociación. Los partidos políticos. Derecho de sindicación. Derecho de huelga."
+      },
+      {
+        "numero": 15,
+        "titulo": "Derechos de participación en los asuntos públicos. Derecho a la educación y libertad de enseñanza. Derecho de petición. Principios rectores de la política social y económica. Deberes constitucionales: en particular, el deber tributario."
+      },
+      {
+        "numero": 16,
+        "titulo": "La defensa jurídica de la Constitución: sistemas. El Tribunal Constitucional: naturaleza composición y funciones. Disposiciones comunes sobre procedimiento. Postulación procesal. Reglas sobre los actos de iniciación, desarrollo y terminación de los procesos constitucionales."
+      },
+      {
+        "numero": 17,
+        "titulo": "Procesos de declaración de inconstitucionalidad. Disposiciones generales a los recursos y cuestiones de inconstitucionalidad. Recursos de inconstitucionalidad. Cuestión de inconstitucionalidad. Efectos de las sentencias."
+      },
+      {
+        "numero": 18,
+        "titulo": "Recurso de amparo constitucional: casos en que procede. Suspensión del acto impugnado. Procedimiento. La sentencia de amparo y sus efectos."
+      },
+      {
+        "numero": 19,
+        "titulo": "Conflictos constitucionales. Conflictos entre órganos constitucionales del Estado. Conflictos positivos y negativos entre el Estado y las Comunidades Autónomas o de estas entre sí: sus respectivos procedimientos. Impugnación de disposiciones y resoluciones de las Comunidades Autónomas. El conflicto en defensa de la autonomía local."
+      },
+      {
+        "numero": 20,
+        "titulo": "Las Comunidades Autónomas en la Constitución de 1978. Los Estatutos de Autonomía: naturaleza y contenido. La reforma de los Estatutos."
+      },
+      {
+        "numero": 21,
+        "titulo": "La distribución de competencias entre el Estado y las Comunidades Autónomas. Competencias exclusivas del Estado. Competencias de las Comunidades Autónomas: exclusivas, compartidas y de ejecución. Cláusulas de prevalencia y supletoriedad. Mecanismos de flexibilización del artículo 150 de la Constitución. Los procedimientos de transferencia: los decretos de traspasos."
+      },
+      {
+        "numero": 22,
+        "titulo": "Los órganos de las Comunidades Autónomas. Sus competencias. Relaciones entre el Estado y las Comunidades Autónomas: principios y mecanismos de articulación. Control del Estado sobre las Comunidades Autónomas. Régimen básico de financiación autonómica."
+      },
+      {
+        "numero": 23,
+        "titulo": "El Estatuto de Autonomía de Aragón. Antecedentes históricos y sucesivas reformas. Estructura. Título preliminar. La organización institucional de la Comunidad Autónoma de Aragón. Los derechos, deberes y principios rectores en el Estatuto de Autonomía de Aragón."
+      },
+      {
+        "numero": 24,
+        "titulo": "Las instituciones de la Comunidad Autónoma de Aragón (I): Las Cortes de Aragón: composición, funcionamiento y funciones. El Presidente del Gobierno de Aragón: elección, responsabilidad, atribuciones y cese."
+      },
+      {
+        "numero": 25,
+        "titulo": "Las instituciones de la Comunidad Autónoma de Aragón (II) El Gobierno de Aragón: composición, funcionamiento y competencias. El Justicia de Aragón. El Poder Judicial y la Administración de Justicia en Aragón. La Administración Pública en Aragón."
+      },
+      {
+        "numero": 26,
+        "titulo": "Competencias de la Comunidad Autónoma de Aragón. Disposiciones generales. Competencias exclusivas. Competencias compartidas. Competencias ejecutivas. Competencias en materia de aguas, enseñanza, medios de comunicación social y policía autonómica. La potestad de fomento y su relación con las competencias materiales. La garantía constitucional de la autonomía local."
+      },
+      {
+        "numero": 27,
+        "titulo": "Organización territorial de Aragón y gobierno local. Cooperación institucional y acción exterior. Economía y Hacienda, con especial referencia a la Hacienda de las entidades locales aragonesas. Reforma del Estatuto."
+      },
+      {
+        "numero": 28,
+        "titulo": "La Unión Europea: Origen y evolución. Las instituciones de la Unión Europea: el Parlamento Europeo, El Consejo de la Unión Europea, el consejo europeo, la Comisión Europea, el Tribunal de Cuentas, el Tribunal de Justicia de la Unión Europea. Otros órganos, con especial referencia al Comité de las Regiones."
+      },
+      {
+        "numero": 29,
+        "titulo": "El ordenamiento jurídico comunitario: Derecho originario y Derecho derivado. Sus relaciones con los ordenamientos jurídicos internos: el efecto directo y la primacía del Derecho comunitario. La aplicación del Derecho comunitario en España. Idea general sobre las políticas comunitarias. Los fondos de la Unión Europea destinados a las Entidades Locales."
+      }
+    ]
+  },
+  {
+    "bloque": "Derecho Administrativo General",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "El Derecho Administrativo: concepto, características y límites de aplicación. El régimen administrativo: sistema español."
+      },
+      {
+        "numero": 2,
+        "titulo": "Fuentes del Derecho Administrativo. La Constitución. Los Estatutos de Autonomía. La Ley: sus clases. Leyes orgánicas y ordinarias. Leyes de las Comunidades Autónomas. Decretos Legislativos. Decretos-Leyes. Leyes básicas. Leyes marco. Leyes de transferencia y delegación. Leyes de armonización."
+      },
+      {
+        "numero": 3,
+        "titulo": "El Reglamento. Concepto. Fundamento de la potestad reglamentaria. Órganos con potestad reglamentaria. Principios de buena regulación. Requisitos de validez de los Reglamentos: aspectos formales y sustantivos. La impugnación de los Reglamentos."
+      },
+      {
+        "numero": 4,
+        "titulo": "Los principios de reserva de Ley, de jerarquía normativa y de competencia. Nulidad de pleno derecho de las disposiciones administrativas por infracción de tales principios. La inderogabilidad singular de las disposiciones generales. Los actos administrativos generales y las circulares e instrucciones. Otras fuentes del Derecho Administrativo."
+      },
+      {
+        "numero": 5,
+        "titulo": "La relación jurídico administrativa. Los sujetos en Derecho administrativo. Las personas jurídicas públicas: Clases, personalidad jurídica y capacidad de obrar. Ley de Régimen Jurídico del Sector Público: objeto, ámbito subjetivo y principios generales."
+      },
+      {
+        "numero": 6,
+        "titulo": "Las potestades administrativas. El principio de legalidad y sus manifestaciones. La actividad administrativa discrecional y sus límites. Control de la discrecionalidad. En especial, la desviación de poder. Los conceptos jurídicos indeterminados."
+      },
+      {
+        "numero": 7,
+        "titulo": "La Administración y los Tribunales de Justicia. El principio de autotutela. La autotutela declarativa y la autotutela ejecutiva. Conflictos de jurisdicción entre los Tribunales y la Administración. Los interdictos y la Administración. Concurrencia de embargos administrativos y judiciales. Los privilegios procesales de las Administraciones Públicas."
+      },
+      {
+        "numero": 8,
+        "titulo": "El administrado: capacidad y causas modificativas. Derechos públicos subjetivos e intereses legítimos. Concepto y diferencias. Situaciones jurídicas pasivas. Deberes y prestaciones del administrado. La colaboración del administrado con las Administraciones Públicas."
+      },
+      {
+        "numero": 9,
+        "titulo": "El acto administrativo: concepto y elementos. La forma de los actos administrativos. La motivación, la notificación y la publicación. La obligación de resolver de la Administración. Suspensión del plazo para resolver. El silencio administrativo: su régimen jurídico-positivo."
+      },
+      {
+        "numero": 10,
+        "titulo": "Clasificación de los actos administrativos. Especial referencia a los actos definitivos y actos de trámite, a los actos reglados y actos discrecionales, a los actos expresos y actos presuntos, y a los actos que ponen fin a la vía administrativa. La eficacia de los actos administrativos en el orden temporal: la ejecutividad, la retroactividad y la suspensión."
+      },
+      {
+        "numero": 11,
+        "titulo": "La invalidez de los actos administrativos. Nulidad de pleno derecho y anulabilidad. Los actos administrativos irregulares. La convalidación, conservación y conversión de los actos administrativos. Revisión de oficio de los actos administrativos. Revisión de los actos en vía jurisdiccional a instancia de la Administración: declaración previa de lesividad. La revocación. Errores materiales o, de hecho."
+      },
+      {
+        "numero": 12,
+        "titulo": "La ejecutividad de los actos administrativos. Fundamento y naturaleza. La ejecución forzosa por la Administración de los actos administrativos: estudio de los diversos medios. La coacción directa de la Administración. Examen de la vía de hecho: sus consecuencias procesales."
+      },
+      {
+        "numero": 13,
+        "titulo": "Los actos administrativos en particular. La licencia, autorización o permiso. Denegación, caducidad y revocación de tales actos. El régimen de autorizaciones para el libre acceso a las actividades de servicios y su ejercicio. Declaración responsable y comunicación previa. Las concesiones: naturaleza jurídica y clases. Su régimen jurídico: modificación, transmisión y extinción."
+      },
+      {
+        "numero": 14,
+        "titulo": "Las sanciones administrativas: concepto y clases. Los principios de la potestad sancionadora y del procedimiento administrativo sancionador. Especialidades del Procedimiento Administrativo Común en materia sancionadora. Las medidas sancionadoras administrativas."
+      },
+      {
+        "numero": 15,
+        "titulo": "Contratación administrativa (l). Legislación de Contratos del Sector Público. Ámbito subjetivo de aplicación: Administraciones Públicas, poderes adjudicadores y sector público. Tipos de contratos, con referencia a los negocios y contratos excluidos. Contratos sujetos y no sujetos a regulación armonizada. Contratos administrativos y contratos privados. Régimen jurídico y jurisdicción competente. Órganos de contratación. Juntas consultivas de contratación. Idea general de la contratación en los denominados sectores especiales."
+      },
+      {
+        "numero": 16,
+        "titulo": "Contratación administrativa (ll). Aptitud para contratar: capacidad, prohibiciones de contratar y solvencia de los empresarios, con especial referencia a la clasificación. Registro de contratistas. Garantías exigibles. Preparación de los contratos administrativos. Procedimiento y formas de adjudicación de los contratos del sector público. Referencia a la racionalización técnica de la contratación. Recurso especial en materia de contratación y cuestión de nulidad."
+      },
+      {
+        "numero": 17,
+        "titulo": "Contratación administrativa (lll). Efectos de los contratos administrativos: prerrogativas de los órganos de contratación. Ejecución. Modificación. Extinción. La cesión de los contratos y la subcontratación. Régimen jurídico del contrato de obras."
+      },
+      {
+        "numero": 18,
+        "titulo": "Contratación administrativa (lV). Contratos de gestión de servicios públicos. Contrato de concesión de obra pública. Contratos de suministro. Contratos de servicios. Referencia a la colaboración público privada."
+      },
+      {
+        "numero": 19,
+        "titulo": "Contratación administrativa (V). Directivas comunitarias en materia de contratación pública. Contratación electrónica. Especialidades de contratación en las Entidades Locales."
+      },
+      {
+        "numero": 20,
+        "titulo": "El procedimiento administrativo (l). Ámbito de aplicación de la Ley del Procedimiento Administrativo Común de las Administraciones Públicas. Principios generales en materia de procedimiento. Abstención y recusación. Los interesados: concepto, representación, apoderamiento, identificación y firma, derechos y obligaciones de las personas en sus relaciones con las Administraciones Públicas."
+      },
+      {
+        "numero": 21,
+        "titulo": "El procedimiento administrativo (ll). Garantías del procedimiento: derechos del interesado. Iniciación, ordenación e instrucción. Medios de prueba. Los informes en el procedimiento administrativo. Participación de los ciudadanos. Términos y plazos. Terminación: la resolución. Terminación convencional. Otros modos de terminación: renuncia, desistimiento y caducidad. Idea de los procedimientos especiales."
+      },
+      {
+        "numero": 22,
+        "titulo": "Los recursos administrativos: concepto, clases y principios generales de su regulación. La reformatio in peius. El recurso de alzada. El recurso potestativo de reposición. El recurso extraordinario de revisión."
+      },
+      {
+        "numero": 23,
+        "titulo": "La responsabilidad patrimonial de las Administraciones Públicas: Principios de la responsabilidad. Responsabilidad por la aplicación de actos legislativos y de leyes inconstitucionales. Responsabilidad concurrente de las Administraciones Públicas y responsabilidad de derecho privado. Indemnización. Responsabilidad de las autoridades y personal al servicio de las Administraciones Públicas. Especialidades del Procedimiento Administrativo Común en materia de responsabilidad patrimonial."
+      },
+      {
+        "numero": 24,
+        "titulo": "La expropiación forzosa: justificación y naturaleza. Sujetos. Objeto de la expropiación. Procedimiento general. El justiprecio, con especial referencia al Jurado Aragonés de Expropiación. La reversión de bienes expropiados. Referencia a los procedimientos especiales. Garantías jurisdiccionales."
+      },
+      {
+        "numero": 25,
+        "titulo": "El patrimonio de las Administraciones Públicas: concepto y clasificación. Adquisición de bienes y derechos. Inventario patrimonial. Régimen registral. Prerrogativas para la defensa del patrimonio público. Relaciones interadministrativas."
+      },
+      {
+        "numero": 26,
+        "titulo": "Bienes demaniales de los entes locales: clases y principios. Afectación, desafectación, mutación demanial. Utilización de bienes destinados al uso general y destinados al servicio público; autorizaciones, concesiones y reservas demaniales. Bienes comunales. Los montes vecinales en mano común."
+      },
+      {
+        "numero": 27,
+        "titulo": "Bienes patrimoniales de los entes locales: clases y principios. Régimen jurídico de los negocios patrimoniales, adquisiciones a título oneroso,arrendamientos. Aprovechamiento de bienes y derechos patrimoniales. Enajenación, cesión gratuita, gravamen y permuta de bienes. Patrimonio de organismos públicos: régimen jurídico; adscripción, desadscripción e incorporación."
+      },
+      {
+        "numero": 28,
+        "titulo": "Las formas de la acción administrativa de las entidades locales: actividad de policía. Las licencias y autorizaciones administrativas. Actividad de fomento. Las subvenciones."
+      },
+      {
+        "numero": 29,
+        "titulo": "Principios de actuación y funcionamiento del sector público. Organización administrativa: concepto, naturaleza y clases de órganos. Los órganos colegiados. La competencia. Las relaciones interorgánicas: coordinación y jerarquía. Descentralización y desconcentración. Delegación de competencias, avocación, encomienda de gestión, delegación de firma y suplencia. Funcionamiento electrónico del sector público."
+      },
+      {
+        "numero": 30,
+        "titulo": "Organización de la Administración General del Estado. Administración central: los ministerios. Administración periférica: órganos territoriales. Administración institucional: Organismos Públicos estatales, autoridades administrativas independientes, sociedades mercantiles estatales, consorcios, fundaciones del sector público estatal y fondos carentes de personalidad. Administración consultiva: El Consejo de Estado."
+      },
+      {
+        "numero": 31,
+        "titulo": "Organización de la Administración de la Comunidad Autónoma de Aragón. La organización central. La Administración periférica. Administración institucional. El Consejo Consultivo de Aragón."
+      },
+      {
+        "numero": 32,
+        "titulo": "Relaciones interadministrativas: principios generales, deber de colaboración, relaciones de cooperación, relaciones electrónicas entre Administraciones. Legislación básica sobre consorcios. Relaciones interadministrativas propias de entes locales: principios, deber de informar a otras Administraciones, garantía de pago de competencias delegadas, Comisión Territorial de la Administración Local."
+      },
+      {
+        "numero": 33,
+        "titulo": "Ley 19/2013, de 9 de diciembre, de Transparencia, acceso a la información pública y buen gobierno. Ley 8/2015, de 25 de marzo, de Transparencia de la Actividad Pública y Participación Ciudadana de Aragón. El Derecho de acceso a la información pública y transparencia. Límites y garantías. El principio de publicidad activa. Publicidad Pasiva. Especial referencia a las Instrucciones sobre tramitación, seguimiento, control y registro de las solicitudes de acceso a la información pública de la Diputación Provincial de Zaragoza."
+      },
+      {
+        "numero": 34,
+        "titulo": "Reglamento General de Protección de Datos (UE) 2016/679 del Parlamento Europeo y del Consejo. Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales."
+      }
+    ]
+  },
+  {
+    "bloque": "Derecho Administrativo Local",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "El régimen local español: significado y evolución histórica. Las fuentes del Derecho Local. Regulación básica del Estado y normativa de la Comunidad Autónoma en materia de Régimen Local. La incidencia de la legislación sectorial en el régimen local."
+      },
+      {
+        "numero": 2,
+        "titulo": "La potestad reglamentaria de las Entidades Locales: Órganos titulares .Límites. Controles. Reglamentos y ordenanzas: Distinción. Clases. Procedimiento de elaboración y aprobación. El Reglamento Orgánico. Especial referencia al Reglamento Orgánico de la Diputación Provincial de Zaragoza y al Reglamento de la Asesoría Jurídica de la Diputación Provincial de Zaragoza."
+      },
+      {
+        "numero": 3,
+        "titulo": "El municipio (I): Concepto. Naturaleza. Elementos. El término municipal: deslinde. El problema de la planta municipal. Alteraciones de los términos municipales. Denominación, capitalidad, símbolos. La población municipal: Concepto y clasificación. El padrón municipal."
+      },
+      {
+        "numero": 4,
+        "titulo": "El municipio (II): Organización del municipio de régimen común. Órganos necesarios y complementarios del Ayuntamiento: Composición y atribuciones."
+      },
+      {
+        "numero": 5,
+        "titulo": "EL municipio (III): La competencias del municipio: sistema de determinación. Competencias propias, delegadas y distintas de las propias. Los servicios mínimos."
+      },
+      {
+        "numero": 6,
+        "titulo": "La provincia (I): Concepto. Naturaleza jurídica. Evolución histórica. Finalidad. La provincia como Entidad Local. Organización de la provincia de régimen común. Órganos necesarios y complementarios de la Diputación Provincial: Composición y atribuciones."
+      },
+      {
+        "numero": 7,
+        "titulo": "La provincia (II): Las competencias de la provincia. La cooperación municipal. Especial referencia al Plan Provincial de cooperación a las obras y servicios de competencia municipal."
+      },
+      {
+        "numero": 8,
+        "titulo": "Regímenes municipales especiales. Especial referencia al régimen de organización de los municipios de gran población. La mancomunidad de municipios. La Comarca. Las áreas metropolitanas. Las entidades de ámbito inferior al municipio."
+      },
+      {
+        "numero": 9,
+        "titulo": "El sistema electoral local: Causas de inelegibilidad e incompatibilidad. Elección de los Concejales y Alcaldes. Elección de Diputados Provinciales y Presidentes de las Diputaciones Provinciales. La moción de censura y la cuestión de confianza en el ámbito local. El recurso contencioso-electoral. El Estatuto de los miembros de las Corporaciones Locales."
+      },
+      {
+        "numero": 10,
+        "titulo": "Régimen de sesiones y acuerdos de los órganos de gobierno local. Las sesiones: Sus clases, requisitos y procedimientos de constitución y celebración. Actas, certificaciones, comunicaciones, notificaciones y publicación de acuerdos. El registro de documentos. La utilización de medios telemáticos."
+      },
+      {
+        "numero": 11,
+        "titulo": "La Impugnación de los actos y acuerdos locales y ejercicio de acciones. La sustitución y la disolución de las Corporaciones Locales. Autonomía local y tutela."
+      },
+      {
+        "numero": 12,
+        "titulo": "Las relaciones interadministrativas Estado-Corporaciones Locales. Las relaciones interadministrativas de la Comunidad Autónoma de Aragón-Corporaciones Locales, en particular con las Diputaciones Provinciales de su territorio. Especial referencia a los convenios interadministrativos locales."
+      },
+      {
+        "numero": 13,
+        "titulo": "La contratación de las Entidades Locales. Especialidades de contratación en relación con el régimen general de la contratación de las Administraciones Públicas. Las atribuciones de los órganos de las Corporaciones Locales en materia de contratación."
+      },
+      {
+        "numero": 14,
+        "titulo": "El Tribunal Administrativo de contratos públicos de Aragón: competencias y procedimientos del recurso especial y de la cuestión de nulidad en materia de contratación. La Junta Consultiva de Contratación Administrativa de Aragón."
+      },
+      {
+        "numero": 15,
+        "titulo": "Las formas de acción administrativa de las Entidades Locales (I). La actividad de policía: La intervención administrativa local en la actividad privada. Las licencias y autorizaciones administrativas: Concepto. Clases. Régimen jurídico de las licencias. La comunicación previa y la declaración responsable."
+      },
+      {
+        "numero": 16,
+        "titulo": "Las formas de acción administrativa de las Entidades Locales (II).La iniciativa pública económica de las Entidades Locales y la reserva de servicios. El servicio público en las Entidades Locales. Formas de gestión directa de los servicios públicos locales."
+      },
+      {
+        "numero": 17,
+        "titulo": "Las formas de acción administrativa de las Entidades Locales (III). Forma de gestión indirecta de los servicios públicos locales. Los consorcios."
+      },
+      {
+        "numero": 18,
+        "titulo": "Las formas de acción administrativa de las Entidades Locales (IV). Actividad subvencional de la Administración Local. Concepto, Naturaleza y clasificación de subvenciones. Normativa aplicable en la Entidades Locales. Especial referencia a la Ordenanza General de Subvenciones y Plan Estratégico de Subvenciones de la Diputación Provincial de Zaragoza"
+      },
+      {
+        "numero": 19,
+        "titulo": "Las formas de acción administrativa de las Entidades Locales (V). Procedimiento de concesión y gestión de subvenciones. Requisitos y obligaciones de las personas beneficiarias de subvenciones. Justificación y reintegro. Control financiero. Régimen de infracciones y sanciones."
+      },
+      {
+        "numero": 20,
+        "titulo": "Los bienes de las Entidades Locales: clases y régimen jurídico. Prerrogativas de los Entes Locales respecto a sus bienes. El inventario municipal de bienes, su inscripción en el Registro de la Propiedad."
+      },
+      {
+        "numero": 21,
+        "titulo": "Los bienes de dominio público locales: afectación y mutación demanial. Uso y utilización de los bienes demaniales."
+      },
+      {
+        "numero": 22,
+        "titulo": "Los bienes patrimoniales de los Entes Locales: adquisición y enajenación. La utilización de los bienes patrimoniales. Los bienes comunales: regulación y uso. Los montes vecinales en mano común."
+      },
+      {
+        "numero": 23,
+        "titulo": "El personal al servicio de las Corporaciones Locales: clases y régimen jurídico. Legislación básica y legislación del estado sobre función pública local. Clases de funcionarios locales."
+      },
+      {
+        "numero": 24,
+        "titulo": "Los instrumentos de organización del personal al servicio de las Corporaciones Locales: plantillas y relaciones de puestos de trabajo. Los instrumentos reguladores de los recursos humanos: los planes de empleo, la oferta de empleo público, registros administrativos de personal."
+      },
+      {
+        "numero": 25,
+        "titulo": "La selección de los empleados públicos locales. Sistemas selectivos. Adquisición y pérdida de la condición de empleado público local. El régimen de provisión de puestos de trabajo."
+      },
+      {
+        "numero": 26,
+        "titulo": "Las situaciones administrativas de los funcionarios locales. Derechos individuales de los funcionarios locales: Derecho a la carrera administrativa. Retribuciones. El régimen de Seguridad social. Derechos colectivos."
+      },
+      {
+        "numero": 27,
+        "titulo": "Los deberes de los funcionarios locales. El régimen disciplinario. El régimen de responsabilidad civil, penal y patrimonial. El régimen de incompatibilidades."
+      },
+      {
+        "numero": 28,
+        "titulo": "La formación histórica del urbanismo en España y la legislación actual: Jurisprudencia constitucional sobre urbanismo. Fuentes estatales y autonómicas."
+      },
+      {
+        "numero": 29,
+        "titulo": "Organización de Derecho urbanístico en Aragón. Organización autonómica, en especial los órganos colegiados. Urbanismo y Corporaciones locales. Sociedades urbanísticas interadministrativas"
+      },
+      {
+        "numero": 30,
+        "titulo": "Régimen urbanístico de la propiedad del suelo. Clasificación del suelo. Régimen de los suelos urbano, no urbanizable y urbanizable así como de sus diferentes categorías. Derechos y deberes de los propietarios en cada una de las clases de suelo y sus categorías."
+      },
+      {
+        "numero": 31,
+        "titulo": "El Plan General de Ordenación Urbana. Concepto. Contenidos. Procedimientos."
+      },
+      {
+        "numero": 32,
+        "titulo": "Planeamiento de desarrollo. Planes parciales y planes especiales. Su objeto, determinaciones, formulación y procedimiento."
+      },
+      {
+        "numero": 33,
+        "titulo": "Otros instrumentos de ordenación urbanística: Los estudios de detalle. Ordenanzas de edificación y urbanización. Delimitaciones de Suelo Urbano: objeto, contenido mínimo y procedimiento"
+      },
+      {
+        "numero": 34,
+        "titulo": "La gestión urbanística: sistemas de actuación. Presupuestos de la ejecución. Objetivos de la ejecución. Modalidades de gestión. Gestión directa e indirecta. Especialidades en pequeños municipios."
+      },
+      {
+        "numero": 35,
+        "titulo": "La suspensión de licencias: Supuestos y plazos. Títulos urbanísticos en la legislación aragonesa. Modalidades de licencias municipales. Sus elementos."
+      },
+      {
+        "numero": 36,
+        "titulo": "Deber de conservación de inmuebles. La declaración de ruina. Supuestos. Régimen y efectos. La remoción de la ruina. La ruina inminente. Ordenes de ejecución. Inspecciones periódicas. El certificado energético."
+      },
+      {
+        "numero": 37,
+        "titulo": "Disciplina urbanística. Normativa aplicable. Inspección urbanística. Competencias municipales y autonómicas para el restablecimiento de la legalidad. Sanciones administrativas."
+      }
+    ]
+  },
+  {
+    "bloque": "Hacienda Local",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "Sistema tributario español: estructura básica del sistema vigente. Principios generales del ordenamiento tributario español: especial referencia a los contenidos en la Constitución."
+      },
+      {
+        "numero": 2,
+        "titulo": "La Hacienda Local en la Constitución. El régimen jurídico de las Haciendas locales. La Ley de Haciendas Locales: reformas y desarrollo reglamentario. Sistema de recursos económicos de las Corporaciones locales: Especial referencia al Impuesto sobre el Valor Añadido y a las retenciones por pagos efectuados en el entorno del IRPF, el Impuesto sobre la contaminación del agua de Aragón y otras figuras tributarias relacionadas con el agua."
+      },
+      {
+        "numero": 3,
+        "titulo": "La relación jurídico-tributaria: Concepto, naturaleza y elementos. Las obligaciones tributarias: sus clases. El hecho imponible. Obligaciones y deberes de la Administración tributaria. Derechos y garantías de los obligados tributarios. Los obligados tributarios: Concepto y clases; el sujeto pasivo; los responsables del tributo. La capacidad de obrar en el orden tributario. El domicilio fiscal. La exención tributaria."
+      },
+      {
+        "numero": 4,
+        "titulo": "La base imponible: regímenes de determinación. Comprobación de valores. La base liquidable. El tipo de gravamen y la deuda tributaria."
+      },
+      {
+        "numero": 5,
+        "titulo": "Los tributos locales: principios. La potestad reglamentaria de las Entidades Locales en materia tributaria: contenido de las ordenanzas fiscales, tramitación y régimen de impugnación de los actos de imposición y ordenación de tributos."
+      },
+      {
+        "numero": 6,
+        "titulo": "El Impuesto sobre Bienes Inmuebles. Naturaleza. Hecho imponible. Sujeto pasivo. Exenciones y bonificaciones. Base imponible. Base liquidable. Cuota, devengo y período impositivo. Gestión catastral. Gestión tributaria. Inspección catastral."
+      },
+      {
+        "numero": 7,
+        "titulo": "El Impuesto sobre actividades económicas. Naturaleza. Hecho imponible. Sujeto pasivo. Exenciones. Cuota: las tarifas. Devengo y período impositivo. Gestión censal y gestión tributaria. El Impuesto sobre construcciones, instalaciones y obras."
+      },
+      {
+        "numero": 8,
+        "titulo": "El Impuesto sobre vehículos de tracción mecánica. El impuesto sobre el incremento de valor de los terrenos de naturaleza urbana."
+      },
+      {
+        "numero": 9,
+        "titulo": "Contribuciones especiales. Tasas. Precios públicos. Referencia a las ordenanzas provinciales de tasas y precios públicos."
+      },
+      {
+        "numero": 10,
+        "titulo": "Cesión de recaudación de impuestos del estado: Alcance y condiciones generales de la cesión, alcance y condiciones específicas de la cesión. Participación de las Diputaciones Provinciales y de los municipios en los tributos del Estado: Fondo Complementario de Financiación, Participación del resto de municipios, Revisión. El Fondo Local de Aragón."
+      },
+      {
+        "numero": 11,
+        "titulo": "Gestión tributaria: Formas de iniciación, declaración tributaria, autoliquidaciones, comunicaciones de datos. Procedimientos de gestión tributaria: Devolución, declaración, verificación de datos, comprobación de valores, comprobación limitada. La consulta tributaria. La prueba en los procedimientos de gestión tributaria. La gestión tributaria en las Entidades locales."
+      },
+      {
+        "numero": 12,
+        "titulo": "Inspección tributaria: comprobación e investigación, obtención de información, la comprobación de valores e informe y asesoramiento. Régimen jurídico de las funciones inspectoras. El procedimiento de inspección tributaria. Potestades de la Inspección de los tributos. Documentación de las actuaciones inspectoras, con especial referencia a las actas de inspección."
+      },
+      {
+        "numero": 13,
+        "titulo": "Recaudación tributaria. El procedimiento de recaudación en vía de apremio. Aplazamiento y fraccionamiento del pago. Desarrollo del procedimiento de apremio: el embargo de bienes, enajenación y aplicación e imputación de la suma obtenida. Terminación del procedimiento."
+      },
+      {
+        "numero": 14,
+        "titulo": "La extinción de la obligación tributaria. El pago: formas, momento, plazos. Imputación de pagos. Consignación medios de pago. La prescripción. Otras formas de extinción: la compensación, la condonación y la insolvencia. Las garantías tributarias."
+      },
+      {
+        "numero": 15,
+        "titulo": "Las infracciones tributarias: principios de la potestad sancionadora. Concepto y clases de infracción y sanciones. Clasificación de las infracciones y sanciones. Procedimiento sancionador. Recursos contra las sanciones. Referencia a los delitos contra Hacienda Pública."
+      },
+      {
+        "numero": 16,
+        "titulo": "La revisión en vía administrativa de los actos de gestión tributaria: medios de revisión. Procedimientos especiales de revisión. El recurso de reposición. Las reclamaciones económico-administrativas. Especialidades de la revisión en vía administrativa de los actos de gestión tributaria dictados por las Entidades locales."
+      },
+      {
+        "numero": 17,
+        "titulo": "El Presupuesto: concepto, naturaleza y clases, y principios básicos. Leyes de Estabilidad Presupuestaria y Sostenibilidad Financiera. Presupuestos de los entes locales: contenido, estructura, aprobación e impugnación. Créditos de las haciendas locales y sus modificaciones. Ejecución y liquidación de los presupuestos locales: competencias, fases del procedimiento de gestión de gastos, cierre y liquidación. Referencia al Presupuesto General de la Diputación Provincial de Zaragoza."
+      },
+      {
+        "numero": 18,
+        "titulo": "Contabilidad de las Haciendas locales: fines y estados de cuentas anuales. Control interno: función interventora, control financiero y control de eficacia. Intervención General Municipal. Control externo: Cámara de Cuentas y Tribunal de Cuentas."
+      }
+    ]
+  },
+  {
+    "bloque": "Derecho Laboral y Derecho Penal",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "El Derecho del Trabajo: principios fundamentales que lo inspiran. Fuentes del Derecho del Trabajo. El Estatuto de los Trabajadores: ámbito de aplicación y contenido."
+      },
+      {
+        "numero": 2,
+        "titulo": "La potestad normativa de las Comunidades Autónomas en materia laboral. El convenio colectivo. Acuerdos marco interprofesionales. La aplicación de las normas laborales: principios de ordenación. La relación ley-convenio colectivo: colisión y concurrencia de las normas estatales y las normas convencionales. El principio de condición más beneficiosa. Los principios de irrenunciabilidad de derechos y territorialidad de las normas laborales."
+      },
+      {
+        "numero": 3,
+        "titulo": "El contrato de trabajo: concepto, sujetos, objeto y causa. La relación laboral. La forma de contratación. La prueba del contrato de trabajo. Modalidades del contrato de trabajo, atendiendo a su duración. La interposición de empresarios. Las contratas y subcontratas de obras y servicios. Las empresas de trabajo temporal."
+      },
+      {
+        "numero": 4,
+        "titulo": "Derechos y deberes derivados del contrato de trabajo. Derechos fundamentales del trabajador. La movilidad funcional y geográfica de los trabajadores. La clasificación profesional. La jornada de trabajo. El horario de trabajo. Horas extraordinarias. Descanso. Permisos."
+      },
+      {
+        "numero": 5,
+        "titulo": "El salario: concepto, estructura y modalidades. Garantías salariales. El Fondo de Garantía Salarial. Modificaciones del contrato de trabajo: en particular, la sucesión en la titularidad empresarial. La suspensión del contrato de trabajo: causas y efectos. La extinción del contrato: cuadro general de causas extintivas. Examen particular de la extinción por causas objetivas y por despido disciplinario. Prescripción y caducidad de las acciones derivadas del contrato de trabajo."
+      },
+      {
+        "numero": 6,
+        "titulo": "Las infracciones y sanciones en el orden social. La prevención de riesgos laborales. Delegados de prevención. El Comité de Seguridad y Salud."
+      },
+      {
+        "numero": 7,
+        "titulo": "Derechos de representación colectiva y de reunión de los trabajadores en la empresa. Derecho de asociación sindical: la Ley Orgánica de libertad sindical. Conflictos colectivos. Huelga y cierre patronal."
+      },
+      {
+        "numero": 8,
+        "titulo": "Concepto, principios y sistema de Seguridad Social. Normas del Régimen General: ámbito de aplicación, afiliación y cotización, normas generales en materia de prestaciones. Régimen especial de Autónomos. Aplicación del sistema de Seguridad Social a los funcionarios públicos. Referencia a los delitos contra la Seguridad Social."
+      },
+      {
+        "numero": 9,
+        "titulo": "Las prestaciones de Seguridad Social: concepto, clases, caracteres y régimen jurídico. Protección por desempleo. Prestaciones y pensiones no contributivas."
+      },
+      {
+        "numero": 10,
+        "titulo": "Principios que informan el Código Penal vigente. Sistemática del Código. El principio de legalidad. El delito: concepto y clasificaciones."
+      },
+      {
+        "numero": 11,
+        "titulo": "La vida del delito: la conspiración, la proposición y provocación para delinquir. Tentativa de delito. El delito consumado. Formas de aparición del delito: el concurso de delitos; el delito continuado; el delito masa. El sujeto activo del delito: autores. Cómplices."
+      },
+      {
+        "numero": 12,
+        "titulo": "Circunstancias que eximen de responsabilidad criminal, con particular referencia a la anomalía o alteración psíquica, la legítima defensa y el estado de necesidad. Circunstancias atenuantes y agravantes. La pena: clases y efectos. Extinción de la responsabilidad penal."
+      },
+      {
+        "numero": 13,
+        "titulo": "La responsabilidad civil derivada de los delitos: su fundamento. Extensión de la responsabilidad civil. Personas civilmente responsables. Particularidades de la responsabilidad civil derivada del delito en relación con los Entes Públicos. Cumplimiento de la responsabilidad civil."
+      },
+      {
+        "numero": 14,
+        "titulo": "Los delitos contra la Administración pública. Concepto de autoridad y funcionario público a efectos penales. Prevaricación. Abandono de destino y omisión de socorro. Desobediencia y denegación de auxilio. Infidelidad en la custodia de documentos. Cohecho. Tráfico de influencias. Malversación. Otros ilícitos penales castigados en ese título del Código. Aspectos fundamentales de los delitos contra la Constitución."
+      },
+      {
+        "numero": 15,
+        "titulo": "Los delitos relativos a la ordenación del territorio y la protección del patrimonio histórico-artístico y del medio ambiente. Los delitos contra la seguridad colectiva. Las falsedades. Leyes penales especiales."
+      }
+    ]
+  },
+  {
+    "bloque": "Derecho Civil (primera parte)",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "El Derecho objetivo, Derecho Público y Privado. El Derecho Civil español. El Código Civil: su estructura. Eficacia derogatoria y eficacia general supletoria del Código Civil. La legislación estatal complementaria en materia civil."
+      },
+      {
+        "numero": 2,
+        "titulo": "El Derecho Civil de Aragón. Notas, características y evolución histórica hasta la Compilación del Derecho Civil de Aragón. El Derecho Civil aragonés según la Constitución y el Estatuto de Autonomía: materias civiles reservadas a la competencia exclusiva del Estado. La Compilación del Derecho Civil de Aragón: su integración y adecuación al Ordenamiento jurídico aragonés. Legislación aragonesa complementaria en materia civil: Código de Derecho Foral de Aragón."
+      },
+      {
+        "numero": 3,
+        "titulo": "Las fuentes del Derecho en el sistema jurídico-positivo español. Las fuentes del Derecho Civil de Aragón. Especial consideración de la Ley."
+      },
+      {
+        "numero": 4,
+        "titulo": "La costumbre. Los principios generales del derecho. La jurisprudencia. Los tratados internacionales. La aplicación de las normas jurídicas. Las lagunas de la Ley y la analogía."
+      },
+      {
+        "numero": 5,
+        "titulo": "La norma jurídica: naturaleza, caracteres y estructura. Clasificaciones de las normas jurídicas. El ordenamiento jurídico. La relación jurídica y la institución jurídica. Titularidad y derecho subjetivo. Situaciones jurídicas."
+      },
+      {
+        "numero": 6,
+        "titulo": "La eficacia general de las normas jurídicas. Inexcusabilidad de su cumplimiento. La nulidad como sanción general. El fraude de Ley."
+      },
+      {
+        "numero": 7,
+        "titulo": "El ejercicio de los derechos: sus límites. Doctrina del abuso de derecho. Modificación, transmisión y extinción de derechos. La renuncia. El poder de disposición y las prohibiciones de enajenar."
+      },
+      {
+        "numero": 8,
+        "titulo": "Los límites de la eficacia de las normas en el tiempo y en el espacio. Comienzo y fin de la vigencia de las normas. La derogación tácita. Derecho Transitorio. El principio de irretroactividad: principios básicos de las Disposiciones Transitorias del Código Civil."
+      },
+      {
+        "numero": 9,
+        "titulo": "La Ley en el espacio: reciprocidad, orden público, reenvío y fraude de Ley en el Derecho Internacional Privado. Principios y normas del Código Civil español en materia de conflictos de leyes. El Derecho interregional en España."
+      },
+      {
+        "numero": 10,
+        "titulo": "El concepto de persona. La persona física. La muerte de la persona. El domicilio. Capacidad jurídica, capacidad de obrar. Estado civil: concepto. La edad. Especialidades en el Derecho Civil de Aragón."
+      },
+      {
+        "numero": 11,
+        "titulo": "La incapacitación: Concepto, naturaleza jurídica y clases. Requisitos y efectos. La prodigalidad. Situación jurídica del concursado. Especialidades en el derecho civil aragonés."
+      },
+      {
+        "numero": 12,
+        "titulo": "La nacionalidad: adquisición, conservación, pérdida y recuperación. Condición jurídica de los extranjeros. La vecindad civil: adquisición y pérdida. La condición política de aragonés."
+      },
+      {
+        "numero": 13,
+        "titulo": "El Registro Civil. Breve referencia histórica. Naturaleza, contenido, principios y estructura del Registro Civil. Hechos y actos inscribibles. Títulos inscribibles. Asientos registrales. Promoción de la inscripción. Publicidad y rectificación de los asientos."
+      },
+      {
+        "numero": 14,
+        "titulo": "La persona jurídica: naturaleza, clases y capacidad. Asociaciones. Fundaciones."
+      },
+      {
+        "numero": 15,
+        "titulo": "El hecho y el acto jurídico. El negocio jurídico: elementos esenciales. La voluntad: los vicios del consentimiento. La causa: en particular, los negocios abstractos; el enriquecimiento sin causa."
+      },
+      {
+        "numero": 16,
+        "titulo": "La representación en el negocio jurídico; régimen de la representación voluntaria y de la legal. El poder irrevocable. El autocontrato. La subsistencia del poder extinguido."
+      },
+      {
+        "numero": 17,
+        "titulo": "El objeto del Derecho. Las cosas. El patrimonio."
+      },
+      {
+        "numero": 18,
+        "titulo": "El tiempo y las relaciones jurídicas; su cómputo. La prescripción y sus clases. Examen esencial de la prescripción extintiva. La caducidad."
+      },
+      {
+        "numero": 19,
+        "titulo": "El Derecho Real: naturaleza y caracteres. Su diferencia con los derechos de crédito. La tipicidad de los derechos reales. Derechos reales reconocidos en la legislación española. Tipos dudosos de derechos reales."
+      },
+      {
+        "numero": 20,
+        "titulo": "Derecho real de dominio. Su garantía constitucional Función social de la propiedad y delimitación de su contenido. La defensa del dominio: acción reivindicatoria y otras acciones. Las relaciones de vecindad: referencia al régimen del Derecho civil aragonés."
+      },
+      {
+        "numero": 21,
+        "titulo": "Modos de adquirir el dominio. Teoría del título y el modo. Las adquisiciones a non domino. La tradición. La ocupación."
+      },
+      {
+        "numero": 22,
+        "titulo": "La accesión: su fundamento. Accesión en bienes muebles e inmuebles. Doctrina de los frutos y figuras afines."
+      },
+      {
+        "numero": 23,
+        "titulo": "La usucapión: requisitos y efectos."
+      },
+      {
+        "numero": 24,
+        "titulo": "La comunidad de bienes y el condominio: su régimen en el Código Civil. La propiedad horizontal. La propiedad intelectual. Referencia al derecho de aprovechamiento por turnos de bienes inmuebles de uso turístico."
+      },
+      {
+        "numero": 25,
+        "titulo": "La posesión: concepto, naturaleza y clases. Adquisición, conservación y pérdida. Efectos."
+      },
+      {
+        "numero": 26,
+        "titulo": "El usufructo: Concepto y naturaleza. Contenido: los derechos y obligaciones del usufructuario. Constitución y extinción. Los derechos de uso y habitación."
+      },
+      {
+        "numero": 27,
+        "titulo": "El derecho real de servidumbre. Clases. Constitución. Contenido. Extinción. Referencia a las servidumbres legales: su fundamento y sus clases."
+      },
+      {
+        "numero": 28,
+        "titulo": "El derecho real de servidumbre en el Derecho Civil aragonés. Concepto y caracteres. Clases. Contenido. Constitución. Usucapión. Extinción. Servidumbre de luces y vistas. Servidumbre forzosa de paso. Servidumbre de acceso a red general. Derechos de pastos y ademprios."
+      },
+      {
+        "numero": 29,
+        "titulo": "El derecho de superficie. Los derechos reales de garantía: formas de garantía real. El derecho real de prenda. Prenda sobre derechos y prenda irregular. El derecho real de anticresis."
+      }
+    ]
+  },
+  {
+    "bloque": "Derecho Civil (segunda parte)",
+    "temas": [
+      {
+        "numero": 30,
+        "titulo": "La obligación: evolución y naturaleza. Sus elementos: sujetos, objeto y vínculo. Las fuentes de las obligaciones. Las obligaciones naturales en el Código Civil."
+      },
+      {
+        "numero": 31,
+        "titulo": "Clases de obligaciones por el sujeto y por el vínculo: unilaterales y recíprocas; mancomunadas y solidarias. Obligaciones puras, condicionales y a plazo."
+      },
+      {
+        "numero": 32,
+        "titulo": "Clases de obligaciones por el objeto: únicas y múltiples (conjuntivas, facultativas y alternativas); positivas y negativas; específicas y genéricas. La cláusula penal."
+      },
+      {
+        "numero": 33,
+        "titulo": "Cumplimiento e incumplimiento de las obligaciones: causas de este. Efectos del incumplimiento. Resarcimiento de daños y perjuicios. El principio de responsabilidad patrimonial universal. La acción subrogatoria y la acción revocatoria."
+      },
+      {
+        "numero": 34,
+        "titulo": "Causas de extinción de las obligaciones (I). El pago: naturaleza y requisitos. Referencia a las formas especiales de pago."
+      },
+      {
+        "numero": 35,
+        "titulo": "Causas de extinción de las obligaciones (II). Pérdida de la cosa debida. Confusión de derechos. Condonación. Compensación. Novación. Asunción de deuda."
+      },
+      {
+        "numero": 36,
+        "titulo": "El contrato. Capacidad de los contratantes. Objeto del contrato. La forma. Perfección y consumación del contrato. Interpretación de los contratos. Irrevocabilidad de los contratos. Estipulaciones en favor de tercero."
+      },
+      {
+        "numero": 37,
+        "titulo": "Ineficacia de los contratos. Inexistencia, nulidad y anulabilidad: causas y efectos. Confirmación y rescisión de los contratos."
+      },
+      {
+        "numero": 38,
+        "titulo": "El contrato de compraventa: naturaleza y elementos. Perfección de la compraventa. Obligaciones del vendedor y del comprador."
+      },
+      {
+        "numero": 39,
+        "titulo": "El retracto convencional. Los retractos legales. Derecho de abolorio o de la saca. La promesa de venta y el contrato de opción. La permuta."
+      },
+      {
+        "numero": 40,
+        "titulo": "La donación: Elementos personales, reales y formales. Perfección del contrato. Efectos. Revocación y reducción de donaciones. Las donaciones mortis causa."
+      },
+      {
+        "numero": 41,
+        "titulo": "El contrato de arrendamiento en el Código Civil. El arrendamiento de fincas rústicas y su legislación especial: principios básicos en la materia."
+      },
+      {
+        "numero": 42,
+        "titulo": "El arrendamiento de fincas urbanas: régimen y ámbito de aplicación de la ley. Arrendamientos de vivienda: Inscripción registral, duración, renta. Derechos y obligaciones de las partes. Suspensión, resolución y extinción del contrato. Arrendamientos para usos distintos del de vivienda. Disposiciones comunes a los arrendamientos."
+      },
+      {
+        "numero": 43,
+        "titulo": "El contrato de prestamo: sus especies. El contrato de arrendamiento de obra o de empresa. El contrato de edición."
+      },
+      {
+        "numero": 44,
+        "titulo": "El contrato de sociedad: naturaleza, clases y contenido. El contrato de depósito: naturaleza y especies."
+      },
+      {
+        "numero": 45,
+        "titulo": "El contrato de fianza. El contrato de transacción. El Convenio arbitral."
+      },
+      {
+        "numero": 46,
+        "titulo": "Los cuasicontratos. Obligaciones nacidas de culpa extracontractual. Referencia a los daños morales."
+      },
+      {
+        "numero": 47,
+        "titulo": "La concurrencia de créditos desde el punto de vista del Derecho Civil. Clasificación y prelación de créditos."
+      },
+      {
+        "numero": 48,
+        "titulo": "El Derecho de familia. El matrimonio: requisitos, forma de celebración efectos personales y patrimoniales. Régimen de participación. Referencia al régimen de separación de bienes y al régimen de comunidad de bienes según el Código Civil. Referencia a las uniones de hecho."
+      },
+      {
+        "numero": 49,
+        "titulo": "El régimen económico-conyugal en el Derecho Civil de Aragón con especial referencia al derecho de viudedad. Régimen de separación de bienes. Consorcio conyugal. Efectos de la disolución."
+      },
+      {
+        "numero": 50,
+        "titulo": "Nulidad, separación y disolución de matrimonio: sus causas. Efectos comunes a la nulidad, separación y divorcio. Relaciones familiares en los casos de ruptura de la convivencia de los padres con hijos a cargo y mediación familiar en el Derecho aragonés."
+      },
+      {
+        "numero": 51,
+        "titulo": "La protección jurídica del menor: fundamento constitucional y regulación legal, con especial referencia a la legislación aragonesa en materia de Protección de Menores. La filiación en el Código Civil: determinación de la filiación; la filiación civil o adoptiva."
+      },
+      {
+        "numero": 52,
+        "titulo": "Las relaciones entre ascendientes y descendientes en el Derecho Civil de Aragón: efectos de la filiación; deber de crianza y autoridad familiar; gestión de los bienes de los hijos. Las relaciones tutelares en el Derecho civil de Aragón, con especial referencia a la Junta de Parientes. Referencia al régimen de tutela en el Derecho civil."
+      },
+      {
+        "numero": 53,
+        "titulo": "La sucesión mortis causa en la legislación aragonesa. Heredero y legatario. Apertura y delación de la herencia con referencia al “ius delationis” y herencia yacente. Capacidad para suceder. Aceptación y repudiación de la herencia. Colación y partición."
+      },
+      {
+        "numero": 54,
+        "titulo": "Consorcio foral. Sucesión paccionada. Sucesión testamentaria. Referencia a la normativa del Código Civil."
+      },
+      {
+        "numero": 55,
+        "titulo": "Fiducia sucesoria. Normas comunes a las sucesiones voluntarias. Referencia a la normativa del Código Civil en materia de institución de heredero y de sustituciones hereditarias."
+      },
+      {
+        "numero": 56,
+        "titulo": "La legítima. Sucesión legal. Referencia a la normativa del Código civil."
+      }
+    ]
+  },
+  {
+    "bloque": "Derecho Procesal (primera parte)",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "El Poder Judicial y el ejercicio de la potestad jurisdiccional: fundamento constitucional, principios procesales contenidos en la Constitución y en la Ley Orgánica del Poder Judicial. El derecho a la tutela judicial efectiva: examen del artículo 24 de la Constitución y su desarrollo por la Jurisprudencia del Tribunal Constitucional. La Jurisdicción: extensión y límites. Los conflictos de jurisdicción y de competencia, planta y organización territorial judicial. Competencia de las Comunidades Autónomas relacionadas con la Administración de Justicia."
+      },
+      {
+        "numero": 2,
+        "titulo": "El proceso: naturaleza, fundamento y clases. Contenido de la Ley de Enjuiciamiento Civil y principios que la informan. Teoría general de la competencia. Reglas para determinar la competencia en el proceso civil. Fuero territorial del Estado y de las Comunidades Autónomas. Causas modificativas de la competencia: la sumisión y la conexión. Las cuestiones de competencia."
+      },
+      {
+        "numero": 3,
+        "titulo": "Las partes en el proceso civil: su posición jurídica. Capacidad para ser parte y capacidad procesal. La legitimación procesal. Sucesión procesal. Representación y defensa técnica de las partes. Régimen de Asistencia Jurídica a las Entidades Locales."
+      },
+      {
+        "numero": 4,
+        "titulo": "La rebeldía en el proceso civil. El litisconsorcio: sus especies y régimen jurídico. La intervención procesal. Teoría General de la tercería. Intervención voluntaria. Intervención provocada."
+      },
+      {
+        "numero": 5,
+        "titulo": "Teoría de la acción procesal: acción, pretensión y demanda. Clases de pretensiones. Contenido: determinación de la cuantía. Pluralidad de pretensiones. Acumulación de acciones y autos. Ampliación de la demanda. Reconvención."
+      },
+      {
+        "numero": 6,
+        "titulo": "Las actuaciones judiciales: sus requisitos. Nulidad de los actos judiciales. Cooperación jurisdiccional. Los actos de comunicación a las partes, con especial mención de los actos de comunicación a las Administraciones Públicas. Referencia a los actos de comunicación por medios electrónicos, informáticos y similares. Responsabilidad del Estado por el funcionamiento de la Administración de Justicia."
+      },
+      {
+        "numero": 7,
+        "titulo": "Hechos y actos procesales. Actos preparatorios de los juicios. Diligencias preliminares establecidas en la Ley de Enjuiciamiento Civil. Cuestiones incidentales: supuestos y procedimientos para su tramitación."
+      },
+      {
+        "numero": 8,
+        "titulo": "Actos de iniciación del proceso civil. La demanda: su forma, contenido y efectos. Actos de desarrollo del proceso civil. La prueba: su objeto y valoración. Carga de la prueba. Medios de prueba y disposiciones generales en la materia."
+      },
+      {
+        "numero": 9,
+        "titulo": "La prueba documental. Concepto de documento. Clases: los documentos públicos y privados. Valor probatorio. La presentación de documentos, dictámenes, informes y otros medios o instrumentos. La práctica de prueba documental. Interrogatorio de las partes, con referencia a las especialidades aplicables a las Administraciones Públicas."
+      },
+      {
+        "numero": 10,
+        "titulo": "Interrogatorio de los testigos, con referencia a las especialidades aplicables a las Administraciones Públicas. El dictamen de peritos. El reconocimiento judicial. Otros medios de prueba. Las presunciones."
+      },
+      {
+        "numero": 11,
+        "titulo": "Terminación normal del proceso. La sentencia: contenido y clases. Efectos jurídicos de la sentencia: la cosa juzgada formal y material. Otras formas de terminación del proceso; renuncia, desistimiento, allanamiento, transacción, satisfacción extraprocesal, carencia sobrevenida de objeto y caducidad. Disposición de la acción por el Letrado Consistorial. Suspensión del proceso y suspensión del curso de los autos para elevar consulta."
+      },
+      {
+        "numero": 12,
+        "titulo": "Efectos económicos del proceso: las costas. Criterios para su imposición. Tasación de costas. Particularidad de las tasaciones de costas en procesos que son parte las Administraciones Públicas. Exención del pago de costas. El derecho de justicia gratuita: procedimiento para su declaración y efectos de su reconocimiento. Tasas judiciales. Exención de depósito y cauciones a favor de las Administraciones Públicas."
+      },
+      {
+        "numero": 13,
+        "titulo": "Tipos de proceso civil. El juicio ordinario. Carácter y procedimiento."
+      },
+      {
+        "numero": 14,
+        "titulo": "El juicio verbal. Carácter y procedimiento."
+      },
+      {
+        "numero": 15,
+        "titulo": "La ejecución forzosa. Títulos ejecutivos. Ejecución dineraria (l). Requerimiento de pago. Embargo de bienes. Tercería de dominio y de mejor derecho"
+      },
+      {
+        "numero": 16,
+        "titulo": "Ejecución dineraria (II). Procedimiento de apremio. Particularidades de ejecución de los bienes pignorados. La ejecución no dineraria. Ejecución de sentencias en las que se condena a las Administraciones Públicas."
+      },
+      {
+        "numero": 17,
+        "titulo": "Procesos especiales. Procesos sobre provisión de medidas judiciales de apoyo a las personas con discapacidad, filiación, matrimonio y menores. División judicial de patrimonios. Procesos monitorio y cambiario."
+      },
+      {
+        "numero": 18,
+        "titulo": "Aseguramiento del proceso. Medidas cautelares en el proceso civil. La ejecución provisional de las resoluciones judiciales."
+      },
+      {
+        "numero": 19,
+        "titulo": "Impugnación del proceso. Clases de recursos. Recurso de reposición. Recurso de apelación."
+      },
+      {
+        "numero": 20,
+        "titulo": "Recurso de casación. Resoluciones contra las que procede y motivos del recurso. Procedimiento y efectos."
+      },
+      {
+        "numero": 21,
+        "titulo": "Recurso extraordinario por infracción procesal. Requisitos: resoluciones contra las que procede y motivos que lo fundamentan. Procedimiento y efectos. Revisión de sentencias firmes. Recurso que puede utilizar el demandado rebelde."
+      },
+      {
+        "numero": 22,
+        "titulo": "El procedimiento de concurso. Extensión de la jurisdicción del juez del concurso. Procedimiento de declaración. Administración concursal. Referencia al informe de la Administración concursal."
+      },
+      {
+        "numero": 23,
+        "titulo": "Tramitación de la fase de convenio y liquidación. Normas especiales en caso de concurso. El incidente concursal y su régimen de recursos. Referencia a las normas concursales de derecho internacional privado. El acuerdo extrajudicial de pagos."
+      },
+      {
+        "numero": 24,
+        "titulo": "Eliminación del proceso. El acto de conciliación. Régimen jurídico del arbitraje: naturaleza, requisitos y procedimiento arbitral. La anulación del laudo. Referencia a la mediación en el proceso civil."
+      },
+      {
+        "numero": 25,
+        "titulo": "La jurisdicción voluntaria. Concepto y naturaleza. Principios generales y normas de tramitación. Clasificación y referencia a expedientes en materia de derecho de personas, derecho de familia, derecho sucesorio, derecho de obligaciones, derechos reales y derecho mercantil. Referencia al acta notarial de declaración de herederos abintestato."
+      }
+    ]
+  },
+  {
+    "bloque": "Derecho Procesal (segunda parte)",
+    "temas": [
+      {
+        "numero": 26,
+        "titulo": "El proceso penal. Contenido y principios que informan la Ley de Enjuiciamiento Criminal. Las partes en el proceso penal. La rebeldía en el proceso penal. Las funciones del Ministerio Fiscal. Reglas para determinar la competencia en el proceso penal. Cuestiones prejudiciales. Iniciación del proceso: denuncia, querella e iniciación de oficio."
+      },
+      {
+        "numero": 27,
+        "titulo": "El sumario: su objeto. Exposición de las principales diligencias sumariales. El auto de procesamiento. Recursos contra el mismo. Período intermedio de sobreseimiento o elevación a juicio oral. Artículos de previo pronunciamiento. Calificaciones. Celebración de juicio oral."
+      },
+      {
+        "numero": 28,
+        "titulo": "Procedimiento abreviado para determinados delitos. Procedimiento para el enjuiciamiento rápido de determinados delitos. Proceso por aceptación de decreto. Procedimiento para el juicio sobre delitos leves."
+      },
+      {
+        "numero": 29,
+        "titulo": "El Tribunal del Jurado. Composición. Procedimiento de las causas que se siguen ante el Tribunal del Jurado."
+      },
+      {
+        "numero": 30,
+        "titulo": "La jurisdicción de menores: su ámbito de aplicación. Procedimiento: instrucción, medidas cautelares y fase de audiencia. Sentencia y régimen de recursos. Las medidas y su ejecución. La responsabilidad civil."
+      },
+      {
+        "numero": 31,
+        "titulo": "Los recursos en materia penal: El recurso de apelación. Recurso de casación. Recurso de revisión. La ejecución penal: naturaleza jurídica."
+      },
+      {
+        "numero": 32,
+        "titulo": "El proceso contencioso administrativo. Sistemas en Derecho Comparado. El Orden jurisdiccional Contencioso-Administrativo en España: La Ley reguladora de la Jurisdicción Contencioso-Administrativa: principios que la informan; estructura, naturaleza y contenido. Concepto de Administración Pública a efectos del recurso contencioso-administrativo. Cuestiones a las que se extiende el conocimiento de este Orden jurisdiccional y cuestiones que quedan excluidas del mismo."
+      },
+      {
+        "numero": 33,
+        "titulo": "Los órganos de la Jurisdicción contencioso-administrativa. Reglas determinantes de su respectiva competencia. En particular, la competencia territorial. Las partes (I): capacidad, legitimación."
+      },
+      {
+        "numero": 34,
+        "titulo": "Las partes (II): representación y defensa. Objeto del recurso contenciosoadministrativo. Actividad administrativa impugnable. Pretensiones de las partes. Acumulación. Cuantía del recurso."
+      },
+      {
+        "numero": 35,
+        "titulo": "Procedimiento contencioso-administrativo (l). Plazos. Procedimiento en primera o única instancia. Diligencias preliminares. La declaración de lesividad. Interposición del recurso contencioso-administrativo. Anuncio del recurso y reclamación del expediente. Emplazamiento y personación de los demandados. Trámite para completar el expediente administrativo. Demanda y contestación: requisitos, contenido y efectos. Aportación de documentos. Alegaciones previas."
+      },
+      {
+        "numero": 36,
+        "titulo": "Procedimiento contencioso-administrativo (ll). Prueba. Vista y conclusiones. El planteamiento de cuestiones nuevas. La sentencia: contenido. Otros modos de terminación del procedimiento. La cuestión de ilegalidad."
+      },
+      {
+        "numero": 37,
+        "titulo": "Procedimiento contencioso-administrativo (lII). Procedimiento abreviado. Procedimiento para la protección de los derechos y libertades fundamentales de la persona. Procedimiento para restricción de servicios de la información. Procedimiento en los casos de suspensión administrativa previa de acuerdos. Procedimiento para la garantía de la unidad de mercado. Procedimiento sobre extinción de partidos políticos. Procedimiento contencioso-electoral."
+      },
+      {
+        "numero": 38,
+        "titulo": "Procedimiento contencioso-administrativo (IV). Recursos contra resoluciones de Secretario Judicial. Recursos contra providencias y autos. Recurso de apelación: resoluciones contra las que procede y motivos del recurso, procedimiento, contenido y efectos de la sentencia."
+      },
+      {
+        "numero": 39,
+        "titulo": "Procedimiento contencioso-administrativo (V). Recurso de casación. Resoluciones contra las que procede y motivos del recurso. Procedimiento. Contenido y efectos de la sentencia. Revisión de sentencias firmes."
+      },
+      {
+        "numero": 40,
+        "titulo": "Procedimiento contencioso-administrativo (Vl). Caducidad. Medidas cautelares. Ejecución de sentencias. Suspensión y ejecución de las mismas. Extensión de sus efectos. Incidentes e invalidez de los actos procesales. Costas procesales."
+      },
+      {
+        "numero": 41,
+        "titulo": "El proceso de trabajo. Principios que lo informan. Órganos jurisdiccionales. Competencia. Capacidad, legitimación y representación de las partes. Intervención del Fondo de Garantía Salarial. Conciliación obligatoria. La reclamación administrativa previa a la vía judicial."
+      },
+      {
+        "numero": 42,
+        "titulo": "Tramitación del proceso ordinario de trabajo. Procesos especiales. En particular, los procesos en materia de despidos y sanciones. Los salarios de tramitación."
+      },
+      {
+        "numero": 43,
+        "titulo": "Impugnación del proceso de trabajo. Recurso de suplicación: Recurso de casación, con especial referencia al recurso para unificación de doctrina. Ejecución de sentencias: normas generales y casos especiales. Ejecución provisional."
+      }
+    ]
+  },
+  {
+    "bloque": "Derecho Hipotecario y Derecho Mercantil",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "Derecho Inmobiliario y Derecho Hipotecario. El Registro de la Propiedad: sus fines. Los libros del Registro: asientos que se practican en ellos. Sus clases y formalidades comunes. Publicidad formal del Registro."
+      },
+      {
+        "numero": 2,
+        "titulo": "Los principios hipotecarios. Principio de inscripción. Circunstancias generales de las inscripciones. El principio de legitimación registral: alcance y consecuencias sustantivas de este principio. Sus efectos procesales."
+      },
+      {
+        "numero": 3,
+        "titulo": "El principio de la fe pública registral. Requisitos: examen especial de la buena fe. Excepciones a la fe pública registral. Efectos de la inscripción respecto de los actos y contratos nulos. El principio de prioridad. El artículo 17 de la Ley Hipotecaria. El asiento de presentación."
+      },
+      {
+        "numero": 4,
+        "titulo": "La posesión y el Registro. La prescripción en relación con el Registro: examen de los artículos 35 y 36 de la Ley Hipotecaria. Principio de tracto sucesivo: modalidades y excepciones. Principio de legalidad. Recursos contra la calificación del registrador."
+      },
+      {
+        "numero": 5,
+        "titulo": "El principio de especialidad. La finca como base del registro. Los derechos inscribibles en la legislación vigente. Derechos que no pueden inscribirse y derechos que no necesitan ser inscritos. Títulos inscribibles y sus requisitos. Inscripciones de bienes del Estado y de las Entidades Locales. Inscripción de los bienes del Estado traspasados a la Comunidad Autónoma."
+      },
+      {
+        "numero": 6,
+        "titulo": "Referencia a las inscripciones de los deslindes judiciales y administrativos, concesiones administrativas y bienes procedentes de expropiación forzosa. Inscripciones derivadas de procedimiento de apremio fiscal. Inscripción del arrendamiento de bienes inmuebles."
+      },
+      {
+        "numero": 7,
+        "titulo": "Inscripción de los derechos de retorno, opción, superficie y vuelo. El Urbanismo y el Registro de la Propiedad: actos y títulos inscribibles. Aspectos registralesde la ejecución del planeamiento. Inscripciones de obra nueva. Reflejo registral de los procesos judiciales en materia de urbanismo."
+      },
+      {
+        "numero": 8,
+        "titulo": "La anotación preventiva: concepto, efectos y clases. Examen especial de las anotaciones de demanda y de embargo. Anotación de mandamientos de embargo por débitos a la Hacienda Pública. Inscripción y anotación de las resoluciones judiciales que afectan a la capacidad de las personas. Extinción de las anotaciones preventivas."
+      },
+      {
+        "numero": 9,
+        "titulo": "Concepto y caracteres del Derecho Real de Hipoteca. Tipos. Requisitos de las voluntarias. Capacidad y responsabilidad del sujeto pasivo. Bienes hipotecables y no hipotecables. Extensión de la hipoteca en relación con la finca hipotecada y con las obligaciones que garantiza. Cesión de créditos hipotecarios."
+      },
+      {
+        "numero": 10,
+        "titulo": "Hipotecas legales: su naturaleza. Prelación de los créditos tributarios y de los demás créditos de Derecho Público. La hipoteca mobiliaria y la prenda sin desplazamiento de posesión."
+      },
+      {
+        "numero": 11,
+        "titulo": "Efectos de la hipoteca. La acción real y la acción personal en la ejecución hipotecaria. Procedimientos para la efectividad del crédito hipotecario. Procedimiento de ejecución directa contra los bienes hipotecados, con referencia a la ejecución hipotecaria de vivienda habitual. Extinción de las hipotecas. Prescripción de la acción hipotecaria."
+      },
+      {
+        "numero": 12,
+        "titulo": "La inscripción de la finca y su coordinación con el Catastro. El deslinde registral. La rectificación. La inscripción de mejoras. La inmatriculación de fincas que no estén inscritas a favor de persona alguna. Las operaciones registrales sobre bienes de las Administraciones Públicas. El expediente de reanudación del tracto sucesivo. Doble inmatriculación. El expediente de liberación de cargas."
+      },
+      {
+        "numero": 13,
+        "titulo": "Contenido del Derecho Mercantil. Sistemas. Doctrina y Jurisprudencia española. El acto de comercio en la teoría y en el Derecho español. Fuentes del Derecho Mercantil. El Código de Comercio vigente y la legislación complementaria. El principio de seguridad en el tráfico mercantil."
+      },
+      {
+        "numero": 14,
+        "titulo": "La publicidad en el Derecho Mercantil. El Registro Mercantil. Principios. Organización. Objeto de inscripción en el Registro Mercantil."
+      },
+      {
+        "numero": 15,
+        "titulo": "La empresa mercantil y los elementos que la forman. La contabilidad de los empresarios. Libros: requisitos. Valor probatorio y reconocimiento de los libros de comercio. Cuentas anuales. Concepto de comerciante. El comerciante individual: condiciones de capacidad; incapacidades; prohibiciones."
+      },
+      {
+        "numero": 16,
+        "titulo": "La sociedad mercantil: concepto, naturaleza y clases. Requisitos generales de constitución de la sociedad mercantil. Las sociedades irregulares. Referencia a la sociedad colectiva, la sociedad comanditaria simple y la sociedad comanditaria por acciones."
+      },
+      {
+        "numero": 17,
+        "titulo": "Sociedad Anónima y Sociedad Limitada (I). Denominación, nacionalidad y domicilio. Constitución: escritura, inscripción, constitución sucesiva de sociedad anónima. Aportaciones sociales. Participaciones y acciones: concepto, derechos del socio y transmisión de participaciones y acciones."
+      },
+      {
+        "numero": 18,
+        "titulo": "Sociedad Anónima y Sociedad Limitada (II). Órganos sociales. Junta general: competencia, clases. Convocatoria, asistencia, acuerdos e impugnación de acuerdos. Administradores: modos de administración, nombramiento y ceses, deberes y responsabilidad. Consejo de Administración. Cuentas anuales y verificación."
+      },
+      {
+        "numero": 19,
+        "titulo": "Sociedad Anónima y Sociedad Limitada (III). Modificación de Estatutos: tutela de socios, aumento y disminución de capital. Disolución y liquidación de la sociedad. Modificaciones estructurales de las sociedades mercantiles: transformación, fusión, escisión, cesión global y traslado internacional."
+      },
+      {
+        "numero": 20,
+        "titulo": "Sociedad Unipersonal. Sociedad Limitada Nueva Empresa. Sociedad Anónima Europea. Sociedades Laborales. Sociedades Profesionales. Agrupaciones de Interés Económico. Unión Temporal de Empresas."
+      },
+      {
+        "numero": 21,
+        "titulo": "Las Entidades de Crédito: concepto y función. Fundaciones Bancarias: referencia a la legislación aragonesa. Sociedades de garantía recíproca. Cooperativas."
+      },
+      {
+        "numero": 22,
+        "titulo": "Doctrina General de las cosas mercantiles. La propiedad industrial. La Oficina Española de Patentes y Marcas. Patentes. Marcas. Otros derechos de propiedad industrial. Transmisión y régimen jurídico de protección."
+      },
+      {
+        "numero": 23,
+        "titulo": "Derecho de la Competencia. Competencia ilícita y competencia desleal. Referencia al régimen de la publicidad y del consumo. Órganos de Defensa de la Competencia. Referencia a la unidad de mercado."
+      },
+      {
+        "numero": 24,
+        "titulo": "Títulos de crédito: Concepto, caracteres y clases. La letra de cambio (l). Emisión y forma. El endoso. La aceptación y el aval."
+      },
+      {
+        "numero": 25,
+        "titulo": "La letra de cambio (ll). El pago. El protesto. Las acciones cambiarias. El cheque. El pagaré."
+      },
+      {
+        "numero": 26,
+        "titulo": "Obligaciones y contratos mercantiles. Disposiciones generales del Código de Comercio sobre estas materias. La contratación por vía electrónica. La comisión mercantil. La representación en el Derecho Mercantil. Las condiciones generales de contratación."
+      },
+      {
+        "numero": 27,
+        "titulo": "Los contratos publicitarios, con breve referencia a la publicidad institucional. El contrato de asistencia técnica. La franquicia. El contrato de agencia. El contrato de transporte terrestre."
+      },
+      {
+        "numero": 28,
+        "titulo": "Contratos bancarios en general. Cuenta corriente bancaria. Apertura de crédito. Prestamo. Descuento bancario. Depósitos en Bancos. El factoring. El leasing."
+      },
+      {
+        "numero": 29,
+        "titulo": "Los mercados de valores: instrumentos financieros y valores negociables representados mediante anotaciones en cuenta. Comisión Nacional del Mercado de Valores. Mercado primario. Mercados secundarios oficiales: bolsa de valores, mercado de deuda pública en anotaciones en cuenta, mercados de futuros y opciones, referencia a las ofertas públicas de adquisición. Empresas de servicios de inversión. Contratos bursátiles."
+      },
+      {
+        "numero": 30,
+        "titulo": "Contrato de seguro: concepto, naturaleza y regulación. Elementos personales, reales y formales. Contenido y extinción. Referencia al seguro contra daños y sus modalidades y a los seguros de personas."
+      },
+      {
+        "numero": 31,
+        "titulo": "El concurso (I). Presupuesto objetivo y subjetivo. El auto de declaración de concurso y sus efectos. Determinación de la masa activa. Acciones de reintegración patrimonial."
+      },
+      {
+        "numero": 32,
+        "titulo": "El concurso (II). La masa pasiva y los créditos contra la masa: clasificación y pago. El convenio: contenido y efectos. Efectos de la apertura de la fase de liquidación. Las causas de conclusión del concurso y reapertura: efectos. Referencia a la calificación del concurso. Los temas (264 temas) cuyos epígrafes o contenido se refieran a normas jurídicas, se desarrollarán conforme a las normas vigentes en el momento de celebración de los ejercicios, sin perjuicio de las referencias que a los antecedentes normativos o fácticos puedan exponerse."
+      }
+    ]
+  }
+]

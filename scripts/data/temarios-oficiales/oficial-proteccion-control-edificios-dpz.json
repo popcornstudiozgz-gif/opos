@@ -1,0 +1,92 @@
+[
+  {
+    "bloque": "Parte general",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "La Constitución Española de 1978. Derechos y deberes fundamentales de los españoles. La organización territorial del Estado."
+      },
+      {
+        "numero": 2,
+        "titulo": "La provincia organización y competencias."
+      },
+      {
+        "numero": 3,
+        "titulo": "La igualdad de oportunidades entre hombres y mujeres: marco jurídico: Ley Orgánica 3/2007, de 22 de marzo, para la igualdad entre mujeres y hombres."
+      },
+      {
+        "numero": 4,
+        "titulo": "La transparencia en la Administración Pública. Legislación básica estatal y autonómica aragonesa en la materia."
+      },
+      {
+        "numero": 5,
+        "titulo": "Protección de datos de carácter personal: objeto y ámbito de aplicación. Principios de protección de datos. Derechos de las personas."
+      },
+      {
+        "numero": 6,
+        "titulo": "El personal al servicio de la Administración Local: clases y régimen jurídico aplicable."
+      }
+    ]
+  },
+  {
+    "bloque": "Parte específica",
+    "temas": [
+      {
+        "numero": 7,
+        "titulo": "Organización y funcionamiento de la Diputación Provincial de Zaragoza: Organigrama de su personal. La Institución Fernando el Católico. La Residencia de Estudiantes Ramón Pignatelli. Localización."
+      },
+      {
+        "numero": 8,
+        "titulo": "Seguridad Física: Sistemas de cierre perimetral. Muros, vallas puestas, cristales blindados, esclusas y otros elementos. Fiabilidad y vulnerabilidad al sabotaje."
+      },
+      {
+        "numero": 9,
+        "titulo": "Seguridad electrónica: Detectores interiores y exteriores. El circuito cerrado de televisión. Fiabilidad y vulnerabilidad al sabotaje."
+      },
+      {
+        "numero": 10,
+        "titulo": "La central de control de alarmas. Organización y funciones. Los sistemas de control y alarmas. Concepto de alarma falsa y alarma real. Sistemas de verificación de alarmas."
+      },
+      {
+        "numero": 11,
+        "titulo": "Servicio de respuesta y custodia de llaves. Procedimiento de reacción ante alarmas: El enlace con las Fuerzas y Cuerpos de Seguridad."
+      },
+      {
+        "numero": 12,
+        "titulo": "El control de accesos. Finalidad. Procedimiento de actuación: identificación, autorización, tarjeta identificativa y registro documental de acceso."
+      },
+      {
+        "numero": 13,
+        "titulo": "Nociones básicas sobre la seguridad de edificios. Protección contra incendios. Sistemas de detección."
+      },
+      {
+        "numero": 14,
+        "titulo": "Mecanismos de extinción de incendios. Mangueras. Extintores. Prácticas de manejo de mangueras y extintores. Salidas. Evacuación."
+      },
+      {
+        "numero": 15,
+        "titulo": "Nociones básicas de mantenimiento de instalaciones eléctricas. Nociones básicas de elementos calefactores y refrigeradores."
+      },
+      {
+        "numero": 16,
+        "titulo": "La correspondencia. El correo interior y exterior. Formas de recepción y reparto de la misma."
+      },
+      {
+        "numero": 17,
+        "titulo": "Nociones básicas de informática: manejo básico del paquete ofimática LibreOffice, especialmente “Writer” y “Calc”. Uso de Internet y sus motores de búsqueda."
+      },
+      {
+        "numero": 18,
+        "titulo": "Atención al público. La comunicación como atención al ciudadano. Tipos de comunicación. Reglas básicas en el trato con los usuarios. Atención por teléfono de calidad. Desvíos y transferencias de llamadas."
+      },
+      {
+        "numero": 19,
+        "titulo": "Tratamiento de las autoridades. Normas elementales en recepciones y actos oficiales. Prelación de autoridades."
+      },
+      {
+        "numero": 20,
+        "titulo": "Ley de prevención de riesgos laborales. Actuación ante emergencias. Riesgos y medidas preventivas en el uso de PVD."
+      }
+    ]
+  }
+]
