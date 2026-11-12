@@ -87,6 +87,12 @@ comentarios directamente si algo aquí no cuadra.
   `plazo_fin`** (date, último día inclusive, migración 0017): la app la
   trata como cerrada en cuanto pasa ese día (`src/lib/plazos.ts`) y la
   home (`revalidate = 3600`) deja de mostrarla sola, sin script de cierre.
+  Las fichas son estáticas (no se regeneran hasta el siguiente despliegue),
+  así que su recuadro de estado lo recalcula el navegador
+  (`src/components/oposicion/EstadoPlazo.tsx`); por lo mismo, **no escribas
+  "abierto" dentro de `plazo_instancias`** (texto fijo que no caduca).
+  Lo que NO es automático: que una convocatoria nueva aparezca, ni que una
+  `pendiente_publicacion` pase a `abierta` — hay que hacerlo a mano.
 - Progreso de usuario (`profiles`, `test_intentos`, `flashcard_progreso`,
   `tema_progreso`, etc. — `supabase/migrations/0007_usuarios_progreso.sql`)
   se guarda **por `oposicion_slug`**, no por tema: si dos oposiciones
@@ -1141,10 +1147,23 @@ flashcards...) más adelante. **Sin formularios de captación de email.**
   citados en la ficha principal). **La web de la DPZ trae erratas en la escala
   de algunas plazas: manda la base 2 de las bases.** Oficial 1.ª de Almacén
   estaba abierta hasta el 11-12-2026.
+- **Séptima tanda: Universidad de Zaragoza (22 fichas, 12-11-2026).**
+  Organismo nuevo `universidad-zaragoza`; slug = `<puesto>-unizar`. PTGAS
+  funcionario, convocatorias de turno libre de 2025-2026 sacadas del BOA
+  (`scripts/seed-fichas-unizar.mjs` + `scripts/data/fichas-unizar.json`,
+  cabecera con fuentes y lagunas). Sus plazos son **20 días naturales desde
+  la publicación en el BOE**, que llega días o semanas después que el BOA:
+  comprobarlo con la API de sumarios
+  (`boe.es/datosabiertos/api/boe/sumario/AAAAMMDD`). **Pendientes de salir en
+  el BOE a 12-11-2026:** Técnicos Medios de Informática, Ayudantes y
+  Facultativos de Archivos y Bibliotecas y Técnicos Superiores de Educación
+  Física → cuando salgan, pasarlas a `abierta` con `plazo_fin`. Las
+  convocatorias mixtas traen dos temarios (promoción interna y acceso libre):
+  la ficha usa el de acceso libre.
 - **Agrupación en la home y en la página del organismo:** `src/lib/grupos.ts`
-  reparte las oposiciones del SALUD y de la DPZ por tipo de puesto (en el SALUD: enfermería, técnicos
+  reparte las oposiciones del SALUD, la DPZ y la Universidad por tipo de puesto (en el SALUD: enfermería, técnicos
   sanitarios, medicina, gestión, servicios generales). **Al añadir una ficha
-  del SALUD o de la DPZ, añade su `puestoSlug` a su grupo** (si no, sale en "Otras
+  del SALUD, la DPZ o la Universidad, añade su `puestoSlug` a su grupo** (si no, sale en "Otras
   categorías"). La home ordena los organismos por número de oposiciones con
   material, así el SALUD (solo fichas) va el último.
 - **Lo que queda sin ficha** son categorías de 1 a 5 plazas de DGA/Ayto. (el

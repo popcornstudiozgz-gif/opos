@@ -1,0 +1,128 @@
+[
+  {
+    "bloque": "Parte general",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "La Constitución Española."
+      },
+      {
+        "numero": 2,
+        "titulo": "Ley del Procedimiento Administrativo Común de las Administraciones Públicas: disposiciones generales; los interesados en el procedimiento; la actividad de las Administraciones Pública; los actos administrativos."
+      },
+      {
+        "numero": 3,
+        "titulo": "Ley del Procedimiento Administrativo Común de las Administraciones Públicas: la revisión de los actos en vía administrativa."
+      },
+      {
+        "numero": 4,
+        "titulo": "Ley de Régimen Jurídico del Sector Público: disposiciones generales; los órganos administrativos, competencia; funcionamiento de los órganos colegiados de las distintas administraciones públicas; abstención y recusación; funcionamiento electrónico del sector público."
+      },
+      {
+        "numero": 5,
+        "titulo": "Estatuto Básico del Empleado Público: clases de personal al servicio de las Administraciones Públicas; adquisición y pérdida de la relación de servicio."
+      },
+      {
+        "numero": 6,
+        "titulo": "Estatuto Básico del Empleado Público: derechos y deberes y código de conducta de los empleados públicos."
+      },
+      {
+        "numero": 7,
+        "titulo": "Estatuto Básico del Empleado Público: ordenación de la actividad profesional; situaciones administrativas; régimen disciplinario."
+      },
+      {
+        "numero": 8,
+        "titulo": "Ley de prevención de riesgos laborales: objeto, ámbito de aplicación y definiciones; derecho a la protección frente a los riesgos laborales; medidas de emergencia; obligaciones de los trabajadores en materia de prevención de riesgos; consulta y participación de los trabajadores. Reglamento general de protección de datos: definiciones y principios relativos al tratamiento. La política de seguridad de la información y protección de datos personales de la Universidad."
+      },
+      {
+        "numero": 9,
+        "titulo": "Ley Orgánica para la igualdad efectiva de mujeres y hombres: objeto y ámbito de la Ley; el principio de igualdad y la tutela contra la discriminación; el derecho al trabajo en igualdad de oportunidades; criterios de actuación de las Administraciones Públicas."
+      },
+      {
+        "numero": 10,
+        "titulo": "Ley Orgánica del sistema universitario: funciones del sistema universitario y autonomía de las universidades; creación y reconocimiento de las universidades y calidad del sistema universitario; organización de enseñanzas."
+      },
+      {
+        "numero": 11,
+        "titulo": "Ley Orgánica del sistema universitario: el estudiantado en el Sistema Universitario; personal docente e investigador de las universidades públicas; personal técnico, de gestión y de administración y servicios de las universidades públicas."
+      },
+      {
+        "numero": 12,
+        "titulo": "Estatutos de la Universidad de Zaragoza: disposiciones generales; la estructura de la Universidad; el Defensor Universitario; los servicios de asistencia a la comunidad universitaria."
+      },
+      {
+        "numero": 13,
+        "titulo": "Estatutos de la Universidad de Zaragoza: el gobierno y representación de la Universidad."
+      },
+      {
+        "numero": 14,
+        "titulo": "El Código Ético de la Universidad de Zaragoza. El plan antifraude de la Universidad de Zaragoza. Protocolo de actuación frente a conflictos de intereses detectados de la Universidad de Zaragoza."
+      },
+      {
+        "numero": 15,
+        "titulo": "El Pacto del personal funcionario de administración y servicios de la Universidad de Zaragoza: determinación de las partes que lo conciertan; condiciones de aplicación y vigencia; comisión de interpretación, vigilancia, estudio y aplicación del Pacto; organización y planificación del trabajo; ingreso y acceso a cuerpos y escalas de la Universidad; provisión de puestos de trabajo; formación y perfeccionamiento profesional; jornada y régimen de trabajo; vacaciones, permisos y licencias; situaciones administrativas. El Plan Concilia de la Universidad de Zaragoza."
+      },
+      {
+        "numero": 16,
+        "titulo": "El Pacto del personal funcionario de administración y servicios de la Universidad de Zaragoza: régimen disciplinario; salud laboral; retribuciones; acción social; derechos de representación colectiva y de reunión del PAS."
+      }
+    ]
+  },
+  {
+    "bloque": "Parte específica",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "La unidad dental: concepto, estructura, funcionamiento y mantenimiento."
+      },
+      {
+        "numero": 2,
+        "titulo": "Radiología en odontología. Tipos de radiologías dentales. Protección radiológica."
+      },
+      {
+        "numero": 3,
+        "titulo": "Instrumental quirúrgico, instrumental no quirúrgico. Instrumental desechable y no desechable. Cuidado y mantenimiento del instrumental."
+      },
+      {
+        "numero": 4,
+        "titulo": "Asepsia y antisepsia. Limpieza, desinfección y esterilización en la consulta odontológica. Controles de esterilización. Manipulación y conservación del material estéril."
+      },
+      {
+        "numero": 5,
+        "titulo": "Manejo de residuos en odontología. Clasificación, transporte, eliminación y tratamiento."
+      },
+      {
+        "numero": 6,
+        "titulo": "Enfermedades de transmisión en odontología. Mecanismos de transmisión, epidemiología y prevención. Equipos de protección individual. Infecciones odontológicas."
+      },
+      {
+        "numero": 7,
+        "titulo": "Ergonomía. Instrumentación. Riesgos profesionales en odontología."
+      },
+      {
+        "numero": 8,
+        "titulo": "Salud bucodental. Higiene bucodental e interdental."
+      },
+      {
+        "numero": 9,
+        "titulo": "Materiales dentales e instrumentos odontológicos: descripción, tipos y conservación."
+      },
+      {
+        "numero": 10,
+        "titulo": "Stock, almacenaje y control de productos dentales en almacén según rotación y características."
+      },
+      {
+        "numero": 11,
+        "titulo": "Prótesis fija y removible. Conceptos y fases de trabajo. Limpieza y conservación."
+      },
+      {
+        "numero": 12,
+        "titulo": "Normas de buenas prácticas en laboratorio. Organización del laboratorio."
+      },
+      {
+        "numero": 13,
+        "titulo": "Seguridad e Higiene en el trabajo. Medidas de prevención y protección. Protección de máquinas. Protección personal. Actuaciones en caso de accidente. Primeros auxilios."
+      }
+    ]
+  }
+]

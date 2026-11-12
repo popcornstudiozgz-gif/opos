@@ -1,0 +1,95 @@
+[
+  {
+    "bloque": "Temario",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "La Constitución Española: preámbulo; título preliminar; derechos y deberes fundamentales; las Cortes Generales; el Gobierno y la Administración."
+      },
+      {
+        "numero": 2,
+        "titulo": "Ley del Procedimiento Administrativo Común de las Administraciones Públicas: disposiciones generales; los interesados en el procedimiento; la actividad de las Administraciones Públicas; los actos administrativos."
+      },
+      {
+        "numero": 3,
+        "titulo": "Ley del Procedimiento Administrativo Común de las Administraciones Públicas: las disposiciones sobre el procedimiento administrativo; la revisión de los actos en vía administrativa; la iniciativa legislativa y la potestad para dictar reglamentos y otras disposiciones."
+      },
+      {
+        "numero": 4,
+        "titulo": "Ley de Régimen Jurídico del Sector Público: disposiciones generales; los órganos de las Administraciones Públicas; funcionamiento electrónico del sector público; los convenios."
+      },
+      {
+        "numero": 5,
+        "titulo": "Estatuto Básico del Empleado Público: objeto y ámbito de aplicación; clases de personal al servicio de las administraciones públicas."
+      },
+      {
+        "numero": 6,
+        "titulo": "Estatuto Básico del Empleado Público: derechos y deberes, código de conducta de los empleados públicos; adquisición y pérdida de la relación de servicio."
+      },
+      {
+        "numero": 7,
+        "titulo": "Estatuto Básico del Empleado Público: ordenación de la actividad profesional; situaciones administrativas; régimen disciplinario; cooperación entre las administraciones públicas."
+      },
+      {
+        "numero": 8,
+        "titulo": "Ley de Transparencia de la Actividad Pública y Participación Ciudadana de Aragón: disposiciones generales; transparencia en la actividad pública; publicidad activa; derecho de acceso a la información pública; organización, fomento y control de la transparencia."
+      },
+      {
+        "numero": 9,
+        "titulo": "Ley de Prevención de Riesgos Laborales: objeto y carácter de la norma; ámbito de aplicación; definiciones; derecho a la protección frente a los riesgos laborales; medidas de emergencia; obligaciones de los trabajadores en materia de prevención de riesgos; consulta de los trabajadores; derecho de participación y representación."
+      },
+      {
+        "numero": 10,
+        "titulo": "La política de seguridad de la información y protección de datos personales de la Universidad."
+      },
+      {
+        "numero": 11,
+        "titulo": "Ley Orgánica para la Igualdad Efectiva de Mujeres y Hombres: objeto y ámbito de la Ley; el principio de igualdad y la tutela contra la discriminación; criterios de actuación de las administraciones públicas."
+      },
+      {
+        "numero": 12,
+        "titulo": "Ley Orgánica del Sistema Universitario: disposiciones generales; funciones del sistema universitario y autonomía de las universidades; creación y reconocimiento de las universidades y calidad del sistema universitario; organización de enseñanzas; investigación y transferencia e intercambio del conocimiento e innovación; cooperación, coordinación y participación en el sistema universitario; universidad, sociedad y cultura; internacionalización del sistema universitario."
+      },
+      {
+        "numero": 13,
+        "titulo": "Ley Orgánica del Sistema Universitario: el estudiantado en el Sistema Universitario; personal docente e investigador de las universidades públicas; personal técnico, de gestión y de administración y servicios de las universidades públicas."
+      },
+      {
+        "numero": 14,
+        "titulo": "Ley Orgánica del Sistema Universitario: régimen jurídico y estructura de las universidades públicas; gobernanza de las universidades públicas; régimen económico y financiera de las universidades públicas; régimen específico de las universidades privadas."
+      },
+      {
+        "numero": 15,
+        "titulo": "Ley de Ordenación del Sistema Universitario en Aragón: disposiciones generales; las normas de aplicación a la Universidad de Zaragoza."
+      },
+      {
+        "numero": 16,
+        "titulo": "Los Estatutos de la Universidad de Zaragoza: la estructura de la Universidad; el gobierno y representación de la Universidad."
+      },
+      {
+        "numero": 17,
+        "titulo": "Los Estatutos de la Universidad de Zaragoza: la docencia e investigación; la comunidad universitaria; de las unidades básicas y servicios de asistencia a la comunidad universitaria."
+      },
+      {
+        "numero": 18,
+        "titulo": "Real Decreto por el que se establece la organización de las enseñanzas universitarias y del procedimiento de aseguramiento de su calidad. Real"
+      },
+      {
+        "numero": 19,
+        "titulo": "Real Decreto por el que se establece el sistema europeo de créditos y el sistema de calificaciones en las titulaciones universitarias de carácter oficial y validez en todo el territorio nacional. Suplemento Europeo al título en las titulaciones de Grado, Máster y Doctor: definición, expedición y contenido."
+      },
+      {
+        "numero": 20,
+        "titulo": "Disposiciones generales de la Ley de Contratos del Sector Público: objeto y ámbito de aplicación de la ley; delimitación de los tipos contractuales; contratos sujetos a una regulación armonizada; contratos administrativos y contratos privados."
+      },
+      {
+        "numero": 21,
+        "titulo": "Bases de elaboración y ejecución del Presupuesto de la Universidad de Zaragoza."
+      },
+      {
+        "numero": 22,
+        "titulo": "El Pacto del Personal Funcionario de Administración y Servicios de la Universidad de Zaragoza. El Plan Concilia de la Universidad de Zaragoza."
+      }
+    ]
+  }
+]

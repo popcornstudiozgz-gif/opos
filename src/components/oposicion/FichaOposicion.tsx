@@ -3,6 +3,7 @@ import { Card } from "@/components/ui/Card";
 import { Button } from "@/components/ui/Button";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { organismoConPreposicionCompleto } from "@/lib/site";
+import { EstadoPlazo } from "@/components/oposicion/EstadoPlazo";
 import type { Oposicion } from "@/lib/types";
 import type { Convocatoria } from "@/data/convocatorias";
 
@@ -28,7 +29,7 @@ export function FichaOposicion({
   const datos = convocatoria
     ? [
         { valor: `${convocatoria.plazasTotal}`, etiqueta: "Plazas", detalle: convocatoria.numero },
-        { valor: ESTADO[convocatoria.estado], etiqueta: "Plazo de instancias", detalle: undefined },
+        { valor: <EstadoPlazo estado={convocatoria.estado} plazoFin={convocatoria.plazoFin} />, etiqueta: "Plazo de instancias", detalle: undefined },
         { valor: `${convocatoria.pruebas.length}`, etiqueta: convocatoria.pruebas.length === 1 ? "Prueba" : "Pruebas", detalle: convocatoria.pruebas.map((p) => p.nombre).join(" · ") },
         { valor: `${numTemas}`, etiqueta: "Temas en el programa", detalle: "Temario oficial" },
       ]
@@ -176,12 +177,6 @@ export function FichaOposicion({
   );
 }
 
-const ESTADO: Record<Convocatoria["estado"], string> = {
-  abierta: "Abierto",
-  cerrada: "Cerrado",
-  pendiente_publicacion: "Sin convocar",
-};
-
 /** Preguntas frecuentes derivadas de los datos de la ficha: no se escribe ninguna a mano. */
 function preguntasFrecuentes(oposicion: Oposicion, convocatoria: Convocatoria | undefined, numTemas: number) {
   const faq: { pregunta: string; respuesta: string }[] = [];
@@ -198,12 +193,16 @@ function preguntasFrecuentes(oposicion: Oposicion, convocatoria: Convocatoria | 
     });
     faq.push({
       pregunta: "¿Está abierto el plazo de inscripción?",
+      // La página es estática: nada de un «Sí» que caduca. Si hay fecha de
+      // cierre, se da la fecha; el texto de la convocatoria completa el resto.
       respuesta:
         (convocatoria.estado === "abierta"
-          ? "Sí. "
+          ? convocatoria.plazoFin
+            ? `El plazo termina el ${fechaLarga(convocatoria.plazoFin)}. `
+            : "Sí. "
           : convocatoria.estado === "cerrada"
             ? "No, el plazo de esta convocatoria ya está cerrado. "
-            : "Todavía no: las plazas están previstas, pero la convocatoria no se ha publicado. ") +
+            : "Todavía no. ") +
         convocatoria.plazoInstancias,
     });
     faq.push({
@@ -226,4 +225,12 @@ function preguntasFrecuentes(oposicion: Oposicion, convocatoria: Convocatoria | 
     });
   }
   return faq;
+}
+
+const MESES = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"];
+
+/** "2026-12-11" → "11 de diciembre de 2026". */
+function fechaLarga(iso: string): string {
+  const [a, m, d] = iso.split("-").map(Number);
+  return `${d} de ${MESES[m - 1]} de ${a}`;
 }

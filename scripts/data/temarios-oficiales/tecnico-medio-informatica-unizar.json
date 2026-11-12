@@ -1,0 +1,324 @@
+[
+  {
+    "bloque": "Parte general",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "La Constitución Española."
+      },
+      {
+        "numero": 2,
+        "titulo": "Ley del Procedimiento Administrativo Común de las Administraciones Públicas: disposiciones generales; los interesados en el procedimiento; la actividad de las Administraciones Pública; los actos administrativos; las disposiciones sobre el procedimiento administrativo común."
+      },
+      {
+        "numero": 3,
+        "titulo": "Ley del Procedimiento Administrativo Común de las Administraciones Públicas: la tramitación simplificada del procedimiento administrativo común; ejecución; la revisión de los actos en vía administrativa; la iniciativa legislativa y la potestad para dictar reglamentos y otras disposiciones."
+      },
+      {
+        "numero": 4,
+        "titulo": "Ley del régimen jurídico del sector público: disposiciones generales; los órganos administrativos, competencia; funcionamiento de los órganos colegiados de las distintas administraciones públicas; abstención y recusación; principios de la potestad sancionadora; la responsabilidad patrimonial de las Administraciones Públicas; funcionamiento electrónico del sector público; los convenios."
+      },
+      {
+        "numero": 5,
+        "titulo": "Estatuto Básico del Empleado Público: objeto y ámbito de aplicación; personal al servicio de las Administraciones Públicas; derechos y deberes y código de conducta de los empleados públicos."
+      },
+      {
+        "numero": 6,
+        "titulo": "Estatuto Básico del Empleado Público: adquisición y pérdida de la relación de servicio; ordenación de la actividad profesional; situaciones administrativas; régimen disciplinario; cooperación entre las Administraciones Públicas."
+      },
+      {
+        "numero": 7,
+        "titulo": "Ley Orgánica para la igualdad efectiva de mujeres y hombres: objeto y ámbito de la Ley; el principio de igualdad y la tutela contra la discriminación; el derecho al trabajo en igualdad de oportunidades; criterios de actuación de las Administraciones Públicas."
+      },
+      {
+        "numero": 8,
+        "titulo": "Ley de Incompatibilidades del personal al servicio de las administraciones públicas."
+      },
+      {
+        "numero": 9,
+        "titulo": "Estatutos de la Universidad de Zaragoza: disposiciones generales; la estructura de la Universidad; el gobierno y representación de la Universidad; el Defensor Universitario; la docencia e investigación; la comunidad universitaria; los servicios de asistencia a la comunidad universitaria; régimen económico, financiero y patrimonial; la reforma de los Estatutos."
+      },
+      {
+        "numero": 10,
+        "titulo": "Ley de contratos del sector público: pliego de prescripciones técnicas particulares; definición de determinadas prescripciones técnicas; reglas para el establecimiento de prescripciones técnicas; etiquetas; informes de pruebas, certificación y otros medios de prueba."
+      },
+      {
+        "numero": 11,
+        "titulo": "El código Ético de la Universidad de Zaragoza. El plan antifraude de la Universidad de Zaragoza. Protocolo de actuación frente a conflictos de intereses detectados de la Universidad de Zaragoza."
+      },
+      {
+        "numero": 12,
+        "titulo": "Bases de elaboración y ejecución del Presupuesto de la Universidad de Zaragoza. Régimen económico y financiera de las universidades públicas en la Ley Orgánica del Sistema Universitario."
+      },
+      {
+        "numero": 13,
+        "titulo": "El Pacto del personal funcionario de administración y servicios de la Universidad de Zaragoza. El Plan Concilia de la Universidad de Zaragoza."
+      }
+    ]
+  },
+  {
+    "bloque": "Parte específica",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "El Esquema Nacional de Seguridad."
+      },
+      {
+        "numero": 2,
+        "titulo": "Esquema Nacional de Interoperabilidad."
+      },
+      {
+        "numero": 3,
+        "titulo": "Normativa de protección de datos de carácter personal."
+      },
+      {
+        "numero": 4,
+        "titulo": "Ley de transparencia de la Actividad Pública y Participación Ciudadana de Aragón"
+      },
+      {
+        "numero": 5,
+        "titulo": "Gestión de incidencias y problemas. CAU."
+      },
+      {
+        "numero": 6,
+        "titulo": "Ordenadores personales. Arquitectura. Procesadores. Tipos y características. Instalación y configuración de componentes hardware. BIOS y UEFI. Dispositivos de almacenamiento, memorias, tarjetas gráficas, tarjetas de red, escáneres, impresión. Puertos y conectores."
+      },
+      {
+        "numero": 7,
+        "titulo": "Sistemas operativos para entornos de puesto de trabajo: MS Windows, MacOS y distribuciones Linux."
+      },
+      {
+        "numero": 8,
+        "titulo": "Sistemas operativos de entornos de servidor: MS Windows Server y Linux (Debian, RedHat, Oracle Linux)."
+      },
+      {
+        "numero": 9,
+        "titulo": "Programación en scripting para Linux (shell bash) y para Windows."
+      },
+      {
+        "numero": 10,
+        "titulo": "Ofimática. Formatos abiertos. Trabajo concurrente en documentos ofimáticos."
+      },
+      {
+        "numero": 11,
+        "titulo": "Internet. Navegadores y sus protocolos, plugins y extensiones. Configuración de conexión a red. Proxys. Instalación y gestión de certificados digitales."
+      },
+      {
+        "numero": 12,
+        "titulo": "Gestión centralizada de equipos: inventario, mantenimiento y actualización de software. Software de despliegue de imágenes, Opengnsys."
+      },
+      {
+        "numero": 13,
+        "titulo": "Seguridad física y lógica de un sistema de información. Seguridad en entornos de escritorio (antivirus, antimalware…). Herramientas en ciberseguridad, gestión de incidentes e informática forense."
+      },
+      {
+        "numero": 14,
+        "titulo": "Entorno físico: Centro de proceso de datos, servidores enracables, Blades. Hiperconvergencia.."
+      },
+      {
+        "numero": 15,
+        "titulo": "Entornos de virtualización de servidor: VMWARE, OpenNebula, dockers."
+      },
+      {
+        "numero": 16,
+        "titulo": "Entornos de virtualización para escritorio y aplicaciones: VirtualBox, Wine."
+      },
+      {
+        "numero": 17,
+        "titulo": "Sistemas de almacenamiento: DAS (Direct Attached Storage), SAN y NAS. Sistemas CEPH. Librerías de cintas."
+      },
+      {
+        "numero": 18,
+        "titulo": "Sistemas de Monitorización: interna (Pandora FMS, Nagios) y remota."
+      },
+      {
+        "numero": 19,
+        "titulo": "Mecanismos de protección de sistemas y servicios: Disaster recovery, copias de seguridad."
+      },
+      {
+        "numero": 20,
+        "titulo": "Arquitectura y tecnologías cloud: IaaS, PaaS y SaaS. Computación y almacenamiento."
+      },
+      {
+        "numero": 21,
+        "titulo": "Nubes públicas: Amazon Web Services (AWS), Microsoft Azure, Google One."
+      },
+      {
+        "numero": 22,
+        "titulo": "Arquitectura de comunicaciones. Modelo de referencia OSI de ISO. Arquitectura TCP/IP. Direccionamiento IP. Encaminamiento. Principales protocolos de la arquitectura TCP/IP."
+      },
+      {
+        "numero": 23,
+        "titulo": "Sistemas de cableado estructurado. Elementos pasivos/activos. Normativa y estándares. Instalaciones de cableado. Verificación y comprobación."
+      },
+      {
+        "numero": 24,
+        "titulo": "Redes de Área local (LAN). Topologías. Estándares IEEE 802 y derivados. Redes de Área local (LAN). Topologías. Estándares IEEE 802 y derivados. Redes inalámbricas. Administración de redes de área local. Gestión de Dispositivos. Monitorización y control de tráfico. Redes de área extensa (WAN). Redes públicas. Tecnologías (ADSL, FTTH, ATM, SDH/ SONET, MPLS, DWDM)."
+      },
+      {
+        "numero": 25,
+        "titulo": "Telefonía y Comunicaciones unificadas. Acceso a la red pública. ToIP, VoIP, Integración voz/datos. Acceso seguro a redes institucionales."
+      },
+      {
+        "numero": 26,
+        "titulo": "Uso de VPN. Seguridad perimetral. Firewalls. Detección y prevención de intrusiones. Seguridad en redes inalámbricas."
+      },
+      {
+        "numero": 27,
+        "titulo": "Servicios básicos de red: DNS, DHCP, NTP."
+      },
+      {
+        "numero": 28,
+        "titulo": "Servicios balanceados y en alta disponibilidad. HAProxy"
+      },
+      {
+        "numero": 29,
+        "titulo": "Autenticación en acceso a servicios: LDAP, Active Directory, SSO, SAML, Radius. Sistemas de autenticación federada y de doble factor (A2F)."
+      },
+      {
+        "numero": 30,
+        "titulo": "Servicios HTTP. Apache y Nginx. Gestores de contenidos web. Drupal, Wordpress."
+      },
+      {
+        "numero": 31,
+        "titulo": "Servicio de correo electrónico: SMTP, POP e IMAP. Gestión de buzones. Spam."
+      },
+      {
+        "numero": 32,
+        "titulo": "Sistemas de mensajería instantánea y videoconferencia."
+      },
+      {
+        "numero": 33,
+        "titulo": "Servicios para almacenar y compartir documentación: gestores de ficheros en red, gestores documentales, discos remotos."
+      },
+      {
+        "numero": 34,
+        "titulo": "Soluciones integradas de servicios accesibles vía web: Google Workspace, NextCloud."
+      },
+      {
+        "numero": 35,
+        "titulo": "Gestión de bibliotecas y repositorios de documentación multimedia."
+      },
+      {
+        "numero": 36,
+        "titulo": "Técnicas de análisis, diseño e implementación de sistemas de información."
+      },
+      {
+        "numero": 37,
+        "titulo": "La calidad del software. Control de versiones. Sistemas de integración continua: soluciones e implantación."
+      },
+      {
+        "numero": 38,
+        "titulo": "Metodologías ágiles de desarrollo: Scrum, Kanban."
+      },
+      {
+        "numero": 39,
+        "titulo": "Orientación a objetos. Java. Arquitectura J2EE. JSF. Servidores de aplicaciones. Patrones de diseño. MVC."
+      },
+      {
+        "numero": 40,
+        "titulo": "PHP. Python. Django. HTML, Javascript, CSS. Frameworks JavaScript: VueJS, Angular"
+      },
+      {
+        "numero": 41,
+        "titulo": "Desarrollo sobre Peoplesoft: Peopletools y Peoplecode."
+      },
+      {
+        "numero": 42,
+        "titulo": "Servicios web: SOAP, REST."
+      },
+      {
+        "numero": 43,
+        "titulo": "Tipos de bases de datos. Bases de datos relacionales. Diseño de bases de datos relacionales. Normalización. SQL."
+      },
+      {
+        "numero": 44,
+        "titulo": "Administración de bases de datos. Optimización de consultas. Concurrencia. Mecanismos de acceso a BBDD. JDBC."
+      },
+      {
+        "numero": 45,
+        "titulo": "Sistemas gestores de bases de datos Oracle, MySQL."
+      },
+      {
+        "numero": 46,
+        "titulo": "Integración base de datos relacional y programación orientada a objetos. ORM. Framework Hibernate. ORM Django."
+      },
+      {
+        "numero": 47,
+        "titulo": "Sistemas de gestión documental. Protocolo CMIS."
+      },
+      {
+        "numero": 48,
+        "titulo": "Datawarehouse y sistemas de soporte a la toma de decisiones y almacenes de datos. Tecnologías OLAP. Modelo Kimball."
+      },
+      {
+        "numero": 49,
+        "titulo": "Interoperabilidad. Datos Abiertos."
+      },
+      {
+        "numero": 50,
+        "titulo": "Objetivos y fundamentos de la administración Electrónica."
+      },
+      {
+        "numero": 51,
+        "titulo": "Acceso electrónico a las Administraciones públicas: sedes electrónicas, canales y puntos de acceso."
+      },
+      {
+        "numero": 52,
+        "titulo": "Identificación y autenticación. EIDAS. Cl@ve."
+      },
+      {
+        "numero": 53,
+        "titulo": "Criptografía simétrica y asimétrica. Algoritmos de encriptación y sistemas de cifrado."
+      },
+      {
+        "numero": 54,
+        "titulo": "Aplicaciones de la criptografía. Identificación digital. Firma electrónica."
+      },
+      {
+        "numero": 55,
+        "titulo": "Certificados digitales. Tipos de certificados. Entidades certificadoras."
+      },
+      {
+        "numero": 56,
+        "titulo": "Sistemas de verificación, custodia y recuperación de documentos firmados."
+      },
+      {
+        "numero": 57,
+        "titulo": "Las redes públicas de transmisión de datos: RedIRIS, redSARA."
+      },
+      {
+        "numero": 58,
+        "titulo": "Servicios comunes: Carpeta Ciudadana."
+      },
+      {
+        "numero": 59,
+        "titulo": "Sistema de Interconexión de Registros, plataforma de intermediación de datos."
+      },
+      {
+        "numero": 60,
+        "titulo": "Gestión de recursos humanos, gestión económica y contratación."
+      },
+      {
+        "numero": 61,
+        "titulo": "Gestión académica y de la investigación. Gestión de la producción científica."
+      },
+      {
+        "numero": 62,
+        "titulo": "Gestor de solicitudes, expedientes, firma electrónica e identidad digital."
+      },
+      {
+        "numero": 63,
+        "titulo": "Gestión de servicios bibliotecarios, repositorio institucional y datos abiertos."
+      },
+      {
+        "numero": 64,
+        "titulo": "Plataforma de docencia virtual."
+      },
+      {
+        "numero": 65,
+        "titulo": "Inteligencia Artificial y Aprendizaje Automático: Aprendizaje supervisado, no supervisado y por refuerzo, arquitecturas neuronales y Transformers, IA generativa (LLMs), programación asistida y agentes, MLOps, ética y Reglamento Europeo de IA."
+      }
+    ]
+  }
+]

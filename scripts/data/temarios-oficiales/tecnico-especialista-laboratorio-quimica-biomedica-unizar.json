@@ -1,0 +1,168 @@
+[
+  {
+    "bloque": "Parte general",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "La Constitución Española."
+      },
+      {
+        "numero": 2,
+        "titulo": "Ley del Procedimiento Administrativo Común de las Administraciones Públicas: disposiciones generales; los interesados en el procedimiento; la actividad de las Administraciones Pública; los actos administrativos."
+      },
+      {
+        "numero": 3,
+        "titulo": "Ley del Procedimiento Administrativo Común de las Administraciones Públicas: la revisión de los actos en vía administrativa."
+      },
+      {
+        "numero": 4,
+        "titulo": "Ley de Régimen Jurídico del Sector Público: disposiciones generales; los órganos administrativos, competencia; funcionamiento de los órganos colegiados de las distintas administraciones públicas; abstención y recusación; funcionamiento electrónico del sector público."
+      },
+      {
+        "numero": 5,
+        "titulo": "Estatuto Básico del Empleado Público: clases de personal al servicio de las Administraciones Públicas; adquisición y pérdida de la relación de servicio."
+      },
+      {
+        "numero": 6,
+        "titulo": "Estatuto Básico del Empleado Público: derechos y deberes y código de conducta de los empleados públicos."
+      },
+      {
+        "numero": 7,
+        "titulo": "Estatuto Básico del Empleado Público: ordenación de la actividad profesional; situaciones administrativas; régimen disciplinario."
+      },
+      {
+        "numero": 8,
+        "titulo": "Ley de prevención de riesgos laborales: objeto, ámbito de aplicación y definiciones; derecho a la protección frente a los riesgos laborales; medidas de emergencia; obligaciones de los trabajadores en materia de prevención de riesgos; consulta y participación de los trabajadores. Reglamento general de protección de datos: definiciones y principios relativos al tratamiento. La política de seguridad de la información y protección de datos personales de la Universidad."
+      },
+      {
+        "numero": 9,
+        "titulo": "Ley Orgánica para la igualdad efectiva de mujeres y hombres: objeto y ámbito de la Ley; el principio de igualdad y la tutela contra la discriminación; el derecho al trabajo en igualdad de oportunidades; criterios de actuación de las Administraciones Públicas."
+      },
+      {
+        "numero": 10,
+        "titulo": "Ley Orgánica del sistema universitario: funciones del sistema universitario y autonomía de las universidades; creación y reconocimiento de las universidades y calidad del sistema universitario; organización de enseñanzas."
+      },
+      {
+        "numero": 11,
+        "titulo": "Ley Orgánica del sistema universitario: el estudiantado en el Sistema Universitario; personal docente e investigador de las universidades públicas; personal técnico, de gestión y de administración y servicios de las universidades públicas."
+      },
+      {
+        "numero": 12,
+        "titulo": "Estatutos de la Universidad de Zaragoza: disposiciones generales; la estructura de la Universidad; el Defensor Universitario; los servicios de asistencia a la comunidad universitaria."
+      },
+      {
+        "numero": 13,
+        "titulo": "Estatutos de la Universidad de Zaragoza: el gobierno y representación de la Universidad."
+      },
+      {
+        "numero": 14,
+        "titulo": "El Código Ético de la Universidad de Zaragoza. El plan antifraude de la Universidad de Zaragoza. Protocolo de actuación frente a conflictos de intereses detectados de la Universidad de Zaragoza."
+      },
+      {
+        "numero": 15,
+        "titulo": "El Pacto del personal funcionario de administración y servicios de la Universidad de Zaragoza: determinación de las partes que lo conciertan; condiciones de aplicación y vigencia; comisión de interpretación, vigilancia, estudio y aplicación del Pacto; organización y planificación del trabajo; ingreso y acceso a cuerpos y escalas de la Universidad; provisión de puestos de trabajo; formación y perfeccionamiento profesional; jornada y régimen de trabajo; vacaciones, permisos y licencias; situaciones administrativas. El Plan Concilia de la Universidad de Zaragoza."
+      },
+      {
+        "numero": 16,
+        "titulo": "El Pacto del personal funcionario de administración y servicios de la Universidad de Zaragoza: régimen disciplinario; salud laboral; retribuciones; acción social; derechos de representación colectiva y de reunión del PAS."
+      }
+    ]
+  },
+  {
+    "bloque": "Parte específica",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "Formulación y nomenclatura de los compuestos químicos inorgánicos y orgánicos."
+      },
+      {
+        "numero": 2,
+        "titulo": "Estructura de la materia. El átomo. Partículas fundamentales. Número atómico. Masa atómica. El sistema periódico de los elementos y propiedades periódicas. Concepto de valencia. Concepto de átomo-gramo."
+      },
+      {
+        "numero": 3,
+        "titulo": "Moléculas. Peso molecular. Mol. Composición centesimal de una sustancia. Equivalente químico y equivalente gramo."
+      },
+      {
+        "numero": 4,
+        "titulo": "El enlace químico. Enlace iónico. Enlace covalente. Fuerzas intermoleculares. El enlace metálico. Propiedades de los compuestos iónicos, covalentes y metálicos."
+      },
+      {
+        "numero": 5,
+        "titulo": "Disoluciones. Tipos de disoluciones. Formas expresar la concentración. Procedimientos de preparación y normalización de reactivos y soluciones patrón."
+      },
+      {
+        "numero": 6,
+        "titulo": "Propiedades de las disoluciones. Teorías de la ionización. El agua como disolvente. Otros disolventes."
+      },
+      {
+        "numero": 7,
+        "titulo": "Operaciones básicas en el laboratorio. Servicios auxiliares del laboratorio. Toma y preparación de muestras. Medidas de masa y volumen. Manipulación de sustancias. Separaciones mecánicas. Separaciones difusionales."
+      },
+      {
+        "numero": 8,
+        "titulo": "Análisis instrumental. Parámetros instrumentales. Curvas de calibrado. Rango de linealidad. Interpolación. Métodos eléctricos. Métodos ópticos. Técnicas cromatográficas."
+      },
+      {
+        "numero": 9,
+        "titulo": "Instrumentación y control. Medidas de presión. Medidas de temperatura. Medidas de caudal. Medidas de nivel de líquidos y sólidos en depósitos. Medidas de humedad."
+      },
+      {
+        "numero": 10,
+        "titulo": "Regulación. Aparatos de regulación. Características de los elementos de regulación. Transmisión de la información. Teoría de los servomecanismos en general."
+      },
+      {
+        "numero": 11,
+        "titulo": "Radiactividad y reacciones nucleares: Naturaleza de los procesos radiactivos. Diagramas de desintegración. Radiactividad alfa. Radiactividad beta. Captura electrónica. Radiactividad gamma. Actividad radiactiva. Decrecimiento radiactivo. Periodo de semidesintegración. Vida media. Actividad específica. Filiación radiactiva. Radionúclidos naturales. Detectores de partículas cargadas."
+      },
+      {
+        "numero": 12,
+        "titulo": "Magnitudes y unidades de radiación: Radiación y absorción de energía. Flujo y fluencia. Exposición. Dosis absorbida. Relación entre exposición y dosis absorbida. Eficacia biológica relativa, factor de calidad y dosis equivalente. Dosis equivalente efectiva. Dosis equivalente colectiva."
+      },
+      {
+        "numero": 13,
+        "titulo": "Radioprotección: Personal profesionalmente expuesto. Laboratorios fríos y calientes. Distancia, tiempo, blindajes. Cálculo de dosis. Control dosimétrico de área. Control dosimétrico personal. Clasificación y señalización de zonas. Descontaminación. Instrumentos de control."
+      },
+      {
+        "numero": 14,
+        "titulo": "Residuos radiactivos: Consecuencias de las descargas de radiactividad al medio ambiente. Segregación y recogida de residuos radiactivos. Evacuación al medio ambiente. Tratamiento de residuos radiactivos"
+      },
+      {
+        "numero": 15,
+        "titulo": "Generalidades de Histología. Concepto de tejido y clasificación."
+      },
+      {
+        "numero": 16,
+        "titulo": "Técnicas histológicas. La fijación. La inclusión. Métodos de corte. Métodos de tinción. Preparación de muestras para microscopía."
+      },
+      {
+        "numero": 17,
+        "titulo": "El microscopio: descripción, tipos y aplicaciones. Preparaciones microscópicas y tinciones más frecuentes."
+      },
+      {
+        "numero": 18,
+        "titulo": "Toma y recogida de muestras biológicas. Preparación, conservación, transporte y etiquetado de muestras."
+      },
+      {
+        "numero": 19,
+        "titulo": "Desinfección por medios físicos. Esterilización. Desinfección por medios químicos. Desinfectantes más usados."
+      },
+      {
+        "numero": 20,
+        "titulo": "Características generales de las principales biomoléculas: ácidos nucleicos, proteínas, hidratos de carbono y lípidos."
+      },
+      {
+        "numero": 21,
+        "titulo": "Toma, elaboración y análisis de datos. Frecuencias. Medidas de centralización y de dispersión. Regresión y correlación."
+      },
+      {
+        "numero": 22,
+        "titulo": "Normas de buenas prácticas en el laboratorio. Organización del laboratorio. Programa de Garantía de Calidad. El control de calidad. Procedimientos normalizados de trabajo."
+      },
+      {
+        "numero": 23,
+        "titulo": "Seguridad e Higiene en el trabajo. Orden, limpieza, color y señalización. Factores de riesgo. Medidas de prevención y protección. Protección de máquinas. Protección personal. Actuaciones en casos de accidente. Primeros auxilios. Plan de emergencia del laboratorio. Salud Laboral."
+      }
+    ]
+  }
+]

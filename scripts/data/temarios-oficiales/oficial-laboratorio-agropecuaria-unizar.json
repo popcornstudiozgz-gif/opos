@@ -1,0 +1,120 @@
+[
+  {
+    "bloque": "Parte general",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "La Constitución Española."
+      },
+      {
+        "numero": 2,
+        "titulo": "Ley del Procedimiento Administrativo Común de las Administraciones Públicas: disposiciones generales; los interesados en el procedimiento; la actividad de las Administraciones Pública; los actos administrativos."
+      },
+      {
+        "numero": 3,
+        "titulo": "Ley del Procedimiento Administrativo Común de las Administraciones Públicas: la revisión de los actos en vía administrativa."
+      },
+      {
+        "numero": 4,
+        "titulo": "Ley de Régimen Jurídico del Sector Público: disposiciones generales; los órganos administrativos, competencia; funcionamiento de los órganos colegiados de las distintas administraciones públicas; abstención y recusación; funcionamiento electrónico del sector público."
+      },
+      {
+        "numero": 5,
+        "titulo": "Estatuto Básico del Empleado Público: clases de personal al servicio de las Administraciones Públicas; adquisición y pérdida de la relación de servicio."
+      },
+      {
+        "numero": 6,
+        "titulo": "Estatuto Básico del Empleado Público: derechos y deberes y código de conducta de los empleados públicos."
+      },
+      {
+        "numero": 7,
+        "titulo": "Estatuto Básico del Empleado Público: ordenación de la actividad profesional; situaciones administrativas; régimen disciplinario."
+      },
+      {
+        "numero": 8,
+        "titulo": "Ley de prevención de riesgos laborales: objeto, ámbito de aplicación y definiciones; derecho a la protección frente a los riesgos laborales; medidas de emergencia; obligaciones de los trabajadores en materia de prevención de riesgos; consulta y participación de los trabajadores. Reglamento general de protección de datos: definiciones y principios relativos al tratamiento. La política de seguridad de la información y protección de datos personales de la Universidad."
+      },
+      {
+        "numero": 9,
+        "titulo": "Ley Orgánica para la igualdad efectiva de mujeres y hombres: objeto y ámbito de la Ley; el principio de igualdad y la tutela contra la discriminación; el derecho al trabajo en igualdad de oportunidades; criterios de actuación de las Administraciones Públicas."
+      },
+      {
+        "numero": 10,
+        "titulo": "Ley Orgánica del sistema universitario: funciones del sistema universitario y autonomía de las universidades; creación y reconocimiento de las universidades y calidad del sistema universitario; organización de enseñanzas."
+      },
+      {
+        "numero": 11,
+        "titulo": "Ley Orgánica del sistema universitario: el estudiantado en el Sistema Universitario; personal docente e investigador de las universidades públicas; personal técnico, de gestión y de administración y servicios de las universidades públicas."
+      },
+      {
+        "numero": 12,
+        "titulo": "Estatutos de la Universidad de Zaragoza: disposiciones generales; la estructura de la Universidad; el Defensor Universitario; los servicios de asistencia a la comunidad universitaria."
+      },
+      {
+        "numero": 13,
+        "titulo": "Estatutos de la Universidad de Zaragoza: el gobierno y representación de la Universidad."
+      },
+      {
+        "numero": 14,
+        "titulo": "El Código Ético de la Universidad de Zaragoza. El plan antifraude de la Universidad de Zaragoza. Protocolo de actuación frente a conflictos de intereses detectados de la Universidad de Zaragoza."
+      },
+      {
+        "numero": 15,
+        "titulo": "El Pacto del personal funcionario de administración y servicios de la Universidad de Zaragoza: determinación de las partes que lo conciertan; condiciones de aplicación y vigencia; comisión de interpretación, vigilancia, estudio y aplicación del Pacto; organización y planificación del trabajo; ingreso y acceso a cuerpos y escalas de la Universidad; provisión de puestos de trabajo; formación y perfeccionamiento profesional; jornada y régimen de trabajo; vacaciones, permisos y licencias; situaciones administrativas. El Plan Concilia de la Universidad de Zaragoza."
+      },
+      {
+        "numero": 16,
+        "titulo": "El Pacto del personal funcionario de administración y servicios de la Universidad de Zaragoza: régimen disciplinario; salud laboral; retribuciones; acción social; derechos de representación colectiva y de reunión del PAS."
+      }
+    ]
+  },
+  {
+    "bloque": "Parte específica",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "Formas de reproducción de las plantas: la siembra, el trasplante, el estaquillado, el acodo, el injerto y la poda. Concepto de mejora vegetal: historia y objetivos."
+      },
+      {
+        "numero": 2,
+        "titulo": "Maquinaría y aperos agrícolas. Conocimientos básicos, manejo, conservación, regulación, cuidados y utilización. El taller agrícola. Herramientas, uso."
+      },
+      {
+        "numero": 3,
+        "titulo": "Fitopatología. Agentes parasitarios y no parasitarios de las plantas cultivadas. Plagas, enfermedades y malas hierbas. Medios de lucha: biológicos, mecánico-físicos, genéticos y productos químicos. Equipos de aplicación y sus regulaciones. Toxicidad de los plaguicidas."
+      },
+      {
+        "numero": 4,
+        "titulo": "Animales de experimentación: Definición, clasificación, características, uso en laboratorios de experimentación y para otros fines científicos. Parámetros biológicos de los animales de experimentación: elementos generales de fisiología y comportamiento; reproducción y cría."
+      },
+      {
+        "numero": 5,
+        "titulo": "Manipulación y mantenimiento de los animales I. Equipamiento general, habitáculos según especies. Tipos de barrera y zonas protegidas. Áreas especiales. Tipo y características de las instalaciones. Limpieza, desinfección, desinsectación y desratización."
+      },
+      {
+        "numero": 6,
+        "titulo": "Manipulación y mantenimiento de los animales II. Técnicas básicas de manejo, sujeción y manipulación. Higiene de los animales. Administración de sustancias."
+      },
+      {
+        "numero": 7,
+        "titulo": "Recepción de los animales. Alojamiento, cuarentena y transporte. Registro y métodos de identificación. Sacrificio de animales. Métodos anestésicos y eutanásicos. Eliminación de cadáveres."
+      },
+      {
+        "numero": 8,
+        "titulo": "Reconocimiento del estado de salud y enfermedad. Higiene y control de las enfermedades. Signos de estrés y signos externos de dolor y enfermedad."
+      },
+      {
+        "numero": 9,
+        "titulo": "Productos fitosanitarios. Clasificación toxicológica. Dosis y tratamiento. Equipos de protección. Normas a seguir para su manejo."
+      },
+      {
+        "numero": 10,
+        "titulo": "Operaciones analíticas básicas. Pesada. Disolución de sustancias sólidas. Disgregación de sustancias sólidas. Filtración. Centrifugado. Decantación. Calefacción. Evaporación. Secado. Incineración. Destilación y rectificación. Cristalización. Generación de gases."
+      },
+      {
+        "numero": 11,
+        "titulo": "Nutrición alimentación: sistemas de administración de alimentos. Tipos de alimentos según su valor nutricional. Generalidades sobre elaboración de piensos. Nutrición y alimentación de las distintas especies según su condición y estado reproductivo."
+      }
+    ]
+  }
+]
