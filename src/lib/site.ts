@@ -85,6 +85,7 @@ const ORGANISMOS: Record<string, { abreviado: string; conPreposicion: string; pr
   dpz: { abreviado: "DPZ", conPreposicion: "de la DPZ", preposicion: "de la" },
   "gobierno-aragon": { abreviado: "DGA", conPreposicion: "de la DGA", preposicion: "del" },
   "salud-aragon": { abreviado: "SALUD", conPreposicion: "del SALUD", preposicion: "del" },
+  "universidad-zaragoza": { abreviado: "Universidad de Zaragoza", conPreposicion: "de la Universidad de Zaragoza", preposicion: "de la" },
 };
 
 export function organismoAbreviado(organismoSlug: string, organismoCompleto: string): string {

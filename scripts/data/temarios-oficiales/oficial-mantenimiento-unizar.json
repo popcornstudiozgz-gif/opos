@@ -1,0 +1,144 @@
+[
+  {
+    "bloque": "Parte general",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "La Constitución Española."
+      },
+      {
+        "numero": 2,
+        "titulo": "Ley del procedimiento administrativo común de las Administraciones Públicas: disposiciones generales; los interesados en el procedimiento; la actividad de las Administraciones Pública; los actos administrativos."
+      },
+      {
+        "numero": 3,
+        "titulo": "Ley del procedimiento administrativo común de las Administraciones Públicas: la revisión de los actos en vía administrativa."
+      },
+      {
+        "numero": 4,
+        "titulo": "Ley del régimen jurídico del sector público: disposiciones generales; los órganos administrativos, competencia; funcionamiento de los órganos colegiados de las distintas administraciones públicas; abstención y recusación; funcionamiento electrónico del sector público."
+      },
+      {
+        "numero": 5,
+        "titulo": "Estatuto Básico del Empleado Público: clases de personal al servicio de las Administraciones Públicas; adquisición y pérdida de la relación de servicio."
+      },
+      {
+        "numero": 6,
+        "titulo": "Estatuto Básico del Empleado Público: derechos y deberes y código de conducta de los empleados públicos."
+      },
+      {
+        "numero": 7,
+        "titulo": "Estatuto Básico del Empleado Público: ordenación de la actividad profesional; situaciones administrativas; régimen disciplinario."
+      },
+      {
+        "numero": 8,
+        "titulo": "Ley de prevención de riesgos laborales: objeto, ámbito de aplicación y definiciones; derecho a la protección frente a los riesgos laborales; medidas de emergencia; obligaciones de los trabajadores en materia de prevención de riesgos; consulta y participación de los trabajadores. Reglamento general de protección de datos: definiciones y principios relativos al tratamiento. La política de seguridad de la información y protección de datos personales de la Universidad."
+      },
+      {
+        "numero": 9,
+        "titulo": "Ley Orgánica para la igualdad efectiva de mujeres y hombres: objeto y ámbito de la Ley; el principio de igualdad y la tutela contra la discriminación; el derecho al trabajo en igualdad de oportunidades; criterios de actuación de las Administraciones Públicas."
+      },
+      {
+        "numero": 10,
+        "titulo": "Ley Orgánica del sistema universitario: funciones del sistema universitario y autonomía de las universidades; creación y reconocimiento de las universidades y calidad del sistema universitario; organización de enseñanzas."
+      },
+      {
+        "numero": 11,
+        "titulo": "Ley Orgánica del sistema universitario: el estudiantado en el Sistema Universitario; personal docente e investigador de las universidades públicas; personal técnico, de gestión y de administración y servicios de las universidades públicas."
+      },
+      {
+        "numero": 12,
+        "titulo": "Estatutos de la Universidad de Zaragoza: disposiciones generales; la estructura de la Universidad; el Defensor Universitario; los servicios de asistencia a la comunidad universitaria."
+      },
+      {
+        "numero": 13,
+        "titulo": "Estatutos de la Universidad de Zaragoza: el gobierno y representación de la Universidad."
+      },
+      {
+        "numero": 14,
+        "titulo": "El Código Ético de la Universidad de Zaragoza. El plan antifraude de la Universidad de Zaragoza. Protocolo de actuación frente a conflictos de intereses detectados de la Universidad de Zaragoza."
+      },
+      {
+        "numero": 15,
+        "titulo": "El Pacto del personal funcionario de administración y servicios de la Universidad de Zaragoza: determinación de las partes que lo conciertan; condiciones de aplicación y vigencia; comisión de interpretación, vigilancia, estudio y aplicación del Pacto; organización y planificación del trabajo; ingreso y acceso a cuerpos y escalas de la Universidad; provisión de puestos de trabajo; formación y perfeccionamiento profesional; jornada y régimen de trabajo; vacaciones, permisos y licencias; situaciones administrativas. El Plan Concilia de la Universidad de Zaragoza."
+      },
+      {
+        "numero": 16,
+        "titulo": "El Pacto del personal funcionario de administración y servicios de la Universidad de Zaragoza: régimen disciplinario; salud laboral; retribuciones; acción social; derechos de representación colectiva y de reunión del PAS."
+      }
+    ]
+  },
+  {
+    "bloque": "Parte específica",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "Habilidades de mecanizado en instalaciones. Taladrado, corte, doblado, atornillado, remachado, roscado, ensamblado, pegado, limado y serrado."
+      },
+      {
+        "numero": 2,
+        "titulo": "Albañilería. Trabajos de albañilería, mantenimiento y reparación en edificios."
+      },
+      {
+        "numero": 3,
+        "titulo": "Electricidad, instalaciones baja tensión. Instalaciones en edificios, reparación de averías y mantenimiento."
+      },
+      {
+        "numero": 4,
+        "titulo": "Automatismos eléctricos. Arranques de motores. Elementos de mando y maniobra. Simbología."
+      },
+      {
+        "numero": 5,
+        "titulo": "Fontanería y saneamiento. Instalación, reparación y mantenimiento de la red de distribución de agua sanitaria en los edificios."
+      },
+      {
+        "numero": 6,
+        "titulo": "Métodos de producción de agua caliente sanitaria. Instalación. Control de la legionelosis."
+      },
+      {
+        "numero": 7,
+        "titulo": "Grifería. Llaves de paso. Reparaciones de grifos. Válvula de compuerta. Válvula de mariposa. Válvula de asiento paralelo. Válvula de asiento inclinado. Válvula de control y regulación. Válvula de seguridad. Válvula de retención. Válvula antiarietes."
+      },
+      {
+        "numero": 8,
+        "titulo": "Aparatos sanitarios: fregaderos, lavabos, bidés, inodoros y lavaojos. Fluxómetros. Instalación, reparación de averías y mantenimiento."
+      },
+      {
+        "numero": 9,
+        "titulo": "Red de evacuación y desagües. Instalación, reparación y mantenimiento."
+      },
+      {
+        "numero": 10,
+        "titulo": "Carpintería y cerrajería. Reparaciones de carpintería y cerrajería."
+      },
+      {
+        "numero": 11,
+        "titulo": "Cerraduras. Preparación, cajeado, montaje y mantenimiento."
+      },
+      {
+        "numero": 12,
+        "titulo": "Bombillos, muelles y retenedores. Tipologías diversas. Funcionamiento y uso."
+      },
+      {
+        "numero": 13,
+        "titulo": "Pintura. Herramientas y tipos de pintura; técnicas de pintura. Principales reparaciones de pintura. Disolventes y diluyentes"
+      },
+      {
+        "numero": 14,
+        "titulo": "Calefacción. Elementos de una instalación. Mantenimiento y averías en el sistema de calefacción."
+      },
+      {
+        "numero": 15,
+        "titulo": "Climatización. Instalaciones térmicas en edificios. reparación de averías en máquinas y mantenimiento."
+      },
+      {
+        "numero": 16,
+        "titulo": "Interpretar planos y esquemas de instalaciones, de acuerdo con las características funcionales de las infraestructuras."
+      },
+      {
+        "numero": 17,
+        "titulo": "Sistemas de Gestión de Mantenimiento asistido por ordenador: GMAO. Manejo de módulos de gestión y explotación."
+      }
+    ]
+  }
+]

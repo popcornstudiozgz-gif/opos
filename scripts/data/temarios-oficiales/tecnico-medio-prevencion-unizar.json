@@ -1,0 +1,224 @@
+[
+  {
+    "bloque": "Parte general",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "La Constitución Española."
+      },
+      {
+        "numero": 2,
+        "titulo": "Ley del Procedimiento Administrativo Común de las Administraciones Públicas: disposiciones generales; los interesados en el procedimiento; la actividad de las Administraciones Públicas; los actos administrativos; las disposiciones sobre el procedimiento administrativo común."
+      },
+      {
+        "numero": 3,
+        "titulo": "Ley del Procedimiento Administrativo Común de las Administraciones Públicas: la tramitación simplificada del procedimiento administrativo común; ejecución; la revisión de los actos en vía administrativa; la iniciativa legislativa y la potestad para dictar reglamentos y otras disposiciones."
+      },
+      {
+        "numero": 4,
+        "titulo": "Ley del Régimen Jurídico del Sector Público: disposiciones generales; los órganos administrativos, competencia; funcionamiento de los órganos colegiados de las distintas administraciones públicas; abstención y recusación; principios de la potestad sancionadora; la responsabilidad patrimonial de las Administraciones Públicas; funcionamiento electrónico del sector público; los convenios."
+      },
+      {
+        "numero": 5,
+        "titulo": "Estatuto Básico del Empleado Público: objeto y ámbito de aplicación; personal al servicio de las Administraciones Públicas; derechos y deberes y código de conducta de los empleados públicos."
+      },
+      {
+        "numero": 6,
+        "titulo": "Estatuto Básico del Empleado Público: adquisición y pérdida de la relación de servicio; ordenación de la actividad profesional; situaciones administrativas; régimen disciplinario; cooperación entre las Administraciones Públicas."
+      },
+      {
+        "numero": 7,
+        "titulo": "Reglamento general de protección de datos: definiciones y principios relativos al tratamiento. La política de seguridad de la información y protección de datos personales de la Universidad."
+      },
+      {
+        "numero": 8,
+        "titulo": "Ley Orgánica para la igualdad efectiva de mujeres y hombres: objeto y ámbito de la Ley; el principio de igualdad y la tutela contra la discriminación; el derecho al trabajo en igualdad de oportunidades; criterios de actuación de las Administraciones Públicas."
+      },
+      {
+        "numero": 9,
+        "titulo": "Ley de incompatibilidades del personal al servicio de las Administraciones Públicas."
+      },
+      {
+        "numero": 10,
+        "titulo": "Estatutos de la Universidad de Zaragoza: disposiciones generales; la estructura de la Universidad; el gobierno y representación de la Universidad; el Defensor Universitario; la docencia e investigación; la comunidad universitaria; los servicios de asistencia a la comunidad universitaria; régimen económico, financiero y patrimonial; la reforma de los Estatutos."
+      },
+      {
+        "numero": 11,
+        "titulo": "Ley de contratos del sector público: pliego de prescripciones técnicas particulares; definición de determinadas prescripciones técnicas; reglas para el establecimiento de prescripciones técnicas; etiquetas; informes de pruebas, certificación y otros medios de prueba."
+      },
+      {
+        "numero": 12,
+        "titulo": "El código ético de la Universidad de Zaragoza. El plan antifraude de la Universidad de Zaragoza. Protocolo de actuación frente a conflictos de intereses detectados de la Universidad de Zaragoza."
+      },
+      {
+        "numero": 13,
+        "titulo": "Bases de elaboración y ejecución del Presupuesto de la Universidad de Zaragoza. Régimen económico y financiera de las universidades públicas en la Ley Orgánica del Sistema Universitario."
+      },
+      {
+        "numero": 14,
+        "titulo": "El Pacto del personal funcionario de administración y servicios de la Universidad de Zaragoza. El Plan Concilia de la Universidad de Zaragoza."
+      }
+    ]
+  },
+  {
+    "bloque": "Parte específica",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "Ley de Prevención de Riesgos Laborales: Ámbito de aplicación. Principios de la acción preventiva. Derechos y obligaciones. Servicios de prevención. Consulta y participación de los trabajadores."
+      },
+      {
+        "numero": 2,
+        "titulo": "Reglamento de los Servicios de Prevención: La integración de la actividad preventiva. Plan de prevención. La evaluación de riesgos y planificación de la prevención. Características y funciones de los servicios de prevención. La organización de recursos para las actividades preventivas. Presencia de recurso preventivo. Funciones y niveles de cualificación. Los servicios de prevención ajenos a las empresas. Auditorías."
+      },
+      {
+        "numero": 3,
+        "titulo": "Coordinación de actividades empresariales: Prevención de Riesgos Laborales en materia de coordinación de actividades empresariales. Concurrencia de trabajadores de varias empresas en un centro de trabajo del que un empresario es titular. Concurrencia de trabajadores de varias empresas en un centro de trabajo cuando existe un empresario principal. Medios de coordinación."
+      },
+      {
+        "numero": 4,
+        "titulo": "El accidente de trabajo y la enfermedad profesional en el sistema de la Seguridad Social. La investigación de accidentes: concepto y objetivos. Metodología general de la investigación. El estudio de las causas. El informe. El análisis estadístico de los accidentes. Índices estadísticos."
+      },
+      {
+        "numero": 5,
+        "titulo": "Trabajadores especialmente sensibles. Cambios de puesto de trabajo o adaptaciones por motivos de salud. Protección de la maternidad: Riesgos laborales específicos para la mujer trabajadora en el período de embarazo, postparto y lactancia. Medidas preventivas frente a los riesgos específicos. Seguridad en el trabajo."
+      },
+      {
+        "numero": 6,
+        "titulo": "Prevención de riesgos en los lugares de trabajo: disposiciones mínimas de seguridad y salud en los lugares de trabajo. Obligaciones del empresario.Condiciones generales de seguridad en los lugares de trabajo. Orden, limpieza y mantenimiento. Condiciones ambientales de los lugares de trabajo. Iluminación de los lugares de trabajo. Servicios higiénicos y locales de descanso. Material y locales de primeros auxilios. Código técnico de Edificación: documento básico de usabilidad y accesibilidad: CTE-DB-SUA. Seguridad frente al riesgo de caídas. Accesibilidad."
+      },
+      {
+        "numero": 7,
+        "titulo": "Señalización de seguridad y salud en el trabajo: disposiciones mínimas en materia de señalización de seguridad y salud en el trabajo."
+      },
+      {
+        "numero": 8,
+        "titulo": "Equipos de protección individual: disposiciones mínimas de seguridad y salud relativas a la utilización por los trabajadores de equipos de protección individual. Conformidad de los EPIs. Categorías de riesgos con respecto a los EPIs. Requisitos esenciales de salud y seguridad."
+      },
+      {
+        "numero": 9,
+        "titulo": "Seguridad y salud en las obras de construcción: Disposiciones específicas de seguridad y salud durante las fases de proyecto y ejecución de las obras. Relación no exhaustiva de los trabajos que implican riesgos especiales para la seguridad y la salud de los trabajadores. Disposiciones mínimas de seguridad y de salud que deberán aplicarse en las obras. Trabajos en alturas, riesgos, medidas preventivas y equipos de protección. Sistemas anticaídas: componentes y elementos; Dispositivos de anclaje C."
+      },
+      {
+        "numero": 10,
+        "titulo": "Prevención de riesgos eléctricos: disposiciones mínimas para la protección de los trabajadores frente al riesgo eléctrico. Técnicas y procedimientos de trabajo. Trabajos sin tensión. Trabajos en tensión. Factores de riesgo. Sistemas de protección contra contactos eléctricos en baja tensión. Reglamento electrotécnico para baja tensión REBT: ITC-BT-28 Instalaciones en locales de pública concurrencia: alumbrado de emergencia."
+      },
+      {
+        "numero": 11,
+        "titulo": "Prevención de riesgos derivados del trabajo en espacios confinados: concepto, riesgos, medidas preventivas y procedimiento de trabajo. Nota Técnica de Prevención NTP 223: Trabajos en espacios confinados."
+      },
+      {
+        "numero": 12,
+        "titulo": "Prevención de riesgos derivados de la utilización de equipos de trabajo: disposiciones mínimas de seguridad y salud para la utilización por los trabajadores de los equipos de trabajo. Normas para la comercialización y puesta en servicio de máquinas: Requisitos esenciales de seguridad y salud. Comercialización y puesta en servicio. Evaluación de la conformidad y marcado CE. Requisitos esenciales de salud y seguridad relativos al diseño y la fabricación de las máquinas o los productos relacionados. Máquinas: diseño de las partes de los sistemas de mando relativas a la seguridad."
+      },
+      {
+        "numero": 13,
+        "titulo": "Prevención de riesgos derivados del uso de equipos a presión: Reglamento de equipos a presión. Inspecciones periódicas, reparaciones y modificaciones. Inspecciones periódicas. Calderas."
+      },
+      {
+        "numero": 14,
+        "titulo": "Prevención de riesgos derivados de la exposición a atmósferas explosivas."
+      },
+      {
+        "numero": 15,
+        "titulo": "Requisitos esenciales de salud y seguridad exigibles a los aparatos y sistemas de protección para su uso en atmósferas potencialmente explosivas. Criterios que determinan la clasificación de los grupos de aparatos en categorías."
+      },
+      {
+        "numero": 16,
+        "titulo": "Prevención de riesgos relacionados con el uso de agentes químicos en el trabajo: protección de la salud y seguridad de los trabajadores contra los riesgos relacionados con los agentes químicos durante el trabajo. Obligaciones del empresario. Reglamento sobre notificación de sustancias nuevas y clasificación, envasado y etiquetado de sustancias peligrosas. Envasado, etiquetado y ficha de datos de seguridad. Registro, la evaluación, la autorización y la restricción de las sustancias y preparados químicos (REACH). Ficha de datos de seguridad. Reglamento de Almacenamiento de Productos Químicos: Plan de autoprotección. Almacenamiento de líquidos inflamables y combustibles en recipientes fijos. Almacenamiento de gases en recipientes a presión móviles. Almacenamiento en recipientes móviles. Emergencias."
+      },
+      {
+        "numero": 17,
+        "titulo": "Prevención y protección contra riesgo de incendios: Conceptos básicos sobre causas y propagación de los incendios. Principios generales de prevención y protección. Nuevas tecnologías con riesgo de incendio: baterías de litio y placas fotovoltaicas. Código técnico de Edificación: documento básico de seguridad en caso de incendio: Propagación interior. Evacuación de ocupantes. Instalaciones de protección contra incendios. Terminología. Cálculos de aforo."
+      },
+      {
+        "numero": 18,
+        "titulo": "Reglamento de instalaciones de protección contra incendios: Inspecciones periódicas de Instalaciones de protección contra incendios. Características e instalación de los equipos y sistemas de protección contra incendios. Señalización. Mantenimiento mínimo de las instalaciones de protección contra incendios."
+      },
+      {
+        "numero": 19,
+        "titulo": "Actuaciones ante una situación de emergencia: Norma Básica de Autoprotección de los centros, establecimientos y dependencias dedicados a actividades que puedan dar origen a situaciones de emergencia: Ámbito de aplicación; Plan de autoprotección: elaboración y registro. Contenido mínimo del plan de autoprotección."
+      },
+      {
+        "numero": 20,
+        "titulo": "Planes de emergencia y evacuación en la Universidad de Zaragoza: Procedimiento de gestión de emergencias en la Universidad de Zaragoza. Tipos de emergencia. Organización de los medios humanos. Actuación en caso de emergencia. Puntos de reunión. Emergencias climatológicas."
+      },
+      {
+        "numero": 21,
+        "titulo": "Primeros auxilios: RCP básica. Uso Desfibriladores automáticos o semiautomáticos. Higiene industrial."
+      },
+      {
+        "numero": 22,
+        "titulo": "Higiene Industrial: Conceptos básicos. Definición, objetivos y ramas. Tipos devagentes."
+      },
+      {
+        "numero": 23,
+        "titulo": "Prevención de riesgos por exposición a agentes químicos: Clasificación de los agentes químicos según su estado y forma. Vías de entrada en el organismo. Daños derivados de su exposición. Factores determinantes de la toxicidad. Efectos aditivos y sinérgicos. Concepto de exposición, dosis y valor límite. Valoración del riesgo de exposición: criterios, valores límites ambientales y biológicos. Medidas preventivas colectivas y personales. Vitrinas de gases. Requisitos de la UNE-EN 14175-2. Estrategia de muestreo. Sistemas de medida y de toma de muestras. Riesgos nanotecnología. Evaluación y métodos cuantitativos y cualitativos. Nanomateriales: Medidas preventivas en laboratorios de investigación."
+      },
+      {
+        "numero": 24,
+        "titulo": "Prevención de riesgos por exposición a agentes cancerígenos, mutagénicos y reprotóxicos: Daños derivados de su exposición. Efectos estocásticos y no estocásticos. Obligaciones del empresario. Definiciones. Anexo I Lista de sustancias, mezclas y procedimientos. Medicamentos peligrosos. Medidas de prevención y gestión del riesgo. Exposición laboral a medicamentos peligrosos: sistemas seguros para su preparación."
+      },
+      {
+        "numero": 25,
+        "titulo": "Prevención de riesgos por exposición al ruido: Características físicas del ruido. Tipos de ruido laboral. Parámetros de medida. Daños derivados de la exposición. Evaluación del riesgo por exposición al ruido. Límites de exposición. Medidas preventivas. Equipos de medición. Protección de la salud de los trabajadores contra los riesgos relacionados con la exposición al ruido."
+      },
+      {
+        "numero": 26,
+        "titulo": "Prevención de riesgos por exposición a vibraciones: Evaluación del riesgo. Daños derivados de la exposición. Límites de exposición. Medidas preventivas. Equipos de medición. Protección de la salud y la seguridad de los trabajadores frente a los riesgos derivados o que puedan derivarse de la exposición a vibraciones mecánicas."
+      },
+      {
+        "numero": 27,
+        "titulo": "Prevención de riesgos por exposición a radiaciones ionizantes: Concepto y tipos de radiaciones ionizantes. Daños derivados de su exposición. Valores límites y niveles de acción. Medidas preventivas. Conceptos básicos de protección radiológica. Reglamento sobre protección de la salud contra los riesgos derivados de la exposición a las radiaciones ionizantes. Situaciones de exposición planificada, Principios fundamentales de protección ocupacional de los trabajadores expuestos, personas en formación y estudiantes. Situaciones de exposición existente. Señalización de zonas. Reglamento sobre instalaciones nucleares y radiactivas, y otras actividades relacionadas con la exposición a las radiaciones ionizantes: De las actividades laborales con especial exposición a la radiación natural, Exposición al radón en los lugares de trabajo. Salubridad Protección frente a la exposición al radón."
+      },
+      {
+        "numero": 28,
+        "titulo": "Prevención de riesgos por exposición a radiaciones no ionizantes: Tipos de radiaciones. Daños derivados de su exposición. Evaluación de riesgos. Valores límites y niveles de acción. Medidas preventivas. La protección de la salud y la seguridad de los trabajadores contra los riesgos relacionados con la exposición a campos electromagnéticos. La protección de la salud y la seguridad de los trabajadores contra los riesgos relacionados con la exposición a radiaciones ópticas artificiales y guía Técnica del Instituto Nacional de Seguridad y Salud en el Trabajo."
+      },
+      {
+        "numero": 29,
+        "titulo": "Prevención de riesgos por exposición a agentes biológicos: Conceptos y definición. Vías de entrada en el organismo. Daños derivados de su exposición. Clasificación por grupos según el riesgo que presentan. Disposiciones generales. Obligaciones del empresario. Medidas especiales aplicables a los procedimientos industriales, a los laboratorios y a los locales para animales. Indicaciones relativas a las medidas de contención y a los niveles de contención. Régimen jurídico de la utilización confinada, liberación voluntaria y comercialización de organismos modificados genéticamente. Régimen jurídico de la utilización confinada, liberación voluntaria con fines distintos a su comercialización y comercialización de organismos modificados genéticamente. Utilización confinada de organismos modificados genéticamente. Biocontención y Biocustodia. Puntos críticos en instalaciones biocontenidas. Validación de espacios y equipos biocontenidos. Enfermedades emergentes transmitidas por vectores. Ergonomía."
+      },
+      {
+        "numero": 30,
+        "titulo": "Ergonomía: concepto y objetivos. El ser humano y su entorno. Ergonomía en el proyecto. Concepción y diseño de puestos de trabajo."
+      },
+      {
+        "numero": 31,
+        "titulo": "Ambiente térmico: Ecuación del balance térmico. mecaismos de termorregulación y de intercambio de calor entre el organismo y el ambiente. Efectos del calor y el frío sobre el organismo. Métodos de valoración: índice WBGT. índice de sobrecarga térmica. Principales medidas preventivas."
+      },
+      {
+        "numero": 32,
+        "titulo": "Iluminación en el puesto de trabajo: magnitudes lumínicas, niveles de iluminación, luminancias y deslumbramientos, criterios de iluminación interior."
+      },
+      {
+        "numero": 33,
+        "titulo": "Prevención de riesgos en la manipulación manual de cargas: Disposiciones mínimas de seguridad y salud relativas a la manipulación manual de cargas que entrañe riesgos, en particular dorso lumbares, para los trabajadores y la guía técnica del Instituto Nacional de Seguridad e Salud en el Trabajo."
+      },
+      {
+        "numero": 34,
+        "titulo": "Prevención de riesgos en el uso de pantalla de visualización de datos: disposiciones mínimas de seguridad y salud relativas al trabajo con equipos que incluyen pantallas de visualización. Iluminación en el puesto de trabajo. Psicosociología Aplicada."
+      },
+      {
+        "numero": 35,
+        "titulo": "Prevención de riesgos psicosociales derivados del trabajo: Concepto de riesgos psicosociales. Factores de riesgo. Daños derivados de los riesgos psicosociales. Métodos de evaluación. Acoso psicológico en el trabajo. Medidas preventivas del riesgo. Intervención psicosocial. El estrés: Sus formas. Consecuencias físicas, fisiológicas y psicológicas del estrés. Técnicas de control del estrés. Sistemas de gestión de la Prevención de riesgos laborales, Calidad y Medio Ambiente."
+      },
+      {
+        "numero": 36,
+        "titulo": "Sistemas de gestión de la prevención: ISO 45001 y OHSAS 18001. Procesos/ Procedimientos. Su integración con otras normas de calidad y medio ambiente."
+      },
+      {
+        "numero": 37,
+        "titulo": "El Sistema de gestión interna de la calidad en los servicios de la Universidad de Zaragoza: Plan de actuación y mejoras, Carta de servicios, mapa de procesos, indicadores de calidad, informes de seguimiento. Herramientas informáticas aplicadas a la Gestión de la prevención."
+      },
+      {
+        "numero": 38,
+        "titulo": "Diseño Asistido por Ordenador (CAD 2021): Principios y fundamentos del diseño gráfico asistido por ordenador. Trazado e interpretación de dibujos técnicos 2D: Técnicas para el trazado y lectura de planos técnicos en 2D. Normas y convenciones para la representación gráfica de espacios, instalaciones y equipos. Uso de software CAD para la creación de planos de autoprotección."
+      },
+      {
+        "numero": 39,
+        "titulo": "La informática aplicada a la prevención de riesgos laborales: Introducción a la informática como herramienta de apoyo en la gestión de la prevención. Aplicaciones informáticas generales a nivel de usuario: Procesadores de texto, Hojas de cálculo, Bases de datos, páginas web, plataformas corporativas de coordinación de actividades empresariales. Correo electrónico."
+      }
+    ]
+  }
+]

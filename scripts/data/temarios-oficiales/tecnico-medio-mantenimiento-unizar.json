@@ -1,0 +1,332 @@
+[
+  {
+    "bloque": "Parte general",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "La Constitución Española."
+      },
+      {
+        "numero": 2,
+        "titulo": "Ley del Procedimiento Administrativo Común de las Administraciones Públicas: disposiciones generales; los interesados en el procedimiento; la actividad de las Administraciones Pública; los actos administrativos; las disposiciones sobre el procedimiento administrativo común."
+      },
+      {
+        "numero": 3,
+        "titulo": "Ley del Procedimiento Administrativo Común de las Administraciones Públicas: la tramitación simplificada del procedimiento administrativo común; ejecución; la revisión de los actos en vía administrativa; la iniciativa legislativa y la potestad para dictar reglamentos y otras disposiciones."
+      },
+      {
+        "numero": 4,
+        "titulo": "Ley de réGimen Jurídico del Sector Público: disposiciones generales; los órganos administrativos, competencia; funcionamiento de los órganos colegiados de las distintas administraciones públicas; abstención y recusación; principios de la potestad sancionadora; la responsabilidad patrimonial de las Administraciones Públicas; funcionamiento electrónico del sector público; los convenios."
+      },
+      {
+        "numero": 5,
+        "titulo": "Estatuto Básico del Empleado Público: objeto y ámbito de aplicación; personal al servicio de las Administraciones Públicas; derechos y deberes y código de conducta de los empleados públicos."
+      },
+      {
+        "numero": 6,
+        "titulo": "Estatuto Básico del Empleado Público: adquisición y pérdida de la relación de servicio; ordenación de la actividad profesional; situaciones administrativas; régimen disciplinario; cooperación entre las Administraciones Públicas."
+      },
+      {
+        "numero": 7,
+        "titulo": "Reglamento general de protección de datos: definiciones y principios relativos al tratamiento. La política de seguridad de la información y protección de datos personales de la Universidad."
+      },
+      {
+        "numero": 8,
+        "titulo": "Ley Orgánica para la igualdad efectiva de mujeres y hombres: objeto y ámbito de la Ley; el principio de igualdad y la tutela contra la discriminación; el derecho al trabajo en igualdad de oportunidades; criterios de actuación de las Administraciones Públicas."
+      },
+      {
+        "numero": 9,
+        "titulo": "Ley de Incompatibilidades del personal al servicio de las administraciones públicas."
+      },
+      {
+        "numero": 10,
+        "titulo": "Estatutos de la Universidad de Zaragoza: disposiciones generales; la estructura de la Universidad; el gobierno y representación de la Universidad; el Defensor Universitario; la docencia e investigación; la comunidad universitaria; los servicios de asistencia a la comunidad universitaria; régimen económico, financiero y patrimonial; la reforma de los Estatutos."
+      },
+      {
+        "numero": 11,
+        "titulo": "Ley de contratos del sector público: pliego de prescripciones técnicas particulares; definición de determinadas prescripciones técnicas; reglas para el establecimiento de prescripciones técnicas; etiquetas; informes de pruebas, certificación y otros medios de prueba."
+      },
+      {
+        "numero": 12,
+        "titulo": "El código Ético de la Universidad de Zaragoza. El plan antifraude de la Universidad de Zaragoza. Protocolo de actuación frente a conflictos de intereses detectados de la Universidad de Zaragoza."
+      },
+      {
+        "numero": 13,
+        "titulo": "Bases de elaboración y ejecución del Presupuesto de la Universidad de Zaragoza. Régimen económico y financiera de las universidades públicas en la Ley Orgánica del Sistema Universitario."
+      },
+      {
+        "numero": 14,
+        "titulo": "El Pacto del personal funcionario de administración y servicios de la Universidad de Zaragoza. El Plan Concilia de la Universidad de Zaragoza."
+      }
+    ]
+  },
+  {
+    "bloque": "Parte específica: elementos generales del mantenimiento",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "Generalidades del mantenimiento de instalaciones. Objetivos y funciones del mantenimiento. Definiciones y terminología básica. Mantenimiento basado en la fiabilidad (RCM). Mantenimiento contratado y legal reglamentario. Auditoría del mantenimiento y gestión de activos según ISO 55000."
+      },
+      {
+        "numero": 2,
+        "titulo": "Tipos de mantenimiento y su aplicación. Fiabilidad y eficiencia. Tipos de mantenimiento: preventivo, correctivo, predictivo y de mejora. Mantenimiento productivo total (TPM). Fases de una intervención de mantenimiento. Aplicación en distintos tipos de instalaciones."
+      },
+      {
+        "numero": 3,
+        "titulo": "Normativa y gestión de calidad en el mantenimiento. Normativa general y normalización técnica. Gestión de la calidad en el mantenimiento: sistemas y herramientas para su aseguramiento. Indicadores de rendimiento y mejora continua."
+      },
+      {
+        "numero": 4,
+        "titulo": "Gestión de equipos de mantenimiento. Planificación y ejecución de actividades de mantenimiento. Asignación de tareas, supervisión y control de desempeño. Creación e integración de equipos de trabajo eficientes. Técnicas de motivación para la productividad. Control y evaluación del rendimiento."
+      },
+      {
+        "numero": 5,
+        "titulo": "Instalaciones eléctricas de baja tensión. Cálculo, diseño y verificación de instalaciones eléctricas en baja tensión. Protecciones eléctricas: interruptores, conmutadores, relés, contactores, temporizadores y fusibles. Medida de parámetros eléctricos: equipos y técnicas. Inspecciones y operaciones de mantenimiento."
+      },
+      {
+        "numero": 6,
+        "titulo": "Sistema de puesta a tierra y protección eléctrica. Resistividad del terreno: definición y medición. Sistemas normalizados de conexión a tierra. Protección contra contactos indirectos y sobreintensidades."
+      },
+      {
+        "numero": 7,
+        "titulo": "Motores eléctricos y automatización. Conexionado, ensayos y control de velocidad en motores eléctricos. Sistemas de alimentación ininterrumpida. Automatización y control en instalaciones eléctricas. Armónicos en redes de baja tensión: medición, control y eliminación. Inspecciones y operaciones de mantenimiento."
+      },
+      {
+        "numero": 8,
+        "titulo": "Instalaciones eléctricas de media tensión. Líneas de transporte en media tensión. Centros de transformación y sus componentes. Protecciones contra sobreintensidades y cortocircuitos. Inspecciones y operaciones de mantenimiento en media tensión."
+      },
+      {
+        "numero": 9,
+        "titulo": "Distribución y alumbrado eléctrico. Redes aéreas y subterráneas de baja tensión. Instalaciones de alumbrado público y de emergencia. Iluminación interior. Eficiencia energética en alumbrado. Sistemas de control de iluminación y criterios de diseño. Instalaciones de energía solar fotovoltaica y pararrayos."
+      },
+      {
+        "numero": 10,
+        "titulo": "Mantenimiento de máquinas eléctricas (I): Motores eléctricos. Motores de corriente continua y alterna: tipos, características y selección de sistemas de arranque y control. Sistemas electrónicos de variación de velocidad. Dispositivos de protección y tipos de conexiones."
+      },
+      {
+        "numero": 11,
+        "titulo": "Mantenimiento de máquinas eléctricas (II): Transformadores. Transformadores monofásicos y trifásicos: características y funcionamiento. Tipos de conexiones y acoplamiento en paralelo. Inspección y mantenimiento en centros de transformación."
+      },
+      {
+        "numero": 12,
+        "titulo": "Mantenimiento de máquinas eléctricas (III): Grupos electrógenos. Arranque y parada de grupos electrógenos. Protección del grupo: alarmas y medidas eléctricas. Operaciones de mantenimiento en grupos electrógenos."
+      },
+      {
+        "numero": 13,
+        "titulo": "Instalaciones de climatización y ventilación. Partes y elementos de instalaciones de climatización y ventilación. Selección de sistemas, enfriadoras, bombas de calor, climatizadoras y unidades terminales. Distribución del aire y equipos de regulación. Diagnóstico de averías. Recuperación de energía y eficiencia energética."
+      },
+      {
+        "numero": 14,
+        "titulo": "Instalaciones de calefacción y producción de ACS. Elementos de instalaciones de producción de calor: calderas, quemadores, intercambiadores y depósitos acumuladores.Sistemas de control y regulación. Tratamiento de emisiones y eficiencia energética. Inspecciones y mantenimiento."
+      },
+      {
+        "numero": 15,
+        "titulo": "Instalaciones de agua. Suministro, almacenamiento y distribución de agua. Tuberías, válvulas, grifería sanitaria, contadores y bombas. Tratamientos del agua: filtración, descalcificación y ósmosis inversa. Sistemas de evacuación y saneamiento."
+      },
+      {
+        "numero": 16,
+        "titulo": "Instalaciones de suministro de gases. Instalaciones de almacenamiento de combustibles líquidos y gaseosos. Depósitos aéreos y enterrados. Seguridad en descargas. Sistemas de seguridad y mantenimiento de recipientes a presión. Inspecciones y pruebas."
+      },
+      {
+        "numero": 17,
+        "titulo": "Instalaciones de aparatos elevadores. Ascensores y montacargas: dispositivos de funcionamiento, seguridad y pruebas. Conservación y mantenimiento preventivo. Normativa técnica y legal. Inspecciones periódicas."
+      },
+      {
+        "numero": 18,
+        "titulo": "Organización de obras de edificación y construcción. Planificación de trabajos y procesos constructivos. Herramientas de planificación (PERT, GANTT). Criterios de medición y valoración de obras. Presupuesto y control de costes."
+      },
+      {
+        "numero": 19,
+        "titulo": "Mantenimiento de infraestructuras civiles en urbanizaciones. Características constructivas y tipos de infraestructuras en urbanizaciones. Mantenimiento de pavimentos, aceras, vías peatonales, y mobiliario urbano. Sistemas de drenaje y control de aguas pluviales. Control de erosión y protección del suelo. Técnicas de conservación y reparación de pavimentos y estructuras. Normativa y directrices para el mantenimiento de obras civiles en urbanizaciones."
+      },
+      {
+        "numero": 20,
+        "titulo": "Instalaciones generales en urbanizaciones. Mantenimiento de redes generales de abastecimiento de agua potable y saneamiento. Redes de distribución eléctrica y telecomunicaciones. Infraestructuras de gas y combustibles. Instalaciones de alumbrado público, señalización y control de tráfico. Sistemas de seguridad y control en urbanizaciones. Inspecciones periódicas, operaciones de mantenimiento y criterios de eficiencia y sostenibilidad en infraestructuras urbanas."
+      }
+    ]
+  },
+  {
+    "bloque": "Parte específica: normativa técnica aplicable",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "Reglamento Electrotécnico para Baja Tensión e Instrucciones Técnicas Complementarias. Guía Técnica de Aplicación (Real Decreto 842/2002, de 2 de agosto, Real Decreto 1053/2014, de 12 de diciembre, Real Decreto 542/2020, de 26 de mayo y Real Decreto 298/2021, de 27 de abril)."
+      },
+      {
+        "numero": 2,
+        "titulo": "Reglamento sobre condiciones técnicas y garantías de seguridad en instalaciones eléctricas de alta tensión y sus instrucciones técnicas complementarias \"MIE-RAT\" (Real Decreto 337-2014, de 9 de mayo)."
+      },
+      {
+        "numero": 3,
+        "titulo": "Reglamento de Instalaciones Térmicas en los Edificios e Instrucciones Técnicas Complementarias (Real Decreto 1027/2007, de 20 de julio, Real Decreto 178/2021, de 23 de marzo)."
+      },
+      {
+        "numero": 4,
+        "titulo": "Reglamento de seguridad para instalaciones frigoríficas y sus instrucciones técnicas complementarias (Real Decreto 552/2019, de 27 de septiembre)."
+      },
+      {
+        "numero": 5,
+        "titulo": "Reglamento de Aparatos de Elevación y Manutención de los mismos, ITCAEM-01 – Ascensores (Real Decreto 355/2024, de 2 de abril)."
+      },
+      {
+        "numero": 6,
+        "titulo": "Reglamento de equipos a presión y sus instrucciones técnicas complementarias (Real Decreto 809/2021, de 21 de septiembre)."
+      },
+      {
+        "numero": 7,
+        "titulo": "Disposiciones mínimas en materia de señalización y salud en el trabajo (Real Decreto 485/1997, de 14 de abril, y sus modificaciones posteriores). Disposiciones mínimas de seguridad y salud en los lugares de trabajo (Real Decreto 486/1997, de 14 de abril)."
+      },
+      {
+        "numero": 8,
+        "titulo": "Criterios higiénico-sanitarios para la prevención y control de la legionelosis (Real Decreto 487/2022, de 21 de junio) (Modificaciones dadas en el Real Decreto 614/2024, publicado el 2 de julio de 2024)."
+      }
+    ]
+  },
+  {
+    "bloque": "Parte específica: automatización en la gestión del mantenimiento",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "Sistemas de automatización, regulación y control de edificios. Introducción a la automatización de edificios e infraestructuras: Principios y procesos de automatización, variables y tipos de regulación (regulación continua y discontinua), funciones clave en la automatización de edificios (control de clima, iluminación, seguridad, etc.). Sistemas de autómatas programables: Componentes y características de los autómatas (sensores, actuadores, controladores), programación y operaciones de mantenimiento: verificación de funcionamiento, ajustes y pruebas. Mantenimiento preventivo y correctivo de sistemas automatizados."
+      },
+      {
+        "numero": 2,
+        "titulo": "Programación de Controladores Lógicos Programables (PLC). Conocimiento y programación de PLCs en la automatización industrial: Conceptos básicos y arquitectura de un PLC, lenguajes de programación normalizados IEC 61131: lista de instrucciones (IL), diagrama de escalera (LD), texto estructurado (ST), diagrama de bloques de funciones (FBD), diagrama de funciones secuenciales (SFC), aplicación de estos lenguajes en las familias de PLC más utilizadas en la Universidad de Zaragoza, ejecución y pruebas de programas de control para mantenimiento."
+      },
+      {
+        "numero": 3,
+        "titulo": "Automatización e integración de las instalaciones en la industria 4.0. Automatización en la Industria 4.0: Diseño, implementación y monitorización de instalaciones automatizadas mediante PLCs. Robótica colaborativa: interacción hombre-máquina en la automatización industrial. Internet de las Cosas (IoT) e integración de sensores inteligentes para la supervisión en tiempo real. Interacción hombre-máquina y su impacto en la eficiencia del mantenimiento y producción."
+      },
+      {
+        "numero": 4,
+        "titulo": "Big Data y su aplicación en el mantenimiento. Big Data y análisis de grandes volúmenes de datos: Captura, transformación y almacenamiento de datos generados por sistemas de automatización y mantenimiento. Herramientas para el análisis predictivo mediante inteligencia artificial (IA) aplicada al mantenimiento. Internet de las cosas (IoT) en el monitoreo y mantenimiento de infraestructuras. Bases de datos NoSQL para gestionar grandes volúmenes de datos no estructurados. Aplicaciones prácticas del Big Data para el mantenimiento predictivo."
+      },
+      {
+        "numero": 5,
+        "titulo": "Sistemas de gestión de bases de datos (SGBD). Modelado de bases de datos relacionales en la gestión del mantenimiento: Diseño y normalización de bases de datos utilizando modelos relacionales. Gestión de bases de datos con SQLServer, MySQL y PostgreSQL. Uso de SQL para consultas y manipulación de datos. Normas y estándares de interoperabilidad en bases de datos. Bases de datos espaciales para el inventario y monitorización de infraestructuras."
+      },
+      {
+        "numero": 6,
+        "titulo": "Sistemas de almacenamiento para sistemas corporativos y departamentales. Soluciones de almacenamiento para la gestión de datos generados en procesos de mantenimiento: Dispositivos de almacenamiento para la gestión de información multimedia. Virtualización del almacenamiento: conceptos y aplicaciones. Implementación de copias de seguridad y procedimientos de restauración de datos en sistemas corporativos."
+      },
+      {
+        "numero": 7,
+        "titulo": "Gestión, supervisión y programación de procesos a través de SCADA."
+      },
+      {
+        "numero": 8,
+        "titulo": "Redes de comunicación en automatización. Redes de comunicación en entornos industriales: Sistemas de transmisión de datos desde el nivel de campo hasta el sistema de control. Ethernet industrial y tecnologías inalámbricas: diseño e implementación. Protocolos de comunicación industrial: Protocolos físicos y de enlace: RS-485, RS-232, lazo de corriente, Ethernet, HART. Protocolos de red y transporte: TCP, UDP, IPv4, IPv6. Protocolos de aplicación: Modbus, DNP3, HTTP, MQTT, LORAWAN. Fiabilidad y disponibilidad de redes de comunicación industriales. Seguridad de funcionamiento (SDF) en sistemas de comunicación."
+      },
+      {
+        "numero": 9,
+        "titulo": "Protocolos de comunicación e interconexión de redes. Conceptos básicos de interconexión de redes: Protocolos ISO y TCP/IP: estructura y funcionamiento. Tipos de redes: LAN, WAN y su aplicación en sistemas industriales. Elementos de red: routers, switches, puertas de enlace, etc. Topologías y arquitecturas de red: en bus, en estrella, en anillo. Configuración de redes: IP, máscaras de red, puerta de enlace y DNS. Segmentación de redes y VLAN: ventajas y aplicaciones en la automatización. Estándares LAN/WAN (IEEE 802) y Ethernet IEEE 802.3."
+      },
+      {
+        "numero": 10,
+        "titulo": "Profinet y Profibus: Fundamentos, configuración y programación de ambos protocolos. Definición y principios de funcionamiento de Profinet IO, RT e IRT y Profibus. Configuración de CP 342/343/443 y parametrización básica. Configuración y programación de redes WLAN con Profinet IO. Visión general de los protocolos S7, Send/Receive, DP, FMS y PA. Métodos de acceso y configuración de redes Profibus. Configuración de una red Profibus DP: Uso del puerto integrado del PLC. Diagnóstico y solución de problemas en redes Profinet y Profibus."
+      },
+      {
+        "numero": 11,
+        "titulo": "Modbus. Fundamentos, configuración y programación. Definición y principios del protocolo Modbus. Cableado y configuración tanto de Modbus TCP/IPO como de Modbus RS485. Uso de Modbus Tools y Aplicaciones. Códigos de Función de Modbus. Integración de Tarjetas y equipos Modbus en el sistema de Automatización Industrial. Diagnóstico y solución de problemas en redes Modbus."
+      }
+    ]
+  },
+  {
+    "bloque": "Parte específica: herramientas gráficas y digitales aplicadas al mantenimiento",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "La informática aplicada al mantenimiento. Introducción a la informática como herramienta de apoyo en la gestión del mantenimiento. Aplicaciones informáticas generales a nivel de usuario: Procesadores de texto: Documentación de procedimientos de mantenimiento. Hojas de cálculo: Elaboración de reportes y control de inventarios. Correo electrónico y comunicaciones: Coordinación y seguimiento de equipos de trabajo. Internet, intranet y redes corporativas: Conectividad y acceso a sistemas de gestión. Importancia de la ofimática en la toma de decisiones y en la planificación del mantenimiento."
+      },
+      {
+        "numero": 2,
+        "titulo": "Aplicaciones informáticas específicas para gestión de presupuestos y planificación. Software especializado en planificación de tareas y recursos en mantenimiento. Herramientas para la gestión de presupuestos: Planificación financiera y control de costos. Evaluación de proyectos de mantenimiento. Análisis costo-beneficio. Integración de las herramientas de planificación con sistemas de gestión de mantenimiento (GMAO)."
+      },
+      {
+        "numero": 3,
+        "titulo": "Diseño Asistido por Ordenador (CAD) en la Gestión del Mantenimiento de Infraestructuras. Principios y fundamentos del diseño gráfico asistido por ordenador (CAD). Aplicaciones del CAD en la gestión de infraestructuras y mantenimiento. Trazado e interpretación de dibujos técnicos 2D: Técnicas para el trazado y lectura de planos técnicos en 2D. Normas y convenciones para la representación gráfica de instalaciones y equipos. Uso de software CAD para la creación de planos de mantenimiento. Modelado paramétrico de sólidos en 3D: definición y ventajas. Uso de CAD para el diseño industrial de piezas y componentes en 3D. Casos de uso en el mantenimiento: representación y simulación de componentes. Representación gráfica de componentes e instalaciones para su mantenimiento. Simulación y pruebas de funcionalidad en modelos 3D para prevenir fallos. Optimización del diseño para facilitar el mantenimiento de componentes mecánicos e infraestructuras."
+      },
+      {
+        "numero": 4,
+        "titulo": "Metodología BIM (Building Information Modeling) en la Gestión y Mantenimiento de Infraestructuras. Introducción a la Metodología BIM: Conceptos básicos de Building Information Modeling (BIM) y su evolución. Aplicaciones en la gestión y mantenimiento de infraestructuras y edificios. Ventajas de BIM para la planificación del mantenimiento y la eficiencia operativa. Modelado y gestión integral de infraestructuras con BIM: Creación de modelos digitales integrales de edificios y sistemas de instalaciones. Uso de BIM para el seguimiento de activos y la gestión del ciclo de vida de las infraestructuras. Ventajas del uso de modelos BIM en la gestión del mantenimiento preventivo. Interoperabilidad de BIM con otras herramientas: Integración de BIM con sistemas de Gestión de Mantenimiento Asistido por Ordenador (GMAO). Compatibilidad de BIM con Sistemas de Información Geográfica (SIG). Herramientas de colaboración y visualización en tiempo real de datos de mantenimiento. Optimización y análisis predictivo con BIM: Uso de BIM en la optimización de la planificación del mantenimiento preventivo. Beneficios del análisis predictivo en modelos BIM para reducir el mantenimiento correctivo."
+      },
+      {
+        "numero": 5,
+        "titulo": "Sistemas de Gestión de Mantenimiento Asistido por Ordenador (GMAO). Definición y evolución de los Sistemas de Gestión de Mantenimiento Asistido por Ordenador (GMAO). Componentes y módulos de un sistema GMAO: Gestión de activos y equipos. Gestión del inventario y almacén. Módulos de mantenimiento preventivo y correctivo. Planificación y ejecución de tareas de mantenimiento en espacios susceptibles de intervención. Órdenes de trabajo: creación, seguimiento y cierre. Elaboración de informes de mantenimiento: análisis de datos, indicadores KPI y su impacto en la toma de decisiones. Interoperabilidad de GMAO con otras herramientas como BIM y SIG: Integración de datos y sistemas para una gestión más eficiente. Funcionalidades web y móvil (PDA) para una gestión en tiempo real del mantenimiento."
+      },
+      {
+        "numero": 6,
+        "titulo": "Legislación sobre cartografía y sistemas de información geográfica. Ley 7/1986 de 24 de enero, sobre la Ordenación de la Cartografía y Real Decreto 1071/2007 de 27 de julio, sobre el sistema geodésico de referencia oficial en España. Real Decreto 1545/2007 de 23 de noviembre, por el que se regula el Sistema Cartográfico Nacional: Disposiciones generales y normativa. Aplicaciones en el ámbito del mantenimiento y la gestión de infraestructuras. Directiva INSPIRE y su transposición a la legislación española mediante la LISIGE (Ley 14/2010, 5 de julio): Infraestructuras de Datos Espaciales (IDE): definición, componentes y arquitectura. Impacto en la gestión de infraestructuras y servicios relacionados con el mantenimiento. Nodos IDE y Geoportales: definición, arquitectura y aplicaciones."
+      },
+      {
+        "numero": 7,
+        "titulo": "Sistemas de Información Geográfica (SIG) en la gestión del mantenimiento. Definición y componentes de los SIG. Planificación e implementación de un sistema SIG: Modelado y especificación de datos espaciales. Captura, almacenamiento y explotación de datos en SIG. Aplicaciones de los SIG en la gestión del mantenimiento de infraestructuras y equipos: Inventariado, monitorización y seguimiento de infraestructuras mediante datos espaciales. Uso de SIG para la planificación de intervenciones y tareas de mantenimiento. Integración de los SIG con herramientas de gestión (GMAO y BIM): Eficiencia en la localización y análisis de activos para el mantenimiento preventivo y correctivo."
+      },
+      {
+        "numero": 8,
+        "titulo": "Modelado vectorial y operaciones espaciales en SIG. Modelo vectorial en SIG: Definición y características. Primitivas geométricas y topológicas. Niveles de topología y su aplicación en el mantenimiento de infraestructuras. Operaciones espaciales en un SIG vectorial: Consultas y análisis espaciales para la toma de decisiones en la gestión del mantenimiento. Funciones avanzadas para el tratamiento de datos vectoriales."
+      },
+      {
+        "numero": 9,
+        "titulo": "Sistemas GNSS aplicados al mantenimiento de infraestructuras. Generalidades sobre los Sistemas GNSS. Observables GNSS y métodos de captura de datos: Tipos de mediciones y fuentes de error en la captura de datos. Métodos de posicionamiento y su utilidad en la gestión de infraestructuras: Aplicaciones de los sistemas GNSS en el mantenimiento y la planificación de infraestructuras geolocalizadas. Procesamiento de datos GNSS: Modelos matemáticos y cálculo de posicionamiento para el control y seguimiento de infraestructuras."
+      },
+      {
+        "numero": 10,
+        "titulo": "Sistemas LiDAR y su aplicación en el mantenimiento de infraestructuras. Fundamentos del sensor LiDAR: tipos de sensores y concepto de rango de penetración. Procesado de datos LiDAR: Algoritmos de clasificación y depuración de datos. Formatos de visualización de nubes de puntos."
+      },
+      {
+        "numero": 11,
+        "titulo": "Servicios web de mapas y recolección de metadatos. Servicios web de mapas: definiciones y tipos de servicios. WMS (Web Map Service) y WMTS (Web Map Tile Service): operaciones y parámetros. Servicios web de visualización INSPIRE y su interoperabilidad. Servicios web de catálogo (CSW) y de descarga (WFS): Operaciones y parámetros para la recolección de datos y metadatos. Normativas sobre metadatos (ISO/TC211): ISO19115-1, ISO19115-2, ISO/TS19139."
+      },
+      {
+        "numero": 12,
+        "titulo": "Competencias digitales aplicadas a la gestión del mantenimiento."
+      }
+    ]
+  },
+  {
+    "bloque": "Parte específica: energía, medioambiente y riesgos laborales",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "Evaluación Ambiental: Evaluación de Impacto Ambiental y Evaluación Ambiental Estratégica. Conceptos y normativa aplicable: Definición de la Evaluación de Impacto Ambiental (EIA) y Evaluación Ambiental Estratégica (EAE). Normativa reguladora de la evaluación ambiental en el ámbito nacional y comunitario. Procedimientos y fases de evaluación: Procedimiento administrativo y técnico en la realización de la EIA y EAE. Participación pública, estudio de alternativas, medidas preventivas y correctivas. Responsabilidad ambiental: Marco legal sobre responsabilidad medioambiental. Responsabilidad civil, penal y administrativa en relación con el daño al medio ambiente."
+      },
+      {
+        "numero": 2,
+        "titulo": "Gestión de Residuos: Concepto y Normativa. Definición de residuo, clasificación de residuos (peligrosos y no peligrosos). Legislación y normativa vigente sobre la gestión de residuos a nivel nacional y europeo. Trámites y autorizaciones ambientales necesarias para la gestión, tratamiento y transporte de residuos. Valorización de residuos y eliminación en vertederos. Tratamiento y gestión de residuos industriales y urbanos."
+      },
+      {
+        "numero": 3,
+        "titulo": "Ahorro de Energía y Reglamentación según el Código Técnico de la Edificación (CTE) y RITE. Regulación del ahorro de energía según el Documento Básico de Ahorro de Energía (DB-HE) del CTE. Reglamento de Instalaciones Térmicas en Edificios (RITE): Normativa aplicable para la eficiencia energética en instalaciones térmicas. Requisitos para el diseño, ejecución y mantenimiento de estas instalaciones. Certificación de eficiencia energética: Procedimiento de certificación energética según el Real Decreto 235/2013."
+      },
+      {
+        "numero": 4,
+        "titulo": "Energías Renovables: Energía Solar Fotovoltaica y Solar Térmica. Energía Solar Fotovoltaica: Principios de funcionamiento de los sistemas fotovoltaicos. Tipos de instalaciones (aisladas, conectadas a red) y sus componentes (paneles, inversores, reguladores, etc.). Energía Solar Térmica: Principios de funcionamiento para la producción de agua caliente sanitaria (ACS) y calefacción. Componentes clave de las instalaciones térmicas: colectores solares, acumuladores, sistemas de distribución y control."
+      },
+      {
+        "numero": 5,
+        "titulo": "Confort Térmico y Ahorro de Energía. Definición de confort térmico en ambientes interiores y su importancia en el diseño y gestión de edificios. Requisitos y exigencias básicas para el ahorro de energía según normativa vigente. Métodos para mejorar la eficiencia energética en la climatización y aislamiento de edificios. Normativa reguladora de eficiencia energética en el ámbito nacional e internacional."
+      },
+      {
+        "numero": 6,
+        "titulo": "Eficiencia Energética de los Edificios. Procedimiento básico de certificación energética de edificios: Proceso para la certificación energética de nuevos edificios y existentes. Indicadores y estándares de eficiencia según el tipo de edificación. Eficiencia energética en instalaciones de alumbrado exterior: Tecnologías y estrategias para optimizar el consumo de energía en alumbrado público. Normativa aplicable para instalaciones de iluminación eficiente."
+      },
+      {
+        "numero": 7,
+        "titulo": "Energías Renovables y Eficiencia Energética en Instalaciones Térmicas. Rendimiento energético en instalaciones térmicas: Cálculo y optimización del rendimiento en sistemas térmicos para la climatización y ACS. Recuperación de energía: Estrategias de recuperación de calor y aprovechamiento energético en instalaciones industriales y de edificios. Instalaciones solares térmicas y fotovoltaicas: Diseño y componentes: células fotovoltaicas, soportes, baterías, reguladores y convertidores. Tipos de colectores solares: planos, de concentración, y de tubo de vacío. Sistemas de almacenamiento de energía y control."
+      },
+      {
+        "numero": 8,
+        "titulo": "Contabilización de Consumos Energéticos. Finalidad y ámbito de aplicación de la contabilización de consumos: Herramientas para el control de consumos energéticos en edificios e instalaciones industriales. Equipos de medida: Tipos de contadores: eléctricos, de agua, gas y energía térmica. Ratios y mediciones energéticas para la gestión eficiente de consumos. Registro de consumo y análisis de patrones de uso energético para la optimización."
+      },
+      {
+        "numero": 9,
+        "titulo": "Prevención de Riesgos Laborales: Conceptos Generales y Normativa. Conceptos clave en la prevención de riesgos laborales: Definición de riesgo laboral y principales factores de riesgo. Normativa reguladora: Ley 31/1995 de Prevención de Riesgos Laborales. Derechos y obligaciones en materia de seguridad laboral. Responsabilidades de los empleadores y empleados. El Plan de Prevención de Riesgos Laborales: estructura y contenido. Evaluación de factores de riesgo y planificación de la acción preventiva. Tipos de riesgos: físicos, ergonómicos, psicosociales, químicos, etc. Coordinación de actividades y medidas de protección. Protocolos de prevención en casos de acoso laboral, sexual o discriminación en la Administración de la CCAA de Aragón."
+      },
+      {
+        "numero": 10,
+        "titulo": "Prevención de Riesgos Laborales en Actividades de Mantenimiento. Riesgos laborales específicos en el ámbito del mantenimiento: Identificación de riesgos comunes: físicos, eléctricos, térmicos, químicos, biológicos, mecánicos, ergonómicos, psicosociales. Prevención de riesgos específicos en operaciones de mantenimiento: Mantenimiento de máquinas: medidas de seguridad, bloqueo y etiquetado. Trabajos en altura: uso adecuado de EPI y sistemas de sujeción. Sustancias peligrosas: almacenamiento y manipulación segura. Riesgo eléctrico: identificación y gestión de zonas peligrosas. Lugares confinados: procedimientos seguros de acceso y ventilación. Prevención de incendios y explosiones: medidas preventivas y planes de evacuación."
+      }
+    ]
+  }
+]

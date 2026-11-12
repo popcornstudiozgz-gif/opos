@@ -1,0 +1,132 @@
+[
+  {
+    "bloque": "Parte general",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "La Constitución Española."
+      },
+      {
+        "numero": 2,
+        "titulo": "Ley del Procedimiento Administrativo Común de las Administraciones Públicas: disposiciones generales; los interesados en el procedimiento; la actividad de las Administraciones Pública; los actos administrativos."
+      },
+      {
+        "numero": 3,
+        "titulo": "Ley del Procedimiento Administrativo Común de las Administraciones Públicas: la revisión de los actos en vía administrativa."
+      },
+      {
+        "numero": 4,
+        "titulo": "Ley de Régimen Jurídico del Sector Público: disposiciones generales; los órganos administrativos, competencia; funcionamiento de los órganos colegiados de las distintas administraciones públicas; abstención y recusación; funcionamiento electrónico del sector público."
+      },
+      {
+        "numero": 5,
+        "titulo": "Estatuto Básico del Empleado Público: clases de personal al servicio de las Administraciones Públicas; adquisición y pérdida de la relación de servicio."
+      },
+      {
+        "numero": 6,
+        "titulo": "Estatuto Básico del Empleado Público: derechos y deberes y código de conducta de los empleados públicos."
+      },
+      {
+        "numero": 7,
+        "titulo": "Estatuto Básico del Empleado Público: ordenación de la actividad profesional; situaciones administrativas; régimen disciplinario."
+      },
+      {
+        "numero": 8,
+        "titulo": "Ley de prevención de riesgos laborales: objeto, ámbito de aplicación y definiciones; derecho a la protección frente a los riesgos laborales; medidas de emergencia; obligaciones de los trabajadores en materia de prevención de riesgos; consulta y participación de los trabajadores. Reglamento general de protección de datos: definiciones y principios relativos al tratamiento. La política de seguridad de la información y protección de datos personales de la Universidad."
+      },
+      {
+        "numero": 9,
+        "titulo": "Ley Orgánica para la igualdad efectiva de mujeres y hombres: objeto y ámbito de la Ley; el principio de igualdad y la tutela contra la discriminación; el derecho al trabajo en igualdad de oportunidades; criterios de actuación de las Administraciones Públicas."
+      },
+      {
+        "numero": 10,
+        "titulo": "Ley Orgánica del sistema universitario: funciones del sistema universitario y autonomía de las universidades; creación y reconocimiento de las universidades y calidad del sistema universitario; organización de enseñanzas."
+      },
+      {
+        "numero": 11,
+        "titulo": "Ley Orgánica del sistema universitario: el estudiantado en el Sistema Universitario; personal docente e investigador de las universidades públicas; personal técnico, de gestión y de administración y servicios de las universidades públicas."
+      },
+      {
+        "numero": 12,
+        "titulo": "Estatutos de la Universidad de Zaragoza: disposiciones generales; la estructura de la Universidad; el Defensor Universitario; los servicios de asistencia a la comunidad universitaria."
+      },
+      {
+        "numero": 13,
+        "titulo": "Estatutos de la Universidad de Zaragoza: el gobierno y representación de la Universidad."
+      },
+      {
+        "numero": 14,
+        "titulo": "El Código Ético de la Universidad de Zaragoza. El plan antifraude de la Universidad de Zaragoza. Protocolo de actuación frente a conflictos de intereses detectados de la Universidad de Zaragoza."
+      },
+      {
+        "numero": 15,
+        "titulo": "El Pacto del personal funcionario de administración y servicios de la Universidad de Zaragoza: determinación de las partes que lo conciertan; condiciones de aplicación y vigencia; comisión de interpretación, vigilancia, estudio y aplicación del Pacto; organización y planificación del trabajo; ingreso y acceso a cuerpos y escalas de la Universidad; provisión de puestos de trabajo; formación y perfeccionamiento profesional; jornada y régimen de trabajo; vacaciones, permisos y licencias; situaciones administrativas. El Plan Concilia de la Universidad de Zaragoza."
+      },
+      {
+        "numero": 16,
+        "titulo": "El Pacto del personal funcionario de administración y servicios de la Universidad de Zaragoza: régimen disciplinario; salud laboral; retribuciones; acción social; derechos de representación colectiva y de reunión del PAS."
+      }
+    ]
+  },
+  {
+    "bloque": "Parte específica",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "Elementos de comunicación visual. Los elementos gráficos en el plano. Análisis de formas. Técnicas de composición. Fenomenología de la imagen."
+      },
+      {
+        "numero": 2,
+        "titulo": "Diseño tipográfico. Normas de composición tipográfica. Tipografía creativa. Tiponometría. Tipología. Tipografía digital."
+      },
+      {
+        "numero": 3,
+        "titulo": "Uso de los signos y marcas. La corrección ortotipográfica. Combinación de signos y recursos. La diacrisis tipográfica."
+      },
+      {
+        "numero": 4,
+        "titulo": "El original. Normas de composición."
+      },
+      {
+        "numero": 5,
+        "titulo": "Maquetación. Compaginación. Proporciones."
+      },
+      {
+        "numero": 6,
+        "titulo": "Transformaciones de la imagen. Originales para reproducción. Tratamiento digital. Programas de tratamiento de imagen. Sistemas de pruebas. Formatos gráficos. Tratamiento de imágenes. Escaneado de documentos."
+      },
+      {
+        "numero": 7,
+        "titulo": "El color. Modulación del color: espacios cromáticos y acromáticos."
+      },
+      {
+        "numero": 8,
+        "titulo": "Programas para ensamblar textos e imágenes. Composición y diseño."
+      },
+      {
+        "numero": 9,
+        "titulo": "Estructura del libro impreso. Partes externas, preliminares y cuerpo de la obra."
+      },
+      {
+        "numero": 10,
+        "titulo": "Equipos de salida. Filmadoras. Procesadoras. Impresoras."
+      },
+      {
+        "numero": 11,
+        "titulo": "Programas y elementos de software. Programas de tratamiento de textos. Programas de gestión y administración del color. Programas de maquetación. Elaboración de PDF. Preparación de artes finales."
+      },
+      {
+        "numero": 12,
+        "titulo": "Sistemas de impresión. Tipos de tinta y papel para cada sistema. Encuadernación."
+      },
+      {
+        "numero": 13,
+        "titulo": "Elaboración de libro electrónico, software de creación."
+      },
+      {
+        "numero": 14,
+        "titulo": "Seguridad e higiene en el trabajo. Orden, limpieza y mantenimiento. Señalización. Medidas de prevención y protección. Actuación en caso de accidente laboral en la Universidad de Zaragoza."
+      }
+    ]
+  }
+]

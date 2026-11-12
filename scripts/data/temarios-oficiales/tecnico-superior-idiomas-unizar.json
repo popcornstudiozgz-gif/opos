@@ -1,0 +1,1204 @@
+[
+  {
+    "bloque": "Parte general (común a todos los idiomas)",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "La Constitución Española."
+      },
+      {
+        "numero": 2,
+        "titulo": "Ley del procedimiento administrativo común de las Administraciones Públicas: disposiciones generales; los interesados en el procedimiento; la actividad de las Administraciones Pública; los actos administrativos; las disposiciones sobre el procedimiento administrativo común."
+      },
+      {
+        "numero": 3,
+        "titulo": "Ley del procedimiento administrativo común de las Administraciones Públicas: la tramitación simplificada del procedimiento administrativo común; ejecución; la revisión de los actos en vía administrativa; la iniciativa legislativa y la potestad para dictar reglamentos y otras disposiciones."
+      },
+      {
+        "numero": 4,
+        "titulo": "Ley del régimen jurídico del sector público: disposiciones generales; los órganos administrativos, competencia; funcionamiento de los órganos colegiados de las distintas administraciones públicas; abstención y recusación; principios de la potestad sancionadora; la responsabilidad patrimonial de las Administraciones Públicas; funcionamiento electrónico del sector público; los convenios."
+      },
+      {
+        "numero": 5,
+        "titulo": "Estatuto Básico del Empleado Público: objeto y ámbito de aplicación; personal al servicio de las Administraciones Públicas; derechos y deberes y código de conducta de los empleados públicos;"
+      },
+      {
+        "numero": 6,
+        "titulo": "Estatuto Básico del Empleado Público: adquisición y pérdida de la relación de servicio; ordenación de la actividad profesional; situaciones administrativas; régimen disciplinario; cooperación entre las Administraciones Públicas."
+      },
+      {
+        "numero": 7,
+        "titulo": "Reglamento general de protección de datos: definiciones y principios relativos al tratamiento. La política de seguridad de la información y protección de datos personales de la Universidad."
+      },
+      {
+        "numero": 8,
+        "titulo": "Ley Orgánica para la igualdad efectiva de mujeres y hombres: objeto y ámbito de la Ley; el principio de igualdad y la tutela contra la discriminación; el derecho al trabajo en igualdad de oportunidades; criterios de actuación de las Administraciones Públicas."
+      },
+      {
+        "numero": 9,
+        "titulo": "Ley de Incompatibilidades del personal al servicio de las administraciones públicas."
+      },
+      {
+        "numero": 10,
+        "titulo": "Ley de contratos del sector público: pliego de prescripciones técnicas particulares; definición de determinadas prescripciones técnicas; reglas para el establecimiento de prescripciones técnicas; etiquetas; informes de pruebas, certificación y otros medios de prueba."
+      },
+      {
+        "numero": 11,
+        "titulo": "El código Ético de la Universidad de Zaragoza. El plan antifraude de la Universidad de Zaragoza. Protocolo de actuación frente a conflictos de intereses detectados de la Universidad de Zaragoza."
+      },
+      {
+        "numero": 12,
+        "titulo": "Bases de elaboración y ejecución del Presupuesto de la Universidad de Zaragoza. Régimen económico y financiera de las universidades públicas en la Ley Orgánica del Sistema Universitario."
+      },
+      {
+        "numero": 13,
+        "titulo": "El Pacto del personal funcionario de administración y servicios de la Universidad de Zaragoza. El Plan Concilia de la Universidad de Zaragoza."
+      }
+    ]
+  },
+  {
+    "bloque": "Parte específica: Alemán",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "Expresión e interacción oral en A1: objetivos, contenidos, estrategias didácticas y evaluación."
+      },
+      {
+        "numero": 2,
+        "titulo": "Expresión e interacción oral en A2: objetivos, contenidos, estrategias didácticas y evaluación."
+      },
+      {
+        "numero": 3,
+        "titulo": "La expresión escrita en A1: objetivos, contenidos, estrategias didácticas y evaluación."
+      },
+      {
+        "numero": 4,
+        "titulo": "La expresión escrita en A2: objetivos, contenidos, estrategias didácticas y evaluación."
+      },
+      {
+        "numero": 5,
+        "titulo": "La comprensión de lectura en A1: objetivos, contenidos, estrategias didácticas y evaluación."
+      },
+      {
+        "numero": 6,
+        "titulo": "La comprensión de lectura en A2: objetivos, contenidos, estrategias didácticas y evaluación."
+      },
+      {
+        "numero": 7,
+        "titulo": "La comprensión auditiva en A1: objetivos, contenidos, estrategias didácticas y evaluación."
+      },
+      {
+        "numero": 8,
+        "titulo": "La comprensión auditiva en A2: objetivos, contenidos, estrategias didácticas y evaluación."
+      },
+      {
+        "numero": 9,
+        "titulo": "Expresión e interacción oral en B1: objetivos, contenidos y estrategias didácticas."
+      },
+      {
+        "numero": 10,
+        "titulo": "Expresión e interacción oral en B2: objetivos, contenidos y estrategias didácticas."
+      },
+      {
+        "numero": 11,
+        "titulo": "La expresión escrita en B1: objetivos, contenidos y estrategias didácticas."
+      },
+      {
+        "numero": 12,
+        "titulo": "La expresión escrita en B2: objetivos, contenidos y estrategias didácticas."
+      },
+      {
+        "numero": 13,
+        "titulo": "La comprensión de lectura en B1: objetivos, contenidos y estrategias didácticas."
+      },
+      {
+        "numero": 14,
+        "titulo": "La comprensión de lectura en B2: objetivos, contenidos y estrategias didácticas."
+      },
+      {
+        "numero": 15,
+        "titulo": "La comprensión auditiva en B1: objetivos, contenidos y estrategias didácticas."
+      },
+      {
+        "numero": 16,
+        "titulo": "La comprensión auditiva en B2: objetivos, contenidos y estrategias didácticas."
+      },
+      {
+        "numero": 17,
+        "titulo": "Exámenes de certificación CertAcles B1: criterios y especificaciones para su elaboración."
+      },
+      {
+        "numero": 18,
+        "titulo": "Exámenes de certificación CertAcles B2: criterios y especificaciones para su elaboración."
+      },
+      {
+        "numero": 19,
+        "titulo": "El grupo de conversación de B1: estrategias para la dinamización y comunicación en elaula."
+      },
+      {
+        "numero": 20,
+        "titulo": "El grupo de conversación de B2: estrategias para la dinamización y comunicación en elaula."
+      },
+      {
+        "numero": 21,
+        "titulo": "La enseñanza-aprendizaje de la pronunciación: objetivos, contenidos, enfoque y estrategias didácticas."
+      },
+      {
+        "numero": 22,
+        "titulo": "La enseñanza-aprendizaje del léxico: objetivos, contenidos, enfoque y estrategias didácticas."
+      },
+      {
+        "numero": 23,
+        "titulo": "La enseñanza-aprendizaje de la gramática: objetivos, contenidos, enfoque y estrategias didácticas."
+      },
+      {
+        "numero": 24,
+        "titulo": "Tratamiento de contenidos y aspectos socio-culturales en el aula de idiomas."
+      },
+      {
+        "numero": 25,
+        "titulo": "Variantes socio-lingüísticas de la lengua. Registros, ámbitos de uso y su explotación en el aula."
+      },
+      {
+        "numero": 26,
+        "titulo": "Recursos, herramientas y estrategias para la enseñanza-aprendizaje no presencial en A1/A2."
+      },
+      {
+        "numero": 27,
+        "titulo": "Recursos, herramientas y estrategias para la enseñanza-aprendizaje no presencial en B1/B2."
+      },
+      {
+        "numero": 28,
+        "titulo": "Expresión de la cualidad, el grado y la comparación im DaF en el CULM."
+      },
+      {
+        "numero": 29,
+        "titulo": "La localización en el espacio, lugar, dirección y distancia im DaF en el CULM."
+      },
+      {
+        "numero": 30,
+        "titulo": "La localización en el tiempo. Duración y frecuencia im DaF en el CULM."
+      },
+      {
+        "numero": 31,
+        "titulo": "Expresión de la exhortación y de la cortesía im DaF en el CULM."
+      },
+      {
+        "numero": 32,
+        "titulo": "Expresión de la irrealidad im DaF en el CULM."
+      },
+      {
+        "numero": 33,
+        "titulo": "Expresión del permiso y la prohibición im DaF en el CULM."
+      },
+      {
+        "numero": 34,
+        "titulo": "Expresión de la simultaneidad, la posterioridad y la anterioridad im DaF en el CULM."
+      },
+      {
+        "numero": 35,
+        "titulo": "Expresión de la opinión propia y de los demás (estilo indirecto) im DaF en el CULM."
+      },
+      {
+        "numero": 36,
+        "titulo": "Expresión del deseo y la preferencia im DaF en el CULM."
+      },
+      {
+        "numero": 37,
+        "titulo": "Expresión de la condición y la hipótesis im DaF en el CULM."
+      },
+      {
+        "numero": 38,
+        "titulo": "Expresión de la certeza, la duda y la probabilidad im DaF en el CULM."
+      },
+      {
+        "numero": 39,
+        "titulo": "Expresión de la causa, la consecuencia im DaF en el CULM."
+      },
+      {
+        "numero": 40,
+        "titulo": "Expresión de la finalidad im DaF en el CULM."
+      },
+      {
+        "numero": 41,
+        "titulo": "Estructura de la oración en alemán. Orden de sus elementos im DaF en el CULM."
+      },
+      {
+        "numero": 42,
+        "titulo": "La negación en alemán im DaF en el CULM."
+      },
+      {
+        "numero": 43,
+        "titulo": "El presente. Formas y usos im DaF en el CULM."
+      },
+      {
+        "numero": 44,
+        "titulo": "Los verbos modales. Formas y usos im DaF en el CULM."
+      },
+      {
+        "numero": 45,
+        "titulo": "Verbos separables e inseparables im DaF en el CULM."
+      },
+      {
+        "numero": 46,
+        "titulo": "El futuro im DaF en el CULM."
+      },
+      {
+        "numero": 47,
+        "titulo": "Konjunktiv ll im DaF en el CULM."
+      },
+      {
+        "numero": 48,
+        "titulo": "El infinitivo. Formas y usos im DaF en el CULM."
+      },
+      {
+        "numero": 49,
+        "titulo": "La voz pasiva. Formas y usos im DaF en el CULM."
+      },
+      {
+        "numero": 50,
+        "titulo": "El adjetivo. El participio como adjetivo. Formas y usos im DaF en el CULM."
+      },
+      {
+        "numero": 51,
+        "titulo": "Los pronombres. Formas y usos im DaF en el CULM."
+      },
+      {
+        "numero": 52,
+        "titulo": "El léxico alemán: la formación de sustantivos im DaF en el CULM."
+      },
+      {
+        "numero": 53,
+        "titulo": "El léxico alemán: la formación de adjetivos im DaF en el CULM."
+      },
+      {
+        "numero": 54,
+        "titulo": "El léxico alemán: la formación de verbos im DaF en el CULM."
+      },
+      {
+        "numero": 55,
+        "titulo": "Actividades de aula para desarrollar la comprensión de textos orales en situación."
+      },
+      {
+        "numero": 56,
+        "titulo": "Actividades de aula para desarrollar la expresión de textos orales en situación."
+      },
+      {
+        "numero": 57,
+        "titulo": "Actividades de aula para desarrollar la comprensión de textos escritos en situación."
+      },
+      {
+        "numero": 58,
+        "titulo": "Actividades de aula para desarrollar la expresión de textos escritos en situación."
+      },
+      {
+        "numero": 59,
+        "titulo": "La evaluación del alumno y la evaluación del proceso de enseñanza-aprendizaje en el CULM."
+      },
+      {
+        "numero": 60,
+        "titulo": "Materiales y recursos didácticos para la enseñanza-aprendizaje de alemán en el CULM."
+      }
+    ]
+  },
+  {
+    "bloque": "Parte específica: Francés",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "Producción e interacción oral en A1: objetivos, contenidos, estrategias didácticas y evaluación."
+      },
+      {
+        "numero": 2,
+        "titulo": "Producción e interacción oral en A2: objetivos, contenidos, estrategias didácticas y evaluación."
+      },
+      {
+        "numero": 3,
+        "titulo": "La expresión escrita en A1: objetivos, contenidos, estrategias didácticas y evaluación."
+      },
+      {
+        "numero": 4,
+        "titulo": "La expresión escrita en A2: objetivos, contenidos, estrategias didácticas y evaluación."
+      },
+      {
+        "numero": 5,
+        "titulo": "La comprensión de lectura en A1: objetivos, contenidos, estrategias didácticas y evaluación."
+      },
+      {
+        "numero": 6,
+        "titulo": "La comprensión de lectura en A2: objetivos, contenidos, estrategias didácticas y evaluación."
+      },
+      {
+        "numero": 7,
+        "titulo": "La comprensión auditiva en A1: objetivos, contenidos, estrategias didácticas y evaluación."
+      },
+      {
+        "numero": 8,
+        "titulo": "La comprensión auditiva en A2: objetivos, contenidos, estrategias didácticas y evaluación."
+      },
+      {
+        "numero": 9,
+        "titulo": "Producción e interacción oral en B1: objetivos, contenidos y estrategias didácticas."
+      },
+      {
+        "numero": 10,
+        "titulo": "Producción e interacción oral en B2: objetivos, contenidos y estrategias didácticas."
+      },
+      {
+        "numero": 11,
+        "titulo": "La expresión escrita en B1: objetivos, contenidos y estrategiasdidácticas."
+      },
+      {
+        "numero": 12,
+        "titulo": "La expresión escrita en B2: objetivos, contenidos y estrategiasdidácticas."
+      },
+      {
+        "numero": 13,
+        "titulo": "La comprensión de lectura en B1: objetivos, contenidos y estrategias didácticas."
+      },
+      {
+        "numero": 14,
+        "titulo": "La comprensión de lectura en B2: objetivos, contenidos y estrategias didácticas."
+      },
+      {
+        "numero": 15,
+        "titulo": "La comprensión auditiva en B1: objetivos, contenidos y estrategiasdidácticas."
+      },
+      {
+        "numero": 16,
+        "titulo": "La comprensión auditiva en B2: objetivos, contenidos y estrategiasdidácticas."
+      },
+      {
+        "numero": 17,
+        "titulo": "Producción e interacción oral en C1: objetivos, contenidos y estrategias didácticas."
+      },
+      {
+        "numero": 18,
+        "titulo": "La expresión escrita en C1: objetivos, contenidos y estrategias didácticas."
+      },
+      {
+        "numero": 19,
+        "titulo": "La comprensión de lectura en C1: objetivos, contenidos y estrategias didácticas."
+      },
+      {
+        "numero": 20,
+        "titulo": "La comprensión auditiva en C1: objetivos, contenidos y estrategias didácticas."
+      },
+      {
+        "numero": 21,
+        "titulo": "Exámenes de certificación CertAcles B1: criterios y especificaciones para su elaboración."
+      },
+      {
+        "numero": 22,
+        "titulo": "Exámenes de certificación CertAcles B2: criterios y especificaciones para su elaboración."
+      },
+      {
+        "numero": 23,
+        "titulo": "Exámenes de certificación CertAcles C1: criterios y especificaciones para su elaboración."
+      },
+      {
+        "numero": 24,
+        "titulo": "El grupo de conversación: estrategias para la dinamización y comunicación en el aula."
+      },
+      {
+        "numero": 25,
+        "titulo": "La enseñanza-aprendizaje de la pronunciación: objetivos, contenidos, enfoque y estrategias didácticas."
+      },
+      {
+        "numero": 26,
+        "titulo": "La enseñanza-aprendizaje del léxico: objetivos, contenidos, enfoque y estrategias didácticas."
+      },
+      {
+        "numero": 27,
+        "titulo": "La enseñanza-aprendizaje de la gramática: objetivos, contenidos, enfoque y estrategias didácticas."
+      },
+      {
+        "numero": 28,
+        "titulo": "Tratamiento de contenidos y aspectos socio-culturales en el aula de idiomas."
+      },
+      {
+        "numero": 29,
+        "titulo": "Variantes socio-lingüísticas de la lengua. Registros, ámbitos de uso y su explotación en elaula."
+      },
+      {
+        "numero": 30,
+        "titulo": "Recursos, herramientas y estrategias para la enseñanza-aprendizaje no presencial."
+      },
+      {
+        "numero": 31,
+        "titulo": "Expresión de la orden y la prohibición."
+      },
+      {
+        "numero": 32,
+        "titulo": "Expresión de la cantidad."
+      },
+      {
+        "numero": 33,
+        "titulo": "Expresión del grado y la comparación."
+      },
+      {
+        "numero": 34,
+        "titulo": "La localización en el espacio. Lugar, dirección y distancia."
+      },
+      {
+        "numero": 35,
+        "titulo": "Expresión de la simultaneidad, la posterioridad y la anterioridad."
+      },
+      {
+        "numero": 36,
+        "titulo": "Expresión de la opinión, el deseo y la preferencia."
+      },
+      {
+        "numero": 37,
+        "titulo": "Expresión de los sentimientos."
+      },
+      {
+        "numero": 38,
+        "titulo": "Expresión de la condición y la hipótesis."
+      },
+      {
+        "numero": 39,
+        "titulo": "Expresión de la certeza, la duda y la probabilidad."
+      },
+      {
+        "numero": 40,
+        "titulo": "Expresión de la causa y la consecuencia."
+      },
+      {
+        "numero": 41,
+        "titulo": "Expresión de la oposición."
+      },
+      {
+        "numero": 42,
+        "titulo": "Expresión de la finalidad."
+      },
+      {
+        "numero": 43,
+        "titulo": "Discurso directo y discurso indirecto."
+      },
+      {
+        "numero": 44,
+        "titulo": "Adjetivos y pronombres demostrativos."
+      },
+      {
+        "numero": 45,
+        "titulo": "Adjetivos y pronombres indefinidos."
+      },
+      {
+        "numero": 46,
+        "titulo": "Los pronombres relativos: simples y compuestos."
+      },
+      {
+        "numero": 47,
+        "titulo": "Los pronombres personales y adverbiales."
+      },
+      {
+        "numero": 48,
+        "titulo": "Participio presente, gerundio y adjetivo verbal."
+      },
+      {
+        "numero": 49,
+        "titulo": "El adverbio y las locuciones adverbiales. Características y formación."
+      },
+      {
+        "numero": 50,
+        "titulo": "Actividades de aula para desarrollar la comprensión de textos orales en situación."
+      },
+      {
+        "numero": 51,
+        "titulo": "Actividades de aula para desarrollar la producción de textos orales en situación."
+      },
+      {
+        "numero": 52,
+        "titulo": "Actividades de aula para desarrollar la comprensión de textos escritos en situación."
+      },
+      {
+        "numero": 53,
+        "titulo": "Actividades de aula para desarrollar la producción de textos escritos en situación."
+      },
+      {
+        "numero": 54,
+        "titulo": "La evaluación del alumno y la evaluación del proceso de enseñanza-aprendizaje en el CULM."
+      },
+      {
+        "numero": 55,
+        "titulo": "Materiales y recursos didácticos para la enseñanza-aprendizaje del francés en el CULM."
+      }
+    ]
+  },
+  {
+    "bloque": "Parte específica: Inglés",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "Producción e interacción oral en A1: objetivos, contenidos, estrategias didácticas y evaluación."
+      },
+      {
+        "numero": 2,
+        "titulo": "La expresión escrita en A1: objetivos, contenidos, estrategias didácticas y evaluación."
+      },
+      {
+        "numero": 3,
+        "titulo": "La comprensión de lectura en A1: objetivos, contenidos, estrategias didácticas y evaluación."
+      },
+      {
+        "numero": 4,
+        "titulo": "La comprensión auditiva en A1: objetivos, contenidos, estrategias didácticas y evaluación."
+      },
+      {
+        "numero": 5,
+        "titulo": "Producción e interacción oral en A2: objetivos, contenidos, estrategias didácticas y evaluación."
+      },
+      {
+        "numero": 6,
+        "titulo": "La expresión escrita en A2: objetivos, contenidos, estrategias didácticas y evaluación."
+      },
+      {
+        "numero": 7,
+        "titulo": "La comprensión de lectura en A2: objetivos, contenidos, estrategias didácticas y evaluación."
+      },
+      {
+        "numero": 8,
+        "titulo": "La comprensión auditiva en A2: objetivos, contenidos, estrategias didácticas y evaluación."
+      },
+      {
+        "numero": 9,
+        "titulo": "Producción e interacción oral en B1: objetivos, contenidos y estrategiasdidácticas."
+      },
+      {
+        "numero": 10,
+        "titulo": "La expresión escrita en B1: objetivos, contenidos y estrategias didácticas."
+      },
+      {
+        "numero": 11,
+        "titulo": "La comprensión de lectura en B1: objetivos, contenidos y estrategias didácticas."
+      },
+      {
+        "numero": 12,
+        "titulo": "La comprensión auditiva en B1: objetivos, contenidos y estrategias didácticas."
+      },
+      {
+        "numero": 13,
+        "titulo": "Producción e interacción oral en B2: objetivos, contenidos y estrategiasdidácticas."
+      },
+      {
+        "numero": 14,
+        "titulo": "La expresión escrita en B2: objetivos, contenidos y estrategias didácticas."
+      },
+      {
+        "numero": 15,
+        "titulo": "La comprensión de lectura en B2: objetivos, contenidos y estrategias didácticas."
+      },
+      {
+        "numero": 16,
+        "titulo": "La comprensión auditiva en B2: objetivos, contenidos y estrategias didácticas."
+      },
+      {
+        "numero": 17,
+        "titulo": "Producción e interacción oral en C1: objetivos, contenidos y estrategiasdidácticas."
+      },
+      {
+        "numero": 18,
+        "titulo": "La expresión escrita en C1: objetivos, contenidos y estrategias didácticas."
+      },
+      {
+        "numero": 19,
+        "titulo": "La comprensión de lectura en C1: objetivos, contenidos y estrategias didácticas."
+      },
+      {
+        "numero": 20,
+        "titulo": "La comprensión auditiva en C1: objetivos, contenidos y estrategias didácticas."
+      },
+      {
+        "numero": 21,
+        "titulo": "La evaluación y la certificación en el proceso de aprendizaje. Los exámenes CertAcles B1: criterios y especificaciones para su elaboración."
+      },
+      {
+        "numero": 22,
+        "titulo": "La evaluación y la certificación en el proceso de aprendizaje. Los exámenes CertAcles B2: criterios y especificaciones para su elaboración."
+      },
+      {
+        "numero": 23,
+        "titulo": "La evaluación y la certificación en el proceso de aprendizaje. Los exámenes CertAcles C1: criterios y especificaciones para su elaboración."
+      },
+      {
+        "numero": 24,
+        "titulo": "El grupo de conversación: estrategias para la dinamización y comunicación en el aula."
+      },
+      {
+        "numero": 25,
+        "titulo": "La enseñanza-aprendizaje de la pronunciación: objetivos, contenidos, enfoque y estrategias didácticas."
+      },
+      {
+        "numero": 26,
+        "titulo": "La enseñanza-aprendizaje del léxico: objetivos, contenidos, enfoque y estrategias didácticas."
+      },
+      {
+        "numero": 27,
+        "titulo": "La enseñanza-aprendizaje de la gramática: objetivos, contenidos, enfoque y estrategias didácticas."
+      },
+      {
+        "numero": 28,
+        "titulo": "Expresión de la aserción, la objeción y el énfasis."
+      },
+      {
+        "numero": 29,
+        "titulo": "Expresión de la orden, exhortación y prohibición."
+      },
+      {
+        "numero": 30,
+        "titulo": "Expresión de la cantidad."
+      },
+      {
+        "numero": 31,
+        "titulo": "Expresión de la cualidad, el grado y la comparación."
+      },
+      {
+        "numero": 32,
+        "titulo": "La localización en el espacio. Lugar, dirección y distancia."
+      },
+      {
+        "numero": 33,
+        "titulo": "La localización en el tiempo. Duración y frecuencia."
+      },
+      {
+        "numero": 34,
+        "titulo": "Expresión del modo, los medios y el instrumento."
+      },
+      {
+        "numero": 35,
+        "titulo": "Expresión de la opinión, el deseo, la preferencia y el estado de ánimo."
+      },
+      {
+        "numero": 36,
+        "titulo": "Expresión de la condición y la hipótesis."
+      },
+      {
+        "numero": 37,
+        "titulo": "Expresión de la certeza, la duda y la probabilidad."
+      },
+      {
+        "numero": 38,
+        "titulo": "Expresión de la causa, la consecuencia y la finalidad."
+      },
+      {
+        "numero": 39,
+        "titulo": "El verbo: Tiempo verbal y tiempo real. El aspecto. El modo. Clases de verbos. Los auxiliares «Do, be, have» y los modales. «Multi-word verbs»."
+      },
+      {
+        "numero": 40,
+        "titulo": "La expresión del presente. Formas y usos."
+      },
+      {
+        "numero": 41,
+        "titulo": "La expresión del pasado. Formas y usos."
+      },
+      {
+        "numero": 42,
+        "titulo": "La expresión del futuro. Formas y usos."
+      },
+      {
+        "numero": 43,
+        "titulo": "El infinitivo, el gerundio y el participio. Usos y funciones."
+      },
+      {
+        "numero": 44,
+        "titulo": "La voz pasiva. Formas y usos."
+      },
+      {
+        "numero": 45,
+        "titulo": "El sustantivo: clases, género y número. Los determinantes y modificadores. La expresión de la posesión. El genitivo. La sustantivación. La premodificación y la postmodificación."
+      },
+      {
+        "numero": 46,
+        "titulo": "Los pronombres: Características, función y clasificación. Usos especiales."
+      },
+      {
+        "numero": 47,
+        "titulo": "El adjetivo: Características, función y clasificación."
+      },
+      {
+        "numero": 48,
+        "titulo": "El adverbio: Características, función y clasificación. Relación entre adjetivos y adverbios. Las locuciones adverbiales."
+      },
+      {
+        "numero": 49,
+        "titulo": "La preposición: Función y usos."
+      },
+      {
+        "numero": 50,
+        "titulo": "Actividades de aula para desarrollar la comprensión de textos orales ensituación."
+      },
+      {
+        "numero": 51,
+        "titulo": "Actividades de aula para desarrollar la producción de textos orales en situación."
+      },
+      {
+        "numero": 52,
+        "titulo": "Actividades de aula para desarrollar la comprensión de textos escritos en situación."
+      },
+      {
+        "numero": 53,
+        "titulo": "Actividades de aula para desarrollar la producción de textos escritos ensituación."
+      },
+      {
+        "numero": 54,
+        "titulo": "La evaluación del alumno y la evaluación del proceso de enseñanza-aprendizaje en el CULM"
+      },
+      {
+        "numero": 55,
+        "titulo": "Materiales y recursos didácticos para la enseñanza-aprendizaje del inglés en el CULM."
+      }
+    ]
+  },
+  {
+    "bloque": "Parte específica: Griego",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "Aprendizaje del alfabeto y la pronunciación de los sonidos de las letras y las combinaciones vocálicas y consonánticas. Ejercicios de lectura y escritura. Pronunciación comparativa."
+      },
+      {
+        "numero": 2,
+        "titulo": "El artículo: determinado, indeterminado, declinación y uso."
+      },
+      {
+        "numero": 3,
+        "titulo": "Flexión nominal: masculinos, femeninos y neutros parisílabos."
+      },
+      {
+        "numero": 4,
+        "titulo": "Flexión nominal: masculinos, femeninos y neutros imparisílabos. Cambios en la acentuación de imparisílabos."
+      },
+      {
+        "numero": 5,
+        "titulo": "Flexión nominal. Casos especiales: declinación antigua, indeclinables, doble declinación."
+      },
+      {
+        "numero": 6,
+        "titulo": "Flexión de adjetivos: -ος, -η, -ο; -ος, -α, -ο; -ός, -ιά, -ό; -ης, -ης, -ες; -ύς, -ιά, ύ; -ης, - ια, -ι; -ης, -α, -ικο; adjetivos imparisílabos; adjetivos irregulares."
+      },
+      {
+        "numero": 7,
+        "titulo": "Grados del adjetivo y expresión de la comparación. Numerales y expresión de la cantidad."
+      },
+      {
+        "numero": 8,
+        "titulo": "Pronombres y su flexión: personales, posesivos, reflexivos, determinativos, demostrativos, relativos, interrogativos, indefinidos, relativos."
+      },
+      {
+        "numero": 9,
+        "titulo": "Los verbos: voces, modos, tiempos, aspecto, número y personas. Partícula modal να y partícula temporal θα. Aumento."
+      },
+      {
+        "numero": 10,
+        "titulo": "Conjugaciones: A, B1, B2, Γ, Δ. Temas de presente; terminaciones de presente y de pasado, activas y pasivas."
+      },
+      {
+        "numero": 11,
+        "titulo": "Temas de aoristo: tema de aoristo activo; tema de aoristo pasivo; aoristo sigmático; aoristo asigmático. Temas de aoristo irregulares."
+      },
+      {
+        "numero": 12,
+        "titulo": "Verbos defectivos, impersonales, irregulares. Participios."
+      },
+      {
+        "numero": 13,
+        "titulo": "Partes invariables de la oración: adverbios, preposiciones, conjunciones, interjecciones. Expresión de la orden y la prohibición."
+      },
+      {
+        "numero": 14,
+        "titulo": "La localización en el espacio. Lugar, dirección y distancia."
+      },
+      {
+        "numero": 15,
+        "titulo": "Expresión de la simultaneidad, la posterioridad y la anterioridad."
+      },
+      {
+        "numero": 16,
+        "titulo": "Expresión de la opinión, el deseo y la preferencia."
+      },
+      {
+        "numero": 17,
+        "titulo": "Expresión de los sentimientos."
+      },
+      {
+        "numero": 18,
+        "titulo": "Expresión de la condición y la hipótesis."
+      },
+      {
+        "numero": 19,
+        "titulo": "Expresión de la certeza, la duda y la probabilidad."
+      },
+      {
+        "numero": 20,
+        "titulo": "Expresión de la causa y la consecuencia."
+      },
+      {
+        "numero": 21,
+        "titulo": "Expresión de la oposición."
+      },
+      {
+        "numero": 22,
+        "titulo": "Expresión de la finalidad."
+      },
+      {
+        "numero": 23,
+        "titulo": "Discurso directo y discurso indirecto."
+      },
+      {
+        "numero": 24,
+        "titulo": "Producción e interacción oral en A1: objetivos, contenidos, estrategias didácticas y evaluación."
+      },
+      {
+        "numero": 25,
+        "titulo": "Producción e interacción oral en A2: objetivos, contenidos, estrategias didácticas y evaluación."
+      },
+      {
+        "numero": 26,
+        "titulo": "La expresión escrita en A1: objetivos, contenidos, estrategias didácticas y evaluación."
+      },
+      {
+        "numero": 27,
+        "titulo": "La expresión escrita en A2: objetivos, contenidos, estrategias didácticas y evaluación."
+      },
+      {
+        "numero": 28,
+        "titulo": "La comprensión de lectura en A1: objetivos, contenidos, estrategias didácticas y evaluación."
+      },
+      {
+        "numero": 29,
+        "titulo": "La comprensión de lectura en A2: objetivos, contenidos, estrategias didácticas y evaluación."
+      },
+      {
+        "numero": 30,
+        "titulo": "La comprensión auditiva en A1: objetivos, contenidos, estrategias didácticas y evaluación."
+      },
+      {
+        "numero": 31,
+        "titulo": "La comprensión auditiva en A2: objetivos, contenidos, estrategias didácticas y evaluación."
+      },
+      {
+        "numero": 32,
+        "titulo": "Producción e interacción oral en B1: objetivos, contenidos y estrategias didácticas."
+      },
+      {
+        "numero": 33,
+        "titulo": "Producción e interacción oral en B2: objetivos, contenidos y estrategias didácticas."
+      },
+      {
+        "numero": 34,
+        "titulo": "La expresión escrita en B1: objetivos, contenidos y estrategiasdidácticas."
+      },
+      {
+        "numero": 35,
+        "titulo": "La expresión escrita en B2: objetivos, contenidos y estrategiasdidácticas."
+      },
+      {
+        "numero": 36,
+        "titulo": "La comprensión de lectura en B1: objetivos, contenidos y estrategias didácticas."
+      },
+      {
+        "numero": 37,
+        "titulo": "La comprensión de lectura en B2: objetivos, contenidos y estrategias didácticas."
+      },
+      {
+        "numero": 38,
+        "titulo": "La comprensión auditiva en B1: objetivos, contenidos y estrategiasdidácticas."
+      },
+      {
+        "numero": 39,
+        "titulo": "La comprensión auditiva en B2: objetivos, contenidos y estrategiasdidácticas."
+      },
+      {
+        "numero": 40,
+        "titulo": "La enseñanza-aprendizaje de la pronunciación: objetivos, contenidos, enfoque y estrategias didácticas."
+      },
+      {
+        "numero": 41,
+        "titulo": "La enseñanza-aprendizaje del léxico: objetivos, contenidos, enfoque y estrategias didácticas."
+      },
+      {
+        "numero": 42,
+        "titulo": "La enseñanza-aprendizaje de la gramática: objetivos, contenidos, enfoque y estrategias didácticas."
+      },
+      {
+        "numero": 43,
+        "titulo": "Tratamiento de contenidos y aspectos socio-culturales en el aula de idiomas."
+      },
+      {
+        "numero": 44,
+        "titulo": "Variantes socio-lingüísticas de la lengua griega. Registros, ámbitos de uso y su explotación en el aprendizaje."
+      },
+      {
+        "numero": 45,
+        "titulo": "Aspectos diacrónicos de la lengua griega: formas cultas/populares; expresiones clásicas en uso."
+      },
+      {
+        "numero": 46,
+        "titulo": "La cultura, usos y costumbres de la Grecia moderna."
+      },
+      {
+        "numero": 47,
+        "titulo": "Recursos, herramientas y estrategias para la enseñanza-aprendizaje no presencial."
+      },
+      {
+        "numero": 48,
+        "titulo": "Utilización, generación y edición de contenidos de la plataforma Moodle."
+      },
+      {
+        "numero": 49,
+        "titulo": "Generación de actividades para comprensión escrita en la plataforma Moodle."
+      },
+      {
+        "numero": 50,
+        "titulo": "Generación de actividades para expresión escrita en la plataforma Moodle."
+      },
+      {
+        "numero": 51,
+        "titulo": "Generación de actividades para comprensión oral en la plataforma Moodle."
+      },
+      {
+        "numero": 52,
+        "titulo": "Generación de actividades para producción oral en la plataforma de video conferencia (MS Teams)."
+      },
+      {
+        "numero": 53,
+        "titulo": "La evaluación del alumno y la evaluación del proceso de enseñanza-aprendizaje en el CULM con plataforma Moodle."
+      },
+      {
+        "numero": 54,
+        "titulo": "Materiales y recursos didácticos para la enseñanza-aprendizaje del griego en el CULM."
+      },
+      {
+        "numero": 55,
+        "titulo": "Gestión de personal dentro del programa Erasmus + en el CULM."
+      }
+    ]
+  },
+  {
+    "bloque": "Parte específica: Italiano",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "Producción e interacción oral en A1: objetivos, contenidos, estrategias didácticas y evaluación."
+      },
+      {
+        "numero": 2,
+        "titulo": "Producción e interacción oral en A2: objetivos, contenidos, estrategias didácticas y evaluación."
+      },
+      {
+        "numero": 3,
+        "titulo": "La expresión escrita en A1: objetivos, contenidos, estrategias didácticas y evaluación."
+      },
+      {
+        "numero": 4,
+        "titulo": "La expresión escrita en A2: objetivos, contenidos, estrategias didácticas y evaluación."
+      },
+      {
+        "numero": 5,
+        "titulo": "La comprensión de lectura en A1: objetivos, contenidos, estrategias didácticas y evaluación."
+      },
+      {
+        "numero": 6,
+        "titulo": "La comprensión de lectura en A2: objetivos, contenidos, estrategias didácticas y evaluación."
+      },
+      {
+        "numero": 7,
+        "titulo": "La comprensión auditiva en A1: objetivos, contenidos, estrategias didácticas y evaluación."
+      },
+      {
+        "numero": 8,
+        "titulo": "La comprensión auditiva en A2: objetivos, contenidos, estrategias didácticas y evaluación."
+      },
+      {
+        "numero": 9,
+        "titulo": "Producción e interacción oral en B1: objetivos, contenidos y estrategias didácticas."
+      },
+      {
+        "numero": 10,
+        "titulo": "Producción e interacción oral en B2: objetivos, contenidos y estrategias didácticas."
+      },
+      {
+        "numero": 11,
+        "titulo": "La expresión escrita en B1: objetivos, contenidos y estrategiasdidácticas."
+      },
+      {
+        "numero": 12,
+        "titulo": "La expresión escrita en B2: objetivos, contenidos y estrategiasdidácticas."
+      },
+      {
+        "numero": 13,
+        "titulo": "La comprensión de lectura en B1: objetivos, contenidos y estrategias didácticas."
+      },
+      {
+        "numero": 14,
+        "titulo": "La comprensión de lectura en B2: objetivos, contenidos y estrategias didácticas."
+      },
+      {
+        "numero": 15,
+        "titulo": "La comprensión auditiva en B1: objetivos, contenidos y estrategiasdidácticas."
+      },
+      {
+        "numero": 16,
+        "titulo": "La comprensión auditiva en B2: objetivos, contenidos y estrategiasdidácticas."
+      },
+      {
+        "numero": 17,
+        "titulo": "Exámenes de certificación CertAcles B1: criterios y especificaciones para su elaboración."
+      },
+      {
+        "numero": 18,
+        "titulo": "Exámenes de certificación CertAcles B2: criterios y especificaciones para su elaboración."
+      },
+      {
+        "numero": 19,
+        "titulo": "El grupo de conversación: estrategias para la dinamización y comunicación en el aula."
+      },
+      {
+        "numero": 20,
+        "titulo": "La enseñanza-aprendizaje de la pronunciación: objetivos, contenidos, enfoque y estrategias didácticas."
+      },
+      {
+        "numero": 21,
+        "titulo": "La enseñanza-aprendizaje del léxico: objetivos, contenidos, enfoque y estrategias didácticas."
+      },
+      {
+        "numero": 22,
+        "titulo": "La enseñanza-aprendizaje de la gramática: objetivos, contenidos, enfoque y estrategias didácticas."
+      },
+      {
+        "numero": 23,
+        "titulo": "Tratamiento de contenidos y aspectos socio-culturales en el aula de idiomas."
+      },
+      {
+        "numero": 24,
+        "titulo": "Variantes socio-lingüísticas de la lengua. Registros, ámbitos de uso y su explotación en elaula."
+      },
+      {
+        "numero": 25,
+        "titulo": "Recursos, herramientas y estrategias para la enseñanza-aprendizaje no presencial."
+      },
+      {
+        "numero": 26,
+        "titulo": "Expresión de exhortación y prohibición."
+      },
+      {
+        "numero": 27,
+        "titulo": "Expresión de la cualidad, el grado y la comparación."
+      },
+      {
+        "numero": 28,
+        "titulo": "La localización en el espacio. Lugar, dirección y distancia."
+      },
+      {
+        "numero": 29,
+        "titulo": "La localización en el tiempo. Duración y frecuencia."
+      },
+      {
+        "numero": 30,
+        "titulo": "Expresión de la simultaneidad, la posterioridad y la anterioridad."
+      },
+      {
+        "numero": 31,
+        "titulo": "Expresión de la opinión, el deseo y la preferencia."
+      },
+      {
+        "numero": 32,
+        "titulo": "Expresión de la condición y la hipótesis."
+      },
+      {
+        "numero": 33,
+        "titulo": "Expresión de la certeza, la duda y la probabilidad."
+      },
+      {
+        "numero": 34,
+        "titulo": "Expresión de la causa, la consecuencia y la finalidad."
+      },
+      {
+        "numero": 35,
+        "titulo": "Estructura de la oración en italiano. Orden de sus elementos. Afirmaciones, preguntas y respuestas, exhortaciones."
+      },
+      {
+        "numero": 36,
+        "titulo": "El verbo: El tiempo. El modo."
+      },
+      {
+        "numero": 37,
+        "titulo": "Los auxiliares. Formas y usos."
+      },
+      {
+        "numero": 38,
+        "titulo": "Los verbos modales. Formas y usos."
+      },
+      {
+        "numero": 39,
+        "titulo": "El infinitivo, gerundio y participio."
+      },
+      {
+        "numero": 40,
+        "titulo": "La voz pasiva. Formas y usos."
+      },
+      {
+        "numero": 41,
+        "titulo": "El artículo. Formas y usos."
+      },
+      {
+        "numero": 42,
+        "titulo": "El adjetivo. Formas y usos."
+      },
+      {
+        "numero": 43,
+        "titulo": "Los pronombres. Formas y usos."
+      },
+      {
+        "numero": 44,
+        "titulo": "Usos y valores de las partículas ci y ne."
+      },
+      {
+        "numero": 45,
+        "titulo": "La preposición. Formas y usos."
+      },
+      {
+        "numero": 46,
+        "titulo": "El léxico italiano: la formación de sustantivos."
+      },
+      {
+        "numero": 47,
+        "titulo": "El léxico italiano: la formación de adjetivos."
+      },
+      {
+        "numero": 48,
+        "titulo": "El léxico italiano: la formación de verbos."
+      },
+      {
+        "numero": 49,
+        "titulo": "Discurso directo e indirecto."
+      },
+      {
+        "numero": 50,
+        "titulo": "Actividades de aula para desarrollar la comprensión de textos orales en situación."
+      },
+      {
+        "numero": 51,
+        "titulo": "Actividades de aula para desarrollar la producción de textos orales en situación."
+      },
+      {
+        "numero": 52,
+        "titulo": "Actividades de aula para desarrollar la comprensión de textos escritos en situación."
+      },
+      {
+        "numero": 53,
+        "titulo": "Actividades de aula para desarrollar la producción de textos escritos en situación."
+      },
+      {
+        "numero": 54,
+        "titulo": "La evaluación del alumno y la evaluación del proceso de enseñanza-aprendizaje en el CULM"
+      },
+      {
+        "numero": 55,
+        "titulo": "Materiales y recursos didácticos para la enseñanza-aprendizaje del italiano en el CULM."
+      }
+    ]
+  }
+]

@@ -1,0 +1,364 @@
+[
+  {
+    "bloque": "Parte general",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "La Constitución Española."
+      },
+      {
+        "numero": 2,
+        "titulo": "Ley del procedimiento administrativo común de las Administraciones Públicas: disposiciones generales; los interesados en el procedimiento; la actividad de las Administraciones Pública; los actos administrativos; las disposiciones sobre el procedimiento administrativo común."
+      },
+      {
+        "numero": 3,
+        "titulo": "Ley del procedimiento administrativo común de las Administraciones Públicas: la tramitación simplificada del procedimiento administrativo común; ejecución; la revisión de los actos en vía administrativa; la iniciativa legislativa y la potestad para dictar reglamentos y otras disposiciones."
+      },
+      {
+        "numero": 4,
+        "titulo": "Ley del régimen jurídico del sector público: disposiciones generales; los órganos administrativos, competencia; funcionamiento de los órganos colegiados de las distintas administraciones públicas; abstención y recusación; principios de la potestad sancionadora; la responsabilidad patrimonial de las Administraciones Públicas; funcionamiento electrónico del sector público; los convenios."
+      },
+      {
+        "numero": 5,
+        "titulo": "Estatuto Básico del Empleado Público: objeto y ámbito de aplicación; personal al servicio de las Administraciones Públicas; derechos y deberes y código de conducta de los empleados públicos."
+      },
+      {
+        "numero": 6,
+        "titulo": "Estatuto Básico del Empleado Público: adquisición y pérdida de la relación de servicio; ordenación de la actividad profesional; situaciones administrativas; régimen disciplinario; cooperación entre las Administraciones Públicas."
+      },
+      {
+        "numero": 7,
+        "titulo": "Ley Orgánica para la igualdad efectiva de mujeres y hombres: objeto y ámbito de la Ley; el principio de igualdad y la tutela contra la discriminación; el derecho al trabajo en igualdad de oportunidades; criterios de actuación de las Administraciones Públicas."
+      },
+      {
+        "numero": 8,
+        "titulo": "Ley de Incompatibilidades del personal al servicio de las administraciones públicas."
+      },
+      {
+        "numero": 9,
+        "titulo": "Estatutos de la Universidad de Zaragoza: disposiciones generales; la estructura de la Universidad; el gobierno y representación de la Universidad; el Defensor Universitario; la docencia e investigación; la comunidad universitaria; los servicios de asistencia a la comunidad universitaria; régimen económico, financiero y patrimonial; la reforma de los Estatutos."
+      },
+      {
+        "numero": 10,
+        "titulo": "El código Ético de la Universidad de Zaragoza. El plan antifraude de la Universidad de Zaragoza. Protocolo de actuación frente a conflictos de intereses detectados de la Universidad de Zaragoza."
+      },
+      {
+        "numero": 11,
+        "titulo": "Bases de elaboración y ejecución del Presupuesto de la Universidad de Zaragoza. Régimen económico y financiera de las universidades públicas en la Ley Orgánica del Sistema Universitario."
+      },
+      {
+        "numero": 12,
+        "titulo": "El Pacto del personal funcionario de administración y servicios de la Universidad de Zaragoza. El Plan Concilia de la Universidad de Zaragoza."
+      }
+    ]
+  },
+  {
+    "bloque": "Parte específica",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "El Esquema Nacional de Seguridad."
+      },
+      {
+        "numero": 2,
+        "titulo": "Interoperabilidad de los sistemas. El Esquema Nacional de Interoperabilidad. Dimensiones y normas técnicas."
+      },
+      {
+        "numero": 3,
+        "titulo": "Ley de Contratos del Sector Público."
+      },
+      {
+        "numero": 4,
+        "titulo": "La política de protección de datos de carácter personal. Régimen jurídico. El Reglamento UE 2016/679, de 27 de abril. Principios y derechos. Obligaciones. El Delegado de Protección de Datos en la universidad. La Agencia Española de Protección de Datos."
+      },
+      {
+        "numero": 5,
+        "titulo": "Ley de transparencia de la Actividad Pública y Participación Ciudadana de Aragón: disposiciones generales; transparencia; participación ciudadana"
+      },
+      {
+        "numero": 6,
+        "titulo": "Modelos de gobernanza TIC. Organización e instrumentos operativos de las TIC en la universidad. Transformación digital de las universidades."
+      },
+      {
+        "numero": 7,
+        "titulo": "Dirección y gestión de proyectos de tecnologías de la información. Planificación estratégica, gestión de recursos, seguimiento de proyectos, toma de decisiones."
+      },
+      {
+        "numero": 8,
+        "titulo": "Planificación y control de las TIC: Gestión de servicios e infraestructuras TIC, gestión del valor de las TIC. Acuerdos de Nivel de Servicio. Bases conceptuales de ITIL."
+      },
+      {
+        "numero": 9,
+        "titulo": "Seguridad de los sistemas. Análisis y gestión de riesgos."
+      },
+      {
+        "numero": 10,
+        "titulo": "La gestión de la compra pública de tecnologías de la información."
+      },
+      {
+        "numero": 11,
+        "titulo": "Gestión de los datos corporativos. Datawarehouse y sistemas de soporte a la toma de decisiones y almacenes de datos. Tecnologías OLAP. Modelo Kimball."
+      },
+      {
+        "numero": 12,
+        "titulo": "Big Data. Captura, análisis, transformación, almacenamiento y explotación de conjuntos masivos de datos. Inteligencia artificial. Bases de datos NonSQL."
+      },
+      {
+        "numero": 13,
+        "titulo": "La gestión de la continuidad del negocio. Planes de Continuidad y Contingencia del Negocio."
+      },
+      {
+        "numero": 14,
+        "titulo": "Centros de proceso de datos. Diseño, implantación y gestión."
+      },
+      {
+        "numero": 15,
+        "titulo": "Sistemas operativos UNIX-LINUX. Fundamentos, administración, instalación, gestión."
+      },
+      {
+        "numero": 16,
+        "titulo": "Sistemas operativos Microsoft. Fundamentos, administración, instalación, gestión."
+      },
+      {
+        "numero": 17,
+        "titulo": "Sistemas de almacenamiento. Virtualización del almacenamiento y copias de seguridad."
+      },
+      {
+        "numero": 18,
+        "titulo": "Tecnologías de virtualización. Virtualización de servidores. Vmware, KVM y contenedores."
+      },
+      {
+        "numero": 19,
+        "titulo": "Virtualización de escritorios y de aplicaciones (CloudPaging, AppsAnyWhere)."
+      },
+      {
+        "numero": 20,
+        "titulo": "Dispositivos personales de PC y dispositivos móviles. La conectividad de los dispositivos personales. Medidas de seguridad y gestión para equipos personales y dispositivos móviles."
+      },
+      {
+        "numero": 21,
+        "titulo": "Alta disponibilidad y balanceo de Carga. HAProxy y Keepalived."
+      },
+      {
+        "numero": 22,
+        "titulo": "Cloud Computing. IaaS, PaaS, SaaS. Nubes privadas, públicas e híbridas."
+      },
+      {
+        "numero": 23,
+        "titulo": "Sistemas de almacenamiento para sistemas corporativos y departamentales. Dispositivos para tratamiento de información multimedia. Virtualización del almacenamiento. Copias de seguridad."
+      },
+      {
+        "numero": 24,
+        "titulo": "Redes de telecomunicaciones. Conceptos. Medios de transmisión. Conmutación de circuitos y paquetes. Protocolos de encaminamiento. Infraestructuras de acceso. Redes Ethernet."
+      },
+      {
+        "numero": 25,
+        "titulo": "Sistemas de cableado. Interconexión de redes. Dispositivos. Calidad de servicio. Alta disponibilidad."
+      },
+      {
+        "numero": 26,
+        "titulo": "El modelo OSI de ISO: arquitectura, capas, interfaces, protocolos, direccionamiento y encaminamiento."
+      },
+      {
+        "numero": 27,
+        "titulo": "Redes Inalámbricas: el estándar IEEE 802.11. Características funcionales y técnicas. Sistemas de expansión del espectro. Sistemas de acceso. Autenticación. Modos de operación. Seguridad, normativa reguladora."
+      },
+      {
+        "numero": 28,
+        "titulo": "Redes IP: Arquitectura de redes, encaminamiento y calidad de servicio. IPv4 e IPv6."
+      },
+      {
+        "numero": 29,
+        "titulo": "Redes de nueva generación y servicios convergentes (NGN/IMS). VoIP, ToIP y comunicaciones unificadas."
+      },
+      {
+        "numero": 30,
+        "titulo": "Redes de área local. Arquitectura. Tipología. Medios de transmisión. Métodos de acceso. Dispositivos de interconexión. Gestión de dispositivos. Administración de redes LAN. Gestión de usuarios en redes locales. Monitorización y control de tráfico. Gestión SNMP. Configuración y gestión de redes virtuales (VLAN). Redes de área extensa."
+      },
+      {
+        "numero": 31,
+        "titulo": "Arquitectura de las redes Intranet y Extranet. Concepto, estructura y características. Su implantación en las organizaciones."
+      },
+      {
+        "numero": 32,
+        "titulo": "La seguridad en redes. Tipos de ataques y herramientas para su prevención: cortafuegos, control de accesos e intrusiones, técnicas criptográficas."
+      },
+      {
+        "numero": 33,
+        "titulo": "Accesibilidad y usabilidad. W3C. Diseño web adaptativo."
+      },
+      {
+        "numero": 34,
+        "titulo": "Correo electrónico."
+      },
+      {
+        "numero": 35,
+        "titulo": "Servicios de directorio LDAP y Active Directory"
+      },
+      {
+        "numero": 36,
+        "titulo": "Gestión de identidades. Single sign-on. Identidad federada (SIR2 y OAuth2). Acceso remoto a sistemas corporativos y teletrabajo."
+      },
+      {
+        "numero": 37,
+        "titulo": "La seguridad en el nivel de aplicación. Tipos de ataques y protección de servicios web, bases de datos e interfaces de usuario."
+      },
+      {
+        "numero": 38,
+        "titulo": "Seguridad en las redes. Tipos de ataques y herramientas para su prevención: cortafuegos, control de accesos e intrusiones."
+      },
+      {
+        "numero": 39,
+        "titulo": "Ciberseguridad. La estrategia nacional de ciberseguridad."
+      },
+      {
+        "numero": 40,
+        "titulo": "Sistemas de videoconferencia. Herramientas de trabajo en grupo. Dimensionamiento y calidad de servicio en las comunicaciones y acondicionamiento de salas y equipos. Streaming de video."
+      },
+      {
+        "numero": 41,
+        "titulo": "Herramientas de trabajo colaborativo y redes sociales."
+      },
+      {
+        "numero": 42,
+        "titulo": "Contenidos digitales para la docencia. Elementos de generación, almacenamiento, publicación y distribución."
+      },
+      {
+        "numero": 43,
+        "titulo": "Sistemas de gestión de contenidos (drupal y wordpress)."
+      },
+      {
+        "numero": 44,
+        "titulo": "Arquitectura de desarrollo en la web. Desarrollo web en cliente. Desarrollo web en servidor. Conexión a bases de datos e interconexión con sistemas y servicios. Servidores Web (Apache y Nginx) y de Aplicaciones (Weblogic)."
+      },
+      {
+        "numero": 45,
+        "titulo": "Entorno de desarrollo JAVA (J2EE)."
+      },
+      {
+        "numero": 46,
+        "titulo": "Entorno de desarrollo PHP."
+      },
+      {
+        "numero": 47,
+        "titulo": "Entorno de desarrollo Python (Django)."
+      },
+      {
+        "numero": 48,
+        "titulo": "Lenguajes y herramientas para el desarrollo de interfaces web. HTML CSS y XML."
+      },
+      {
+        "numero": 49,
+        "titulo": "El procesamiento cooperativo y la arquitectura cliente-servidor. Arquitectura orientada a servicios SOA. Servicios Web (SOAP, WSDL, UDDI, WSSecurity, REST)."
+      },
+      {
+        "numero": 50,
+        "titulo": "Técnicas de diseño de software. Diseño por capas y patrones de diseño."
+      },
+      {
+        "numero": 51,
+        "titulo": "Procesos de pruebas y garantía de calidad en el desarrollo de software. Planificación, estrategia de pruebas y estándares. Métricas y evaluación de la calidad del software."
+      },
+      {
+        "numero": 52,
+        "titulo": "Gestión de cambios en proyectos de desarrollo de software. Gestión de la configuración y de versiones. Gestión de entornos. Git."
+      },
+      {
+        "numero": 53,
+        "titulo": "Análisis funcional de sistemas, casos de uso e historias de usuario. Metodologías de desarrollo de sistemas. Metodologías ágiles: Scrum y Kanban."
+      },
+      {
+        "numero": 54,
+        "titulo": "Software de código abierto. Software libre. Conceptos base. Aplicaciones en entorno ofimático y servidores web."
+      },
+      {
+        "numero": 55,
+        "titulo": "Aplicaciones móviles. Características, tecnologías, distribución y tendencias."
+      },
+      {
+        "numero": 56,
+        "titulo": "La estimación de recursos y esfuerzo en el desarrollo de sistemas de información."
+      },
+      {
+        "numero": 57,
+        "titulo": "La migración de aplicaciones en el marco de procesos de ajuste dimensional y por obsolescencia técnica. Gestión de la configuración y de versiones. Gestión de entornos."
+      },
+      {
+        "numero": 58,
+        "titulo": "Mantenimiento de sistemas. Mantenimiento predictivo, adaptativo y correctivo. Planificación y gestión del mantenimiento."
+      },
+      {
+        "numero": 59,
+        "titulo": "Los sistemas de gestión de bases de datos SGBD (Oracle, MySQL, PostgreSQL). El modelo de referencia de ANSI. El modelo relacional. El lenguaje SQL. Normas y estándares para la interoperabilidad entre gestores de bases de datos relacionales."
+      },
+      {
+        "numero": 60,
+        "titulo": "Análisis del dominio de los sistemas: modelado de dominio modelo entidadrelación. Normalización de bases de datos."
+      },
+      {
+        "numero": 61,
+        "titulo": "Reutilización de la Información. Papel de las TIC en la implantación de políticas de datos abiertos y transparencia."
+      },
+      {
+        "numero": 62,
+        "titulo": "Objetivos y fundamentos de la administración Electrónica."
+      },
+      {
+        "numero": 63,
+        "titulo": "Acceso electrónico a las Administraciones públicas: sedes electrónicas, canales y puntos de acceso."
+      },
+      {
+        "numero": 64,
+        "titulo": "Identificación y autenticación. EIDAS. Cl@ve."
+      },
+      {
+        "numero": 65,
+        "titulo": "El cifrado. Criptografía simétrica y asimétrica. Algoritmos de encriptación y sistemas de cifrado. Blockchain."
+      },
+      {
+        "numero": 66,
+        "titulo": "Aplicaciones de la criptografía. Identificación digital. Firma electrónica."
+      },
+      {
+        "numero": 67,
+        "titulo": "Infraestructura de clave pública (PKI). Certificados digitales. Tipos de certificados. Entidades certificadoras. Formatos de firma electrónica."
+      },
+      {
+        "numero": 68,
+        "titulo": "Sistemas de verificación, custodia y recuperación de documentos firmados."
+      },
+      {
+        "numero": 69,
+        "titulo": "Las redes públicas de transmisión de datos: RedIRIS, redSARA."
+      },
+      {
+        "numero": 70,
+        "titulo": "Servicios comunes: Carpeta Ciudadana, Interconexión de registros, intermediación de datos. Notificación."
+      },
+      {
+        "numero": 71,
+        "titulo": "Gestión de recursos humanos, gestión económica y contratación."
+      },
+      {
+        "numero": 72,
+        "titulo": "Gestión académica y de la investigación. Gestión de la producción científica."
+      },
+      {
+        "numero": 73,
+        "titulo": "Gestor de solicitudes, expedientes, firma electrónica e identidad digital."
+      },
+      {
+        "numero": 74,
+        "titulo": "Gestión de servicios bibliotecarios, repositorio institucional y datos abiertos."
+      },
+      {
+        "numero": 75,
+        "titulo": "Plataforma de docencia virtual."
+      },
+      {
+        "numero": 76,
+        "titulo": "Inteligencia Artificial y Aprendizaje Automático: Aprendizaje supervisado, no supervisado y por refuerzo, arquitecturas neuronales y Transformers, IA generativa (LLMs), programación asistida y agentes, MLOps, ética y Reglamento Europeo de IA."
+      }
+    ]
+  }
+]

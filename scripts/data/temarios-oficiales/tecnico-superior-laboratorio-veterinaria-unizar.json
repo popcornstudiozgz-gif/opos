@@ -1,0 +1,324 @@
+[
+  {
+    "bloque": "Parte general",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "La Constitución Española."
+      },
+      {
+        "numero": 2,
+        "titulo": "Ley del Procedimiento Administrativo Común de las Administraciones Públicas: disposiciones generales; los interesados en el procedimiento; la actividad de las Administraciones Pública; los actos administrativos; las disposiciones sobre el procedimiento administrativo común."
+      },
+      {
+        "numero": 3,
+        "titulo": "Ley del Procedimiento Administrativo Común de las Administraciones Públicas: la tramitación simplificada del procedimiento administrativo común; ejecución; la revisión de los actos en vía administrativa; la iniciativa legislativa y la potestad para dictar reglamentos y otras disposiciones."
+      },
+      {
+        "numero": 4,
+        "titulo": "Ley del Régimen Jurídico del Sector Público: disposiciones generales; los órganos administrativos, competencia; funcionamiento de los órganos colegiados de las distintas administraciones públicas; abstención y recusación; principios de la potestad sancionadora; la responsabilidad patrimonial de las Administraciones Públicas; funcionamiento electrónico del sector público; los convenios."
+      },
+      {
+        "numero": 5,
+        "titulo": "Estatuto Básico del Empleado Público: objeto y ámbito de aplicación; personal al servicio de las Administraciones Públicas; derechos y deberes y código de conducta de los empleados públicos;"
+      },
+      {
+        "numero": 6,
+        "titulo": "Estatuto Básico del Empleado Público: adquisición y pérdida de la relación de servicio; ordenación de la actividad profesional; situaciones administrativas; régimen disciplinario; cooperación entre las Administraciones Públicas."
+      },
+      {
+        "numero": 7,
+        "titulo": "Reglamento general de protección de datos: definiciones y principios relativos al tratamiento. La política de seguridad de la información y protección de datos personales de la Universidad."
+      },
+      {
+        "numero": 8,
+        "titulo": "Ley Orgánica para la igualdad efectiva de mujeres y hombres: objeto y ámbito de la Ley; el principio de igualdad y la tutela contra la discriminación; el derecho al trabajo en igualdad de oportunidades; criterios de actuación de las Administraciones Públicas."
+      },
+      {
+        "numero": 9,
+        "titulo": "Ley de Incompatibilidades del personal al servicio de las administraciones públicas."
+      },
+      {
+        "numero": 10,
+        "titulo": "Estatutos de la Universidad de Zaragoza: disposiciones generales; la estructura de la Universidad; el gobierno y representación de la Universidad; el Defensor Universitario; la docencia e investigación; la comunidad universitaria; los servicios de asistencia a la comunidad universitaria; régimen económico, financiero y patrimonial; la reforma de los Estatutos."
+      },
+      {
+        "numero": 11,
+        "titulo": "Ley de Contratos del Sector Público: pliego de prescripciones técnicas particulares; definición de determinadas prescripciones técnicas; reglas para el establecimiento de prescripciones técnicas; etiquetas; informes de pruebas, certificación y otros medios de prueba."
+      },
+      {
+        "numero": 12,
+        "titulo": "El código ético de la Universidad de Zaragoza. El plan antifraude de la Universidad de Zaragoza. Protocolo de actuación frente a conflictos de intereses detectados de la Universidad de Zaragoza."
+      },
+      {
+        "numero": 13,
+        "titulo": "Bases de elaboración y ejecución del Presupuesto de la Universidad de Zaragoza. Régimen económico y financiera de las universidades públicas en la Ley Orgánica del Sistema Universitario."
+      },
+      {
+        "numero": 14,
+        "titulo": "El Pacto del personal funcionario de administración y servicios de la Universidad de Zaragoza. El Plan Concilia de la Universidad de Zaragoza."
+      }
+    ]
+  },
+  {
+    "bloque": "Parte específica",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "Legislación europea en materia de protección de los animales de experimentación: Directiva 86/609/CEE del Consejo, de 24 de noviembre, relativa a la aproximación de las disposiciones legales, reglamentarias y administrativas de los Estados miembros respecto a la protección de los animales utilizados para experimentación y otros fines científicos."
+      },
+      {
+        "numero": 2,
+        "titulo": "Legislación española sobre protección de animales de experimentación: RD1201/2005, de 10 de octubre, sobre protección de los animales utilizados para experimentación y otros fines científicos."
+      },
+      {
+        "numero": 3,
+        "titulo": "Ley 11/2003, de 19 de marzo, de protección animal en la Comunidad Autónoma de Aragón."
+      },
+      {
+        "numero": 4,
+        "titulo": "Comités de Ética: composición y funciones. Reglamento de la Comisión Ética Asesora para la Experimentación Animal de la Universidad de Zaragoza."
+      },
+      {
+        "numero": 5,
+        "titulo": "Principios éticos de la experimentación animal. Los principios de la técnica experimental de Russell y Burch."
+      },
+      {
+        "numero": 6,
+        "titulo": "Métodos alternativos. Generalidades, clasificación, características, aplicación, desarrollo y validación."
+      },
+      {
+        "numero": 7,
+        "titulo": "Personal implicado en la experimentación animal: categorías. Niveles, funciones, responsabilidades y formación requerida."
+      },
+      {
+        "numero": 8,
+        "titulo": "Bienestar animal: concepto e indicadores de bienestar."
+      },
+      {
+        "numero": 9,
+        "titulo": "Estrés. Factores estresantes. Indicadores de estrés. Influencia del estrés sobre los resultados experimentales."
+      },
+      {
+        "numero": 10,
+        "titulo": "Enriquecimiento ambiental y conducta animal. Principios y problemas metodológicos."
+      },
+      {
+        "numero": 11,
+        "titulo": "Controles sanitarios en unidades experimentales y de cría de animales de experimentación: consideraciones generales, frecuencia y tamaño muestral, métodos, muestras y agentes a monitorizar."
+      },
+      {
+        "numero": 12,
+        "titulo": "Criterios de punto final. Definición, criterios de aplicación."
+      },
+      {
+        "numero": 13,
+        "titulo": "Eutanasia en animales de experimentación: métodos aceptables, métodos aceptables en animales inconscientes y métodos no aceptables."
+      },
+      {
+        "numero": 14,
+        "titulo": "Métodos de eutanasia para cada especie: peces, anfibios, reptiles y aves."
+      },
+      {
+        "numero": 15,
+        "titulo": "Métodos de eutanasia para cada especie: roedores, conejos, carnívoros (perro, gato, hurón), grandes mamíferos (cerdo, oveja, cabra, caballo, ganado vacuno) y primates no humanos."
+      },
+      {
+        "numero": 16,
+        "titulo": "Principios básicos de farmacología y anestesia."
+      },
+      {
+        "numero": 17,
+        "titulo": "Inducción anestésica. Inducción intravenosa, inducción inhalatoria, intubación endotraqueal, etapas de la anestesia general, anestésicos fijos."
+      },
+      {
+        "numero": 18,
+        "titulo": "Mantenimiento anestésico. Mantenimiento por vía intravenosa, técnica de la infusión continua, mantenimiento por vía inhalatoria. Anestésicos volátiles."
+      },
+      {
+        "numero": 19,
+        "titulo": "Métodos de anestesia inhalatoria. Descripción de la máquina anestésica, sus componentes y sistemas de respiración."
+      },
+      {
+        "numero": 20,
+        "titulo": "Anestesia loco-regional. Anestesia por infiltración, paravertebral, epidural y subaracnoidea en las especies domésticas. Drogas empleadas."
+      },
+      {
+        "numero": 21,
+        "titulo": "Urgencias y accidentes anestésicos. Problemas anestésicos respiratorios, apnea, hipoventilación, respiración apnéustica."
+      },
+      {
+        "numero": 22,
+        "titulo": "Urgencias y accidentes anestésicos. Problemas anestésicos cardiocirculatorios, fibrilación y paro cardiaco, hipotensión, hipertensión."
+      },
+      {
+        "numero": 23,
+        "titulo": "Medidas de resucitación en anestesia."
+      },
+      {
+        "numero": 24,
+        "titulo": "Fluidoterapia y anestesia. Desequilibrios ácido-básicos.Soluciones cristaloides y coloides. Cálculo práctico en fluidoterapia."
+      },
+      {
+        "numero": 25,
+        "titulo": "Tratamiento del dolor perioperatorio y postoperatorio."
+      },
+      {
+        "numero": 26,
+        "titulo": "Seguridad e Higiene en el trabajo. Orden, limpieza, color y señalización. Factores de riesgo. Medidas de prevención y protección. Protección de máquinas. Protección personal. Actuaciones en casos de accidente. Primeros auxilios."
+      },
+      {
+        "numero": 27,
+        "titulo": "Nociones básicas de Salud Laboral y Prevención de Riesgos. Ley 31/1995 de Prevención de Riesgos Laborales: Objeto, ámbito de aplicación y definiciones. Consulta y participación de los trabajadores."
+      },
+      {
+        "numero": 28,
+        "titulo": "Monitorización del paciente en estado crítico: Monitorización cardiovascular. Monitorización del sistema respiratorio y del intercambio gaseoso. Monitorización de la función renal. Monitorización de la temperatura corporal. Valoración del dolor."
+      },
+      {
+        "numero": 29,
+        "titulo": "Reanimación cardiopulmonar: Indicaciones. Fases. Fármacos. Electrocardiografía y reanimación cardiopulmonar. Fibrilación y desfibrilación. Monitorización. Tratamiento de la isquemia cerebral tras la reanimación."
+      },
+      {
+        "numero": 30,
+        "titulo": "Anestesia en el paciente crítico: Valoración preoperatoria y estabilización. Preanestesia, inducción y mantenimiento en el paciente crítico. Bloqueantes neuromusculares. Monitorización y soporte intraoperatorio."
+      },
+      {
+        "numero": 31,
+        "titulo": "Analgesia en el paciente crítico: Reconocimiento y valoración del dolor. Drogas analgésicas. Analgesia local y regional."
+      },
+      {
+        "numero": 32,
+        "titulo": "Soporte nutricional del paciente en estado crítico: Indicaciones. Requerimientos nutricionales. Vías de soporte nutricional. Monitorización y complicaciones del soporte nutricional."
+      },
+      {
+        "numero": 33,
+        "titulo": "Terapia farmacológica del paciente en estado crítico: Reacciones farmacológicas adversas. Modificaciones de la farmacocinética en el paciente crítico. Terapia antimicrobiana."
+      },
+      {
+        "numero": 34,
+        "titulo": "Técnicas de urgencia: Técnicas en vías respiratorias. Oxigenoterapia. Ventilación asistida. Humidificación. Toracocentesis y drenaje torácico. Colocación de catéteres intravenosos e intraarteriales. Presión venosa central. Infusión intraósea. Pericardiocentesis. Técnicas gastrointestinales. Cateterización uretral. Cistocentesis."
+      },
+      {
+        "numero": 35,
+        "titulo": "Shock: Clasificación. Fisiopatología. Cuadro clínico. Pronóstico. Tratamiento."
+      },
+      {
+        "numero": 36,
+        "titulo": "Intoxicaciones: Reconocimiento y tratamiento del paciente intoxicado. Intoxicaciones específicas más frecuentes."
+      },
+      {
+        "numero": 37,
+        "titulo": "Introducción: Organización de la UCI y área de hospitalización. Valoración del paciente en urgencias y plan de tratamiento inicial."
+      },
+      {
+        "numero": 38,
+        "titulo": "Monitorización del paciente en estado crítico: Monitorización cardiovascular. Monitorización del sistema respiratorio y del intercambio gaseoso. Monitorización de la función renal. Monitorización de la temperatura corporal. Valoración del dolor."
+      },
+      {
+        "numero": 39,
+        "titulo": "Soporte nutricional del paciente en estado crítico: Indicaciones. Requerimientos nutricionales. Vías de soporte nutricional. Monitorización y complicaciones del soporte nutricional."
+      },
+      {
+        "numero": 40,
+        "titulo": "Terapia farmacológica del paciente en estado crítico: Reacciones farmacológicas adversas. Modificaciones de la farmacocinética en el paciente crítico. Terapia antimicrobiana."
+      },
+      {
+        "numero": 41,
+        "titulo": "Fluidoterapia: Homeostasis del fluido extracelular. y fisiopatología de la pérdida anómala de fluidos. Valoración clínica de la necesidad de fluidoterapia. Tipos de fluidos. Pautas de fluidoterapia"
+      },
+      {
+        "numero": 42,
+        "titulo": "Urgencias cardiovasculares: Insuficiencia cardíaca aguda. Colapso cardiovascular. Tromboembolismo. Hipertensión."
+      },
+      {
+        "numero": 43,
+        "titulo": "Urgencias urológicas: Insuficiencia renal aguda. Obstrucción del tracto urinario inferior."
+      },
+      {
+        "numero": 44,
+        "titulo": "Urgencias oftalmológicas: Glaucoma. Proptosis. Uveítis. Cuerpos extraños, úlceras y laceraciones corneales. Luxación del cristalino. Hipema. Conjuntivitis."
+      },
+      {
+        "numero": 45,
+        "titulo": "Urgencias neurológicas: Convulsiones y crisis epilépticas. Pérdida de la consciencia y coma. Encefalopatías metabólicas. Traumatismo craneal. Signos vestibulares y cerebelares. Parexias y parálisis. Debilidad episódica y síncope."
+      },
+      {
+        "numero": 46,
+        "titulo": "Abdomen agudo y urgencias gastrointestinales: Exploración inicial y reanimación. Urgencias esofágicas. Dilatación/Torsión gástrica. Obstrucción intestinal. Prolapso rectal. Pancreatitis. Piometra. Torsión uterina. Torsión testicular. Peritonitis. Hemoperitoneo."
+      },
+      {
+        "numero": 47,
+        "titulo": "Urgencias hematológicas: Anemia. Trastornos hemorrágicos. Hipercoagulación y trombosis."
+      },
+      {
+        "numero": 48,
+        "titulo": "Urgencias en reproducción y neonatología: Piometras. Hiperplasia vaginal. Urgencias en la hembra durante la gestación. Distocias. Urgencias en el postparto. Urgencias reproductivas en el macho. Urgencias en el neonato."
+      },
+      {
+        "numero": 49,
+        "titulo": "Tratamiento de traumatismos del sistema locomotor y de la piel: Heridas. Fracturas. Luxaciones. Síndrome del compartimento."
+      },
+      {
+        "numero": 50,
+        "titulo": "Urgencias metabólicas y endocrinas: Cetoacidosis diabética. Hiperadrenocorticalismo. Hipoglucemia. Trastornos del calcio, sodio y potasio. Desequilibrios ácido-básicos. Hipoproteinemia."
+      },
+      {
+        "numero": 51,
+        "titulo": "Urgencias dermatológicas: Celulitis juvenil. Dermatitis piotraumática. Urticaria y angioedema. Reacciones farmacológicas cutáneas. Eritema multiforme. Necrosis epidérmica tóxica. Dermatitis por contacto. Síndrome uveodermatológico. Quemaduras."
+      },
+      {
+        "numero": 52,
+        "titulo": "Enfermedades infecciosas y parasitarias: etiología, epidemiología, clasificación, fisiopatología, prevención, diagnóstico, tratamiento y pronóstico."
+      },
+      {
+        "numero": 53,
+        "titulo": "Alteraciones del sistema nervioso: etiología, epidemiología, clasificación, fisiopatología, prevención, diagnóstico, tratamiento y pronóstico."
+      },
+      {
+        "numero": 54,
+        "titulo": "Enfermedades del sistema endocrino: etiología, epidemiología, clasificación, fisiopatología, prevención, diagnóstico, tratamiento y pronóstico."
+      },
+      {
+        "numero": 55,
+        "titulo": "Alteraciones de la piel: etiología, epidemiología, clasificación, fisiopatología, prevención, diagnóstico, tratamiento y pronóstico."
+      },
+      {
+        "numero": 56,
+        "titulo": "Alteraciones oftalmológicas: etiología, epidemiología, clasificación, fisiopatología, prevención, diagnóstico, tratamiento y pronóstico."
+      },
+      {
+        "numero": 57,
+        "titulo": "Alteraciones del sistema hematopoyético: etiología, epidemiología, clasificación, fisiopatología, prevención, diagnóstico, tratamiento y pronóstico."
+      },
+      {
+        "numero": 58,
+        "titulo": "Alteraciones del aparato cardiovascular: etiología, epidemiología, clasificación, fisiopatología, prevención, diagnóstico, tratamiento y pronóstico."
+      },
+      {
+        "numero": 59,
+        "titulo": "Alteraciones de vías respiratorias altas: etiología, epidemiología, clasificación, fisiopatología, prevención, diagnóstico, tratamiento y pronóstico."
+      },
+      {
+        "numero": 60,
+        "titulo": "Enfermedades no infecciosas del tracto respiratorio inferior: etiología, epidemiología, clasificación, fisiopatología, prevención, diagnóstico, tratamiento y pronóstico."
+      },
+      {
+        "numero": 61,
+        "titulo": "Enfermedades respiratorias de naturaleza infecciosa: etiología, epidemiología, clasificación, fisiopatología, prevención, diagnóstico, tratamiento y pronóstico."
+      },
+      {
+        "numero": 62,
+        "titulo": "Nutrición y alimentación animal. Alimentos para el ganado."
+      },
+      {
+        "numero": 63,
+        "titulo": "Radiografía Dental Básica: Equipamiento. Exposición. Posicionamiento."
+      },
+      {
+        "numero": 64,
+        "titulo": "Radioprotección: Efectos de la radiación sobre el organismo. Fuentes de radiación. dispositivos de control. Minimización de la exposición."
+      }
+    ]
+  }
+]

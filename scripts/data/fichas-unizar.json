@@ -1,0 +1,1604 @@
+[
+  {
+    "fuente_id": "u13",
+    "grupo": "Administración y gestión",
+    "oposicion": {
+      "slug": "auxiliar-administrativo-unizar",
+      "nombre": "Auxiliar Administrativo/a (Escala Auxiliar)",
+      "puesto_slug": "auxiliar-administrativo",
+      "descripcion_corta": "Oposición de Auxiliar Administrativo/a (Escala Auxiliar) de la Universidad de Zaragoza: plazas, requisitos, examen y temario oficial.",
+      "descripcion_larga": "Plazas de personal funcionario técnico, de gestión y de administración y servicios (PTGAS) de la Universidad de Zaragoza, subgrupo C2. Requisito de titulación: estar en posesión o en condiciones de obtener el título de Graduado en Educación Secundaria Obligatoria o equivalente. La convocatoria OPO-25/2025 (BOA núm. 94, de 20 de mayo de 2025) es de 8 plazas. El programa tiene 22 temas y la oposición, 2 ejercicios eliminatorios. A la vez se convocaron, por Resolución de 8 de mayo de 2025 (OPO-26/2025), otras 3 plazas de la Escala Auxiliar con requisito de idioma inglés, con el mismo tipo de examen y el mismo temario."
+    },
+    "convocatoria": {
+      "oposicion_slug": "auxiliar-administrativo-unizar",
+      "numero": "OPO-25/2025",
+      "plaza": "Auxiliar Administrativo/a (Escala Auxiliar) — PTGAS funcionario de la Universidad de Zaragoza, subgrupo C2",
+      "fecha_decreto": "9 de mayo de 2025",
+      "sistema_seleccion": "Oposición libre, con dos ejercicios eliminatorios",
+      "requisito_titulacion": "Estar en posesión o en condiciones de obtener el título de Graduado en Educación Secundaria Obligatoria o equivalente.",
+      "plazo_instancias": "Veinte días naturales a partir del día siguiente a la publicación de la convocatoria en el BOE. Convocatoria publicada en el BOA núm. 94, de 20 de mayo de 2025; plazo ya cerrado. Solicitud en sede.unizar.es y tasa de 12,76 €.",
+      "duracion_maxima_proceso": "Las bases no fijan una duración máxima. El primer ejercicio no puede celebrarse antes de tres meses desde la publicación de la convocatoria en el BOE.",
+      "orden_actuacion": "Las bases no indican letra de orden de actuación; los ejercicios se hacen en llamamiento único.",
+      "plazas_total": 8,
+      "desglose_plazas": [
+        {
+          "turno": "Turno libre",
+          "cantidad": 7
+        },
+        {
+          "turno": "Reserva para personas con discapacidad",
+          "cantidad": 1
+        }
+      ],
+      "enlaces_oficiales": [
+        {
+          "titulo": "Convocatoria OPO-25/2025 (BOA núm. 94, 20 de mayo de 2025)",
+          "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1394144160909"
+        },
+        {
+          "titulo": "Sede electrónica de la Universidad de Zaragoza (solicitudes y tablón de anuncios e-TOUZ)",
+          "url": "https://sede.unizar.es"
+        }
+      ],
+      "pruebas": [
+        {
+          "id": "ejercicio-test",
+          "icono": "📝",
+          "numero": 1,
+          "nombre": "Primer ejercicio (test)",
+          "formato": "Test de hasta 100 preguntas sobre el programa",
+          "duracion": "60 minutos",
+          "opciones": "De 0 a 30 puntos",
+          "detalle": "Cuatro respuestas por pregunta y solo una correcta; cada error resta un tercio de acierto. Hay que llegar al 50 % y, de entre quienes lo hagan, pasa el número que fije el tribunal."
+        },
+        {
+          "id": "ejercicio-ofimatica",
+          "icono": "💻",
+          "numero": 2,
+          "nombre": "Segundo ejercicio (ofimática)",
+          "formato": "Elaboración de documentos con Microsoft Word 2021 y tratamiento de datos con Microsoft Excel 2021",
+          "duracion": "120 minutos en total",
+          "opciones": "De 0 a 70 puntos (35 por parte)",
+          "detalle": "Se valoran el manejo de la aplicación, la exactitud, la presentación y la ortografía. Hay que sacar al menos 35 puntos y el 50 % de cada parte."
+        }
+      ],
+      "estado": "cerrada",
+      "plazo_fin": null
+    }
+  },
+  {
+    "fuente_id": "u05",
+    "grupo": "Administración y gestión",
+    "oposicion": {
+      "slug": "gestion-idiomas-unizar",
+      "nombre": "Gestión con idiomas (Escala de Gestión)",
+      "puesto_slug": "gestion-idiomas",
+      "descripcion_corta": "Oposición de Gestión con idiomas (Escala de Gestión) de la Universidad de Zaragoza: plazas, requisitos, examen y temario oficial.",
+      "descripcion_larga": "Plazas de personal funcionario técnico, de gestión y de administración y servicios (PTGAS) de la Universidad de Zaragoza, subgrupo A2. Requisito de titulación: estar en posesión o en condiciones de obtener el título universitario de Grado, Diplomado, Ingeniero Técnico, Arquitecto Técnico o titulación equivalente. La convocatoria OPO-07/2026 (BOA núm. 117, de 22 de junio de 2026) es de 2 plazas, 1 de turno libre. El programa tiene 67 temas y la oposición, 3 ejercicios eliminatorios."
+    },
+    "convocatoria": {
+      "oposicion_slug": "gestion-idiomas-unizar",
+      "numero": "OPO-07/2026",
+      "plaza": "Gestión con idiomas (Escala de Gestión) — PTGAS funcionario de la Universidad de Zaragoza, subgrupo A2",
+      "fecha_decreto": "4 de junio de 2026",
+      "sistema_seleccion": "Oposición libre, con tres ejercicios eliminatorios",
+      "requisito_titulacion": "Estar en posesión o en condiciones de obtener el título universitario de Grado, Diplomado, Ingeniero Técnico, Arquitecto Técnico o titulación equivalente.",
+      "plazo_instancias": "Veinte días naturales a partir del día siguiente a la publicación de la convocatoria en el BOE. Convocatoria publicada en el BOA núm. 117, de 22 de junio de 2026; plazo ya cerrado. Solicitud en sede.unizar.es y tasa de 28,90 €.",
+      "duracion_maxima_proceso": "Las bases no fijan una duración máxima. El primer ejercicio no puede celebrarse antes de tres meses desde la publicación de la convocatoria en el BOE.",
+      "orden_actuacion": "Por orden alfabético, empezando por la letra «W» según el sorteo que cita la convocatoria.",
+      "plazas_total": 2,
+      "desglose_plazas": [
+        {
+          "turno": "Turno libre",
+          "cantidad": 1
+        },
+        {
+          "turno": "Promoción interna (solo personal de la Universidad)",
+          "cantidad": 1
+        }
+      ],
+      "enlaces_oficiales": [
+        {
+          "titulo": "Convocatoria OPO-07/2026 (BOA núm. 117, 22 de junio de 2026)",
+          "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1453648690404"
+        },
+        {
+          "titulo": "Sede electrónica de la Universidad de Zaragoza (solicitudes y tablón de anuncios e-TOUZ)",
+          "url": "https://sede.unizar.es"
+        }
+      ],
+      "pruebas": [
+        {
+          "id": "ejercicio-tema",
+          "icono": "✍️",
+          "numero": 1,
+          "nombre": "Primer ejercicio (tema por escrito)",
+          "formato": "Desarrollo por escrito de un tema a elegir entre cuatro sacados al azar del programa (dos de los bloques 1-2 y dos de los bloques 3-4)",
+          "duracion": "3 horas",
+          "opciones": "De 0 a 35 puntos",
+          "detalle": "Se lee en sesión pública ante el tribunal. Se valoran la formación, el orden de las ideas y la expresión."
+        },
+        {
+          "id": "ejercicio-cuestiones",
+          "icono": "🧠",
+          "numero": 2,
+          "nombre": "Segundo ejercicio (cuestiones teórico-prácticas)",
+          "formato": "Preguntas de respuesta libre sobre el programa y las funciones de la plaza",
+          "duracion": "5 horas como máximo",
+          "opciones": "De 0 a 35 puntos",
+          "detalle": "El tribunal indica el valor de cada pregunta. Se valoran el análisis, la expresión escrita y el conocimiento del programa."
+        },
+        {
+          "id": "ejercicio-traduccion",
+          "icono": "🌐",
+          "numero": 3,
+          "nombre": "Tercer ejercicio (inglés)",
+          "formato": "Traducción directa de un texto de 250 palabras del castellano al inglés e inversa de otro de 250 palabras del inglés al castellano",
+          "duracion": "90 minutos",
+          "opciones": "De 0 a 30 puntos",
+          "detalle": "Forma parte de la oposición, que suma hasta 100 puntos."
+        }
+      ],
+      "estado": "cerrada",
+      "plazo_fin": null
+    }
+  },
+  {
+    "fuente_id": "u02",
+    "grupo": "Informática",
+    "oposicion": {
+      "slug": "tecnico-medio-informatica-unizar",
+      "nombre": "Técnico/a Medio/a de Informática",
+      "puesto_slug": "tecnico-medio-informatica",
+      "descripcion_corta": "Oposición de Técnico/a Medio/a de Informática de la Universidad de Zaragoza: plazas, requisitos, examen y temario oficial.",
+      "descripcion_larga": "Plazas de personal funcionario técnico, de gestión y de administración y servicios (PTGAS) de la Universidad de Zaragoza, subgrupo A2. Requisito de titulación: estar en posesión o en condiciones de obtener el título universitario de Grado, Diplomado, Ingeniero Técnico, Arquitecto Técnico o titulación equivalente. La convocatoria OPO-15/2026 (BOA núm. 214, de 5 de noviembre de 2026) es de 15 plazas, 8 de turno libre. El programa tiene 78 temas y la oposición, 3 ejercicios eliminatorios más una fase de méritos. De las 8 plazas de turno libre, una se cubre por oposición (con la mejor nota) y siete por concurso-oposición. El plazo de solicitudes se abrirá cuando la convocatoria salga en el BOE."
+    },
+    "convocatoria": {
+      "oposicion_slug": "tecnico-medio-informatica-unizar",
+      "numero": "OPO-15/2026",
+      "plaza": "Técnico/a Medio/a de Informática — PTGAS funcionario de la Universidad de Zaragoza, subgrupo A2",
+      "fecha_decreto": "21 de octubre de 2026",
+      "sistema_seleccion": "Turno libre: una plaza por oposición y siete por concurso-oposición (tres ejercicios eliminatorios y, para las de concurso-oposición, valoración de méritos)",
+      "requisito_titulacion": "Estar en posesión o en condiciones de obtener el título universitario de Grado, Diplomado, Ingeniero Técnico, Arquitecto Técnico o titulación equivalente.",
+      "plazo_instancias": "Veinte días naturales a partir del día siguiente a la publicación de la convocatoria en el BOE. A 12 de noviembre de 2026 la convocatoria ya está en el BOA (núm. 214, de 5 de noviembre de 2026) pero aún no se ha publicado en el BOE, así que el plazo todavía no ha empezado. Solicitud en sede.unizar.es y tasa de 28,90 €.",
+      "duracion_maxima_proceso": "Las bases no fijan una duración máxima. El primer ejercicio no puede celebrarse antes de tres meses desde la publicación de la convocatoria en el BOE.",
+      "orden_actuacion": "Por orden alfabético, empezando por la letra «W» según el sorteo que cita la convocatoria.",
+      "plazas_total": 15,
+      "desglose_plazas": [
+        {
+          "turno": "Turno libre",
+          "cantidad": 8
+        },
+        {
+          "turno": "Promoción interna (solo personal de la Universidad)",
+          "cantidad": 7
+        }
+      ],
+      "enlaces_oficiales": [
+        {
+          "titulo": "Convocatoria OPO-15/2026 (BOA núm. 214, 5 de noviembre de 2026)",
+          "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1473331120707"
+        },
+        {
+          "titulo": "Sede electrónica de la Universidad de Zaragoza (solicitudes y tablón de anuncios e-TOUZ)",
+          "url": "https://sede.unizar.es"
+        }
+      ],
+      "pruebas": [
+        {
+          "id": "ejercicio-test",
+          "icono": "📝",
+          "numero": 1,
+          "nombre": "Primer ejercicio (test)",
+          "formato": "Test de 100 preguntas sobre el programa (el 20 % de la parte general)",
+          "duracion": "90 minutos",
+          "opciones": "De 0 a 25 puntos",
+          "detalle": "Cuatro respuestas por pregunta y solo una correcta; cada error resta un tercio de acierto."
+        },
+        {
+          "id": "ejercicio-cuestiones",
+          "icono": "🧠",
+          "numero": 2,
+          "nombre": "Segundo ejercicio (cuestiones teórico-prácticas)",
+          "formato": "Preguntas de respuesta libre sobre el programa y las funciones de la plaza",
+          "duracion": "5 horas como máximo",
+          "opciones": "De 0 a 25 puntos",
+          "detalle": "El tribunal indica el valor de cada pregunta. Se valoran el análisis, la expresión escrita y el conocimiento del programa."
+        },
+        {
+          "id": "ejercicio-supuesto",
+          "icono": "📋",
+          "numero": 3,
+          "nombre": "Tercer ejercicio (supuesto práctico)",
+          "formato": "Un supuesto práctico a elegir entre dos sobre la parte específica y las funciones de la plaza",
+          "duracion": "5 horas como máximo",
+          "opciones": "De 0 a 20 puntos",
+          "detalle": "Se lee en sesión pública ante el tribunal. Se valoran el rigor, la sistemática y la claridad de la propuesta."
+        },
+        {
+          "id": "fase-concurso",
+          "icono": "🏅",
+          "numero": 4,
+          "nombre": "Fase de concurso (méritos)",
+          "formato": "Valoración de méritos",
+          "duracion": "No es un examen",
+          "opciones": "Hasta 30 puntos",
+          "detalle": "Solo para quien supera la oposición: servicios prestados en universidades y otras administraciones, ejercicios aprobados en procesos anteriores de la misma escala y trabajo desarrollado en la Universidad, según la convocatoria. Los puntos no sirven para aprobar los ejercicios."
+        }
+      ],
+      "estado": "pendiente_publicacion",
+      "plazo_fin": null
+    }
+  },
+  {
+    "fuente_id": "u06",
+    "grupo": "Informática",
+    "oposicion": {
+      "slug": "tecnico-superior-informatica-unizar",
+      "nombre": "Técnico/a Superior de Informática",
+      "puesto_slug": "tecnico-superior-informatica",
+      "descripcion_corta": "Oposición de Técnico/a Superior de Informática de la Universidad de Zaragoza: plazas, requisitos, examen y temario oficial.",
+      "descripcion_larga": "Plazas de personal funcionario técnico, de gestión y de administración y servicios (PTGAS) de la Universidad de Zaragoza, subgrupo A1. Requisito de titulación: estar en posesión o en condiciones de obtener el título universitario de Grado, Licenciado, Ingeniero, Arquitecto o titulación equivalente. La convocatoria OPO-06/2026 (BOA núm. 114, de 17 de junio de 2026) es de 8 plazas, 4 de turno libre. El programa tiene 88 temas y la oposición, 3 ejercicios eliminatorios más una fase de méritos. De las 4 plazas de turno libre, dos se cubren por oposición y dos por concurso-oposición."
+    },
+    "convocatoria": {
+      "oposicion_slug": "tecnico-superior-informatica-unizar",
+      "numero": "OPO-06/2026",
+      "plaza": "Técnico/a Superior de Informática — PTGAS funcionario de la Universidad de Zaragoza, subgrupo A1",
+      "fecha_decreto": "8 de junio de 2026",
+      "sistema_seleccion": "Turno libre: dos plazas por oposición y dos por concurso-oposición (tres ejercicios eliminatorios y, para las de concurso-oposición, valoración de méritos)",
+      "requisito_titulacion": "Estar en posesión o en condiciones de obtener el título universitario de Grado, Licenciado, Ingeniero, Arquitecto o titulación equivalente.",
+      "plazo_instancias": "Veinte días naturales a partir del día siguiente a la publicación de la convocatoria en el BOE. Convocatoria publicada en el BOA núm. 114, de 17 de junio de 2026; plazo ya cerrado. Solicitud en sede.unizar.es y tasa de 39,98 €.",
+      "duracion_maxima_proceso": "Las bases no fijan una duración máxima. El primer ejercicio no puede celebrarse antes de tres meses desde la publicación de la convocatoria en el BOE.",
+      "orden_actuacion": "Por orden alfabético, empezando por la letra «W» según el sorteo que cita la convocatoria.",
+      "plazas_total": 8,
+      "desglose_plazas": [
+        {
+          "turno": "Turno libre",
+          "cantidad": 4
+        },
+        {
+          "turno": "Promoción interna (solo personal de la Universidad)",
+          "cantidad": 4
+        }
+      ],
+      "enlaces_oficiales": [
+        {
+          "titulo": "Convocatoria OPO-06/2026 (BOA núm. 114, 17 de junio de 2026)",
+          "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1453037850404"
+        },
+        {
+          "titulo": "Sede electrónica de la Universidad de Zaragoza (solicitudes y tablón de anuncios e-TOUZ)",
+          "url": "https://sede.unizar.es"
+        }
+      ],
+      "pruebas": [
+        {
+          "id": "ejercicio-test",
+          "icono": "📝",
+          "numero": 1,
+          "nombre": "Primer ejercicio (test)",
+          "formato": "Test de 100 preguntas sobre el programa (el 20 % de la parte general)",
+          "duracion": "90 minutos",
+          "opciones": "De 0 a 25 puntos",
+          "detalle": "Cuatro respuestas por pregunta y solo una correcta; cada error resta un tercio de acierto."
+        },
+        {
+          "id": "ejercicio-cuestiones",
+          "icono": "🧠",
+          "numero": 2,
+          "nombre": "Segundo ejercicio (cuestiones teórico-prácticas)",
+          "formato": "Preguntas de respuesta libre sobre el programa y las funciones de la plaza",
+          "duracion": "5 horas como máximo",
+          "opciones": "De 0 a 25 puntos",
+          "detalle": "El tribunal indica el valor de cada pregunta. Se valoran el análisis, la expresión escrita y el conocimiento del programa."
+        },
+        {
+          "id": "ejercicio-supuesto",
+          "icono": "📋",
+          "numero": 3,
+          "nombre": "Tercer ejercicio (supuesto práctico)",
+          "formato": "Un supuesto práctico a elegir entre dos sobre la parte específica y las funciones de la plaza",
+          "duracion": "5 horas como máximo",
+          "opciones": "De 0 a 20 puntos",
+          "detalle": "Se lee en sesión pública ante el tribunal. Se valoran el rigor, la sistemática y la claridad de la propuesta."
+        },
+        {
+          "id": "fase-concurso",
+          "icono": "🏅",
+          "numero": 4,
+          "nombre": "Fase de concurso (méritos)",
+          "formato": "Valoración de méritos",
+          "duracion": "No es un examen",
+          "opciones": "Hasta 30 puntos",
+          "detalle": "Solo para quien supera la oposición: servicios prestados en universidades y otras administraciones, ejercicios aprobados en procesos anteriores de la misma escala y trabajo desarrollado en la Universidad, según la convocatoria. Los puntos no sirven para aprobar los ejercicios."
+        }
+      ],
+      "estado": "cerrada",
+      "plazo_fin": null
+    }
+  },
+  {
+    "fuente_id": "u00",
+    "grupo": "Archivos, bibliotecas e idiomas",
+    "oposicion": {
+      "slug": "ayudante-archivos-bibliotecas-unizar",
+      "nombre": "Ayudante de Archivos y Bibliotecas",
+      "puesto_slug": "ayudante-archivos-bibliotecas",
+      "descripcion_corta": "Oposición de Ayudante de Archivos y Bibliotecas de la Universidad de Zaragoza: plazas, requisitos, examen y temario oficial.",
+      "descripcion_larga": "Plazas de personal funcionario técnico, de gestión y de administración y servicios (PTGAS) de la Universidad de Zaragoza, subgrupo A2. Requisito de titulación: estar en posesión o en condiciones de obtener el título universitario de Grado, Diplomado, Ingeniero Técnico, Arquitecto Técnico o titulación equivalente. La convocatoria OPO-17/2026 (BOA núm. 216, de 9 de noviembre de 2026) es de 3 plazas, 2 de turno libre. El programa tiene 64 temas y la oposición, 3 ejercicios eliminatorios más una fase de méritos. El plazo de solicitudes se abrirá cuando la convocatoria salga en el BOE."
+    },
+    "convocatoria": {
+      "oposicion_slug": "ayudante-archivos-bibliotecas-unizar",
+      "numero": "OPO-17/2026",
+      "plaza": "Ayudante de Archivos y Bibliotecas — PTGAS funcionario de la Universidad de Zaragoza, subgrupo A2",
+      "fecha_decreto": "23 de octubre de 2026",
+      "sistema_seleccion": "Concurso-oposición: tres ejercicios eliminatorios y valoración de méritos",
+      "requisito_titulacion": "Estar en posesión o en condiciones de obtener el título universitario de Grado, Diplomado, Ingeniero Técnico, Arquitecto Técnico o titulación equivalente.",
+      "plazo_instancias": "Veinte días naturales a partir del día siguiente a la publicación de la convocatoria en el BOE. A 12 de noviembre de 2026 la convocatoria ya está en el BOA (núm. 216, de 9 de noviembre de 2026) pero aún no se ha publicado en el BOE, así que el plazo todavía no ha empezado. Solicitud en sede.unizar.es y tasa de 28,90 €.",
+      "duracion_maxima_proceso": "Las bases no fijan una duración máxima. El primer ejercicio no puede celebrarse antes de tres meses desde la publicación de la convocatoria en el BOE.",
+      "orden_actuacion": "Por orden alfabético, empezando por la letra «W» según el sorteo que cita la convocatoria.",
+      "plazas_total": 3,
+      "desglose_plazas": [
+        {
+          "turno": "Turno libre",
+          "cantidad": 2
+        },
+        {
+          "turno": "Promoción interna (solo personal de la Universidad)",
+          "cantidad": 1
+        }
+      ],
+      "enlaces_oficiales": [
+        {
+          "titulo": "Convocatoria OPO-17/2026 (BOA núm. 216, 9 de noviembre de 2026)",
+          "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1473860850505"
+        },
+        {
+          "titulo": "Sede electrónica de la Universidad de Zaragoza (solicitudes y tablón de anuncios e-TOUZ)",
+          "url": "https://sede.unizar.es"
+        }
+      ],
+      "pruebas": [
+        {
+          "id": "ejercicio-tema",
+          "icono": "✍️",
+          "numero": 1,
+          "nombre": "Primer ejercicio (tema por escrito)",
+          "formato": "Desarrollo por escrito de un tema a elegir entre cuatro sacados al azar de la parte específica",
+          "duracion": "3 horas",
+          "opciones": "De 0 a 25 puntos",
+          "detalle": "Se lee en sesión pública ante el tribunal. Se valoran la formación, el orden de las ideas y la expresión."
+        },
+        {
+          "id": "ejercicio-cuestiones",
+          "icono": "🧠",
+          "numero": 2,
+          "nombre": "Segundo ejercicio (cuestiones teórico-prácticas)",
+          "formato": "Preguntas de respuesta libre sobre el programa y las funciones de la plaza",
+          "duracion": "5 horas como máximo",
+          "opciones": "De 0 a 25 puntos",
+          "detalle": "El tribunal indica el valor de cada pregunta. Se valoran el análisis, la expresión escrita y el conocimiento del programa."
+        },
+        {
+          "id": "ejercicio-supuesto",
+          "icono": "📋",
+          "numero": 3,
+          "nombre": "Tercer ejercicio (supuesto práctico)",
+          "formato": "Un supuesto práctico a elegir entre dos sobre la parte específica y las funciones de la plaza",
+          "duracion": "5 horas como máximo",
+          "opciones": "De 0 a 20 puntos",
+          "detalle": "Se lee en sesión pública ante el tribunal. Se valoran el rigor, la sistemática y la claridad de la propuesta."
+        },
+        {
+          "id": "fase-concurso",
+          "icono": "🏅",
+          "numero": 4,
+          "nombre": "Fase de concurso (méritos)",
+          "formato": "Valoración de méritos",
+          "duracion": "No es un examen",
+          "opciones": "Hasta 30 puntos",
+          "detalle": "Solo para quien supera la oposición: servicios prestados en universidades y otras administraciones, ejercicios aprobados en procesos anteriores de la misma escala y trabajo desarrollado en la Universidad, según la convocatoria. Los puntos no sirven para aprobar los ejercicios."
+        }
+      ],
+      "estado": "pendiente_publicacion",
+      "plazo_fin": null
+    }
+  },
+  {
+    "fuente_id": "u01",
+    "grupo": "Archivos, bibliotecas e idiomas",
+    "oposicion": {
+      "slug": "facultativo-archivos-bibliotecas-unizar",
+      "nombre": "Facultativo/a de Archivos y Bibliotecas",
+      "puesto_slug": "facultativo-archivos-bibliotecas",
+      "descripcion_corta": "Oposición de Facultativo/a de Archivos y Bibliotecas de la Universidad de Zaragoza: plazas, requisitos, examen y temario oficial.",
+      "descripcion_larga": "Plazas de personal funcionario técnico, de gestión y de administración y servicios (PTGAS) de la Universidad de Zaragoza, subgrupo A1. Requisito de titulación: estar en posesión o en condiciones de obtener el título universitario de Grado, Licenciado, Ingeniero, Arquitecto o titulación equivalente. La convocatoria OPO-16/2026 (BOA núm. 216, de 9 de noviembre de 2026) es de 5 plazas, 3 de turno libre. El programa tiene 84 temas y la oposición, 3 ejercicios eliminatorios más una fase de méritos. El plazo de solicitudes se abrirá cuando la convocatoria salga en el BOE."
+    },
+    "convocatoria": {
+      "oposicion_slug": "facultativo-archivos-bibliotecas-unizar",
+      "numero": "OPO-16/2026",
+      "plaza": "Facultativo/a de Archivos y Bibliotecas — PTGAS funcionario de la Universidad de Zaragoza, subgrupo A1",
+      "fecha_decreto": "27 de octubre de 2026",
+      "sistema_seleccion": "Concurso-oposición: tres ejercicios eliminatorios y valoración de méritos",
+      "requisito_titulacion": "Estar en posesión o en condiciones de obtener el título universitario de Grado, Licenciado, Ingeniero, Arquitecto o titulación equivalente.",
+      "plazo_instancias": "Veinte días naturales a partir del día siguiente a la publicación de la convocatoria en el BOE. A 12 de noviembre de 2026 la convocatoria ya está en el BOA (núm. 216, de 9 de noviembre de 2026) pero aún no se ha publicado en el BOE, así que el plazo todavía no ha empezado. Solicitud en sede.unizar.es y tasa de 39,98 €.",
+      "duracion_maxima_proceso": "Las bases no fijan una duración máxima. El primer ejercicio no puede celebrarse antes de tres meses desde la publicación de la convocatoria en el BOE.",
+      "orden_actuacion": "Por orden alfabético, empezando por la letra «W» según el sorteo que cita la convocatoria.",
+      "plazas_total": 5,
+      "desglose_plazas": [
+        {
+          "turno": "Turno libre",
+          "cantidad": 3
+        },
+        {
+          "turno": "Promoción interna (solo personal de la Universidad)",
+          "cantidad": 2
+        }
+      ],
+      "enlaces_oficiales": [
+        {
+          "titulo": "Convocatoria OPO-16/2026 (BOA núm. 216, 9 de noviembre de 2026)",
+          "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1473864890505"
+        },
+        {
+          "titulo": "Sede electrónica de la Universidad de Zaragoza (solicitudes y tablón de anuncios e-TOUZ)",
+          "url": "https://sede.unizar.es"
+        }
+      ],
+      "pruebas": [
+        {
+          "id": "ejercicio-tema",
+          "icono": "✍️",
+          "numero": 1,
+          "nombre": "Primer ejercicio (tema por escrito)",
+          "formato": "Desarrollo por escrito de un tema a elegir entre cuatro sacados al azar de la parte específica",
+          "duracion": "3 horas",
+          "opciones": "De 0 a 25 puntos",
+          "detalle": "Se lee en sesión pública ante el tribunal. Se valoran la formación, el orden de las ideas y la expresión."
+        },
+        {
+          "id": "ejercicio-cuestiones",
+          "icono": "🧠",
+          "numero": 2,
+          "nombre": "Segundo ejercicio (cuestiones teórico-prácticas)",
+          "formato": "Preguntas de respuesta libre sobre el programa y las funciones de la plaza",
+          "duracion": "5 horas como máximo",
+          "opciones": "De 0 a 25 puntos",
+          "detalle": "El tribunal indica el valor de cada pregunta. Se valoran el análisis, la expresión escrita y el conocimiento del programa."
+        },
+        {
+          "id": "ejercicio-supuesto",
+          "icono": "📋",
+          "numero": 3,
+          "nombre": "Tercer ejercicio (supuesto práctico)",
+          "formato": "Un supuesto práctico a elegir entre dos sobre la parte específica y las funciones de la plaza",
+          "duracion": "5 horas como máximo",
+          "opciones": "De 0 a 20 puntos",
+          "detalle": "Se lee en sesión pública ante el tribunal. Se valoran el rigor, la sistemática y la claridad de la propuesta."
+        },
+        {
+          "id": "fase-concurso",
+          "icono": "🏅",
+          "numero": 4,
+          "nombre": "Fase de concurso (méritos)",
+          "formato": "Valoración de méritos",
+          "duracion": "No es un examen",
+          "opciones": "Hasta 30 puntos",
+          "detalle": "Solo para quien supera la oposición: servicios prestados en universidades y otras administraciones, ejercicios aprobados en procesos anteriores de la misma escala y trabajo desarrollado en la Universidad, según la convocatoria. Los puntos no sirven para aprobar los ejercicios."
+        }
+      ],
+      "estado": "pendiente_publicacion",
+      "plazo_fin": null
+    }
+  },
+  {
+    "fuente_id": "u08",
+    "grupo": "Archivos, bibliotecas e idiomas",
+    "oposicion": {
+      "slug": "tecnico-superior-idiomas-unizar",
+      "nombre": "Técnico/a Superior de Idiomas",
+      "puesto_slug": "tecnico-superior-idiomas",
+      "descripcion_corta": "Oposición de Técnico/a Superior de Idiomas de la Universidad de Zaragoza: plazas, requisitos, examen y temario oficial.",
+      "descripcion_larga": "Plazas de personal funcionario técnico, de gestión y de administración y servicios (PTGAS) de la Universidad de Zaragoza, subgrupo A1. Requisito de titulación: estar en posesión o en condiciones de obtener el título universitario de Grado, Licenciado, Ingeniero, Arquitecto o titulación equivalente. La convocatoria OPO-04/2026 (BOA núm. 109, de 10 de junio de 2026) es de 6 plazas. El programa tiene una parte general común y una parte específica por idioma y la oposición, 3 ejercicios eliminatorios más una fase de méritos. Las seis plazas se reparten por idiomas: una de inglés, dos de francés, una de alemán, una de griego y una de italiano. Cada idioma tiene su propia parte específica del temario."
+    },
+    "convocatoria": {
+      "oposicion_slug": "tecnico-superior-idiomas-unizar",
+      "numero": "OPO-04/2026",
+      "plaza": "Técnico/a Superior de Idiomas — PTGAS funcionario de la Universidad de Zaragoza, subgrupo A1",
+      "fecha_decreto": "25 de mayo de 2026",
+      "sistema_seleccion": "Concurso-oposición en Inglés, Francés, Alemán y Griego (tres ejercicios y méritos); oposición en Italiano",
+      "requisito_titulacion": "Estar en posesión o en condiciones de obtener el título universitario de Grado, Licenciado, Ingeniero, Arquitecto o titulación equivalente.",
+      "plazo_instancias": "Veinte días naturales a partir del día siguiente a la publicación de la convocatoria en el BOE. Convocatoria publicada en el BOA núm. 109, de 10 de junio de 2026; plazo ya cerrado. Solicitud en sede.unizar.es y tasa de 39,98 €.",
+      "duracion_maxima_proceso": "Las bases no fijan una duración máxima. El primer ejercicio no puede celebrarse antes de tres meses desde la publicación de la convocatoria en el BOE.",
+      "orden_actuacion": "Por orden alfabético, empezando por la letra «W» según el sorteo que cita la convocatoria.",
+      "plazas_total": 6,
+      "desglose_plazas": [
+        {
+          "turno": "Turno libre",
+          "cantidad": 6
+        }
+      ],
+      "enlaces_oficiales": [
+        {
+          "titulo": "Convocatoria OPO-04/2026 (BOA núm. 109, 10 de junio de 2026)",
+          "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1452017000606"
+        },
+        {
+          "titulo": "Sede electrónica de la Universidad de Zaragoza (solicitudes y tablón de anuncios e-TOUZ)",
+          "url": "https://sede.unizar.es"
+        }
+      ],
+      "pruebas": [
+        {
+          "id": "ejercicio-test",
+          "icono": "📝",
+          "numero": 1,
+          "nombre": "Primer ejercicio (test)",
+          "formato": "Test de 100 preguntas sobre el programa (el 20 % de la parte general)",
+          "duracion": "90 minutos",
+          "opciones": "De 0 a 25 puntos",
+          "detalle": "Cuatro respuestas por pregunta y solo una correcta; cada error resta un tercio de acierto."
+        },
+        {
+          "id": "ejercicio-texto",
+          "icono": "✍️",
+          "numero": 2,
+          "nombre": "Segundo ejercicio (explotación de un texto)",
+          "formato": "Propuesta escrita, en el idioma de la plaza, para usar un texto (a elegir entre dos) en un examen de acreditación CertAcles de nivel B1, B2 o C1",
+          "duracion": "120 minutos",
+          "opciones": "De 0 a 25 puntos",
+          "detalle": "Incluye la justificación del nivel, el tipo de tarea y la elaboración de los ítems. Se lee en sesión pública."
+        },
+        {
+          "id": "ejercicio-oral",
+          "icono": "🎤",
+          "numero": 3,
+          "nombre": "Tercer ejercicio (oral)",
+          "formato": "Exposición didáctica en el idioma de la plaza de un tema del programa específico (a elegir entre tres sacados a sorteo)",
+          "duracion": "25 minutos de preparación, 45 de exposición y hasta 15 de preguntas",
+          "opciones": "De 0 a 20 puntos",
+          "detalle": "Contenido, niveles, metodología, materiales y criterios de evaluación. En Italiano la oposición se puntúa sobre 100 y no hay fase de concurso."
+        },
+        {
+          "id": "fase-concurso",
+          "icono": "🏅",
+          "numero": 4,
+          "nombre": "Fase de concurso (méritos)",
+          "formato": "Valoración de méritos",
+          "duracion": "No es un examen",
+          "opciones": "Hasta 30 puntos",
+          "detalle": "Solo para quien supera la oposición: servicios prestados en universidades y otras administraciones, ejercicios aprobados en procesos anteriores de la misma escala y trabajo desarrollado en la Universidad, según la convocatoria. Los puntos no sirven para aprobar los ejercicios."
+        }
+      ],
+      "estado": "cerrada",
+      "plazo_fin": null
+    }
+  },
+  {
+    "fuente_id": "u07",
+    "grupo": "Técnicos superiores y medios",
+    "oposicion": {
+      "slug": "tecnico-superior-transferencia-investigacion-unizar",
+      "nombre": "Técnico/a Superior de Transferencia de la Investigación",
+      "puesto_slug": "tecnico-superior-transferencia-investigacion",
+      "descripcion_corta": "Oposición de Técnico/a Superior de Transferencia de la Investigación de la Universidad de Zaragoza: plazas, requisitos, examen y temario oficial.",
+      "descripcion_larga": "Plazas de personal funcionario técnico, de gestión y de administración y servicios (PTGAS) de la Universidad de Zaragoza, subgrupo A1. Requisito de titulación: estar en posesión o en condiciones de obtener el título universitario de Grado, Licenciado, Ingeniero, Arquitecto o titulación equivalente. La convocatoria OPO-05/2026 (BOA núm. 110, de 11 de junio de 2026) es de 4 plazas. El programa tiene 73 temas y la oposición, 3 ejercicios eliminatorios más una fase de méritos. De las 4 plazas, las tres primeras personas aprobadas en la oposición obtienen plaza directamente y la cuarta se decide con la fase de concurso."
+    },
+    "convocatoria": {
+      "oposicion_slug": "tecnico-superior-transferencia-investigacion-unizar",
+      "numero": "OPO-05/2026",
+      "plaza": "Técnico/a Superior de Transferencia de la Investigación — PTGAS funcionario de la Universidad de Zaragoza, subgrupo A1",
+      "fecha_decreto": "26 de mayo de 2026",
+      "sistema_seleccion": "Turno libre: tres plazas por oposición y una por concurso-oposición (tres ejercicios eliminatorios y, para la de concurso-oposición, valoración de méritos)",
+      "requisito_titulacion": "Estar en posesión o en condiciones de obtener el título universitario de Grado, Licenciado, Ingeniero, Arquitecto o titulación equivalente.",
+      "plazo_instancias": "Veinte días naturales a partir del día siguiente a la publicación de la convocatoria en el BOE. Convocatoria publicada en el BOA núm. 110, de 11 de junio de 2026; plazo ya cerrado. Solicitud en sede.unizar.es y tasa de 39,98 €.",
+      "duracion_maxima_proceso": "Las bases no fijan una duración máxima. El primer ejercicio no puede celebrarse antes de tres meses desde la publicación de la convocatoria en el BOE.",
+      "orden_actuacion": "Por orden alfabético, empezando por la letra «W» según el sorteo que cita la convocatoria.",
+      "plazas_total": 4,
+      "desglose_plazas": [
+        {
+          "turno": "Turno libre",
+          "cantidad": 4
+        }
+      ],
+      "enlaces_oficiales": [
+        {
+          "titulo": "Convocatoria OPO-05/2026 (BOA núm. 110, 11 de junio de 2026)",
+          "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1452227950606"
+        },
+        {
+          "titulo": "Sede electrónica de la Universidad de Zaragoza (solicitudes y tablón de anuncios e-TOUZ)",
+          "url": "https://sede.unizar.es"
+        }
+      ],
+      "pruebas": [
+        {
+          "id": "ejercicio-tema",
+          "icono": "✍️",
+          "numero": 1,
+          "nombre": "Primer ejercicio (tema por escrito)",
+          "formato": "Desarrollo por escrito de un tema a elegir entre cuatro sacados al azar de la parte específica",
+          "duracion": "3 horas",
+          "opciones": "De 0 a 25 puntos",
+          "detalle": "Se lee en sesión pública ante el tribunal. Se valoran la formación, el orden de las ideas y la expresión."
+        },
+        {
+          "id": "ejercicio-cuestiones",
+          "icono": "🧠",
+          "numero": 2,
+          "nombre": "Segundo ejercicio (cuestiones teórico-prácticas)",
+          "formato": "Preguntas de respuesta libre sobre el programa y las funciones de la plaza",
+          "duracion": "5 horas como máximo",
+          "opciones": "De 0 a 25 puntos",
+          "detalle": "El tribunal indica el valor de cada pregunta. Se valoran el análisis, la expresión escrita y el conocimiento del programa."
+        },
+        {
+          "id": "ejercicio-supuesto",
+          "icono": "📋",
+          "numero": 3,
+          "nombre": "Tercer ejercicio (supuesto práctico)",
+          "formato": "Un supuesto práctico a elegir entre dos sobre la parte específica y las funciones de la plaza",
+          "duracion": "5 horas como máximo",
+          "opciones": "De 0 a 20 puntos",
+          "detalle": "Se lee en sesión pública ante el tribunal. Se valoran el rigor, la sistemática y la claridad de la propuesta."
+        },
+        {
+          "id": "fase-concurso",
+          "icono": "🏅",
+          "numero": 4,
+          "nombre": "Fase de concurso (méritos)",
+          "formato": "Valoración de méritos",
+          "duracion": "No es un examen",
+          "opciones": "Hasta 30 puntos",
+          "detalle": "Solo para quien supera la oposición: servicios prestados en universidades y otras administraciones, ejercicios aprobados en procesos anteriores de la misma escala y trabajo desarrollado en la Universidad, según la convocatoria. Los puntos no sirven para aprobar los ejercicios."
+        }
+      ],
+      "estado": "cerrada",
+      "plazo_fin": null
+    }
+  },
+  {
+    "fuente_id": "u09",
+    "grupo": "Técnicos superiores y medios",
+    "oposicion": {
+      "slug": "tecnico-superior-arquitectura-unizar",
+      "nombre": "Técnico/a Superior de Ingeniería y Arquitectura (Arquitectura)",
+      "puesto_slug": "tecnico-superior-arquitectura",
+      "descripcion_corta": "Oposición de Técnico/a Superior de Ingeniería y Arquitectura (Arquitectura) de la Universidad de Zaragoza: plazas, requisitos, examen y temario oficial.",
+      "descripcion_larga": "Plazas de personal funcionario técnico, de gestión y de administración y servicios (PTGAS) de la Universidad de Zaragoza, subgrupo A1. Requisito de titulación: estar en posesión o en condiciones de obtener el título de Arquitecto o Graduado en Arquitectura o en títulos universitarios oficiales que habiliten para el ejercicio de la profesión de Arquitecto. La convocatoria OPO-03/2026 (BOA núm. 106, de 5 de junio de 2026) es de 1 plaza. El programa tiene 75 temas y la oposición, 3 ejercicios eliminatorios más una fase de méritos."
+    },
+    "convocatoria": {
+      "oposicion_slug": "tecnico-superior-arquitectura-unizar",
+      "numero": "OPO-03/2026",
+      "plaza": "Técnico/a Superior de Ingeniería y Arquitectura (Arquitectura) — PTGAS funcionario de la Universidad de Zaragoza, subgrupo A1",
+      "fecha_decreto": "20 de mayo de 2026",
+      "sistema_seleccion": "Concurso-oposición: tres ejercicios eliminatorios y valoración de méritos",
+      "requisito_titulacion": "Estar en posesión o en condiciones de obtener el título de Arquitecto o Graduado en Arquitectura o en títulos universitarios oficiales que habiliten para el ejercicio de la profesión de Arquitecto.",
+      "plazo_instancias": "Veinte días naturales a partir del día siguiente a la publicación de la convocatoria en el BOE. Convocatoria publicada en el BOA núm. 106, de 5 de junio de 2026; plazo ya cerrado. Solicitud en sede.unizar.es y tasa de 39,98 €.",
+      "duracion_maxima_proceso": "Las bases no fijan una duración máxima. El primer ejercicio no puede celebrarse antes de tres meses desde la publicación de la convocatoria en el BOE.",
+      "orden_actuacion": "Por orden alfabético, empezando por la letra «W» según el sorteo que cita la convocatoria.",
+      "plazas_total": 1,
+      "desglose_plazas": [
+        {
+          "turno": "Turno libre",
+          "cantidad": 1
+        }
+      ],
+      "enlaces_oficiales": [
+        {
+          "titulo": "Convocatoria OPO-03/2026 (BOA núm. 106, 5 de junio de 2026)",
+          "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1451253410404"
+        },
+        {
+          "titulo": "Sede electrónica de la Universidad de Zaragoza (solicitudes y tablón de anuncios e-TOUZ)",
+          "url": "https://sede.unizar.es"
+        }
+      ],
+      "pruebas": [
+        {
+          "id": "ejercicio-test",
+          "icono": "📝",
+          "numero": 1,
+          "nombre": "Primer ejercicio (test)",
+          "formato": "Test de 100 preguntas sobre el programa (el 20 % de la parte general)",
+          "duracion": "90 minutos",
+          "opciones": "De 0 a 25 puntos",
+          "detalle": "Cuatro respuestas por pregunta y solo una correcta; cada error resta un tercio de acierto."
+        },
+        {
+          "id": "ejercicio-cuestiones",
+          "icono": "🧠",
+          "numero": 2,
+          "nombre": "Segundo ejercicio (cuestiones teórico-prácticas)",
+          "formato": "Preguntas de respuesta libre sobre el programa y las funciones de la plaza",
+          "duracion": "5 horas como máximo",
+          "opciones": "De 0 a 25 puntos",
+          "detalle": "El tribunal indica el valor de cada pregunta. Se valoran el análisis, la expresión escrita y el conocimiento del programa."
+        },
+        {
+          "id": "ejercicio-supuesto",
+          "icono": "📋",
+          "numero": 3,
+          "nombre": "Tercer ejercicio (supuesto práctico)",
+          "formato": "Un supuesto práctico a elegir entre dos sobre la parte específica y las funciones de la plaza",
+          "duracion": "5 horas como máximo",
+          "opciones": "De 0 a 20 puntos",
+          "detalle": "Se lee en sesión pública ante el tribunal. Se valoran el rigor, la sistemática y la claridad de la propuesta."
+        },
+        {
+          "id": "fase-concurso",
+          "icono": "🏅",
+          "numero": 4,
+          "nombre": "Fase de concurso (méritos)",
+          "formato": "Valoración de méritos",
+          "duracion": "No es un examen",
+          "opciones": "Hasta 30 puntos",
+          "detalle": "Solo para quien supera la oposición: servicios prestados en universidades y otras administraciones, ejercicios aprobados en procesos anteriores de la misma escala y trabajo desarrollado en la Universidad, según la convocatoria. Los puntos no sirven para aprobar los ejercicios."
+        }
+      ],
+      "estado": "cerrada",
+      "plazo_fin": null
+    }
+  },
+  {
+    "fuente_id": "u22",
+    "grupo": "Técnicos superiores y medios",
+    "oposicion": {
+      "slug": "tecnico-medio-mantenimiento-unizar",
+      "nombre": "Técnico/a Medio/a de Ingeniería y Arquitectura (Mantenimiento General)",
+      "puesto_slug": "tecnico-medio-mantenimiento",
+      "descripcion_corta": "Oposición de Técnico/a Medio/a de Ingeniería y Arquitectura (Mantenimiento General) de la Universidad de Zaragoza: plazas, requisitos, examen y temario oficial.",
+      "descripcion_larga": "Plazas de personal funcionario técnico, de gestión y de administración y servicios (PTGAS) de la Universidad de Zaragoza, subgrupo A2. Requisito de titulación: estar en posesión o en condiciones de obtener el Título de Ingeniero Técnico o Graduado en títulos universitarios oficiales que habiliten para el ejercicio de la profesión de Ingeniero Técnico. La convocatoria OPO-13/2025 (BOA núm. 76, de 22 de abril de 2025) es de 3 plazas, 2 de turno libre. El programa tiene 75 temas y la oposición, 2 ejercicios eliminatorios."
+    },
+    "convocatoria": {
+      "oposicion_slug": "tecnico-medio-mantenimiento-unizar",
+      "numero": "OPO-13/2025",
+      "plaza": "Técnico/a Medio/a de Ingeniería y Arquitectura (Mantenimiento General) — PTGAS funcionario de la Universidad de Zaragoza, subgrupo A2",
+      "fecha_decreto": "8 de abril de 2025",
+      "sistema_seleccion": "Oposición libre (turno libre), con dos ejercicios eliminatorios",
+      "requisito_titulacion": "Estar en posesión o en condiciones de obtener el Título de Ingeniero Técnico o Graduado en títulos universitarios oficiales que habiliten para el ejercicio de la profesión de Ingeniero Técnico.",
+      "plazo_instancias": "Veinte días naturales a partir del día siguiente a la publicación de la convocatoria en el BOE. Convocatoria publicada en el BOA núm. 76, de 22 de abril de 2025; plazo ya cerrado. Solicitud en sede.unizar.es y tasa de 28,90 €.",
+      "duracion_maxima_proceso": "Las bases no fijan una duración máxima. El primer ejercicio no puede celebrarse antes de tres meses desde la publicación de la convocatoria en el BOE.",
+      "orden_actuacion": "Por orden alfabético, empezando por la letra «C» según el sorteo que cita la convocatoria.",
+      "plazas_total": 3,
+      "desglose_plazas": [
+        {
+          "turno": "Turno libre",
+          "cantidad": 2
+        },
+        {
+          "turno": "Promoción interna (solo personal de la Universidad)",
+          "cantidad": 1
+        }
+      ],
+      "enlaces_oficiales": [
+        {
+          "titulo": "Convocatoria OPO-13/2025 (BOA núm. 76, 22 de abril de 2025)",
+          "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1389713100707"
+        },
+        {
+          "titulo": "Sede electrónica de la Universidad de Zaragoza (solicitudes y tablón de anuncios e-TOUZ)",
+          "url": "https://sede.unizar.es"
+        }
+      ],
+      "pruebas": [
+        {
+          "id": "ejercicio-test",
+          "icono": "📝",
+          "numero": 1,
+          "nombre": "Primer ejercicio (test)",
+          "formato": "Test de hasta 100 preguntas (el 20 % de la parte general)",
+          "duracion": "60 minutos",
+          "opciones": "De 0 a 30 puntos",
+          "detalle": "Cuatro respuestas por pregunta y solo una correcta; cada error resta un tercio de acierto. Hay que llegar al 50 % y, de entre quienes lo hagan, pasa el número que fije el tribunal."
+        },
+        {
+          "id": "ejercicio-practico",
+          "icono": "📋",
+          "numero": 2,
+          "nombre": "Segundo ejercicio (prueba práctica)",
+          "formato": "Cuestiones teórico-prácticas de respuesta libre + un supuesto práctico a elegir entre dos, en la misma sesión",
+          "duracion": "5 horas en total",
+          "opciones": "De 0 a 70 puntos (35 por parte)",
+          "detalle": "Hay que sacar al menos 35 puntos y el 50 % de cada parte."
+        }
+      ],
+      "estado": "cerrada",
+      "plazo_fin": null
+    }
+  },
+  {
+    "fuente_id": "u11",
+    "grupo": "Técnicos superiores y medios",
+    "oposicion": {
+      "slug": "tecnico-medio-prevencion-unizar",
+      "nombre": "Técnico/a Medio/a de Prevención y Seguridad",
+      "puesto_slug": "tecnico-medio-prevencion",
+      "descripcion_corta": "Oposición de Técnico/a Medio/a de Prevención y Seguridad de la Universidad de Zaragoza: plazas, requisitos, examen y temario oficial.",
+      "descripcion_larga": "Plazas de personal funcionario técnico, de gestión y de administración y servicios (PTGAS) de la Universidad de Zaragoza, subgrupo A2. Requisito de titulación: estar en posesión o en condiciones de obtener el Título universitario de Grado, Diplomado, Ingeniero Técnico, Arquitecto Técnico o titulación equivalente. La convocatoria OPO-01/2026 (BOA núm. 41, de 2 de marzo de 2026) es de 1 plaza. El programa tiene 53 temas y la oposición, 2 ejercicios eliminatorios."
+    },
+    "convocatoria": {
+      "oposicion_slug": "tecnico-medio-prevencion-unizar",
+      "numero": "OPO-01/2026",
+      "plaza": "Técnico/a Medio/a de Prevención y Seguridad — PTGAS funcionario de la Universidad de Zaragoza, subgrupo A2",
+      "fecha_decreto": "16 de febrero de 2026",
+      "sistema_seleccion": "Oposición libre, con dos ejercicios eliminatorios",
+      "requisito_titulacion": "Estar en posesión o en condiciones de obtener el Título universitario de Grado, Diplomado, Ingeniero Técnico, Arquitecto Técnico o titulación equivalente.",
+      "plazo_instancias": "Veinte días naturales a partir del día siguiente a la publicación de la convocatoria en el BOE. Convocatoria publicada en el BOA núm. 41, de 2 de marzo de 2026; plazo ya cerrado. Solicitud en sede.unizar.es y tasa de 28,90 €.",
+      "duracion_maxima_proceso": "Las bases no fijan una duración máxima. El primer ejercicio no puede celebrarse antes de tres meses desde la publicación de la convocatoria en el BOE.",
+      "orden_actuacion": "Por orden alfabético, empezando por la letra «Q» según el sorteo que cita la convocatoria.",
+      "plazas_total": 1,
+      "desglose_plazas": [
+        {
+          "turno": "Turno libre",
+          "cantidad": 1
+        }
+      ],
+      "enlaces_oficiales": [
+        {
+          "titulo": "Convocatoria OPO-01/2026 (BOA núm. 41, 2 de marzo de 2026)",
+          "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1437930190505"
+        },
+        {
+          "titulo": "Sede electrónica de la Universidad de Zaragoza (solicitudes y tablón de anuncios e-TOUZ)",
+          "url": "https://sede.unizar.es"
+        }
+      ],
+      "pruebas": [
+        {
+          "id": "ejercicio-test",
+          "icono": "📝",
+          "numero": 1,
+          "nombre": "Primer ejercicio (test)",
+          "formato": "Test de hasta 100 preguntas (el 20 % de la parte general)",
+          "duracion": "60 minutos",
+          "opciones": "De 0 a 30 puntos",
+          "detalle": "Cuatro respuestas por pregunta y solo una correcta; cada error resta un tercio de acierto. Hay que llegar al 50 % y, de entre quienes lo hagan, pasa el número que fije el tribunal."
+        },
+        {
+          "id": "ejercicio-practico",
+          "icono": "📋",
+          "numero": 2,
+          "nombre": "Segundo ejercicio (prueba práctica)",
+          "formato": "Cuestiones teórico-prácticas de respuesta libre + un supuesto práctico a elegir entre dos, en la misma sesión",
+          "duracion": "5 horas en total",
+          "opciones": "De 0 a 70 puntos (35 por parte)",
+          "detalle": "Hay que sacar al menos 35 puntos y el 50 % de cada parte."
+        }
+      ],
+      "estado": "cerrada",
+      "plazo_fin": null
+    }
+  },
+  {
+    "fuente_id": "u04",
+    "grupo": "Técnicos superiores y medios",
+    "oposicion": {
+      "slug": "tecnico-superior-educacion-fisica-unizar",
+      "nombre": "Técnico/a Superior de Educación Física",
+      "puesto_slug": "tecnico-superior-educacion-fisica",
+      "descripcion_corta": "Oposición de Técnico/a Superior de Educación Física de la Universidad de Zaragoza: plazas, requisitos, examen y temario oficial.",
+      "descripcion_larga": "Plazas de personal funcionario técnico, de gestión y de administración y servicios (PTGAS) de la Universidad de Zaragoza, subgrupo A1. Requisito de titulación: estar en posesión o en condiciones de obtener el título universitario de Grado en Educación Física o un título con competencias similares, o titulación equivalente. La convocatoria OPO-08/2026 (BOA núm. 185, de 23 de septiembre de 2026) es de 2 plazas. El programa tiene 66 temas y la oposición, 3 ejercicios eliminatorios. El plazo de solicitudes se abrirá cuando la convocatoria salga en el BOE."
+    },
+    "convocatoria": {
+      "oposicion_slug": "tecnico-superior-educacion-fisica-unizar",
+      "numero": "OPO-08/2026",
+      "plaza": "Técnico/a Superior de Educación Física — PTGAS funcionario de la Universidad de Zaragoza, subgrupo A1",
+      "fecha_decreto": "11 de septiembre de 2026",
+      "sistema_seleccion": "Oposición libre, con tres ejercicios eliminatorios",
+      "requisito_titulacion": "Estar en posesión o en condiciones de obtener el título universitario de Grado en Educación Física o un título con competencias similares, o titulación equivalente.",
+      "plazo_instancias": "Veinte días naturales a partir del día siguiente a la publicación de la convocatoria en el BOE. A 12 de noviembre de 2026 la convocatoria ya está en el BOA (núm. 185, de 23 de septiembre de 2026) pero aún no se ha publicado en el BOE, así que el plazo todavía no ha empezado. Solicitud en sede.unizar.es y tasa de 39,98 €.",
+      "duracion_maxima_proceso": "Las bases no fijan una duración máxima. El primer ejercicio no puede celebrarse antes de tres meses desde la publicación de la convocatoria en el BOE.",
+      "orden_actuacion": "Por orden alfabético, empezando por la letra «W» según el sorteo que cita la convocatoria.",
+      "plazas_total": 2,
+      "desglose_plazas": [
+        {
+          "turno": "Turno libre",
+          "cantidad": 2
+        }
+      ],
+      "enlaces_oficiales": [
+        {
+          "titulo": "Convocatoria OPO-08/2026 (BOA núm. 185, 23 de septiembre de 2026)",
+          "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1467114430404"
+        },
+        {
+          "titulo": "Sede electrónica de la Universidad de Zaragoza (solicitudes y tablón de anuncios e-TOUZ)",
+          "url": "https://sede.unizar.es"
+        }
+      ],
+      "pruebas": [
+        {
+          "id": "ejercicio-test",
+          "icono": "📝",
+          "numero": 1,
+          "nombre": "Primer ejercicio (test)",
+          "formato": "Test de 100 preguntas sobre el programa (el 20 % de la parte general)",
+          "duracion": "90 minutos",
+          "opciones": "De 0 a 35 puntos",
+          "detalle": "Cuatro respuestas por pregunta y solo una correcta; cada error resta un tercio de acierto."
+        },
+        {
+          "id": "ejercicio-cuestiones",
+          "icono": "🧠",
+          "numero": 2,
+          "nombre": "Segundo ejercicio (cuestiones teórico-prácticas)",
+          "formato": "Preguntas de respuesta libre sobre el programa y las funciones de la plaza",
+          "duracion": "5 horas como máximo",
+          "opciones": "De 0 a 35 puntos",
+          "detalle": "El tribunal indica el valor de cada pregunta. Se valoran el análisis, la expresión escrita y el conocimiento del programa."
+        },
+        {
+          "id": "ejercicio-supuesto",
+          "icono": "📋",
+          "numero": 3,
+          "nombre": "Tercer ejercicio (supuesto práctico)",
+          "formato": "Un supuesto práctico a elegir entre dos sobre la parte específica y las funciones de la plaza",
+          "duracion": "5 horas como máximo",
+          "opciones": "De 0 a 30 puntos",
+          "detalle": "Se lee en sesión pública ante el tribunal. Se valoran el rigor, la sistemática y la claridad de la propuesta."
+        }
+      ],
+      "estado": "pendiente_publicacion",
+      "plazo_fin": null
+    }
+  },
+  {
+    "fuente_id": "u03",
+    "grupo": "Laboratorios",
+    "oposicion": {
+      "slug": "tecnico-superior-laboratorio-veterinaria-unizar",
+      "nombre": "Técnico/a Superior de Laboratorio y Talleres (Veterinaria)",
+      "puesto_slug": "tecnico-superior-laboratorio-veterinaria",
+      "descripcion_corta": "Oposición de Técnico/a Superior de Laboratorio y Talleres (Veterinaria) de la Universidad de Zaragoza: plazas, requisitos, examen y temario oficial.",
+      "descripcion_larga": "Plazas de personal funcionario técnico, de gestión y de administración y servicios (PTGAS) de la Universidad de Zaragoza. Requisito de titulación: estar en posesión o en condiciones de obtener el título de Licenciado en Veterinaria o Graduado con habilitación para la profesión de Veterinario. Formación de posgrado de bioseguridad y biocontención. La convocatoria OPO-11/2026 (BOA núm. 197, de 9 de octubre de 2026) es de 1 plaza. El programa tiene 78 temas y la oposición, 3 ejercicios eliminatorios más una fase de méritos."
+    },
+    "convocatoria": {
+      "oposicion_slug": "tecnico-superior-laboratorio-veterinaria-unizar",
+      "numero": "OPO-11/2026",
+      "plaza": "Técnico/a Superior de Laboratorio y Talleres (Veterinaria) — PTGAS funcionario de la Universidad de Zaragoza",
+      "fecha_decreto": "23 de septiembre de 2026",
+      "sistema_seleccion": "Concurso-oposición: tres ejercicios eliminatorios y valoración de méritos",
+      "requisito_titulacion": "Estar en posesión o en condiciones de obtener el título de Licenciado en Veterinaria o Graduado con habilitación para la profesión de Veterinario. Formación de posgrado de bioseguridad y biocontención.",
+      "plazo_instancias": "Veinte días naturales a partir del día siguiente a la publicación de la convocatoria en el BOE. Se publicó en el BOE el 16 de octubre de 2026 (BOE-A-2026-21595): plazo ya cerrado. Solicitud en sede.unizar.es y tasa de 39,98 €.",
+      "duracion_maxima_proceso": "Las bases no fijan una duración máxima. El primer ejercicio no puede celebrarse antes de tres meses desde la publicación de la convocatoria en el BOE.",
+      "orden_actuacion": "Por orden alfabético, empezando por la letra «W» según el sorteo que cita la convocatoria.",
+      "plazas_total": 1,
+      "desglose_plazas": [
+        {
+          "turno": "Turno libre",
+          "cantidad": 1
+        }
+      ],
+      "enlaces_oficiales": [
+        {
+          "titulo": "Convocatoria OPO-11/2026 (BOA núm. 197, 9 de octubre de 2026)",
+          "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1469638570303"
+        },
+        {
+          "titulo": "Sede electrónica de la Universidad de Zaragoza (solicitudes y tablón de anuncios e-TOUZ)",
+          "url": "https://sede.unizar.es"
+        },
+        {
+          "titulo": "Publicación en el BOE (BOE-A-2026-21595, 16 de octubre de 2026)",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21595"
+        }
+      ],
+      "pruebas": [
+        {
+          "id": "ejercicio-tema",
+          "icono": "✍️",
+          "numero": 1,
+          "nombre": "Primer ejercicio (tema por escrito)",
+          "formato": "Desarrollo por escrito de un tema a elegir entre cuatro sacados al azar de la parte específica",
+          "duracion": "3 horas",
+          "opciones": "De 0 a 25 puntos",
+          "detalle": "Se lee en sesión pública ante el tribunal. Se valoran la formación, el orden de las ideas y la expresión."
+        },
+        {
+          "id": "ejercicio-cuestiones",
+          "icono": "🧠",
+          "numero": 2,
+          "nombre": "Segundo ejercicio (cuestiones teórico-prácticas)",
+          "formato": "Preguntas de respuesta libre sobre el programa y las funciones de la plaza",
+          "duracion": "5 horas como máximo",
+          "opciones": "De 0 a 25 puntos",
+          "detalle": "El tribunal indica el valor de cada pregunta. Se valoran el análisis, la expresión escrita y el conocimiento del programa."
+        },
+        {
+          "id": "ejercicio-supuesto",
+          "icono": "📋",
+          "numero": 3,
+          "nombre": "Tercer ejercicio (supuesto práctico)",
+          "formato": "Un supuesto práctico a elegir entre dos sobre la parte específica y las funciones de la plaza",
+          "duracion": "5 horas como máximo",
+          "opciones": "De 0 a 20 puntos",
+          "detalle": "Se lee en sesión pública ante el tribunal. Se valoran el rigor, la sistemática y la claridad de la propuesta."
+        },
+        {
+          "id": "fase-concurso",
+          "icono": "🏅",
+          "numero": 4,
+          "nombre": "Fase de concurso (méritos)",
+          "formato": "Valoración de méritos",
+          "duracion": "No es un examen",
+          "opciones": "Hasta 30 puntos",
+          "detalle": "Solo para quien supera la oposición: servicios prestados en universidades y otras administraciones, ejercicios aprobados en procesos anteriores de la misma escala y trabajo desarrollado en la Universidad, según la convocatoria. Los puntos no sirven para aprobar los ejercicios."
+        }
+      ],
+      "estado": "cerrada",
+      "plazo_fin": null
+    }
+  },
+  {
+    "fuente_id": "u15",
+    "grupo": "Laboratorios",
+    "oposicion": {
+      "slug": "tecnico-especialista-laboratorio-quimica-biomedica-unizar",
+      "nombre": "Técnico/a Especialista de Laboratorio (Química-Biomédica)",
+      "puesto_slug": "tecnico-especialista-laboratorio-quimica-biomedica",
+      "descripcion_corta": "Oposición de Técnico/a Especialista de Laboratorio (Química-Biomédica) de la Universidad de Zaragoza: plazas, requisitos, examen y temario oficial.",
+      "descripcion_larga": "Plazas de personal funcionario técnico, de gestión y de administración y servicios (PTGAS) de la Universidad de Zaragoza, subgrupo C1. Requisito de titulación: estar en posesión o en condiciones de obtener el título de Bachiller, Técnico o equivalente. La convocatoria OPO-22/2025 (BOA núm. 88, de 12 de mayo de 2025) es de 1 plaza. El programa tiene 39 temas y la oposición, 2 ejercicios eliminatorios. Se convocó a la vez otra plaza de la misma especialidad con licencia de operador de instalaciones radiactivas (OPO-23/2025), con el mismo examen y temario."
+    },
+    "convocatoria": {
+      "oposicion_slug": "tecnico-especialista-laboratorio-quimica-biomedica-unizar",
+      "numero": "OPO-22/2025",
+      "plaza": "Técnico/a Especialista de Laboratorio (Química-Biomédica) — PTGAS funcionario de la Universidad de Zaragoza, subgrupo C1",
+      "fecha_decreto": "29 de abril de 2025",
+      "sistema_seleccion": "Oposición libre, con dos ejercicios eliminatorios",
+      "requisito_titulacion": "Estar en posesión o en condiciones de obtener el título de Bachiller, Técnico o equivalente.",
+      "plazo_instancias": "Veinte días naturales a partir del día siguiente a la publicación de la convocatoria en el BOE. Convocatoria publicada en el BOA núm. 88, de 12 de mayo de 2025; plazo ya cerrado. Solicitud en sede.unizar.es y tasa de 16,94 €.",
+      "duracion_maxima_proceso": "Las bases no fijan una duración máxima. El primer ejercicio no puede celebrarse antes de tres meses desde la publicación de la convocatoria en el BOE.",
+      "orden_actuacion": "Las bases no indican letra de orden de actuación; los ejercicios se hacen en llamamiento único.",
+      "plazas_total": 1,
+      "desglose_plazas": [
+        {
+          "turno": "Turno libre",
+          "cantidad": 1
+        }
+      ],
+      "enlaces_oficiales": [
+        {
+          "titulo": "Convocatoria OPO-22/2025 (BOA núm. 88, 12 de mayo de 2025)",
+          "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1392459920606"
+        },
+        {
+          "titulo": "Sede electrónica de la Universidad de Zaragoza (solicitudes y tablón de anuncios e-TOUZ)",
+          "url": "https://sede.unizar.es"
+        }
+      ],
+      "pruebas": [
+        {
+          "id": "ejercicio-test",
+          "icono": "📝",
+          "numero": 1,
+          "nombre": "Primer ejercicio (test)",
+          "formato": "Test de hasta 100 preguntas (el 20 % de la parte general)",
+          "duracion": "60 minutos",
+          "opciones": "De 0 a 30 puntos",
+          "detalle": "Cuatro respuestas por pregunta y solo una correcta; cada error resta un tercio de acierto. Hay que llegar al 50 % y, de entre quienes lo hagan, pasa el número que fije el tribunal."
+        },
+        {
+          "id": "ejercicio-practico",
+          "icono": "📋",
+          "numero": 2,
+          "nombre": "Segundo ejercicio (prueba práctica)",
+          "formato": "Cuestiones teórico-prácticas de respuesta libre + un supuesto práctico a elegir entre dos, en la misma sesión",
+          "duracion": "5 horas en total",
+          "opciones": "De 0 a 70 puntos (35 por parte)",
+          "detalle": "Hay que sacar al menos 35 puntos y el 50 % de cada parte."
+        }
+      ],
+      "estado": "cerrada",
+      "plazo_fin": null
+    }
+  },
+  {
+    "fuente_id": "u16",
+    "grupo": "Laboratorios",
+    "oposicion": {
+      "slug": "tecnico-especialista-laboratorio-quimica-unizar",
+      "nombre": "Técnico/a Especialista de Laboratorio (Química)",
+      "puesto_slug": "tecnico-especialista-laboratorio-quimica",
+      "descripcion_corta": "Oposición de Técnico/a Especialista de Laboratorio (Química) de la Universidad de Zaragoza: plazas, requisitos, examen y temario oficial.",
+      "descripcion_larga": "Plazas de personal funcionario técnico, de gestión y de administración y servicios (PTGAS) de la Universidad de Zaragoza, subgrupo C1. Requisito de titulación: estar en posesión o en condiciones de obtener el título de Bachiller, Técnico o equivalente. La convocatoria OPO-04/2025 (BOA núm. 85, de 7 de mayo de 2025) es de 3 plazas. El programa tiene 43 temas y la oposición, 2 ejercicios eliminatorios."
+    },
+    "convocatoria": {
+      "oposicion_slug": "tecnico-especialista-laboratorio-quimica-unizar",
+      "numero": "OPO-04/2025",
+      "plaza": "Técnico/a Especialista de Laboratorio (Química) — PTGAS funcionario de la Universidad de Zaragoza, subgrupo C1",
+      "fecha_decreto": "19 de marzo de 2025",
+      "sistema_seleccion": "Oposición libre, con dos ejercicios eliminatorios",
+      "requisito_titulacion": "Estar en posesión o en condiciones de obtener el título de Bachiller, Técnico o equivalente.",
+      "plazo_instancias": "Veinte días naturales a partir del día siguiente a la publicación de la convocatoria en el BOE. Convocatoria publicada en el BOA núm. 85, de 7 de mayo de 2025; plazo ya cerrado. Solicitud en sede.unizar.es y tasa de 16,94 €.",
+      "duracion_maxima_proceso": "Las bases no fijan una duración máxima. El primer ejercicio no puede celebrarse antes de tres meses desde la publicación de la convocatoria en el BOE.",
+      "orden_actuacion": "Las bases no indican letra de orden de actuación; los ejercicios se hacen en llamamiento único.",
+      "plazas_total": 3,
+      "desglose_plazas": [
+        {
+          "turno": "Turno libre",
+          "cantidad": 3
+        }
+      ],
+      "enlaces_oficiales": [
+        {
+          "titulo": "Convocatoria OPO-04/2025 (BOA núm. 85, 7 de mayo de 2025)",
+          "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1391631640909"
+        },
+        {
+          "titulo": "Sede electrónica de la Universidad de Zaragoza (solicitudes y tablón de anuncios e-TOUZ)",
+          "url": "https://sede.unizar.es"
+        }
+      ],
+      "pruebas": [
+        {
+          "id": "ejercicio-test",
+          "icono": "📝",
+          "numero": 1,
+          "nombre": "Primer ejercicio (test)",
+          "formato": "Test de hasta 100 preguntas (el 20 % de la parte general)",
+          "duracion": "60 minutos",
+          "opciones": "De 0 a 30 puntos",
+          "detalle": "Cuatro respuestas por pregunta y solo una correcta; cada error resta un tercio de acierto. Hay que llegar al 50 % y, de entre quienes lo hagan, pasa el número que fije el tribunal."
+        },
+        {
+          "id": "ejercicio-practico",
+          "icono": "📋",
+          "numero": 2,
+          "nombre": "Segundo ejercicio (prueba práctica)",
+          "formato": "Cuestiones teórico-prácticas de respuesta libre + un supuesto práctico a elegir entre dos, en la misma sesión",
+          "duracion": "5 horas en total",
+          "opciones": "De 0 a 70 puntos (35 por parte)",
+          "detalle": "Hay que sacar al menos 35 puntos y el 50 % de cada parte."
+        }
+      ],
+      "estado": "cerrada",
+      "plazo_fin": null
+    }
+  },
+  {
+    "fuente_id": "u17",
+    "grupo": "Laboratorios",
+    "oposicion": {
+      "slug": "tecnico-especialista-laboratorio-mecanica-unizar",
+      "nombre": "Técnico/a Especialista de Laboratorio (Mecánica)",
+      "puesto_slug": "tecnico-especialista-laboratorio-mecanica",
+      "descripcion_corta": "Oposición de Técnico/a Especialista de Laboratorio (Mecánica) de la Universidad de Zaragoza: plazas, requisitos, examen y temario oficial.",
+      "descripcion_larga": "Plazas de personal funcionario técnico, de gestión y de administración y servicios (PTGAS) de la Universidad de Zaragoza, subgrupo C1. Requisito de titulación: estar en posesión o en condiciones de obtener el título de Bachiller, Técnico o equivalente. La convocatoria OPO-20/2025 (BOA núm. 79, de 28 de abril de 2025) es de 2 plazas. El programa tiene 51 temas y la oposición, 2 ejercicios eliminatorios."
+    },
+    "convocatoria": {
+      "oposicion_slug": "tecnico-especialista-laboratorio-mecanica-unizar",
+      "numero": "OPO-20/2025",
+      "plaza": "Técnico/a Especialista de Laboratorio (Mecánica) — PTGAS funcionario de la Universidad de Zaragoza, subgrupo C1",
+      "fecha_decreto": "9 de abril de 2025",
+      "sistema_seleccion": "Oposición libre, con dos ejercicios eliminatorios",
+      "requisito_titulacion": "Estar en posesión o en condiciones de obtener el título de Bachiller, Técnico o equivalente.",
+      "plazo_instancias": "Veinte días naturales a partir del día siguiente a la publicación de la convocatoria en el BOE. Convocatoria publicada en el BOA núm. 79, de 28 de abril de 2025; plazo ya cerrado. Solicitud en sede.unizar.es y tasa de 16,94 €.",
+      "duracion_maxima_proceso": "Las bases no fijan una duración máxima. El primer ejercicio no puede celebrarse antes de tres meses desde la publicación de la convocatoria en el BOE.",
+      "orden_actuacion": "Las bases no indican letra de orden de actuación; los ejercicios se hacen en llamamiento único.",
+      "plazas_total": 2,
+      "desglose_plazas": [
+        {
+          "turno": "Turno libre",
+          "cantidad": 2
+        }
+      ],
+      "enlaces_oficiales": [
+        {
+          "titulo": "Convocatoria OPO-20/2025 (BOA núm. 79, 28 de abril de 2025)",
+          "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1390302460505"
+        },
+        {
+          "titulo": "Sede electrónica de la Universidad de Zaragoza (solicitudes y tablón de anuncios e-TOUZ)",
+          "url": "https://sede.unizar.es"
+        }
+      ],
+      "pruebas": [
+        {
+          "id": "ejercicio-test",
+          "icono": "📝",
+          "numero": 1,
+          "nombre": "Primer ejercicio (test)",
+          "formato": "Test de hasta 100 preguntas (el 20 % de la parte general)",
+          "duracion": "60 minutos",
+          "opciones": "De 0 a 30 puntos",
+          "detalle": "Cuatro respuestas por pregunta y solo una correcta; cada error resta un tercio de acierto. Hay que llegar al 50 % y, de entre quienes lo hagan, pasa el número que fije el tribunal."
+        },
+        {
+          "id": "ejercicio-practico",
+          "icono": "📋",
+          "numero": 2,
+          "nombre": "Segundo ejercicio (prueba práctica)",
+          "formato": "Cuestiones teórico-prácticas de respuesta libre + un supuesto práctico a elegir entre dos, en la misma sesión",
+          "duracion": "5 horas en total",
+          "opciones": "De 0 a 70 puntos (35 por parte)",
+          "detalle": "Hay que sacar al menos 35 puntos y el 50 % de cada parte."
+        }
+      ],
+      "estado": "cerrada",
+      "plazo_fin": null
+    }
+  },
+  {
+    "fuente_id": "u10",
+    "grupo": "Laboratorios",
+    "oposicion": {
+      "slug": "tecnico-especialista-laboratorio-rocas-3d-unizar",
+      "nombre": "Técnico/a Especialista de Laboratorio (Rocas y Materiales Duros, Impresión 3D)",
+      "puesto_slug": "tecnico-especialista-laboratorio-rocas-3d",
+      "descripcion_corta": "Oposición de Técnico/a Especialista de Laboratorio (Rocas y Materiales Duros, Impresión 3D) de la Universidad de Zaragoza: plazas, requisitos, examen y temario oficial.",
+      "descripcion_larga": "Plazas de personal funcionario técnico, de gestión y de administración y servicios (PTGAS) de la Universidad de Zaragoza, subgrupo C1. Requisito de titulación: estar en posesión o en condiciones de obtener el Título de Bachiller, Técnico o equivalente. La convocatoria OPO-02/2026 (BOA núm. 78, de 27 de abril de 2026) es de 2 plazas. El programa tiene 45 temas y la oposición, 2 ejercicios eliminatorios."
+    },
+    "convocatoria": {
+      "oposicion_slug": "tecnico-especialista-laboratorio-rocas-3d-unizar",
+      "numero": "OPO-02/2026",
+      "plaza": "Técnico/a Especialista de Laboratorio (Rocas y Materiales Duros, Impresión 3D) — PTGAS funcionario de la Universidad de Zaragoza, subgrupo C1",
+      "fecha_decreto": "13 de abril de 2026",
+      "sistema_seleccion": "Oposición libre, con dos ejercicios eliminatorios",
+      "requisito_titulacion": "Estar en posesión o en condiciones de obtener el Título de Bachiller, Técnico o equivalente.",
+      "plazo_instancias": "Veinte días naturales a partir del día siguiente a la publicación de la convocatoria en el BOE. Convocatoria publicada en el BOA núm. 78, de 27 de abril de 2026; plazo ya cerrado. Solicitud en sede.unizar.es y tasa de 16,94 €.",
+      "duracion_maxima_proceso": "Las bases no fijan una duración máxima. El primer ejercicio no puede celebrarse antes de tres meses desde la publicación de la convocatoria en el BOE.",
+      "orden_actuacion": "Las bases no indican letra de orden de actuación; los ejercicios se hacen en llamamiento único.",
+      "plazas_total": 2,
+      "desglose_plazas": [
+        {
+          "turno": "Turno libre",
+          "cantidad": 2
+        }
+      ],
+      "enlaces_oficiales": [
+        {
+          "titulo": "Convocatoria OPO-02/2026 (BOA núm. 78, 27 de abril de 2026)",
+          "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1444956190404"
+        },
+        {
+          "titulo": "Sede electrónica de la Universidad de Zaragoza (solicitudes y tablón de anuncios e-TOUZ)",
+          "url": "https://sede.unizar.es"
+        }
+      ],
+      "pruebas": [
+        {
+          "id": "ejercicio-test",
+          "icono": "📝",
+          "numero": 1,
+          "nombre": "Primer ejercicio (test)",
+          "formato": "Test de hasta 100 preguntas (el 20 % de la parte general)",
+          "duracion": "60 minutos",
+          "opciones": "De 0 a 30 puntos",
+          "detalle": "Cuatro respuestas por pregunta y solo una correcta; cada error resta un tercio de acierto. Hay que llegar al 50 % y, de entre quienes lo hagan, pasa el número que fije el tribunal."
+        },
+        {
+          "id": "ejercicio-practico",
+          "icono": "📋",
+          "numero": 2,
+          "nombre": "Segundo ejercicio (prueba práctica)",
+          "formato": "Cuestiones teórico-prácticas de respuesta libre + un supuesto práctico a elegir entre dos, en la misma sesión",
+          "duracion": "5 horas en total",
+          "opciones": "De 0 a 70 puntos (35 por parte)",
+          "detalle": "Hay que sacar al menos 35 puntos y el 50 % de cada parte."
+        }
+      ],
+      "estado": "cerrada",
+      "plazo_fin": null
+    }
+  },
+  {
+    "fuente_id": "u18",
+    "grupo": "Laboratorios",
+    "oposicion": {
+      "slug": "oficial-laboratorio-dental-unizar",
+      "nombre": "Oficial de Laboratorio (Laboratorio Dental)",
+      "puesto_slug": "oficial-laboratorio-dental",
+      "descripcion_corta": "Oposición de Oficial de Laboratorio (Laboratorio Dental) de la Universidad de Zaragoza: plazas, requisitos, examen y temario oficial.",
+      "descripcion_larga": "Plazas de personal funcionario técnico, de gestión y de administración y servicios (PTGAS) de la Universidad de Zaragoza, subgrupo C2. Requisito de titulación: estar en posesión o en condiciones de obtener el título de Graduado en Educación Secundaria Obligatoria o equivalente. La convocatoria OPO-21/2025 (BOA núm. 79, de 28 de abril de 2025) es de 1 plaza. El programa tiene 29 temas y la oposición, 2 ejercicios eliminatorios."
+    },
+    "convocatoria": {
+      "oposicion_slug": "oficial-laboratorio-dental-unizar",
+      "numero": "OPO-21/2025",
+      "plaza": "Oficial de Laboratorio (Laboratorio Dental) — PTGAS funcionario de la Universidad de Zaragoza, subgrupo C2",
+      "fecha_decreto": "10 de abril de 2025",
+      "sistema_seleccion": "Oposición libre, con dos ejercicios eliminatorios",
+      "requisito_titulacion": "Estar en posesión o en condiciones de obtener el título de Graduado en Educación Secundaria Obligatoria o equivalente.",
+      "plazo_instancias": "Veinte días naturales a partir del día siguiente a la publicación de la convocatoria en el BOE. Convocatoria publicada en el BOA núm. 79, de 28 de abril de 2025; plazo ya cerrado. Solicitud en sede.unizar.es y tasa de 12,76 €.",
+      "duracion_maxima_proceso": "Las bases no fijan una duración máxima. El primer ejercicio no puede celebrarse antes de tres meses desde la publicación de la convocatoria en el BOE.",
+      "orden_actuacion": "Las bases no indican letra de orden de actuación; los ejercicios se hacen en llamamiento único.",
+      "plazas_total": 1,
+      "desglose_plazas": [
+        {
+          "turno": "Turno libre",
+          "cantidad": 1
+        }
+      ],
+      "enlaces_oficiales": [
+        {
+          "titulo": "Convocatoria OPO-21/2025 (BOA núm. 79, 28 de abril de 2025)",
+          "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1390308520606"
+        },
+        {
+          "titulo": "Sede electrónica de la Universidad de Zaragoza (solicitudes y tablón de anuncios e-TOUZ)",
+          "url": "https://sede.unizar.es"
+        }
+      ],
+      "pruebas": [
+        {
+          "id": "ejercicio-test",
+          "icono": "📝",
+          "numero": 1,
+          "nombre": "Primer ejercicio (test)",
+          "formato": "Test de hasta 100 preguntas (el 20 % de la parte general)",
+          "duracion": "60 minutos",
+          "opciones": "De 0 a 30 puntos",
+          "detalle": "Cuatro respuestas por pregunta y solo una correcta; cada error resta un tercio de acierto. Hay que llegar al 50 % y, de entre quienes lo hagan, pasa el número que fije el tribunal."
+        },
+        {
+          "id": "ejercicio-supuesto",
+          "icono": "📋",
+          "numero": 2,
+          "nombre": "Segundo ejercicio (supuesto práctico)",
+          "formato": "Un supuesto práctico a elegir entre dos sobre la parte específica y las funciones de la plaza",
+          "duracion": "120 minutos",
+          "opciones": "De 0 a 70 puntos",
+          "detalle": "Hay que sacar al menos 35 puntos."
+        }
+      ],
+      "estado": "cerrada",
+      "plazo_fin": null
+    }
+  },
+  {
+    "fuente_id": "u21",
+    "grupo": "Laboratorios",
+    "oposicion": {
+      "slug": "oficial-laboratorio-agropecuaria-unizar",
+      "nombre": "Oficial de Laboratorio y Talleres (Agropecuaria)",
+      "puesto_slug": "oficial-laboratorio-agropecuaria",
+      "descripcion_corta": "Oposición de Oficial de Laboratorio y Talleres (Agropecuaria) de la Universidad de Zaragoza: plazas, requisitos, examen y temario oficial.",
+      "descripcion_larga": "Plazas de personal funcionario técnico, de gestión y de administración y servicios (PTGAS) de la Universidad de Zaragoza, subgrupo C2. Requisito de titulación: estar en posesión o en condiciones de obtener el título de graduado en Educación Secundaria Obligatoria o equivalente. La convocatoria OPO-16/2025 (BOA núm. 77, de 24 de abril de 2025) es de 1 plaza. El programa tiene 27 temas y la oposición, 2 ejercicios eliminatorios."
+    },
+    "convocatoria": {
+      "oposicion_slug": "oficial-laboratorio-agropecuaria-unizar",
+      "numero": "OPO-16/2025",
+      "plaza": "Oficial de Laboratorio y Talleres (Agropecuaria) — PTGAS funcionario de la Universidad de Zaragoza, subgrupo C2",
+      "fecha_decreto": "8 de abril de 2025",
+      "sistema_seleccion": "Oposición libre, con dos ejercicios eliminatorios",
+      "requisito_titulacion": "Estar en posesión o en condiciones de obtener el título de graduado en Educación Secundaria Obligatoria o equivalente.",
+      "plazo_instancias": "Veinte días naturales a partir del día siguiente a la publicación de la convocatoria en el BOE. Convocatoria publicada en el BOA núm. 77, de 24 de abril de 2025; plazo ya cerrado. Solicitud en sede.unizar.es y tasa de 12,76 €.",
+      "duracion_maxima_proceso": "Las bases no fijan una duración máxima. El primer ejercicio no puede celebrarse antes de tres meses desde la publicación de la convocatoria en el BOE.",
+      "orden_actuacion": "Las bases no indican letra de orden de actuación; los ejercicios se hacen en llamamiento único.",
+      "plazas_total": 1,
+      "desglose_plazas": [
+        {
+          "turno": "Turno libre",
+          "cantidad": 1
+        }
+      ],
+      "enlaces_oficiales": [
+        {
+          "titulo": "Convocatoria OPO-16/2025 (BOA núm. 77, 24 de abril de 2025)",
+          "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1389959800606"
+        },
+        {
+          "titulo": "Sede electrónica de la Universidad de Zaragoza (solicitudes y tablón de anuncios e-TOUZ)",
+          "url": "https://sede.unizar.es"
+        }
+      ],
+      "pruebas": [
+        {
+          "id": "ejercicio-test",
+          "icono": "📝",
+          "numero": 1,
+          "nombre": "Primer ejercicio (test)",
+          "formato": "Test de hasta 100 preguntas (el 20 % de la parte general)",
+          "duracion": "60 minutos",
+          "opciones": "De 0 a 30 puntos",
+          "detalle": "Cuatro respuestas por pregunta y solo una correcta; cada error resta un tercio de acierto. Hay que llegar al 50 % y, de entre quienes lo hagan, pasa el número que fije el tribunal."
+        },
+        {
+          "id": "ejercicio-supuesto",
+          "icono": "📋",
+          "numero": 2,
+          "nombre": "Segundo ejercicio (supuesto práctico)",
+          "formato": "Un supuesto práctico a elegir entre dos sobre la parte específica y las funciones de la plaza",
+          "duracion": "120 minutos",
+          "opciones": "De 0 a 70 puntos",
+          "detalle": "Hay que sacar al menos 35 puntos."
+        }
+      ],
+      "estado": "cerrada",
+      "plazo_fin": null
+    }
+  },
+  {
+    "fuente_id": "u23",
+    "grupo": "Mantenimiento y oficios",
+    "oposicion": {
+      "slug": "tecnico-especialista-mantenimiento-unizar",
+      "nombre": "Técnico/a Especialista de Mantenimiento General y Oficios",
+      "puesto_slug": "tecnico-especialista-mantenimiento",
+      "descripcion_corta": "Oposición de Técnico/a Especialista de Mantenimiento General y Oficios de la Universidad de Zaragoza: plazas, requisitos, examen y temario oficial.",
+      "descripcion_larga": "Plazas de personal funcionario técnico, de gestión y de administración y servicios (PTGAS) de la Universidad de Zaragoza, subgrupo C1. Requisito de titulación: estar en posesión o en condiciones de obtener el título de Bachiller, Técnico o equivalente o, alternativamente, poseer una antigüedad de diez años en un Cuerpo o Escala del Grupo C Subgrupo C2. La convocatoria OPO-05/2025 (BOA núm. 71, de 11 de abril de 2025) es de 5 plazas, 3 de turno libre. El programa tiene 46 temas y la oposición, 2 ejercicios eliminatorios."
+    },
+    "convocatoria": {
+      "oposicion_slug": "tecnico-especialista-mantenimiento-unizar",
+      "numero": "OPO-05/2025",
+      "plaza": "Técnico/a Especialista de Mantenimiento General y Oficios — PTGAS funcionario de la Universidad de Zaragoza, subgrupo C1",
+      "fecha_decreto": "2 de abril de 2025",
+      "sistema_seleccion": "Oposición libre (turno libre), con dos ejercicios eliminatorios",
+      "requisito_titulacion": "Estar en posesión o en condiciones de obtener el título de Bachiller, Técnico o equivalente o, alternativamente, poseer una antigüedad de diez años en un Cuerpo o Escala del Grupo C Subgrupo C2.",
+      "plazo_instancias": "Veinte días naturales a partir del día siguiente a la publicación de la convocatoria en el BOE. Convocatoria publicada en el BOA núm. 71, de 11 de abril de 2025; plazo ya cerrado. Solicitud en sede.unizar.es y tasa de 16,94 €.",
+      "duracion_maxima_proceso": "Las bases no fijan una duración máxima. El primer ejercicio no puede celebrarse antes de tres meses desde la publicación de la convocatoria en el BOE.",
+      "orden_actuacion": "Las bases no indican letra de orden de actuación; los ejercicios se hacen en llamamiento único.",
+      "plazas_total": 5,
+      "desglose_plazas": [
+        {
+          "turno": "Turno libre",
+          "cantidad": 3
+        },
+        {
+          "turno": "Promoción interna (solo personal de la Universidad)",
+          "cantidad": 2
+        }
+      ],
+      "enlaces_oficiales": [
+        {
+          "titulo": "Convocatoria OPO-05/2025 (BOA núm. 71, 11 de abril de 2025)",
+          "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1388407440909"
+        },
+        {
+          "titulo": "Sede electrónica de la Universidad de Zaragoza (solicitudes y tablón de anuncios e-TOUZ)",
+          "url": "https://sede.unizar.es"
+        }
+      ],
+      "pruebas": [
+        {
+          "id": "ejercicio-test",
+          "icono": "📝",
+          "numero": 1,
+          "nombre": "Primer ejercicio (test)",
+          "formato": "Test de hasta 100 preguntas (el 20 % de la parte general)",
+          "duracion": "60 minutos",
+          "opciones": "De 0 a 30 puntos",
+          "detalle": "Cuatro respuestas por pregunta y solo una correcta; cada error resta un tercio de acierto. Hay que llegar al 50 % y, de entre quienes lo hagan, pasa el número que fije el tribunal."
+        },
+        {
+          "id": "ejercicio-practico",
+          "icono": "📋",
+          "numero": 2,
+          "nombre": "Segundo ejercicio (prueba práctica)",
+          "formato": "Cuestiones teórico-prácticas de respuesta libre + un supuesto práctico a elegir entre dos, en la misma sesión",
+          "duracion": "5 horas en total",
+          "opciones": "De 0 a 70 puntos (35 por parte)",
+          "detalle": "Hay que sacar al menos 35 puntos y el 50 % de cada parte."
+        }
+      ],
+      "estado": "cerrada",
+      "plazo_fin": null
+    }
+  },
+  {
+    "fuente_id": "u19",
+    "grupo": "Mantenimiento y oficios",
+    "oposicion": {
+      "slug": "oficial-mantenimiento-unizar",
+      "nombre": "Oficial de Mantenimiento General y Oficios",
+      "puesto_slug": "oficial-mantenimiento",
+      "descripcion_corta": "Oposición de Oficial de Mantenimiento General y Oficios de la Universidad de Zaragoza: plazas, requisitos, examen y temario oficial.",
+      "descripcion_larga": "Plazas de personal funcionario técnico, de gestión y de administración y servicios (PTGAS) de la Universidad de Zaragoza, subgrupo C2. Requisito de titulación: estar en posesión o en condiciones de obtener el título de graduado en Educación Secundaria Obligatoria o equivalente. La convocatoria OPO-17/2025 (BOA núm. 78, de 25 de abril de 2025) es de 3 plazas. El programa tiene 33 temas y la oposición, 2 ejercicios eliminatorios."
+    },
+    "convocatoria": {
+      "oposicion_slug": "oficial-mantenimiento-unizar",
+      "numero": "OPO-17/2025",
+      "plaza": "Oficial de Mantenimiento General y Oficios — PTGAS funcionario de la Universidad de Zaragoza, subgrupo C2",
+      "fecha_decreto": "8 de abril de 2025",
+      "sistema_seleccion": "Oposición libre, con dos ejercicios eliminatorios",
+      "requisito_titulacion": "Estar en posesión o en condiciones de obtener el título de graduado en Educación Secundaria Obligatoria o equivalente.",
+      "plazo_instancias": "Veinte días naturales a partir del día siguiente a la publicación de la convocatoria en el BOE. Convocatoria publicada en el BOA núm. 78, de 25 de abril de 2025; plazo ya cerrado. Solicitud en sede.unizar.es y tasa de 12,76 €.",
+      "duracion_maxima_proceso": "Las bases no fijan una duración máxima. El primer ejercicio no puede celebrarse antes de tres meses desde la publicación de la convocatoria en el BOE.",
+      "orden_actuacion": "Las bases no indican letra de orden de actuación; los ejercicios se hacen en llamamiento único.",
+      "plazas_total": 3,
+      "desglose_plazas": [
+        {
+          "turno": "Turno libre",
+          "cantidad": 3
+        }
+      ],
+      "enlaces_oficiales": [
+        {
+          "titulo": "Convocatoria OPO-17/2025 (BOA núm. 78, 25 de abril de 2025)",
+          "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1390105600808"
+        },
+        {
+          "titulo": "Sede electrónica de la Universidad de Zaragoza (solicitudes y tablón de anuncios e-TOUZ)",
+          "url": "https://sede.unizar.es"
+        }
+      ],
+      "pruebas": [
+        {
+          "id": "ejercicio-test",
+          "icono": "📝",
+          "numero": 1,
+          "nombre": "Primer ejercicio (test)",
+          "formato": "Test de hasta 100 preguntas (el 20 % de la parte general)",
+          "duracion": "60 minutos",
+          "opciones": "De 0 a 30 puntos",
+          "detalle": "Cuatro respuestas por pregunta y solo una correcta; cada error resta un tercio de acierto. Hay que llegar al 50 % y, de entre quienes lo hagan, pasa el número que fije el tribunal."
+        },
+        {
+          "id": "ejercicio-supuesto",
+          "icono": "📋",
+          "numero": 2,
+          "nombre": "Segundo ejercicio (supuesto práctico)",
+          "formato": "Un supuesto práctico a elegir entre dos sobre la parte específica y las funciones de la plaza",
+          "duracion": "120 minutos",
+          "opciones": "De 0 a 70 puntos",
+          "detalle": "Hay que sacar al menos 35 puntos."
+        }
+      ],
+      "estado": "cerrada",
+      "plazo_fin": null
+    }
+  },
+  {
+    "fuente_id": "u20",
+    "grupo": "Mantenimiento y oficios",
+    "oposicion": {
+      "slug": "oficial-produccion-editorial-unizar",
+      "nombre": "Oficial de Edición y Medios Audiovisuales (Producción Editorial)",
+      "puesto_slug": "oficial-produccion-editorial",
+      "descripcion_corta": "Oposición de Oficial de Edición y Medios Audiovisuales (Producción Editorial) de la Universidad de Zaragoza: plazas, requisitos, examen y temario oficial.",
+      "descripcion_larga": "Plazas de personal funcionario técnico, de gestión y de administración y servicios (PTGAS) de la Universidad de Zaragoza, subgrupo C2. Requisito de titulación: estar en posesión o en condiciones de obtener el título de graduado en Educación Secundaria Obligatoria o equivalente. La convocatoria OPO-15/2025 (BOA núm. 78, de 25 de abril de 2025) es de 1 plaza. El programa tiene 30 temas y la oposición, 2 ejercicios eliminatorios."
+    },
+    "convocatoria": {
+      "oposicion_slug": "oficial-produccion-editorial-unizar",
+      "numero": "OPO-15/2025",
+      "plaza": "Oficial de Edición y Medios Audiovisuales (Producción Editorial) — PTGAS funcionario de la Universidad de Zaragoza, subgrupo C2",
+      "fecha_decreto": "9 de abril de 2025",
+      "sistema_seleccion": "Oposición libre, con dos ejercicios eliminatorios",
+      "requisito_titulacion": "Estar en posesión o en condiciones de obtener el título de graduado en Educación Secundaria Obligatoria o equivalente.",
+      "plazo_instancias": "Veinte días naturales a partir del día siguiente a la publicación de la convocatoria en el BOE. Convocatoria publicada en el BOA núm. 78, de 25 de abril de 2025; plazo ya cerrado. Solicitud en sede.unizar.es y tasa de 12,76 €.",
+      "duracion_maxima_proceso": "Las bases no fijan una duración máxima. El primer ejercicio no puede celebrarse antes de tres meses desde la publicación de la convocatoria en el BOE.",
+      "orden_actuacion": "Las bases no indican letra de orden de actuación; los ejercicios se hacen en llamamiento único.",
+      "plazas_total": 1,
+      "desglose_plazas": [
+        {
+          "turno": "Turno libre",
+          "cantidad": 1
+        }
+      ],
+      "enlaces_oficiales": [
+        {
+          "titulo": "Convocatoria OPO-15/2025 (BOA núm. 78, 25 de abril de 2025)",
+          "url": "https://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=1390109640909"
+        },
+        {
+          "titulo": "Sede electrónica de la Universidad de Zaragoza (solicitudes y tablón de anuncios e-TOUZ)",
+          "url": "https://sede.unizar.es"
+        }
+      ],
+      "pruebas": [
+        {
+          "id": "ejercicio-test",
+          "icono": "📝",
+          "numero": 1,
+          "nombre": "Primer ejercicio (test)",
+          "formato": "Test de hasta 100 preguntas (el 20 % de la parte general)",
+          "duracion": "60 minutos",
+          "opciones": "De 0 a 30 puntos",
+          "detalle": "Cuatro respuestas por pregunta y solo una correcta; cada error resta un tercio de acierto. Hay que llegar al 50 % y, de entre quienes lo hagan, pasa el número que fije el tribunal."
+        },
+        {
+          "id": "ejercicio-supuesto",
+          "icono": "📋",
+          "numero": 2,
+          "nombre": "Segundo ejercicio (supuesto práctico)",
+          "formato": "Un supuesto práctico a elegir entre dos sobre la parte específica y las funciones de la plaza",
+          "duracion": "120 minutos",
+          "opciones": "De 0 a 70 puntos",
+          "detalle": "Hay que sacar al menos 35 puntos."
+        }
+      ],
+      "estado": "cerrada",
+      "plazo_fin": null
+    }
+  }
+]

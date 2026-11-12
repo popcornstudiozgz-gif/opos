@@ -13,6 +13,24 @@ import type { Oposicion } from "@/lib/types";
  * `scripts/seed-fichas-dpz.mjs`.
  */
 const GRUPOS: Record<string, { titulo: string; puestos: string[] }[]> = {
+  // Universidad de Zaragoza (noviembre de 2026): `scripts/seed-fichas-unizar.mjs`.
+  "universidad-zaragoza": [
+    { titulo: "Administración y gestión", puestos: ["auxiliar-administrativo", "gestion-idiomas"] },
+    { titulo: "Informática", puestos: ["tecnico-medio-informatica", "tecnico-superior-informatica"] },
+    { titulo: "Archivos, bibliotecas e idiomas", puestos: ["ayudante-archivos-bibliotecas", "facultativo-archivos-bibliotecas", "tecnico-superior-idiomas"] },
+    {
+      titulo: "Técnicos superiores y medios",
+      puestos: ["tecnico-superior-transferencia-investigacion", "tecnico-superior-arquitectura", "tecnico-medio-mantenimiento", "tecnico-medio-prevencion", "tecnico-superior-educacion-fisica"],
+    },
+    {
+      titulo: "Laboratorios",
+      puestos: [
+        "tecnico-superior-laboratorio-veterinaria", "tecnico-especialista-laboratorio-quimica-biomedica", "tecnico-especialista-laboratorio-quimica",
+        "tecnico-especialista-laboratorio-mecanica", "tecnico-especialista-laboratorio-rocas-3d", "oficial-laboratorio-dental", "oficial-laboratorio-agropecuaria",
+      ],
+    },
+    { titulo: "Mantenimiento y oficios", puestos: ["tecnico-especialista-mantenimiento", "oficial-mantenimiento", "oficial-produccion-editorial"] },
+  ],
   dpz: [
     {
       titulo: "Administración general",

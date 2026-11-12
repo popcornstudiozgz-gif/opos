@@ -1,0 +1,216 @@
+[
+  {
+    "bloque": "Parte general",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "La Constitución Española."
+      },
+      {
+        "numero": 2,
+        "titulo": "Ley del Procedimiento Administrativo Común de las Administraciones Públicas: disposiciones generales; los interesados en el procedimiento; la actividad de las Administraciones Pública; los actos administrativos."
+      },
+      {
+        "numero": 3,
+        "titulo": "Ley del Procedimiento Administrativo Común de las Administraciones Públicas: la revisión de los actos en vía administrativa."
+      },
+      {
+        "numero": 4,
+        "titulo": "Ley de Régimen Jurídico del Sector Público: disposiciones generales; los órganos administrativos, competencia; funcionamiento de los órganos colegiados de las distintas administraciones públicas; abstención y recusación; funcionamiento electrónico del sector público."
+      },
+      {
+        "numero": 5,
+        "titulo": "Estatuto Básico del Empleado Público: clases de personal al servicio de las Administraciones Públicas; adquisición y pérdida de la relación de servicio."
+      },
+      {
+        "numero": 6,
+        "titulo": "Estatuto Básico del Empleado Público: derechos y deberes y código de conducta de los empleados públicos."
+      },
+      {
+        "numero": 7,
+        "titulo": "Estatuto Básico del Empleado Público: ordenación de la actividad profesional; situaciones administrativas; régimen disciplinario."
+      },
+      {
+        "numero": 8,
+        "titulo": "Ley de prevención de riesgos laborales: objeto, ámbito de aplicación y definiciones; derecho a la protección frente a los riesgos laborales; medidas de emergencia; obligaciones de los trabajadores en materia de prevención de riesgos; consulta y participación de los trabajadores. Reglamento general de protección de datos: definiciones y principios relativos al tratamiento. La política de seguridad de la información y protección de datos personales de la Universidad."
+      },
+      {
+        "numero": 9,
+        "titulo": "Ley Orgánica para la igualdad efectiva de mujeres y hombres: objeto y ámbito de la Ley; el principio de igualdad y la tutela contra la discriminación; el derecho al trabajo en igualdad de oportunidades; criterios de actuación de las Administraciones Públicas."
+      },
+      {
+        "numero": 10,
+        "titulo": "Ley Orgánica del sistema universitario: funciones del sistema universitario y autonomía de las universidades; creación y reconocimiento de las universidades y calidad del sistema universitario; organización de enseñanzas."
+      },
+      {
+        "numero": 11,
+        "titulo": "Ley Orgánica del sistema universitario: el estudiantado en el Sistema Universitario; personal docente e investigador de las universidades públicas; personal técnico, de gestión y de administración y servicios de las universidades públicas."
+      },
+      {
+        "numero": 12,
+        "titulo": "Estatutos de la Universidad de Zaragoza: disposiciones generales; la estructura de la Universidad; el Defensor Universitario; los servicios de asistencia a la comunidad universitaria."
+      },
+      {
+        "numero": 13,
+        "titulo": "Estatutos de la Universidad de Zaragoza: el gobierno y representación de la Universidad."
+      },
+      {
+        "numero": 14,
+        "titulo": "El Código Ético de la Universidad de Zaragoza. El plan antifraude de la Universidad de Zaragoza. Protocolo de actuación frente a conflictos de intereses detectados de la Universidad de Zaragoza."
+      },
+      {
+        "numero": 15,
+        "titulo": "El Pacto del personal funcionario de administración y servicios de la Universidad de Zaragoza: determinación de las partes que lo conciertan; condiciones de aplicación y vigencia; comisión de interpretación, vigilancia, estudio y aplicación del Pacto; organización y planificación del trabajo; ingreso y acceso a cuerpos y escalas de la Universidad; provisión de puestos de trabajo; formación y perfeccionamiento profesional; jornada y régimen de trabajo; vacaciones, permisos y licencias; situaciones administrativas. El Plan Concilia de la Universidad de Zaragoza."
+      },
+      {
+        "numero": 16,
+        "titulo": "El Pacto del personal funcionario de administración y servicios de la Universidad de Zaragoza: régimen disciplinario; salud laboral; retribuciones; acción social; derechos de representación colectiva y de reunión del PAS."
+      }
+    ]
+  },
+  {
+    "bloque": "Parte específica",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "Tecnología del corte por arranque de material: Herramientas de corte. Características de las herramientas de corte: materiales, calidades y geometría. Tipos. Aplicación. Identificación. El desgaste en las herramientas de corte."
+      },
+      {
+        "numero": 2,
+        "titulo": "Torneado: Principios del mecanizado por torneado. Máquinas para el torneado, tipos, estructura. Utillajes de sujeción de piezas y herramientas. Accesorios."
+      },
+      {
+        "numero": 3,
+        "titulo": "Mecanización con torno: Operaciones que se realizan. Procedimiento de trabajo para la realización de estas operaciones. Parámetros de mecanizado, herramientas, tiempos de mecanizado. Fuerzas de corte y potencia consumida."
+      },
+      {
+        "numero": 4,
+        "titulo": "Fresado: Principios del mecanizado por fresado. Máquinas para el fresado, tipos, estructura. Utillajes de sujeción de piezas y herramientas. Accesorios."
+      },
+      {
+        "numero": 5,
+        "titulo": "Mecanización con fresadora: Operaciones que se realizan. Procedimiento de trabajo para la realización de estas operaciones. Parámetros de mecanizado, herramientas, tiempos de mecanizado. Fuerzas de corte y potencia absorbida."
+      },
+      {
+        "numero": 6,
+        "titulo": "Taladrado: Principios del mecanizado por taladrado. Máquinas para el taladrado, tipos, estructura. Utillajes de sujeción de piezas y herramientas. Operaciones que se realizan. Parámetros de mecanizado, herramientas."
+      },
+      {
+        "numero": 7,
+        "titulo": "Rectificado: Principios del mecanizado por rectificado. Clases de rectificado y máquinas empleadas. Procedimiento de trabajo para las formas de mecanizado más usuales. Muelas y características. Parámetros de proceso. Montaje y equilibrado."
+      },
+      {
+        "numero": 8,
+        "titulo": "Electroerosión: Tipos de máquinas y operaciones que realizan. Procedimiento de trabajo para la realización de estas operaciones. Limpieza y líquido dieléctrico. Materiales para electrodos. Parámetros de mecanizado, tiempos de mecanizado. Cálculo de electrodos."
+      },
+      {
+        "numero": 9,
+        "titulo": "Soldadura: Uniones soldadas y técnicas de soldeo. El arco eléctrico. Soldeo por arco con electrodo revestido. Soldeo TIG. Soldeo MIG-MAG. Soldeo por puntos. Preparación de piezas. Parámetros de soldeo. Manejo de gases."
+      },
+      {
+        "numero": 10,
+        "titulo": "Conformado a partir de chapas metálicas. Tipos: embutición, punzonado, laminación. Estructura y elementos constituyentes de las máquinas. Utillajes de sujeción de piezas y herramientas. Procedimientos y medios operativos. Aplicaciones. Posibles defectos y modos de evitarlos."
+      },
+      {
+        "numero": 11,
+        "titulo": "Matricería. Características constructivas: ángulos de salida, dimensiones de machos y matrices, mecanismos de expulsión y otros. Montaje y desmontaje de troqueles. Colocación en prensa."
+      },
+      {
+        "numero": 12,
+        "titulo": "Fabricación aditiva. Procesos de fabricación aditiva. Materiales. Manejo y ajuste de impresoras 3D."
+      },
+      {
+        "numero": 13,
+        "titulo": "Metrología: Medición, verificación y comparación. Instrumentos de medida directa, de comparación y verificación. Ajustes y tolerancias. Tolerancias geométricas y de calidad superficial. Verificación y medida de ángulos, conos, roscas, engranajes cilíndricos."
+      },
+      {
+        "numero": 14,
+        "titulo": "Elementos de máquinas: engranajes, árboles, ejes, acoplamientos, transmisiones, otros. Tipos. Funciones. Parámetros de definición. Representación normalizada (gráfica, simbólica, esquemática)."
+      },
+      {
+        "numero": 15,
+        "titulo": "Elementos de máquinas: rodamientos, cojinetes y órganos de guiado y apoyo. Tipos y constitución. Representación. Técnicas de montaje. Mantenimiento."
+      },
+      {
+        "numero": 16,
+        "titulo": "Motores de combustión interna: Procesos de desmontaje y montaje. Particularidades de desmontaje y montaje de los distintos elementos. Verificación de los elementos del motor. Documentación técnica. Procesos y técnicas. Útiles y herramientas. Equipos de medición y verificación."
+      },
+      {
+        "numero": 17,
+        "titulo": "Máquinas y equipos térmicos: Compresores. Aceites. Estanqueidad. Sistemas de regulación de capacidad. Calderas y quemadores. Evaporadores, condensadores e intercambiadores de calor. Aislamientos. Montaje y desmontaje de equipos."
+      },
+      {
+        "numero": 18,
+        "titulo": "Sistemas neumáticos y electro-neumáticos: fundamentos de neumática, simbología gráfica. Generación y alimentación de aire comprimido. Válvulas, actuadores: tipos, funcionamiento y aplicación. Configuración de sistemas."
+      },
+      {
+        "numero": 19,
+        "titulo": "Sistemas hidráulicos: fundamentos de hidráulica, simbología gráfica. Bombas, motores y cilindros hidráulicos: tipos, funcionamiento y aplicación. Acumuladores hidráulicos: tipos, funcionamiento y aplicación. Válvulas de cierre, direccionales, de presión, de flujo, proporcionales, servoválvulas: tipos, funcionamiento y aplicación. Configuración de sistemas."
+      },
+      {
+        "numero": 20,
+        "titulo": "Materiales férricos. Aceros, fundiciones y otros. Características fundamentales. Formas comerciales. Calidades. Aplicaciones."
+      },
+      {
+        "numero": 21,
+        "titulo": "Materiales metálicos. Cobre, aluminio, otros y sus aleaciones. Características fundamentales. Formas comerciales. Calidades. Aplicaciones."
+      },
+      {
+        "numero": 22,
+        "titulo": "Materiales compuestos. Composites, cerámicas, aglomerados y otros. Características fundamentales. Formas comerciales. Calidades. Aplicaciones."
+      },
+      {
+        "numero": 23,
+        "titulo": "Materiales plásticos. Características fundamentales. Formas comerciales. Calidades. Aplicaciones."
+      },
+      {
+        "numero": 24,
+        "titulo": "Ensayos metalográficos. Fundamentos. Equipos empleados. Técnicas aplicables a los ensayos macrográficos y micrográficos. Preparación de probetas y muestras."
+      },
+      {
+        "numero": 25,
+        "titulo": "Ensayos no destructivos. Tipos: inspección visual, líquidos penetrantes, partículas magnéticas, inspección por ultrasonidos, inspección radiográfica y otros. Aplicaciones. Procedimientos de ensayos. Equipos."
+      },
+      {
+        "numero": 26,
+        "titulo": "Ensayos destructivos. Tipos: tracción, comprensión, dureza, flexión, impacto y otros. Aplicaciones. Procedimientos de ensayos. Equipos. Preparación de probetas."
+      },
+      {
+        "numero": 27,
+        "titulo": "Tratamientos térmicos y termo-superficiales. Fundamento y objeto. Tipos: temple, revenido, recocido y normalizado. Preparación de las piezas. Variables que se deben controlar. Procedimientos operativos. Detección y evaluación de defectos."
+      },
+      {
+        "numero": 28,
+        "titulo": "Tratamientos termoquímicos. Fundamento y objeto. Tipos: cementación, nitruración, carbonitruración, sulfinización y otros. Preparación de las piezas. Variables que se deben controlar. Procedimientos operativos. Detección y evaluación de defectos."
+      },
+      {
+        "numero": 29,
+        "titulo": "Tratamientos superficiales. Fundamento y objeto. Tipos: galvánicos, químicos, por inmersión, mecánicos, por proyección y de acabado. Preparación de las piezas. Variables que se deben controlar. Procedimientos operativos. Detección y evaluación de defectos."
+      },
+      {
+        "numero": 30,
+        "titulo": "Representación gráfica: normalización, vistas, secciones, cortes y acotación. Formas constructivas. Calidad superficial. Tolerancias. Croquización."
+      },
+      {
+        "numero": 31,
+        "titulo": "Diseño asistido por ordenador (CAD 2D/3D). Trabajo con conjuntos. Acotación. Importación/exportación. Superficies y sólidos en 3D. Aplicaciones."
+      },
+      {
+        "numero": 32,
+        "titulo": "Programación de un control numérico de torneado y fresado. Programación manual. Estructura de un programa. Ejes y sistemas de coordenadas. Sistemas de referencia. Funciones preparatorias, control de trayectoria y funciones auxiliares. Reglaje de herramientas. Ciclo fijos. Procedimiento de trabajo para la preparación de la máquina. Tabla de herramientas y compensación. Funciones específicas."
+      },
+      {
+        "numero": 33,
+        "titulo": "CAD-CAM en torno y fresadora. Software CAD-CAM. Ciclo de trabajo con un sistema CADCAM. Postprocesado. DNC para CAM."
+      },
+      {
+        "numero": 34,
+        "titulo": "Mantenimiento: planes de mantenimiento. Operaciones básicas de mantenimiento mecánico. Mantenimiento correctivo, preventivo y predictivo de los sistemas mecánicos."
+      },
+      {
+        "numero": 35,
+        "titulo": "Seguridad. Normas de seguridad. Riesgos en el uso de máquinas de fabricación mecánica, equipos y procesos de soldeo y tratamientos térmicos. Prevención de riesgos."
+      }
+    ]
+  }
+]

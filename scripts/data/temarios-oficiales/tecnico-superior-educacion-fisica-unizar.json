@@ -1,0 +1,276 @@
+[
+  {
+    "bloque": "Parte general",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "La Constitución Española."
+      },
+      {
+        "numero": 2,
+        "titulo": "Ley del procedimiento administrativo común de las Administraciones Públicas: disposiciones generales; los interesados en el procedimiento; la actividad de las Administraciones Pública; los actos administrativos; las disposiciones sobre el procedimiento administrativo común."
+      },
+      {
+        "numero": 3,
+        "titulo": "Ley del procedimiento administrativo común de las Administraciones Públicas: la tramitación simplificada del procedimiento administrativo común; ejecución; la revisión de los actos en vía administrativa; la iniciativa legislativa y la potestad para dictar reglamentos y otras disposiciones."
+      },
+      {
+        "numero": 4,
+        "titulo": "Ley del régimen jurídico del sector público: disposiciones generales; los órganos administrativos, competencia; funcionamiento de los órganos colegiados de las distintas administraciones públicas; abstención y recusación; principios de la potestad sancionadora; la responsabilidad patrimonial de las Administraciones Públicas; funcionamiento electrónico del sector público; los convenios."
+      },
+      {
+        "numero": 5,
+        "titulo": "Estatuto Básico del Empleado Público: objeto y ámbito de aplicación; personal al servicio de las Administraciones Públicas; derechos y deberes y código de conducta de los empleados públicos;"
+      },
+      {
+        "numero": 6,
+        "titulo": "Estatuto Básico del Empleado Público: adquisición y pérdida de la relación de servicio; ordenación de la actividad profesional; situaciones administrativas; régimen disciplinario; cooperación entre las Administraciones Públicas."
+      },
+      {
+        "numero": 7,
+        "titulo": "Reglamento general de protección de datos: definiciones y principios relativos al tratamiento. La política de seguridad de la información y protección de datos personales de la Universidad. Ley Orgánica para la igualdad efectiva de mujeres y hombres: objeto y ámbito de la Ley; el principio de igualdad y la tutela contra la discriminación; el derecho al trabajo en igualdad de oportunidades; criterios de actuación de las Administraciones Públicas."
+      },
+      {
+        "numero": 8,
+        "titulo": "Ley de Incompatibilidades del personal al servicio de las administraciones públicas."
+      },
+      {
+        "numero": 9,
+        "titulo": "Estatutos de la Universidad de Zaragoza: disposiciones generales; la estructura de la Universidad; el gobierno y representación de la Universidad; el Defensor Universitario; la docencia e investigación; la comunidad universitaria; los servicios de asistencia a la comunidad universitaria; régimen económico, financiero y patrimonial; la reforma de los Estatutos."
+      },
+      {
+        "numero": 10,
+        "titulo": "El código Ético de la Universidad de Zaragoza. El plan antifraude de la Universidad de Zaragoza. Protocolo de actuación frente a conflictos de intereses detectados de la Universidad de Zaragoza."
+      },
+      {
+        "numero": 11,
+        "titulo": "Bases de elaboración y ejecución del Presupuesto de la Universidad de Zaragoza. Régimen económico y financiera de las universidades públicas en la Ley Orgánica del Sistema Universitario."
+      },
+      {
+        "numero": 12,
+        "titulo": "El Pacto del personal funcionario de administración y servicios de la Universidad de Zaragoza. El Plan Concilia de la Universidad de Zaragoza."
+      }
+    ]
+  },
+  {
+    "bloque": "Parte específica",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "Estructura y organización del deporte en el ámbito internacional: el Comité Olímpico Internacional y las Federaciones Deportivas Internacionales."
+      },
+      {
+        "numero": 2,
+        "titulo": "Estructura y organización del deporte universitario en el ámbito internacional: la Federación Internacional del Deporte Universitario, los Juegos Mundiales y los Campeonatos del Mundo Universitarios."
+      },
+      {
+        "numero": 3,
+        "titulo": "El deporte en la Unión Europea: la Carta Europea del Deporte y los programas e iniciativas europeas para la promoción del deporte."
+      },
+      {
+        "numero": 4,
+        "titulo": "Estructura y organización del deporte universitario en el ámbito europeo: la Asociación Europea del Deporte Universitario (EUSA) y los Campeonatos de Europa Universitarios."
+      },
+      {
+        "numero": 5,
+        "titulo": "El deporte en la Constitución Española. El desarrollo normativo y distribución de competencias en materia deportiva en España. Las competencias de las universidades."
+      },
+      {
+        "numero": 6,
+        "titulo": "Estructura y organización del deporte en España: el Consejo Superior de Deportes, el Comité Olímpico y Paralímpico Español (COE); las Federaciones y las organizaciones deportivas Españolas."
+      },
+      {
+        "numero": 7,
+        "titulo": "Estructura y organización del deporte universitario en España: el Comité Español del Deporte Universitario, su estructura, funciones y competencias."
+      },
+      {
+        "numero": 8,
+        "titulo": "El deporte universitario de competición en España: los Campeonatos de España Universitarios."
+      },
+      {
+        "numero": 9,
+        "titulo": "La Ley 16/2018 de la actividad física y el deporte en Aragón: disposiciones generales; actividad física y deporte; instalaciones deportivas; titulaciones deportivas, investigación e innovación en el deporte y la actividad física y profesiones vinculadas, y protección de la salud de los deportistas y prevención y lucha contra el dopaje en la actividad deportiva."
+      },
+      {
+        "numero": 10,
+        "titulo": "Estructura y organización del deporte en Aragón: la distribución competencial y los órganos aragoneses en materia de actividad física y deporte. El asociacionismo deportivo y su régimen jurídico."
+      },
+      {
+        "numero": 11,
+        "titulo": "El deporte universitario de competición en Aragón: el Campeonato de Aragón Universitario, las convocatorias y las normativas que lo regulan."
+      },
+      {
+        "numero": 12,
+        "titulo": "El marco legal del deporte en la administración local. Competencias, estructuras, funciones y organización del deporte en el ámbito local en Aragón."
+      },
+      {
+        "numero": 13,
+        "titulo": "Los deportes individuales y de adversario: tipos, características técnicas, tácticas y reglamentarias. Su planificación y didáctica aplicada."
+      },
+      {
+        "numero": 14,
+        "titulo": "Los deportes colectivos: tipos, características técnicas, tácticas y reglamentarias. Su planificación y didáctica aplicada."
+      },
+      {
+        "numero": 15,
+        "titulo": "Los deportes alternativos: tipos y características técnicas. Su planificación y didáctica aplicada."
+      },
+      {
+        "numero": 16,
+        "titulo": "Los deportes tradicionales aragoneses: tipos, características técnicas y reglamentarias. La planificación y didáctica aplicada."
+      },
+      {
+        "numero": 17,
+        "titulo": "El deporte adaptado. Concepto, Características y tipos. El deporte adaptado en los Campeonatos de España Universitarios."
+      },
+      {
+        "numero": 18,
+        "titulo": "El Deporte de Alto Nivel y Alto Rendimiento: normativa reguladora. Ayudas a deportistas de alto nivel y alto rendimiento en la Universidad de Zaragoza."
+      },
+      {
+        "numero": 19,
+        "titulo": "Las capacidades físicas básicas. Conceptos, fundamentos teóricos, factores que influyen en su desarrollo y métodos para su mejora."
+      },
+      {
+        "numero": 20,
+        "titulo": "El Entrenamiento Deportivo. Teoría y metodología científica."
+      },
+      {
+        "numero": 21,
+        "titulo": "Los principales modelos de planificación en el entrenamiento deportivo. Elementos estructurales y componentes del entrenamiento deportivo."
+      },
+      {
+        "numero": 22,
+        "titulo": "El aparato locomotor: estructura y funciones. La contracción muscular. Sus principales adaptaciones al entrenamiento."
+      },
+      {
+        "numero": 23,
+        "titulo": "El sistema cardiovascular y el respiratorio: estructura y funciones. Sus principales adaptaciones al entrenamiento."
+      },
+      {
+        "numero": 24,
+        "titulo": "Métodos y sistemas de valoración de la condición física. El Test deportivo. Definición, características, ejemplos."
+      },
+      {
+        "numero": 25,
+        "titulo": "Modelos de gestión y organización de actividades e instalaciones deportivas: gestión directa, indirecta y mixta. Principios, fundamentos, ventajas e inconvenientes de los mismos."
+      },
+      {
+        "numero": 26,
+        "titulo": "La gestión de las organizaciones deportivas a través de la calidad: concepto, fundamentación, principios y herramientas. Marco normativo sobre la calidad de los servicios públicos de la Administración en Aragón. Política de calidad de los servicios en la Universidad de Zaragoza."
+      },
+      {
+        "numero": 27,
+        "titulo": "Planificación estratégica en las organizaciones deportivas: concepto, fases, ejecución y seguimiento."
+      },
+      {
+        "numero": 28,
+        "titulo": "El marketing de los servicios deportivos: concepto, tipos, variables y planificación. Aplicación a los servicios deportivos públicos. Las T.I.C. como herramientas de comunicación de los servicios deportivos. Gestión de la imagen y la comunicación en la Universidad de Zaragoza."
+      },
+      {
+        "numero": 29,
+        "titulo": "La Gestión de los recursos humanos en las organizaciones deportivas y en los servicios deportivos públicos. El marco legal para contratación de profesionales y su prestación de servicios en el ámbito del deporte. El marco legal de los sujetos de la acción voluntaria en sector deportivo aragonés."
+      },
+      {
+        "numero": 30,
+        "titulo": "Gestión de los recursos económicos de los servicios deportivos públicos: el presupuesto y sus principios. La ejecución y el control presupuestario. Precios públicos y tasas deportivas: marco normativo en Aragón. Las unidades de planificación y los presupuestos del deporte en la Universidad de Zaragoza"
+      },
+      {
+        "numero": 31,
+        "titulo": "La financiación pública y privada del deporte. Marco normativo regulador de las subvenciones, el patrocinio y el mecenazgo en Aragón."
+      },
+      {
+        "numero": 32,
+        "titulo": "Ley 9/2017 de 8 de noviembre de contratos del sector público: tipos de procedimientos y pliegos de cláusulas administrativas y de prescripciones técnicas. Los contratos de concesión de servicios, de suministro y de servicio."
+      },
+      {
+        "numero": 33,
+        "titulo": "Los convenios en las Administraciones públicas. El marco legal: concepto, tipos, requisitos, contenido, tramitación y extinción. Normativa propia de la Universidad de Zaragoza."
+      },
+      {
+        "numero": 34,
+        "titulo": "Las Tecnologías de la Información y de la Comunicación como herramientas para la gestión de los servicios deportivos. El hardware, las aplicaciones informáticas y los sistemas de comunicación e información para el desempeño de las funciones de los servicios deportivos. Implementación en la Universidad de Zaragoza para la gestión."
+      },
+      {
+        "numero": 35,
+        "titulo": "Las normas reglamentarias, según las NIDE, para la disposición de las instalaciones, equipamientos y pavimentos deportivos para la práctica deportiva a diferente nivel: campos grandes y pequeños e instalaciones para atletismo."
+      },
+      {
+        "numero": 36,
+        "titulo": "Las normas de proyecto, según las NIDE, para la planificación, diseño y condiciones técnicas de instalaciones deportivas: campos grandes y pequeños e instalaciones para atletismo."
+      },
+      {
+        "numero": 37,
+        "titulo": "El mantenimiento en las instalaciones deportivas: planes preventivos y correctivos para asegurar el uso en condiciones de calidad y reglamentarias. La eficiencia energética y la sostenibilidad en su gestión y mantenimiento."
+      },
+      {
+        "numero": 38,
+        "titulo": "Estructura y organización del deporte en la Universidad de Zaragoza. Medidas de apoyo a la práctica deportiva y su reconocimiento académico en la misma."
+      },
+      {
+        "numero": 39,
+        "titulo": "Los programas de actividades de competición en la Universidad Zaragoza: tipología, características, marco normativo regulador y aspectos a considerar para su planificación, desarrollo y evaluación."
+      },
+      {
+        "numero": 40,
+        "titulo": "Organización de eventos deportivos: concepto, características, tipos, marco normativo regulador y aspectos sociales, medioambientales y de seguridad a considerar para su planificación, desarrollo y evaluación."
+      },
+      {
+        "numero": 41,
+        "titulo": "Actividades deportivas en el medio natural: concepto, características, tipos y aspectos sociales, medioambientales y de seguridad a considerar para su planificación, desarrollo y evaluación. Normativa reguladora en Aragón."
+      },
+      {
+        "numero": 42,
+        "titulo": "Los seguros en el ámbito deportivo: marco regulador, tipología, ámbitos de aplicación, prestaciones y características. El seguro escolar en el deporte universitario: definición, prestaciones y características."
+      },
+      {
+        "numero": 43,
+        "titulo": "Salud laboral. Planificación, desarrollo y evaluación de programas de actividad física saludable en el entorno laboral. El programa Profesionales Saludables de la Universidad de Zaragoza."
+      },
+      {
+        "numero": 44,
+        "titulo": "Promoción deportiva. Planificación, desarrollo y evaluación de programas de salud, fitness y wellness en el entorno universitario. El programa Unizar en Forma de la Universidad de Zaragoza."
+      },
+      {
+        "numero": 45,
+        "titulo": "Envejecimiento saludable. Planificación, desarrollo y evaluación de programas de promoción de la actividad física y la salud para personas mayores. El programa Envejecimiento Saludable de la Universidad de Zaragoza."
+      },
+      {
+        "numero": 46,
+        "titulo": "Planificación, desarrollo y evaluación de programas de iniciación y tecnificación deportiva en el entorno universitario. El programa Escuelas Deportivas de la Universidad de Zaragoza."
+      },
+      {
+        "numero": 47,
+        "titulo": "Salud del deportista. Valoración del estado de salud. Prescripción de actividad física saludable. Prevención de lesiones deportivas. Primeros auxilios en la práctica deportiva."
+      },
+      {
+        "numero": 48,
+        "titulo": "Alimentación saludable y ejercicio físico como estrategias de promoción de salud. Estrategia NAOS. Influencia de la alimentación en la salud y en la capacidad de rendimiento de los deportistas."
+      },
+      {
+        "numero": 49,
+        "titulo": "Recomendaciones de la OMS sobre ejercicio físico y alimentación saludable. La Red Española de Universidades Promotoras de Salud (REUPS). Planificación, desarrollo y evaluación de programas y estrategias para la promoción de la salud en las universidades españolas. El Proyecto Unizar Saludable."
+      },
+      {
+        "numero": 50,
+        "titulo": "La Responsabilidad Social en el Deporte. Los Objetivos de Desarrollo Sostenible (ODS) y la Agenda 2030. Modelos de implantación y evaluación de los ODS en las universidades. La Declaración de Salamanca. La implantación de los ODS en la Universidad de Zaragoza y en sus programas de actividades deportivas."
+      },
+      {
+        "numero": 51,
+        "titulo": "La promoción de la igualdad en el ámbito deportivo. Evolución y situación actual de la práctica deportiva femenina a nivel estatal. La declaración de Brighton, el programa Universo Mujer II del CSD y el plan para la promoción de la igualdad de oportunidades entre mujeres y hombres en el sector deportivo aragonés. Estrategias para la promoción de la práctica deportiva femenina en el deporte universitario en el ámbito estatal y en la Universidad de Zaragoza."
+      },
+      {
+        "numero": 52,
+        "titulo": "La formación de profesionales en el ámbito de la actividad física y el deporte: el marco legal en el ámbito del Estado y en Aragón."
+      },
+      {
+        "numero": 53,
+        "titulo": "El ejercicio profesional de las titulaciones de la actividad física y el deporte. Calificación y ejercicio de las profesiones del deporte en el ámbito del Estado y en Aragón."
+      },
+      {
+        "numero": 54,
+        "titulo": "Justicia deportiva: marco legal en el ámbito deportivo a nivel estatal, autonómico y universitario. La justicia deportiva en el ámbito de la Universidad de Zaragoza."
+      }
+    ]
+  }
+]

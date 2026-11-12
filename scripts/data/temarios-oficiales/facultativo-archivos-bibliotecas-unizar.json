@@ -1,0 +1,348 @@
+[
+  {
+    "bloque": "Parte general",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "La Constitución Española."
+      },
+      {
+        "numero": 2,
+        "titulo": "Ley del Procedimiento Administrativo Común de las Administraciones Públicas: disposiciones generales; los interesados en el procedimiento; la actividad de las Administraciones Pública; los actos administrativos; las disposiciones sobre el procedimiento administrativo común."
+      },
+      {
+        "numero": 3,
+        "titulo": "Ley del Procedimiento Administrativo Común de las Administraciones Públicas: la tramitación simplificada del procedimiento administrativo común; ejecución; la revisión de los actos en vía administrativa; la iniciativa legislativa y la potestad para dictar reglamentos y otras disposiciones."
+      },
+      {
+        "numero": 4,
+        "titulo": "Ley de Régimen Jurídico del Sector Público: disposiciones generales; los órganos administrativos, competencia; funcionamiento de los órganos colegiados de las distintas administraciones públicas; abstención y recusación; principios de la potestad sancionadora; la responsabilidad patrimonial de las Administraciones Públicas; funcionamiento electrónico del sector público; los convenios."
+      },
+      {
+        "numero": 5,
+        "titulo": "Estatuto Básico del Empleado Público: objeto y ámbito de aplicación; personal al servicio de las Administraciones Públicas; derechos y deberes y código de conducta de los empleados públicos;"
+      },
+      {
+        "numero": 6,
+        "titulo": "Estatuto Básico del Empleado Público: adquisición y pérdida de la relación de servicio; ordenación de la actividad profesional; situaciones administrativas; régimen disciplinario; cooperación entre las Administraciones Públicas."
+      },
+      {
+        "numero": 7,
+        "titulo": "Reglamento general de protección de datos: definiciones y principios relativos al tratamiento. La política de seguridad de la información y protección de datos personales de la Universidad."
+      },
+      {
+        "numero": 8,
+        "titulo": "Ley Orgánica para la igualdad efectiva de mujeres y hombres: objeto y ámbito de la Ley; el principio de igualdad y la tutela contra la discriminación; el derecho al trabajo en igualdad de oportunidades; criterios de actuación de las Administraciones Públicas."
+      },
+      {
+        "numero": 9,
+        "titulo": "Ley de Incompatibilidades del personal al servicio de las administraciones públicas."
+      },
+      {
+        "numero": 10,
+        "titulo": "Estatutos de la Universidad de Zaragoza: disposiciones generales; la estructura de la Universidad; el gobierno y representación de la Universidad; el Defensor Universitario; la docencia e investigación; la comunidad universitaria; los servicios de asistencia a la comunidad universitaria; régimen económico, financiero y patrimonial; la reforma de los Estatutos."
+      },
+      {
+        "numero": 11,
+        "titulo": "Ley de contratos del sector público: pliego de prescripciones técnicas particulares; definición de determinadas prescripciones técnicas; reglas para el establecimiento de prescripciones técnicas; etiquetas; informes de pruebas, certificación y otros medios de prueba."
+      },
+      {
+        "numero": 12,
+        "titulo": "El código Ético de la Universidad de Zaragoza. El plan antifraude de la Universidad de Zaragoza. Protocolo de actuación frente a conflictos de intereses detectados de la Universidad de Zaragoza."
+      },
+      {
+        "numero": 13,
+        "titulo": "Bases de elaboración y ejecución del Presupuesto de la Universidad de Zaragoza. Régimen económico y financiera de las universidades públicas en la Ley Orgánica del Sistema Universitario."
+      },
+      {
+        "numero": 14,
+        "titulo": "El Pacto del personal funcionario de administración y servicios de la Universidad de Zaragoza. El Plan Concilia de la Universidad de Zaragoza."
+      }
+    ]
+  },
+  {
+    "bloque": "Parte específica",
+    "temas": [
+      {
+        "numero": 15,
+        "titulo": "Legislación básica universitaria. Los estatutos de la Universidad de Zaragoza. El sistema español de I+D."
+      },
+      {
+        "numero": 16,
+        "titulo": "La comunicación científica: el acceso abierto; la ciencia abierta. Su impacto sobre las bibliotecas universitarias."
+      },
+      {
+        "numero": 17,
+        "titulo": "El Espacio Europeo de Educación Superior. Nuevos paradigmas de la enseñanza superior. El aprendizaje a lo largo de la vida. La biblioteca como agente educativo en la universidad."
+      },
+      {
+        "numero": 18,
+        "titulo": "Políticas de apoyo a la investigación. Planes de investigación y transferencia de la Universidad de Zaragoza."
+      },
+      {
+        "numero": 19,
+        "titulo": "Legislación en materia de propiedad intelectual. Sus implicaciones para las bibliotecas. El derecho de autor en el entorno digital. La gestión de derechos digitales."
+      },
+      {
+        "numero": 20,
+        "titulo": "Protección de datos. Legislación aplicable en las Universidades públicas. Seguridad en los sistemas de información. Repercusión en bibliotecas y archivos."
+      },
+      {
+        "numero": 21,
+        "titulo": "Legislación sobre patrimonio histórico. La legislación aragonesa de patrimonio cultural. La protección del patrimonio bibliográfico y documental en España. Situación actual y perspectivas."
+      },
+      {
+        "numero": 22,
+        "titulo": "El sistema español de bibliotecas. Legislación y competencias de las distintas administraciones. El sistema de bibliotecas de la Comunidad Autónoma de Aragón."
+      },
+      {
+        "numero": 23,
+        "titulo": "Biblioteca y sociedad. La función social de la biblioteca. La biblioteca y la agenda 2030. Implicación de la Biblioteca de la Universidad de Zaragoza con la sociedad."
+      },
+      {
+        "numero": 24,
+        "titulo": "Servicios bibliotecarios basados en tecnologías participativas. Servicios bibliotecarios ofrecidos mediante herramientas 2.0. Métrica de medios sociales."
+      },
+      {
+        "numero": 25,
+        "titulo": "Organización administrativa de los archivos en España y Aragón. Legislación en materia de archivos. Los archivos universitarios. La Conferencia de Archiveros de las Universidades Españolas (CAU). El Archivo de la Universidad de Zaragoza."
+      },
+      {
+        "numero": 26,
+        "titulo": "El archivo universitario: instalaciones y equipamientos. Conservación de los documentos. El proceso documental en el archivo universitario. Ingresos y transferencias de documentación. La valoración de los fondos. Selección y expurgo."
+      },
+      {
+        "numero": 27,
+        "titulo": "Organización del archivo: clasificación, descripción e instalación. El principio de procedencia. La normalización de la descripción archivística: normas ISAD (G) e ISAAR (CPF). La automatización de archivos."
+      },
+      {
+        "numero": 28,
+        "titulo": "El libro y las bibliotecas en la Antigüedad."
+      },
+      {
+        "numero": 29,
+        "titulo": "El libro y las bibliotecas en la Edad Media."
+      },
+      {
+        "numero": 30,
+        "titulo": "El nacimiento de la imprenta. Los incunables."
+      },
+      {
+        "numero": 31,
+        "titulo": "El libro y las bibliotecas durante la época Moderna."
+      },
+      {
+        "numero": 32,
+        "titulo": "El libro y las bibliotecas en el siglo XIX."
+      },
+      {
+        "numero": 33,
+        "titulo": "El libro y las bibliotecas en el siglo XX."
+      },
+      {
+        "numero": 34,
+        "titulo": "Las bibliotecas universitarias. Concepto, funciones y servicios. Los CRAI. Situación en España. Retos y tendencias. El futuro de las bibliotecas universitarias."
+      },
+      {
+        "numero": 35,
+        "titulo": "La Biblioteca de la Universidad de Zaragoza (BUZ). El Reglamento de la BUZ. La estructura organizativa de la BUZ."
+      },
+      {
+        "numero": 36,
+        "titulo": "Cooperación bibliotecaria. La cooperación en España en la actualidad. La cooperación bibliotecaria internacional: Organizaciones y proyectos. La IFLA."
+      },
+      {
+        "numero": 37,
+        "titulo": "Sistemas, redes y consorcios de bibliotecas universitarias. REBIUN: Organización y servicios. Plan Estratégico REBIUN."
+      },
+      {
+        "numero": 38,
+        "titulo": "La profesión bibliotecaria. Ética profesional. Asociaciones profesionales nacionales e internacionales."
+      },
+      {
+        "numero": 39,
+        "titulo": "Planificación y gestión de la biblioteca universitaria. Planificación estratégica. Los planes estratégicos de la BUZ."
+      },
+      {
+        "numero": 40,
+        "titulo": "Gestión de calidad en bibliotecas universitarias. Modelos de evaluación, certificación y acreditación de la gestión y los servicios bibliotecarios."
+      },
+      {
+        "numero": 41,
+        "titulo": "Atención a las personas usuarias en la BUZ. Sistemas y herramientas para conocer sus necesidades y expectativas. Análisis de sus necesidades."
+      },
+      {
+        "numero": 42,
+        "titulo": "Planificación de los servicios orientados a las personas usuarias en las bibliotecas universitarias (I) Orientación y atención al público, servicios de referencia, búsquedas bibliográficas."
+      },
+      {
+        "numero": 43,
+        "titulo": "Planificación de servicios orientados a las personas usuarias en la biblioteca universitaria (II): consulta en sala, préstamo, préstamo intercentros/intercampus, préstamo interbibliotecario."
+      },
+      {
+        "numero": 44,
+        "titulo": "Planificación de instalaciones y equipamientos. Construcción, equipamiento y usos de los espacios bibliotecarios: nuevas tendencias. Gestión de espacios: espacios colaborativos, coworking, usos sociales, etc."
+      },
+      {
+        "numero": 45,
+        "titulo": "La gestión económica y presupuestaria: fuentes de financiación de las bibliotecas universitarias. El presupuesto de la BUZ. La ejecución presupuestaria y la contratación administrativa."
+      },
+      {
+        "numero": 46,
+        "titulo": "Gestión de los recursos humanos. La gestión por competencias. Evaluación del rendimiento. Formación permanente de los bibliotecarios"
+      },
+      {
+        "numero": 47,
+        "titulo": "El liderazgo en las bibliotecas. Gestión eficaz de equipos. Gestión de conflictos."
+      },
+      {
+        "numero": 48,
+        "titulo": "La gestión de la colección en soporte físico: criterios para la constitución, el mantenimiento y el expurgo de la colección, su planificación y evaluación."
+      },
+      {
+        "numero": 49,
+        "titulo": "La gestión de los recursos electrónicos: contratación, modelos de comercialización, adquisiciones consorciadas y licencias de uso."
+      },
+      {
+        "numero": 50,
+        "titulo": "Las colecciones especiales. El libro antiguo y raro. Formas de adquisición o incorporación. Las colecciones especiales en la BUZ."
+      },
+      {
+        "numero": 51,
+        "titulo": "La evaluación de recursos electrónicos. El uso de los recursos electrónicos: principales estándares para su medición del uso (COUNTER, e-Metrics, ISO 20983)"
+      },
+      {
+        "numero": 52,
+        "titulo": "Los servicios presenciales y virtuales de la biblioteca. La difusión de la biblioteca, herramientas y canales. La carta de servicio de la BUZ"
+      },
+      {
+        "numero": 53,
+        "titulo": "Web 2.0 y redes sociales. La reputación digital. Servicios de extensión bibliotecaria y cultural. Redes sociales, blogs, wikis y otras herramientas de comunicación de la Biblioteca con los usuarios."
+      },
+      {
+        "numero": 54,
+        "titulo": "La formación de usuarios y las nuevas tendencias. CI2: Competencias Informáticas e Informacionales. Competencia digital."
+      },
+      {
+        "numero": 55,
+        "titulo": "Planificación, diseño y evaluación de un programa formativo en competencias digitales en el ámbito universitario. La participación de la BUZ en la formación en competencias digitales de la Universidad de Zaragoza."
+      },
+      {
+        "numero": 56,
+        "titulo": "La edición en la actualidad. Libros electrónicos, dispositivos de lectura, plataformas y servicios. La gestión del libro electrónico: adquisición, accesos a plataformas, modelos de precios y licencias."
+      },
+      {
+        "numero": 57,
+        "titulo": "Historia de las publicaciones periódicas. Las revistas digitales. La gestión de acceso a las revistas electrónicas. Contratación, modelos de comercialización y de precios. Nuevos modelos económicos de las publicaciones y contenidos digitales. Proveedores. Las licencias de uso."
+      },
+      {
+        "numero": 58,
+        "titulo": "Normativa de descripción bibliográfica y acceso. FRBR, FRAD, RDA. Formatos de intercambio bibliográfico. MARC 21 y Bibframe. Normalización de la identificación única y permanente de documentos Los metadatos y su aplicación al entorno bibliotecario. Esquemas de metadatos. Características de Dublin Core."
+      },
+      {
+        "numero": 59,
+        "titulo": "Los tesauros: normas de creación y mantenimiento. Control de autoridades. Principales herramientas para el control de autoridades. FRAD, FRASD, VIAF, SKOS. Los Identificadores unívocos de autor (ORCID…)"
+      },
+      {
+        "numero": 60,
+        "titulo": "Análisis documental del contenido. Indización y resumen. Indización automatizada. Los lenguajes documentales. Principales tipos de clasificación bibliográfica."
+      },
+      {
+        "numero": 61,
+        "titulo": "Preservación y conservación de los materiales físicos. Principales proyectos españoles e internacionales."
+      },
+      {
+        "numero": 62,
+        "titulo": "La digitalización de documentos: técnicas, procedimientos y estándares. Principales directrices a nivel nacional e internacional. Metadatos para preservación digital. Programas y proyectos de digitalización. La digitalización en la Biblioteca de la Universidad de Zaragoza."
+      },
+      {
+        "numero": 63,
+        "titulo": "Los sistemas integrados de gestión bibliotecaria. Situación y tendencias de futuro. OPACS y descubridores: características y utilidades."
+      },
+      {
+        "numero": 64,
+        "titulo": "Catálogos colectivos. Programas de catalogación compartida y cooperación. El catálogo de la BUZ. AlcorZe."
+      },
+      {
+        "numero": 65,
+        "titulo": "La biblioteca digital: Impacto y transformaciones en los servicios bibliotecarios. Interoperatividad y estándares en bibliotecas digitales. TCP/IP, HTTP, Z39.50, SRU, OAI Metadata Harvesting Protocol y Open URL. Los identificadores persistentes."
+      },
+      {
+        "numero": 66,
+        "titulo": "Apoyo a la evaluación científica. Bibliometría y análisis métrico de la ciencia. Indicadores e índices bibliométricos. Indicios de calidad de las publicaciones científicas. Métricas alternativas."
+      },
+      {
+        "numero": 67,
+        "titulo": "El mercado de la información y edición científica. La comunicación científica: evolución, tendencias y perspectivas de futuro. El papel del bibliotecario como asistente en el ciclo de trabajo del investigador."
+      },
+      {
+        "numero": 68,
+        "titulo": "Las fuentes de información como herramientas para el reconocimiento, visibilidad y acreditación de la actividad investigadora."
+      },
+      {
+        "numero": 69,
+        "titulo": "Las tecnologías de la información y su aplicación a los procesos de la biblioteca. Herramientas digitales para la gestión, difusión de información, comunicación y servicios a distancia."
+      },
+      {
+        "numero": 70,
+        "titulo": "Tendencias y técnicas de recuperación de información en el entorno de la Web. Modelos de recuperación de información para la Web: arquitectura y funcionamiento."
+      },
+      {
+        "numero": 71,
+        "titulo": "Gobernanza de Internet. Significado y objetivos. La ICANN y el Foro IGF. Recomendaciones y estándares de WWW. El W3C"
+      },
+      {
+        "numero": 72,
+        "titulo": "La edición electrónica. Arquitectura de la información y usabilidad en la web. Principios de diseño, usabilidad y accesibilidad para el desarrollo de sitios web de bibliotecas. La web y la Intranet de la BUZ."
+      },
+      {
+        "numero": 73,
+        "titulo": "La gestión de los recursos electrónicos. El movimiento del Open Access. Revistas de acceso abierto, e-prints. Apertura de la información y de las publicaciones. La ciencia abierta"
+      },
+      {
+        "numero": 74,
+        "titulo": "Los repositorios institucionales: creación y administración. El repositorio institucional de la Universidad de Zaragoza. La organización de sus colecciones."
+      },
+      {
+        "numero": 75,
+        "titulo": "Estado actual de la bibliografía en el mundo. Impacto de las tecnologías de la información y la comunicación."
+      },
+      {
+        "numero": 76,
+        "titulo": "Búsqueda de información en la Web. Buscadores científicos especializados."
+      },
+      {
+        "numero": 77,
+        "titulo": "Las fuentes de información: concepto y tipología. Principales fuentes multidisciplinares."
+      },
+      {
+        "numero": 78,
+        "titulo": "Fuentes de información para la identificación y localización de impresos antiguos."
+      },
+      {
+        "numero": 79,
+        "titulo": "La información y documentación en Ciencias. Fuentes y recursos de información."
+      },
+      {
+        "numero": 80,
+        "titulo": "La información y documentación en Biomedicina y Ciencias de la Salud. Fuentes y recursos de información."
+      },
+      {
+        "numero": 81,
+        "titulo": "La información y documentación en Tecnología. Fuentes y recursos de información."
+      },
+      {
+        "numero": 82,
+        "titulo": "La información y documentación en Ciencias Sociales. Fuentes y recursos de información."
+      },
+      {
+        "numero": 83,
+        "titulo": "La información y documentación en Humanidades. Fuentes y recursos de información."
+      },
+      {
+        "numero": 84,
+        "titulo": "La literatura gris. Iniciativas de acceso a la literatura gris."
+      }
+    ]
+  }
+]

@@ -1,0 +1,304 @@
+[
+  {
+    "bloque": "Parte general",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "La Constitución Española."
+      },
+      {
+        "numero": 2,
+        "titulo": "Ley del procedimiento administrativo común de las Administraciones Públicas: disposiciones generales; los interesados en el procedimiento; la actividad de las Administraciones Pública; los actos administrativos; las disposiciones sobre el procedimiento administrativo común."
+      },
+      {
+        "numero": 3,
+        "titulo": "Ley del procedimiento administrativo común de las Administraciones Públicas: la tramitación simplificada del procedimiento administrativo común; ejecución; la revisión de los actos en vía administrativa; la iniciativa legislativa y la potestad para dictar reglamentos y otras disposiciones."
+      },
+      {
+        "numero": 4,
+        "titulo": "Ley del régimen jurídico del sector público: disposiciones generales; los órganos administrativos, competencia; funcionamiento de los órganos colegiados de las distintas administraciones públicas; abstención y recusación; principios de la potestad sancionadora; la responsabilidad patrimonial de las Administraciones Públicas; funcionamiento electrónico del sector público; los convenios."
+      },
+      {
+        "numero": 5,
+        "titulo": "Estatuto Básico del Empleado Público: objeto y ámbito de aplicación; personal al servicio de las Administraciones Públicas; derechos y deberes y código de conducta de los empleados públicos;"
+      },
+      {
+        "numero": 6,
+        "titulo": "Estatuto Básico del Empleado Público: adquisición y pérdida de la relación de servicio; ordenación de la actividad profesional; situaciones administrativas; régimen disciplinario; cooperación entre las Administraciones Públicas."
+      },
+      {
+        "numero": 7,
+        "titulo": "Reglamento general de protección de datos: definiciones y principios relativos al tratamiento. La política de seguridad de la información y protección de datos personales de la Universidad."
+      },
+      {
+        "numero": 8,
+        "titulo": "Ley Orgánica para la igualdad efectiva de mujeres y hombres: objeto y ámbito de la Ley; el principio de igualdad y la tutela contra la discriminación; el derecho al trabajo en igualdad de oportunidades; criterios de actuación de las Administraciones Públicas."
+      },
+      {
+        "numero": 9,
+        "titulo": "Ley de Incompatibilidades del personal al servicio de las administraciones públicas."
+      },
+      {
+        "numero": 10,
+        "titulo": "Estatutos de la Universidad de Zaragoza: disposiciones generales; la estructura de la Universidad; el gobierno y representación de la Universidad; el Defensor Universitario; la docencia e investigación; la comunidad universitaria; los servicios de asistencia a la comunidad universitaria; régimen económico, financiero y patrimonial; la reforma de los Estatutos."
+      },
+      {
+        "numero": 11,
+        "titulo": "Ley de contratos del sector público: pliego de prescripciones técnicas particulares; definición de determinadas prescripciones técnicas; reglas para el establecimiento de prescripciones técnicas; etiquetas; informes de pruebas, certificación y otros medios de prueba."
+      },
+      {
+        "numero": 12,
+        "titulo": "El código Ético de la Universidad de Zaragoza. El plan antifraude de la Universidad de Zaragoza. Protocolo de actuación frente a conflictos de intereses detectados de la Universidad de Zaragoza."
+      },
+      {
+        "numero": 13,
+        "titulo": "Bases de elaboración y ejecución del Presupuesto de la Universidad de Zaragoza. Régimen económico y financiera de las universidades públicas en la Ley Orgánica del Sistema Universitario."
+      },
+      {
+        "numero": 14,
+        "titulo": "El Pacto del personal funcionario de administración y servicios de la Universidad de Zaragoza. El Plan Concilia de la Universidad de Zaragoza."
+      }
+    ]
+  },
+  {
+    "bloque": "Parte específica",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "Ley Orgánica del Sistema Universitario. Título preliminar. Disposiciones generales. Funciones del sistema universitario y autonomía de las universidades. Investigación y transferencia e intercambio del conocimiento e innovación. Régimen específico de las universidades públicas: Régimen jurídico y estructura de las universidades públicas; Gobernanza de las universidades públicas; Régimen económico y financiero de las universidades públicas."
+      },
+      {
+        "numero": 2,
+        "titulo": "Ley Orgánica del Sistema Universitario. Régimen específico de las universidades públicas: Personal docente e investigador de las universidades públicas; Personal técnico, de gestión y de administración y servicios de las universidades públicas."
+      },
+      {
+        "numero": 3,
+        "titulo": "Ley de la Ciencia, la Tecnología y la Innovación. Disposiciones Generales. Recursos humanos dedicados a la investigación: Personal investigador al servicio de las Universidades públicas, de los Organismos públicos de Investigación y de los Organismos de investigación de otras Administraciones Públicas; Especificidades aplicables al personal docente e investigador al servicio de las Universidades públicas."
+      },
+      {
+        "numero": 4,
+        "titulo": "Ley de la Ciencia, la Tecnología y la Innovación. Impulso de la investigación científica y técnica, la innovación, la transferencia del conocimiento, la difusión y la cultura científica, tecnológica e innovadora. Fomento y coordinación de la investigación científica y técnica en la Administración General del Estado."
+      },
+      {
+        "numero": 5,
+        "titulo": "Ley de Incompatibilidades del personal al servicio de las Administraciones Públicas."
+      },
+      {
+        "numero": 6,
+        "titulo": "Ley General de Subvenciones. Disposiciones generales. Procedimientos de concesión y gestión de las subvenciones. Del reintegro de subvenciones. Del control financiero de subvenciones."
+      },
+      {
+        "numero": 7,
+        "titulo": "Reglamento de la Ley General de Subvenciones. Disposiciones generales: Del ámbito de aplicación; Disposiciones Comunes a las Subvenciones: Disposiciones relativas a los beneficiarios y a entidades colaboradoras; publicidad; financiación de las actividades; base de datos nacional de subvenciones."
+      },
+      {
+        "numero": 8,
+        "titulo": "Reglamento de la Ley General de Subvenciones. Procedimiento de gestión y justificación de subvenciones. Del reintegro."
+      },
+      {
+        "numero": 9,
+        "titulo": "Texto refundido de la Ley de Subvenciones de Aragón. Disposiciones generales. Procedimientos de concesión. Procedimiento de gestión y justificación de las subvenciones. Reintegro de subvenciones."
+      },
+      {
+        "numero": 10,
+        "titulo": "Marco sobre ayudas estatales de investigación y desarrollo e innovación. Comunicación de la comisión. Ámbito de aplicación y definiciones. Ayudas estatales en el sentido del artículo 107, apartado 1, del TFUE."
+      },
+      {
+        "numero": 11,
+        "titulo": "Oficinas de Transferencia del Conocimiento: Funciones y actividades. Real Decreto por el que se establecen las Oficinas de Transferencia del Conocimiento y se crea su Registro."
+      },
+      {
+        "numero": 12,
+        "titulo": "El Plan Estatal de Investigación Científica y Técnica y de Innovación. Programa para la investigación y el desarrollo experimental. Programa de transferencia y colaboración. Programa de innovación. Programas transversales."
+      },
+      {
+        "numero": 13,
+        "titulo": "Plan de incentivación Horizonte Europa. Entidades y redes de apoyo."
+      },
+      {
+        "numero": 14,
+        "titulo": "Vías de transferencia al amparo del artículo 60 de la Ley Orgánica del Sistema Universitario: Colaboración con otra entidades o personas físicas. El contrato privado. Tipología de contratos. Elementos esenciales. Aspectos fundamentales a negociar y regular. Elaboración del presupuesto. Tratamiento de los costes indirectos en la Universidad de Zaragoza. Participación del personal de la Universidad de Zaragoza."
+      },
+      {
+        "numero": 15,
+        "titulo": "Contratos regulados al amparo del artículo 60 de la Ley Orgánica del Sistema Universitario: Colaboración con otra entidades o personas físicas. Contenido de los contratos. Partes. Estructura. Clausulado esencial."
+      },
+      {
+        "numero": 16,
+        "titulo": "Ley de Contratos del Sector Público: Disposiciones Generales. Objeto y ámbito de aplicación de la Ley. Contratos del sector público: Delimitación de los tipos contractuales; Contratos administrativos y contratos privados. De los contratos de las Administraciones Públicas: De la preparación de los contratos de las Administraciones Públicas; De la adjudicación de los contratos de las Administraciones Públicas."
+      },
+      {
+        "numero": 17,
+        "titulo": "Ley de Contratos del Sector Público. Configuración general de la contratación del sector público y elementos estructurales de los contratos. Partes en el contrato: Órgano de contratación; Capacidad y solvencia del empresario. Garantías exigibles en la contratación del sector público: Garantías exigibles en los contratos celebrados con las Administraciones Públicas. La Universidad de Zaragoza como entidad contratante con la Administración Pública en el marco de la Ley 9/2017 de Contratos del Sector Público. Aspectos a tener en cuenta en la preparación de ofertas. Documentación de referencia. Aspectos a tener en cuenta en la concesión y durante la vigencia del contrato."
+      },
+      {
+        "numero": 18,
+        "titulo": "Convenios regulados en el marco de la Ley de Régimen Jurídico del Sector Público. Los Convenios regulados en el marco de la Ley de la Ciencia, la Tecnología y la Innovación. Convenios regulados en el marco de la Ley de Organización y Régimen Jurídico del Sector Público Autonómico de Aragón. Reglamento de tramitación y aprobación de convenios de colaboración por parte de la Universidad de Zaragoza."
+      },
+      {
+        "numero": 19,
+        "titulo": "Financiación competitiva de la investigación colaborativa y de las actividades de transferencia (ámbito nacional). Aspectos claves de la convocatoria. El ciclo de vida de un proyecto: Elaboración de propuestas (mención especial al presupuesto y modalidades de costes), gestión económico administrativa durante la ejecución técnica y justificación. Posibles actuaciones posteriores a la terminación por parte del órgano financiador."
+      },
+      {
+        "numero": 20,
+        "titulo": "Acuerdos de consorcio necesarios para la regulación de la investigación colaborativa financiada públicamente en convocatorias de ámbito nacional. Marco legal. Aplicación. Estructura. Aspectos fundamentales a regular."
+      },
+      {
+        "numero": 21,
+        "titulo": "Patentes de invención: Requisitos de patentabilidad. Inventor. Concepto de inventor y titularidad. Ley de Patentes: Disposiciones preliminares. Patentabilidad. Derecho a la patente y designación del inventor. Invenciones realizadas en el marco de una relación de empleo o de servicios."
+      },
+      {
+        "numero": 22,
+        "titulo": "Patentes de invención: Solicitud, concesión, partes de la patente. Derechos otorgados al titular y explotación. Ley de Patentes: Solicitud y procedimiento de concesión; Presentación y requisitos de la solicitud de patente; procedimiento de Concesión. Efecto de la patente y de la solicitud de la patente. La solicitud de patente y la patente como objetos del derecho de propiedad. Obligación de explotar y licencias obligatorias."
+      },
+      {
+        "numero": 23,
+        "titulo": "Modelos de utilidad. Ley de Patentes: Modelos de utilidad."
+      },
+      {
+        "numero": 24,
+        "titulo": "Patentes de invención: extensiones internacionales. Ley de Patentes: Aplicación de los convenios internacionales. Representación ante la Oficina Española de Patentes y Marcas. Tasas y anualidades. Convenio de Munich sobre Concesión de Patentes Europeas. Reglamento relativo a la Protección por Patente Unitaria (RUPP) y Tratado de Cooperación en materia de Patentes (PCT): objeto, implicaciones y mecanismos habilitados."
+      },
+      {
+        "numero": 25,
+        "titulo": "Ley de Secretos Empresariales. Disposiciones generales. Obtención, utilización y revelación de secretos empresariales. El secreto empresarial como objeto del derecho de propiedad."
+      },
+      {
+        "numero": 26,
+        "titulo": "Real Decreto Legislativo de Propiedad Intelectual: De los derechos de autor. Disposiciones generales. Sujeto, objeto y contenido. Transmisión de los derechos: Disposiciones generales. Programas de ordenador."
+      },
+      {
+        "numero": 27,
+        "titulo": "Reglamento de invenciones de la Universidad de Zaragoza."
+      },
+      {
+        "numero": 28,
+        "titulo": "Valorización del conocimiento. Resultados de la investigación: identificación, protección, transferencia y difusión. Concepto de Nivel de Madurez Tecnológica (TRL)."
+      },
+      {
+        "numero": 29,
+        "titulo": "Explotación del conocimiento a través de terceros: Licencias de explotación. Aspectos principales. Concepto de cesión. Concepto de royalty."
+      },
+      {
+        "numero": 30,
+        "titulo": "Contratos de licencia (explotación y de uso) del conocimiento generado en la universidad. Partes y estructura. Aspectos fundamentales a incluir en el clausulado."
+      },
+      {
+        "numero": 31,
+        "titulo": "Acuerdos de confidencialidad y Acuerdos de transferencia de material. Objeto y uso. Partes y estructura. Aspectos principales a regular en el clausulado."
+      },
+      {
+        "numero": 32,
+        "titulo": "Reglamento de las Empresas Spin-off y Start-up de la Universidad de Zaragoza."
+      },
+      {
+        "numero": 33,
+        "titulo": "Creación de empresas basadas en el conocimiento en la universidad pública española. Marco legal."
+      },
+      {
+        "numero": 34,
+        "titulo": "Participación de la Universidad de Zaragoza en empresas (instrumento, condiciones, procedimiento y regulación de personal). Pacto de socios: aspectos clave."
+      },
+      {
+        "numero": 35,
+        "titulo": "Mecenazgo y donaciones. Ley de régimen fiscal de las entidades sin fines lucrativos y de los incentivos fiscales al mecenazgo: Objeto y ámbito de aplicación. Incentivos fiscales al mecenazgo."
+      },
+      {
+        "numero": 36,
+        "titulo": "Reglamento para la creación y funcionamiento de las cátedras institucionales y de empresa de la Universidad de Zaragoza."
+      },
+      {
+        "numero": 37,
+        "titulo": "Normativa de gestión económico administrativa de los proyectos de I+D+i en la Universidad de Zaragoza. Gestión del IVA aplicable a las actividades de investigación e innovación tecnológica en la Universidad de Zaragoza."
+      },
+      {
+        "numero": 38,
+        "titulo": "Normativa reguladora y procedimientos de contratación laboral de personal investigador en la Universidad de Zaragoza. Normativa reguladora y procedimientos de contratación laboral de Personal Técnico, de Administración y Servicios en la Universidad de Zaragoza."
+      },
+      {
+        "numero": 39,
+        "titulo": "Las instituciones de la Unión Europea Consejo Europeo. El Parlamento Europeo. El Consejo de la Unión Europea. La Comisión Europea. El Tribunal de Justicia. Tribunal de Cuentas Europeo. El Espacio Europeo de Investigación (EEI)."
+      },
+      {
+        "numero": 40,
+        "titulo": "Agencias ejecutivas de la Unión Europea: Agencia Ejecutiva Europea de Investigación (REA); Agencia Ejecutiva del Consejo Europeo de Investigación (ERCEA); Agencia Ejecutiva Europea de Salud y Digital (HaDEA); Agencia Ejecutiva del Consejo Europeo de Innovación y de las PYMES (EISMEA); Agencia Ejecutiva Europea de Clima, Infraestructuras y Medio Ambiente (CINEA); y Agencia Ejecutiva Europea de Educación y Cultura (EACEA)."
+      },
+      {
+        "numero": 41,
+        "titulo": "Reglamento por el que se crea el Programa Marco de Investigación e Innovación \"Horizonte Europa\", se establecen sus normas de participación y difusión."
+      },
+      {
+        "numero": 42,
+        "titulo": "Programa Específico por el que se ejecuta el Programa Marco de Investigación e Innovación Horizonte Europa."
+      },
+      {
+        "numero": 43,
+        "titulo": "El Programa Marco de Investigación de la Unión Europea Horizonte Europa. Presupuesto, reglas de participación, tipos de acción y modalidades de financiación. Programas de trabajo."
+      },
+      {
+        "numero": 44,
+        "titulo": "El Programa Marco de Investigación de la Unión Europea Horizonte Europa. Objetivos. Estructura, Pilares y temáticas. Pilar I: Ciencia excelente: programa Consejo Europeo de Investigación (ERC). Marie Sklowdoska Curie (MSCA). Infraestructuras."
+      },
+      {
+        "numero": 45,
+        "titulo": "El Programa Marco de Investigación de la Unión Europea Horizonte Europa. Pilar II: Desafíos globales y competitividad industrial europea, Pilar III: Europa innovadora. Plan Estratégico de Horizonte Europa."
+      },
+      {
+        "numero": 46,
+        "titulo": "El Programa Marco de Investigación de la Unión Europea Horizonte Europa. Pilar transversal: Ampliar la Participación y fortalecer el Espacio Europeo de Investigación."
+      },
+      {
+        "numero": 47,
+        "titulo": "El Programa Marco de Investigación de la Unión Europea Horizonte Europa. Las asociaciones europeas. Las misiones."
+      },
+      {
+        "numero": 48,
+        "titulo": "El proceso de elaboración y redacción de propuestas en el marco de Horizonte Europa. Elaboración del presupuesto."
+      },
+      {
+        "numero": 49,
+        "titulo": "El proceso de evaluación de propuestas de investigación e innovación, Horizonte Europa."
+      },
+      {
+        "numero": 50,
+        "titulo": "Aspectos Administrativos, Financieros y legales en Horizonte Europa. Acuerdo de Subvención. Acuerdo de Consorcio (modelo DESCA). Terceras partes."
+      },
+      {
+        "numero": 51,
+        "titulo": "Gestión y Justificación de los proyectos de Programa Marco de Investigación de la Unión Europea Horizonte Europa. Ejecución de los fondos: informes técnicos y económicos. Tipos y Elegibilidad de costes. Justificación: costes de personal, equipamiento y otros costes."
+      },
+      {
+        "numero": 52,
+        "titulo": "Tipos de auditorías en Horizonte Europa."
+      },
+      {
+        "numero": 53,
+        "titulo": "Aspectos transversales a las actividades de investigación en Horizonte Europa: Aspectos de género, integración ciencias sociales y humanidades (SSH) y aspectos éticos."
+      },
+      {
+        "numero": 54,
+        "titulo": "Aspectos transversales a las actividades de investigación en Horizonte Europa: Comunicación y diseminación, explotación de resultados. Acceso abierto y Ciencia abierta en Horizonte Europa. Plan de Gestión de Datos (DMP). Repositorio Zaguán y otros repositorios institucionales. Acuerdos transformativos en la Universidad de Zaragoza."
+      },
+      {
+        "numero": 55,
+        "titulo": "Otros programas Europeos: LIFE (Programme for Environment and Climate Action), CEF (Connecting Europe Facility), EU4Health (EU4Health Programme), EDF (European Defence Fund)."
+      },
+      {
+        "numero": 56,
+        "titulo": "La movilidad del personal investigador. La Red Europea de apoyo a la movilidad de investigadores. (EURAXESS)."
+      },
+      {
+        "numero": 57,
+        "titulo": "La estrategia de recursos humanos de investigación. Carta europea del investigador y Código de conducta para la contratación de investigadores. Sello de excelencia en recursos humanos de investigación «HR Excellence in Research»."
+      },
+      {
+        "numero": 58,
+        "titulo": "La Estrategia HRS4R en la Universidad de Zaragoza. Carta de adhesión, análisis interno y plan de acción. Código de buenas prácticas en investigación."
+      },
+      {
+        "numero": 59,
+        "titulo": "La Política de Cohesión 2021-2027: Fondo Europeo de Desarrollo Regional (FEDER) y Fondo Social Europeo (FSE). Programa de Cooperación Territorial Europea: Interreg (POCTEFA, SUDOE y EUROMED)."
+      }
+    ]
+  }
+]
