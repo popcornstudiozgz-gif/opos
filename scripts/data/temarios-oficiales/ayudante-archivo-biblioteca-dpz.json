@@ -1,0 +1,302 @@
+[
+  {
+    "bloque": "Parte general",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "La Constitución española de 1978. Principios generales. Derechos y deberes fundamentales de los españoles."
+      },
+      {
+        "numero": 2,
+        "titulo": "Organización territorial del Estado. Los Estatutos de Autonomía: su significado. El Estatuto de Autonomía de Aragón."
+      },
+      {
+        "numero": 3,
+        "titulo": "La Administración Pública en el ordenamiento español. Administración del Estado. Administración Local. Administración Institucional y corporativa."
+      },
+      {
+        "numero": 4,
+        "titulo": "El procedimiento administrativo: naturaleza y fines. Los sujetos del procedimiento administrativo. Fases. Cómputo de plazos El administrado. Colaboración y participación de los ciudadanos en las funciones administrativas."
+      },
+      {
+        "numero": 5,
+        "titulo": "Régimen local español. Principios constitucionales y regulación jurídica. La Ley de Administración Local de Aragón."
+      },
+      {
+        "numero": 6,
+        "titulo": "La provincia en el régimen local. Organización provincial. Competencias. Funcionamiento de los Órganos Colegiados Locales. Convocatoria y orden del día. Actas y certificados de acuerdos."
+      },
+      {
+        "numero": 7,
+        "titulo": "El empleo público. El Estatuto Básico del Empleado Público. Clases de personal al servicio de las Administraciones Públicas. Derechos y deberes del funcionario público. Personal al servicio de las Entidades Locales."
+      },
+      {
+        "numero": 8,
+        "titulo": "Los contratos del sector público. Principios generales. Tipos de contratos. Expediente de contratación. Procedimientos de adjudicación."
+      },
+      {
+        "numero": 9,
+        "titulo": "Procedimiento administrativo local. El registro de entrada y salida de documentos. Requisitos en la presentación de documentos. Comunicaciones y notificaciones. La Administración electrónica."
+      },
+      {
+        "numero": 10,
+        "titulo": "La igualdad y la no discriminación por razón de sexo en la Constitución. La ley Orgánica 3/2007, de 22 de marzo, para la igualdad entre mujeres y hombres. Plan de Igualdad de la Diputación Provincial de Zaragoza."
+      },
+      {
+        "numero": 11,
+        "titulo": "La transparencia en la Administración Pública. Legislación básica estatal y autonómica aragonesa sobre la materia."
+      },
+      {
+        "numero": 12,
+        "titulo": "La Protección de Datos y acceso a la información. Legislación en la materia."
+      },
+      {
+        "numero": 13,
+        "titulo": "Prevención de Riesgos Laborales: normativa, obligaciones de la empresa y del trabajador. Los servicios de prevención."
+      }
+    ]
+  },
+  {
+    "bloque": "Parte específica. Primera: Archivo",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "El archivo. Concepto, funciones y tipologías. Evolución histórica de la Archivística y de los archivos."
+      },
+      {
+        "numero": 2,
+        "titulo": "El Sistema Español de Archivos. Marco legal. Composición, estructura y funciones."
+      },
+      {
+        "numero": 3,
+        "titulo": "El Sistema de Archivos de Aragón. Marco legal. Composición, estructura y funciones."
+      },
+      {
+        "numero": 4,
+        "titulo": "Los archivos de la Administración Local aragonesa: diputaciones, comarcas y ayuntamientos."
+      },
+      {
+        "numero": 5,
+        "titulo": "La Diputación Provincial de Zaragoza. Evolución histórica. Competencias a lo largo de su historia. Fuentes documentales para su estudio."
+      },
+      {
+        "numero": 6,
+        "titulo": "El Archivo de la Diputación Provincial de Zaragoza. Historia, funciones y servicios."
+      },
+      {
+        "numero": 7,
+        "titulo": "El Archivo de la Diputación Provincial de Zaragoza. Fondos documentales."
+      },
+      {
+        "numero": 8,
+        "titulo": "El documento de archivo. Concepto, caracteres y valores. El ciclo vital de los documentos."
+      },
+      {
+        "numero": 9,
+        "titulo": "El documento electrónico. Concepto y características. Requisitos de validez de los documentos administrativos electrónicos. La copia auténtica."
+      },
+      {
+        "numero": 10,
+        "titulo": "El expediente electrónico. Definición y estructura. Ciclo de vida del expediente electrónico."
+      },
+      {
+        "numero": 11,
+        "titulo": "Tipología de los documentos administrativos. Documentos de los ciudadanos. Principales tipologías en la Administración local."
+      },
+      {
+        "numero": 12,
+        "titulo": "El procedimiento administrativo. La formación del expediente, tramitación y organización de la documentación."
+      },
+      {
+        "numero": 13,
+        "titulo": "Las agrupaciones documentales de los archivos: grupo de fondos, fondo, sección, serie, unidad archivística compuesta, expediente, unidad archivística simple, y colección."
+      },
+      {
+        "numero": 14,
+        "titulo": "Las modalidades de ingreso y salida de documentos en los archivos. Instrumentos de control."
+      },
+      {
+        "numero": 15,
+        "titulo": "La identificación de fondos, series documentales y funciones. La clasificación. Sistemas de clasificación. El cuadro de clasificación."
+      },
+      {
+        "numero": 16,
+        "titulo": "La descripción archivística. Normas nacionales e internacionales de descripción. Los instrumentos de descripción"
+      },
+      {
+        "numero": 17,
+        "titulo": "El sistema de gestión de documentos. Principios. Diseño e implementación. Procesos y controles de la gestión de documentos."
+      },
+      {
+        "numero": 18,
+        "titulo": "El Esquema Nacional de Interoperabilidad. Normas técnicas de interoperabilidad. Guías de aplicación."
+      },
+      {
+        "numero": 19,
+        "titulo": "La gestión de documentos y expedientes electrónicos. Políticas de gestión de documentos electrónicos. Los metadatos."
+      },
+      {
+        "numero": 20,
+        "titulo": "El concepto de archivo electrónico. Obligatoriedad y funcionalidades."
+      },
+      {
+        "numero": 21,
+        "titulo": "La valoración, selección y eliminación de documentos."
+      },
+      {
+        "numero": 22,
+        "titulo": "El archivo público como servicio a la Administración y al ciudadano. Servicios a usuarios."
+      },
+      {
+        "numero": 23,
+        "titulo": "Protección de datos, transparencia, acceso a los documentos. Marco legal y aplicación práctica."
+      },
+      {
+        "numero": 24,
+        "titulo": "Las instituciones político-administrativas en Aragón hasta los Decretos de Nueva Planta. Historia y fuentes documentales."
+      },
+      {
+        "numero": 25,
+        "titulo": "Archivos privados en Aragón: eclesiásticos, de organizaciones sociales, archivos del trabajo, de empresas, de archivos particulares."
+      },
+      {
+        "numero": 26,
+        "titulo": "La Diputación Provincial de Zaragoza y los establecimientos de beneficencia."
+      },
+      {
+        "numero": 27,
+        "titulo": "Plataformas y portales nacionales e internacionales, de difusión de contenidos archivísticos, con especial referencia a Aragón (DARA). Parte Segunda: BIBLIOTECA"
+      }
+    ]
+  },
+  {
+    "bloque": "Parte específica. Segunda: Biblioteca",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "Bibliotecas Nacionales. Concepto, funciones y servicios. Biblioteca Nacional de España."
+      },
+      {
+        "numero": 2,
+        "titulo": "Bibliotecas Públicas y Universitarias. Concepto, funciones y servicios. Situación en España."
+      },
+      {
+        "numero": 3,
+        "titulo": "Bibliotecas Especializadas. Hemerotecas. Concepto, funciones y servicios. Situación en España."
+      },
+      {
+        "numero": 4,
+        "titulo": "Biblioteca de la Diputación Provincial de Zaragoza. Concepto, funciones, servicios y fondos."
+      },
+      {
+        "numero": 5,
+        "titulo": "El Sistema Español de Bibliotecas. Legislación y competencias de las distintas administraciones. El Sistemas de bibliotecas de la Comunidad Autónoma de Aragón."
+      },
+      {
+        "numero": 6,
+        "titulo": "El libro y su evolución a través de la historia."
+      },
+      {
+        "numero": 7,
+        "titulo": "Gestión de la colección: Criterios para la constitución, el mantenimiento y el expurgo de la colección. Gestión de los recursos electrónicos: Contratación, licencias de uso."
+      },
+      {
+        "numero": 8,
+        "titulo": "Gestión de la colección: Almacenamiento y organización de las colecciones. Recuentos. Medidas de preservación y conservación de los fondos bibliográficos."
+      },
+      {
+        "numero": 9,
+        "titulo": "Estructura de la información en los registros bibliográficos: FRBR. Principios y reglas de catalogación: ISBD, RDA, Reglas de catalogación españolas. Formatos de intercambio bibliográfico: Marc 21 y Bibframe."
+      },
+      {
+        "numero": 10,
+        "titulo": "Los metadatos y su aplicación al entorno bibliotecario. Esquemas de metadatos. Características de Dublin Core."
+      },
+      {
+        "numero": 11,
+        "titulo": "Análisis documental y lenguajes documentales."
+      },
+      {
+        "numero": 12,
+        "titulo": "Principales tipos de clasificación bibliográfica. La Clasificación Decimal Universal."
+      },
+      {
+        "numero": 13,
+        "titulo": "Los tesauros: normas de creación y mantenimiento."
+      },
+      {
+        "numero": 14,
+        "titulo": "Los sistemas integrados de gestión bibliotecaria. Las plataformas de servicios bibliotecarios. Nuevos modelos y tendencias."
+      },
+      {
+        "numero": 15,
+        "titulo": "La edición electrónica. Arquitectura de la información y usabilidad en la Web. Principios de diseño, usabilidad y accesibilidad para el desarrollo de sitios web en las bibliotecas."
+      },
+      {
+        "numero": 16,
+        "titulo": "Los documentos y sus clases. Fuentes de información y sus tipos. Bibliografías y fuentes de información de fondo antiguo y materiales especiales."
+      },
+      {
+        "numero": 17,
+        "titulo": "Lenguajes de marcado y su aplicación en bibliotecas. Parte Tercera: ARCHIVO Y BIBLIOTECA"
+      }
+    ]
+  },
+  {
+    "bloque": "Parte específica. Tercera: Archivo y Biblioteca",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "La regulación jurídica del patrimonio documental y bibliográfico en Aragón."
+      },
+      {
+        "numero": 2,
+        "titulo": "La Ley 16/1985, de 25 de junio, de Patrimonio Histórico Español y normativa estatal en materia de archivos y bibliotecas."
+      },
+      {
+        "numero": 3,
+        "titulo": "Difusión en archivos y bibliotecas. Estrategias de marketing y dinamización. La función pedagógica de los archivos y las bibliotecas."
+      },
+      {
+        "numero": 4,
+        "titulo": "La reproducción de libros y documentos. La digitalización de documentos. La gestión de proyectos de digitalización. Técnicas de preservación digital."
+      },
+      {
+        "numero": 5,
+        "titulo": "Preservación digital a largo plazo. Modelo OAIS. Esquema Nacional de Seguridad."
+      },
+      {
+        "numero": 6,
+        "titulo": "Los soportes documentales. Tipos y causas de alteración. Preservación, conservación y restauración de soportes."
+      },
+      {
+        "numero": 7,
+        "titulo": "Arquitectura de archivos y bibliotecas: edificio, instalaciones, equipamiento, y mobiliario. Medidas preventivas."
+      },
+      {
+        "numero": 8,
+        "titulo": "Gestión de desastres y planes de contingencia."
+      },
+      {
+        "numero": 9,
+        "titulo": "El control de autoridades en archivos y en bibliotecas. Conceptos, normas, herramientas."
+      },
+      {
+        "numero": 10,
+        "titulo": "Los documentos audiovisuales, sonoros y fotográficos en archivos y bibliotecas. Características, organización y tratamiento técnico."
+      },
+      {
+        "numero": 11,
+        "titulo": "La propiedad intelectual y los derechos de autor. Su incidencia en la gestión y difusión de información, documentación, fotografías y audiovisuales."
+      },
+      {
+        "numero": 12,
+        "titulo": "La dimensión internacional de archivos y bibliotecas. Organizaciones internacionales."
+      },
+      {
+        "numero": 13,
+        "titulo": "El personal de archivos y bibliotecas. Formación, funciones básicas y deontología profesional. Recursos para la formación profesional."
+      }
+    ]
+  }
+]

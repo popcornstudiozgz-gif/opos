@@ -1,0 +1,167 @@
+[
+  {
+    "bloque": "Temario",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "La Constitución española de 1978. Principios generales. Derechos y deberes fundamentales de los españoles."
+      },
+      {
+        "numero": 2,
+        "titulo": "La organización territorial del Estado. La Administración General del Estado. Las comunidades autónomas y las entidades locales: el municipio y la provincia."
+      },
+      {
+        "numero": 3,
+        "titulo": "La Administración pública: principios de actuación y organización; las relaciones interadministrativas. Las relaciones entre la Administración pública y los ciudadanos."
+      },
+      {
+        "numero": 4,
+        "titulo": "Los actos administrativos y el procedimiento administrativo común."
+      },
+      {
+        "numero": 5,
+        "titulo": "Organización y competencias de las Diputaciones Provinciales. En especial la intervención de la Diputación Provincial de Zaragoza en la provincia."
+      },
+      {
+        "numero": 6,
+        "titulo": "Funcionamiento de los órganos colegiados locales. Convocatoria y orden del día. Régimen de sesiones y acuerdos. Votaciones. Actas y certificaciones de acuerdos. Ordenanzas y Reglamentos de las entidades locales."
+      },
+      {
+        "numero": 7,
+        "titulo": "Los presupuestos locales: concepto, principios y estructura. Elaboración del presupuesto. Liquidación del presupuesto."
+      },
+      {
+        "numero": 8,
+        "titulo": "El personal al servicio de la Administración Local. El ingreso en la función pública. La carrera administrativa: la provisión de puestos de trabajo y la promoción interna. Adquisición y pérdida de la condición de funcionario. Las situaciones administrativas. El personal laboral."
+      },
+      {
+        "numero": 9,
+        "titulo": "Derechos y deberes de los empleados públicos. Sistema retributivo. Incompatibilidades. Régimen disciplinario. La Seguridad Social de los funcionarios de la Administración Local."
+      },
+      {
+        "numero": 10,
+        "titulo": "La igualdad y la no discriminación por razón de sexo en la Constitución. La Ley Orgánica 3/2007, de 22 de marzo, para la Igualdad entre Mujeres y Hombres."
+      },
+      {
+        "numero": 11,
+        "titulo": "Sistemas operativos. Funciones y componentes de un sistema operativo. Gestión de ficheros."
+      },
+      {
+        "numero": 12,
+        "titulo": "Active directory. Configuración y administración de seguridad."
+      },
+      {
+        "numero": 13,
+        "titulo": "Redes locales."
+      },
+      {
+        "numero": 14,
+        "titulo": "Fundamentos redes LANs y WANs."
+      },
+      {
+        "numero": 15,
+        "titulo": "Segmentación de redes: Descripción y finalidad. Tipos de segmentación."
+      },
+      {
+        "numero": 16,
+        "titulo": "Monitorización de redes y comunicaciones, sistemas y configuración de dispositivos."
+      },
+      {
+        "numero": 17,
+        "titulo": "Servicios y aplicaciones web."
+      },
+      {
+        "numero": 18,
+        "titulo": "Redes inalámbricas: definición, tipos y características. Redes wifi: Estándares, seguridad y fiabilidad, dispositivos."
+      },
+      {
+        "numero": 19,
+        "titulo": "La calidad del software y su medida. Modelos, indicadores, normas y estándares."
+      },
+      {
+        "numero": 20,
+        "titulo": "Herramientas de gestión del código fuente: Git, SVN."
+      },
+      {
+        "numero": 21,
+        "titulo": "Gestión unificada de usuarios. Sistemas centralizados de autenticación y autorización."
+      },
+      {
+        "numero": 22,
+        "titulo": "Modelo OSI. Niveles. Descripción de servicios y protocolos. TCP/IP. Protocolos y servicios."
+      },
+      {
+        "numero": 23,
+        "titulo": "Virtualización de sistemas. Virtualización de puestos de trabajo."
+      },
+      {
+        "numero": 24,
+        "titulo": "Aplicaciones web. Diseño multiplataforma, multidispositivo. Desarrollo web fron-end y en servidor. Principios y buenas prácticas. Tecnologías de programación: applets, servlets, JSP, Phyton, Perl, Angular, CSS."
+      },
+      {
+        "numero": 25,
+        "titulo": "SQL. Lenguaje de definición de datos (DDL). Lenguaje de manipulación de datos (DML). Lenguaje de control de datos (DCL)."
+      },
+      {
+        "numero": 26,
+        "titulo": "Sistemas de bases de datos relacionales. Modelo entidad-relación. Modelo relacional. Normalización."
+      },
+      {
+        "numero": 27,
+        "titulo": "Software de código abierto. Software libre. Conceptos. Tipos de licencias."
+      },
+      {
+        "numero": 28,
+        "titulo": "Configuración de servidores, rutas dinámicas, permanentes."
+      },
+      {
+        "numero": 29,
+        "titulo": "Ingeniería del software. Proceso software, modelos de proceso software. Ciclos de vida, modelos de ciclo de vida. Fases del ciclo de vida. Modelos de desarrollo."
+      },
+      {
+        "numero": 30,
+        "titulo": "Seguridad informática."
+      },
+      {
+        "numero": 31,
+        "titulo": "Desarrollo de aplicaciones sobre gestores de BBDD relacionales: SQL Server y Oracle. Capa de acceso, persistencia. Lenguajes de consulta SQL y de programación en TSQL y PLSQL. Acceso a directorios: LDAP."
+      },
+      {
+        "numero": 32,
+        "titulo": "Los sistemas de gestión de bases de datos SGBD. El modelo de referencia de ANSI."
+      },
+      {
+        "numero": 33,
+        "titulo": "Gestión de los datos corporativos. Almacén de datos Data Warehouse. Arquitectura OLAP. Minería de datos. Generación de Informes. BIGAN."
+      },
+      {
+        "numero": 34,
+        "titulo": "Base de datos Oracle. Conceptos generales. Oracle RAC. Gestión de esquemas, tablas, objetos y tablespaces. Gestión de almacenamiento. Gestión de sesiones."
+      },
+      {
+        "numero": 35,
+        "titulo": "Esquema nacional de seguridad en el ámbito de la Administración Pública. Principios básicos. Requisitos mínimos de seguridad. Categorías de los sistemas. Desarrollo del esquema nacional de seguridad."
+      },
+      {
+        "numero": 36,
+        "titulo": "Infraestructura de PKI. Firma digital. Certificados digitales. Tarjetas Criptográficas. Técnicas de cifrado."
+      },
+      {
+        "numero": 37,
+        "titulo": "Tecnologías y entornos de desarrollo: Microsoft Visual Studio, Eclipse, JBOSS Developer Studio, NetBeans."
+      },
+      {
+        "numero": 38,
+        "titulo": "Arquitecturas de desarrollo. Arquitectura cliente-servidor. Arquitectura web."
+      },
+      {
+        "numero": 39,
+        "titulo": "Arquitectura SOA. Microservicios."
+      },
+      {
+        "numero": 40,
+        "titulo": "La protección de datos personales y garantía de los derechos digitales."
+      }
+    ]
+  }
+]

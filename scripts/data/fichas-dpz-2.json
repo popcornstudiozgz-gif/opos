@@ -1,0 +1,1540 @@
+[
+  {
+    "fuente_id": "d01",
+    "oposicion": {
+      "slug": "oficial-almacen-dpz",
+      "nombre": "Oficial 1.ª de Almacén",
+      "puesto_slug": "oficial-almacen",
+      "descripcion_corta": "Oposición de Oficial 1.ª de Almacén de la Diputación Provincial de Zaragoza: plazas, requisitos, examen y temario oficial.",
+      "descripcion_larga": "Plaza de personal laboral fijo de la Diputación Provincial de Zaragoza (grupo IV, nivel VI). Requisitos: Certificado de haber cursado la ESO (Certificado de Escolaridad) o equivalente a la fecha en que termine el plazo de presentación de instancias. La convocatoria (BOPZ núm. 251, de 30 de octubre de 2026; OEP 2025) es de 1 plaza. El programa tiene 20 temas (4 de la parte general, 16 de la parte específica) y la oposición, 2 ejercicios eliminatorios: un test de 60 preguntas y un ejercicio práctico. La DPZ convocó aparte, en turno reservado a personas con discapacidad, otra plaza de Oficial 1.ª de Almacén de la Institución Fernando el Católico (OEP 2023, BOPZ 242 de 21-10-2025), con su propio temario."
+    },
+    "convocatoria": {
+      "oposicion_slug": "oficial-almacen-dpz",
+      "numero": "BOPZ 251/2026 (decreto núm. 3088)",
+      "plaza": "Oficial 1.ª de Almacén — personal laboral fijo, grupo IV, nivel VI",
+      "fecha_decreto": "14 de octubre de 2026",
+      "sistema_seleccion": "Oposición libre, con dos ejercicios eliminatorios",
+      "requisito_titulacion": "Certificado de haber cursado la ESO (Certificado de Escolaridad) o equivalente a la fecha en que termine el plazo de presentación de instancias.",
+      "plazo_instancias": "Del 12 de noviembre de 2026 al 11 de diciembre de 2026 (abierto). Tasa de 6,01 €, que se paga por ingreso bancario y se presenta con la solicitud.",
+      "duracion_maxima_proceso": "Las bases específicas no lo fijan; remiten a la base 7 de las bases generales de la DPZ (BOPZ núm. 71, de 29 de marzo de 2021).",
+      "orden_actuacion": "Por orden alfabético, empezando por la letra «B» (sorteo de la Administración del Estado, BOE de 3 de julio de 2026).",
+      "plazas_total": 1,
+      "desglose_plazas": [
+        {
+          "turno": "Turno libre",
+          "cantidad": 1
+        }
+      ],
+      "enlaces_oficiales": [
+        {
+          "titulo": "Bases de la convocatoria (BOPZ núm. 251, 30 de octubre de 2026)",
+          "url": "https://dpz.es/wp-content/uploads/2026/10/Convocatoria-y-bases.-BOPZ-251-de-30-de-octubre.pdf"
+        },
+        {
+          "titulo": "Bases generales de los procesos de turno libre de la DPZ (BOPZ núm. 71, 29 de marzo de 2021)",
+          "url": "https://dpz.es/wp-content/uploads/2026/06/BOPZ-Bases-generales-4.pdf"
+        },
+        {
+          "titulo": "Página de la convocatoria en dpz.es (bases, listas y anuncios)",
+          "url": "https://dpz.es/oficial-1a-almacen-oep-2025/"
+        },
+        {
+          "titulo": "Convocatoria relacionada: Oficial 1ª almacén IFC (OEP 2023, turno reservado a personas con discapacidad)",
+          "url": "https://dpz.es/oficial-1a-almacen-ifc-oep-2023-turno-reservado-a-personas-con-discapacidad/"
+        }
+      ],
+      "pruebas": [
+        {
+          "id": "primer-ejercicio",
+          "icono": "📝",
+          "numero": 1,
+          "nombre": "Primer ejercicio (test)",
+          "formato": "Test sobre el temario",
+          "duracion": "75 minutos",
+          "opciones": "60 preguntas, 4 alternativas",
+          "detalle": "Con penalización: cada error resta un tercio de acierto (aciertos − errores/3). Se califica de 0 a 10 y hay que sacar al menos un 5."
+        },
+        {
+          "id": "segundo-ejercicio",
+          "icono": "🛠️",
+          "numero": 2,
+          "nombre": "Segundo ejercicio (práctico)",
+          "formato": "Uno o varios supuestos prácticos sobre las funciones de la plaza",
+          "duracion": "La fija el tribunal",
+          "opciones": "Escrito, oral o con los materiales y herramientas del puesto, según decida el tribunal",
+          "detalle": "Si es escrito, se lee en sesión pública ante el tribunal, que valora la aplicación de los conocimientos teóricos al caso. Se califica de 0 a 10 y hay que sacar al menos un 5."
+        }
+      ],
+      "estado": "abierta",
+      "plazo_fin": "2026-12-11"
+    }
+  },
+  {
+    "fuente_id": "d25",
+    "oposicion": {
+      "slug": "oficial-imprenta-dpz",
+      "nombre": "Oficial 1.ª de Imprenta",
+      "puesto_slug": "oficial-imprenta",
+      "descripcion_corta": "Oposición de Oficial 1.ª de Imprenta de la Diputación Provincial de Zaragoza: plazas, requisitos, examen y temario oficial.",
+      "descripcion_larga": "Plazas de personal laboral fijo de la Diputación Provincial de Zaragoza (grupo IV, nivel VI). Requisitos: Certificado de haber cursado la ESO (Certificado de Escolaridad) o equivalente. La convocatoria (BOPZ núm. 152, de 6 de julio de 2026; OEP 2025) es de 2 plazas. El programa tiene 20 temas (6 de la parte general, 14 de la parte específica) y la oposición, 2 ejercicios eliminatorios: un test de 60 preguntas y un ejercicio práctico. Hay otro proceso con dos plazas más de la misma categoría (OEP 2024, BOPZ 95 de 29-04-2026), con el mismo tipo de examen y ya en marcha."
+    },
+    "convocatoria": {
+      "oposicion_slug": "oficial-imprenta-dpz",
+      "numero": "BOPZ 152/2026 (decreto núm. 1919)",
+      "plaza": "Oficial 1.ª de Imprenta — personal laboral fijo, grupo IV, nivel VI",
+      "fecha_decreto": "27 de junio de 2026",
+      "sistema_seleccion": "Oposición libre, con dos ejercicios eliminatorios",
+      "requisito_titulacion": "Certificado de haber cursado la ESO (Certificado de Escolaridad) o equivalente.",
+      "plazo_instancias": "Del 22 de julio de 2026 al 18 de agosto de 2026 (plazo ya cerrado). Tasa de 6,01 €, que se paga por ingreso bancario y se presenta con la solicitud.",
+      "duracion_maxima_proceso": "Las bases específicas no lo fijan; remiten a la base 7 de las bases generales de la DPZ (BOPZ núm. 71, de 29 de marzo de 2021).",
+      "orden_actuacion": "Por orden alfabético, empezando por la letra «U» (sorteo de la Administración del Estado de 2025).",
+      "plazas_total": 2,
+      "desglose_plazas": [
+        {
+          "turno": "Turno libre",
+          "cantidad": 2
+        }
+      ],
+      "enlaces_oficiales": [
+        {
+          "titulo": "Bases de la convocatoria (BOPZ núm. 152, 6 de julio de 2026)",
+          "url": "https://dpz.es/wp-content/uploads/2026/07/BOPZ-Convocatoria-y-base.pdf"
+        },
+        {
+          "titulo": "Bases generales de los procesos de turno libre de la DPZ (BOPZ núm. 71, 29 de marzo de 2021)",
+          "url": "https://dpz.es/wp-content/uploads/2026/06/BOPZ-Bases-generales-4.pdf"
+        },
+        {
+          "titulo": "Página de la convocatoria en dpz.es (bases, listas y anuncios)",
+          "url": "https://dpz.es/oficial-1a-imprenta-oep-2025/"
+        },
+        {
+          "titulo": "Convocatoria relacionada: Oficial 1ª imprenta (OEP 2024-2)",
+          "url": "https://dpz.es/oficial-1a-imprenta-oep-2024/"
+        }
+      ],
+      "pruebas": [
+        {
+          "id": "primer-ejercicio",
+          "icono": "📝",
+          "numero": 1,
+          "nombre": "Primer ejercicio (test)",
+          "formato": "Test sobre el temario",
+          "duracion": "75 minutos",
+          "opciones": "60 preguntas, 4 alternativas",
+          "detalle": "Con penalización: cada error resta un tercio de acierto (aciertos − errores/3). Se califica de 0 a 10 y hay que sacar al menos un 5."
+        },
+        {
+          "id": "segundo-ejercicio",
+          "icono": "🛠️",
+          "numero": 2,
+          "nombre": "Segundo ejercicio (práctico)",
+          "formato": "Uno o varios supuestos prácticos sobre las funciones de la plaza",
+          "duracion": "La fija el tribunal",
+          "opciones": "Escrito, oral o con los materiales y herramientas del puesto, según decida el tribunal",
+          "detalle": "Si es escrito, se lee en sesión pública ante el tribunal, que valora la aplicación de los conocimientos teóricos al caso. Se califica de 0 a 10 y hay que sacar al menos un 5."
+        }
+      ],
+      "estado": "cerrada",
+      "plazo_fin": null
+    }
+  },
+  {
+    "fuente_id": "d03",
+    "oposicion": {
+      "slug": "licenciado-filosofia-letras-dpz",
+      "nombre": "Licenciado/a en Filosofía y Letras",
+      "puesto_slug": "licenciado-filosofia-letras",
+      "descripcion_corta": "Oposición de Licenciado/a en Filosofía y Letras de la Diputación Provincial de Zaragoza: plazas, requisitos, examen y temario oficial.",
+      "descripcion_larga": "Plaza de funcionario/a de carrera de la Diputación Provincial de Zaragoza (grupo A, subgrupo A1, Escala de Administración Especial, Subescala Técnica, Técnico Superior). Requisitos: Título Universitario de Licenciado/a en Filosofía y Letras o Grado equivalente. La convocatoria (BOPZ núm. 70, de 27 de marzo de 2026; OEP 2024) es de 1 plaza. El programa tiene 90 temas (19 de la parte general, 71 de la parte específica) y la oposición, 3 ejercicios eliminatorios: un test de 100 preguntas, el desarrollo por escrito de cuatro temas y dos supuestos prácticos."
+    },
+    "convocatoria": {
+      "oposicion_slug": "licenciado-filosofia-letras-dpz",
+      "numero": "BOPZ 70/2026 (decreto núm. 596)",
+      "plaza": "Licenciado/a en Filosofía y Letras — funcionario/a de carrera, grupo A, subgrupo A1 (Escala de Administración Especial, Subescala Técnica, Técnico Superior)",
+      "fecha_decreto": "17 de marzo de 2026",
+      "sistema_seleccion": "Oposición libre, con tres ejercicios eliminatorios",
+      "requisito_titulacion": "Título Universitario de Licenciado/a en Filosofía y Letras o Grado equivalente.",
+      "plazo_instancias": "Del 22 de abril de 2026 al 21 de mayo de 2026 (plazo ya cerrado). Tasa de 12,02 €, que se paga por ingreso bancario y se presenta con la solicitud.",
+      "duracion_maxima_proceso": "Las bases específicas no lo fijan; remiten a la base 7 de las bases generales de la DPZ (BOPZ núm. 71, de 29 de marzo de 2021).",
+      "orden_actuacion": "Por orden alfabético, empezando por la letra «U» (sorteo de la Administración del Estado de 2025).",
+      "plazas_total": 1,
+      "desglose_plazas": [
+        {
+          "turno": "Turno libre",
+          "cantidad": 1
+        }
+      ],
+      "enlaces_oficiales": [
+        {
+          "titulo": "Bases de la convocatoria (BOPZ núm. 70, 27 de marzo de 2026)",
+          "url": "https://dpz.es/wp-content/uploads/2026/04/20260318_Otros_LICENCIADO-A-EN-FILOSOFIA-Y-LETRAS.-Oposicion-libre-1-OEP-2024-Anuncio-convocatoria-y-bases-1.pdf"
+        },
+        {
+          "titulo": "Bases generales de los procesos de turno libre de la DPZ (BOPZ núm. 71, 29 de marzo de 2021)",
+          "url": "https://dpz.es/wp-content/uploads/2026/06/BOPZ-Bases-generales-4.pdf"
+        },
+        {
+          "titulo": "Página de la convocatoria en dpz.es (bases, listas y anuncios)",
+          "url": "https://dpz.es/licenciado-a-en-filosofia-y-letras-oep-2024/"
+        }
+      ],
+      "pruebas": [
+        {
+          "id": "primer-ejercicio",
+          "icono": "📝",
+          "numero": 1,
+          "nombre": "Primer ejercicio (test)",
+          "formato": "Test sobre el temario",
+          "duracion": "90 minutos",
+          "opciones": "100 preguntas, 4 alternativas",
+          "detalle": "Con penalización: cada error resta un tercio de acierto (aciertos − errores/3). Se califica de 0 a 10 y hay que sacar al menos un 5."
+        },
+        {
+          "id": "segundo-ejercicio",
+          "icono": "✍️",
+          "numero": 2,
+          "nombre": "Segundo ejercicio (desarrollo de temas)",
+          "formato": "Desarrollo por escrito de cuatro temas: uno de la parte general y tres de la específica",
+          "duracion": "4 horas",
+          "opciones": "Temas sacados a sorteo; hay que desarrollarlos todos",
+          "detalle": "Se lee en sesión pública ante el tribunal. Se valoran el dominio del temario, la claridad y el rigor de la exposición y la expresión escrita. Se califica de 0 a 10 y hay que sacar al menos un 5."
+        },
+        {
+          "id": "tercer-ejercicio",
+          "icono": "📋",
+          "numero": 3,
+          "nombre": "Tercer ejercicio (supuestos prácticos)",
+          "formato": "Supuestos prácticos sobre las funciones de la plaza y el temario",
+          "duracion": "3 horas",
+          "opciones": "Dos supuestos; se puede usar bibliografía en papel (sin soluciones de casos) y calculadora",
+          "detalle": "Se lee en sesión pública ante el tribunal, que valora la aplicación de los conocimientos a la resolución de los casos. Se califica de 0 a 10 y hay que sacar al menos un 5."
+        }
+      ],
+      "estado": "cerrada",
+      "plazo_fin": null
+    }
+  },
+  {
+    "fuente_id": "d04",
+    "oposicion": {
+      "slug": "auxiliar-sala-deposito-dpz",
+      "nombre": "Auxiliar de Sala y Depósito (turno de personas con discapacidad)",
+      "puesto_slug": "auxiliar-sala-deposito",
+      "descripcion_corta": "Oposición de Auxiliar de Sala y Depósito (turno de personas con discapacidad) de la Diputación Provincial de Zaragoza: plazas, requisitos, examen y temario oficial.",
+      "descripcion_larga": "Plaza de personal laboral fijo de la Diputación Provincial de Zaragoza (grupo IV, nivel VII), en turno reservado a personas con discapacidad. Requisitos: Tener la condición legal de persona con discapacidad en un grado igual o superior al treinta y tres por ciento, de tipo físico o sensorial con carácter exclusivo o prevalente; y poseer la capacidad funcional para el desarrollo de las tareas propias de la categoría a la que se aspira. Certificado de haber cursado la ESO (Certificado de Escolaridad) o equivalente. La convocatoria (BOPZ núm. 265, de 18 de noviembre de 2025; OEP 2024) es de 1 plaza. El programa tiene 20 temas y la oposición, 2 ejercicios eliminatorios: un test de 60 preguntas y un ejercicio práctico."
+    },
+    "convocatoria": {
+      "oposicion_slug": "auxiliar-sala-deposito-dpz",
+      "numero": "BOPZ 265/2025 (decreto núm. 3070)",
+      "plaza": "Auxiliar de Sala y Depósito (turno de personas con discapacidad) — personal laboral fijo, grupo IV, nivel VII",
+      "fecha_decreto": "24 de octubre de 2025",
+      "sistema_seleccion": "Oposición libre, con dos ejercicios eliminatorios",
+      "requisito_titulacion": "Tener la condición legal de persona con discapacidad en un grado igual o superior al treinta y tres por ciento, de tipo físico o sensorial con carácter exclusivo o prevalente; y poseer la capacidad funcional para el desarrollo de las tareas propias de la categoría a la que se aspira. Certificado de haber cursado la ESO (Certificado de Escolaridad) o equivalente.",
+      "plazo_instancias": "Del 3 de diciembre de 2025 al 7 de enero de 2026 (plazo ya cerrado). Tasa de 6,01 €, que se paga por ingreso bancario y se presenta con la solicitud.",
+      "duracion_maxima_proceso": "Las bases específicas no lo fijan; remiten a la base 7 de las bases generales de la DPZ (BOPZ núm. 71, de 29 de marzo de 2021).",
+      "orden_actuacion": "Por orden alfabético, empezando por la letra «U» (sorteo de la Administración del Estado de 2025).",
+      "plazas_total": 1,
+      "desglose_plazas": [
+        {
+          "turno": "Turno reservado a personas con discapacidad",
+          "cantidad": 1
+        }
+      ],
+      "enlaces_oficiales": [
+        {
+          "titulo": "Bases de la convocatoria (BOPZ núm. 265, 18 de noviembre de 2025)",
+          "url": "https://dpz.es/wp-content/uploads/2026/04/AUXILIAR-SALA-Y-DEPOSITO-Anuncio-convocatoria-y-bases.pdf"
+        },
+        {
+          "titulo": "Bases generales de los procesos de turno libre de la DPZ (BOPZ núm. 71, 29 de marzo de 2021)",
+          "url": "https://dpz.es/wp-content/uploads/2026/06/BOPZ-Bases-generales-4.pdf"
+        },
+        {
+          "titulo": "Página de la convocatoria en dpz.es (bases, listas y anuncios)",
+          "url": "https://dpz.es/auxiliar-de-sala-y-deposito-oep-2024-turno-reservado-a-personas-con-discapacidad/"
+        }
+      ],
+      "pruebas": [
+        {
+          "id": "primer-ejercicio",
+          "icono": "📝",
+          "numero": 1,
+          "nombre": "Primer ejercicio (test)",
+          "formato": "Test sobre el temario",
+          "duracion": "75 minutos",
+          "opciones": "60 preguntas, 4 alternativas",
+          "detalle": "Con penalización: cada error resta un tercio de acierto (aciertos − errores/3). Se califica de 0 a 10 y hay que sacar al menos un 5."
+        },
+        {
+          "id": "segundo-ejercicio",
+          "icono": "🛠️",
+          "numero": 2,
+          "nombre": "Segundo ejercicio (práctico)",
+          "formato": "Uno o varios supuestos prácticos sobre las funciones de la plaza",
+          "duracion": "La fija el tribunal",
+          "opciones": "Escrito, oral o con los materiales y herramientas del puesto, según decida el tribunal",
+          "detalle": "Si es escrito, se lee en sesión pública ante el tribunal, que valora la aplicación de los conocimientos teóricos al caso. Se califica de 0 a 10 y hay que sacar al menos un 5."
+        }
+      ],
+      "estado": "cerrada",
+      "plazo_fin": null
+    }
+  },
+  {
+    "fuente_id": "d06",
+    "oposicion": {
+      "slug": "tecnico-informatica-programacion-dpz",
+      "nombre": "Técnico/a de Informática de Programación",
+      "puesto_slug": "tecnico-informatica-programacion",
+      "descripcion_corta": "Oposición de Técnico/a de Informática de Programación de la Diputación Provincial de Zaragoza: plazas, requisitos, examen y temario oficial.",
+      "descripcion_larga": "Plaza de personal laboral fijo de la Diputación Provincial de Zaragoza (grupo III, nivel III). Requisitos: Bachiller, Grado formativo grado medio o equivalente. La convocatoria (BOPZ núm. 290, de 19 de diciembre de 2025; OEP 2024) es de 1 plaza. El programa tiene 40 temas y la oposición, 2 ejercicios eliminatorios: un test de 60 preguntas y un ejercicio práctico."
+    },
+    "convocatoria": {
+      "oposicion_slug": "tecnico-informatica-programacion-dpz",
+      "numero": "BOPZ 290/2025 (decreto núm. 3055)",
+      "plaza": "Técnico/a de Informática de Programación — personal laboral fijo, grupo III, nivel III",
+      "fecha_decreto": "22 de octubre de 2025",
+      "sistema_seleccion": "Oposición libre, con dos ejercicios eliminatorios",
+      "requisito_titulacion": "Bachiller, Grado formativo grado medio o equivalente.",
+      "plazo_instancias": "Del 6 de febrero de 2026 al 6 de marzo de 2026 (plazo ya cerrado). Tasa de 6,01 €, que se paga por ingreso bancario y se presenta con la solicitud.",
+      "duracion_maxima_proceso": "Las bases específicas no lo fijan; remiten a la base 7 de las bases generales de la DPZ (BOPZ núm. 71, de 29 de marzo de 2021).",
+      "orden_actuacion": "Por orden alfabético, empezando por la letra «U» (sorteo de la Administración del Estado de 2025).",
+      "plazas_total": 1,
+      "desglose_plazas": [
+        {
+          "turno": "Turno libre",
+          "cantidad": 1
+        }
+      ],
+      "enlaces_oficiales": [
+        {
+          "titulo": "Bases de la convocatoria (BOPZ núm. 290, 19 de diciembre de 2025)",
+          "url": "https://dpz.es/wp-content/uploads/2026/04/20251024_Publicacion_Anuncio_TECNICO-A-INFORMATICA-PROGRAMACION-OEP-2024-.-Bases.pdf"
+        },
+        {
+          "titulo": "Bases generales de los procesos de turno libre de la DPZ (BOPZ núm. 71, 29 de marzo de 2021)",
+          "url": "https://dpz.es/wp-content/uploads/2026/06/BOPZ-Bases-generales-4.pdf"
+        },
+        {
+          "titulo": "Página de la convocatoria en dpz.es (bases, listas y anuncios)",
+          "url": "https://dpz.es/tecnico-a-de-informatica-y-programacion-oep-2024/"
+        }
+      ],
+      "pruebas": [
+        {
+          "id": "primer-ejercicio",
+          "icono": "📝",
+          "numero": 1,
+          "nombre": "Primer ejercicio (test)",
+          "formato": "Test sobre el temario",
+          "duracion": "75 minutos",
+          "opciones": "60 preguntas, 4 alternativas",
+          "detalle": "Con penalización: cada error resta un tercio de acierto (aciertos − errores/3). Se califica de 0 a 10 y hay que sacar al menos un 5."
+        },
+        {
+          "id": "segundo-ejercicio",
+          "icono": "🛠️",
+          "numero": 2,
+          "nombre": "Segundo ejercicio (práctico)",
+          "formato": "Uno o varios supuestos prácticos sobre las funciones de la plaza",
+          "duracion": "La fija el tribunal",
+          "opciones": "Escrito, oral o con los materiales y herramientas del puesto, según decida el tribunal",
+          "detalle": "Si es escrito, se lee en sesión pública ante el tribunal, que valora la aplicación de los conocimientos teóricos al caso. Se califica de 0 a 10 y hay que sacar al menos un 5."
+        }
+      ],
+      "estado": "cerrada",
+      "plazo_fin": null
+    }
+  },
+  {
+    "fuente_id": "d07",
+    "oposicion": {
+      "slug": "oficial-servicios-internos-dpz",
+      "nombre": "Oficial de Servicios Internos (turno de personas con discapacidad)",
+      "puesto_slug": "oficial-servicios-internos",
+      "descripcion_corta": "Oposición de Oficial de Servicios Internos (turno de personas con discapacidad) de la Diputación Provincial de Zaragoza: plazas, requisitos, examen y temario oficial.",
+      "descripcion_larga": "Plaza de personal laboral fijo de la Diputación Provincial de Zaragoza (grupo IV, nivel VI), en turno reservado a personas con discapacidad. Requisitos: Tener la condición legal de persona con discapacidad en un grado igual o superior al treinta y tres por ciento, de tipo físico o sensorial con carácter exclusivo o prevalente; y poseer la capacidad funcional para el desarrollo de las tareas propias de la categoría a la que se aspira. Certificado de haber cursado la ESO (Certificado de Escolaridad) o equivalente. La convocatoria (BOPZ núm. 250, de 30 de octubre de 2025; OEP 2023, turno reservado a personas con discapacidad) es de 1 plaza. El programa tiene 15 temas y la oposición, 2 ejercicios eliminatorios: un test de 60 preguntas y un ejercicio práctico."
+    },
+    "convocatoria": {
+      "oposicion_slug": "oficial-servicios-internos-dpz",
+      "numero": "BOPZ 250/2025 (decreto núm. 3044)",
+      "plaza": "Oficial de Servicios Internos (turno de personas con discapacidad) — personal laboral fijo, grupo IV, nivel VI",
+      "fecha_decreto": "20 de octubre de 2025",
+      "sistema_seleccion": "Oposición libre, con dos ejercicios eliminatorios",
+      "requisito_titulacion": "Tener la condición legal de persona con discapacidad en un grado igual o superior al treinta y tres por ciento, de tipo físico o sensorial con carácter exclusivo o prevalente; y poseer la capacidad funcional para el desarrollo de las tareas propias de la categoría a la que se aspira. Certificado de haber cursado la ESO (Certificado de Escolaridad) o equivalente.",
+      "plazo_instancias": "Del 3 de diciembre de 2025 al 7 de enero de 2026 (plazo ya cerrado). Tasa de 6,01 €, que se paga por ingreso bancario y se presenta con la solicitud.",
+      "duracion_maxima_proceso": "Las bases específicas no lo fijan; remiten a la base 7 de las bases generales de la DPZ (BOPZ núm. 71, de 29 de marzo de 2021).",
+      "orden_actuacion": "Por orden alfabético, empezando por la letra «U» (sorteo de la Administración del Estado de 2025).",
+      "plazas_total": 1,
+      "desglose_plazas": [
+        {
+          "turno": "Turno reservado a personas con discapacidad",
+          "cantidad": 1
+        }
+      ],
+      "enlaces_oficiales": [
+        {
+          "titulo": "Bases de la convocatoria (BOPZ núm. 250, 30 de octubre de 2025)",
+          "url": "https://dpz.es/wp-content/uploads/2026/04/OFICIAL-SERVICIOS-INTERNOS-Anuncio-convocatoria-y-bases.pdf"
+        },
+        {
+          "titulo": "Bases generales de los procesos de turno libre de la DPZ (BOPZ núm. 71, 29 de marzo de 2021)",
+          "url": "https://dpz.es/wp-content/uploads/2026/06/BOPZ-Bases-generales-4.pdf"
+        },
+        {
+          "titulo": "Página de la convocatoria en dpz.es (bases, listas y anuncios)",
+          "url": "https://dpz.es/oficial-de-servicios-internos-oep-2023-turno-reservado-a-personas-con-discapacidad/"
+        }
+      ],
+      "pruebas": [
+        {
+          "id": "primer-ejercicio",
+          "icono": "📝",
+          "numero": 1,
+          "nombre": "Primer ejercicio (test)",
+          "formato": "Test sobre el temario",
+          "duracion": "75 minutos",
+          "opciones": "60 preguntas, 4 alternativas",
+          "detalle": "Con penalización: cada error resta un tercio de acierto (aciertos − errores/3). Se califica de 0 a 10 y hay que sacar al menos un 5."
+        },
+        {
+          "id": "segundo-ejercicio",
+          "icono": "🛠️",
+          "numero": 2,
+          "nombre": "Segundo ejercicio (práctico)",
+          "formato": "Uno o varios supuestos prácticos sobre las funciones de la plaza",
+          "duracion": "La fija el tribunal",
+          "opciones": "Escrito, oral o con los materiales y herramientas del puesto, según decida el tribunal",
+          "detalle": "Si es escrito, se lee en sesión pública ante el tribunal, que valora la aplicación de los conocimientos teóricos al caso. Se califica de 0 a 10 y hay que sacar al menos un 5."
+        }
+      ],
+      "estado": "cerrada",
+      "plazo_fin": null
+    }
+  },
+  {
+    "fuente_id": "d10",
+    "oposicion": {
+      "slug": "tecnico-medio-gestion-dpz",
+      "nombre": "Técnico/a Medio/a de Gestión",
+      "puesto_slug": "tecnico-medio-gestion",
+      "descripcion_corta": "Oposición de Técnico/a Medio/a de Gestión de la Diputación Provincial de Zaragoza: plazas, requisitos, examen y temario oficial.",
+      "descripcion_larga": "Plazas de funcionario/a de carrera de la Diputación Provincial de Zaragoza (grupo A, subgrupo A2, Escala de Administración General, Subescala de Gestión). Requisitos: Titulo de diplomado/a universitario/a o equivalente. La convocatoria (BOPZ núm. 56, de 11 de marzo de 2026; OEP 2023-2 y 2025-1) es de 3 plazas. El programa tiene 60 temas (12 de la parte primera: Derecho Constitucional y Autonómico, 24 de la parte segunda: Derecho administrativo general, 24 de la parte tercera: Derecho Administrativo Local, Derecho Tributario y Presupuestario Local) y la oposición, 3 ejercicios eliminatorios: un test de 100 preguntas, el desarrollo por escrito de tres temas y uno o varios supuestos prácticos."
+    },
+    "convocatoria": {
+      "oposicion_slug": "tecnico-medio-gestion-dpz",
+      "numero": "BOPZ 56/2026 (decreto núm. 447)",
+      "plaza": "Técnico/a Medio/a de Gestión — funcionario/a de carrera, grupo A, subgrupo A2 (Escala de Administración General, Subescala de Gestión)",
+      "fecha_decreto": "3 de marzo de 2026",
+      "sistema_seleccion": "Oposición libre, con tres ejercicios eliminatorios",
+      "requisito_titulacion": "Titulo de diplomado/a universitario/a o equivalente.",
+      "plazo_instancias": "Del 26 de marzo de 2026 al 27 de abril de 2026 (plazo ya cerrado). Tasa de 9,02 €, que se paga por ingreso bancario y se presenta con la solicitud.",
+      "duracion_maxima_proceso": "Las bases específicas no lo fijan; remiten a la base 7 de las bases generales de la DPZ (BOPZ núm. 71, de 29 de marzo de 2021).",
+      "orden_actuacion": "Por orden alfabético, empezando por la letra «U» (sorteo de la Administración del Estado de 2025).",
+      "plazas_total": 3,
+      "desglose_plazas": [
+        {
+          "turno": "Turno libre",
+          "cantidad": 3
+        }
+      ],
+      "enlaces_oficiales": [
+        {
+          "titulo": "Bases de la convocatoria (BOPZ núm. 56, 11 de marzo de 2026)",
+          "url": "https://dpz.es/wp-content/uploads/2026/04/Tecnico_a-Medio-de-Gestion-3-.-Oposicion-en-turno-libre.-OEP-2023-2-y-2025-1.pdf"
+        },
+        {
+          "titulo": "Bases generales de los procesos de turno libre de la DPZ (BOPZ núm. 71, 29 de marzo de 2021)",
+          "url": "https://dpz.es/wp-content/uploads/2026/06/BOPZ-Bases-generales-4.pdf"
+        },
+        {
+          "titulo": "Página de la convocatoria en dpz.es (bases, listas y anuncios)",
+          "url": "https://dpz.es/tecnico-a-medio-a-de-gestion-oep-2023-2-y-2025-1/"
+        }
+      ],
+      "pruebas": [
+        {
+          "id": "primer-ejercicio",
+          "icono": "📝",
+          "numero": 1,
+          "nombre": "Primer ejercicio (test)",
+          "formato": "Test sobre el temario",
+          "duracion": "90 minutos",
+          "opciones": "100 preguntas, 4 alternativas",
+          "detalle": "Con penalización: cada error resta un tercio de acierto (aciertos − errores/3). Se califica de 0 a 10 y hay que sacar al menos un 5."
+        },
+        {
+          "id": "segundo-ejercicio",
+          "icono": "✍️",
+          "numero": 2,
+          "nombre": "Segundo ejercicio (desarrollo de temas)",
+          "formato": "Desarrollo por escrito de tres temas, uno de cada parte del temario",
+          "duracion": "3 horas",
+          "opciones": "Temas sacados a sorteo; hay que desarrollarlos todos",
+          "detalle": "Se lee en sesión pública ante el tribunal. Se valoran el dominio del temario, la claridad y el rigor de la exposición y la expresión escrita. Se califica de 0 a 10 y hay que sacar al menos un 5."
+        },
+        {
+          "id": "tercer-ejercicio",
+          "icono": "📋",
+          "numero": 3,
+          "nombre": "Tercer ejercicio (supuestos prácticos)",
+          "formato": "Supuestos prácticos sobre las funciones de la plaza y el temario",
+          "duracion": "2 horas",
+          "opciones": "Uno o varios supuestos; se pueden usar textos legales y calculadora (sin soluciones de casos)",
+          "detalle": "Se lee en sesión pública ante el tribunal, que valora la aplicación de los conocimientos a la resolución de los casos. Se califica de 0 a 10 y hay que sacar al menos un 5."
+        }
+      ],
+      "estado": "cerrada",
+      "plazo_fin": null
+    }
+  },
+  {
+    "fuente_id": "d11",
+    "oposicion": {
+      "slug": "ayudante-archivo-biblioteca-dpz",
+      "nombre": "Ayudante de Archivo y Biblioteca",
+      "puesto_slug": "ayudante-archivo-biblioteca",
+      "descripcion_corta": "Oposición de Ayudante de Archivo y Biblioteca de la Diputación Provincial de Zaragoza: plazas, requisitos, examen y temario oficial.",
+      "descripcion_larga": "Plazas de funcionario/a de carrera de la Diputación Provincial de Zaragoza (grupo A, subgrupo A2, Escala de Administración Especial, Subescala Técnica, Técnico Medio). Requisitos: Diplomado Universitario, Grado o equivalente a la fecha en que termine el plazo de presentación de instancias. La convocatoria (BOPZ núm. 44, de 24 de febrero de 2026; OEP 2023 y 2025) es de 2 plazas. El programa tiene 70 temas (13 de la parte general, 27 de la parte específica. Primera: Archivo, 17 de la parte específica. Segunda: Biblioteca, 13 de la parte específica. Tercera: Archivo y Biblioteca) y la oposición, 3 ejercicios eliminatorios: un test de 100 preguntas, el desarrollo por escrito de tres temas y uno o varios supuestos prácticos."
+    },
+    "convocatoria": {
+      "oposicion_slug": "ayudante-archivo-biblioteca-dpz",
+      "numero": "BOPZ 44/2026",
+      "plaza": "Ayudante de Archivo y Biblioteca — funcionario/a de carrera, grupo A, subgrupo A2 (Escala de Administración Especial, Subescala Técnica, Técnico Medio)",
+      "fecha_decreto": "24 de febrero de 2026",
+      "sistema_seleccion": "Oposición libre, con tres ejercicios eliminatorios",
+      "requisito_titulacion": "Diplomado Universitario, Grado o equivalente a la fecha en que termine el plazo de presentación de instancias.",
+      "plazo_instancias": "Del 24 de febrero de 2026 al 13 de marzo de 2026 (plazo ya cerrado). Tasa de 9,02 €, que se paga por ingreso bancario y se presenta con la solicitud.",
+      "duracion_maxima_proceso": "Las bases específicas no lo fijan; remiten a la base 7 de las bases generales de la DPZ (BOPZ núm. 71, de 29 de marzo de 2021).",
+      "orden_actuacion": "Por orden alfabético, empezando por la letra «U» (sorteo de la Administración del Estado de 2025).",
+      "plazas_total": 2,
+      "desglose_plazas": [
+        {
+          "turno": "Turno libre",
+          "cantidad": 2
+        }
+      ],
+      "enlaces_oficiales": [
+        {
+          "titulo": "Bases de la convocatoria (BOPZ núm. 44, 24 de febrero de 2026)",
+          "url": "https://dpz.es/wp-content/uploads/2026/04/20260123_Otros_Bases_AYUDANTE-DE-ARCHIVO-Y-BIBLIOTECA-OEP-2023-.-Anuncio-convocatoria-y-bases.pdf"
+        },
+        {
+          "titulo": "Bases generales de los procesos de turno libre de la DPZ (BOPZ núm. 71, 29 de marzo de 2021)",
+          "url": "https://dpz.es/wp-content/uploads/2026/06/BOPZ-Bases-generales-4.pdf"
+        },
+        {
+          "titulo": "Página de la convocatoria en dpz.es (bases, listas y anuncios)",
+          "url": "https://dpz.es/ayudante-de-archivo-y-biblioteca-oep-2023-y-2025/"
+        }
+      ],
+      "pruebas": [
+        {
+          "id": "primer-ejercicio",
+          "icono": "📝",
+          "numero": 1,
+          "nombre": "Primer ejercicio (test)",
+          "formato": "Test sobre el temario",
+          "duracion": "90 minutos",
+          "opciones": "100 preguntas, 4 alternativas",
+          "detalle": "Como máximo 100 preguntas sobre las funciones de la plaza y el temario. Con penalización: cada error resta un tercio de acierto (aciertos − errores/3). Se califica de 0 a 10 y hay que sacar al menos un 5."
+        },
+        {
+          "id": "segundo-ejercicio",
+          "icono": "✍️",
+          "numero": 2,
+          "nombre": "Segundo ejercicio (desarrollo de temas)",
+          "formato": "Desarrollo por escrito de tres temas de la parte específica: uno de archivo, uno de biblioteca y uno de archivo y biblioteca",
+          "duracion": "3 horas",
+          "opciones": "Temas sacados a sorteo; hay que desarrollarlos todos",
+          "detalle": "Se lee en sesión pública ante el tribunal. Se valoran el dominio del temario, la claridad y el rigor de la exposición y la expresión escrita. Se califica de 0 a 10 y hay que sacar al menos un 5."
+        },
+        {
+          "id": "tercer-ejercicio",
+          "icono": "📋",
+          "numero": 3,
+          "nombre": "Tercer ejercicio (supuestos prácticos)",
+          "formato": "Supuestos prácticos sobre las funciones de la plaza y el temario",
+          "duracion": "2 horas",
+          "opciones": "Escrito, oral o con las herramientas del puesto, según el tribunal; con cualquier apoyo técnico del temario",
+          "detalle": "Se lee en sesión pública ante el tribunal, que valora la aplicación de los conocimientos a la resolución de los casos. Se califica de 0 a 10 y hay que sacar al menos un 5."
+        }
+      ],
+      "estado": "cerrada",
+      "plazo_fin": null
+    }
+  },
+  {
+    "fuente_id": "d29",
+    "oposicion": {
+      "slug": "oficial-proteccion-control-edificios-dpz",
+      "nombre": "Oficial de Protección y Control de Edificios",
+      "puesto_slug": "oficial-proteccion-control-edificios",
+      "descripcion_corta": "Oposición de Oficial de Protección y Control de Edificios de la Diputación Provincial de Zaragoza: plazas, requisitos, examen y temario oficial.",
+      "descripcion_larga": "Plaza de personal laboral fijo de la Diputación Provincial de Zaragoza (grupo III, nivel IV). Requisitos: Estar en posesión de Graduado/a en ESO o equivalente. Permiso de conducción de la clase B. La convocatoria (BOPZ núm. 138, de 19 de junio de 2026; OEP 2024) es de 1 plaza. El programa tiene 20 temas (6 de la parte general, 14 de la parte específica) y la oposición, 2 ejercicios eliminatorios: un test de 60 preguntas y un ejercicio práctico. La DPZ convocó aparte otra plaza de esta categoría en turno reservado a personas con discapacidad (OEP 2023, BOPZ 260 de 12-11-2025), con su propio temario."
+    },
+    "convocatoria": {
+      "oposicion_slug": "oficial-proteccion-control-edificios-dpz",
+      "numero": "BOPZ 138/2026 (decreto núm. 1734)",
+      "plaza": "Oficial de Protección y Control de Edificios — personal laboral fijo, grupo III, nivel IV",
+      "fecha_decreto": "12 de junio de 2026",
+      "sistema_seleccion": "Oposición libre, con dos ejercicios eliminatorios",
+      "requisito_titulacion": "Estar en posesión de Graduado/a en ESO o equivalente. Permiso de conducción de la clase B.",
+      "plazo_instancias": "Del 9 de julio de 2026 al 5 de agosto de 2026 (plazo ya cerrado). Tasa de 6,01 €, que se paga por ingreso bancario y se presenta con la solicitud.",
+      "duracion_maxima_proceso": "Las bases específicas no lo fijan; remiten a la base 7 de las bases generales de la DPZ (BOPZ núm. 71, de 29 de marzo de 2021).",
+      "orden_actuacion": "Por orden alfabético, empezando por la letra «U» (sorteo de la Administración del Estado de 2025).",
+      "plazas_total": 1,
+      "desglose_plazas": [
+        {
+          "turno": "Turno libre",
+          "cantidad": 1
+        }
+      ],
+      "enlaces_oficiales": [
+        {
+          "titulo": "Bases de la convocatoria (BOPZ núm. 138, 19 de junio de 2026)",
+          "url": "https://dpz.es/wp-content/uploads/2026/07/BOPZ-no-138-de-19-de-junio-de-2026.-Covocatoria-y-bases.pdf"
+        },
+        {
+          "titulo": "Bases generales de los procesos de turno libre de la DPZ (BOPZ núm. 71, 29 de marzo de 2021)",
+          "url": "https://dpz.es/wp-content/uploads/2026/06/BOPZ-Bases-generales-4.pdf"
+        },
+        {
+          "titulo": "Página de la convocatoria en dpz.es (bases, listas y anuncios)",
+          "url": "https://dpz.es/oficial-proteccion-y-control-de-edificios-oep2024-1/"
+        },
+        {
+          "titulo": "Convocatoria relacionada: Oficial de protección y control de edificios (OEP 2023, turno reservado a personas con discapacidad)",
+          "url": "https://dpz.es/oficial-de-proteccion-y-control-de-edificios-dpz-oep-2023-turno-reservado-a-personas-con-discapacidad/"
+        }
+      ],
+      "pruebas": [
+        {
+          "id": "primer-ejercicio",
+          "icono": "📝",
+          "numero": 1,
+          "nombre": "Primer ejercicio (test)",
+          "formato": "Test sobre el temario",
+          "duracion": "75 minutos",
+          "opciones": "60 preguntas, 4 alternativas",
+          "detalle": "Con penalización: cada error resta un tercio de acierto (aciertos − errores/3). Se califica de 0 a 10 y hay que sacar al menos un 5."
+        },
+        {
+          "id": "segundo-ejercicio",
+          "icono": "🛠️",
+          "numero": 2,
+          "nombre": "Segundo ejercicio (práctico)",
+          "formato": "Uno o varios supuestos prácticos sobre las funciones de la plaza",
+          "duracion": "La fija el tribunal",
+          "opciones": "Escrito, oral o con los materiales y herramientas del puesto, según decida el tribunal",
+          "detalle": "Si es escrito, se lee en sesión pública ante el tribunal, que valora la aplicación de los conocimientos teóricos al caso. Se califica de 0 a 10 y hay que sacar al menos un 5."
+        }
+      ],
+      "estado": "cerrada",
+      "plazo_fin": null
+    }
+  },
+  {
+    "fuente_id": "d17",
+    "oposicion": {
+      "slug": "peon-especialista-ceramica-muel-dpz",
+      "nombre": "Peón/a Especialista del Taller Escuela de Cerámica de Muel",
+      "puesto_slug": "peon-especialista-ceramica-muel",
+      "descripcion_corta": "Oposición de Peón/a Especialista del Taller Escuela de Cerámica de Muel de la Diputación Provincial de Zaragoza: plazas, requisitos, examen y temario oficial.",
+      "descripcion_larga": "Plaza de personal laboral fijo de la Diputación Provincial de Zaragoza (grupo IV, nivel VII). Requisitos: Certificado de haber cursado la ESO (Certificado de Escolaridad) o equivalente. La convocatoria (BOPZ núm. 25, de 2 de febrero de 2026; OEP 2024) es de 1 plaza. El programa tiene 15 temas y la oposición, 2 ejercicios eliminatorios: un test de 60 preguntas y un ejercicio práctico."
+    },
+    "convocatoria": {
+      "oposicion_slug": "peon-especialista-ceramica-muel-dpz",
+      "numero": "BOPZ 25/2026 (decreto núm. 111)",
+      "plaza": "Peón/a Especialista del Taller Escuela de Cerámica de Muel — personal laboral fijo, grupo IV, nivel VII",
+      "fecha_decreto": "23 de enero de 2026",
+      "sistema_seleccion": "Oposición libre, con dos ejercicios eliminatorios",
+      "requisito_titulacion": "Certificado de haber cursado la ESO (Certificado de Escolaridad) o equivalente.",
+      "plazo_instancias": "Del 16 de febrero de 2026 al 16 de marzo de 2026 (plazo ya cerrado). Tasa de 6,01 €, que se paga por ingreso bancario y se presenta con la solicitud.",
+      "duracion_maxima_proceso": "Las bases específicas no lo fijan; remiten a la base 7 de las bases generales de la DPZ (BOPZ núm. 71, de 29 de marzo de 2021).",
+      "orden_actuacion": "Por orden alfabético, empezando por la letra «U» (sorteo de la Administración del Estado de 2025).",
+      "plazas_total": 1,
+      "desglose_plazas": [
+        {
+          "turno": "Turno libre",
+          "cantidad": 1
+        }
+      ],
+      "enlaces_oficiales": [
+        {
+          "titulo": "Bases de la convocatoria (BOPZ núm. 25, 2 de febrero de 2026)",
+          "url": "https://dpz.es/wp-content/uploads/2026/04/20260123_Publicacion_Anuncio_PEON-ESPECIALISTA-TALLER-ESCUELA-CERAMICA-MUEL-OEP-2024-.-Anuncio-convocatoria-y-bases.pdf"
+        },
+        {
+          "titulo": "Bases generales de los procesos de turno libre de la DPZ (BOPZ núm. 71, 29 de marzo de 2021)",
+          "url": "https://dpz.es/wp-content/uploads/2026/06/BOPZ-Bases-generales-4.pdf"
+        },
+        {
+          "titulo": "Página de la convocatoria en dpz.es (bases, listas y anuncios)",
+          "url": "https://dpz.es/peon-a-especialista-taller-escuela-ceramica-de-muel-oep-2024/"
+        }
+      ],
+      "pruebas": [
+        {
+          "id": "primer-ejercicio",
+          "icono": "📝",
+          "numero": 1,
+          "nombre": "Primer ejercicio (test)",
+          "formato": "Test sobre el temario",
+          "duracion": "75 minutos",
+          "opciones": "60 preguntas, 4 alternativas",
+          "detalle": "Con penalización: cada error resta un tercio de acierto (aciertos − errores/3). Se califica de 0 a 10 y hay que sacar al menos un 5."
+        },
+        {
+          "id": "segundo-ejercicio",
+          "icono": "🛠️",
+          "numero": 2,
+          "nombre": "Segundo ejercicio (práctico)",
+          "formato": "Uno o varios supuestos prácticos sobre las funciones de la plaza",
+          "duracion": "La fija el tribunal",
+          "opciones": "Escrito, oral o con los materiales y herramientas del puesto, según decida el tribunal",
+          "detalle": "Si es escrito, se lee en sesión pública ante el tribunal, que valora la aplicación de los conocimientos teóricos al caso. Se califica de 0 a 10 y hay que sacar al menos un 5."
+        }
+      ],
+      "estado": "cerrada",
+      "plazo_fin": null
+    }
+  },
+  {
+    "fuente_id": "d18",
+    "oposicion": {
+      "slug": "tecnico-medio-seguridad-salud-dpz",
+      "nombre": "Técnico/a Medio/a en Seguridad y Salud",
+      "puesto_slug": "tecnico-medio-seguridad-salud",
+      "descripcion_corta": "Oposición de Técnico/a Medio/a en Seguridad y Salud de la Diputación Provincial de Zaragoza: plazas, requisitos, examen y temario oficial.",
+      "descripcion_larga": "Plaza de funcionario/a de carrera de la Diputación Provincial de Zaragoza (grupo A, subgrupo A2, Escala de Administración Especial, Subescala Técnica, Técnico Medio). Requisitos: Título de arquitecto/a técnico/a o ingeniero/a técnico/a de Obras Públicas o cualquier otra que habilite el ejercicio de las funciones de coordinador de salud seguridad en obras de conformidad con lo establecido en la disposición adicional cuarta de la Ley de Ordenación de la Edificación, Ley 38/1999 o grado equivalente y el título de técnico superior de Riesgos Laborales o equivalente. La convocatoria (BOPZ núm. 55, de 10 de marzo de 2026; OEP 2025) es de 1 plaza. El programa tiene 60 temas (12 de la parte general, 48 de la parte específica) y la oposición, 3 ejercicios eliminatorios: un test de 100 preguntas, el desarrollo por escrito de tres temas y uno o varios supuestos prácticos."
+    },
+    "convocatoria": {
+      "oposicion_slug": "tecnico-medio-seguridad-salud-dpz",
+      "numero": "BOPZ 55/2026 (decreto núm. 403)",
+      "plaza": "Técnico/a Medio/a en Seguridad y Salud — funcionario/a de carrera, grupo A, subgrupo A2 (Escala de Administración Especial, Subescala Técnica, Técnico Medio)",
+      "fecha_decreto": "26 de febrero de 2026",
+      "sistema_seleccion": "Oposición libre, con tres ejercicios eliminatorios",
+      "requisito_titulacion": "Título de arquitecto/a técnico/a o ingeniero/a técnico/a de Obras Públicas o cualquier otra que habilite el ejercicio de las funciones de coordinador de salud seguridad en obras de conformidad con lo establecido en la disposición adicional cuarta de la Ley de Ordenación de la Edificación, Ley 38/1999 o grado equivalente y el título de técnico superior de Riesgos Laborales o equivalente.",
+      "plazo_instancias": "Del 24 de marzo de 2026 al 22 de abril de 2026 (plazo ya cerrado). Tasa de 9,02 €, que se paga por ingreso bancario y se presenta con la solicitud.",
+      "duracion_maxima_proceso": "Las bases específicas no lo fijan; remiten a la base 7 de las bases generales de la DPZ (BOPZ núm. 71, de 29 de marzo de 2021).",
+      "orden_actuacion": "Por orden alfabético, empezando por la letra «U» (sorteo de la Administración del Estado de 2025).",
+      "plazas_total": 1,
+      "desglose_plazas": [
+        {
+          "turno": "Turno libre",
+          "cantidad": 1
+        }
+      ],
+      "enlaces_oficiales": [
+        {
+          "titulo": "Bases de la convocatoria (BOPZ núm. 55, 10 de marzo de 2026)",
+          "url": "https://dpz.es/wp-content/uploads/2026/04/Tecnico_a-medio-en-Seguridad-y-Salud.-Publicacion-en-BOPZ.-Convocatoria-y-Bases.pdf"
+        },
+        {
+          "titulo": "Bases generales de los procesos de turno libre de la DPZ (BOPZ núm. 71, 29 de marzo de 2021)",
+          "url": "https://dpz.es/wp-content/uploads/2026/06/BOPZ-Bases-generales-4.pdf"
+        },
+        {
+          "titulo": "Página de la convocatoria en dpz.es (bases, listas y anuncios)",
+          "url": "https://dpz.es/tecnico-a-medio-a-en-seguridad-y-salud-oep-2025/"
+        }
+      ],
+      "pruebas": [
+        {
+          "id": "primer-ejercicio",
+          "icono": "📝",
+          "numero": 1,
+          "nombre": "Primer ejercicio (test)",
+          "formato": "Test sobre el temario",
+          "duracion": "90 minutos",
+          "opciones": "100 preguntas, 4 alternativas",
+          "detalle": "Con penalización: cada error resta un tercio de acierto (aciertos − errores/3). Se califica de 0 a 10 y hay que sacar al menos un 5."
+        },
+        {
+          "id": "segundo-ejercicio",
+          "icono": "✍️",
+          "numero": 2,
+          "nombre": "Segundo ejercicio (desarrollo de temas)",
+          "formato": "Desarrollo por escrito de tres temas de la parte específica",
+          "duracion": "3 horas",
+          "opciones": "Temas sacados a sorteo; hay que desarrollarlos todos",
+          "detalle": "Se lee en sesión pública ante el tribunal. Se valoran el dominio del temario, la claridad y el rigor de la exposición y la expresión escrita. Se califica de 0 a 10 y hay que sacar al menos un 5."
+        },
+        {
+          "id": "tercer-ejercicio",
+          "icono": "📋",
+          "numero": 3,
+          "nombre": "Tercer ejercicio (supuestos prácticos)",
+          "formato": "Supuestos prácticos sobre las funciones de la plaza y el temario",
+          "duracion": "2 horas",
+          "opciones": "Escrito, oral o con las herramientas del puesto; con cualquier apoyo técnico del temario (sin soluciones de casos) y calculadora",
+          "detalle": "Se lee en sesión pública ante el tribunal, que valora la aplicación de los conocimientos a la resolución de los casos. Se califica de 0 a 10 y hay que sacar al menos un 5."
+        }
+      ],
+      "estado": "cerrada",
+      "plazo_fin": null
+    }
+  },
+  {
+    "fuente_id": "d20",
+    "oposicion": {
+      "slug": "corrector-dpz",
+      "nombre": "Corrector/a",
+      "puesto_slug": "corrector",
+      "descripcion_corta": "Oposición de Corrector/a de la Diputación Provincial de Zaragoza: plazas, requisitos, examen y temario oficial.",
+      "descripcion_larga": "Plaza de personal laboral fijo de la Diputación Provincial de Zaragoza (grupo III, nivel V). Requisitos: Certificado de haber cursado la ESO (Certificado de escolaridad) o equivalente. La convocatoria (BOPZ núm. 25, de 2 de febrero de 2026; OEP 2024) es de 1 plaza. El programa tiene 25 temas y la oposición, 2 ejercicios eliminatorios: un test de 60 preguntas y un ejercicio práctico."
+    },
+    "convocatoria": {
+      "oposicion_slug": "corrector-dpz",
+      "numero": "BOPZ 25/2026 (decreto núm. 110)",
+      "plaza": "Corrector/a — personal laboral fijo, grupo III, nivel V",
+      "fecha_decreto": "23 de enero de 2026",
+      "sistema_seleccion": "Oposición libre, con dos ejercicios eliminatorios",
+      "requisito_titulacion": "Certificado de haber cursado la ESO (Certificado de escolaridad) o equivalente.",
+      "plazo_instancias": "Del 16 de febrero de 2026 al 16 de marzo de 2026 (plazo ya cerrado). Tasa de 6,01 €, que se paga por ingreso bancario y se presenta con la solicitud.",
+      "duracion_maxima_proceso": "Las bases específicas no lo fijan; remiten a la base 7 de las bases generales de la DPZ (BOPZ núm. 71, de 29 de marzo de 2021).",
+      "orden_actuacion": "Por orden alfabético, empezando por la letra «U» (sorteo de la Administración del Estado de 2025).",
+      "plazas_total": 1,
+      "desglose_plazas": [
+        {
+          "turno": "Turno libre",
+          "cantidad": 1
+        }
+      ],
+      "enlaces_oficiales": [
+        {
+          "titulo": "Bases de la convocatoria (BOPZ núm. 25, 2 de febrero de 2026)",
+          "url": "https://dpz.es/wp-content/uploads/2026/04/Bases-especificas-en-tablon-anuncios-sede-electronica-26012026-BOPZ-no-25-de-2022026-BOE-no-40-de-14022026-.pdf"
+        },
+        {
+          "titulo": "Bases generales de los procesos de turno libre de la DPZ (BOPZ núm. 71, 29 de marzo de 2021)",
+          "url": "https://dpz.es/wp-content/uploads/2026/06/BOPZ-Bases-generales-4.pdf"
+        },
+        {
+          "titulo": "Página de la convocatoria en dpz.es (bases, listas y anuncios)",
+          "url": "https://dpz.es/corrector-a-oep-2024/"
+        }
+      ],
+      "pruebas": [
+        {
+          "id": "primer-ejercicio",
+          "icono": "📝",
+          "numero": 1,
+          "nombre": "Primer ejercicio (test)",
+          "formato": "Test sobre el temario",
+          "duracion": "75 minutos",
+          "opciones": "60 preguntas, 4 alternativas",
+          "detalle": "Con penalización: cada error resta un tercio de acierto (aciertos − errores/3). Se califica de 0 a 10 y hay que sacar al menos un 5."
+        },
+        {
+          "id": "segundo-ejercicio",
+          "icono": "🛠️",
+          "numero": 2,
+          "nombre": "Segundo ejercicio (práctico)",
+          "formato": "Uno o varios supuestos prácticos sobre las funciones de la plaza",
+          "duracion": "La fija el tribunal",
+          "opciones": "Escrito, oral o con los materiales y herramientas del puesto, según decida el tribunal",
+          "detalle": "Si es escrito, se lee en sesión pública ante el tribunal, que valora la aplicación de los conocimientos teóricos al caso. Se califica de 0 a 10 y hay que sacar al menos un 5."
+        }
+      ],
+      "estado": "cerrada",
+      "plazo_fin": null
+    }
+  },
+  {
+    "fuente_id": "d28",
+    "oposicion": {
+      "slug": "corrector-pruebas-ifc-dpz",
+      "nombre": "Corrector/a de Pruebas de la Institución Fernando el Católico",
+      "puesto_slug": "corrector-pruebas-ifc",
+      "descripcion_corta": "Oposición de Corrector/a de Pruebas de la Institución Fernando el Católico de la Diputación Provincial de Zaragoza: plazas, requisitos, examen y temario oficial.",
+      "descripcion_larga": "Plaza de personal laboral fijo de la Diputación Provincial de Zaragoza (grupo III, nivel V). Requisitos: Certificado de haber cursado la ESO (certificado de escolaridad) o equivalente. La convocatoria (BOPZ núm. 125, de 4 de junio de 2026; OEP 2023) es de 1 plaza. El programa tiene 25 temas y la oposición, 2 ejercicios eliminatorios: un test de 60 preguntas y un ejercicio práctico."
+    },
+    "convocatoria": {
+      "oposicion_slug": "corrector-pruebas-ifc-dpz",
+      "numero": "BOPZ 125/2026 (decreto núm. 2859)",
+      "plaza": "Corrector/a de Pruebas de la Institución Fernando el Católico — personal laboral fijo, grupo III, nivel V",
+      "fecha_decreto": "29 de septiembre de 2025",
+      "sistema_seleccion": "Oposición libre, con dos ejercicios eliminatorios",
+      "requisito_titulacion": "Certificado de haber cursado la ESO (certificado de escolaridad) o equivalente.",
+      "plazo_instancias": "Del 19 de junio de 2026 al 16 de julio de 2026 (plazo ya cerrado). Tasa de 6,01 €, que se paga por ingreso bancario y se presenta con la solicitud.",
+      "duracion_maxima_proceso": "Las bases específicas no lo fijan; remiten a la base 7 de las bases generales de la DPZ (BOPZ núm. 71, de 29 de marzo de 2021).",
+      "orden_actuacion": "Por orden alfabético, empezando por la letra «U» (sorteo de la Administración del Estado de 2025).",
+      "plazas_total": 1,
+      "desglose_plazas": [
+        {
+          "turno": "Turno libre",
+          "cantidad": 1
+        }
+      ],
+      "enlaces_oficiales": [
+        {
+          "titulo": "Bases de la convocatoria (BOPZ núm. 125, 4 de junio de 2026)",
+          "url": "https://dpz.es/wp-content/uploads/2026/07/BOPZ-125-de-4-de-junio.-Convocatoria-y-bases.pdf"
+        },
+        {
+          "titulo": "Bases generales de los procesos de turno libre de la DPZ (BOPZ núm. 71, 29 de marzo de 2021)",
+          "url": "https://dpz.es/wp-content/uploads/2026/06/BOPZ-Bases-generales-4.pdf"
+        },
+        {
+          "titulo": "Página de la convocatoria en dpz.es (bases, listas y anuncios)",
+          "url": "https://dpz.es/corrector-a-pruebas-ifc-oep-2023/"
+        }
+      ],
+      "pruebas": [
+        {
+          "id": "primer-ejercicio",
+          "icono": "📝",
+          "numero": 1,
+          "nombre": "Primer ejercicio (test)",
+          "formato": "Test sobre el temario",
+          "duracion": "75 minutos",
+          "opciones": "60 preguntas, 4 alternativas",
+          "detalle": "Con penalización: cada error resta un tercio de acierto (aciertos − errores/3). Se califica de 0 a 10 y hay que sacar al menos un 5."
+        },
+        {
+          "id": "segundo-ejercicio",
+          "icono": "🛠️",
+          "numero": 2,
+          "nombre": "Segundo ejercicio (práctico)",
+          "formato": "Uno o varios supuestos prácticos sobre las funciones de la plaza",
+          "duracion": "La fija el tribunal",
+          "opciones": "Escrito, oral o con los materiales y herramientas del puesto, según decida el tribunal",
+          "detalle": "Si es escrito, se lee en sesión pública ante el tribunal, que valora la aplicación de los conocimientos teóricos al caso. Se califica de 0 a 10 y hay que sacar al menos un 5."
+        }
+      ],
+      "estado": "cerrada",
+      "plazo_fin": null
+    }
+  },
+  {
+    "fuente_id": "d21",
+    "oposicion": {
+      "slug": "letrado-asesor-dpz",
+      "nombre": "Letrado/a Asesor/a",
+      "puesto_slug": "letrado-asesor",
+      "descripcion_corta": "Oposición de Letrado/a Asesor/a de la Diputación Provincial de Zaragoza: plazas, requisitos, examen y temario oficial.",
+      "descripcion_larga": "Plaza de funcionario/a de carrera de la Diputación Provincial de Zaragoza (grupo A, subgrupo A1, Escala de Administración Especial, Subescala Técnica, Técnico Superior). Requisitos: Título Universitario de Grado en Derecho o equivalente. La convocatoria (BOPZ núm. 52, de 6 de marzo de 2026; OEP 2023) es de 1 plaza. El programa tiene 264 temas (29 de Derecho Constitucional, 34 de Derecho Administrativo General, 37 de Derecho Administrativo Local, 18 de Hacienda Local, 15 de Derecho Laboral y Derecho Penal, 29 de Derecho Civil (primera parte), 27 de Derecho Civil (segunda parte), 25 de Derecho Procesal (primera parte), 18 de Derecho Procesal (segunda parte), 32 de Derecho Hipotecario y Derecho Mercantil) y la oposición, 3 ejercicios eliminatorios: dos exposiciones orales de cinco temas cada una y la redacción de un escrito judicial. La DPZ declaró desierta esta convocatoria (BOPZ núm. 243, de 21 de octubre de 2026)."
+    },
+    "convocatoria": {
+      "oposicion_slug": "letrado-asesor-dpz",
+      "numero": "BOPZ 52/2026",
+      "plaza": "Letrado/a Asesor/a — funcionario/a de carrera, grupo A, subgrupo A1 (Escala de Administración Especial, Subescala Técnica, Técnico Superior)",
+      "fecha_decreto": "6 de marzo de 2026",
+      "sistema_seleccion": "Oposición libre, con tres ejercicios eliminatorios",
+      "requisito_titulacion": "Título Universitario de Grado en Derecho o equivalente.",
+      "plazo_instancias": "Del 17 de marzo de 2026 al 15 de abril de 2026 (plazo ya cerrado). Tasa de 12,02 €, que se paga por ingreso bancario y se presenta con la solicitud.",
+      "duracion_maxima_proceso": "Las bases específicas no lo fijan; remiten a la base 7 de las bases generales de la DPZ (BOPZ núm. 71, de 29 de marzo de 2021).",
+      "orden_actuacion": "Por orden alfabético, empezando por la letra «U» (sorteo de la Administración del Estado de 2025).",
+      "plazas_total": 1,
+      "desglose_plazas": [
+        {
+          "turno": "Turno libre",
+          "cantidad": 1
+        }
+      ],
+      "enlaces_oficiales": [
+        {
+          "titulo": "Bases de la convocatoria (BOPZ núm. 52, 6 de marzo de 2026)",
+          "url": "https://dpz.es/wp-content/uploads/2026/04/Bases-especificas-en-tablon-anuncios-sede-electronica-DPZ-2032026-BOPZ-no-52-de-6032026-BOE-no-66-de-16032026-.pdf"
+        },
+        {
+          "titulo": "Bases generales de los procesos de turno libre de la DPZ (BOPZ núm. 71, 29 de marzo de 2021)",
+          "url": "https://dpz.es/wp-content/uploads/2026/06/BOPZ-Bases-generales-4.pdf"
+        },
+        {
+          "titulo": "Página de la convocatoria en dpz.es (bases, listas y anuncios)",
+          "url": "https://dpz.es/letrado-a-asesor-a-oep-2023-2/"
+        }
+      ],
+      "pruebas": [
+        {
+          "id": "primer-ejercicio",
+          "icono": "🎤",
+          "numero": 1,
+          "nombre": "Primer ejercicio (oral)",
+          "formato": "Exposición oral de cinco temas sacados a sorteo",
+          "duracion": "60 minutos (15 de preparación previa)",
+          "opciones": "Un tema de Derecho Civil (1.ª parte), Civil (2.ª parte), Procesal (1.ª parte), Procesal (2.ª parte) e Hipotecario y Mercantil",
+          "detalle": "En sesión pública; al menos diez minutos por tema. Si el tribunal no fija otros pesos, se valora el conocimiento (55 %), el orden (15 %), el razonamiento (15 %) y la claridad (15 %). Hay que exponer los cinco temas y sacar al menos un 5 sobre 10."
+        },
+        {
+          "id": "segundo-ejercicio",
+          "icono": "🎤",
+          "numero": 2,
+          "nombre": "Segundo ejercicio (oral)",
+          "formato": "Exposición oral de otros cinco temas sacados a sorteo",
+          "duracion": "60 minutos",
+          "opciones": "Un tema de Derecho Constitucional, Administrativo General, Administrativo Local, Hacienda Local, y Laboral y Penal",
+          "detalle": "Mismas reglas que el primero: sesión pública, todos los temas expuestos y al menos un 5 sobre 10."
+        },
+        {
+          "id": "tercer-ejercicio",
+          "icono": "⚖️",
+          "numero": 3,
+          "nombre": "Tercer ejercicio (escrito judicial)",
+          "formato": "Redacción de una actuación en un asunto judicial en que sea parte la Diputación",
+          "duracion": "5 horas",
+          "opciones": "Con textos legales y cualquier apoyo técnico relacionado con el temario",
+          "detalle": "El tema lo fija el tribunal antes de empezar. Se lee en sesión pública. Si el tribunal no fija otros pesos, se valora la solución (55 %), la argumentación (15 %), el razonamiento (15 %) y la claridad (15 %). Hay que sacar al menos un 5 sobre 10."
+        }
+      ],
+      "estado": "cerrada",
+      "plazo_fin": null
+    }
+  },
+  {
+    "fuente_id": "d22",
+    "oposicion": {
+      "slug": "archivero-dpz",
+      "nombre": "Archivero/a",
+      "puesto_slug": "archivero",
+      "descripcion_corta": "Oposición de Archivero/a de la Diputación Provincial de Zaragoza: plazas, requisitos, examen y temario oficial.",
+      "descripcion_larga": "Plaza de funcionario/a de carrera de la Diputación Provincial de Zaragoza (grupo A, subgrupo A1, Escala de Administración Especial, Subescala Técnica, Técnico Superior). Requisitos: Título Universitario de grado, licenciado o equivalente. La convocatoria (BOPZ núm. 64, de 20 de marzo de 2026; OEP 2023) es de 1 plaza. El programa tiene 113 temas (23 de la parte general, 90 de la parte específica) y la oposición, 3 ejercicios eliminatorios: un test de 100 preguntas, el desarrollo por escrito de cuatro temas y dos supuestos prácticos."
+    },
+    "convocatoria": {
+      "oposicion_slug": "archivero-dpz",
+      "numero": "BOPZ 64/2026 (decreto núm. 402)",
+      "plaza": "Archivero/a — funcionario/a de carrera, grupo A, subgrupo A1 (Escala de Administración Especial, Subescala Técnica, Técnico Superior)",
+      "fecha_decreto": "26 de febrero de 2026",
+      "sistema_seleccion": "Oposición libre, con tres ejercicios eliminatorios",
+      "requisito_titulacion": "Título Universitario de grado, licenciado o equivalente.",
+      "plazo_instancias": "Del 6 de abril de 2026 al 5 de mayo de 2026 (plazo ya cerrado). Tasa de 12,02 €, que se paga por ingreso bancario y se presenta con la solicitud.",
+      "duracion_maxima_proceso": "Las bases específicas no lo fijan; remiten a la base 7 de las bases generales de la DPZ (BOPZ núm. 71, de 29 de marzo de 2021).",
+      "orden_actuacion": "Por orden alfabético, empezando por la letra «U» (sorteo de la Administración del Estado de 2025).",
+      "plazas_total": 1,
+      "desglose_plazas": [
+        {
+          "turno": "Turno libre",
+          "cantidad": 1
+        }
+      ],
+      "enlaces_oficiales": [
+        {
+          "titulo": "Bases de la convocatoria (BOPZ núm. 64, 20 de marzo de 2026, edicto 1711)",
+          "url": "https://bop.dpz.es/BOPZ/UploadServlet?ruta=Boletines%5C2026%5C64%5CEdictos%5Cbop_1711_2026.pdf"
+        },
+        {
+          "titulo": "Bases generales de los procesos de turno libre de la DPZ (BOPZ núm. 71, 29 de marzo de 2021)",
+          "url": "https://dpz.es/wp-content/uploads/2026/06/BOPZ-Bases-generales-4.pdf"
+        },
+        {
+          "titulo": "Página de la convocatoria en dpz.es (bases, listas y anuncios)",
+          "url": "https://dpz.es/archivero-a-oep-2023/"
+        }
+      ],
+      "pruebas": [
+        {
+          "id": "primer-ejercicio",
+          "icono": "📝",
+          "numero": 1,
+          "nombre": "Primer ejercicio (test)",
+          "formato": "Test sobre el temario",
+          "duracion": "90 minutos",
+          "opciones": "100 preguntas, 4 alternativas",
+          "detalle": "Con penalización: cada error resta un tercio de acierto (aciertos − errores/3). Se califica de 0 a 10 y hay que sacar al menos un 5."
+        },
+        {
+          "id": "segundo-ejercicio",
+          "icono": "✍️",
+          "numero": 2,
+          "nombre": "Segundo ejercicio (desarrollo de temas)",
+          "formato": "Desarrollo por escrito de cuatro temas: uno de la parte general y tres de la específica",
+          "duracion": "4 horas",
+          "opciones": "Temas sacados a sorteo; hay que desarrollarlos todos",
+          "detalle": "Se lee en sesión pública ante el tribunal. Se valoran el dominio del temario, la claridad y el rigor de la exposición y la expresión escrita. Se califica de 0 a 10 y hay que sacar al menos un 5."
+        },
+        {
+          "id": "tercer-ejercicio",
+          "icono": "📋",
+          "numero": 3,
+          "nombre": "Tercer ejercicio (supuestos prácticos)",
+          "formato": "Supuestos prácticos sobre las funciones de la plaza y el temario",
+          "duracion": "3 horas",
+          "opciones": "Dos supuestos; se puede usar bibliografía en papel (sin soluciones de casos) y calculadora",
+          "detalle": "Se lee en sesión pública ante el tribunal, que valora la aplicación de los conocimientos a la resolución de los casos. Se califica de 0 a 10 y hay que sacar al menos un 5."
+        }
+      ],
+      "estado": "cerrada",
+      "plazo_fin": null
+    }
+  },
+  {
+    "fuente_id": "d24",
+    "oposicion": {
+      "slug": "conserje-plaza-toros-dpz",
+      "nombre": "Conserje de la Plaza de Toros",
+      "puesto_slug": "conserje-plaza-toros",
+      "descripcion_corta": "Oposición de Conserje de la Plaza de Toros de la Diputación Provincial de Zaragoza: plazas, requisitos, examen y temario oficial.",
+      "descripcion_larga": "Plaza de personal laboral fijo de la Diputación Provincial de Zaragoza (grupo III, nivel IV). Requisitos: Estar en posesión de graduado/a en ESO o equivalente. La convocatoria (BOPZ núm. 137, de 18 de junio de 2026; OEP 2024) es de 1 plaza. El programa tiene 20 temas (6 de la parte general, 14 de la parte específica) y la oposición, 2 ejercicios eliminatorios: un test de 60 preguntas y un ejercicio práctico."
+    },
+    "convocatoria": {
+      "oposicion_slug": "conserje-plaza-toros-dpz",
+      "numero": "BOPZ 137/2026 (decreto núm. 1719)",
+      "plaza": "Conserje de la Plaza de Toros — personal laboral fijo, grupo III, nivel IV",
+      "fecha_decreto": "10 de junio de 2026",
+      "sistema_seleccion": "Oposición libre, con dos ejercicios eliminatorios",
+      "requisito_titulacion": "Estar en posesión de graduado/a en ESO o equivalente.",
+      "plazo_instancias": "Del 9 de julio de 2026 al 5 de agosto de 2026 (plazo ya cerrado). Tasa de 6,01 €, que se paga por ingreso bancario y se presenta con la solicitud.",
+      "duracion_maxima_proceso": "Las bases específicas no lo fijan; remiten a la base 7 de las bases generales de la DPZ (BOPZ núm. 71, de 29 de marzo de 2021).",
+      "orden_actuacion": "Por orden alfabético, empezando por la letra «U» (sorteo de la Administración del Estado de 2025).",
+      "plazas_total": 1,
+      "desglose_plazas": [
+        {
+          "turno": "Turno libre",
+          "cantidad": 1
+        }
+      ],
+      "enlaces_oficiales": [
+        {
+          "titulo": "Bases de la convocatoria (BOPZ núm. 137, 18 de junio de 2026)",
+          "url": "https://dpz.es/wp-content/uploads/2026/07/8.-CONSERJE-PLAZA-DE-TOROS-OEP-20241-1.-Publicacion-BOPZ-137-de-18-de-junio.-Anuncio-convocatoria-con-bases-especificas.pdf"
+        },
+        {
+          "titulo": "Bases generales de los procesos de turno libre de la DPZ (BOPZ núm. 71, 29 de marzo de 2021)",
+          "url": "https://dpz.es/wp-content/uploads/2026/06/BOPZ-Bases-generales-4.pdf"
+        },
+        {
+          "titulo": "Página de la convocatoria en dpz.es (bases, listas y anuncios)",
+          "url": "https://dpz.es/conserje-plaza-de-toros-oep-2024-4/"
+        }
+      ],
+      "pruebas": [
+        {
+          "id": "primer-ejercicio",
+          "icono": "📝",
+          "numero": 1,
+          "nombre": "Primer ejercicio (test)",
+          "formato": "Test sobre el temario",
+          "duracion": "75 minutos",
+          "opciones": "60 preguntas, 4 alternativas",
+          "detalle": "Con penalización: cada error resta un tercio de acierto (aciertos − errores/3). Se califica de 0 a 10 y hay que sacar al menos un 5."
+        },
+        {
+          "id": "segundo-ejercicio",
+          "icono": "🛠️",
+          "numero": 2,
+          "nombre": "Segundo ejercicio (práctico)",
+          "formato": "Uno o varios supuestos prácticos sobre las funciones de la plaza",
+          "duracion": "La fija el tribunal",
+          "opciones": "Escrito, oral o con los materiales y herramientas del puesto, según decida el tribunal",
+          "detalle": "Si es escrito, se lee en sesión pública ante el tribunal, que valora la aplicación de los conocimientos teóricos al caso. Se califica de 0 a 10 y hay que sacar al menos un 5."
+        }
+      ],
+      "estado": "cerrada",
+      "plazo_fin": null
+    }
+  },
+  {
+    "fuente_id": "d26",
+    "oposicion": {
+      "slug": "oficial-ceramica-muel-dpz",
+      "nombre": "Oficial 1.ª del Taller Escuela de Cerámica de Muel",
+      "puesto_slug": "oficial-ceramica-muel",
+      "descripcion_corta": "Oposición de Oficial 1.ª del Taller Escuela de Cerámica de Muel de la Diputación Provincial de Zaragoza: plazas, requisitos, examen y temario oficial.",
+      "descripcion_larga": "Plaza de personal laboral fijo de la Diputación Provincial de Zaragoza (grupo IV, nivel VI). Requisitos: Certificado de haber cursado la ESO (certificado de escolaridad) o equivalente. Asimismo, deberá disponer del permiso de conducción de la clase B. La convocatoria (BOPZ núm. 143, de 25 de junio de 2026; OEP 2025) es de 1 plaza. El programa tiene 15 temas (5 de la parte general, 10 de la parte específica) y la oposición, 2 ejercicios eliminatorios: un test de 60 preguntas y un ejercicio práctico."
+    },
+    "convocatoria": {
+      "oposicion_slug": "oficial-ceramica-muel-dpz",
+      "numero": "BOPZ 143/2026 (decreto núm. 1820)",
+      "plaza": "Oficial 1.ª del Taller Escuela de Cerámica de Muel — personal laboral fijo, grupo IV, nivel VI",
+      "fecha_decreto": "18 de junio de 2026",
+      "sistema_seleccion": "Oposición libre, con dos ejercicios eliminatorios",
+      "requisito_titulacion": "Certificado de haber cursado la ESO (certificado de escolaridad) o equivalente. Asimismo, deberá disponer del permiso de conducción de la clase B.",
+      "plazo_instancias": "Del 10 de julio de 2026 al 6 de agosto de 2026 (plazo ya cerrado). Tasa de 6,01 €, que se paga por ingreso bancario y se presenta con la solicitud.",
+      "duracion_maxima_proceso": "Las bases específicas no lo fijan; remiten a la base 7 de las bases generales de la DPZ (BOPZ núm. 71, de 29 de marzo de 2021).",
+      "orden_actuacion": "Por orden alfabético, empezando por la letra «U» (sorteo de la Administración del Estado de 2025).",
+      "plazas_total": 1,
+      "desglose_plazas": [
+        {
+          "turno": "Turno libre",
+          "cantidad": 1
+        }
+      ],
+      "enlaces_oficiales": [
+        {
+          "titulo": "Bases de la convocatoria (BOPZ núm. 143, 25 de junio de 2026)",
+          "url": "https://dpz.es/wp-content/uploads/2026/07/BOPZ-no-143-de-25-de-junio.-Convocatoria-y-bases-especificas.pdf"
+        },
+        {
+          "titulo": "Bases generales de los procesos de turno libre de la DPZ (BOPZ núm. 71, 29 de marzo de 2021)",
+          "url": "https://dpz.es/wp-content/uploads/2026/06/BOPZ-Bases-generales-4.pdf"
+        },
+        {
+          "titulo": "Página de la convocatoria en dpz.es (bases, listas y anuncios)",
+          "url": "https://dpz.es/oficial-1a-taller-escuela-ceramica-de-muel-oep-2025-2/"
+        }
+      ],
+      "pruebas": [
+        {
+          "id": "primer-ejercicio",
+          "icono": "📝",
+          "numero": 1,
+          "nombre": "Primer ejercicio (test)",
+          "formato": "Test sobre el temario",
+          "duracion": "75 minutos",
+          "opciones": "60 preguntas, 4 alternativas",
+          "detalle": "Con penalización: cada error resta un tercio de acierto (aciertos − errores/3). Se califica de 0 a 10 y hay que sacar al menos un 5."
+        },
+        {
+          "id": "segundo-ejercicio",
+          "icono": "🛠️",
+          "numero": 2,
+          "nombre": "Segundo ejercicio (práctico)",
+          "formato": "Uno o varios supuestos prácticos sobre las funciones de la plaza",
+          "duracion": "La fija el tribunal",
+          "opciones": "Escrito, oral o con los materiales y herramientas del puesto, según decida el tribunal",
+          "detalle": "Si es escrito, se lee en sesión pública ante el tribunal, que valora la aplicación de los conocimientos teóricos al caso. Se califica de 0 a 10 y hay que sacar al menos un 5."
+        }
+      ],
+      "estado": "cerrada",
+      "plazo_fin": null
+    }
+  },
+  {
+    "fuente_id": "d27",
+    "oposicion": {
+      "slug": "alfarero-ceramista-muel-dpz",
+      "nombre": "Oficial 1.ª Alfarero/a Ceramista del Taller Escuela de Cerámica de Muel",
+      "puesto_slug": "alfarero-ceramista-muel",
+      "descripcion_corta": "Oposición de Oficial 1.ª Alfarero/a Ceramista del Taller Escuela de Cerámica de Muel de la Diputación Provincial de Zaragoza: plazas, requisitos, examen y temario oficial.",
+      "descripcion_larga": "Plaza de personal laboral fijo de la Diputación Provincial de Zaragoza (grupo IV, nivel VI). Requisitos: Certificado de haber cursado la ESO (certificado de escolaridad) o equivalente. La convocatoria (BOPZ núm. 143, de 25 de junio de 2026; OEP 2025) es de 1 plaza. El programa tiene 15 temas (5 de la parte general, 10 de la parte específica) y la oposición, 2 ejercicios eliminatorios: un test de 60 preguntas y un ejercicio práctico."
+    },
+    "convocatoria": {
+      "oposicion_slug": "alfarero-ceramista-muel-dpz",
+      "numero": "BOPZ 143/2026 (decreto núm. 1819)",
+      "plaza": "Oficial 1.ª Alfarero/a Ceramista del Taller Escuela de Cerámica de Muel — personal laboral fijo, grupo IV, nivel VI",
+      "fecha_decreto": "18 de junio de 2026",
+      "sistema_seleccion": "Oposición libre, con dos ejercicios eliminatorios",
+      "requisito_titulacion": "Certificado de haber cursado la ESO (certificado de escolaridad) o equivalente.",
+      "plazo_instancias": "Del 10 de julio de 2026 al 6 de agosto de 2026 (plazo ya cerrado). Tasa de 6,01 €, que se paga por ingreso bancario y se presenta con la solicitud.",
+      "duracion_maxima_proceso": "Las bases específicas no lo fijan; remiten a la base 7 de las bases generales de la DPZ (BOPZ núm. 71, de 29 de marzo de 2021).",
+      "orden_actuacion": "Por orden alfabético, empezando por la letra «U» (sorteo de la Administración del Estado de 2025).",
+      "plazas_total": 1,
+      "desglose_plazas": [
+        {
+          "turno": "Turno libre",
+          "cantidad": 1
+        }
+      ],
+      "enlaces_oficiales": [
+        {
+          "titulo": "Bases de la convocatoria (BOPZ núm. 143, 25 de junio de 2026)",
+          "url": "https://dpz.es/wp-content/uploads/2026/07/BOPZ-143.-Convocatoria-y-bases-especificas.pdf"
+        },
+        {
+          "titulo": "Bases generales de los procesos de turno libre de la DPZ (BOPZ núm. 71, 29 de marzo de 2021)",
+          "url": "https://dpz.es/wp-content/uploads/2026/06/BOPZ-Bases-generales-4.pdf"
+        },
+        {
+          "titulo": "Página de la convocatoria en dpz.es (bases, listas y anuncios)",
+          "url": "https://dpz.es/ofical-1a-alfarero-a-ceramista-taller-escuela-ceramica-de-muel-oep-2025/"
+        }
+      ],
+      "pruebas": [
+        {
+          "id": "primer-ejercicio",
+          "icono": "📝",
+          "numero": 1,
+          "nombre": "Primer ejercicio (test)",
+          "formato": "Test sobre el temario",
+          "duracion": "75 minutos",
+          "opciones": "60 preguntas, 4 alternativas",
+          "detalle": "Con penalización: cada error resta un tercio de acierto (aciertos − errores/3). Se califica de 0 a 10 y hay que sacar al menos un 5."
+        },
+        {
+          "id": "segundo-ejercicio",
+          "icono": "🛠️",
+          "numero": 2,
+          "nombre": "Segundo ejercicio (práctico)",
+          "formato": "Uno o varios supuestos prácticos sobre las funciones de la plaza",
+          "duracion": "La fija el tribunal",
+          "opciones": "Escrito, oral o con los materiales y herramientas del puesto, según decida el tribunal",
+          "detalle": "Si es escrito, se lee en sesión pública ante el tribunal, que valora la aplicación de los conocimientos teóricos al caso. Se califica de 0 a 10 y hay que sacar al menos un 5."
+        }
+      ],
+      "estado": "cerrada",
+      "plazo_fin": null
+    }
+  },
+  {
+    "fuente_id": "d30",
+    "oposicion": {
+      "slug": "oficial-segunda-ceramica-muel-dpz",
+      "nombre": "Oficial 2.ª del Taller Escuela de Cerámica de Muel",
+      "puesto_slug": "oficial-segunda-ceramica-muel",
+      "descripcion_corta": "Oposición de Oficial 2.ª del Taller Escuela de Cerámica de Muel de la Diputación Provincial de Zaragoza: plazas, requisitos, examen y temario oficial.",
+      "descripcion_larga": "Plazas de personal laboral fijo de la Diputación Provincial de Zaragoza (grupo IV, nivel VI). Requisitos: Certificado de haber cursado la ESO (Certificado de Escolaridad) o equivalente, a la fecha en que termine el plazo de presentación de instancias. La convocatoria (BOPZ núm. 153, de 7 de julio de 2026; OEP 2025) es de 3 plazas. El programa tiene 15 temas (5 de la parte general, 10 de la parte específica) y la oposición, 2 ejercicios eliminatorios: un test de 60 preguntas y un ejercicio práctico. Hay otra plaza de Oficial 2.ª del Taller de Muel en un proceso anterior (OEP 2024, BOPZ 52 de 6-03-2026)."
+    },
+    "convocatoria": {
+      "oposicion_slug": "oficial-segunda-ceramica-muel-dpz",
+      "numero": "BOPZ 153/2026 (decreto núm. 1949)",
+      "plaza": "Oficial 2.ª del Taller Escuela de Cerámica de Muel — personal laboral fijo, grupo IV, nivel VI",
+      "fecha_decreto": "30 de junio de 2026",
+      "sistema_seleccion": "Oposición libre, con dos ejercicios eliminatorios",
+      "requisito_titulacion": "Certificado de haber cursado la ESO (Certificado de Escolaridad) o equivalente, a la fecha en que termine el plazo de presentación de instancias.",
+      "plazo_instancias": "Del 22 de julio de 2026 al 18 de agosto de 2026 (plazo ya cerrado). Tasa de 6,01 €, que se paga por ingreso bancario y se presenta con la solicitud.",
+      "duracion_maxima_proceso": "Las bases específicas no lo fijan; remiten a la base 7 de las bases generales de la DPZ (BOPZ núm. 71, de 29 de marzo de 2021).",
+      "orden_actuacion": "Por orden alfabético, empezando por la letra «U» (sorteo de la Administración del Estado de 2025).",
+      "plazas_total": 3,
+      "desglose_plazas": [
+        {
+          "turno": "Turno libre",
+          "cantidad": 3
+        }
+      ],
+      "enlaces_oficiales": [
+        {
+          "titulo": "Bases de la convocatoria (BOPZ núm. 153, 7 de julio de 2026)",
+          "url": "https://dpz.es/wp-content/uploads/2026/07/BOPZ-no-153-de-7-de-julio-de-2026.-Convocatoria-y-bases.pdf"
+        },
+        {
+          "titulo": "Bases generales de los procesos de turno libre de la DPZ (BOPZ núm. 71, 29 de marzo de 2021)",
+          "url": "https://dpz.es/wp-content/uploads/2026/06/BOPZ-Bases-generales-4.pdf"
+        },
+        {
+          "titulo": "Página de la convocatoria en dpz.es (bases, listas y anuncios)",
+          "url": "https://dpz.es/oficial-2a-taller-escuela-ceramica-de-muel-oep-2025-2/"
+        },
+        {
+          "titulo": "Convocatoria relacionada: Oficial 2ª Taller Escuela Cerámica de Muel (OEP 2024)",
+          "url": "https://dpz.es/oficial-2a-taller-escuela-ceramica-de-muel-oep-2024-2/"
+        }
+      ],
+      "pruebas": [
+        {
+          "id": "primer-ejercicio",
+          "icono": "📝",
+          "numero": 1,
+          "nombre": "Primer ejercicio (test)",
+          "formato": "Test sobre el temario",
+          "duracion": "75 minutos",
+          "opciones": "60 preguntas, 4 alternativas",
+          "detalle": "Con penalización: cada error resta un tercio de acierto (aciertos − errores/3). Se califica de 0 a 10 y hay que sacar al menos un 5."
+        },
+        {
+          "id": "segundo-ejercicio",
+          "icono": "🛠️",
+          "numero": 2,
+          "nombre": "Segundo ejercicio (práctico)",
+          "formato": "Uno o varios supuestos prácticos sobre las funciones de la plaza",
+          "duracion": "La fija el tribunal",
+          "opciones": "Escrito, oral o con los materiales y herramientas del puesto, según decida el tribunal",
+          "detalle": "Si es escrito, se lee en sesión pública ante el tribunal, que valora la aplicación de los conocimientos teóricos al caso. Se califica de 0 a 10 y hay que sacar al menos un 5."
+        }
+      ],
+      "estado": "cerrada",
+      "plazo_fin": null
+    }
+  },
+  {
+    "fuente_id": "d31",
+    "oposicion": {
+      "slug": "tecnico-medio-gestion-rrhh-dpz",
+      "nombre": "Técnico/a Medio/a de Gestión de Recursos Humanos",
+      "puesto_slug": "tecnico-medio-gestion-rrhh",
+      "descripcion_corta": "Oposición de Técnico/a Medio/a de Gestión de Recursos Humanos de la Diputación Provincial de Zaragoza: plazas, requisitos, examen y temario oficial.",
+      "descripcion_larga": "Plaza de funcionario/a de carrera de la Diputación Provincial de Zaragoza (grupo A, subgrupo A2, Escala de Administración Especial, Subescala Técnica, Técnico Medio). Requisitos: Titulo de Grado Universitario, Diplomatura Universitaria ó Equivalente a la fecha en que termine el plazo de presentación de instancias. La convocatoria (BOPZ núm. 167, de 23 de julio de 2026; OEP 2023) es de 1 plaza. El programa tiene 60 temas (12 de la parte general, 20 de la parte específica. Primera: Derecho del Trabajo, 28 de la parte específica. Segunda: Seguridad Social) y la oposición, 3 ejercicios eliminatorios: un test de 100 preguntas, el desarrollo por escrito de tres temas y uno o varios supuestos prácticos."
+    },
+    "convocatoria": {
+      "oposicion_slug": "tecnico-medio-gestion-rrhh-dpz",
+      "numero": "BOPZ 167/2026 (decreto núm. 1944)",
+      "plaza": "Técnico/a Medio/a de Gestión de Recursos Humanos — funcionario/a de carrera, grupo A, subgrupo A2 (Escala de Administración Especial, Subescala Técnica, Técnico Medio)",
+      "fecha_decreto": "30 de junio de 2026",
+      "sistema_seleccion": "Oposición libre, con tres ejercicios eliminatorios",
+      "requisito_titulacion": "Titulo de Grado Universitario, Diplomatura Universitaria ó Equivalente a la fecha en que termine el plazo de presentación de instancias.",
+      "plazo_instancias": "Del 7 de septiembre de 2026 al 2 de octubre de 2026 (plazo ya cerrado). Tasa de 9,02 €, que se paga por ingreso bancario y se presenta con la solicitud.",
+      "duracion_maxima_proceso": "Las bases específicas no lo fijan; remiten a la base 7 de las bases generales de la DPZ (BOPZ núm. 71, de 29 de marzo de 2021).",
+      "orden_actuacion": "Por orden alfabético, empezando por la letra «U» (sorteo de la Administración del Estado de 2025).",
+      "plazas_total": 1,
+      "desglose_plazas": [
+        {
+          "turno": "Turno libre",
+          "cantidad": 1
+        }
+      ],
+      "enlaces_oficiales": [
+        {
+          "titulo": "Bases de la convocatoria (BOPZ núm. 167, 23 de julio de 2026)",
+          "url": "https://dpz.es/wp-content/uploads/2026/08/bop_5038_2026.pdf"
+        },
+        {
+          "titulo": "Bases generales de los procesos de turno libre de la DPZ (BOPZ núm. 71, 29 de marzo de 2021)",
+          "url": "https://dpz.es/wp-content/uploads/2026/06/BOPZ-Bases-generales-4.pdf"
+        },
+        {
+          "titulo": "Página de la convocatoria en dpz.es (bases, listas y anuncios)",
+          "url": "https://dpz.es/tecnico-a-medio-a-de-gestion-oep-2023/"
+        }
+      ],
+      "pruebas": [
+        {
+          "id": "primer-ejercicio",
+          "icono": "📝",
+          "numero": 1,
+          "nombre": "Primer ejercicio (test)",
+          "formato": "Test sobre el temario",
+          "duracion": "90 minutos",
+          "opciones": "100 preguntas, 4 alternativas",
+          "detalle": "Con penalización: cada error resta un tercio de acierto (aciertos − errores/3). Se califica de 0 a 10 y hay que sacar al menos un 5."
+        },
+        {
+          "id": "segundo-ejercicio",
+          "icono": "✍️",
+          "numero": 2,
+          "nombre": "Segundo ejercicio (desarrollo de temas)",
+          "formato": "Desarrollo por escrito de tres temas de la parte específica: uno de Derecho del Trabajo y dos de Seguridad Social",
+          "duracion": "3 horas",
+          "opciones": "Temas sacados a sorteo; hay que desarrollarlos todos",
+          "detalle": "Se lee en sesión pública ante el tribunal. Se valoran el dominio del temario, la claridad y el rigor de la exposición y la expresión escrita. Se califica de 0 a 10 y hay que sacar al menos un 5."
+        },
+        {
+          "id": "tercer-ejercicio",
+          "icono": "📋",
+          "numero": 3,
+          "nombre": "Tercer ejercicio (supuestos prácticos)",
+          "formato": "Supuestos prácticos sobre las funciones de la plaza y el temario",
+          "duracion": "2 horas",
+          "opciones": "Uno o varios supuestos; se pueden usar textos legales y calculadora (sin soluciones de casos)",
+          "detalle": "Se lee en sesión pública ante el tribunal, que valora la aplicación de los conocimientos a la resolución de los casos. Se califica de 0 a 10 y hay que sacar al menos un 5."
+        }
+      ],
+      "estado": "cerrada",
+      "plazo_fin": null
+    }
+  },
+  {
+    "fuente_id": "d32",
+    "oposicion": {
+      "slug": "oficial-maquinista-infraestructura-rural-dpz",
+      "nombre": "Oficial 1.ª Maquinista de Infraestructura Rural",
+      "puesto_slug": "oficial-maquinista-infraestructura-rural",
+      "descripcion_corta": "Oposición de Oficial 1.ª Maquinista de Infraestructura Rural de la Diputación Provincial de Zaragoza: plazas, requisitos, examen y temario oficial.",
+      "descripcion_larga": "Plazas de personal laboral fijo de la Diputación Provincial de Zaragoza (grupo IV, nivel VI). Requisitos: Certificado de haber cursado la ESO (Certificado de escolaridad) o equivalente. Permiso de conducción de la clase C+E. La convocatoria (BOPZ núm. 173, de 30 de julio de 2026; OEP 2023) es de 3 plazas. El programa tiene 15 temas y la oposición, 2 ejercicios eliminatorios: un test de 60 preguntas y un ejercicio práctico."
+    },
+    "convocatoria": {
+      "oposicion_slug": "oficial-maquinista-infraestructura-rural-dpz",
+      "numero": "BOPZ 173/2026 (decreto núm. 179)",
+      "plaza": "Oficial 1.ª Maquinista de Infraestructura Rural — personal laboral fijo, grupo IV, nivel VI",
+      "fecha_decreto": "3 de febrero de 2026",
+      "sistema_seleccion": "Oposición libre, con dos ejercicios eliminatorios",
+      "requisito_titulacion": "Certificado de haber cursado la ESO (Certificado de escolaridad) o equivalente. Permiso de conducción de la clase C+E.",
+      "plazo_instancias": "Del 9 de septiembre de 2026 al 6 de octubre de 2026 (plazo ya cerrado). Tasa de 6,01 €, que se paga por ingreso bancario y se presenta con la solicitud.",
+      "duracion_maxima_proceso": "Las bases específicas no lo fijan; remiten a la base 7 de las bases generales de la DPZ (BOPZ núm. 71, de 29 de marzo de 2021).",
+      "orden_actuacion": "Por orden alfabético, empezando por la letra «U» (sorteo de la Administración del Estado de 2025).",
+      "plazas_total": 3,
+      "desglose_plazas": [
+        {
+          "turno": "Turno libre",
+          "cantidad": 3
+        }
+      ],
+      "enlaces_oficiales": [
+        {
+          "titulo": "Bases de la convocatoria (BOPZ núm. 173, 30 de julio de 2026)",
+          "url": "https://dpz.es/wp-content/uploads/2026/09/BOPZ-173-Bases-especificas.pdf"
+        },
+        {
+          "titulo": "Bases generales de los procesos de turno libre de la DPZ (BOPZ núm. 71, 29 de marzo de 2021)",
+          "url": "https://dpz.es/wp-content/uploads/2026/06/BOPZ-Bases-generales-4.pdf"
+        },
+        {
+          "titulo": "Página de la convocatoria en dpz.es (bases, listas y anuncios)",
+          "url": "https://dpz.es/oficial-1a-maquinista-infraestructura-rural/"
+        }
+      ],
+      "pruebas": [
+        {
+          "id": "primer-ejercicio",
+          "icono": "📝",
+          "numero": 1,
+          "nombre": "Primer ejercicio (test)",
+          "formato": "Test sobre el temario",
+          "duracion": "75 minutos",
+          "opciones": "60 preguntas, 4 alternativas",
+          "detalle": "Con penalización: cada error resta un tercio de acierto (aciertos − errores/3). Se califica de 0 a 10 y hay que sacar al menos un 5."
+        },
+        {
+          "id": "segundo-ejercicio",
+          "icono": "🛠️",
+          "numero": 2,
+          "nombre": "Segundo ejercicio (práctico)",
+          "formato": "Uno o varios supuestos prácticos sobre las funciones de la plaza",
+          "duracion": "La fija el tribunal",
+          "opciones": "Escrito, oral o con los materiales y herramientas del puesto, según decida el tribunal",
+          "detalle": "Si es escrito, se lee en sesión pública ante el tribunal, que valora la aplicación de los conocimientos teóricos al caso. Se califica de 0 a 10 y hay que sacar al menos un 5."
+        }
+      ],
+      "estado": "cerrada",
+      "plazo_fin": null
+    }
+  },
+  {
+    "fuente_id": "d33",
+    "oposicion": {
+      "slug": "tecnico-informatica-dpz",
+      "nombre": "Técnico/a de Informática",
+      "puesto_slug": "tecnico-informatica",
+      "descripcion_corta": "Oposición de Técnico/a de Informática de la Diputación Provincial de Zaragoza: plazas, requisitos, examen y temario oficial.",
+      "descripcion_larga": "Plaza de personal laboral fijo de la Diputación Provincial de Zaragoza (grupo III, nivel III). Requisitos: Bachiller/ Ciclo formativo grado medio o equivalente. La convocatoria (BOPZ núm. 173, de 30 de julio de 2026; OEP 2023) es de 1 plaza. El programa tiene 40 temas y la oposición, 2 ejercicios eliminatorios: un test de 60 preguntas y un ejercicio práctico."
+    },
+    "convocatoria": {
+      "oposicion_slug": "tecnico-informatica-dpz",
+      "numero": "BOPZ 173/2026 (decreto núm. 697)",
+      "plaza": "Técnico/a de Informática — personal laboral fijo, grupo III, nivel III",
+      "fecha_decreto": "25 de marzo de 2026",
+      "sistema_seleccion": "Oposición libre, con dos ejercicios eliminatorios",
+      "requisito_titulacion": "Bachiller/ Ciclo formativo grado medio o equivalente.",
+      "plazo_instancias": "Del 9 de septiembre de 2026 al 6 de octubre de 2026 (plazo ya cerrado). Tasa de 6,01 €, que se paga por ingreso bancario y se presenta con la solicitud.",
+      "duracion_maxima_proceso": "Las bases específicas no lo fijan; remiten a la base 7 de las bases generales de la DPZ (BOPZ núm. 71, de 29 de marzo de 2021).",
+      "orden_actuacion": "Por orden alfabético, empezando por la letra «U» (sorteo de la Administración del Estado de 2025).",
+      "plazas_total": 1,
+      "desglose_plazas": [
+        {
+          "turno": "Turno libre",
+          "cantidad": 1
+        }
+      ],
+      "enlaces_oficiales": [
+        {
+          "titulo": "Bases de la convocatoria (BOPZ núm. 173, 30 de julio de 2026)",
+          "url": "https://dpz.es/wp-content/uploads/2026/09/BOPZ-173.-Convocatoria-y-bases.pdf"
+        },
+        {
+          "titulo": "Bases generales de los procesos de turno libre de la DPZ (BOPZ núm. 71, 29 de marzo de 2021)",
+          "url": "https://dpz.es/wp-content/uploads/2026/06/BOPZ-Bases-generales-4.pdf"
+        },
+        {
+          "titulo": "Página de la convocatoria en dpz.es (bases, listas y anuncios)",
+          "url": "https://dpz.es/tecnico-de-informatica/"
+        }
+      ],
+      "pruebas": [
+        {
+          "id": "primer-ejercicio",
+          "icono": "📝",
+          "numero": 1,
+          "nombre": "Primer ejercicio (test)",
+          "formato": "Test sobre el temario",
+          "duracion": "75 minutos",
+          "opciones": "60 preguntas, 4 alternativas",
+          "detalle": "Con penalización: cada error resta un tercio de acierto (aciertos − errores/3). Se califica de 0 a 10 y hay que sacar al menos un 5."
+        },
+        {
+          "id": "segundo-ejercicio",
+          "icono": "🛠️",
+          "numero": 2,
+          "nombre": "Segundo ejercicio (práctico)",
+          "formato": "Uno o varios supuestos prácticos sobre las funciones de la plaza",
+          "duracion": "La fija el tribunal",
+          "opciones": "Escrito, oral o con los materiales y herramientas del puesto, según decida el tribunal",
+          "detalle": "Si es escrito, se lee en sesión pública ante el tribunal, que valora la aplicación de los conocimientos teóricos al caso. Se califica de 0 a 10 y hay que sacar al menos un 5."
+        }
+      ],
+      "estado": "cerrada",
+      "plazo_fin": null
+    }
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "bloque": "Parte general",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "La Constitución Española de 1978. Derechos y deberes fundamentales de los españoles."
+      },
+      {
+        "numero": 2,
+        "titulo": "Organización y funcionamiento de la Diputación Provincial de Zaragoza."
+      },
+      {
+        "numero": 3,
+        "titulo": "Ley de prevención de riesgos. Riesgos y medidas preventivas en la oficina y uso de PVD."
+      },
+      {
+        "numero": 4,
+        "titulo": "La igualdad de oportunidades entre hombres y mujeres: marco jurídico: Ley Orgánica 3/2007, de 22 de marzo, para la igualdad entre mujeres y hombres."
+      },
+      {
+        "numero": 5,
+        "titulo": "La transparencia en la Administración Pública. Legislación básica estatal y autonómica aragonesa en la materia."
+      },
+      {
+        "numero": 6,
+        "titulo": "Protección de datos de carácter personal: objeto y ámbito de aplicación. Principios de protección de datos. Derechos de las personas."
+      }
+    ]
+  },
+  {
+    "bloque": "Parte específica",
+    "temas": [
+      {
+        "numero": 7,
+        "titulo": "Impresión Offset. Fundamentos. Proceso de realización. Fases. Exposición. Procesado. Tipos de formas. Conservación."
+      },
+      {
+        "numero": 8,
+        "titulo": "Las máquinas de impresión Offset. Clases y características. Cuerpo impresor. Aparato marcador. Batería de mojado. Batería de entintado. Sistema de sujeción de la plancha. Elementos. Sistemas de seguridad. Mantenimiento. Preparación de la máquina de offset previa a la tirada."
+      },
+      {
+        "numero": 9,
+        "titulo": "Procesos de impresión en Offset. Fases. El taller de impresión offset. Preparación de las materias primas a utilizar en una tirada de offset. Defectos."
+      },
+      {
+        "numero": 10,
+        "titulo": "Mantillas Offset. Constitución interna. Tipos. Características. Colocación en máquina. Limpieza. Problemas, causas y soluciones."
+      },
+      {
+        "numero": 11,
+        "titulo": "El mojado. Composición. Control. Sistemas de mojado. Preparación. Problemática medioambiental y soluciones disponibles para su gestión."
+      },
+      {
+        "numero": 12,
+        "titulo": "Desarrollo de la tirada Offset. Secuencia de impresión de colores. Control de color y de densidades de impresión. Impresión de la retiración. Control del registro. Velocidades. Pliego de conformidad. Apilado. Influencia de las condiciones ambientales. Tiras de control. Defectos. Mantenimiento y limpieza después de la tirada."
+      },
+      {
+        "numero": 13,
+        "titulo": "Soportes de impresión. Concepto de soporte de impresión. Características técnicas de los soportes de impresión. Clasificación. Propiedades."
+      },
+      {
+        "numero": 14,
+        "titulo": "El soporte impreso. Papel. Procesos de manipulado del papel. Parámetros: Alimentación. Dosificación. Temperatura. Gramaje. Resistencia. Maquinaria específica utilizada en el manipulado del papel, descripción y relación con el producto final. Control de calidad del manipulado de papel. Pautas."
+      },
+      {
+        "numero": 15,
+        "titulo": "La tinta. Tintas de artes gráficas. Composición. Tipos. Clasificación según el sistema de impresión. Propiedades. Mezcla de tintas. Cartas de color. Aditivos."
+      },
+      {
+        "numero": 16,
+        "titulo": "Impresión digital. Preparación de la máquina, montajes, preparación del trabajo."
+      },
+      {
+        "numero": 17,
+        "titulo": "Corte o guillotinado. Elementos de la guillotina. Tipos de soportes aceptables. Procedimiento seguro de trabajo en guillotinas."
+      },
+      {
+        "numero": 18,
+        "titulo": "Encuadernación. Tipos de encuadernación, preparación de máquina, confección de trabajos."
+      },
+      {
+        "numero": 19,
+        "titulo": "Planes de prevención y seguridad en la empresa gráfica. Normativa. Identificación de riesgos laborales en el sector gráfico. Planificación de la acción preventiva."
+      },
+      {
+        "numero": 20,
+        "titulo": "Sistemas de gestión y protección medioambiental en la industria gráfica. Normativa. Identificación de factores de impacto medioambiental en las diferentes áreas funcionales de la empresa gráfica."
+      }
+    ]
+  }
+]

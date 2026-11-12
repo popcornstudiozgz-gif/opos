@@ -1,0 +1,67 @@
+[
+  {
+    "bloque": "Temario",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "La Constitución española de 1978. Derechos y deberes fundamentales de los españoles."
+      },
+      {
+        "numero": 2,
+        "titulo": "Organización y funcionamiento de la Excma. Diputación Provincial de Zaragoza. Servicio de Recursos Agrarios, Vías e Infraestructuras: competencias en materia de carreteras y obras."
+      },
+      {
+        "numero": 3,
+        "titulo": "Maquinaria de obras públicas y equipos. Tipos y características. Organización de las obras. Utilización de la maquinaria de obras públicas para el desarrollo de los trabajos e infraestructura en el medio rural."
+      },
+      {
+        "numero": 4,
+        "titulo": "Mecánica básica de la maquinaria de obras públicas y su mantenimiento."
+      },
+      {
+        "numero": 5,
+        "titulo": "Los caminos rurales. Mediciones. Maquinaria utilizada."
+      },
+      {
+        "numero": 6,
+        "titulo": "Movimiento de tierras. Mediciones. Maquinaria utilizada."
+      },
+      {
+        "numero": 7,
+        "titulo": "Materiales de construcción utilizados en las obras de infraestructura rural, tipos, composición, aplicaciones, etc."
+      },
+      {
+        "numero": 8,
+        "titulo": "Drenajes: tipos, construcción y aplicaciones en obras de infraestructura rural."
+      },
+      {
+        "numero": 9,
+        "titulo": "Replanteos. Objeto. Replanteo de puntos, de alineación rectas y curvas."
+      },
+      {
+        "numero": 10,
+        "titulo": "Perfil longitudinal y perfiles transversales. Desmontes y terraplenes. Cubicación. Partes de un proyecto."
+      },
+      {
+        "numero": 11,
+        "titulo": "Medida de distancias. Trazado de alineaciones rectas y de perpendiculares. Ángulos. Instrumentos utilizados."
+      },
+      {
+        "numero": 12,
+        "titulo": "Ley de prevención de riesgos. Riesgos y medidas preventivas en obra civil."
+      },
+      {
+        "numero": 13,
+        "titulo": "La igualdad y la no discriminación por razón de sexo en la Constitución. La Ley Orgánica 3/2007, de 22 de marzo, para la igualdad entre mujeres y hombres."
+      },
+      {
+        "numero": 14,
+        "titulo": "La transparencia en la Administración Pública. Legislación básica estatal y autonómica aragonesa en la materia."
+      },
+      {
+        "numero": 15,
+        "titulo": "Protección de datos de carácter personal: objeto y ámbito de aplicación. Principios de protección de datos. Derechos de las personas."
+      }
+    ]
+  }
+]

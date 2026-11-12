@@ -1,0 +1,92 @@
+[
+  {
+    "bloque": "Parte general",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "La Constitución española de 1978. Derechos y deberes fundamentales de los españoles."
+      },
+      {
+        "numero": 2,
+        "titulo": "La Provincia: organización."
+      },
+      {
+        "numero": 3,
+        "titulo": "Ley de prevención de riesgos laborales."
+      },
+      {
+        "numero": 4,
+        "titulo": "La igualdad de oportunidades entre hombres y mujeres: marco jurídico: Ley Orgánica 3/2007, de 22 de marzo, para la igualdad entre mujeres y hombres."
+      },
+      {
+        "numero": 5,
+        "titulo": "La transparencia en la Administración Pública. Legislación básica estatal y autonómica aragonesa en la materia."
+      },
+      {
+        "numero": 6,
+        "titulo": "Protección de datos de carácter personal: objeto y ámbito de aplicación. Principios de protección de datos. Derechos de las personas."
+      }
+    ]
+  },
+  {
+    "bloque": "Parte específica",
+    "temas": [
+      {
+        "numero": 7,
+        "titulo": "Organización y funcionamiento de la Diputación Provincial de Zaragoza."
+      },
+      {
+        "numero": 8,
+        "titulo": "El Área de Gestión de Servicios y Desarrollo Municipal."
+      },
+      {
+        "numero": 9,
+        "titulo": "El Convenio Colectivo de la Diputación de Zaragoza."
+      },
+      {
+        "numero": 10,
+        "titulo": "La Plaza de Toros de Zaragoza: Historia."
+      },
+      {
+        "numero": 11,
+        "titulo": "La Plaza de Toros de Zaragoza: Características."
+      },
+      {
+        "numero": 12,
+        "titulo": "La Plaza de Toros de Zaragoza: Instalaciones y mantenimiento."
+      },
+      {
+        "numero": 13,
+        "titulo": "El sistema eléctrico de la Plaza de Toros."
+      },
+      {
+        "numero": 14,
+        "titulo": "Instalaciones contra incendios."
+      },
+      {
+        "numero": 15,
+        "titulo": "Reglamento de espectáculos taurinos de la Comunidad Autónoma de Aragón: objeto y nociones básicas."
+      },
+      {
+        "numero": 16,
+        "titulo": "Decreto 71/2023, de 17 de mayo, del Gobierno Aragón, por el que se modifica el Reglamento de festejos taurinos populares."
+      },
+      {
+        "numero": 17,
+        "titulo": "Seguridad y acceso al inmueble."
+      },
+      {
+        "numero": 18,
+        "titulo": "Autoridades provinciales y municipales (I): Su tratamiento. Trato y cortesía con el público."
+      },
+      {
+        "numero": 19,
+        "titulo": "Autoridades provinciales y municipales (II): Comportamiento con los miembros corporativos, Jefes y Funcionarios de la Corporación."
+      },
+      {
+        "numero": 20,
+        "titulo": "Ideas generales sobre protocolo, honores y distinciones de las Corporaciones Locales. Normas legales mas importantes."
+      }
+    ]
+  }
+]

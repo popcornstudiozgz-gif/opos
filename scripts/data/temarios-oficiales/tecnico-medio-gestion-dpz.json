@@ -1,0 +1,257 @@
+[
+  {
+    "bloque": "Parte primera: Derecho Constitucional y Autonómico",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "La Constitución Española de 1978 (I): Antecedentes. Estructura. Características generales. Principios que informan la Constitución. Título Preliminar de la Constitución. La Reforma constitucional."
+      },
+      {
+        "numero": 2,
+        "titulo": "La Constitución Española de 1978 (II): Los derechos fundamentales y las libertades públicas en la Constitución. Garantías y tutela. Suspensión."
+      },
+      {
+        "numero": 3,
+        "titulo": "La Monarquía. Teoría General. La Corona en la Constitución Española."
+      },
+      {
+        "numero": 4,
+        "titulo": "El Poder Legislativo. Teoría general. Las Cortes Generales."
+      },
+      {
+        "numero": 5,
+        "titulo": "El Gobierno. Relaciones entre el Gobierno y el poder legislativo."
+      },
+      {
+        "numero": 6,
+        "titulo": "La Administración General del Estado: organización administrativa. Los Ministerios: estructura. Los órganos territoriales: Competencias. Estructura de las Delegaciones del Gobierno."
+      },
+      {
+        "numero": 7,
+        "titulo": "La Administración Local en la Constitución: El principio de autonomía local. La Carta Europea de Autonomía Local."
+      },
+      {
+        "numero": 8,
+        "titulo": "El Poder judicial. La regulación constitucional de la Justicia. Organización Judicial: órdenes jurisdiccionales. Clases de órganos jurisdiccionales y sus funciones. Conflictos de jurisdicción y de competencia. El Consejo General del Poder Judicial: Composición y funciones. El Ministerio Fiscal."
+      },
+      {
+        "numero": 9,
+        "titulo": "El Tribunal Constitucional. Naturaleza, composición y competencias. El Defensor del Pueblo. El Tribunal de Cuentas."
+      },
+      {
+        "numero": 10,
+        "titulo": "La organización territorial del Estado. Las Comunidades Autónomas. Formas de acceso a la autonomía en la Constitución Española. Los Estatutos de Autonomía: Su significado. En particular el Estatuto de Autonomía de Aragón: Características. Estructura. Proceso de elaboración y reforma."
+      },
+      {
+        "numero": 11,
+        "titulo": "La Comunidad Autónoma de Aragón. Competencias: potestad legislativa, potestad reglamentaria y función ejecutiva. La organización institucional en la Comunidad Autónoma de Aragón. El Tribunal Superior de Justicia de Aragón."
+      },
+      {
+        "numero": 12,
+        "titulo": "Derecho a la igualdad y a la no discriminación por razón de sexo. Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres. Ley 7/2018, de 28 de junio, de Igualdad de oportunidades entre mujeres y hombres en Aragón."
+      }
+    ]
+  },
+  {
+    "bloque": "Parte segunda: Derecho administrativo general",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "La organización administrativa. Principios. La potestad organizatoria. Los órganos administrativos. Concepto y clases. Consideración especial a los órganos colegiados. de organización administrativa."
+      },
+      {
+        "numero": 2,
+        "titulo": "El acto administrativo. Concepto, elementos y clases. Requisitos: la motivación y forma."
+      },
+      {
+        "numero": 3,
+        "titulo": "La eficacia de los actos administrativos. Principio de autotutela declarativa. Ejecutividad. Suspensión. Demora y retroactividad de la eficacia, en especial la notificación y la publicación."
+      },
+      {
+        "numero": 4,
+        "titulo": "La invalidez del acto administrativo. Nulidad de pleno derecho y anulabilidad. Supuestos. Límites. La convalidación, conservación y conversión de los actos administrativos."
+      },
+      {
+        "numero": 5,
+        "titulo": "El funcionamiento electrónico del sector público. Derecho y obligación de relacionarse electrónicamente con las Administraciones Públicas."
+      },
+      {
+        "numero": 6,
+        "titulo": "Ley de Procedimiento Administrativo Común de las Administraciones Públicas: principios, estructura y ámbito de aplicación. Concepto del Procedimiento Administrativo. Los interesados en el procedimiento: Capacidad de obrar y concepto de interesado. Identificación y firma en el procedimiento administrativo. Derechos de las personas interesadas. La actividad de las Administraciones Públicas: normas generales de actuación. Términos y plazos."
+      },
+      {
+        "numero": 7,
+        "titulo": "Disposiciones sobre los procedimientos administrativos: garantías del procedimiento. Las fases de Iniciación, ordenación e Instrucción del procedimiento administrativo. Singularidades del procedimiento administrativo de las entidades locales."
+      },
+      {
+        "numero": 8,
+        "titulo": "La fase de finalización del procedimiento administrativo. La obligación de la Administración Pública de resolver. Régimen jurídico del silencio administrativo. La tramitación simplificada del procedimiento administrativo."
+      },
+      {
+        "numero": 9,
+        "titulo": "La fase de ejecución del procedimiento administrativo. La ejecutoriedad. El principio de autotutela ejecutiva. La ejecución forzosa de los actos administrativos: sus medios y principios de utilización."
+      },
+      {
+        "numero": 10,
+        "titulo": "La revisión de los actos en vía administrativa: La revisión de oficio de los actos administrativos y sus límites. Los recursos administrativos: Principios generales. Clases de recursos."
+      },
+      {
+        "numero": 11,
+        "titulo": "Ley de Régimen Jurídico del Sector Público: objeto, ámbito subjetivo y principios generales. El sector público institucional: organización y funcionamiento."
+      },
+      {
+        "numero": 12,
+        "titulo": "La Jurisdicción contencioso-administrativa. Concepto, naturaleza, extensión y límites. El recurso contencioso-administrativo: Partes y objeto. Los procedimientos ante la Jurisdicción contencioso-administrativa. Medidas cautelares. Recursos y ejecución de sentencias. Procedimientos especiales."
+      },
+      {
+        "numero": 13,
+        "titulo": "Potestad sancionadora. Principios Generales. El procedimiento sancionador y sus especialidades."
+      },
+      {
+        "numero": 14,
+        "titulo": "Expropiación forzosa. Fundamento y naturaleza. Sujeto, objeto y causa de la expropiación. Procedimiento General. Peculiaridades del procedimiento de urgencia. Las expropiaciones especiales."
+      },
+      {
+        "numero": 15,
+        "titulo": "La Responsabilidad patrimonial de las Administraciones Públicas. Evolución y régimen actual. Principios y presupuestos. Responsabilidad concurrente de las Administraciones Públicas. Responsabilidad de las autoridades y personal al servicio de las Administraciones Públicas."
+      },
+      {
+        "numero": 16,
+        "titulo": "Ley 19/2013, de 9 de diciembre, de Transparencia, acceso a la información pública y buen gobierno. Ley 8/2015, de 25 de marzo, de Transparencia de la Actividad Pública y Participación Ciudadana de Aragón. El derecho de acceso a la información pública y transparencia. Límites y garantías. El principio de publicidad activa. Publicidad pasiva. Especial referencia a las Instrucciones sobre tramitación, seguimiento, control y registro de las solicitudes de acceso a la información pública de la Diputación Provincial de Zaragoza."
+      },
+      {
+        "numero": 17,
+        "titulo": "Los contratos del sector público (I). Fuentes, ámbito de aplicación, y objeto de la contratación pública. Delimitación de los tipos contractuales. Contratos sujetos a regulación armonizada. Régimen jurídico de los contratos administrativos y contratos privados; los actos separables."
+      },
+      {
+        "numero": 18,
+        "titulo": "Los contratos del sector público (II). Los principios generales de la contratación del sector público: racionalidad, libertad de pactos, contenido mínimo, la información, perfección y forma. Régimen de invalidez de los contratos."
+      },
+      {
+        "numero": 19,
+        "titulo": "Los contratos del sector público (III). Las partes de los contratos del sector público. Órgano de contratación. Capacidad y solvencia del contratista. Objeto, precio y valor estimado del contrato. Garantías exigibles en la contratación del sector público."
+      },
+      {
+        "numero": 20,
+        "titulo": "Los contratos del sector público (IV). La preparación de los contratos por las Administraciones Públicas. Clases de expedientes de contratación. La selección del contratista: procedimientos, formas y criterios de adjudicación. Perfeccionamiento y formalización del contrato. Racionalización técnica de la contratación. Acuerdos marco. Sistemas dinámicos de contratación. Centrales de contratación."
+      },
+      {
+        "numero": 21,
+        "titulo": "Los contratos del sector público (V). Ejecución y modificación de los contratos administrativos. Prerrogativas de la Administración. La revisión de precios. La extinción de los contratos administrativos. La cesión de los contratos y la subcontratación."
+      },
+      {
+        "numero": 22,
+        "titulo": "Clasificación y teoría general de las formas de acción administrativa: Fomento. Intervención o policía. La actividad administrativa de prestación de servicios. La iniciativa económica pública y los servicios públicos. El servicio público. Concepto. Evolución y crisis. Los servicios públicos virtuales o impropios."
+      },
+      {
+        "numero": 23,
+        "titulo": "La Ley de Prevención de Riesgos Laborales: objeto y conceptos básicos. Derechos y obligaciones. Principios de la acción preventiva. Disciplinas que la integran. Servicios de prevención. Prevención de riesgos laborales en la Administración Pública."
+      },
+      {
+        "numero": 24,
+        "titulo": "Reglamento General de Protección de Datos (UE) 2016/679 del Parlamento Europeo y del Consejo. Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales. Parte tercera: Derecho Administrativo Local, Derecho Tributario y Presupuestario Local"
+      }
+    ]
+  },
+  {
+    "bloque": "Parte tercera: Derecho Administrativo Local, Derecho Tributario y Presupuestario Local",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "La potestad reglamentaria de las Entidades Locales: Órganos titulares. Límites. Controles. Reglamentos y ordenanzas: Distinción. Clases. Procedimiento de elaboración y aprobación. El Reglamento Orgánico. Especial referencia al Reglamento Orgánico de la Diputación Provincial de Zaragoza."
+      },
+      {
+        "numero": 2,
+        "titulo": "El municipio (I): Concepto. Naturaleza. Elementos. El término municipal: deslinde. El problema de la planta municipal. Alteraciones de los términos municipales. Denominación, capitalidad, símbolos. La población municipal: Concepto y clasificación. El padrón municipal."
+      },
+      {
+        "numero": 3,
+        "titulo": "El municipio (II): Organización del municipio de régimen común. Órganos necesarios y complementarios del Ayuntamiento: Composición y atribuciones. Las competencias del municipio: sistema de determinación. Competencias propias, delegadas y distintas de las propias. Los servicios mínimos."
+      },
+      {
+        "numero": 4,
+        "titulo": "La provincia (I): Concepto. Naturaleza jurídica. Evolución histórica. Finalidad. La provincia como Entidad Local. Organización de la provincia de régimen común. Órganos necesarios y complementarios de la Diputación Provincial: Composición y atribuciones."
+      },
+      {
+        "numero": 5,
+        "titulo": "La provincia (II): Las competencias de la provincia. La cooperación municipal. Las inversiones locales, con especial referencia al Plan Provincial de cooperación a las obras y servicios de competencia municipal."
+      },
+      {
+        "numero": 6,
+        "titulo": "Regímenes municipales especiales. Especial referencia al régimen de organización de los municipios de gran población. La mancomunidad de municipios. La Comarca. Las áreas metropolitanas. Las entidades de ámbito inferior al municipio."
+      },
+      {
+        "numero": 7,
+        "titulo": "Régimen de sesiones y acuerdos de los órganos de gobierno local. Las sesiones: Sus clases, requisitos y procedimientos de constitución y celebración. Actas, certificaciones, comunicaciones, notificaciones y publicación de acuerdos. El registro de documentos. La utilización de medios telemáticos."
+      },
+      {
+        "numero": 8,
+        "titulo": "Las formas de acción administrativa de las entidades locales (I). La actividad de policía: La intervención administrativa local en la actividad privada. Las licencias y autorizaciones administrativas: Concepto. Clases. Régimen jurídico de las licencias. La comunicación previa y la declaración responsable."
+      },
+      {
+        "numero": 9,
+        "titulo": "Las formas de acción administrativa de las entidades locales (II).La iniciativa pública económica de las entidades locales y la reserva de servicios. El servicio público en las entidades locales. Formas de gestión directa de los servicios públicos locales. Forma de gestión indirecta de los servicios públicos locales. Los consorcios."
+      },
+      {
+        "numero": 10,
+        "titulo": "Las formas de acción administrativa de las entidades locales (III). Actividad subvencional de la Administración Local. Concepto, naturaleza y clasificación de subvenciones. Normativa aplicable en la entidades locales. Especial referencia a la Ordenanza General de Subvenciones y Plan Estratégico de Subvenciones de la Diputación Provincial de Zaragoza."
+      },
+      {
+        "numero": 11,
+        "titulo": "Las formas de acción administrativa de las Entidades Locales (IV). Procedimiento de concesión y gestión de subvenciones. Requisitos y obligaciones de las personas beneficiarias de subvenciones. Justificación y reintegro. Control financiero. Régimen de infracciones y sanciones."
+      },
+      {
+        "numero": 12,
+        "titulo": "Los bienes de las Entidades Locales: clases y régimen jurídico. Prerrogativas de los Entes Locales respecto a sus bienes. El inventario municipal de bienes, su inscripción en el Registro de la Propiedad."
+      },
+      {
+        "numero": 13,
+        "titulo": "Los bienes de dominio público locales: afectación y mutación demanial. Uso y utilización de los bienes demaniales. Los bienes patrimoniales de los Entes Locales: adquisición y enajenación. La utilización de los bienes patrimoniales. Los bienes comunales: regulación y uso. Los montes vecinales en mano común."
+      },
+      {
+        "numero": 14,
+        "titulo": "El personal al servicio de las Corporaciones Locales: clases y régimen jurídico. Legislación básica y legislación del estado sobre función pública local. Clases de funcionarios locales."
+      },
+      {
+        "numero": 15,
+        "titulo": "Los instrumentos de organización del personal al servicio de las Corporaciones Locales: Plantillas y relaciones de puestos de trabajo. Los instrumentos reguladores de los recursos humanos: los planes de empleo, la oferta de empleo público, registros administrativos de personal."
+      },
+      {
+        "numero": 16,
+        "titulo": "La selección de los empleados públicos locales. Sistemas selectivos. Adquisición y pérdida de la condición de empleado público local. El régimen de provisión de puestos de trabajo."
+      },
+      {
+        "numero": 17,
+        "titulo": "Las situaciones administrativas de los funcionarios locales. Derechos individuales de los funcionarios locales: Derecho a la carrera administrativa. Retribuciones. El régimen de Seguridad social. Derechos colectivos."
+      },
+      {
+        "numero": 18,
+        "titulo": "Los deberes de los funcionarios locales. El régimen disciplinario. El régimen de responsabilidad civil, penal y patrimonial. El régimen de incompatibilidades."
+      },
+      {
+        "numero": 19,
+        "titulo": "Las Haciendas Locales: Concepto. Normativa aplicable. Principios Generales. Clasificación de los recursos de las Haciendas Locales. El poder financiero-tributario de las entidades locales territoriales. Imposición y ordenación de los tributos locales. Contenido de las ordenanzas fiscales, tramitación y régimen de impugnación de los actos de imposición y ordenación de tributos. El establecimiento de recursos no tributarios."
+      },
+      {
+        "numero": 20,
+        "titulo": "El Impuesto sobre bienes inmuebles. El impuesto sobre actividades económicas. El impuesto sobre el incremento de valor de los terrenos de naturaleza urbana. El Impuesto sobre construcciones, instalaciones y obras. El impuesto sobre vehículos de tracción mecánica. El impuesto sobre gastos suntuarios."
+      },
+      {
+        "numero": 21,
+        "titulo": "El Presupuesto de las Entidades Locales (I). Principios. Contenido. Elaboración y aprobación del Presupuesto general. La prórroga del presupuesto. Impugnación. Estructuras presupuestarias. Referencia al Presupuesto General de la Diputación Provincial de Zaragoza."
+      },
+      {
+        "numero": 22,
+        "titulo": "El presupuesto de las entidades locales (II). Los créditos del presupuesto de gastos: delimitación, situación y niveles de vinculación jurídica. Las modificaciones de crédito: concepto, clases, financiación y tramitación."
+      },
+      {
+        "numero": 23,
+        "titulo": "El presupuesto de las entidades locales (III). Gestión de presupuesto de ingresos. Fases en la gestión del presupuesto de ingresos. Ingresos pendientes de aplicación. Devolución de ingresos indebidos. Aplazamientos y fraccionamientos."
+      },
+      {
+        "numero": 24,
+        "titulo": "El presupuesto de las entidades locales (IV). La ejecución del presupuesto de gastos e ingresos. Fases en la gestión del presupuesto de gastos. Realización material del pago. Reintegro de pagos. Los pagos a justificar. Los anticipos de caja fija. Los gastos de carácter plurianual. El cierre y la liquidación del presupuesto. Tramitación."
+      }
+    ]
+  }
+]

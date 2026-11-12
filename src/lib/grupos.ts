@@ -9,8 +9,34 @@ import type { Oposicion } from "@/lib/types";
  * categorías" en vez de desaparecer; al dar de alta una, añádela a su grupo.
  *
  * SALUD (noviembre de 2026): las 89 fichas de `scripts/seed-fichas-salud.mjs`.
+ * DPZ (noviembre de 2026): las 3 oposiciones previas y las 22 fichas de
+ * `scripts/seed-fichas-dpz.mjs`.
  */
 const GRUPOS: Record<string, { titulo: string; puestos: string[] }[]> = {
+  dpz: [
+    {
+      titulo: "Administración general",
+      puestos: ["aux-administrativo", "administrativo", "tecnico-administracion-general", "tecnico-medio-gestion", "tecnico-medio-gestion-rrhh", "letrado-asesor"],
+    },
+    {
+      titulo: "Técnicos y especialistas",
+      puestos: [
+        "archivero", "ayudante-archivo-biblioteca", "licenciado-filosofia-letras", "tecnico-medio-seguridad-salud",
+        "tecnico-informatica", "tecnico-informatica-programacion", "corrector", "corrector-pruebas-ifc",
+      ],
+    },
+    {
+      titulo: "Oficios y servicios",
+      puestos: [
+        "oficial-almacen", "oficial-imprenta", "oficial-maquinista-infraestructura-rural", "oficial-proteccion-control-edificios",
+        "conserje-plaza-toros", "auxiliar-sala-deposito", "oficial-servicios-internos",
+      ],
+    },
+    {
+      titulo: "Taller Escuela de Cerámica de Muel",
+      puestos: ["oficial-ceramica-muel", "alfarero-ceramista-muel", "oficial-segunda-ceramica-muel", "peon-especialista-ceramica-muel"],
+    },
+  ],
   "salud-aragon": [
     { titulo: "Enfermería", puestos: ["enfermero", "matrona", "enfermero-familiar-comunitaria", "enfermero-salud-mental"] },
     {

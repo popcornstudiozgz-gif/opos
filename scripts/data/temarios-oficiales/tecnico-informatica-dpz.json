@@ -1,0 +1,167 @@
+[
+  {
+    "bloque": "Temario",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "La Constitución Española de 1978. Principios generales. Características y estructura."
+      },
+      {
+        "numero": 2,
+        "titulo": "Los derechos fundamentales y las libertados públicas en la Constitución. Garantías y tutela. La suspensión de los derechos y libertades."
+      },
+      {
+        "numero": 3,
+        "titulo": "Fases del procedimiento administrativo: Iniciación, ordenación, instrucción y finalización."
+      },
+      {
+        "numero": 4,
+        "titulo": "Revisión de los actos administrativos."
+      },
+      {
+        "numero": 5,
+        "titulo": "La Diputación Provincial de Zaragoza. Estructura orgánica. Los órganos de Gobierno. Competencias provinciales."
+      },
+      {
+        "numero": 6,
+        "titulo": "Los contratos administrativos en la esfera local. Elementos. Clases de contratos."
+      },
+      {
+        "numero": 7,
+        "titulo": "El presupuesto de las entidades locales. Principios, integración, proceso de aprobación, ejecución y liquidación."
+      },
+      {
+        "numero": 8,
+        "titulo": "Especial referencia a las bases de ejecución del presupuesto de la DPZ."
+      },
+      {
+        "numero": 9,
+        "titulo": "El empleo público local: su régimen jurídico y peculiaridades."
+      },
+      {
+        "numero": 10,
+        "titulo": "El personal al servicio de las Corporaciones Locales: estructura, clases y normativa aplicable."
+      },
+      {
+        "numero": 11,
+        "titulo": "La igualdad y la no discriminación por razón de sexo en la Constitución. La Ley Orgánica 3/2007, de 22 de marzo, para la Igualdad entre Mujeres y Hombres."
+      },
+      {
+        "numero": 12,
+        "titulo": "La transparencia en la Administración Pública. Legislación básica estatal y autonómica aragonesa en la materia."
+      },
+      {
+        "numero": 13,
+        "titulo": "Protección de datos de carácter personal: objeto y ámbito de aplicación. Principios de protección de datos. Derechos de las personas."
+      },
+      {
+        "numero": 14,
+        "titulo": "Modernización de la Administración Pública. La Administración electrónica."
+      },
+      {
+        "numero": 15,
+        "titulo": "Ley de Prevención de Riesgos Laborales y medidas preventivas. Derechos y deberes básicos."
+      },
+      {
+        "numero": 16,
+        "titulo": "Sistemas operativos. Funciones y componentes de un sistema operativo."
+      },
+      {
+        "numero": 17,
+        "titulo": "Gestión de ficheros."
+      },
+      {
+        "numero": 18,
+        "titulo": "Introducción a los conceptos de redes de computadoras."
+      },
+      {
+        "numero": 19,
+        "titulo": "Descripción de servicios y protocolos. TCP/IP. Protocolos y servicios."
+      },
+      {
+        "numero": 20,
+        "titulo": "Los modelos OSI."
+      },
+      {
+        "numero": 21,
+        "titulo": "Fundamentos redes LAN y WAN"
+      },
+      {
+        "numero": 22,
+        "titulo": "Direccionamiento y enrutamiento IP"
+      },
+      {
+        "numero": 23,
+        "titulo": "Active directory. Configuración y administración de seguridad."
+      },
+      {
+        "numero": 24,
+        "titulo": "Redes locales."
+      },
+      {
+        "numero": 25,
+        "titulo": "Redes inalámbricas: definición, tipos y características."
+      },
+      {
+        "numero": 26,
+        "titulo": "Redes wifi: Estándares, seguridad y fiabilidad, dispositivos."
+      },
+      {
+        "numero": 27,
+        "titulo": "Fundamentos y diseño de bases de datos. Modelo entidad-relación."
+      },
+      {
+        "numero": 28,
+        "titulo": "Diseño de bases de datos. Diseño lógico y físico."
+      },
+      {
+        "numero": 29,
+        "titulo": "El modelo lógico relacional. Normalización."
+      },
+      {
+        "numero": 30,
+        "titulo": "Modelo conceptual de datos. Entidades, atributos y relaciones. Reglas de modelización. Diagramas de flujo de datos. Reglas de construcción. Descomposición en niveles. Flujogramas."
+      },
+      {
+        "numero": 31,
+        "titulo": "Fundamentos de lenguajes de programación I: Representación de tipos de datos. Operadores, instrucciones condicionales."
+      },
+      {
+        "numero": 32,
+        "titulo": "Fundamentos de lenguajes de programación II: Bucles y recursividad. Procedimientos, funciones y parámetros. Estructura de un programa."
+      },
+      {
+        "numero": 33,
+        "titulo": "Programación orientada a objetos: Java. Elementos: objetos, clases, herencia y métodos."
+      },
+      {
+        "numero": 34,
+        "titulo": "Tipos abstractos y estructuras de datos. Organizaciones de ficheros. Algoritmos. Formatos de información y ficheros."
+      },
+      {
+        "numero": 35,
+        "titulo": "Sistemas de backup: Hardware y Software de Backup."
+      },
+      {
+        "numero": 36,
+        "titulo": "Estrategias de Backup a disco. Replicación local y remota. Estrategias de recuperación."
+      },
+      {
+        "numero": 37,
+        "titulo": "Seguridad informática."
+      },
+      {
+        "numero": 38,
+        "titulo": "Ingeniería del software. Proceso software. Ciclos de vida."
+      },
+      {
+        "numero": 39,
+        "titulo": "Seguridad y protección en redes de comunicaciones."
+      },
+      {
+        "numero": 40,
+        "titulo": "Seguridad en el puesto de trabajo."
+      }
+    ]
+  }
+]

@@ -1,0 +1,257 @@
+[
+  {
+    "bloque": "Parte general",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "La Constitución española de 1978. Principios generales. Derechos y deberes fundamentales, garantías y tutela. La suspensión de los derechos y libertades."
+      },
+      {
+        "numero": 2,
+        "titulo": "Organización territorial del Estado. Los Estatutos de Autonomía: su significado. El Estatuto de Autonomía de Aragón."
+      },
+      {
+        "numero": 3,
+        "titulo": "Sometimiento de la Administración a la Ley y al Derecho. Las fuentes del derecho Administrativo. La Ley. El Reglamento: concepto y clasificación."
+      },
+      {
+        "numero": 4,
+        "titulo": "El procedimiento administrativo I: Naturaleza. Los sujetos del procedimiento administrativo. Fases del procedimiento. Cómputo de plazos."
+      },
+      {
+        "numero": 5,
+        "titulo": "El procedimiento administrativo II: El acto administrativo. Concepto, elementos y clases. Requisitos y eficacia de los actos administrativos. Nulidad y anulabilidad. El silencio administrativo. Procedimientos de ejecución de los actos administrativos."
+      },
+      {
+        "numero": 6,
+        "titulo": "Régimen local: La provincia. Organización provincial. Competencias. Funcionamiento de los Órganos Colegiados Locales. Convocatoria y orden del día. Actas y certificados de acuerdos."
+      },
+      {
+        "numero": 7,
+        "titulo": "El empleo público. El Estatuto Básico del Empleado Público. Clases de personal al servicio de las Administraciones Públicas. Derechos y deberes del funcionario público. Personal al servicio de las Entidades Locales."
+      },
+      {
+        "numero": 8,
+        "titulo": "Los contratos del sector público. Principios generales. Tipos de contratos. Expediente de contratación. Procedimientos de adjudicación."
+      },
+      {
+        "numero": 9,
+        "titulo": "El Presupuesto de las Entidades Locales (I). Principios, integración, proceso de aprobación, ejecución, y liquidación. Especial referencia a las Bases de ejecución del Presupuesto de la D."
+      },
+      {
+        "numero": 10,
+        "titulo": "El Presupuesto de las Entidades Locales (II). Modificaciones presupuestarias, en especial el crédito extraordinario y suplemento de crédito. Control del gasto público local. El control interno. El control externo."
+      },
+      {
+        "numero": 11,
+        "titulo": "La igualdad y la no discriminación por razón de sexo en la Constitución. La ley Orgánica 3/2007, de 22 de marzo, para la igualdad entre mujeres y hombres. Plan de Igualdad de la Diputación"
+      },
+      {
+        "numero": 12,
+        "titulo": "La transparencia en la Administración Pública. Legislación básica estatal y autonómica aragonesa sobre la materia. La Protección de Datos y acceso a la información. Legislación en la materia. Parte específica: Primera. — Derecho del Trabajo"
+      }
+    ]
+  },
+  {
+    "bloque": "Parte específica. Primera: Derecho del Trabajo",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "El Derecho del Trabajo, y su constitucionalización. Las fuentes del Derecho del Trabajo."
+      },
+      {
+        "numero": 2,
+        "titulo": "Real Decreto Legislativo 2/2025, de 23 de octubre, por el que se aprueba el Texto refundido de la Ley del Estatuto de los Trabajadores."
+      },
+      {
+        "numero": 3,
+        "titulo": "Los Convenios Colectivos en el ámbito de la Administración Pública (I). Concepto y eficacia. Naturaleza jurídica. Unidades de negociación. Concurrencia. Contenido. Vigencia. Legitimación. Comisión Negociadora."
+      },
+      {
+        "numero": 4,
+        "titulo": "Los Convenios Colectivos en el ámbito de la Administración Pública (II). Tramitación. Validez. Aplicación e interpretación. Acuerdos de adhesión y actos de extensión."
+      },
+      {
+        "numero": 5,
+        "titulo": "Convenio Colectivo para el personal laboral de la Diputación Provincial de Zaragoza. Acuerdo que regula las condiciones laborales del personal funcionario de la Diputación Provincial de Zaragoza."
+      },
+      {
+        "numero": 6,
+        "titulo": "La Comisión Consultiva Nacional de Convenios Colectivos. Cláusula de inaplicación salarial."
+      },
+      {
+        "numero": 7,
+        "titulo": "Régimen jurídico sindical. La representatividad sindical. La acción sindical. Órganos de representación de los empleados públicos. Clasificación, competencias y garantías. Proceso electoral."
+      },
+      {
+        "numero": 8,
+        "titulo": "Negociación colectiva en la Administración Pública."
+      },
+      {
+        "numero": 9,
+        "titulo": "Los conflictos de trabajo. La huelga y el cierre patronal. Los conflictos colectivos: las peculiaridades en la administración local."
+      },
+      {
+        "numero": 10,
+        "titulo": "El contrato de trabajo (I). Concepto, naturaleza jurídica, forma y validez. Los sujetos del contrato de trabajo: El trabajador y el empresario. Derechos y deberes del contrato de trabajo. Nacimiento del contrato de trabajo."
+      },
+      {
+        "numero": 11,
+        "titulo": "El contrato de trabajo (II). Contenido del contrato de trabajo. Duración del contrato de trabajo. Período de prueba."
+      },
+      {
+        "numero": 12,
+        "titulo": "El contrato de trabajo (III). Modificación, suspensión y extinción del contrato de trabajo."
+      },
+      {
+        "numero": 13,
+        "titulo": "El contrato de trabajo (IV). Modalidades de contrato de trabajo y sus características."
+      },
+      {
+        "numero": 14,
+        "titulo": "El contrato de trabajo (V). Clasificación profesional y promoción en el trabajo."
+      },
+      {
+        "numero": 15,
+        "titulo": "La jornada laboral (I): Tiempo de trabajo, descanso semanal, vacaciones, licencias y permisos. Excedencias. Especial referencia al convenio colectivo."
+      },
+      {
+        "numero": 16,
+        "titulo": "La jornada laboral (II). Límites generales y especiales del tiempo máximo de trabajo. Horas extraordinarias: concepto, clases y régimen jurídico, retribución o compensación."
+      },
+      {
+        "numero": 17,
+        "titulo": "Régimen de incompatibilidades del personal al servicio de la Administración Pública."
+      },
+      {
+        "numero": 18,
+        "titulo": "La extinción de la relación de servicio en la Administración Pública. Causas, procedimientos y efectos. Consecuencias económicas, indemnizaciones y compensaciones."
+      },
+      {
+        "numero": 19,
+        "titulo": "Prevención de Riesgos Laborales y obligaciones en materia preventiva."
+      },
+      {
+        "numero": 20,
+        "titulo": "Sistema informático: manejo de gestores documentales y aplicativos de Recursos Humanos. Paquete de Libre Office."
+      }
+    ]
+  },
+  {
+    "bloque": "Parte específica. Segunda: Seguridad Social",
+    "temas": [
+      {
+        "numero": 21,
+        "titulo": "El salario. Concepto. Naturaleza jurídica. Estructura salarial. Igualdad de remuneración por razón de sexo. Liquidación y pago: lugar, tiempo, forma y documentación del salario. El Salario Mínimo Interprofesional."
+      },
+      {
+        "numero": 22,
+        "titulo": "La garantía salarial. Inembargabilidad del salario. El Fondo de Garantía Salarial."
+      },
+      {
+        "numero": 23,
+        "titulo": "La nómina. Peculiaridades en la concepción del nóminas del personal al servicio de la Administración Pública. Elementos retributivos. Deducciones y cotizaciones."
+      },
+      {
+        "numero": 24,
+        "titulo": "La cotización adicional de las horas extraordinarias en el Sistema de la Seguridad Social. Concepto y clases de horas extraordinarias. Tipos de cotización. Peculiaridades en la liquidación de cuotas. Su incidencia en la gestión de nóminas, seguros sociales y actuaciones de control de la Inspección de Trabajo."
+      },
+      {
+        "numero": 25,
+        "titulo": "Seguridad Social en España: Real Decreto Legislativo 8/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley General de la Seguridad Social."
+      },
+      {
+        "numero": 26,
+        "titulo": "Gestión de la Seguridad Social. Entidades gestoras y servicios comunes de la Seguridad Social. El Instituto Nacional de la Seguridad Social. La Tesorería General de la Seguridad Social."
+      },
+      {
+        "numero": 27,
+        "titulo": "La colaboración en la gestión de la Seguridad Social. Entidades colaboradoras. Mutuas colaboradoras con la Seguridad Social. Empresas."
+      },
+      {
+        "numero": 28,
+        "titulo": "La Seguridad Social del personal al servicio de las Administraciones Públicas."
+      },
+      {
+        "numero": 29,
+        "titulo": "Tipos de cotización en supuestos especiales. Referencia al colectivo de bomberos."
+      },
+      {
+        "numero": 30,
+        "titulo": "Coeficiente reductor de la edad de jubilación en favor de los Bomberos al servicio de las Administraciones Públicas y Organismos Públicos."
+      },
+      {
+        "numero": 31,
+        "titulo": "Inscripción de empresas y normas sobre afiliación, cotización y recaudación de trabajadores en el Régimen General de la Seguridad Social."
+      },
+      {
+        "numero": 32,
+        "titulo": "La cotización (I). Tipos de cotización. La cuota. Sujetos obligados y sujetos responsables. La responsabilidad solidaria y subsidiaria en el pago de cuotas. Nacimiento y duración de la obligación de cotizar."
+      },
+      {
+        "numero": 33,
+        "titulo": "La cotización (II). El convenio especial en Seguridad Social. Prescripción. Prelación de créditos y devolución de ingresos indebidos."
+      },
+      {
+        "numero": 34,
+        "titulo": "Régimen General de la Seguridad Social. Bases de cotización. Concepto y exclusiones. Determinación de las bases de cotización. Bases máximas y mínimas de cotización."
+      },
+      {
+        "numero": 35,
+        "titulo": "Cotización durante las situaciones de incapacidad temporal, riesgo durante el embarazo, riesgo durante la lactancia natural, nacimiento y cuidado de menor y ejercicio corresponsable del cuidado del lactante, y en los casos de compatibilidad del subsidio por nacimiento y cuidado de menor con períodos de descanso en régimen de jornada a tiempo parcial."
+      },
+      {
+        "numero": 36,
+        "titulo": "Normas generales en materia de prestaciones. Incapacidad temporal, nacimiento y cuidado de menor, corresponsabilidad en el cuidado del lactante,riesgo durante el embarazo,riesgo durante la lactancia natural, cuidado de menores afectados por cáncer u otra enfermedad grave."
+      },
+      {
+        "numero": 37,
+        "titulo": "Cotización en la situación de alta sin percibo de remuneración. Cotización en la situación de pluriempleo. Cotización en los supuestos de reducción de jornada o suspensión de contrato y huelga."
+      },
+      {
+        "numero": 38,
+        "titulo": "Cotización de los trabajadores contratados a tiempo parcial, contratos para la formación y el aprendizaje y en los contratos formativos en alternancia."
+      },
+      {
+        "numero": 39,
+        "titulo": "Cotización en las prácticas formativas o prácticas académicas externas incluidas en los programas de formación."
+      },
+      {
+        "numero": 40,
+        "titulo": "Afiliación al Sistema y altas, bajas y variaciones de datos en los regímenes que lo integran, cotización a la Seguridad Social y por conceptos de recaudación conjunta, así como liquidación y recaudación de las cuotas y demás recursos del sistema."
+      },
+      {
+        "numero": 41,
+        "titulo": "Procedimientos de recaudación de la Seguridad Social."
+      },
+      {
+        "numero": 42,
+        "titulo": "Acción protectora del Sistema Público de la Seguridad Social. Contenido y clasificación de las prestaciones. Incompatibilidades. Responsabilidad en orden a las prestaciones. Prescripción, caducidad y reintegro de prestaciones indebidas."
+      },
+      {
+        "numero": 43,
+        "titulo": "Aspectos comunes de la acción protectora. Accidente de trabajo y enfermedad profesional."
+      },
+      {
+        "numero": 44,
+        "titulo": "La protección por incapacidad permanente: Grados. Nacimiento, duración y extinción. Cuantía de la prestación. Lesiones permanentes no incapacitantes. La calificación y revisión de la incapacidad permanente."
+      },
+      {
+        "numero": 45,
+        "titulo": "La protección por jubilación: Modalidades. Cuantía de la prestación. Incompatibilidades, suspensión y extinción. Jubilaciones anticipadas y prejubilación. La jubilación parcial. La jubilación flexible."
+      },
+      {
+        "numero": 46,
+        "titulo": "La protección por muerte y supervivencia. Requisitos para las prestaciones por viudedad, orfandad, y en favor de familiares. La cuantía de las prestaciones. Compatibilidad y extinción."
+      },
+      {
+        "numero": 47,
+        "titulo": "La protección a la familia: Clases, requisitos y cuantía de las prestaciones. Beneficiarios."
+      },
+      {
+        "numero": 48,
+        "titulo": "La protección por desempleo."
+      }
+    ]
+  }
+]

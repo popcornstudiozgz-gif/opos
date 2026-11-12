@@ -1,0 +1,67 @@
+[
+  {
+    "bloque": "Temario",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "La Constitución española de 1978. Derechos y deberes fundamentales de los españoles."
+      },
+      {
+        "numero": 2,
+        "titulo": "Organización y funcionamiento de la Diputación Provincial de Zaragoza."
+      },
+      {
+        "numero": 3,
+        "titulo": "Los órganos de Gobierno Provinciales. La Presidencia de la Diputación Provincial. El Pleno de la Diputación Provincial. La Junta de Gobierno. Comisiones Informativas."
+      },
+      {
+        "numero": 4,
+        "titulo": "La función pública local. Real Decreto legislativo 5/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley del Estatuto Básico del Empleado Público."
+      },
+      {
+        "numero": 5,
+        "titulo": "Edificios e instalaciones de la Diputación Provincial de Zaragoza."
+      },
+      {
+        "numero": 6,
+        "titulo": "Funciones principales del personal subalterno."
+      },
+      {
+        "numero": 7,
+        "titulo": "La correspondencia. Franqueo, depósito, recogida y distribución."
+      },
+      {
+        "numero": 8,
+        "titulo": "La centralita telefónica: concepto. Utilidad. Funcionamiento. Operaciones que pueden efectuarse. Líneas exteriores. Extensiones."
+      },
+      {
+        "numero": 9,
+        "titulo": "Autoridades provinciales y municipales. Su tratamiento. Trato y cortesía con el público. Comportamiento con miembros corporativos, Jefes y funcionarios de la Corporación."
+      },
+      {
+        "numero": 10,
+        "titulo": "Ideas generales sobre protocolo, honores y distinciones de las Corporaciones Locales. Normas legales más importantes."
+      },
+      {
+        "numero": 11,
+        "titulo": "Máquinas auxiliares de oficina. Nociones básicas sobre seguridad en edificios."
+      },
+      {
+        "numero": 12,
+        "titulo": "Ley de prevención de riesgos. Riesgos y medidas preventivas en la oficina y uso de PVD."
+      },
+      {
+        "numero": 13,
+        "titulo": "La igualdad y la no discriminación por razón de sexo en la Constitución. La Ley Orgánica 3/2007, de 22 de marzo, para la Igualdad entre Mujeres y Hombres."
+      },
+      {
+        "numero": 14,
+        "titulo": "La transparencia en la Administración Pública. Legislación básica estatal y autonómica aragonesa en la materia."
+      },
+      {
+        "numero": 15,
+        "titulo": "Protección de datos de carácter personal: objeto y ámbito de aplicación. Principios de protección de datos. Derechos de las personas."
+      }
+    ]
+  }
+]

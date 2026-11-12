@@ -1,0 +1,67 @@
+[
+  {
+    "bloque": "Temario",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "La Constitución española de 1978. Derechos y deberes fundamentales de los españoles."
+      },
+      {
+        "numero": 2,
+        "titulo": "Organización y funcionamiento de la Diputación Provincial de Zaragoza."
+      },
+      {
+        "numero": 3,
+        "titulo": "Ley de Prevención de Riesgos. Riesgos y medidas preventivas en la actividad de un Taller de Cerámica."
+      },
+      {
+        "numero": 4,
+        "titulo": "La igualdad y la no discriminación por razón de sexo en la Constitución. La Ley Orgánica 3/2007, de 22 de marzo, para la Igualdad entre Mujeres y Hombres."
+      },
+      {
+        "numero": 5,
+        "titulo": "La transparencia en la Administración Pública. Legislación básica estatal y autonómica aragonesa en la materia."
+      },
+      {
+        "numero": 6,
+        "titulo": "Protección de datos de carácter personal: objeto y ámbito de aplicación. Principios de protección de datos. Derechos de las personas."
+      },
+      {
+        "numero": 7,
+        "titulo": "Operaciones matemáticas, ortografía y vocabulario relacionado con el nivel de la titulación exigida para la plaza."
+      },
+      {
+        "numero": 8,
+        "titulo": "Organización y funcionamiento del Taller Escuela Cerámica de Muel."
+      },
+      {
+        "numero": 9,
+        "titulo": "Historia del Taller-Escuela Cerámica de Muel."
+      },
+      {
+        "numero": 10,
+        "titulo": "Producción, técnicas y formas usadas en el Taller Escuela Cerámica de Muel."
+      },
+      {
+        "numero": 11,
+        "titulo": "Plan de rotulación en cerámica de los municipios de la provincia de Zaragoza."
+      },
+      {
+        "numero": 12,
+        "titulo": "Carga y descarga de hornos en la actividad ceramista."
+      },
+      {
+        "numero": 13,
+        "titulo": "Tipos de barros usados en cerámica."
+      },
+      {
+        "numero": 14,
+        "titulo": "Conocimiento básico de los productos cerámicos."
+      },
+      {
+        "numero": 15,
+        "titulo": "Conocimiento básico de la toxicidad de los productos cerámicos."
+      }
+    ]
+  }
+]

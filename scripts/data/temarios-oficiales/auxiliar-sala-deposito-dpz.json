@@ -1,0 +1,87 @@
+[
+  {
+    "bloque": "Temario",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "La Constitución española de 1978: derechos y deberes fundamentales de los españoles y organización territorial del Estado."
+      },
+      {
+        "numero": 2,
+        "titulo": "La Diputación Provincial de Zaragoza: la Institución Fernando el Católico."
+      },
+      {
+        "numero": 3,
+        "titulo": "Sistemas de bibliotecas en Aragón. Ley 7/2015, de Bibliotecas de Aragón."
+      },
+      {
+        "numero": 4,
+        "titulo": "Las bibliotecas de la Diputación Provincial de Zaragoza: Biblioteca Central, Biblioteca del Casino Principal, Biblioteca del Casino Mercantil, Biblioteca de la Institución Fernando el Católico. Reglamento."
+      },
+      {
+        "numero": 5,
+        "titulo": "La biblioteca: concepto y función. Tipos de bibliotecas. La colección local."
+      },
+      {
+        "numero": 6,
+        "titulo": "Gestión de la colección bibliográfica: concepto. Selección, adquisición, registro, sellado, preparación y colocación de los fondos."
+      },
+      {
+        "numero": 7,
+        "titulo": "La ficha catalográfica: áreas. El formato Marc. Los sistemas integrados de gestión de bibliotecas."
+      },
+      {
+        "numero": 8,
+        "titulo": "Servicios al público: información, consulta en sala, préstamo."
+      },
+      {
+        "numero": 9,
+        "titulo": "Los depósitos: sus características. La preservación, conservación y limpieza de los fondos bibliográficos y documentales en cualquiera de sus soportes. El expurgo."
+      },
+      {
+        "numero": 10,
+        "titulo": "La reproducción de fondos. Distintos procedimientos: fotocopia, microfilm, copia digital."
+      },
+      {
+        "numero": 11,
+        "titulo": "Gestión de contenidos en el siglo XXI en archivos y bibliotecas: bases de datos, sistemas integrados de gestión, acceso a sistemas remotos."
+      },
+      {
+        "numero": 12,
+        "titulo": "Fuentes de información on line para archivos y bibliotecas."
+      },
+      {
+        "numero": 13,
+        "titulo": "El archivo: concepto y funciones. Tipos de archivos."
+      },
+      {
+        "numero": 14,
+        "titulo": "El documento de archivo: concepto, caracteres y valores. Ciclo vital de los documentos. La gestión documental."
+      },
+      {
+        "numero": 15,
+        "titulo": "El archivo: instrumentos de control, instrumentos de descripción, cuadro de clasificación de documentos."
+      },
+      {
+        "numero": 16,
+        "titulo": "El proceso de transferencia. La relación de transferencia."
+      },
+      {
+        "numero": 17,
+        "titulo": "Sistema de archivos de Aragón. Ley 6/1986, de Archivos de Aragón."
+      },
+      {
+        "numero": 18,
+        "titulo": "Los archivos de la Diputación Provincial de Zaragoza: Archivo del Reino, Intendente, Establecimiento de Beneficiencia, Gobierno Político de Aragón, Monasterio de Veruela, Colección fotográfica, Junta Superior de Aragón, Diputación Provincial de Zaragoza. Reglamento."
+      },
+      {
+        "numero": 19,
+        "titulo": "Ley de Prevención de Riesgos. Riesgos y medidas preventivas en archivos y bibliotecas."
+      },
+      {
+        "numero": 20,
+        "titulo": "Principios generales de la actuación de los poderes públicos aragoneses en materia de igualdad de oportunidades entre hombres y mujeres."
+      }
+    ]
+  }
+]
