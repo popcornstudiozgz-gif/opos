@@ -1,0 +1,172 @@
+[
+  {
+    "bloque": "Materia común",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "La Constitución Española: Principios fundamentales. Derechos y deberes fundamentales de los españoles. La protección de la salud en la Constitución. Limitaciones constitucionales al uso de la informática."
+      },
+      {
+        "numero": 2,
+        "titulo": "El Estatuto de Autonomía de Aragón. Organización autonómica. Las Instituciones y competencias de la Comunidad Autónoma de Aragón, con especial referencia a las relativas a sanidad."
+      },
+      {
+        "numero": 3,
+        "titulo": "Población, geografía y territorio en Aragón. Desequilibrios demográficos en Aragón. Magnitudes más relevantes de la economía aragonesa. Evolución reciente de la actividad económica en Aragón."
+      },
+      {
+        "numero": 4,
+        "titulo": "La igualdad de oportunidades entre mujeres y hombres en Aragón: Disposiciones generales. Prevención y Protección Integral a las Mujeres Víctimas de Violencia en Aragón: Disposiciones Generales. La identidad y expresión de género e igualdad social y no discriminación en la Comunidad Autónoma de Aragón: Disposiciones Generales. La diversidad cultural y lucha contra la discriminación: Principios y objetivos del Plan Integral para la Gestión de la Diversidad vigente en Aragón."
+      },
+      {
+        "numero": 5,
+        "titulo": "El Servicio Aragonés de Salud. Estructura y competencias."
+      },
+      {
+        "numero": 6,
+        "titulo": "Personal Estatutario I: Ley 55/2003 del Estatuto Marco del Personal Estatutario de los Servicios de Salud. Clasificación del Personal Estatutario. Derechos y deberes. Adquisición y pérdida de la condición de personal estatutario fijo. Movilidad del personal. Jornada de trabajo, permisos y licencias."
+      },
+      {
+        "numero": 7,
+        "titulo": "Personal Estatutario II: Situaciones del personal estatutario. Régimen disciplinario. Incompatibilidades. Representación, participación y negociación colectiva. Retribuciones del personal estatutario. Sueldo, trienios, pagas extraordinarias, complementos y otras remuneraciones. Devengo y liquidación de derechos económicos."
+      },
+      {
+        "numero": 8,
+        "titulo": "Categorías del personal que desarrolla tareas específicas en el Servicio Aragonés de Salud. Decreto 105/2009, de 9 de junio, de la creación de nuevas categorías estatutarias del área de sistemas y tecnologías de la información en el ámbito del Servicio Aragonés de Salud: Funciones, acceso, disposiciones adicionales y transitorias."
+      },
+      {
+        "numero": 9,
+        "titulo": "Ley Orgánica de Protección de Datos Personales y Garantía de los Derechos Digitales. Ámbito de aplicación. Categorías especiales de datos. Derechos de las personas. Procedimientos relativos a la protección de datos en el Servicio Aragonés de Salud."
+      }
+    ]
+  },
+  {
+    "bloque": "Materia específica",
+    "temas": [
+      {
+        "numero": 10,
+        "titulo": "Sistemas operativos. Conceptos básicos. Elementos constitutivos del S.O."
+      },
+      {
+        "numero": 11,
+        "titulo": "S.O. de puesto cliente: Windows."
+      },
+      {
+        "numero": 12,
+        "titulo": "Terminales gregarias, escritorios y aplicaciones remotas y equipos locales. Conceptos, funcionalidad."
+      },
+      {
+        "numero": 13,
+        "titulo": "Redes LAN: Definición, Tipos de redes según su direccionamiento IP."
+      },
+      {
+        "numero": 14,
+        "titulo": "Dispositivos de electrónica de red usados en las redes locales. Conceptos básicos. Tipos de dispositivos. Conexión de equipos en Red."
+      },
+      {
+        "numero": 15,
+        "titulo": "Redes inalámbricas: Definición, tipos y características. Redes Wifi: Estándares, seguridad y fiabilidad, dispositivos."
+      },
+      {
+        "numero": 16,
+        "titulo": "Cortafuegos, reglas de cortafuegos y monitorización del tráfico local."
+      },
+      {
+        "numero": 17,
+        "titulo": "Windows Server: Servidor DNS. Servidor WINS. Reenviadores de DNS. DHCP estático y dinámico e integración con DNS. DHCP relay."
+      },
+      {
+        "numero": 18,
+        "titulo": "Consola de administración de directivas de grupo en un dominio Windows Server. Concepto. Organización de políticas. Esquema de árbol y herencia de directivas."
+      },
+      {
+        "numero": 19,
+        "titulo": "Compartición de recursos y asignación de permisos en un dominio Windows: Protocolo AGDLP. DFS. Conceptos generales."
+      },
+      {
+        "numero": 20,
+        "titulo": "Actualizaciones de seguridad y WSUS. Concepto y funcionalidad. Despliegue en una red corporativa."
+      },
+      {
+        "numero": 21,
+        "titulo": "Virtualización de servidores: Funcionalidad."
+      },
+      {
+        "numero": 22,
+        "titulo": "Antivirus corporativo. Conceptos y necesidades de centralización y despliegues ante el cambio de software."
+      },
+      {
+        "numero": 23,
+        "titulo": "Actuaciones en caso de infección individual y generalizada por software malintencionado. Protocolos y medidas en caso de infección generalizada."
+      },
+      {
+        "numero": 24,
+        "titulo": "Copias de seguridad. Planificación. Tipos de copias. Restauración."
+      },
+      {
+        "numero": 25,
+        "titulo": "Servidores de aplicaciones. Definición. Conceptos básicos."
+      },
+      {
+        "numero": 26,
+        "titulo": "Lenguaje de interrogación SQL. Realización de consultas."
+      },
+      {
+        "numero": 27,
+        "titulo": "Motores de integración entre aplicaciones (EAI). Rhapsody. Conceptos generales."
+      },
+      {
+        "numero": 28,
+        "titulo": "Identificación electrónica y firma electrónica. Certificados electrónicos. Plataforma CLAVE."
+      },
+      {
+        "numero": 29,
+        "titulo": "Directorio Activo en entornos corporativos, basados en Microsoft. Esquema físico de organización. Niveles de administración y delegación, estructuras de unidades organizativas, definición de grupos y tipos de grupos, administración de usuarios."
+      },
+      {
+        "numero": 30,
+        "titulo": "Gestión unificada de usuarios y sus accesos a aplicaciones. Concepto y funcionalidad básica."
+      },
+      {
+        "numero": 31,
+        "titulo": "Herramientas de ofimática básicas."
+      },
+      {
+        "numero": 32,
+        "titulo": "Estructura Hardware de un PC. Periféricos de uso común."
+      },
+      {
+        "numero": 33,
+        "titulo": "Herramientas software de clonación y de generación de imágenes."
+      },
+      {
+        "numero": 34,
+        "titulo": "Mantenimiento básico del cableado integral estructurado."
+      },
+      {
+        "numero": 35,
+        "titulo": "La tarjeta sanitaria individual en Aragón: Código de Identificación de Pacientes (CIP), Código de Identificación Autonómico (CIA), Base de datos de Usuario (BDU)."
+      },
+      {
+        "numero": 36,
+        "titulo": "Requisitos y estructura básica de los procesos del Sistema de Información de atención hospitalaria, ambulatoria, quirúrgica y de urgencias. Conceptos generales."
+      },
+      {
+        "numero": 37,
+        "titulo": "Conceptos generales de Sistemas de Información Departamentales: Laboratorio, Anatomía Patológico, Radiología y Farmacia."
+      },
+      {
+        "numero": 38,
+        "titulo": "Sistemas de información en Atención Primaria: Arquitectura básica."
+      },
+      {
+        "numero": 39,
+        "titulo": "Receta Electrónica en Aragón: Arquitectura básica."
+      },
+      {
+        "numero": 40,
+        "titulo": "La Historia Clínica Electrónica de Aragón: Arquitectura básica."
+      }
+    ]
+  }
+]

@@ -283,7 +283,10 @@ principio; lo que se hace tema a tema es casos_practicos, con scripts
 - **Oficial Instalaciones Deportivas (tema-77 a tema-91, excluyendo
   tema-75 ya sembrado como parte de Mantenimiento General): completo —
   15/15 temas.**
-- Oficial Agente Inspector (tema-92 a tema-107): pendiente, 0/16.
+- **Oficial Agente Inspector (tema-92 a tema-107): completo — 16/16 temas**
+  (comprobado en BD el 12-11-2026: 3 casos por tema; tres casos tienen 9
+  preguntas en vez de 10, en tema-98, tema-101 y tema-103). Su glosario es
+  escaso: 1-2 términos por tema, frente a unos 6 en las Oficial X recientes.
 
 ## Estado actual del contenido (referencia rápida — puede quedar desactualizado, comprobar en BD si hay dudas)
 
@@ -1110,10 +1113,34 @@ flashcards...) más adelante. **Sin formularios de captación de email.**
   Ojo al extraer programas: algunos PDF pegan el número al texto («10.La…»)
   y `parse_programa` no lo separa; comprobar siempre que el recuento de
   temas cuadra.
-- **Lo que queda sin ficha** son categorías de 1 a 5 plazas (el
-  propietario decidió no priorizarlas) y el Salud/Educación. Siguiente paso
+- **Quinta tanda: Servicio Aragonés de Salud (89 fichas, 12-11-2026).**
+  Organismo nuevo `salud-aragon` ("Servicio Aragonés de Salud", abreviado
+  SALUD en `site.ts`); slug de oposición = `<puesto>-salud`. Una ficha por
+  categoría de personal estatutario con concurso-oposición por turno libre
+  publicada en el BOA entre 2023 y 2026 (la última de cada una; si acumula
+  plazas de otra anterior, se da el total y se enlazan las dos). Todo sale
+  de los PDF del BOA: `scripts/seed-fichas-salud.mjs` (cabecera con fuentes
+  y lagunas) + `scripts/data/fichas-salud.json` + un temario por slug; lo
+  común a todas (test de 100 preguntas −1/3, corte del 60 % de la media de
+  las 10 mejores, concurso de 100 puntos, nota 60/40) está en `SALUD` de
+  `sembrar-ficha.mjs`, comprobado en las 89. Fuera: los concursos de
+  «difícil cobertura» (sin examen ni temario) y las convocatorias solo de
+  promoción interna. Varias especialidades médicas (FEA) tienen como última
+  convocatoria la de diciembre de 2023. Las plazas de las ofertas de 2025 aún
+  sin convocar (Decreto 90/2025, Decreto 12/2026 extraordinario) no están.
+  Buscador del BOA por título, útil para repetirlo:
+  `boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VERLST&BASE=BOLE&DOCS=1-200&SEC=FIRMA&SORT=-PUBL&SEPARADOR=&TITU-C=<palabras>`.
+- **Agrupación en la home y en la página del organismo:** `src/lib/grupos.ts`
+  reparte las oposiciones del SALUD por tipo de puesto (enfermería, técnicos
+  sanitarios, medicina, gestión, servicios generales). **Al añadir una ficha
+  del SALUD, añade su `puestoSlug` a su grupo** (si no, sale en "Otras
+  categorías"). La home ordena los organismos por número de oposiciones con
+  material, así el SALUD (solo fichas) va el último.
+- **Lo que queda sin ficha** son categorías de 1 a 5 plazas de DGA/Ayto. (el
+  propietario decidió no priorizarlas) y Educación. Siguiente paso
   propuesto: empezar a meter material (test, flashcards) en las fichas de más
-  demanda.
+  demanda (SALUD: TCAE 425 plazas, Enfermería 528, Médico de Familia 259,
+  Auxiliar Administrativo 254, Celador 211).
 - Fuentes DGA útiles: buscador oficial de convocatorias
   `aplicaciones.aragon.es/oepc` (por categoría: plazas, plazo, tasa); los
   programas de funcionarios están en PDF sueltos de aragon.es enlazados en
@@ -1122,8 +1149,8 @@ flashcards...) más adelante. **Sin formularios de captación de email.**
   de las propias bases. El BOPZ publica cada número completo en texto en
   `bop.dpz.es/BOPZ/UploadServlet?ruta=Boletines\AAAA\NNN\bop.txt`
   (codificación Mac Roman) y cada edicto en `...\Edictos\bop_NNNN_AAAA.pdf`.
-- El Salud (SALUD) y Educación quedan fuera por ahora (decisión del
-  propietario, octubre 2026).
+- Educación queda fuera por ahora (decisión del propietario, octubre 2026).
+  El SALUD se incorporó en noviembre de 2026 (ver quinta tanda).
 
 Corrección hecha en esa sesión (`fix-tema-42-ivtm-obligatorio.mjs`):
 tema-42 (de las 16 "Oficial X") daba el IVTM como impuesto potestativo;

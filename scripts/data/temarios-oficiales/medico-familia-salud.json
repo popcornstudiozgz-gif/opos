@@ -1,0 +1,312 @@
+[
+  {
+    "bloque": "Materia común",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "Constitución Española de 1978. La protección de la salud en la Constitución."
+      },
+      {
+        "numero": 2,
+        "titulo": "Estatuto de Autonomía de Aragón. Competencias en salud recogidas en el Estatuto de Autonomía. Las Cortes de Aragón. El Gobierno de Aragón. Estructura y funciones. Estructura del Departamento de Sanidad."
+      },
+      {
+        "numero": 3,
+        "titulo": "Población, geografía y territorio en Aragón. Desequilibrios demográficos en Aragón. Magnitudes más relevantes de la economía aragonesa. Evolución reciente de la actividad económica en Aragón."
+      },
+      {
+        "numero": 4,
+        "titulo": "La igualdad de oportunidades entre mujeres y hombres en Aragón: Disposiciones generales. Prevención y Protección Integral a las Mujeres Víctimas de Violencia en Aragón: Disposiciones Generales. La identidad y expresión de género e igualdad social y no discriminación en la Comunidad Autónoma de Aragón: Disposiciones Generales. La diversidad cultural y lucha contra la discriminación: Principios y objetivos del Plan Integral para la Gestión de la Diversidad cultural vigente en Aragón."
+      },
+      {
+        "numero": 5,
+        "titulo": "Ley 14/1986 General de Sanidad. Ley 6/2002 de Salud de Aragón. Principios generales, estructura, contenidos. Ley 16/2003 de cohesión y calidad del Sistema Nacional de Salud. Principios generales, estructura, contenidos."
+      },
+      {
+        "numero": 6,
+        "titulo": "Ley 44/2003 de Ordenación de las Profesiones Sanitarias. Ámbito de aplicación, contenidos. Ley 41/2002, de 14 de noviembre, básica reguladora de la autonomía del paciente y de derechos y obligaciones en materia de información y documentación clínica."
+      },
+      {
+        "numero": 7,
+        "titulo": "El Procedimiento Administrativo Común de las Administraciones Públicas: Disposiciones Generales. Cómputo de plazos. Objeto y plazos de los recursos administrativos. El Régimen Jurídico del Sector Público: Disposiciones Generales. El régimen jurídico de la protección de datos de carácter personal. Disposiciones generales. Derechos de las personas."
+      },
+      {
+        "numero": 8,
+        "titulo": "El Estatuto Marco de personal Estatutario de los Servicios de Salud. Principios generales, estructura, contenidos. El reconocimiento del desarrollo profesional. Modelo de Carrera Profesional en Aragón. Normativa reguladora del Régimen de incompatibilidades del personal al servicio de las Administraciones Públicas."
+      },
+      {
+        "numero": 9,
+        "titulo": "Atención Primaria de Salud en Aragón: concepto, estructuras básicas. Organización y funcionamiento de un Equipo de Atención Primaria."
+      },
+      {
+        "numero": 10,
+        "titulo": "Historia clínica y sistemas de registro en Atención Primaria. Sistema de clasificación de enfermedades en Atención Primaria."
+      },
+      {
+        "numero": 11,
+        "titulo": "Evaluación de Tecnologías Sanitarias: Procedimientos de evaluación. Aplicación en la clínica. Práctica basada en la evidencia. Variabilidad en la práctica médica. Búsqueda y valoración de evidencias. Aplicación de las evidencias a la toma de decisiones clínicas."
+      },
+      {
+        "numero": 12,
+        "titulo": "Guías clínicas. Proyecto Guía-Salud."
+      },
+      {
+        "numero": 13,
+        "titulo": "Evaluación y mejora de la calidad. Modelos de Gestión de la Calidad. Diseño de un programa de calidad."
+      },
+      {
+        "numero": 14,
+        "titulo": "Principios fundamentales de la bioética: aplicación a la asistencia sanitaria. La relación médico-paciente, el consentimiento informado. Los comités de Bioética. La ética en la investigación clínica."
+      },
+      {
+        "numero": 15,
+        "titulo": "Ley Orgánica 3/2021, de 24 de marzo, de regulación de la eutanasia."
+      }
+    ]
+  },
+  {
+    "bloque": "Materia específica",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "Cartera de Servicios en Atención Primaria en Aragón. Aspectos conceptuales y metodológicos de evaluación. Coberturas. Normas Técnicas. Criterios de Inclusión."
+      },
+      {
+        "numero": 2,
+        "titulo": "Educación para la salud. Intervención educativa desde la consulta de Atención Primaria."
+      },
+      {
+        "numero": 3,
+        "titulo": "Promoción de salud y prevención de enfermedad en Atención Primaria. Conceptos. Criterios de priorización de programas y actividades. Cribados en Atención Primaria. Factores de riesgo. Estrategias e intervención sobre los factores de riesgo."
+      },
+      {
+        "numero": 4,
+        "titulo": "La comunicación en la consulta. La entrevista clínica."
+      },
+      {
+        "numero": 5,
+        "titulo": "Atención sanitaria a la mujer víctima de la violencia doméstica en Aragón. Detección e intervención en situaciones de maltrato infantil en Aragón."
+      },
+      {
+        "numero": 6,
+        "titulo": "Estrategia IRASPROA: Infecciones relacionadas con la asistencia sanitaria y optimización del uso de antibióticos."
+      },
+      {
+        "numero": 7,
+        "titulo": "Epidemiología y su aplicación en Atención Primaria. Epidemiología descriptiva: estudios, tasas e indicadores."
+      },
+      {
+        "numero": 8,
+        "titulo": "Epidemiología analítica. Estudio de cohortes: riesgo relativo, riesgo atribuible. Estudio de casos y controles: odds-ratio."
+      },
+      {
+        "numero": 9,
+        "titulo": "Estudios experimentales. Ensayos clínicos."
+      },
+      {
+        "numero": 10,
+        "titulo": "Validez de métodos diagnósticos: sensibilidad, especificidad, valor predictivo positivo."
+      },
+      {
+        "numero": 11,
+        "titulo": "Epidemiología de las enfermedades transmisibles. Prevención y control de los mecanismos de transmisión. Vigilancia e investigación epidemiológica. Enfermedades de Declaración Obligatoria en Aragón. Actuación frente a brotes epidemiológicos en Atención Primaria."
+      },
+      {
+        "numero": 12,
+        "titulo": "Epidemiología de las enfermedades crónicas. Intervención desde Atención Primaria."
+      },
+      {
+        "numero": 13,
+        "titulo": "Economía de la salud. Conceptos básicos de financiación, gestión y provisión de servicios sanitarios. Concepto de equidad, eficacia, efectividad y eficiencia. Evaluación económica."
+      },
+      {
+        "numero": 14,
+        "titulo": "Actividades administrativo-legales: receta médica, ingreso psiquiátrico, manejo de la incapacidad temporal, certificados médicos y documentos de interés judicial, atención al detenido, certificados de defunción."
+      },
+      {
+        "numero": 15,
+        "titulo": "Manejo racional de las pruebas diagnósticas en Atención Primaria."
+      },
+      {
+        "numero": 16,
+        "titulo": "Uso racional del medicamento. Criterios de selección de medicamentos. Equivalentes terapéuticos. Indicadores de calidad de prescripción."
+      },
+      {
+        "numero": 17,
+        "titulo": "La prescripción repetida. La cumplimentación. Problemas de terapia farmacológica. Uso de antibióticos en Atención Primaria. Uso de psicofármacos en Atención Primaria."
+      },
+      {
+        "numero": 18,
+        "titulo": "Interacciones medicamentosas. Fármacos en el embarazo y lactancia. Fármacos en situaciones especiales."
+      },
+      {
+        "numero": 19,
+        "titulo": "Vacunaciones en Atención Primaria. Calendario vacunal en Aragón y grupos de riesgo. Quimioprofilaxis."
+      },
+      {
+        "numero": 20,
+        "titulo": "Atención a la infancia y a la adolescencia. Actividades de prevención y promoción de la salud. Problemas de salud en la infancia y adolescencia."
+      },
+      {
+        "numero": 21,
+        "titulo": "Programa de Atención a la Mujer: embarazo, parto, puerperio, detección precoz cáncer ginecológico y de mama. Atención a la menopausia. Planificación familiar."
+      },
+      {
+        "numero": 22,
+        "titulo": "Programa de Atención al Adulto: educación en grupos, vacunaciones del adulto, atención al paciente crónico, detección de factores de riesgo."
+      },
+      {
+        "numero": 23,
+        "titulo": "Programa de Atención al Paciente Anciano: prevención y detención de problemas en el anciano."
+      },
+      {
+        "numero": 24,
+        "titulo": "Atención domiciliaria a pacientes inmovilizados y terminales. Programa de Atención a Enfermos Crónicos Dependientes en Aragón."
+      },
+      {
+        "numero": 25,
+        "titulo": "Valoración de riesgos laborales. Enfermedades profesionales."
+      },
+      {
+        "numero": 26,
+        "titulo": "Diagnóstico precoz del cáncer en Atención Primaria. Manejo del paciente oncológico en Atención Primaria. Control de síntomas y dolor."
+      },
+      {
+        "numero": 27,
+        "titulo": "Problemas alérgicos en Atención Primaria."
+      },
+      {
+        "numero": 28,
+        "titulo": "Síndrome febril. Orientación diagnóstica y terapéutica."
+      },
+      {
+        "numero": 29,
+        "titulo": "Abordaje clínico-terapéutico de las enfermedades infecciosas más frecuentes en Atención Primaria (infecciones respiratorias, infecciones urinarias e infecciones gastrointestinales)."
+      },
+      {
+        "numero": 30,
+        "titulo": "Antropozoonosis y parasitosis."
+      },
+      {
+        "numero": 31,
+        "titulo": "Hepatitis vírica. Prevención, diagnóstico y tratamiento."
+      },
+      {
+        "numero": 32,
+        "titulo": "Meningitis. Epidemiología, prevención y tratamiento. Actuación desde Atención Primaria."
+      },
+      {
+        "numero": 33,
+        "titulo": "Tuberculosis. Epidemiología, prevención y tratamiento. Actuación desde Atención Primaria."
+      },
+      {
+        "numero": 34,
+        "titulo": "Enfermedades de transmisión sexual. Actuaciones desde Atención Primaria."
+      },
+      {
+        "numero": 35,
+        "titulo": "Sospecha y diagnóstico de pacientes con VIH."
+      },
+      {
+        "numero": 36,
+        "titulo": "Clínica y terapéutica de los principales problemas cardiovasculares en Atención Primaria. Protocolo de prevención primaria de las enfermedades cardiovasculares en Aragón. Métodos diagnósticos. Interpretación electrocardiográfica en Atención Primaria."
+      },
+      {
+        "numero": 37,
+        "titulo": "Hipertensión arterial. Diagnóstico y tratamiento. Criterios de derivación."
+      },
+      {
+        "numero": 38,
+        "titulo": "Protocolo de atención al paciente con tratamiento con anticoagulación oral en Atención Primaria en Aragón."
+      },
+      {
+        "numero": 39,
+        "titulo": "Manejo del paciente en situación de urgencia. Reanimación cardiopulmonar. Orientación diagnóstica y terapéutica del dolor torácico. Código Infarto y Código Ictus."
+      },
+      {
+        "numero": 40,
+        "titulo": "Obesidad: prevención, complicaciones y tratamiento."
+      },
+      {
+        "numero": 41,
+        "titulo": "La diabetes en Atención Primaria: enfoque preventivo, clínico y terapéutico."
+      },
+      {
+        "numero": 42,
+        "titulo": "Patología tiroidea. Otras enfermedades endocrinas y metabólicas: su manejo en Atención Primaria."
+      },
+      {
+        "numero": 43,
+        "titulo": "Trastornos hidroelectrolíticos y del equilibrio ácido-base. Fluidoterapia en niños y adultos."
+      },
+      {
+        "numero": 44,
+        "titulo": "Diagnóstico y tratamiento de las hiperlipemias. Actividades preventivas. Control y seguimiento."
+      },
+      {
+        "numero": 45,
+        "titulo": "Orientación diagnóstica y terapéutica del dolor abdominal."
+      },
+      {
+        "numero": 46,
+        "titulo": "Clínica y terapéutica de los principales problemas del aparato digestivo en Atención Primaria. Métodos diagnósticos."
+      },
+      {
+        "numero": 47,
+        "titulo": "La enfermedad pulmonar obstructiva crónica en Atención Primaria. Asma bronquial. Educación sanitaria al paciente asmático. Otras enfermedades del aparato respiratorio. Métodos diagnósticos."
+      },
+      {
+        "numero": 48,
+        "titulo": "Protocolo de atención al paciente dependiente del tabaco en Aragón."
+      },
+      {
+        "numero": 49,
+        "titulo": "Clínica y terapéutica de los principales problemas de la función renal y de las vías urinarias en Atención Primaria. Métodos diagnósticos."
+      },
+      {
+        "numero": 50,
+        "titulo": "Clínica y terapéutica de los principales problemas obstétricos y ginecológicos en Atención Primaria."
+      },
+      {
+        "numero": 51,
+        "titulo": "Clínica y terapéutica de los principales problemas de los ojos en Atención Primaria."
+      },
+      {
+        "numero": 52,
+        "titulo": "Clínica y terapéutica de los principales problemas de cara, nariz, boca, garganta y oídos en Atención Primaria. Métodos diagnósticos."
+      },
+      {
+        "numero": 53,
+        "titulo": "Clínica y terapéutica de los principales problemas hematológicos en Atención Primaria. Métodos diagnósticos. Diagnóstico diferencial de las anemias. Sospecha de coagulopatías y su estudio. Inmunodeficiencias."
+      },
+      {
+        "numero": 54,
+        "titulo": "Clínica y terapéutica de los principales problemas de la piel en Atención Primaria."
+      },
+      {
+        "numero": 55,
+        "titulo": "La cirugía menor en Atención Primaria."
+      },
+      {
+        "numero": 56,
+        "titulo": "Clínica y terapéutica de los principales problemas del sistema nervioso en Atención Primaria. Métodos diagnósticos. Diagnóstico diferencial de mareos y cefaleas."
+      },
+      {
+        "numero": 57,
+        "titulo": "Clínica y terapéutica de los principales problemas músculo-esqueléticos en Atención Primaria. Métodos diagnósticos."
+      },
+      {
+        "numero": 58,
+        "titulo": "Clínica y terapéutica de los traumatismos, accidentes e intoxicaciones en Atención Primaria. Atención urgente."
+      },
+      {
+        "numero": 59,
+        "titulo": "Clínica y terapéutica de los principales problemas de la conducta y de la relación. Otros problemas de salud mental en Atención Primaria."
+      },
+      {
+        "numero": 60,
+        "titulo": "Conductas de riesgo adictivo. III Plan de Adicciones de la Comunidad Autonóma de Aragón 2018-2024."
+      }
+    ]
+  }
+]

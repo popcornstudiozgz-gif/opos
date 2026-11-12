@@ -1,0 +1,132 @@
+[
+  {
+    "bloque": "Materia común",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "La Constitución Española de 1978: Principios fundamentales. Derechos y deberes fundamentales de los ciudadanos. La protección a la salud en la Constitución."
+      },
+      {
+        "numero": 2,
+        "titulo": "La Corona. Las Cortes Generales. El Gobierno de la Nación. El Poder Judicial. Elaboración, aplicación e interpretación de las normas. Clases de normas y jerarquía normativa. Organización Territorial del Estado."
+      },
+      {
+        "numero": 3,
+        "titulo": "El Estatuto de Autonomía en Aragón. Principios informadores. Estructura y contenido. La organización institucional de la Comunidad Autónoma. Las Cortes y El Justicia de Aragón. Las competencias de la Comunidad de Aragón con especial referencia a las relativas a sanidad. Los órganos de gobierno y administración de la Comunidad Autónoma de Aragón. Estructura administrativa."
+      },
+      {
+        "numero": 4,
+        "titulo": "Población, geografía y territorio en Aragón. Desequilibrios demográficos en Aragón. Magnitudes más relevantes de la economía aragonesa. Evolución reciente de la actividad económica en Aragón."
+      },
+      {
+        "numero": 5,
+        "titulo": "La igualdad de oportunidades entre mujeres y hombres en Aragón: Disposiciones generales. Prevención y Protección Integral a las Mujeres Víctimas de Violencia en Aragón: Disposiciones Generales. La identidad y expresión de género e igualdad social y no discriminación en la Comunidad Autónoma de Aragón: Disposiciones Generales. La diversidad cultural y lucha contra la discriminación: Principios y objetivos del Plan Integral para la Gestión de la Diversidad de Aragón 2018 - 2021."
+      },
+      {
+        "numero": 6,
+        "titulo": "La Ley General de Sanidad: El sistema Nacional de Salud y los Servicios de Salud de las Comunidades Autónomas. El Área de Salud. La Ley de Salud de Aragón. Principios generales. Derecho y deberes de los ciudadanos. Derechos de información sobre la salud y autonomía del paciente."
+      },
+      {
+        "numero": 7,
+        "titulo": "El Departamento de Sanidad del Gobierno de Aragón. Estructura básica y competencias. El Servicio Aragonés de Salud: Estructura y competencias. Estructura y funcionamiento de las áreas y sectores del Sistema de Salud de Aragón."
+      },
+      {
+        "numero": 8,
+        "titulo": "El Procedimiento Administrativo Común de las Administraciones Públicas. Ámbito de aplicación y principios generales. Los interesados en el procedimiento administrativo. Computo de plazos. Revisión de actos en vía administrativa: revisión de oficio y recursos administrativos."
+      },
+      {
+        "numero": 9,
+        "titulo": "Personal Estatutario de los Servicios de Salud: Clasificación del personal estatutario. Derechos y Deberes. Adquisición y pérdida de la condición de personal estatutario. Provisión de plazas, selección y promoción interna. Movilidad del personal. Situación. Régimen disciplinario. Incompatibilidades. El texto refundido de la Ley del Estatuto Básico del Empleado Público, aprobado por el Real Decreto Legislativo 5/2015: Deberes del empleado público y código de conducta. Representación, participación y negociación colectiva."
+      },
+      {
+        "numero": 10,
+        "titulo": "Ley de Prevención de Riesgos Laborales: Conceptos básicos. Derechos y obligaciones en materia de seguridad en el trabajo. Organización de la prevención de riesgos laborales en el Departamento de Sanidad: Unidad Central y Unidades Básicas de Prevención."
+      }
+    ]
+  },
+  {
+    "bloque": "Materia específica",
+    "temas": [
+      {
+        "numero": 11,
+        "titulo": "El Servicio de Farmacia Hospitalaria. Concepto General. Áreas o zonas que lo integran. Funciones y personal del Servicio de Farmacia."
+      },
+      {
+        "numero": 12,
+        "titulo": "Legislación farmacéutica y de relación con la asistencia del paciente. Ley de garantías y uso racional del medicamento y de productos sanitarios. Ley de Ordenación Farmacéutica para Aragón: Servicios de Farmacia y depósitos de medicamentos en los hospitales, Centros Sociosanitarios y penitenciarios. El régimen jurídico de la protección de datos de carácter personal: Objeto y ámbito de aplicación. Principios de la protección datos. Derechos de las personas. Ejercicio de los derechos. El Delegado de Protección de Datos."
+      },
+      {
+        "numero": 13,
+        "titulo": "Autonomía del paciente y derechos y obligaciones en materia de información y documentación clínica. La Ley 41/2002, de 14 de noviembre, básica reguladora de la autonomía del paciente y de derechos y obligaciones en materia de información y documentación clínica. Documentación de uso en el servicio de farmacia: Ordenes hospitalarias de dispensación."
+      },
+      {
+        "numero": 14,
+        "titulo": "Funciones del personal técnico de farmacia en los servicios de farmacia de las instituciones sanitarias del Servicio Aragonés de Salud. Legislación vigente"
+      },
+      {
+        "numero": 15,
+        "titulo": "Medicamentos: definiciones y tipos. Clasificación anatómica: Definiciones y tipos. Medicamento Uso hospitalario. Medicamento de diagnóstico hospitalario. Medicamentos genéricos y biosimilares. Uso de medicamentos en situaciones especiales: medicamentos extranjeros, uso fuera de ficha técnica y uso compasivo. Medicamentos estupefacientes y psicótropos. Muestras para investigación clínica. Aplicaciones informáticas para consulta de bases de datos de medicamentos."
+      },
+      {
+        "numero": 16,
+        "titulo": "Farmacodinamia y farmacocinética: acción farmacológica de los medicamentos. Factores que modifican la acción farmacológica. Concepto de farmacocinética: Procesos LADME: liberación, absorción, distribución, metabolismo, excreción"
+      },
+      {
+        "numero": 17,
+        "titulo": "Acondicionamiento de los medicamentos: conceptos generales. Material de acondicionamiento. Siglas y símbolos del acondicionamiento. Control de calidad del material de acondicionamiento. Legislación sobre material de acondicionamiento. Trazabilidad: procedimientos antifalsificación."
+      },
+      {
+        "numero": 18,
+        "titulo": "Formas farmacéuticas y vías de administración de los medicamentos: conceptos generales. Vías de administración de medicamentos. Formas farmacéuticas según la vía de administración."
+      },
+      {
+        "numero": 19,
+        "titulo": "Recepción del medicamento en el Servicio de Farmacia. Organización del almacén de farmacia. Sistemas de almacenamiento manual y robotizado. Ordenación de los productos, Gestión de existencias. Control de caducidades. Procedimiento de devolución de productos caducados conforme a la normativa. Retirada de productos por alerta sanitaria."
+      },
+      {
+        "numero": 20,
+        "titulo": "Sistemas de distribución de medicamentos en el hospital: reposiciones de botiquines, sistemas de dispensación de medicamentos en dosis unitarias, Sistemas de dispensación de medicamentos automatizada. Reenvasado de medicamentos: procedimiento y tipos."
+      },
+      {
+        "numero": 21,
+        "titulo": "Medicamentos de ensayo clínico. Concepto, circuitos especiales y legislación."
+      },
+      {
+        "numero": 22,
+        "titulo": "Operaciones farmacéuticas básicas. Conceptos fisicoquímicos básicos y aplicación en el laboratorio de farmacia. Magnitudes y unidades de medida: masa, tiempo, temperatura, volumen, presión, densidad, viscosidad y pH."
+      },
+      {
+        "numero": 23,
+        "titulo": "Formulación magistral y preparados oficinales. Normas de correcta elaboración y control. Abreviaturas utilizadas en formulación magistral. Materias primas. Material de laboratorio. Excipientes de uso más frecuente en farmacia galénica. Ensayos para el reconocimiento y control de calidad de materias primas y de producto acabado. Envasado y etiquetado. Procedimiento normalizado de trabajo (PNT). Identificación, conservación y registro de fórmulas magistrales."
+      },
+      {
+        "numero": 24,
+        "titulo": "Fármacos citotóxicos. Quimioterapia: definición y características. Características de la zona de preparación. Sala Blanca. Campanas de flujo laminar. Tipos. Limpieza y desinfección. Sistemas para administración por bomba de perfusión; infusores, descripción y funcionamiento"
+      },
+      {
+        "numero": 25,
+        "titulo": "Medicamentos peligrosos: definición y características. Características de la zona y sistemas de preparación de medicamentos peligrosos. Equipos de protección personal. Manipulación de medicamentos peligrosos para administración vía parenteral y oral. Gestión de residuos peligrosos. Actuación ante exposiciones a medicamentos peligrosos."
+      },
+      {
+        "numero": 26,
+        "titulo": "Seguridad en el uso del medicamento. Efectos secundarios, contraindicaciones, interacciones farmacológicas, alergias. Errores de medicamentos y su prevención. Medicamentos de alto riesgo y su uso en Centros hospitalarios. Notificación tarjeta amarilla. Sistema de Notificación y Aprendizaje para la Seguridad del Paciente (SiNASP)."
+      },
+      {
+        "numero": 27,
+        "titulo": "Nutrición parenteral(NP): Tipos. Componentes de la NP. Material para la elaboración. Condiciones de elaboración y conservación. Nutrición enteral: tipos."
+      },
+      {
+        "numero": 28,
+        "titulo": "Atención a Pacientes externos. Patologías más frecuentes atendidas en la unidad. Circuitos de dispensación y requisitos."
+      },
+      {
+        "numero": 29,
+        "titulo": "Indicadores de calidad. Ciclo de mejora continua. Sistemas de Calidad en los Servicios de Farmacia. Norma ISO 9001/2015. Conceptos: análisis de riesgos. planes de contingencia."
+      },
+      {
+        "numero": 30,
+        "titulo": "Productos sanitarios: Conceptos generales y clasificación. Antisépticos de uso humano y desinfectantes."
+      }
+    ]
+  }
+]

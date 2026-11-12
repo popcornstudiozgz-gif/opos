@@ -1,0 +1,212 @@
+[
+  {
+    "bloque": "Materia común",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "La Constitución Española de 1978: Principios fundamentales. Derechos y deberes fundamentales de los ciudadanos. La protección a la salud en la Constitución. La Corona. Las Cortes Generales. El Gobierno de la Nación. El Poder Judicial."
+      },
+      {
+        "numero": 2,
+        "titulo": "El Estatuto de Autonomía en Aragón. Principios informadores. Estructura y contenido. La organización institucional de la Comunidad Autónoma. Las Cortes y el Justicia de Aragón. Las competencias de la Comunidad de Aragón con especial referencia a las relativas a sanidad."
+      },
+      {
+        "numero": 3,
+        "titulo": "Población, geografía y territorio en Aragón. Desequilibrios demográficos en Aragón. Despoblación: causas y consecuencias."
+      },
+      {
+        "numero": 4,
+        "titulo": "La igualdad de oportunidades entre mujeres y hombres en Aragón: Disposiciones generales. Prevención y Protección Integral a las Mujeres Víctimas de Violencia en Aragón: Disposiciones Generales. La identidad y expresión de género e igualdad social y no discriminación en la Comunidad Autónoma de Aragón: Disposiciones Generales. La diversidad cultural y lucha contra la discriminación: Principios y objetivos del Plan Integral para la Gestión de la Diversidad vigente en Aragón."
+      },
+      {
+        "numero": 5,
+        "titulo": "Estructura y competencias del Departamento de Sanidad. Estructura y competencias del Servicio Aragonés de Salud. Decreto Legislativo 2/2004, de 30 de diciembre, Texto Refundido de la Ley del Servicio Aragonés de Salud. Estructura y funcionamiento de las áreas y sectores del Sistema de Salud de Aragón."
+      },
+      {
+        "numero": 6,
+        "titulo": "La Ley 14/1986, de 25 de abril, General de Sanidad: El Sistema Nacional de Salud y los Servicios de Salud de las Comunidades Autónomas. El Área de Salud. La Ley 6/2002, de 15 de abril, de Salud de Aragón. Principios generales. Derechos y deberes de los ciudadanos. Derechos de información sobre la salud y autonomía del paciente."
+      },
+      {
+        "numero": 7,
+        "titulo": "El Procedimiento Administrativo Común de las Administraciones Públicas: Disposiciones Generales. Computo de plazos. Objeto y plazos de los recursos administrativos. El Régimen Jurídico del Sector Público: Disposiciones generales, principios de actuación y funcionamiento del sector público. El régimen jurídico de la protección de datos de carácter personal: Objeto y ámbito de aplicación. Principios de la protección datos. Derechos de las personas. Ejercicio de los derechos."
+      },
+      {
+        "numero": 8,
+        "titulo": "Personal Estatutario de los Servicios de Salud (I). Clasificación del Personal Estatutario. Derechos y Deberes. Adquisición y pérdida de la condición de personal estatutario. Provisión de plazas, selección y promoción interna. Movilidad del personal."
+      },
+      {
+        "numero": 9,
+        "titulo": "Personal Estatutario de los Servicios de Salud (II): Retribuciones. Jornada de trabajo, permisos y licencias. Situaciones del personal estatutario. Régimen disciplinario. Régimen de Incompatibilidades: Principios generales. Ámbito de aplicación."
+      },
+      {
+        "numero": 10,
+        "titulo": "Ley de Prevención de Riesgos Laborales: conceptos básicos. Derechos y obligaciones en materia de seguridad en el trabajo. Organización de la prevención de riesgos laborales en el Departamento de Sanidad: Unidad Central y Unidades Básicas de Prevención."
+      }
+    ]
+  },
+  {
+    "bloque": "Materia específica",
+    "temas": [
+      {
+        "numero": 11,
+        "titulo": "Riesgos derivados del manejo de sustancias y aparataje en el Servicio de Radioterapia. Enfermedades profesionales."
+      },
+      {
+        "numero": 12,
+        "titulo": "Calidad en el Sistema Sanitario: Métodos de evaluación. Tendencias actuales en la evaluación de la calidad."
+      },
+      {
+        "numero": 13,
+        "titulo": "Responsabilidad civil del personal sanitario. Aspectos éticos del trabajo del Técnico Especialista en Radioterapia. Confidencialidad de la información."
+      },
+      {
+        "numero": 14,
+        "titulo": "Gestión de residuos sanitarios: clasificación, transporte, eliminación y tratamiento."
+      },
+      {
+        "numero": 15,
+        "titulo": "Epidemiología de las enfermedades transmisibles. Infección nosocomial: barreras higiénicas. Consecuencias de las infecciones nosocomiales."
+      },
+      {
+        "numero": 16,
+        "titulo": "Estructura atómica de la materia: moléculas y átomos, estructura de los átomos, excitación e ionización atómicas, elementos y núclidos. Unidades atómicas de energía, masa y carga."
+      },
+      {
+        "numero": 17,
+        "titulo": "Concepto de radiación y su naturaleza. Intensidad de la radiación, fluencia. Energía de la radiación: formas de expresión y unidades. Radiaciones ionizantes y no ionizantes. Espectro electromagnético."
+      },
+      {
+        "numero": 18,
+        "titulo": "Radiactividad: radionúclidos, tipos de emisión radiactiva. Leyes y parámetros de desexcitación radiactiva. Familias radiactivas. Reacciones nucleares. Producción de radionúclidos artificiales."
+      },
+      {
+        "numero": 19,
+        "titulo": "Consecuencias de la interacción de los electrones fuertemente acelerados con la materia. Radiación de frenado y radiación característica. Haces de electrones. Tubos de Rayos X para diagnóstico: componentes, fundamento de su funcionamiento y características de la radiación producida."
+      },
+      {
+        "numero": 20,
+        "titulo": "Fundamentos de la producción de haces de Rayos X y de haces de electrones para terapia. Aceleradores lineales de electrones: componentes principales, mecanismos de producción y de control de las características físicas del haz."
+      },
+      {
+        "numero": 21,
+        "titulo": "Características generales de las fuentes radiactivas de uso terapéutico. Importancia de los diferentes parámetros característicos de la emisión: tipo de emisión, espectro energético, intensidad y periodo de semidesexcitación."
+      },
+      {
+        "numero": 22,
+        "titulo": "Efectos de las radiaciones ionizantes útiles para su detección. Alteración de la conductividad eléctrica del medio. Cesión de energía térmica. Fluorescencia. Impresión de películas sensibles. Ionización. Termoluminiscencia. Concepto de transducción y transductores. Detectores."
+      },
+      {
+        "numero": 23,
+        "titulo": "Detección y medida. Características de los sistemas de de detección y medida de la radiación. Sensibilidad. Exactitud. Precisión. Tiempo de repuesta. Linealidad. Resolución temporal y energética. Versatilidad. Formatos. Calibración y verificación de detectores."
+      },
+      {
+        "numero": 24,
+        "titulo": "Magnitudes y unidades radiológicas. Fluencia. Exposición y tasa de exposición. Dosis absorbida y tasa de dosis absorbida. Dosis equivalente y tasa de dosis equivalente. Magnitudes de interés en dosimetría del paciente. Magnitudes de interés en protección radiológica."
+      },
+      {
+        "numero": 25,
+        "titulo": "Concepto de dosimetría física de la radiación. Detectores empleados. Sistemas para la dosimetría y procedimientos. Dosimetría relativa y absoluta. Procesado de películas radiográficas. Otros detectores y equipos para dosimetría física."
+      },
+      {
+        "numero": 26,
+        "titulo": "Atenuación de la radiación: absorción y dispersión. Absorción de la radiación por la materia viva. Factores que influyen en la absorción de energía. Consecuencias de dicha absorción. Concepto de radiobiología. Efectos a nivel molecular y celular. Respuesta celular y radiosensibilidad."
+      },
+      {
+        "numero": 27,
+        "titulo": "Características de los efectos de la radiación sobre la materia viva. Tipos de efectos. Efectos somáticos y efectos genéticos. Clasificación de las dosis según el efecto. El síndrome de irradiación aguda."
+      },
+      {
+        "numero": 28,
+        "titulo": "Fundamentos radiobiológicos del tratamiento con radiaciones. Poder destructivo del aporte energético de la radiación. Respuesta de tejidos y órganos. Respuesta de malformaciones y neoplasias."
+      },
+      {
+        "numero": 29,
+        "titulo": "Concepto y objetivo de la radioterapia. Etapas del tratamiento con radiaciones ionizantes: simulación, planificación, ejecución, verificaciones. Documentación y registro del tratamiento, responsabilidades del Técnico Especialista."
+      },
+      {
+        "numero": 30,
+        "titulo": "Tipos de tratamiento con radiaciones ionizantes: según la fuente de radiación, la posición relativa fuente-paciente, la técnica empleada y los objetivos clínicos. Sumación de técnicas y de tratamientos."
+      },
+      {
+        "numero": 31,
+        "titulo": "Teleterapia con radionúclidos. Características físicas y geométricas de la fuente. Características de los equipos y de los haces de radiación disponibles. Sistemas de confinamiento de la fuente y de colimación y de conformación de los haces disponibles. Dosimetría de las Unidades de Cobaltoterapia."
+      },
+      {
+        "numero": 32,
+        "titulo": "Teleterapia con aceleradores lineales. Movimientos de la cabeza. Diferencias de absorción entre fotones y electrones, y entre haces de diferente energía. Bolus y otros compensadores."
+      },
+      {
+        "numero": 33,
+        "titulo": "Teleterapia con aceleradores. Modificadores del haz: cuñas físicas, motorizadas y dinámicas. sistemas de colimación y conformación del haz: colimadores, bloques y multiláminas. El taller de moldes."
+      },
+      {
+        "numero": 34,
+        "titulo": "La mesa de tratamiento en radioterapia externa: función, requisitos, características y movimientos fundamentales. Otros sistemas, formas y elementos de inmovilización del paciente."
+      },
+      {
+        "numero": 35,
+        "titulo": "El puesto de control de una unidad de teleterapia: organización, características de los controles de la unidad emisora de radiación, vigilancia del paciente, unidades monitor."
+      },
+      {
+        "numero": 36,
+        "titulo": "Simulación. Diferentes técnicas de adquisición de imágenes. Métodos de posicionamiento del paciente. Requisitos del estudio tomográfico: número y características de los cortes, marcas fiduciales. Simulación virtual. Fusión de imágenes."
+      },
+      {
+        "numero": 37,
+        "titulo": "Planificación de tratamientos: punto ICRU, concepto de GTV, CTV y PTV, isodosis de prescripción, histograma dosis-volumen, imágenes digitalmente reconstruidas."
+      },
+      {
+        "numero": 38,
+        "titulo": "Técnicas de tratamiento: isocéntrico, a distancia fuente superficie constante, campos no coplanares, hemicampos, macheado de campos."
+      },
+      {
+        "numero": 39,
+        "titulo": "Posicionamiento del paciente y verificación. Marcas de referencia. Láseres. Detectores de imagen: película radiográfica, imagen portal. Procesado de placas e imágenes. Dosimetría “in vivo”."
+      },
+      {
+        "numero": 40,
+        "titulo": "Técnicas especiales: irradiación corporal total, ducha de electrones, radiocirugía, radioterapia esterotáxica, radioterapia intraoperatoria. Imrt, igrt, irradiación de productos sanguíneos"
+      },
+      {
+        "numero": 41,
+        "titulo": "Braquiterapia con fuentes de un solo uso. Técnicas y fuentes más frecuentes. Control del tratamiento, del paciente y de calidad de la los procedimientos y del equipamiento. Gestión del material radiactivo y de los residuos."
+      },
+      {
+        "numero": 42,
+        "titulo": "Braquiterapia de baja tasa, de alta tasa y pulsada. Características de las instalaciones. Sistemas de control de los equipos y del tratamiento. Procedimientos de cambio de fuentes. El puesto de control."
+      },
+      {
+        "numero": 43,
+        "titulo": "Garantía de calidad en radioterapia: Objetivos. Justificación. Normativa. Comisión de calidad y Programa de Garantía de Calidad. Criterios de calidad en las diferentes etapas clínicas. El papel del Técnico Especialista. La hoja de tratamiento."
+      },
+      {
+        "numero": 44,
+        "titulo": "Control de calidad radiofísico en radioterapia. Principales verificaciones y controles sobre las unidades de telerradioterapia y de braquiterapia: pruebas de aceptación, de referencia, de estado y sistemáticas. Periodicidad, tolerancias, registros y responsabilidades. El papel del Técnico Especialista."
+      },
+      {
+        "numero": 45,
+        "titulo": "Anatomía topográfica y anatomía radiológica. Tumores más comúnmente tratados con radioterapia externa: técnicas de localización, delimitación de volúmenes y órganos de riesgo. Efectos agudos de la irradiación. Tratamientos urgentes."
+      },
+      {
+        "numero": 46,
+        "titulo": "Protección Radiológica: concepto, objetivos y principios. El sistema de limitación de dosis. Organismos nacionales e internacionales. Factores físicos que afectan directamente a la exposición."
+      },
+      {
+        "numero": 47,
+        "titulo": "Riesgos derivados del uso terapéutico de las radiaciones ionizantes. Producción de neutrones. Clasificación y señalización de los lugares de trabajo. Clasificación de las personas. Vigilancia radiológica y vigilancia médica. Medidas de protección. Blindajes biológicos."
+      },
+      {
+        "numero": 48,
+        "titulo": "Gestión de instalaciones y de personal: clasificación, autorización de instalaciones radiactivas, declaración y registro de instalaciones de radiodiagnóstico, requisitos del personal, licencias y acreditaciones. Documentación de una instalación de terapia con radiaciones ionizantes: reglamento de funcionamiento y plan de emergencia. El diario de operación. Registros."
+      },
+      {
+        "numero": 49,
+        "titulo": "Procedimientos de Protección Radiológica. El manual de protección radiológica. Organigrama de responsabilidades. El Servicio o la Unidad Técnica de Protección Radiológica. Auditorías e inspecciones. Régimen sancionador."
+      },
+      {
+        "numero": 50,
+        "titulo": "Metodología de investigación: Técnicas cualitativas y cuantitativas. Fuentes de datos. Estudios descriptivos y analíticos. Estudios de proceso y resultado. El papel del Técnico Especialista."
+      }
+    ]
+  }
+]

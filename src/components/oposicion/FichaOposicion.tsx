@@ -190,7 +190,7 @@ function preguntasFrecuentes(oposicion: Oposicion, convocatoria: Convocatoria | 
     const desglose = convocatoria.desglosePlazas.map((d) => `${d.cantidad} de ${d.turno.toLowerCase()}`).join(", ");
     faq.push({
       pregunta: `¿Cuántas plazas hay de ${quien}?`,
-      respuesta: `${convocatoria.plazasTotal} plazas en la ${convocatoria.numero}${desglose ? `: ${desglose}` : ""}.`,
+      respuesta: `${convocatoria.plazasTotal} ${convocatoria.plazasTotal === 1 ? "plaza" : "plazas"} en la convocatoria ${convocatoria.numero}${desglose ? `: ${desglose}` : ""}.`,
     });
     faq.push({
       pregunta: "¿Qué titulación se pide?",

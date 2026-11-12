@@ -1,0 +1,332 @@
+[
+  {
+    "bloque": "Materia común",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "Constitución Española de 1978: la protección de la salud en la Constitución. Estatuto de Autonomía de Aragón. Competencias en salud recogidas en el Estatuto de Autonomía. Las Cortes de Aragón. El Gobierno de Aragón."
+      },
+      {
+        "numero": 2,
+        "titulo": "El texto refundido de la Ley del Estatuto Básico del Empleado Público, aprobado por el Real Decreto Legislativo 5/2015: deberes del empleado público y código de conducta. Representación, participación y negociación colectiva."
+      },
+      {
+        "numero": 3,
+        "titulo": "El régimen jurídico de la protección de datos de carácter personal: Disposiciones generales. Derechos de las personas."
+      },
+      {
+        "numero": 4,
+        "titulo": "El Procedimiento Administrativo Común de las Administraciones Públicas: Disposiciones generales. Cómputo de plazos. Objeto y plazos de los recursos administrativos. El Régimen Jurídico del Sector Público: Disposiciones generales."
+      },
+      {
+        "numero": 5,
+        "titulo": "Ley 14/1986, de 25 de abril, General de Sanidad. Ley 6/2002, de 15 de abril, de Salud de Aragón. Principios generales, estructura, contenidos. Ley 16/2003, de 28 de mayo, de cohesión y calidad del Sistema Nacional de Salud. Principios generales, estructura, contenidos."
+      },
+      {
+        "numero": 6,
+        "titulo": "Ley 44/2003, de 21 de noviembre, de ordenación de las profesiones sanitarias. Ámbito de aplicación, contenidos. Ley 41/2002, de 14 de noviembre, básica reguladora de la autonomía del paciente y de derechos y obligaciones en materia de información y documentación clínica. Ley 9/2013, de 28 de noviembre, de Autoridad de Profesionales del Sistema Sanitario y de Servicios Sociales Públicos de Aragón."
+      },
+      {
+        "numero": 7,
+        "titulo": "Ley 55/2003 del Estatuto Marco de personal estatutario de los servicios de salud (I). Principios generales, estructura, contenidos. Clasificación del personal estatutario. Derechos y deberes. Adquisición y pérdida de la condición de personal estatutario. Provisión de plazas, selección y promoción interna. Movilidad del personal."
+      },
+      {
+        "numero": 8,
+        "titulo": "Ley 55/2003 del Estatuto Marco de personal estatutario de los servicios de salud (II). Retribuciones. Jornada de trabajo, permisos y licencias. Situaciones del personal estatutario. Régimen disciplinario. Modelo de carrera profesional en Aragón. Ley 53/1984 de 26 de diciembre, de incompatibilidades. Principios generales. Ámbito de aplicación."
+      },
+      {
+        "numero": 9,
+        "titulo": "La igualdad de oportunidades entre mujeres y hombres en Aragón: Disposiciones generales. Prevención y Protección Integral a las Mujeres Víctimas de Violencia en Aragón: Disposiciones Generales. La identidad y expresión de género e igualdad social y no discriminación en la Comunidad Autónoma de Aragón: Disposiciones generales. La diversidad cultural y lucha contra la discriminación: Principios y objetivos del Plan integral para la gestión de la diversidad vigente en Aragón."
+      },
+      {
+        "numero": 10,
+        "titulo": "El sistema sanitario. Niveles asistenciales. Organización de los servicios sanitarios en Aragón. Estructura del Departamento de Sanidad de Aragón y del Servicio Aragonés de la Salud. Los Sectores sanitarios."
+      },
+      {
+        "numero": 11,
+        "titulo": "Metodología de la Investigación: El método científico. Diseño de un proyecto de investigación. Estadística aplicada a los estudios de Medicina."
+      },
+      {
+        "numero": 12,
+        "titulo": "El método epidemiológico. Epidemiología descriptiva: tipos de estudios, tasas e indicadores. Epidemiología analítica: tipos de estudios. Riesgo relativo, riesgo atribuible y Odds Ratio. Sesgos."
+      },
+      {
+        "numero": 13,
+        "titulo": "Estudios experimentales. Ensayos clínicos. Ética de la investigación clínica. Validez de métodos diagnósticos: sensibilidad, especificidad, valor predictivo positivo."
+      },
+      {
+        "numero": 14,
+        "titulo": "Evaluación de tecnologías sanitarias: Procedimientos de evaluación. Cartera de Servicios del Sistema Nacional de Salud. Procedimiento de actualización de la Cartera de Servicios del sistema de Salud de Aragón."
+      },
+      {
+        "numero": 15,
+        "titulo": "Práctica basada en la evidencia. Variabilidad en la práctica médica. Búsqueda y valoración de evidencias. Aplicación de las evidencias a la toma de decisiones clínicas. Guías clínicas. Proyecto Guía-Salud."
+      },
+      {
+        "numero": 16,
+        "titulo": "La seguridad del paciente. Gestión de riesgos. Principales problemas para la seguridad del paciente en el hospital. Estrategias para la mejora de la seguridad."
+      },
+      {
+        "numero": 17,
+        "titulo": "Uso racional del medicamento. Criterios de selección de medicamentos. Equivalentes terapéuticos. Indicadores de calidad de prescripción."
+      },
+      {
+        "numero": 18,
+        "titulo": "Evaluación y mejora de la calidad. Modelos de gestión de la calidad. Diseño de un programa de calidad."
+      },
+      {
+        "numero": 19,
+        "titulo": "Principios fundamentales de la bioética: aplicación a la asistencia sanitaria. La relación médico-paciente, el consentimiento informado. Los comités de Bioética. La ética en la investigación clínica."
+      },
+      {
+        "numero": 20,
+        "titulo": "Gobierno clínico. La implicación de los profesionales en el funcionamiento de las instituciones sanitarias."
+      }
+    ]
+  },
+  {
+    "bloque": "Materia específica",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "Bases físicas de la Medicina Nuclear. La estructura de la materia. Radiactividad. Interacción de la radiación con la materia. Principios básicos de formación de imágenes no nucleares."
+      },
+      {
+        "numero": 2,
+        "titulo": "Instrumentación en Medicina Nuclear (I). Principios de detección de la radiación. Gammacámara. Tomografía de emisión de fotón único (SPECT). Tomografía de emisión de positrones (PET). Densitometría. Colimadores. Electrónica. Producción y display de imágenes. Manipulación de imágenes."
+      },
+      {
+        "numero": 3,
+        "titulo": "Instrumentación en Medicina Nuclear (II). Detectores sin producción de imagen. Contador de cuerpo completo. Contador de pozo. Sonda detectora. Contador de centelleo líquido. Monitores de radiación. Activímetro. Sonda quirúrgica gamma y beta."
+      },
+      {
+        "numero": 4,
+        "titulo": "Control de calidad en Medicina Nuclear. Real Decreto 1841/1997: Uniformidad de campo. Resolución espacial. Linealidad. Sensibilidad. Corrección por centro de rotación. Corrección por uniformidad. Control de calidad tomógrafos PET. Control de calidad activímetro."
+      },
+      {
+        "numero": 5,
+        "titulo": "Informática en Medicina Nuclear. Aspectos básicos. PACS. HIS. RIS."
+      },
+      {
+        "numero": 6,
+        "titulo": "Radiobiología. Efectos biológicos de las radiaciones: determinísticos y estocásticos. Naturaleza y absorción de radiaciones ionizantes. Cambios químicos y moleculares inducidos por radiaciones. Efectos genéticos. Efectos sobre embrión y feto. Efectos tardíos. Carcinogénesis."
+      },
+      {
+        "numero": 7,
+        "titulo": "Protección radiológica en Medicina Nuclear. Unidades de radiación. Dosimetría. Normativa: Límites de exposición. Manejo de pacientes radiactivos. Manejo de residuos radiactivos."
+      },
+      {
+        "numero": 8,
+        "titulo": "Radionúclidos y radiofármacos. Producción de radionúclidos: reactores nucleares. Ciclotrones. Aceleradores de partículas. Generadores de radionúclidos."
+      },
+      {
+        "numero": 9,
+        "titulo": "Radioquímica y radiofarmacia del Tecnecio. Radioquímica y radiofarmacia de compuestos no tecneciados."
+      },
+      {
+        "numero": 10,
+        "titulo": "Marcaje de células con radionúclidos."
+      },
+      {
+        "numero": 11,
+        "titulo": "Radioquímica y radiofarmacia de radiofármacos PET."
+      },
+      {
+        "numero": 12,
+        "titulo": "Modelos matemáticos de los sistemas fisiológicos. Fisiología y farmacocinética de los radiofármacos. Control de calidad de radiofármacos. Pureza radionucleica. Pureza radioquímica. Pureza química. Control de calidad biológica: esterilidad. Apirogenicidad."
+      },
+      {
+        "numero": 13,
+        "titulo": "Evaluación e impacto de los tests diagnósticos en Medicina Nuclear. Teorema de Bayes. Rendimiento de los tests en el diagnóstico. Efectividad de los procedimientos terapéuticos."
+      },
+      {
+        "numero": 14,
+        "titulo": "Angiogammagrafía cerebral. Gammagrafía de perfusión cerebral basal. Modificaciones inducidas por fármacos. Semiología y aplicaciones clínicas."
+      },
+      {
+        "numero": 15,
+        "titulo": "Estudio de la dinámica del LCR: cisternogammagrafía. Estudio de las fístulas de LCR. Semiología y aplicaciones clínicas."
+      },
+      {
+        "numero": 16,
+        "titulo": "Tomogammagrafía cerebral (SPECT) en demencias, epilepsias, trastornos del movimiento y tumores cerebrales."
+      },
+      {
+        "numero": 17,
+        "titulo": "Aplicaciones de PET-CT en Neurología."
+      },
+      {
+        "numero": 18,
+        "titulo": "Estudio funcional y gammagráfico de tiroides. Trazadores. Semiología y aplicaciones clínicas. Indicaciones actuales de la gammagrafía tiroidea"
+      },
+      {
+        "numero": 19,
+        "titulo": "Diagnóstico del bocio nodular. Nódulos fríos, isocaptantes y calientes. Bocio endotorácico y ectopias. Semiología según diferentes trazadores. Aplicaciones clínicas."
+      },
+      {
+        "numero": 20,
+        "titulo": "Tratamiento del hipertiroidismo con 131Iodo."
+      },
+      {
+        "numero": 21,
+        "titulo": "Estudio y seguimiento del cáncer diferenciado de tiroides. Estudio y seguimiento del cáncer medular de tiroides. Papel de la PET en el seguimiento del cáncer diferenciado de tiroides. Tratamiento del cáncer diferenciado de tiroides con 131Iodo. Ablación en el cáncer de tiroides: concepto, metodología. Tratamiento de las metástasis del cáncer diferenciado de tiroides."
+      },
+      {
+        "numero": 22,
+        "titulo": "Diagnóstico del hiperparatiroidismo. Gammagrafía de paratiroides. Metodología, semiología y aplicaciones clínicas. Estudios gammagráficos preoperatorios e intraoperatorios de paratiroides."
+      },
+      {
+        "numero": 23,
+        "titulo": "Gammagrafía suprarrenal cortical: Aplicaciones a la clínica del síndrome de Cushing, al hiperaldosteronismo, al hiperandrogenismo y al incidentaloma."
+      },
+      {
+        "numero": 24,
+        "titulo": "Gammagrafía con metayodobencilguanidina (MIBG). Procedimiento de la exploración, hallazgos gammagráficos, aplicaciones clínicas. Tratamiento con MIBG I131 de los feocromocitomas recidivantes. Protocolos de tratamiento."
+      },
+      {
+        "numero": 25,
+        "titulo": "Aplicaciones de la gammagrafía de receptores de somatostatina en los tumores neuroendocrinos. Indicaciones de los estudios con la PET."
+      },
+      {
+        "numero": 26,
+        "titulo": "SPECT y PET-TC en tumores tiroideos y neuroendocrinos Protocolos, hallazgos, indicaciones. Falsos positivos y negativos."
+      },
+      {
+        "numero": 27,
+        "titulo": "Estudio de la función ventricular: Ventriculografía isotópica de equilibrio (reposo y esfuerzo). Ventriculografía isotópica de primer paso. Gammagrafía de cortocircuitos cardíacos. Posibilidades diagnósticas en las alteraciones del ritmo sinusal y en pacientes portadores de marcapasos en diferentes situaciones clínicas."
+      },
+      {
+        "numero": 28,
+        "titulo": "Estudio de la enfermedad coronaria aguda. SPECT de perfusión miocárdica en reposo. Semiología y aplicaciones clínicas."
+      },
+      {
+        "numero": 29,
+        "titulo": "Evaluación y pronóstico de la cardiopatía isquémica: gammagrafía miocárdica de perfusión (esfuerzo y reposo). Exposición y análisis de los procedimientos de esfuerzo físico y pruebas de provocación farmacológica. Semiología y aplicaciones clínicas."
+      },
+      {
+        "numero": 30,
+        "titulo": "Estudios GATED en reposo y tras esfuerzo. Aplicaciones en la cardiopatía isquémica y en la insuficiencia cardiaca. Valoración de la viabilidad miocárdica. Semiología."
+      },
+      {
+        "numero": 31,
+        "titulo": "Estudios de la inervación miocárdica. Semiología y aplicaciones clínicas. Aplicaciones de la Medicina Nuclear en el seguimiento del trasplante cardíaco. Otras aplicaciones clínicas."
+      },
+      {
+        "numero": 32,
+        "titulo": "Aplicaciones actuales del PET-TC en Cardiología. Protocolos, hallazgos, indicaciones. Falsos positivos y negativos."
+      },
+      {
+        "numero": 33,
+        "titulo": "Estudio del tromboembolismo pulmonar: Gammagrafía de ventilación/ perfusión. Valoración prequirúrgica con gammagrafía pulmonar. Otras aplicaciones clínicas."
+      },
+      {
+        "numero": 34,
+        "titulo": "Estudio de la patología pulmonar inflamatoria."
+      },
+      {
+        "numero": 35,
+        "titulo": "PET-TC en cáncer de pulmón. Protocolos, hallazgos, indicaciones. Falsos positivos y negativos."
+      },
+      {
+        "numero": 36,
+        "titulo": "Estudio de glándulas salivares. Hallazgos gammagráficos. Estudio de la motilidad esofágica. Diagnóstico de reflujos: aplicaciones clínicas. Hallazgos gammagráficos. Estudio del vaciamiento gástrico de sólidos: semiología y aplicaciones clínicas. Vaciamiento gástrico de líquidos: semiología y aplicaciones clínicas."
+      },
+      {
+        "numero": 37,
+        "titulo": "Estudio de hemorragias digestivas. Estudio de la enfermedad inflamatoria intestinal. Gammagrafía en gastroenterología pediátrica: Detección de mucosa gástrica ectópica. Atresia de vías biliares."
+      },
+      {
+        "numero": 38,
+        "titulo": "PET-TC en tumores del tracto digestivo. Protocolos, hallazgos, indicaciones. Falsos positivos y negativos."
+      },
+      {
+        "numero": 39,
+        "titulo": "Gammagrafía hepática: hallazgos gammagráficos y aplicaciones clínicas. Estudio de patología hepatobiliar. Control gammagráfico del trasplante hepático."
+      },
+      {
+        "numero": 40,
+        "titulo": "Radiofármacos utilizados en estudios renales. Filtrado glomerular. Flujo plasmático renal efectivo. Gammagrafía cortical renal con DMSA."
+      },
+      {
+        "numero": 41,
+        "titulo": "Renograma isotópico: uropatía obstructiva, hipertensión renovascular, insuficiencia renal y trasplante renal."
+      },
+      {
+        "numero": 42,
+        "titulo": "Cistogammagrafía. Reflujo vesicoureteral."
+      },
+      {
+        "numero": 43,
+        "titulo": "PET-TC en Neoplasias urológicas y prostáticas. Protocolos, hallazgos, indicaciones. Falsos positivos y negativos."
+      },
+      {
+        "numero": 44,
+        "titulo": "PET-TC en Tumores ginecológicos. Protocolos, hallazgos, indicaciones. Falsos positivos y negativos."
+      },
+      {
+        "numero": 45,
+        "titulo": "Aplicaciones clínicas de la gammagrafía ósea. Infección e inflamación. Osteomielitis aguda. Osteomielitis crónica. Sacroileitis. Espondilitis. Enfermedades óseas metabólicas. Valoración de procedimientos quirúrgicos: Prótesis, aplicaciones ortopédicas, injertos óseos. Osteonecrosis, infarto óseo y distrofia simpáticorefleja. Patología del deporte."
+      },
+      {
+        "numero": 46,
+        "titulo": "Gammagrafía ósea en la edad pediátrica. Enfermedad de Perthes."
+      },
+      {
+        "numero": 47,
+        "titulo": "Aplicaciones clínicas de la gammagrafía ósea en Oncología. Tumores óseos primarios y sarcomas de tejidos blandos. Evaluación de la enfermedad ósea metastásica."
+      },
+      {
+        "numero": 48,
+        "titulo": "PET-TC en Tumores musculoesqueléticos. Protocolos, hallazgos, indicaciones. Falsos positivos y negativos."
+      },
+      {
+        "numero": 49,
+        "titulo": "PET-TC en Linfomas protocolos, hallazgos, indicaciones. Falsos positivos y negativos. Criterios actuales de interpretación."
+      },
+      {
+        "numero": 50,
+        "titulo": "Aplicaciones actuales del PET-TC en la Inflamación /Infección. Protocolos, hallazgos, indicaciones. Falsos positivos y negativos"
+      },
+      {
+        "numero": 51,
+        "titulo": "Estudio del ganglio centinela: Linfogammagrafía. Metodología y hallazgos gammagráficos. Estudios preoperatorios e intraoperatorios. Aplicaciones en melanoma, cáncer de cabeza y cuello y otros tumores."
+      },
+      {
+        "numero": 52,
+        "titulo": "Utilidad de los estudios de Medicina Nuclear en el cáncer de mama. Ganglio centinela en cáncer de mama. Protocolos de detección e indicaciones actuales."
+      },
+      {
+        "numero": 53,
+        "titulo": "PET –TC en cáncer de mama. Protocolos, hallazgos, indicaciones. Falsos positivos y negativos."
+      },
+      {
+        "numero": 54,
+        "titulo": "Imágenes gammagráficas de la médula ósea. Imágenes gammagráficas del bazo: gammagrafía esplénica con coloides, gammagrafía esplénica con hematíes desnaturalizados. Linfogammagrafía de extremidades."
+      },
+      {
+        "numero": 55,
+        "titulo": "Estudios de Medicina Nuclear en infección e inflamación. Fiebre de origen desconocido."
+      },
+      {
+        "numero": 56,
+        "titulo": "Aspectos específicos de las imágenes de Medicina Nuclear en Pediatría. Manejo integral del paciente pediátrico."
+      },
+      {
+        "numero": 57,
+        "titulo": "PET-TC en Tumores pediátricos. Protocolos, hallazgos, indicaciones. Falsos positivos y negativos."
+      },
+      {
+        "numero": 58,
+        "titulo": "Terapia en medicina nuclear. Principios generales. Radiofármacos."
+      },
+      {
+        "numero": 59,
+        "titulo": "Terapia de los tumores neuroendocrinos. Radioinmunoterapia."
+      },
+      {
+        "numero": 60,
+        "titulo": "Tratamiento del dolor óseo metastático. Terapia intraarticular. Tratamiento de la policitemia vera. Radioembolización de los tumores hepáticos con microesferas de 90Y. Tratamiento con 223Ra."
+      }
+    ]
+  }
+]

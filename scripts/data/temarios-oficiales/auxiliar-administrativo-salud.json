@@ -1,0 +1,132 @@
+[
+  {
+    "bloque": "Materia común",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "La Constitución Española de 1978: Principios fundamentales. Derechos y deberes fundamentales de los ciudadanos. La protección a la salud en la Constitución."
+      },
+      {
+        "numero": 2,
+        "titulo": "La Corona. Las Cortes Generales. El Gobierno de la Nación. El Poder Judicial. Clases de normas y jerarquía normativa. Organización territorial del Estado."
+      },
+      {
+        "numero": 3,
+        "titulo": "El Estatuto de Autonomía en Aragón. Principios informadores. Estructura y contenido. La organización institucional de la Comunidad Autónoma. Las Cortes y el Justicia de Aragón. Las competencias de la Comunidad de Aragón con especial referencia a las relativas a sanidad."
+      },
+      {
+        "numero": 4,
+        "titulo": "Población, geografía y territorio en Aragón. Desequilibrios demográficos en Aragón. Magnitudes más relevantes de la economía aragonesa. Evolución reciente de la actividad económica en Aragón."
+      },
+      {
+        "numero": 5,
+        "titulo": "La igualdad de oportunidades entre mujeres y hombres en Aragón: Disposiciones generales. Prevención y protección integral a las mujeres víctimas de violencia en Aragón: Disposiciones generales. La identidad y expresión de género e igualdad social y no discriminación en la Comunidad Autónoma de Aragón: Disposiciones generales. La diversidad cultural y lucha contra la discriminación: Principios y objetivos del Plan para la Gestión de la diversidad vigente en Aragón."
+      },
+      {
+        "numero": 6,
+        "titulo": "La Ley General de Sanidad: El Sistema Nacional de Salud y los servicios de salud de las comunidades autónomas. El Área de Salud. La Ley de Salud de Aragón. Principios rectores. Derechos, deberes y garantías de los ciudadanos. Derechos de información sobre la salud y autonomía del paciente."
+      },
+      {
+        "numero": 7,
+        "titulo": "El Departamento de Sanidad del Gobierno de Aragón: Estructura básica y competencias. El Servicio Aragonés de Salud: Estructura y competencias. El Texto Refundido de la Ley del Servicio Aragonés de Salud. Estructura y funcionamiento de las áreas y sectores del Sistema de Salud de Aragón."
+      },
+      {
+        "numero": 8,
+        "titulo": "Personal estatutario de los servicios de salud (I). Clasificación del personal estatutario. Derechos y deberes. Adquisición y pérdida de la condición de personal estatutario. Provisión de plazas, selección y promoción interna. Movilidad del personal."
+      },
+      {
+        "numero": 9,
+        "titulo": "Estatuto Marco del personal estatutario de los servicios de salud (II). Retribuciones. Jornada de trabajo, permisos y licencias. Situaciones del personal estatutario. Régimen disciplinario. Estatuto Básico del Empleado Público: Deberes del empleado público y código de conducta. Representación, participación y negociación colectiva. Incompatibilidades. Principios generales. Ámbito de aplicación."
+      },
+      {
+        "numero": 10,
+        "titulo": "Ley de Prevención de Riesgos Laborales: Conceptos básicos. Derechos y obligaciones en materia de seguridad en el trabajo. Organización de la prevención de riesgos laborales en la Comunidad Autónoma de Aragón. Distribución de funciones y responsabilidades en materia de prevención de riesgos laborales entre los diferentes órganos del Servicio Aragonés de Salud."
+      }
+    ]
+  },
+  {
+    "bloque": "Materia específica",
+    "temas": [
+      {
+        "numero": 11,
+        "titulo": "El régimen jurídico de la protección de datos de carácter personal. Disposiciones generales. Principios de la protección de datos. Derechos de las personas. Responsable y encargado del tratamiento."
+      },
+      {
+        "numero": 12,
+        "titulo": "El Régimen General de Seguridad Social. Estructura del Sistema de Seguridad Social. Afiliación, cotización y recaudación. Acción protectora, concepto y clase de prestaciones."
+      },
+      {
+        "numero": 13,
+        "titulo": "La atención primaria de la salud: concepto y características generales. La ordenación de la atención primaria en la Comunidad Autónoma de Aragón. Órganos de dirección."
+      },
+      {
+        "numero": 14,
+        "titulo": "La asistencia especializada concepto y características generales. La ordenación de la atención especializada en la Comunidad Autónoma de Aragón. Órganos de dirección."
+      },
+      {
+        "numero": 15,
+        "titulo": "El usuario del Sistema Nacional de Salud: sus derechos y deberes. La tarjeta sanitaria individual. El derecho de información sanitaria y a la intimidad en la Ley básica reguladora de la autonomía del paciente y derechos y obligaciones en materia de información y documentación clínica."
+      },
+      {
+        "numero": 16,
+        "titulo": "La comunicación paciente/usuario. Factores que la facilitan o dificultan. Diferencia entre información y comunicación."
+      },
+      {
+        "numero": 17,
+        "titulo": "Conceptos de documento, registro y archivo, funciones y clases de archivo. Documentación de uso en los centros sanitarios: administrativa y clínica. La historia clínica: funciones, características, contenido."
+      },
+      {
+        "numero": 18,
+        "titulo": "Funcionamiento de los centros sanitarios. Servicio de documentación clínica hospitalaria. Servicio de admisión. Servicio de atención al paciente."
+      },
+      {
+        "numero": 19,
+        "titulo": "La calidad en los centros sanitarios. Modelos y tendencias actuales de evaluación de la calidad."
+      },
+      {
+        "numero": 20,
+        "titulo": "Financiación del sistema sanitario de la Comunidad de Aragón. El Presupuesto de la Comunidad de Aragón y sus modificaciones."
+      },
+      {
+        "numero": 21,
+        "titulo": "Los suministros. Suministros internos y externos. Recepción y almacenamiento de mercancías. Organización del almacén. Distribución de pedidos."
+      },
+      {
+        "numero": 22,
+        "titulo": "Los contratos del Sector Público. Disposiciones generales. Configuración general de la contratación del sector público y elementos estructurales de los contratos. De los contratos de las administraciones públicas: Preparación, procedimiento y formas de adjudicación. Las garantías y sus clases. La revisión de precios y otras alteraciones del contrato. Extinción de los contratos."
+      },
+      {
+        "numero": 23,
+        "titulo": "El procedimiento administrativo: Contenido y ámbito de aplicación. Fases: iniciación, ordenación, instrucción y terminación. El Régimen Jurídico del Sector Público: disposiciones generales."
+      },
+      {
+        "numero": 24,
+        "titulo": "El acto administrativo: características generales. Requisitos. Eficacia. Actos nulos y anulables. La revisión de los actos administrativos. Los recursos administrativos: concepto y clases."
+      },
+      {
+        "numero": 25,
+        "titulo": "La Jurisdicción Contenciosa-administrativa. Su organización. Las partes. Actos impugnables. Idea general del proceso."
+      },
+      {
+        "numero": 26,
+        "titulo": "Los sistemas de información: conceptos generales de las tecnologías de información"
+      },
+      {
+        "numero": 27,
+        "titulo": "Nociones de informática: El ordenador, Dispositivos centrales y periféricos. Redes informáticas. El microprocesador. Soportes informáticos."
+      },
+      {
+        "numero": 28,
+        "titulo": "Los sistemas operativos más frecuentes. Sus elementos comunes. Comandos básicos. Administrador de archivos. Administrador de impresión. Impresoras."
+      },
+      {
+        "numero": 29,
+        "titulo": "Herramientas ofimáticas: Procesadores de texto, bases de datos, hoja de cálculo, paquetes informáticos integrados y correo electrónico."
+      },
+      {
+        "numero": 30,
+        "titulo": "Redes de área local: concepto. Compartición de recursos, ventajas. Red Internet: concepto. Principales navegadores. Intranet."
+      }
+    ]
+  }
+]

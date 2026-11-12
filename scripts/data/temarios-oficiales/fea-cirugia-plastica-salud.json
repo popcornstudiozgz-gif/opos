@@ -1,0 +1,332 @@
+[
+  {
+    "bloque": "Materia común",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "Constitución Española de 1978: la protección de la salud en la Constitución. Estatuto de Autonomía de Aragón. Competencias en salud recogidas en el Estatuto de Autonomía. Las Cortes de Aragón. El Gobierno de Aragón."
+      },
+      {
+        "numero": 2,
+        "titulo": "El texto refundido de la Ley del Estatuto Básico del Empleado Público, aprobado por el Real Decreto Legislativo 5/2015: deberes del empleado público y código de conducta. Representación, participación y negociación colectiva."
+      },
+      {
+        "numero": 3,
+        "titulo": "El régimen jurídico de la protección de datos de carácter personal: Disposiciones generales. Principios de la protección de datos. Derechos de las personas."
+      },
+      {
+        "numero": 4,
+        "titulo": "El Procedimiento Administrativo Común de las Administraciones Públicas: Disposiciones Generales. Cómputo de plazos. Objeto y plazos de los recursos administrativos. El Régimen Jurídico del Sector Público: Disposiciones Generales."
+      },
+      {
+        "numero": 5,
+        "titulo": "Ley 14/1986 General de Sanidad. Ley 6/2002 de Salud de Aragón. Principios generales, estructura, contenidos. Ley 16/2003 de cohesión y calidad del Sistema Nacional de Salud. Principios generales, estructura, contenidos."
+      },
+      {
+        "numero": 6,
+        "titulo": "Ley 44/2003 de Ordenación de las Profesiones Sanitarias. Ámbito de aplicación, contenidos. Ley 41/2002, de 14 de noviembre, básica reguladora de la autonomía del paciente y de derechos y obligaciones en materia de información y documentación clínica. Ley 9/2013, de 28 de noviembre, de Autoridad de Profesionales del Sistema Sanitario y de Servicios Sociales Públicos de Aragón."
+      },
+      {
+        "numero": 7,
+        "titulo": "Ley 55/2003 del Estatuto Marco de personal Estatutario de los Servicios de Salud (I). Principios generales, estructura, contenidos. Clasificación del personal estatutario. Derechos y deberes. Adquisición y pérdida de la condición de personal estatutario. Provisión de plazas, selección y promoción interna. Movilidad del personal."
+      },
+      {
+        "numero": 8,
+        "titulo": "Ley 55/2003 del Estatuto Marco de personal Estatutario de los Servicios de Salud (II). Retribuciones. Jornada de trabajo, permisos y licencias. Situaciones del personal estatutario. Régimen disciplinario. Modelo de Carrera Profesional en Aragón. Ley 53/1984 de 26 de diciembre, de incompatibilidades. Principios Generales. Ámbito de aplicación."
+      },
+      {
+        "numero": 9,
+        "titulo": "La igualdad de oportunidades entre mujeres y hombres en Aragón: Disposiciones generales. Prevención y Protección Integral a las Mujeres Víctimas de Violencia en Aragón: Disposiciones Generales. La identidad y expresión de género e igualdad social y no discriminación en la Comunidad Autónoma de Aragón: Disposiciones Generales. La diversidad cultural y lucha contra la discriminación: Principios y objetivos del vigente Plan Integral para la Gestión de la Diversidad de Aragón."
+      },
+      {
+        "numero": 10,
+        "titulo": "El sistema sanitario. Niveles asistenciales. Organización de los servicios sanitarios en Aragón. Estructura del Departamento de Sanidad de Aragón y del Servicio Aragonés de la Salud. Los Sectores sanitarios."
+      },
+      {
+        "numero": 11,
+        "titulo": "Metodología de la Investigación: El método científico. Diseño de un proyecto de investigación. Estadística aplicada a los estudios de Medicina."
+      },
+      {
+        "numero": 12,
+        "titulo": "El método epidemiológico. Epidemiología descriptiva: tipos de estudios, tasas e indicadores. Epidemiología analítica: tipos de estudios. Riesgo relativo, riesgo atribuible y Odds Ratio. Sesgos."
+      },
+      {
+        "numero": 13,
+        "titulo": "Estudios experimentales. Ensayos clínicos. Ética de la investigación clínica. Validez de métodos diagnósticos: sensibilidad, especificidad, valor predictivo positivo."
+      },
+      {
+        "numero": 14,
+        "titulo": "Evaluación de Tecnologías Sanitarias: Procedimientos de evaluación. Cartera de Servicios del Sistema Nacional de Salud. Procedimiento de actualización de la Cartera de Servicios del sistema de Salud de Aragón."
+      },
+      {
+        "numero": 15,
+        "titulo": "Práctica basada en la evidencia. Variabilidad en la práctica médica. Búsqueda y valoración de evidencias. Aplicación de las evidencias a la toma de decisiones clínicas. Guías clínicas. Proyecto Guía-Salud."
+      },
+      {
+        "numero": 16,
+        "titulo": "La seguridad del paciente. Gestión de riesgos. Principales problemas para la seguridad del paciente en el hospital. Estrategias para la mejora de la seguridad."
+      },
+      {
+        "numero": 17,
+        "titulo": "Uso Racional del Medicamento. Criterios de selección de medicamentos. Equivalentes terapéuticos. Indicadores de calidad de prescripción."
+      },
+      {
+        "numero": 18,
+        "titulo": "Evaluación y mejora de la calidad. Modelos de Gestión de la Calidad. Diseño de un programa de calidad."
+      },
+      {
+        "numero": 19,
+        "titulo": "Principios fundamentales de la bioética: aplicación a la asistencia sanitaria. La relación médico-paciente, el consentimiento informado. Los comités de Bioética. La ética en la investigación clínica."
+      },
+      {
+        "numero": 20,
+        "titulo": "Gobierno clínico. La implicación de los profesionales en el funcionamiento de las instituciones sanitarias."
+      }
+    ]
+  },
+  {
+    "bloque": "Materia específica",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "Anestesia en Cirugía Plástica."
+      },
+      {
+        "numero": 2,
+        "titulo": "Histología y fisiología de la piel y sus anejos, del tejido óseo, del músculo, del cartílago y de los vasos y nervios periféricos."
+      },
+      {
+        "numero": 3,
+        "titulo": "Conceptos anatómicos. Territorios vasculares y sus aplicaciones clínicas."
+      },
+      {
+        "numero": 4,
+        "titulo": "Biología e Inmunología del trasplante tisular. Banco de tejidos."
+      },
+      {
+        "numero": 5,
+        "titulo": "Cultivos celulares: Queratinocitos y sustitutos cutáneos."
+      },
+      {
+        "numero": 6,
+        "titulo": "Técnicas quirúrgicas básicas en Cirugía Plástica. Principios generales sobre técnicas microquirúrgicas."
+      },
+      {
+        "numero": 7,
+        "titulo": "Injertos tisulares. Técnicas de toma y aplicación: Injertos dérmicos, grasos, tendinosos, nerviosos, cartilaginosos, óseos y compuestos."
+      },
+      {
+        "numero": 8,
+        "titulo": "Biología y aplicación de los colgajos musculares, musculocutáneos y fasciocutáneos y basados en perforantes."
+      },
+      {
+        "numero": 9,
+        "titulo": "Clasificación, principios generales y aplicación de los colgajos libres con técnicas microquirúrgicas."
+      },
+      {
+        "numero": 10,
+        "titulo": "Estudio de los materiales usados como implantes en Cirugía Plástica. Expansión tisular."
+      },
+      {
+        "numero": 11,
+        "titulo": "Biología de la cicatrización normal y patológica. Tratamiento de las patologías de la cicatrización."
+      },
+      {
+        "numero": 12,
+        "titulo": "Cirugía reparadora de la patología del sistema linfático."
+      },
+      {
+        "numero": 13,
+        "titulo": "Infecciones quirúrgicas. Diagnóstico. Profilaxis y tratamiento."
+      },
+      {
+        "numero": 14,
+        "titulo": "Fisiopatología clínica y tratamiento del shock."
+      },
+      {
+        "numero": 15,
+        "titulo": "Etiología, fisiopatología y clasificación de las quemaduras."
+      },
+      {
+        "numero": 16,
+        "titulo": "Estudio de las alteraciones orgánicas del quemado: Alteraciones metabólicas, hidroelectrolíticas, nutricionales e inmunitarias del quemado."
+      },
+      {
+        "numero": 17,
+        "titulo": "Estrategia global del tratamiento quirúrgico de las quemaduras y sus secuelas."
+      },
+      {
+        "numero": 18,
+        "titulo": "Profilaxis y tratamiento de la infección en quemaduras."
+      },
+      {
+        "numero": 19,
+        "titulo": "Fisiopatología y tratamiento de las lesiones producidas por la radiactividad y por el frío."
+      },
+      {
+        "numero": 20,
+        "titulo": "Traumatismos faciales. Etiología. Clasificación. Exploración. Diagnóstico."
+      },
+      {
+        "numero": 21,
+        "titulo": "Traumatismos faciales. Principios generales de tratamiento."
+      },
+      {
+        "numero": 22,
+        "titulo": "Tratamiento de las lesiones de los tejidos blandos faciales y de la dinámica facial."
+      },
+      {
+        "numero": 23,
+        "titulo": "Valoración general y aspectos básicos del tratamiento de las fracturas de la cara. Otros traumatismos faciales."
+      },
+      {
+        "numero": 24,
+        "titulo": "Secuelas postraumáticas de tejidos blandos y óseos faciales."
+      },
+      {
+        "numero": 25,
+        "titulo": "Secuelas postraumáticas complejas faciales."
+      },
+      {
+        "numero": 26,
+        "titulo": "Biología, clínica y anatomopatológica de los tumores cutáneos y de partes blandas."
+      },
+      {
+        "numero": 27,
+        "titulo": "Valoración general y aspectos de los tumores benignos y malignos, cráneocérvicofaciales."
+      },
+      {
+        "numero": 28,
+        "titulo": "Lesiones de origen vascular en Cirugía Plástica: Hemangiomas, malformaciones venosas, malformaciones arteriovenosas y linfangiomas. Abordaje multidisciplinario."
+      },
+      {
+        "numero": 29,
+        "titulo": "Tumores de la mama. Técnicas de exéresis y reconstrucción."
+      },
+      {
+        "numero": 30,
+        "titulo": "Cirugía craneofacial. Aspectos históricos. Cefalometrías y perfiloplastias. Técnicas quirúrgicas en Cirugía craneofacial."
+      },
+      {
+        "numero": 31,
+        "titulo": "Malformaciones congénitas externas. Etiología. Incidencia. Pronóstico. Tratamiento."
+      },
+      {
+        "numero": 32,
+        "titulo": "Hendiduras faciales. Labio leporino. Fisura palatina."
+      },
+      {
+        "numero": 33,
+        "titulo": "Patología del área craneofacial. Síndromes malformativos craneofaciales: Craneosinostosis, faciosinostosis, craneofaciostenosis, microsomías centrofaciales. microsomías laterofaciales, hipertelorismo orbitario. Síndrome de Down. Síndromes craneofaciales raros."
+      },
+      {
+        "numero": 34,
+        "titulo": "Malformaciones congénitas cervicales."
+      },
+      {
+        "numero": 35,
+        "titulo": "Malformaciones congénitas del tronco."
+      },
+      {
+        "numero": 36,
+        "titulo": "Malformaciones congénitas del aparato urogenital masculino y femenino."
+      },
+      {
+        "numero": 37,
+        "titulo": "Intersexos y hermafroditismo. Aspectos quirúrgicos del cambio de sexo."
+      },
+      {
+        "numero": 38,
+        "titulo": "Transexualismo."
+      },
+      {
+        "numero": 39,
+        "titulo": "Embriología y anatomía funcional de la mano."
+      },
+      {
+        "numero": 40,
+        "titulo": "Anomalías congénitas de la mano y miembro superior."
+      },
+      {
+        "numero": 41,
+        "titulo": "Tumores de la mano."
+      },
+      {
+        "numero": 42,
+        "titulo": "Traumatismos e infecciones de la mano."
+      },
+      {
+        "numero": 43,
+        "titulo": "Patología de los tendones flexores de la mano."
+      },
+      {
+        "numero": 44,
+        "titulo": "Patología de los tendones extensores de la mano."
+      },
+      {
+        "numero": 45,
+        "titulo": "Patología neurológica del miembro superior."
+      },
+      {
+        "numero": 46,
+        "titulo": "Reimplante de miembros."
+      },
+      {
+        "numero": 47,
+        "titulo": "Enfermedad de Dupuytren."
+      },
+      {
+        "numero": 48,
+        "titulo": "Mano reumática. Mano paralítica."
+      },
+      {
+        "numero": 49,
+        "titulo": "Cobertura del miembro inferior."
+      },
+      {
+        "numero": 50,
+        "titulo": "Tratamiento de las úlceras por decúbito."
+      },
+      {
+        "numero": 51,
+        "titulo": "Lipodistrofias."
+      },
+      {
+        "numero": 52,
+        "titulo": "Patología de la imagen corporal. Aspecto psicológico."
+      },
+      {
+        "numero": 53,
+        "titulo": "Alteraciones plásticas y estéticas de la cara, de sus contornos y del perfil facial."
+      },
+      {
+        "numero": 54,
+        "titulo": "Alteraciones plásticas y estéticas de las mamas."
+      },
+      {
+        "numero": 55,
+        "titulo": "Alteraciones plásticas y estéticas en tórax, abdomen y miembros."
+      },
+      {
+        "numero": 56,
+        "titulo": "Fisiopatología del envejecimiento cutáneo."
+      },
+      {
+        "numero": 57,
+        "titulo": "Envejecimiento cutáneo. Fisiopatología y tratamiento médico y quirúrgico."
+      },
+      {
+        "numero": 58,
+        "titulo": "Anaplastología en Cirugía Plástica."
+      },
+      {
+        "numero": 59,
+        "titulo": "Láser médico y quirúrgico en Cirugía Plástica y Estética."
+      },
+      {
+        "numero": 60,
+        "titulo": "Endoscopia en Cirugía Plástica."
+      }
+    ]
+  }
+]

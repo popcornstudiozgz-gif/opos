@@ -1,0 +1,332 @@
+[
+  {
+    "bloque": "Materia común",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "Constitución Española de 1978: la protección de la salud en la Constitución. Estatuto de Autonomía de Aragón. Competencias en salud recogidas en el Estatuto de Autonomía. Las Cortes de Aragón. El Gobierno de Aragón."
+      },
+      {
+        "numero": 2,
+        "titulo": "El texto refundido de la Ley del Estatuto Básico del Empleado Público, aprobado por el Real Decreto Legislativo 5/2015: deberes del empleado público y código de conducta. Representación, participación y negociación colectiva."
+      },
+      {
+        "numero": 3,
+        "titulo": "El régimen jurídico de la protección de datos de carácter personal: Disposiciones generales. Derechos de las personas."
+      },
+      {
+        "numero": 4,
+        "titulo": "El Procedimiento Administrativo Común de las Administraciones Públicas: Disposiciones Generales. Computo de plazos. Objeto y plazos de los recursos administrativos. El Régimen Jurídico del Sector Público: Disposiciones Generales."
+      },
+      {
+        "numero": 5,
+        "titulo": "Ley 14/1986 General de Sanidad. Ley 6/2002 de Salud de Aragón. Principios generales, estructura, contenidos. Ley 16/2003 de cohesión y calidad del Sistema Nacional de Salud. Principios generales, estructura, contenidos."
+      },
+      {
+        "numero": 6,
+        "titulo": "Ley 44/2003 de Ordenación de las Profesiones Sanitarias. Ámbito de aplicación, contenidos. Ley 41/2002, de 14 de noviembre, básica reguladora de la autonomía del paciente y de derechos y obligaciones en materia de información y documentación clínica. Ley 9/2013, de 28 de noviembre, de Autoridad de Profesionales del Sistema Sanitario y de Servicios Sociales Públicos de Aragón."
+      },
+      {
+        "numero": 7,
+        "titulo": "Ley 55/2003 del Estatuto Marco de personal Estatutario de los Servicios de Salud (I). Principios generales, estructura, contenidos. Clasificación del personal estatutario. Derechos y deberes. Adquisición y pérdida de la condición de personal estatutario. Provisión de plazas, selección y promoción interna. Movilidad del personal."
+      },
+      {
+        "numero": 8,
+        "titulo": "Ley 55/2003 del Estatuto Marco de personal Estatutario de los Servicios de Salud (II). Retribuciones. Jornada de trabajo, permisos y licencias. Situaciones del personal estatutario. Régimen disciplinario. Modelo de Carrera Profesional en Aragón. Ley 53/1984 de 26 de diciembre, de incompatibilidades. Principios Generales. Ámbito de aplicación."
+      },
+      {
+        "numero": 9,
+        "titulo": "La igualdad de oportunidades entre mujeres y hombres en Aragón: Disposiciones generales. Prevención y Protección Integral a las Mujeres Víctimas de Violencia en Aragón: Disposiciones Generales. La identidad y expresión de género e igualdad social y no discriminación en la Comunidad Autónoma de Aragón: Disposiciones Generales. La diversidad cultural y lucha contra la discriminación: Principios y objetivos del Plan Integral para la Gestión de la Diversidad vigente en Aragón."
+      },
+      {
+        "numero": 10,
+        "titulo": "El sistema sanitario. Niveles asistenciales. Organización de los servicios sanitarios en Aragón. Estructura del Departamento de Sanidad de Aragón y del Servicio Aragonés de la Salud. Los Sectores sanitarios."
+      },
+      {
+        "numero": 11,
+        "titulo": "Metodología de la Investigación: El método científico. Diseño de un proyecto de investigación. Estadística aplicada a los estudios de Medicina."
+      },
+      {
+        "numero": 12,
+        "titulo": "El método epidemiológico. Epidemiología descriptiva: tipos de estudios, tasas e indicadores. Epidemiología analítica: tipos de estudios. Riesgo relativo, riesgo atribuible y Odds Ratio. Sesgos."
+      },
+      {
+        "numero": 13,
+        "titulo": "Estudios experimentales. Ensayos clínicos. Ética de la investigación clínica. Validez de métodos diagnósticos: sensibilidad, especificidad, valor predictivo positivo."
+      },
+      {
+        "numero": 14,
+        "titulo": "Evaluación de Tecnologías Sanitarias: Procedimientos de evaluación. Cartera de Servicios del Sistema Nacional de Salud. Procedimiento de actualización de la Cartera de Servicios del sistema de Salud de Aragón."
+      },
+      {
+        "numero": 15,
+        "titulo": "Práctica basada en la evidencia. Variabilidad en la práctica médica. Búsqueda y valoración de evidencias. Aplicación de las evidencias a la toma de decisiones clínicas. Guías clínicas. Proyecto Guía-Salud."
+      },
+      {
+        "numero": 16,
+        "titulo": "La seguridad del paciente. Gestión de riesgos. Principales problemas para la seguridad del paciente. Estrategias para la mejora de la seguridad."
+      },
+      {
+        "numero": 17,
+        "titulo": "Uso Racional del Medicamento. Criterios de selección de medicamentos. Equivalentes terapéuticos. Indicadores de calidad de prescripción."
+      },
+      {
+        "numero": 18,
+        "titulo": "Evaluación y mejora de la calidad. Modelos de Gestión de la Calidad. Diseño de un programa de calidad."
+      },
+      {
+        "numero": 19,
+        "titulo": "Principios fundamentales de la bioética: aplicación a la asistencia sanitaria. La relación médico-paciente, el consentimiento informado. Los comités de Bioética. La ética en la investigación clínica."
+      },
+      {
+        "numero": 20,
+        "titulo": "Gobierno clínico. La implicación de los profesionales en el funcionamiento de las instituciones sanitarias."
+      }
+    ]
+  },
+  {
+    "bloque": "Materia específica",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "Cartera de servicios comunes del Sistema Nacional de Salud. Cartera común básica, cartera común suplementaria y la cartera común de servicios accesorios."
+      },
+      {
+        "numero": 2,
+        "titulo": "Ley de garantías y uso racional de los medicamentos y productos sanitarios. Uso racional de los medicamentos en Atención Primaria."
+      },
+      {
+        "numero": 3,
+        "titulo": "Uso racional del medicamento en Aragón. Finalidad y Comisiones de la Red"
+      },
+      {
+        "numero": 4,
+        "titulo": "La ordenación farmacéutica en Aragón. Servicios de farmacia Atención Primaria, marco legal y funciones del farmacéutico de atención primaria."
+      },
+      {
+        "numero": 5,
+        "titulo": "La receta médica. Prescripción de medicamentos y productos sanitarios. Condiciones para la dispensación."
+      },
+      {
+        "numero": 6,
+        "titulo": "Condiciones de financiación de la prestación farmacéutica en el Sistema Nacional de Salud. Autorización y procedimiento para la financiación pública. Fijación de precios y revisión"
+      },
+      {
+        "numero": 7,
+        "titulo": "Visado de medicamentos. Prescripción de productos sometidos a visado. Gestión y control del visado de recetas."
+      },
+      {
+        "numero": 8,
+        "titulo": "Disponibilidad de medicamentos en situaciones especiales. Gestión desde la atención primaria"
+      },
+      {
+        "numero": 9,
+        "titulo": "Psicotrópicos y estupefacientes: concepto y normativa. Receta oficial de estupefacientes. La prescripción y la dispensación de estupefacientes."
+      },
+      {
+        "numero": 10,
+        "titulo": "Aportaciones en prestación farmacéutica ambulatoria. RD-Ley 16/2012. Campaña sanitaria, síndrome tóxico y aportación reducida en estatinas."
+      },
+      {
+        "numero": 11,
+        "titulo": "Sistema de receta electrónica. Herramientas de ayuda a la prescripción. Interoperabilidad en el Sistema Nacional de Salud"
+      },
+      {
+        "numero": 12,
+        "titulo": "Atención farmacéutica en el ámbito de la Atención Primaria. Seguimiento Farmacoterapéutico. Problemas relacionados con los medicamentos. Atención farmacéutica en los centros sociales de Aragón."
+      },
+      {
+        "numero": 13,
+        "titulo": "Epidemiología en la atención primaria: riesgo y relación causal. Tipos de estudios epidemiológicos. Estadística sanitaria: conceptos básicos."
+      },
+      {
+        "numero": 14,
+        "titulo": "Autorización y registro de medicamentos. Agencia Europea de Medicamentos y Agencia Española de Medicamentos y Productos Sanitarios."
+      },
+      {
+        "numero": 15,
+        "titulo": "Medicamentos genéricos. Bioequivalencia. Medicamentos biosimilares"
+      },
+      {
+        "numero": 16,
+        "titulo": "Los ensayos clínicos de medicamentos: tipo y reglamentación. El Comité Etico de Investigación Clínica. Investigación en la atención primaria. Estudios observacionales con medicamentos."
+      },
+      {
+        "numero": 17,
+        "titulo": "Evaluación económica de medicamentos: conceptos básicos y tipos de estudios."
+      },
+      {
+        "numero": 18,
+        "titulo": "Medicina basada en la evidencia. Lectura crítica de la literatura científica en la farmacoterapia y utilización de medicamentos"
+      },
+      {
+        "numero": 19,
+        "titulo": "Fuentes de información de medicamentos. Evaluación de nuevos medicamentos."
+      },
+      {
+        "numero": 20,
+        "titulo": "La selección de medicamentos. Informes de posicionamiento terapéutico. Protocolos y Guías farmacoterapéuticas en Atención primaria."
+      },
+      {
+        "numero": 21,
+        "titulo": "Sistemas de información de la prestación farmacéutica. Indicadores de calidad de prescripción y contratos programa."
+      },
+      {
+        "numero": 22,
+        "titulo": "Evaluación de la calidad de la prescripción y estrategias de intervención del Farmacéutico de Atención Primaria"
+      },
+      {
+        "numero": 23,
+        "titulo": "Estudios de utilización de medicamentos: concepto y tipo de estudios. Concepto de Dosis Diaria Definida y Dosis diaria definida por 1000 habitantes/Día."
+      },
+      {
+        "numero": 24,
+        "titulo": "Datos de uso de medicamentos en España: el observatorio de los medicamentos. Mapas de Consumo de antibióticos"
+      },
+      {
+        "numero": 25,
+        "titulo": "Información de medicamentos a profesionales sanitarios. Fuentes y estrategias de búsqueda. Estrategias de la difusión de la información."
+      },
+      {
+        "numero": 26,
+        "titulo": "Información de medicamentos a pacientes. Educación sanitaria sobre medicamentos. Estrategias para promocionar un uso correcto de medicamentos por la población."
+      },
+      {
+        "numero": 27,
+        "titulo": "Plan de garantías de abastecimiento de medicamentos. Problemas de suministro de medicamentos. Gestión de los desabastecimientos."
+      },
+      {
+        "numero": 28,
+        "titulo": "Comité de Seguridad de Medicamentos de Uso Humana: alertas y notas informativas. Acciones derivadas"
+      },
+      {
+        "numero": 29,
+        "titulo": "Efectos adversos de los medicamentos. Sistema Español de Farmacogilancia: notificación espontánea de reacciones adversas."
+      },
+      {
+        "numero": 30,
+        "titulo": "Errores de medicación y Seguridad del paciente en Atención primaria. Sistemas de notificación y aprendizaje."
+      },
+      {
+        "numero": 31,
+        "titulo": "Gestión de botiquines y conservación de medicamentos en Atención Primaria. Carro de parada. Maletín de urgencias domiciliarias."
+      },
+      {
+        "numero": 32,
+        "titulo": "Productos sanitarios: criterios de uso y gestión de apósitos, tiras de glucemia y absorbentes en Atención Primaria."
+      },
+      {
+        "numero": 33,
+        "titulo": "Estrategias de adecuación de los tratamientos: conciliación, revisión, deprescripción y adherencia."
+      },
+      {
+        "numero": 34,
+        "titulo": "Adecuación de la medicación en el paciente polimedicado. Medicamentos de alto riesgo."
+      },
+      {
+        "numero": 35,
+        "titulo": "Adecuación de la medicación en el paciente anciano. Medicamentos potencialmente inadecuados"
+      },
+      {
+        "numero": 36,
+        "titulo": "Farmacoterapia y selección de medicamentos para el tratamiento de la hipersecreción gástrica. Tratamiento de la infección por helicobacter pylori."
+      },
+      {
+        "numero": 37,
+        "titulo": "Farmacoterapia y selección de medicamentos para el tratamiento de la diabetes en Atención primaria."
+      },
+      {
+        "numero": 38,
+        "titulo": "Farmacoterapia y selección de medicamentos para el tratamiento de las dislipemias en Atención primaria."
+      },
+      {
+        "numero": 39,
+        "titulo": "Farmacoterapia y selección de medicamentos para el tratamiento de la hipertensión arterial en Atención Primaria"
+      },
+      {
+        "numero": 40,
+        "titulo": "Farmacoterapia y selección de medicamentos para el tratamiento de la insuficiencia cardíaca en Atención Primaria"
+      },
+      {
+        "numero": 41,
+        "titulo": "Farmacoterapia y selección de medicamentos para el tratamiento de la fibrilación auricular y de la cardiopatía isquémica en Atención primaria."
+      },
+      {
+        "numero": 42,
+        "titulo": "Farmacoterapia y selección de medicamentos para el tratamiento de la hiperplasia benigna de próstata y de la incontinencia urinaria Atención primaria"
+      },
+      {
+        "numero": 43,
+        "titulo": "Uso racional de los antibióticos. Plan Nacional frente a las resistencias a los antibióticos (PRAN). Programas de optimización de uso de los antibióticos(PROA)."
+      },
+      {
+        "numero": 44,
+        "titulo": "Farmacoterapia y selección de medicamentos para el tratamiento de las infecciones de la piel y partes blandas en Atención Primaria"
+      },
+      {
+        "numero": 45,
+        "titulo": "Farmacoterapia y selección de medicamentos para el tratamiento de infecciones respiratorias en Atención Primaria."
+      },
+      {
+        "numero": 46,
+        "titulo": "Farmacoterapia y selección de medicamentos para el tratamiento de infecciones urinarias en Atención Primaria."
+      },
+      {
+        "numero": 47,
+        "titulo": "Farmacoterapia y selección de medicamentos para el tratamiento de infecciones de transmisión sexual en Atención Primaria."
+      },
+      {
+        "numero": 48,
+        "titulo": "Vacunas y programas de vacunación. Tipos de vacuna. Calendarios de vacunaciones sistemáticas. Transporte, conservación y almacenaje."
+      },
+      {
+        "numero": 49,
+        "titulo": "Farmacoterapia y selección de medicamentos para el tratamiento del dolor crónico no oncológico en Atención Primaria."
+      },
+      {
+        "numero": 50,
+        "titulo": "Farmacoterapia y selección de medicamentos del paciente en cuidados paliativos en Atención Primaria."
+      },
+      {
+        "numero": 51,
+        "titulo": "Farmacoterapia y selección de medicamentos para la prevención de fracturas osteoporóticas y para patologías osteoarticulares en Atención Primaria."
+      },
+      {
+        "numero": 52,
+        "titulo": "Farmacoterapia y selección de medicamentos para el tratamiento de la demencia y la agitación en Atención Primaria."
+      },
+      {
+        "numero": 53,
+        "titulo": "Farmacoterapia y selección de medicamentos para el tratamiento de la ansiedad y el insomnio en Atención Primaria."
+      },
+      {
+        "numero": 54,
+        "titulo": "Farmacoterapia y selección de medicamentos para el tratamiento de la depresión en Atención Primaria."
+      },
+      {
+        "numero": 55,
+        "titulo": "Farmacoterapia y selección de medicamentos para el tratamiento del asma (adultos y pediatría) en Atención primaria"
+      },
+      {
+        "numero": 56,
+        "titulo": "Farmacoterapia y selección de medicamentos para el tratamiento del EPOC. Técnicas y dispositivos de inhalación"
+      },
+      {
+        "numero": 57,
+        "titulo": "Uso de medicamentos en pacientes con patologías que modifican la respuesta a los fármacos: insuficiencias hepática, cardiaca y renal."
+      },
+      {
+        "numero": 58,
+        "titulo": "Farmacoterapia y selección de medicamentos para el tratamiento de los síntomas y patologías más prevalentes en pediatría."
+      },
+      {
+        "numero": 59,
+        "titulo": "Utilización de medicamentos en situaciones especiales: embarazo y lactancia."
+      },
+      {
+        "numero": 60,
+        "titulo": "Interacciones de medicamentos con relevancia clínica en Atención Primaria."
+      }
+    ]
+  }
+]

@@ -1,0 +1,332 @@
+[
+  {
+    "bloque": "Materia común",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "Constitución Española de 1978: la protección de la salud en la Constitución. Estatuto de Autonomía de Aragón. Competencias en salud recogidas en el Estatuto de Autonomía. Las Cortes de Aragón. El Gobierno de Aragón."
+      },
+      {
+        "numero": 2,
+        "titulo": "El texto refundido de la Ley del Estatuto Básico del Empleado Público, aprobado por el Real Decreto Legislativo 5/2015: deberes del empleado público y código de conducta. Representación, participación y negociación colectiva."
+      },
+      {
+        "numero": 3,
+        "titulo": "El régimen jurídico de la protección de datos de carácter personal: Disposiciones generales. Derechos de las personas."
+      },
+      {
+        "numero": 4,
+        "titulo": "El Procedimiento Administrativo Común de las Administraciones Públicas: Disposiciones Generales. Cómputo de plazos. Objeto y plazos de los recursos administrativos. El Régimen Jurídico del Sector Público: Disposiciones Generales"
+      },
+      {
+        "numero": 5,
+        "titulo": "Ley 14/1986 General de Sanidad. Ley 6/2002 de Salud de Aragón. Principios generales, estructura, contenidos. Ley 16/2003 de cohesión y calidad del Sistema Nacional de Salud. Principios generales, estructura, contenidos."
+      },
+      {
+        "numero": 6,
+        "titulo": "Ley 44/2003 de Ordenación de las Profesiones Sanitarias. Ámbito de aplicación, contenidos. Ley 41/2002, de 14 de noviembre, básica reguladora de la autonomía del paciente y de derechos y obligaciones en materia de información y documentación clínica. Ley 9/2013, de 28 de noviembre, de Autoridad de Profesionales del Sistema Sanitario y de Servicios Sociales Públicos de Aragón."
+      },
+      {
+        "numero": 7,
+        "titulo": "Ley 55/2003 del Estatuto Marco de personal Estatutario de los Servicios de Salud (I). Principios generales, estructura, contenidos. Clasificación del personal estatutario. Derechos y deberes. Adquisición y pérdida de la condición de personal estatutario. Provisión de plazas, selección y promoción interna. Movilidad del personal."
+      },
+      {
+        "numero": 8,
+        "titulo": "Ley 55/2003 del Estatuto Marco de personal Estatutario de los Servicios de Salud (II). Retribuciones. Jornada de trabajo, permisos y licencias. Situaciones del personal estatutario. Régimen disciplinario. Modelo de Carrera Profesional en Aragón. Ley 53/1984 de 26 de diciembre, de incompatibilidades. Principios Generales. Ámbito de aplicación."
+      },
+      {
+        "numero": 9,
+        "titulo": "La igualdad de oportunidades entre mujeres y hombres en Aragón: Disposiciones generales. Prevención y Protección Integral a las Mujeres Víctimas de Violencia en Aragón: Disposiciones Generales. La identidad y expresión de género e igualdad social y no discriminación en la Comunidad Autónoma de Aragón: Disposiciones Generales. La diversidad cultural y lucha contra la discriminación: Principios y objetivos del vigente Plan Integral para la Gestión de la Diversidad de Aragón."
+      },
+      {
+        "numero": 10,
+        "titulo": "El sistema sanitario. Niveles asistenciales. Organización de los servicios sanitarios en Aragón. Estructura del Departamento de Sanidad de Aragón y del Servicio Aragonés de la Salud. Los Sectores sanitarios."
+      },
+      {
+        "numero": 11,
+        "titulo": "Metodología de la Investigación: El método científico. Diseño de un proyecto de investigación. Estadística aplicada a los estudios de Medicina."
+      },
+      {
+        "numero": 12,
+        "titulo": "El método epidemiológico. Epidemiología descriptiva: tipos de estudios, tasas e indicadores. Epidemiología analítica: tipos de estudios. Riesgo relativo, riesgo atribuible y Odds Ratio. Sesgos."
+      },
+      {
+        "numero": 13,
+        "titulo": "Estudios experimentales. Ensayos clínicos. Ética de la investigación clínica. Validez de métodos diagnósticos: sensibilidad, especificidad, valor predictivo positivo."
+      },
+      {
+        "numero": 14,
+        "titulo": "Evaluación de Tecnologías Sanitarias: Procedimientos de evaluación. Cartera de Servicios del Sistema Nacional de Salud. Procedimiento de actualización de la Cartera de Servicios del sistema de Salud de Aragón."
+      },
+      {
+        "numero": 15,
+        "titulo": "Práctica basada en la evidencia. Variabilidad en la práctica médica. Búsqueda y valoración de evidencias. Aplicación de las evidencias a la toma de decisiones clínicas. Guías clínicas. Proyecto Guía-Salud."
+      },
+      {
+        "numero": 16,
+        "titulo": "La seguridad del paciente. Gestión de riesgos. Principales problemas para la seguridad del paciente en el hospital. Estrategias para la mejora de la seguridad."
+      },
+      {
+        "numero": 17,
+        "titulo": "Uso Racional del Medicamento. Criterios de selección de medicamentos. Equivalentes terapéuticos. Indicadores de calidad de prescripción."
+      },
+      {
+        "numero": 18,
+        "titulo": "Evaluación y mejora de la calidad. Modelos de Gestión de la Calidad. Diseño de un programa de calidad."
+      },
+      {
+        "numero": 19,
+        "titulo": "Principios fundamentales de la bioética: aplicación a la asistencia sanitaria. La relación médico-paciente, el consentimiento informado. Los comités de Bioética. La ética en la investigación clínica."
+      },
+      {
+        "numero": 20,
+        "titulo": "Gobierno clínico. La implicación de los profesionales en el funcionamiento de las instituciones sanitarias."
+      }
+    ]
+  },
+  {
+    "bloque": "Materia específica",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "Anatomía y fisiología del corazón y de la circulación coronaria. Determinantes del consumo de oxígeno miocárdico."
+      },
+      {
+        "numero": 2,
+        "titulo": "Fisiología cardiaca. Mecanismos de contracción y relajación cardiaca."
+      },
+      {
+        "numero": 3,
+        "titulo": "Historia clínica y Exploración física en Cardiología."
+      },
+      {
+        "numero": 4,
+        "titulo": "Estudio radiológico en cardiología: Rx tórax/ RMN cardiaca/ TC cardiaco."
+      },
+      {
+        "numero": 5,
+        "titulo": "Electrocardiografía."
+      },
+      {
+        "numero": 6,
+        "titulo": "Ecocardiografía."
+      },
+      {
+        "numero": 7,
+        "titulo": "Cardiología nuclear."
+      },
+      {
+        "numero": 8,
+        "titulo": "Prueba de esfuerzo. Monitorización ambulatoria con Holter. Prueba de la tabla basculante."
+      },
+      {
+        "numero": 9,
+        "titulo": "Cateterismo cardiaco. Hemodinámica cardiaca."
+      },
+      {
+        "numero": 10,
+        "titulo": "Terapias transcatéter para cardiopatías estructurales"
+      },
+      {
+        "numero": 11,
+        "titulo": "Angiografía, coronariografía, técnicas de imagen coronaria y técnicas de tratamiento intervencionista."
+      },
+      {
+        "numero": 12,
+        "titulo": "Tratamiento anticoagulante y antiagregante en Cardiología."
+      },
+      {
+        "numero": 13,
+        "titulo": "Insuficiencia cardiaca."
+      },
+      {
+        "numero": 14,
+        "titulo": "Shock cardiogénico."
+      },
+      {
+        "numero": 15,
+        "titulo": "Producción de las arritmias cardiacas. Consideraciones electrofisiológicas."
+      },
+      {
+        "numero": 16,
+        "titulo": "Técnicas invasivas en el diagnóstico y tratamiento de las arritmias."
+      },
+      {
+        "numero": 17,
+        "titulo": "Taquiarritmias supraventriculares. Arritmias ventriculares."
+      },
+      {
+        "numero": 18,
+        "titulo": "Bradiarritmias. Trastornos de la condución."
+      },
+      {
+        "numero": 19,
+        "titulo": "Marcapasos y dispositivos antiarrítmicos."
+      },
+      {
+        "numero": 20,
+        "titulo": "Paro cardiaco y muerte súbita."
+      },
+      {
+        "numero": 21,
+        "titulo": "Técnicas de resucitación cardiopulmonar."
+      },
+      {
+        "numero": 22,
+        "titulo": "Síncope cardiovascular."
+      },
+      {
+        "numero": 23,
+        "titulo": "Patogenia de la aterosclerosis."
+      },
+      {
+        "numero": 24,
+        "titulo": "Dislipemia y otros factores de riesgo de la arteriopatía coronaria. Flujo sanguíneo coronario e isquemia del miocardio."
+      },
+      {
+        "numero": 25,
+        "titulo": "Diabetes y enfermedad cardiovascular."
+      },
+      {
+        "numero": 26,
+        "titulo": "Enfermedad coronaria crónica."
+      },
+      {
+        "numero": 27,
+        "titulo": "Síndrome coronario agudo sin elevación del segmento ST."
+      },
+      {
+        "numero": 28,
+        "titulo": "Síndrome coronario agudo con elevación del segmento ST."
+      },
+      {
+        "numero": 29,
+        "titulo": "Intervencionismo coronario percutáneo."
+      },
+      {
+        "numero": 30,
+        "titulo": "Cirugía de bypass aortocoronario. Otras técnicas de cirugía coronaria."
+      },
+      {
+        "numero": 31,
+        "titulo": "Valvulopatía mitral."
+      },
+      {
+        "numero": 32,
+        "titulo": "Valvulopatía aórtica."
+      },
+      {
+        "numero": 33,
+        "titulo": "Otras valvulopatías."
+      },
+      {
+        "numero": 34,
+        "titulo": "Fiebre reumática. Afectación cardiaca en enfermedades reumáticas."
+      },
+      {
+        "numero": 35,
+        "titulo": "Miocardiopatía dilatada."
+      },
+      {
+        "numero": 36,
+        "titulo": "Miocardiopatía hipertrófica."
+      },
+      {
+        "numero": 37,
+        "titulo": "Miocardiopatía restrictiva. Displasia arritmogénica del ventrículo derecho."
+      },
+      {
+        "numero": 38,
+        "titulo": "Miocarditis."
+      },
+      {
+        "numero": 39,
+        "titulo": "Hipertensión arterial. Cardiopatía hipertensiva."
+      },
+      {
+        "numero": 40,
+        "titulo": "Enfermedades del pericardio. Taponamiento cardiaco."
+      },
+      {
+        "numero": 41,
+        "titulo": "Hipertensión pulmonar."
+      },
+      {
+        "numero": 42,
+        "titulo": "Cor pulmonale."
+      },
+      {
+        "numero": 43,
+        "titulo": "Tromboembolismo pulmonar."
+      },
+      {
+        "numero": 44,
+        "titulo": "Genética y enfermedad cardiovascular. Cardiopatías de origen genético."
+      },
+      {
+        "numero": 45,
+        "titulo": "Cardiopatías congénitas en la infancia."
+      },
+      {
+        "numero": 46,
+        "titulo": "Cardiopatías congénitas del adulto."
+      },
+      {
+        "numero": 47,
+        "titulo": "Cardiopatías adquiridas en lactantes y niños."
+      },
+      {
+        "numero": 48,
+        "titulo": "Endocarditis infecciosa."
+      },
+      {
+        "numero": 49,
+        "titulo": "Tumores cardiacos."
+      },
+      {
+        "numero": 50,
+        "titulo": "Traumatismos del corazón."
+      },
+      {
+        "numero": 51,
+        "titulo": "Evaluación preoperatoria y riesgo quirúrgico de los pacientes con cardiopatías."
+      },
+      {
+        "numero": 52,
+        "titulo": "Trasplante cardiaco."
+      },
+      {
+        "numero": 53,
+        "titulo": "Tratamiento médico del paciente sometido a cirugía cardiaca."
+      },
+      {
+        "numero": 54,
+        "titulo": "Repercusiones sobre el corazón de procesos de otros órganos y sistemas."
+      },
+      {
+        "numero": 55,
+        "titulo": "Cardiopatía y embarazo."
+      },
+      {
+        "numero": 56,
+        "titulo": "Repercusión cardiaca de Obesidad /Síndrome apnea obstructiva del sueño."
+      },
+      {
+        "numero": 57,
+        "titulo": "Enfermedad renal y afectación cardiovascular."
+      },
+      {
+        "numero": 58,
+        "titulo": "Rehabilitación cardiaca."
+      },
+      {
+        "numero": 59,
+        "titulo": "Enfermedades de la aorta."
+      },
+      {
+        "numero": 60,
+        "titulo": "Enfermedades de las grandes venas. Síndrome de la vena cava superior. Síndrome de la vena cava inferior."
+      }
+    ]
+  }
+]

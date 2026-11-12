@@ -1,0 +1,312 @@
+[
+  {
+    "bloque": "Materia común",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "La Constitución Española de 1978: Principios fundamentales. Derechos y deberes fundamentales de los ciudadanos. La protección a la salud en la Constitución."
+      },
+      {
+        "numero": 2,
+        "titulo": "La Corona. Las Cortes Generales. El Gobierno de la Nación. El Poder Judicial. Elaboración, aplicación e interpretación de las normas. Clases de normas y jerarquía normativa. Organización territorial del Estado."
+      },
+      {
+        "numero": 3,
+        "titulo": "El Estatuto de Autonomía de Aragón. Proceso de elaboración, estructura y características generales. El procedimiento de reforma del Estatuto de Autonomía de Aragón. Régimen de competencias de la Comunidad Autónoma."
+      },
+      {
+        "numero": 4,
+        "titulo": "Las Cortes de Aragón. Composición y régimen de funcionamiento. Función legislativa, presupuestaria y de control. Estatuto de los parlamentarios. El Justicia de Aragón"
+      },
+      {
+        "numero": 5,
+        "titulo": "El Presidente. El Gobierno de Aragón. Los Consejeros. La Administración Pública de la Comunidad Autónoma. Los órganos administrativos: su régimen y el ejercicio de las competencias. De los Organismos Públicos y de las Empresas de la Comunidad Autónoma."
+      },
+      {
+        "numero": 6,
+        "titulo": "Población, geografía y territorio en Aragón. Desequilibrios demográficos en Aragón. Magnitudes más relevantes de la economía aragonesa. Evolución reciente de la actividad económica en Aragón."
+      },
+      {
+        "numero": 7,
+        "titulo": "La igualdad de oportunidades entre mujeres y hombres en Aragón: Disposiciones generales. Prevención y Protección Integral a las Mujeres Víctimas de Violencia en Aragón: Disposiciones Generales. La identidad y expresión de género e igualdad social y no discriminación en la Comunidad Autónoma de Aragón: Disposiciones Generales. La diversidad cultural y lucha contra la discriminación: Principios y objetivos del Plan Integral para la Gestión de la Diversidad vigente en Aragón."
+      },
+      {
+        "numero": 8,
+        "titulo": "La Unión Europea. Jerarquía y fuentes del derecho comunitario, y su aplicación al derecho de los estados miembros."
+      },
+      {
+        "numero": 9,
+        "titulo": "La Ley General de Sanidad. El derecho a la protección de la salud. Principios Generales del sistema nacional de salud. Organización general del sistema sanitario público. Los Servicios Autonómicos de Salud."
+      },
+      {
+        "numero": 10,
+        "titulo": "La Ley de Cohesión y Calidad del Sistema Nacional de Salud. Principios generales, estructura y contenidos. Sistema de información sanitaria. Consejo Interterritorial."
+      },
+      {
+        "numero": 11,
+        "titulo": "La Ley de Salud de Aragón. Principios rectores. Características y organización del Sistema Sanitario Público. Derechos, deberes y garantías de los ciudadanos."
+      },
+      {
+        "numero": 12,
+        "titulo": "La Departamento de Sanidad del Gobierno de Aragón: Estructura básica y competencias. El Servicio Aragonés de Salud: Estructura y competencias."
+      },
+      {
+        "numero": 13,
+        "titulo": "La Ley del Estatuto Básico del Empleado Público. Clases de personal. Principios definidores del personal funcionario, estatutario y laboral. Deberes del empleado público y código de conducta. Representación, participación y negociación colectiva. El personal del Servicio Aragonés de Salud."
+      },
+      {
+        "numero": 14,
+        "titulo": "Personal Estatutario: Ley 55/2003 del Estatuto Marco de personal Estatutario de los Sistemas de Salud. Clasificación. Derechos y deberes. Adquisición y pérdida de la condición de personal estatutario fijo. Retribuciones. Jornada, permisos y licencias. Selección de personal estatutario y provisión de plazas en los centros del Servicio Aragonés de Salud. Movilidad y Promoción Interna. Situaciones administrativas. Régimen disciplinario."
+      },
+      {
+        "numero": 15,
+        "titulo": "El régimen de Incompatibilidades. Principios generales. Ámbito de aplicación."
+      },
+      {
+        "numero": 16,
+        "titulo": "Directivas comunitarias en materia de contratación pública. Legislación estatal en materia de contratos del Sector Público. Normativa aragonesa en materia de contratación pública. Los contratos del sector público. Clases de contratos. Configuración general de la contratación del sector público y elementos estructurales de los contratos. De los contratos de las Administraciones Públicas."
+      },
+      {
+        "numero": 17,
+        "titulo": "El Procedimiento Administrativo Común de las Administraciones Públicas: Disposiciones Generales. Computo de plazos. Objeto y plazos de los recursos administrativos. El Régimen Jurídico del Sector Público: Disposiciones Generales."
+      },
+      {
+        "numero": 18,
+        "titulo": "Ley de Prevención de Riesgos Laborales: Conceptos básicos. Derechos y obligaciones en materia de seguridad en el trabajo. Organización de la prevención de riesgos laborales en la Comunidad Autónoma de Aragón. Distribución de funciones y responsabilidades en materia de prevención de riesgos laborales entre los diferentes órganos del Servicio Aragonés de Salud"
+      },
+      {
+        "numero": 19,
+        "titulo": "El régimen jurídico de la protección de datos de carácter personal: Disposiciones generales. Principios de la protección de datos. Derechos de las personas. Responsable y Encargado del Tratamiento."
+      },
+      {
+        "numero": 20,
+        "titulo": "Ley 41/2002, de 14 de noviembre, básica reguladora de la autonomía del paciente y de derechos y obligaciones en materia de información y documentación clínica."
+      }
+    ]
+  },
+  {
+    "bloque": "Materia específica",
+    "temas": [
+      {
+        "numero": 21,
+        "titulo": "Bases generales sobre autorización de centros, servicios y establecimientos sanitarios. Reglamento que regula la autorización de centros y servicios sanitarios en Aragón."
+      },
+      {
+        "numero": 22,
+        "titulo": "Requisitos mínimos para la autorización de centros, servicios y establecimientos sanitarios en la Comunidad Autónoma de Aragón. Requisitos mínimos para la autorización de centros quirúrgicos en la Comunidad Autónoma de Aragón."
+      },
+      {
+        "numero": 23,
+        "titulo": "Ley de Industria. Seguridad y Calidad Industrial"
+      },
+      {
+        "numero": 24,
+        "titulo": "Condiciones técnicas y garantías de seguridad en líneas eléctricas de alta tensión. Instaladores y empresas instaladoras autorizadas. Documentación y puesta en servicio. Verificaciones e inspecciones. Anteproyectos y Proyectos."
+      },
+      {
+        "numero": 25,
+        "titulo": "Condiciones técnicas y garantías de seguridad en instalaciones eléctricas de alta tensión. Tensiones nominales. Instaladores y empresas instaladoras autorizadas. Documentación y puesta en servicio de las Instalaciones de alta tensión. Verificaciones e inspecciones. Anteproyectos y Proyectos."
+      },
+      {
+        "numero": 26,
+        "titulo": "Reglamento Electrotécnico de Baja Tensión (I). Instaladores autorizados en baja tensión. Documentación y puesta en servicio de las instalaciones. Verificaciones e Inspecciones."
+      },
+      {
+        "numero": 27,
+        "titulo": "Reglamento Electrotécnico de Baja Tensión (II). Instalaciones de alumbrado exterior. Previsión de cargas para suministros en baja tensión. Redes de distribución de energía eléctrica, acometidas. Instalaciones de enlace: línea general de alimentación, derivaciones individuales."
+      },
+      {
+        "numero": 28,
+        "titulo": "Reglamento Electrotécnico de Baja Tensión (III). Instalaciones de puesta a tierra. Instalaciones interiores o receptoras: prescripciones generales. Instalación en locales de pública concurrencia."
+      },
+      {
+        "numero": 29,
+        "titulo": "Reglamento Electrotécnico de Baja Tensión (IV). Prescripciones particulares para las instalaciones eléctricas en locales con riesgo de incendio o explosión. Instalaciones con fines especiales: requisitos particulares para la instalación eléctrica en quirófanos y salas de intervención."
+      },
+      {
+        "numero": 30,
+        "titulo": "Reglamento de instalaciones térmicas en los Edificios (I). Diseño y dimensionamiento."
+      },
+      {
+        "numero": 31,
+        "titulo": "Reglamento de instalaciones térmicas en los Edificios (II). Mantenimiento y uso de dichas instalaciones. Inspección"
+      },
+      {
+        "numero": 32,
+        "titulo": "Código Técnico de Edificación (I). Disposiciones generales. Condiciones técnicas y administrativas para el cumplimiento del Código Técnico de Edificación."
+      },
+      {
+        "numero": 33,
+        "titulo": "Código Técnico de Edificación (II). Exigencias básicas de seguridad en caso de incendio (Documento Básico SI)."
+      },
+      {
+        "numero": 34,
+        "titulo": "Código Técnico de Edificación (III). Exigencias básicas de seguridad de utilización y accesibilidad (Documento Básico SUA)."
+      },
+      {
+        "numero": 35,
+        "titulo": "Código Técnico de Edificación (IV). Exigencias básicas de ahorro de energía (Documento básico HE)."
+      },
+      {
+        "numero": 36,
+        "titulo": "Código Técnico de Edificación (V). Exigencias básicas de protección frente al ruido (Documento básico HR). Exigencias básicas de salubridad (Documento básico HS)."
+      },
+      {
+        "numero": 37,
+        "titulo": "Reglamento de instalaciones de protección contra incendios."
+      },
+      {
+        "numero": 38,
+        "titulo": "Norma Básica de Autoprotección de los centros, establecimientos y dedicados a actividades que pueden dar origen a situaciones de emergencia."
+      },
+      {
+        "numero": 39,
+        "titulo": "Reglamento de almacenamiento de productos químicos (I): Almacenamiento de líquidos inflamables y combustibles en recipientes fijos"
+      },
+      {
+        "numero": 40,
+        "titulo": "Reglamento de almacenamiento de productos químicos (II): Almacenamiento de gases en recipientes a presión móviles"
+      },
+      {
+        "numero": 41,
+        "titulo": "Reglamento de Instalaciones Petrolíferas. Instalaciones petrolíferas para uso propio."
+      },
+      {
+        "numero": 42,
+        "titulo": "Reglamento técnico de distribución y utilización de combustibles gaseosos. Instalaciones receptoras de combustibles gaseosos. Instalaciones de almacenamiento de gases licuados del petróleo (GLP) en depósitos fijos."
+      },
+      {
+        "numero": 43,
+        "titulo": "Reglamento de equipos a presión (I). Disposiciones generales. Instalación y puesta en servicio. Inspecciones periódicas, reparaciones y modificaciones. Otras disposiciones. Empresas instaladoras y reparadoras. Requisitos para la instalación y puesta en servicio de instalaciones."
+      },
+      {
+        "numero": 44,
+        "titulo": "Reglamento de equipos a presión (II). Calderas."
+      },
+      {
+        "numero": 45,
+        "titulo": "Reglamento de equipos a presión (III). Depósitos criogénicos. Recipientes a presión transportables."
+      },
+      {
+        "numero": 46,
+        "titulo": "Reglamento de seguridad para instalaciones frigoríficas (I). Clasificación de los sistemas de refrigeración. Salas de máquinas específicas, diseño y construcción."
+      },
+      {
+        "numero": 47,
+        "titulo": "Reglamento de seguridad para instalaciones frigoríficas (II). Mantenimiento, revisiones e inspecciones periódicas de las instalaciones frigoríficas. Puesta en servicio de las instalaciones frigoríficas. Medidas de prevención y de protección personal."
+      },
+      {
+        "numero": 48,
+        "titulo": "Normativa sobre aparatos elevadores. Reglamento de aparatos de elevación y manutención. Ascensores"
+      },
+      {
+        "numero": 49,
+        "titulo": "Normativa para la comercialización y puesta en servicio de las máquinas."
+      },
+      {
+        "numero": 50,
+        "titulo": "Criterios Higiénico sanitarios de calidad del agua de consumo humano. Normativa de aplicación."
+      },
+      {
+        "numero": 51,
+        "titulo": "Criterios técnico-sanitarios de las piscinas. Especial atención a instalaciones de ámbito sanitario para tratamiento de rehabilitación, piscinas de hidroterapia, climatizadas, etc…"
+      },
+      {
+        "numero": 52,
+        "titulo": "Criterios higiénico-sanitarios para la prevención y control de la legionelosis. Especial atención a instalaciones de mayor probabilidad de proliferación y dispersión de Legionella. Normativa de aplicación."
+      },
+      {
+        "numero": 53,
+        "titulo": "Criterios higiénico-sanitarios para la prevención y control de la legionelosis. Instalaciones de menor probabilidad de proliferación y dispersión de Legionella. Instalaciones de riesgo en terapia respiratoria. Homologación de cursos de formación para operaciones de mantenimiento en este ámbito. Normativa de aplicación"
+      },
+      {
+        "numero": 54,
+        "titulo": "Programa de vigilancia sanitaria para la prevención y control de la legionelosis en Aragón. Notificación de torres de refrigeración y condensadores evaporativos. Medidas referidas al censo de instalaciones, aparatos y equipos de riesgo en relación con la legionelosis en la Comunidad Autónoma de Aragón. Normativa de aplicación."
+      },
+      {
+        "numero": 55,
+        "titulo": "Prevención de Riesgos Laborales (I). Disposiciones mínimas de seguridad y salud en los lugares de trabajo. Disposiciones mínimas en materia de señalización de seguridad y salud en el trabajo."
+      },
+      {
+        "numero": 56,
+        "titulo": "Prevención de Riesgos Laborales (II). Disposiciones mínimas de seguridad y salud relativas a la manipulación manual de cargas que entrañe riesgo, en particular dorsolumbares para los trabajadores. Disposiciones mínimas de seguridad y salud relativas al trabajo con equipos que incluyen pantallas de visualización de datos."
+      },
+      {
+        "numero": 57,
+        "titulo": "Prevención de Riesgos Laborales (III). Sobre la protección de los trabajadores contra los riesgos relacionados con la exposición a agentes biológicos durante el trabajo. Sobre la protección de la salud y seguridad de los trabajadores contra los riesgos relacionados con los agentes químicos durante el trabajo. Sobre la protección de los trabajadores contra los riesgos relacionados con la exposición a agentes cancerígenos durante el trabajo"
+      },
+      {
+        "numero": 58,
+        "titulo": "Prevención de Riesgos Laborales (IV). Disposiciones mínimas para la protección de la salud y seguridad de los trabajadores frente al riesgo eléctrico. Disposiciones mínimas de seguridad y de salud en las obras de construcción."
+      },
+      {
+        "numero": 59,
+        "titulo": "Prevención de Riesgos Laborales (V) Disposiciones mínimas en materia de Prevención de Riesgos Laborales (VII). Disposiciones mínimas de seguridad y salud relativas a la utilización por los trabajadores de equipos de protección individual. Disposiciones mínimas de seguridad y salud para la utilización por los trabajadores de los equipos de trabajo"
+      },
+      {
+        "numero": 60,
+        "titulo": "Prevención de Riesgos Laborales (VI). Protección de la salud y la seguridad de los trabajadores contra los riesgos relacionados con la exposición al ruido. protección de la salud y la seguridad de los trabajadores frente a los riesgos derivados o que puedan derivarse de la exposición a vibraciones mecánicas."
+      },
+      {
+        "numero": 61,
+        "titulo": "Prevención de Riesgos Laborales (VII). Protección sanitaria contra radiaciones ionizantes. Normativa de aplicación"
+      },
+      {
+        "numero": 62,
+        "titulo": "Instalaciones de comunicaciones. Redes de voz y datos. Centros de proceso de datos: prescripciones técnicas de los locales. Comunicación en planta e intercomunicadores."
+      },
+      {
+        "numero": 63,
+        "titulo": "El agua. Naturaleza química. Sus propiedades; alcalinidad, dureza, salinidad. Parámetros de medición: temperatura, cloro libre, cloro total y cloro residual, solubilidad, materias disueltas, alcalinidad, índice de Ryznar y de Langelier, conductividad, turbidez, …"
+      },
+      {
+        "numero": 64,
+        "titulo": "Tratamientos de agua: filtración, descalcificación, ósmosis inversa, tratamiento de ultravioleta, ozonización. Aplicación de dichos tratamientos en entorno sanitario."
+      },
+      {
+        "numero": 65,
+        "titulo": "Conceptos básicos de esterilización (I). Clasificación de materiales. Esterilización por vapor, óxido de etileno, Formaldehidos, peróxidos, gas plasma."
+      },
+      {
+        "numero": 66,
+        "titulo": "Conceptos básicos de esterilización(II). Controles de Calidad en el proceso de esterilización. Test B.D. Clasificación y tipología de riesgos en la central de esterilización."
+      },
+      {
+        "numero": 67,
+        "titulo": "Gases medicinales. Tipos y prescripciones particulares. Normativa de Aplicación. Oxígeno, Nitrógeno, Protóxido de nitrógeno, Dióxido de Carbono, etc… Instalaciones asociadas a dichos gases en ámbito hospitalario"
+      },
+      {
+        "numero": 68,
+        "titulo": "Gestión de residuos. Residuos sanitarios. Gestión de residuos sanitarios en la Comunidad Autónoma de Aragón. Normativa de aplicación."
+      },
+      {
+        "numero": 69,
+        "titulo": "Quirófanos. Clasificación, condiciones interiores, criterios técnicos, diseño tipo de climatización en bloques quirúrgicos, aspectos constructivos a considerar, régimen de funcionamiento, sistemas de control, protocolos de mantenimiento, controles preventivos, de limpieza y microbiológicos."
+      },
+      {
+        "numero": 70,
+        "titulo": "Instalaciones Electromédicas (I): Quirófanos, UCIS, Unidades de Reanimación Post Anestésica, Hemodiálisis, Litotricia, Braquiterapia y sus sistemas de Seguridad Física, Electrofisiología, Oncología Radioterápica, Ecografía…"
+      },
+      {
+        "numero": 71,
+        "titulo": "Instalaciones Electromédicas (II): Diagnóstico por Imagen: Equipos y Salas de Radiodiagnóstico, Tomografía Axial Computerizada (TAC), Resonancia Magnética (RNM), Medicina Nuclear; Tomografía de Emisión de Positrones (PET), Ultrasonidos…"
+      },
+      {
+        "numero": 72,
+        "titulo": "Equipamiento Electromédico: equipamiento de Farmacia Hospitalaria, electrobisturís, desfibriladores, Endoscopia y Broncoscopia, centrífugas, cabinas de seguridad, bombas de perfusión…"
+      },
+      {
+        "numero": 73,
+        "titulo": "Organización de cocina y alimentación en centros sanitarios. Conservación, almacenamiento y manipulación. Equipamiento típico de una cocina hospitalaria."
+      },
+      {
+        "numero": 74,
+        "titulo": "Lavanderías hospitalarias. Fases de procesado de ropa hospitalaria. Barrera sanitaria. Equipamiento típico de una lavandería hospitalaria."
+      },
+      {
+        "numero": 75,
+        "titulo": "Organización del mantenimiento en centros sanitarios. Tipos de mantenimiento: preventivo, correctivo, predictivo, mejorativo."
+      }
+    ]
+  }
+]

@@ -1,0 +1,332 @@
+[
+  {
+    "bloque": "Materia común",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "Constitución Española de 1978: la protección de la salud en la Constitución. Estatuto de Autonomía de Aragón. Competencias en salud recogidas en el Estatuto de Autonomía. Las Cortes de Aragón. El Gobierno de Aragón."
+      },
+      {
+        "numero": 2,
+        "titulo": "El texto refundido de la Ley del Estatuto Básico del Empleado Público, aprobado por el Real Decreto Legislativo 5/2015: deberes del empleado público y código de conducta. Representación, participación y negociación colectiva."
+      },
+      {
+        "numero": 3,
+        "titulo": "El régimen jurídico de la protección de datos de carácter personal: Disposiciones generales. Principios de la protección de datos. Derechos de las personas. Responsable y Encargado del Tratamiento."
+      },
+      {
+        "numero": 4,
+        "titulo": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas. Ámbito de aplicación y principios generales. Los interesados en el procedimiento administrativo. Cómputo de plazos. Revisión de actos en vía administrativa: revisión de oficio y recursos administrativos."
+      },
+      {
+        "numero": 5,
+        "titulo": "Ley 14/86 General de Sanidad. Ley 6/2002 de Salud de Aragón. Principios generales, estructura, contenidos. Ley 16/2003 de cohesión y calidad del Sistema Nacional de Salud. Principios generales, estructura, contenidos."
+      },
+      {
+        "numero": 6,
+        "titulo": "Ley 44/2003 de Ordenación de las Profesiones Sanitarias. Ámbito de aplicación, contenidos. Ley 41/2002, de 14 de noviembre, básica reguladora de la autonomía del paciente y de derechos y obligaciones en materia de información y documentación clínica. Ley 9/2013, de 28 de noviembre, de Autoridad de Profesionales del Sistema Sanitario y de Servicios Sociales Públicos de Aragón."
+      },
+      {
+        "numero": 7,
+        "titulo": "Ley 55/2003 del Estatuto Marco de personal Estatutario de los servicios de salud (I). Principios generales, estructura, contenidos. Clasificación del personal estatutario. Derechos y deberes. Adquisición y pérdida de la condición de personal estatutario. Provisión de plazas, selección y promoción interna. Movilidad del personal."
+      },
+      {
+        "numero": 8,
+        "titulo": "Ley 55/2003 del Estatuto Marco de personal Estatutario de los servicios de salud (II). Retribuciones. Jornada de trabajo, permisos y licencias. Situaciones del personal estatutario. Régimen disciplinario. Modelo de Carrera Profesional en Aragón. Ley 53/1984 de 26 de diciembre, de incompatibilidades. Principios Generales. Ámbito de aplicación."
+      },
+      {
+        "numero": 9,
+        "titulo": "La igualdad de oportunidades entre mujeres y hombres en Aragón: Disposiciones generales. Prevención y Protección Integral a las Mujeres Víctimas de Violencia en Aragón: Disposiciones Generales. La identidad y expresión de género e igualdad social y no discriminación en la Comunidad Autónoma de Aragón. La diversidad cultural y lucha contra la discriminación: Principios y objetivos del Plan Integral para la Gestión de la Diversidad vigente en Aragón."
+      },
+      {
+        "numero": 10,
+        "titulo": "El sistema sanitario. Niveles asistenciales. Organización de los servicios sanitarios en Aragón. Estructura del Departamento de Sanidad de Aragón y del Servicio Aragonés de la Salud. Los Sectores sanitarios."
+      },
+      {
+        "numero": 11,
+        "titulo": "Metodología de la Investigación: El método científico. Diseño de un proyecto de investigación. Estadística aplicada a los estudios de Medicina."
+      },
+      {
+        "numero": 12,
+        "titulo": "El método epidemiológico. Epidemiología descriptiva: tipos de estudios, tasas e indicadores. Epidemiología analítica: tipos de estudios. Riesgo relativo, riesgo atribuible y Odds Ratio. Sesgos."
+      },
+      {
+        "numero": 13,
+        "titulo": "Estudios experimentales. Ensayos clínicos. Ética de la investigación clínica. Validez de métodos diagnósticos: sensibilidad, especificidad, valor predictivo positivo."
+      },
+      {
+        "numero": 14,
+        "titulo": "Evaluación de Tecnologías Sanitarias: Procedimientos de evaluación. Cartera de Servicios del Sistema Nacional de Salud. Procedimiento de actualización de la Cartera de Servicios del sistema de Salud de Aragón."
+      },
+      {
+        "numero": 15,
+        "titulo": "Práctica basada en la evidencia. Variabilidad en la práctica médica. Búsqueda y valoración de evidencias. Aplicación de las evidencias a la toma de decisiones clínicas. Guías clínicas. Proyecto Guía-Salud."
+      },
+      {
+        "numero": 16,
+        "titulo": "La seguridad del paciente. Gestión de riesgos. Principales problemas para la seguridad del paciente. Estrategias para la mejora de la seguridad."
+      },
+      {
+        "numero": 17,
+        "titulo": "Uso Racional del Medicamento. Criterios de selección de medicamentos. Equivalentes terapéuticos. Indicadores de calidad de prescripción."
+      },
+      {
+        "numero": 18,
+        "titulo": "Evaluación y mejora de la calidad. Modelos de Gestión de la Calidad. Diseño de un programa de calidad."
+      },
+      {
+        "numero": 19,
+        "titulo": "Principios fundamentales de la bioética: aplicación a la asistencia sanitaria. La relación médico-paciente, el consentimiento informado. Los comités de Bioética. La ética en la investigación clínica."
+      },
+      {
+        "numero": 20,
+        "titulo": "Gobierno clínico. La implicación de los profesionales en el funcionamiento de las instituciones sanitarias."
+      }
+    ]
+  },
+  {
+    "bloque": "Materia específica",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "Concepto de salud. Modelos de determinantes de salud. Concepto de equidad. Marco conceptual de los determinantes de las desigualdades sociales en salud."
+      },
+      {
+        "numero": 2,
+        "titulo": "Concepto de Salud Pública. La Salud Pública en Aragón: Principios rectores, deberes, funciones y actividades."
+      },
+      {
+        "numero": 3,
+        "titulo": "Modelos de Atención Primaria y de Sistemas de Salud. Fuentes de información, indicadores de evaluación y comparación de los sistemas sanitarios."
+      },
+      {
+        "numero": 4,
+        "titulo": "Atención Primaria de Salud en Aragón: Concepto, estructuras básicas. Mapa sanitario de Aragón."
+      },
+      {
+        "numero": 5,
+        "titulo": "Organización y funcionamiento del Equipo de Atención Primaria en Aragón."
+      },
+      {
+        "numero": 6,
+        "titulo": "Organización de la atención a urgencias y emergencias. Dispositivos sanitarios. Estructura, organización y funcionamiento."
+      },
+      {
+        "numero": 7,
+        "titulo": "Cartera de Servicios de los Equipos de Atención Primaria en Aragón. Aspectos conceptuales y metodológicos de evaluación. Coberturas. Normas Técnicas. Planes personales. Criterios de Inclusión."
+      },
+      {
+        "numero": 8,
+        "titulo": "Derechos y deberes de los ciudadanos en el Sistema de Salud de Aragón. Garantías de accesibilidad al sistema. Segunda opinión. Voluntades anticipadas."
+      },
+      {
+        "numero": 9,
+        "titulo": "La participación comunitaria en el Sistema de salud de Aragón. El Consejo de Salud de Aragón. El Consejo de salud de Sector y de Zona."
+      },
+      {
+        "numero": 10,
+        "titulo": "Diseño y puesta en marcha de programas sanitarios. Análisis de situación y determinación de prioridades. Fijación de objetivos, actividades y recursos. Evaluación de programas."
+      },
+      {
+        "numero": 11,
+        "titulo": "Promoción de salud y prevención de enfermedad en Atención Primaria. Conceptos. Criterios de priorización de programas y actividades. Cribados en Atención Primaria. Factores de riesgo. Estrategias e intervención sobre los factores de riesgo."
+      },
+      {
+        "numero": 12,
+        "titulo": "El plan de salud de Aragón. Principios rectores y áreas prioritarias. Las estrategias de salud del Sistema Nacional de Salud y su desarrollo en Aragón."
+      },
+      {
+        "numero": 13,
+        "titulo": "Atención a la infancia y a la adolescencia. Actividades de prevención y promoción de la salud. Principales problemas de salud en la infancia y adolescencia."
+      },
+      {
+        "numero": 14,
+        "titulo": "Atención al Adulto. Actividades de prevención y promoción de la salud. Principales factores de riesgo y problemas de salud de las mujeres y hombres en la edad adulta."
+      },
+      {
+        "numero": 15,
+        "titulo": "Atención a las personas Ancianas. Prevención y detección de los problemas más frecuentes en el anciano. El envejecimiento activo."
+      },
+      {
+        "numero": 16,
+        "titulo": "Epidemiología de las enfermedades crónicas. Estrategias de abordaje a la cronicidad en el Sistema Nacional de Salud y en Aragón."
+      },
+      {
+        "numero": 17,
+        "titulo": "Estrategia para la Nutrición, Actividad Física y Prevención de la Obesidad (NAOS). Desarrollo en Aragón."
+      },
+      {
+        "numero": 18,
+        "titulo": "Salud sexual y reproductiva. Actividades de prevención y promoción de la salud. Principales problemas."
+      },
+      {
+        "numero": 19,
+        "titulo": "Drogodependencias y otras conductas adictivas: Plan de Adicciones de la Comunidad Autónoma de Aragón."
+      },
+      {
+        "numero": 20,
+        "titulo": "Epidemiología de las enfermedades mentales. Modelo de atención y Plan de Salud mental de Aragón."
+      },
+      {
+        "numero": 21,
+        "titulo": "Promoción de la salud. Conferencias mundiales de promoción de la salud. Salud en todas las políticas. Principios y estrategias de la promoción de la salud."
+      },
+      {
+        "numero": 22,
+        "titulo": "La estrategia de Atención Comunitaria en Aragón. La Red Aragonesa de Proyectos de Promoción de la Salud."
+      },
+      {
+        "numero": 23,
+        "titulo": "La educación para la salud. Intervenciones y métodos de educación para la salud."
+      },
+      {
+        "numero": 24,
+        "titulo": "La comunicación en salud: técnicas para una comunicación eficaz. La comunicación en salud pública."
+      },
+      {
+        "numero": 25,
+        "titulo": "Acceso del ciudadano a la Información clínica: La plataforma Salud Informa."
+      },
+      {
+        "numero": 26,
+        "titulo": "Sistemas de Información y registro en Atención Primaria. Indicadores de actividad. Indicadores clínicos. Otros indicadores. Clasificación de problemas de salud en Atención Primaria."
+      },
+      {
+        "numero": 27,
+        "titulo": "Sistemas de Clasificación de pacientes en Atención Primaria. GMA (Grupos de Morbilidad Ajustados). Índices de eficiencia."
+      },
+      {
+        "numero": 28,
+        "titulo": "Acuerdos de Gestión Clínica en los Equipos de Atención Primaria. Evaluación y seguimiento de los Acuerdos de Gestión Clínica."
+      },
+      {
+        "numero": 29,
+        "titulo": "Proyectos de mejora. Diseño y evaluación. Procedimiento de gestión de proyectos de los Acuerdos de Gestión."
+      },
+      {
+        "numero": 30,
+        "titulo": "Economía de la salud. Conceptos básicos de financiación y gestión de recursos. Tipos de estudios de Evaluación económica."
+      },
+      {
+        "numero": 31,
+        "titulo": "Principales problemas de Seguridad del Paciente en Atención Primaria. Sistemas de notificación y aprendizaje. Estrategias para mejorar la seguridad clínica en Atención Primaria."
+      },
+      {
+        "numero": 32,
+        "titulo": "Programa integral de vigilancia y prevención de las infecciones relacionadas con la asistencia sanitaria y de optimización del uso de antibióticos (IRASPROA)."
+      },
+      {
+        "numero": 33,
+        "titulo": "Análisis de la adecuación de procedimientos diagnósticos y terapéuticos en Atención Primaria. Fuentes de información. Efectos del sobrediagnóstico y sobretratamiento."
+      },
+      {
+        "numero": 34,
+        "titulo": "Servicios de información y atención al usuario en el Servicio Aragonés de Salud. Gestión de quejas, sugerencias y reclamaciones. Satisfacción del usuario."
+      },
+      {
+        "numero": 35,
+        "titulo": "Gestión por procesos. Continuidad asistencial y Procesos integrados. Métodos para el diseño, puesta en marcha y evaluación de procesos asistenciales y trayectorias clínicas."
+      },
+      {
+        "numero": 36,
+        "titulo": "Sistemas de Gestión de la Calidad en los Centros de salud de Aragón. Implantación y evaluación. Auditorías. La Norma ISO 9001."
+      },
+      {
+        "numero": 37,
+        "titulo": "Organización de la formación continuada en Aragón. Gestión del Plan de Formación. Acreditación de actividades formativas. Modelos de Evaluación"
+      },
+      {
+        "numero": 38,
+        "titulo": "Organización de la formación postgrado en Aragón. Unidades Docentes de Atención Familiar y Comunitaria. Funciones y actividades."
+      },
+      {
+        "numero": 39,
+        "titulo": "Procedimiento de Evaluación de la formación postgrado en Atención Primaria."
+      },
+      {
+        "numero": 40,
+        "titulo": "Organización de la Investigación en el Sistema de Salud de Aragón. Procedimiento de acceso a convocatorias nacionales e internacionales."
+      },
+      {
+        "numero": 41,
+        "titulo": "Fuentes de información Biomédica en ciencias de la salud. Estrategia de búsqueda bibliográfica. Instrumentos para la evaluación de estudios y lectura crítica de literatura científica."
+      },
+      {
+        "numero": 42,
+        "titulo": "Causalidad en epidemiología. Estrategias para prevenir y controlar sesgos y variables de confusión. Ajuste de tasas. Validez interna y externa de los estudios."
+      },
+      {
+        "numero": 43,
+        "titulo": "Estudios descriptivos. Estudios transversales y ecológicos. Diseño de cuestionarios y encuestas."
+      },
+      {
+        "numero": 44,
+        "titulo": "Estudios analíticos observacionales. Estudios de cohortes. Estudios de casos y controles. Ventajas e Inconvenientes."
+      },
+      {
+        "numero": 45,
+        "titulo": "Estudios analíticos experimentales. El ensayo clínico aleatorizado. Medidas de eficacia, efectividad y seguridad de las intervenciones sanitarias."
+      },
+      {
+        "numero": 46,
+        "titulo": "Evaluación de las pruebas diagnósticas. Validez de los métodos diagnósticos y concordancia."
+      },
+      {
+        "numero": 47,
+        "titulo": "Fundamentos y métodos de la Investigación cualitativa. Técnicas de consenso y priorización."
+      },
+      {
+        "numero": 48,
+        "titulo": "Demografía sanitaria. Fuentes de información para el estudio de la población. Demografía estática."
+      },
+      {
+        "numero": 49,
+        "titulo": "Demografía dinámica. Características y principales indicadores. Evolución de la población en España y Aragón."
+      },
+      {
+        "numero": 50,
+        "titulo": "Estadística descriptiva. Probabilidad. Medidas de tendencia central y de dispersión. Representación gráfica. Tipos de muestreo. Cálculo del tamaño muestral."
+      },
+      {
+        "numero": 51,
+        "titulo": "Contraste de hipótesis. Significación estadística e Intervalos de confianza. Comparación de medias y proporciones. Bases del análisis multivalente."
+      },
+      {
+        "numero": 52,
+        "titulo": "Epidemiología de las enfermedades transmisibles. Bases generales para el control de las enfermedades transmisibles. Medidas de protección sobre la población susceptible."
+      },
+      {
+        "numero": 53,
+        "titulo": "Vigilancia epidemiológica. Fuentes de datos. Enfermedades de Declaración Obligatoria. Farmacovigilancia. Redes Centinela."
+      },
+      {
+        "numero": 54,
+        "titulo": "Investigación de brotes epidémicos. Actuación ante un brote epidémico."
+      },
+      {
+        "numero": 55,
+        "titulo": "Epidemiología, prevención y control de las enfermedades de transmisión digestiva. Toxiinfecciones alimentarias."
+      },
+      {
+        "numero": 56,
+        "titulo": "Epidemiología, prevención y control de las enfermedades de transmisión respiratoria. Gripe y otras infecciones respiratorias virales."
+      },
+      {
+        "numero": 57,
+        "titulo": "Alertas en salud pública. Principios y organización del Sistema de Atención a Alertas en Salud Pública en la Comunidad Autónoma de Aragón."
+      },
+      {
+        "numero": 58,
+        "titulo": "Características generales de las vacunas. Prácticas de inmunización. Vacunaciones sistemáticas, no sistemáticas y grupos especiales. Calendario vacunal en Aragón."
+      },
+      {
+        "numero": 59,
+        "titulo": "Riesgo biológico en el ámbito sanitario. Precauciones frente a exposición de fluidos corporales. Gestión de residuos."
+      },
+      {
+        "numero": 60,
+        "titulo": "Limpieza y desinfección en el ámbito sanitario. Esterilización de material sanitario en atención primaria."
+      }
+    ]
+  }
+]

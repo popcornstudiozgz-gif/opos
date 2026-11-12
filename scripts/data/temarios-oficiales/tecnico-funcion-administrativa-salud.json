@@ -1,0 +1,442 @@
+[
+  {
+    "bloque": "Parte general",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "La Constitución española. Principios constitucionales. Derechos fundamentales y libertades públicas. Deberes de los ciudadanos. Garantía y suspensión de los derechos y libertades. La protección de la salud en la Constitución."
+      },
+      {
+        "numero": 2,
+        "titulo": "La Corona. Las Cortes Generales. El Poder Judicial. Elaboración, aplicación e interpretación de las normas. Clases de normas y jerarquía normativa. El Tribunal Constitucional."
+      },
+      {
+        "numero": 3,
+        "titulo": "El Gobierno en el sistema constitucional español. Formación, composición y funciones. Control parlamentario del Gobierno. Órganos constitucionales de control del Gobierno: Defensor del Pueblo y Tribunal de Cuentas. La función consultiva: el Consejo de Estado y el Consejo Económico y Social."
+      },
+      {
+        "numero": 4,
+        "titulo": "Organización territorial del Estado. Comunidades Autónomas. Administración Local. La distribución de competencias. Las relaciones entre los entes territoriales, los conflictos de competencias."
+      },
+      {
+        "numero": 5,
+        "titulo": "El Estatuto de Autonomía de Aragón. Naturaleza y contenido. Proceso de elaboración, estructura y características generales. Régimen de competencias de la Comunidad Autónoma. El procedimiento de reforma del Estatuto de Autonomía de Aragón."
+      },
+      {
+        "numero": 6,
+        "titulo": "Las Cortes de Aragón. Composición y régimen de funcionamiento. Función legislativa, presupuestaria y de control. Estatuto de los parlamentarios."
+      },
+      {
+        "numero": 7,
+        "titulo": "El Presidente. El Gobierno de Aragón. El estatuto personal de sus miembros. Responsabilidad política del Presidente y de los Consejeros."
+      },
+      {
+        "numero": 8,
+        "titulo": "El Justicia de Aragón. La Cámara de Cuentas. El Tribunal Superior de Justicia de Aragón."
+      },
+      {
+        "numero": 9,
+        "titulo": "La Administración Pública de la Comunidad Autónoma de Aragón. Los órganos administrativos: su régimen y el ejercicio de las competencias. La Administración Institucional de la Comunidad Autónoma de Aragón. Organismos Públicos. Empresas de la Comunidad Autónoma."
+      },
+      {
+        "numero": 10,
+        "titulo": "Otras formas de personificación: las fundaciones públicas, los consorcios. Administración corporativa: Colegios profesionales. Administración consultiva: el Consejo Consultivo de Aragón, el Consejo Económico y Social de Aragón."
+      },
+      {
+        "numero": 11,
+        "titulo": "Población, geografía y territorio en Aragón. Desequilibrios demográficos en Aragón. Magnitudes más relevantes de la economía aragonesa. Evolución reciente de la actividad económica en Aragón."
+      },
+      {
+        "numero": 12,
+        "titulo": "La igualdad de oportunidades entre mujeres y hombres en Aragón: Disposiciones generales. Prevención y Protección Integral a las Mujeres Víctimas de Violencia en Aragón: Disposiciones Generales. La identidad y expresión de género e igualdad social y no discriminación en la Comunidad Autónoma de Aragón: Disposiciones Generales. La diversidad cultural y lucha contra la discriminación: Principios y objetivos del Plan Integral para la Gestión de la Diversidad vigente en Aragón."
+      },
+      {
+        "numero": 13,
+        "titulo": "La Ley General de Sanidad. El derecho a la protección de la salud. Principios generales del Sistema Nacional de Salud. Organización general del sistema sanitario público. Los Servicios de Salud de las Comunidades Autónomas. Las Áreas de Salud."
+      },
+      {
+        "numero": 14,
+        "titulo": "Ley de cohesión y calidad del Sistema Nacional de Salud: Disposiciones Generales. Prestaciones. Farmacia. El Consejo Interterritorial del Sistema Nacional de Salud."
+      },
+      {
+        "numero": 15,
+        "titulo": "Ley de Salud de Aragón. Principios rectores. Características y organización del Sistema Sanitario Público. Derechos, deberes y garantías de los ciudadanos."
+      },
+      {
+        "numero": 16,
+        "titulo": "El Departamento de Sanidad del Gobierno de Aragón: Estructura básica y competencias. El Servicio Aragonés de Salud: Estructura y competencias."
+      },
+      {
+        "numero": 17,
+        "titulo": "El Texto Refundido de la Ley del Servicio Aragonés de Salud. Reglamento de estructura y funcionamiento de las áreas y sectores del Sistema de Salud de Aragón."
+      },
+      {
+        "numero": 18,
+        "titulo": "El Estatuto Marco de personal estatutario de los sistemas de salud. Clasificación. Planificación y ordenación del personal. Derechos y deberes. Adquisición y pérdida de la condición de personal estatutario fijo."
+      },
+      {
+        "numero": 19,
+        "titulo": "Estatuto Básico del Empleado Público (I). Clases de empleados públicos. Acceso a la función pública. Carrera administrativa. Situaciones administrativas y extinción de la relación funcionarial."
+      },
+      {
+        "numero": 20,
+        "titulo": "Estatuto Básico del Empleado Público (II). Derechos y deberes del empleado público. Representación, participación y negociación colectiva. Régimen del personal laboral. Seguridad social de los empleados públicos."
+      },
+      {
+        "numero": 21,
+        "titulo": "Ley de Prevención de Riesgos Laborales: Conceptos básicos. Derechos y obligaciones en materia de seguridad en el trabajo. Organización de la prevención de riesgos laborales en la Comunidad Autónoma de Aragón. Distribución de funciones y responsabilidades en materia de prevención de riesgos laborales entre los diferentes órganos del Servicio Aragonés de Salud."
+      }
+    ]
+  },
+  {
+    "bloque": "Parte específica",
+    "temas": [
+      {
+        "numero": 22,
+        "titulo": "El sistema de fuentes del derecho y las relaciones entre ordenamientos jurídicos. La Constitución como norma suprema y la primacía del derecho comunitario."
+      },
+      {
+        "numero": 23,
+        "titulo": "La Constitución como norma jurídica. La Ley. Leyes orgánicas. Leyes ordinarias. El Decreto-Ley y el Decreto Legislativo. Las leyes del artículo 150 de la Constitución."
+      },
+      {
+        "numero": 24,
+        "titulo": "El Reglamento: Concepto, naturaleza y clases. Limites de la potestad reglamentaria."
+      },
+      {
+        "numero": 25,
+        "titulo": "Principios que presiden las relaciones entre ley y reglamentos: la primacía de la ley y la reserva de ley. La delegación legislativa."
+      },
+      {
+        "numero": 26,
+        "titulo": "Competencias del Estado, las Comunidades Autónomas y las entidades locales en materia de sanidad. La alta inspección. Coordinación entre las Administraciones Públicas."
+      },
+      {
+        "numero": 27,
+        "titulo": "Las potestades administrativas: concepto. Atribución de las potestades. Potestades regladas y potestades discrecionales: distinción. El control de la discrecionalidad."
+      },
+      {
+        "numero": 28,
+        "titulo": "Posición jurídica del particular en sus relaciones con la Administración. Capacidad jurídica y de obrar. Las situaciones jurídicas del ciudadano ante la Administración. Derechos públicos subjetivos, intereses legítimos y libertades públicas. Las situaciones pasivas. Las prestaciones del administrado."
+      },
+      {
+        "numero": 29,
+        "titulo": "El acto administrativo: concepto, elementos y clases. La eficacia de los actos. Notificación y publicación de los actos administrativos. El silencio administrativo. Ejecución de los actos administrativos."
+      },
+      {
+        "numero": 30,
+        "titulo": "La nulidad absoluta de los actos administrativos: supuestos legales. La anulabilidad de los actos: especial consideración de la desviación de poder. Las irregularidades no invalidantes. Convalidación, conservación y conversión de los actos administrativos. La revisión y revocación de los actos."
+      },
+      {
+        "numero": 31,
+        "titulo": "El procedimiento administrativo: concepto, naturaleza y fines. Ley del Procedimiento Administrativo Común de las Administraciones Públicas. Ámbito de aplicación y principios informadores. Los sujetos del procedimiento administrativo. Fases del procedimiento. Cómputo de plazos. Régimen Jurídico del Sector Público Disposiciones generales, principios de actuación y funcionamiento del sector público."
+      },
+      {
+        "numero": 32,
+        "titulo": "Los recursos administrativos: concepto y caracterización. Clases de recursos y regulación positiva. Recurso de alzada. Recurso de reposición. Recurso extraordinario de revisión. Las reclamaciones económico-administrativas."
+      },
+      {
+        "numero": 33,
+        "titulo": "El control jurisdiccional de la Administración (I). El recurso contencioso-administrativo. Las partes. El objeto. El procedimiento. La sentencia. Recursos contra las sentencias."
+      },
+      {
+        "numero": 34,
+        "titulo": "El control jurisdiccional de la Administración (II). La Administración y la Justicia ordinaria. La posición especial de la Administración en el proceso ordinario."
+      },
+      {
+        "numero": 35,
+        "titulo": "La actividad de las Administraciones Públicas (I). Actividad limitativa y protección del orden público. Actividad de fomento."
+      },
+      {
+        "numero": 36,
+        "titulo": "La actividad de las Administraciones Públicas. Servicio público (II). Los modos de gestión de los servicios públicos. La llamada actividad industrial de la Administración. La asunción por la Administración de actividades privadas: sus instrumentos."
+      },
+      {
+        "numero": 37,
+        "titulo": "Las sanciones administrativas: concepto y principios informadores de la potestad sancionadora y del procedimiento sancionador. Límites constitucionales. Clases de sanciones. El procedimiento ordinario. Prescripción de las infracciones y sanciones."
+      },
+      {
+        "numero": 38,
+        "titulo": "La responsabilidad patrimonial de la Administración: sus presupuestos. Efectividad de la reparación. El ejercicio de la acción de responsabilidad. Responsabilidad del personal y de las autoridades al servicio de la Administración Pública."
+      },
+      {
+        "numero": 39,
+        "titulo": "El patrimonio de la Administración Pública: bienes de dominio público y bienes patrimoniales. Estudio de los bienes de dominio público: su uso y aprovechamiento, afectaciones y desafectaciones. Estudio de los bienes patrimoniales: adquisiciones, enajenaciones y uso de bienes muebles e inmuebles. Normativa autonómica."
+      },
+      {
+        "numero": 40,
+        "titulo": "Contratación pública (I). Directivas comunitarias en materia de contratación pública. Legislación estatal en materia de contratos del Sector Público. Objeto y ámbito de aplicación subjetivo y objetivo. Normativa aragonesa en materia de contratación pública."
+      },
+      {
+        "numero": 41,
+        "titulo": "Contratación pública (II). Los contratos del sector público. Clases de contratos. Configuración general de la contratación del sector público y elementos estructurales de los contratos."
+      },
+      {
+        "numero": 42,
+        "titulo": "Contratación pública (III). Contratos de las Administraciones Públicas: Preparación de los contratos. Selección del contratista y adjudicación de los contratos. Prerrogativas de la Administración."
+      },
+      {
+        "numero": 43,
+        "titulo": "Contratación pública (IV). Ejecución y modificación de los contratos; legislación sobre lucha contra la morosidad de las Administraciones Públicas. Extinción. La cesión de los contratos y la subcontratación."
+      },
+      {
+        "numero": 44,
+        "titulo": "Contratación pública (V). Contratación de las entidades del sector público que no tienen el carácter de Administración Pública. Técnicas para la racionalización de la contratación. Contratación electrónica."
+      },
+      {
+        "numero": 45,
+        "titulo": "Los convenios de colaboración. Naturaleza jurídica: deslinde de los contratos y las subvenciones. Régimen jurídico de los Convenios. Normativa específica aragonesa en materia de Convenios."
+      },
+      {
+        "numero": 46,
+        "titulo": "Las Instituciones de la Unión Europea. El Consejo Europeo, el Consejo de Ministros, la Comisión, el Parlamento, el Tribunal de Justicia y el Tribunal de Cuentas."
+      },
+      {
+        "numero": 47,
+        "titulo": "El Derecho comunitario. Las fuentes: derecho originario y derecho derivado. La participación de las Comunidades Autónomas en la aplicación del Derecho Comunitario."
+      },
+      {
+        "numero": 48,
+        "titulo": "Las políticas públicas: formulación, implementación, ejecución, control y evaluación."
+      },
+      {
+        "numero": 49,
+        "titulo": "La transparencia de las Administraciones Públicas. Legislación en la materia."
+      },
+      {
+        "numero": 50,
+        "titulo": "El régimen jurídico de la protección de datos de carácter personal. Principios en el tratamiento de los datos personales. La seguridad de los datos. Ejercicio y tutela de los derechos del titular de los datos."
+      },
+      {
+        "numero": 51,
+        "titulo": "Administración electrónica. El acceso electrónico de los ciudadanos a los Servicios Públicos: Regulación vigente; ámbito de aplicación y principios generales."
+      },
+      {
+        "numero": 52,
+        "titulo": "La gestión de la calidad. Indicadores. Planes y normas de calidad: las cartas de servicios. La calidad en los centros sanitarios."
+      },
+      {
+        "numero": 53,
+        "titulo": "La Ley básica reguladora de la autonomía del paciente y de derechos y obligaciones en materia de información y documentación clínica: principios generales. Derecho de información sanitaria. Derecho a la intimidad. Respeto a la autonomía del paciente. Consentimiento informado e instrucciones previas. La historia clínica."
+      },
+      {
+        "numero": 54,
+        "titulo": "La Ley de Ordenación de las Profesiones Sanitarias. Clasificación del personal. El ejercicio de las profesiones sanitarias. La formación de los profesionales sanitarios. El desarrollo profesional y su reconocimiento."
+      },
+      {
+        "numero": 55,
+        "titulo": "El funcionamiento de las instituciones sanitarias: La atención al paciente en el Área de Salud: Atención Primaria y Atención Especializada. Servicio de admisión y documentación clínica hospitalaria. Servicios de atención al paciente: concepto, organización y funciones. La carta de derechos y obligaciones de los pacientes y usuarios."
+      },
+      {
+        "numero": 56,
+        "titulo": "El personal estatutario del Servicio Aragonés de Salud (I): Selección de personal fijo y temporal. La provisión de plazas del personal estatutario. Promoción interna. Movilidad. Criterios de incorporación y cese. Provisión de puestos singularizados."
+      },
+      {
+        "numero": 57,
+        "titulo": "El personal estatutario del Servicio Aragonés de Salud (II): Carrera Profesional. Jornada de trabajo, permisos y licencias. Situaciones administrativas del personal estatutario."
+      },
+      {
+        "numero": 58,
+        "titulo": "Retribuciones del personal del Servicio Aragonés de Salud. Conceptos retributivos. Elaboración de nóminas. Devengos, descuentos y retenciones. Documentación acreditativa de las variaciones de nómina. Acción social. Formación."
+      },
+      {
+        "numero": 59,
+        "titulo": "Régimen disciplinario. Legislación en materia de incompatibilidades."
+      },
+      {
+        "numero": 60,
+        "titulo": "Composición del sistema de la Seguridad Social. Régimen General y Regímenes Especiales: características y enumeración."
+      },
+      {
+        "numero": 61,
+        "titulo": "La constitución de la relación jurídica de aseguramiento. Inscripción de empresas. Afiliación de trabajadores. Altas, y bajas y variaciones de datos. Procedimiento."
+      },
+      {
+        "numero": 62,
+        "titulo": "La cotización. Bases y tipos de cotización. Sujetos obligados y sujetos responsables. La gestión recaudatoria de las cuotas de la Seguridad Social. Aplazamiento de pago de cuotas. Procedimiento."
+      },
+      {
+        "numero": 63,
+        "titulo": "La acción protectora. Contingencias cubiertas. Concepto y clases de prestaciones. Caracteres de las prestaciones. Reintegro de prestaciones indebidas. Responsabilidad en orden a las prestaciones. Asistencia sanitaria: Concepto y objeto. Hechos causantes. Beneficiarios. Prestaciones médicas y farmacéuticas. Modalidades de la prestación médica. Protección a la familia. Clases de prestaciones. Beneficiarios. Condiciones y cuantía de la prestación."
+      },
+      {
+        "numero": 64,
+        "titulo": "La incapacidad temporal. Incapacidad permanente. Situaciones y prestaciones entre ambos tipos de incapacidad. Maternidad. Jubilación muerte y supervivencia. Beneficiarios. Requisitos. Prestaciones en estas pensiones. Las prestaciones sociales contributivas y no contributivas. Accidente de trabajo y enfermedad profesional. Los servicios sociales en la Seguridad Social. Las prestaciones asistenciales."
+      },
+      {
+        "numero": 65,
+        "titulo": "La jubilación: concepto y requisitos. Incompatibilidad con el trabajo. Suspensión y extinción de la pensión de jubilación. Determinación de la cuantía de las pensiones. Tipos de jubilación. La protección por muerte y supervivencia. Hecho causante. Beneficiarios. Requisitos, prestaciones y cuantía."
+      },
+      {
+        "numero": 66,
+        "titulo": "Presupuesto. Concepto, naturaleza y clases. Principios presupuestarios. La estabilidad presupuestaria. Presupuesto por programas. Objetivos. Programas y su evaluación. Presupuesto en base cero. Unidades y paquetes de decisión. Asignación de prioridades."
+      },
+      {
+        "numero": 67,
+        "titulo": "El presupuesto de la Comunidad Autónoma de Aragón: Régimen jurídico de su elaboración, aprobación, modificación, ejecución y liquidación. Presupuestos de los Organismos Autónomos y Entidades de Derecho Público. Programas de las empresas públicas."
+      },
+      {
+        "numero": 68,
+        "titulo": "Ingresos y gastos públicos. Estructura y clasificación: orgánica, funcional y económica."
+      },
+      {
+        "numero": 69,
+        "titulo": "Modificaciones de los créditos iniciales. Transferencias de créditos. Créditos extraordinarios. Suplementos de créditos. Ampliaciones de créditos. Incorporaciones de créditos. Generaciones de créditos. Desgloses de aplicaciones presupuestarias."
+      },
+      {
+        "numero": 70,
+        "titulo": "Ejecución del Presupuesto. Ordenación del gasto: órganos competentes, fases del procedimiento y documentos contables que intervienen. Gastos de carácter plurianual. Ejecución del Presupuesto de ingresos: ingresos presupuestos, devoluciones y minoraciones de ingreso."
+      },
+      {
+        "numero": 71,
+        "titulo": "Ordenación del pago: órganos competentes. Pagos: concepto y clasificación, Pagos por ordenaciones presupuestarias: pagos por obligaciones de ejercicios cerrados. Pagos en firme y a justificar. Justificación de libramientos. Liquidación y cierre del ejercicio."
+      },
+      {
+        "numero": 72,
+        "titulo": "La Contabilidad Pública y la planificación contable. Plan General de Contabilidad Pública. Ámbito y contenido del Plan. Objetivos. Criterios de valoración."
+      },
+      {
+        "numero": 73,
+        "titulo": "El control del gasto público. Clases. Especial referencia al control de legalidad. El Tribunal de Cuentas. La Cámara de Cuentas de Aragón."
+      },
+      {
+        "numero": 74,
+        "titulo": "La Intervención General de la Administración de la Comunidad Autónoma: contenido de la función interventora y del control financiero. La Cuenta General. La Tesorería."
+      },
+      {
+        "numero": 75,
+        "titulo": "El Derecho Tributario, concepto y contenido. La Ley General Tributaria: Principios generales. Los tributos: concepto, fines y clases. La potestad tributaria de las Comunidades Autónomas. Los tributos propios de la Comunidad Autónoma de Aragón."
+      }
+    ]
+  },
+  {
+    "bloque": "Parte específica: modalidad jurídica",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "La norma jurídica: Concepto, clases. La interpretación. Lagunas del ordenamiento jurídico. La analogía. La eficacia de la norma jurídica. La ignorancia de la Ley. La fuerza obligatoria de la norma en relación con el tiempo. Caducidad y prescripción."
+      },
+      {
+        "numero": 2,
+        "titulo": "La Administración Pública y su personalidad jurídica. Clases de Administraciones Públicas y tipología de los entes públicos. Capacidad jurídica de los entes públicos."
+      },
+      {
+        "numero": 3,
+        "titulo": "El ordenamiento jurídico administrativo. Las fuentes. Principios que ordenan el sistema de fuentes: principio de jerarquía y principio de competencia. Los principios generales del derecho y la costumbre en el derecho administrativo. La jurisprudencia."
+      },
+      {
+        "numero": 4,
+        "titulo": "Las subvenciones públicas: concepto, elementos y requisitos. Procedimiento de concesión, gestión y justificación de subvenciones. Infracciones y sanciones: el reintegro de subvenciones. El control de las subvenciones."
+      },
+      {
+        "numero": 5,
+        "titulo": "Las propiedades administrativas en general. Clases. El dominio público: concepto, naturaleza jurídica y elementos. Régimen jurídico de dominio público. El dominio privado: concepto y régimen jurídico. El sector empresarial del patrimonio de Aragón."
+      },
+      {
+        "numero": 6,
+        "titulo": "La potestad expropiatoria: Naturaleza y justificación. Los sujetos, el objeto y la causa. El procedimiento expropiatorio en general. El justiprecio. Procedimientos especiales: la expropiación por razones de urgencia. Garantías jurisdiccionales."
+      },
+      {
+        "numero": 7,
+        "titulo": "La responsabilidad patrimonial sanitaria y la responsabilidad de los profesionales sanitarios. Responsabilidad penal y disciplinaria. Responsabilidad profesional en la práctica sanitaria: imprudencia profesional, omisión del deber de socorro, violación del secreto profesional, intrusismo, falsedad en certificado médico."
+      },
+      {
+        "numero": 8,
+        "titulo": "El derecho del trabajo: concepto, fines y contenido. Las fuentes del derecho de trabajo. El convenio colectivo. Concepto, naturaleza y efectos. Contenido obligacional y normativo. Capacidad, legitimación y ámbito de vigencia. Acuerdos de adhesión y actos de extensión. Acuerdos marco. Convenio colectivo impropio."
+      },
+      {
+        "numero": 9,
+        "titulo": "El contrato de trabajo. Concepto, objeto y causa. Las relaciones de trabajo especiales. Nacimiento del contrato de trabajo. La forma del contrato de trabajo. Prueba de la relación laboral. El período de prueba. La duración del contrato de trabajo. Contratos de trabajo de duración determinada. Análisis de la contratación de carácter estructural y circunstancial. Especial consideración de la contratación temporal en el ámbito de la Administración pública."
+      },
+      {
+        "numero": 10,
+        "titulo": "Suspensión del contrato de trabajo. Incapacidad laboral. Privación de la libertad. Excedencia. Subrogación empresarial. El poder disciplinario. Procedimiento sancionador. La extinción del contrato de trabajo. El despido disciplinario. Despidos especiales. Extinción del contrato por decisión del trabajador. Voluntad concurrente de las partes. Prescripción y caducidad de las acciones derivadas de los contratos de trabajo."
+      },
+      {
+        "numero": 11,
+        "titulo": "La libertad sindical. Régimen jurídico, representatividad y acción sindical. Tutela de la libertad sindical. Órganos de representación del personal al servicio de las administraciones públicas vinculado a ellas con una relación de carácter administrativa o estatutaria. Participación en la determinación de las condiciones de trabajo. El derecho de reunión."
+      },
+      {
+        "numero": 12,
+        "titulo": "La elección de los órganos de representación de los trabajadores: Comités de empresa y delegados de personal. Los órganos de representación del personal funcionario y estatutario: Normativa aplicable. Procedimiento electoral. Garantías y derechos."
+      },
+      {
+        "numero": 13,
+        "titulo": "Derecho de huelga y su ejercicio. La huelga en los servicios públicos. Determinación del mínimo de actividad necesaria para asegurar el mantenimiento de los servicios esenciales y el personal preciso para prestarlo: Normativa aplicable y procedimiento para su fijación."
+      },
+      {
+        "numero": 14,
+        "titulo": "Acción protectora de la Seguridad Social. Prestaciones: incapacidad temporal, invalidez, jubilación, muerte y supervivencia. La protección por desempleo: La protección a la familia. Asistencia sanitaria. Accidente de trabajo y enfermedad profesional. Concepto y características. Prestaciones derivadas del accidente laboral."
+      },
+      {
+        "numero": 15,
+        "titulo": "El régimen jurídico de los servicios de la sociedad de la información y la firma electrónica. Gobierno electrónico. Derecho administrativo y administración electrónica. Información al ciudadano. Tramitación por medios electrónicos."
+      }
+    ]
+  },
+  {
+    "bloque": "Parte específica: modalidad económica",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "La economía como ciencia: Concepto, objeto y contenido. Divisiones de la misma: Microeconomía y macroeconomía. El método e instrumentos de la ciencia económica. Los modelos macroeconómicos. Escuelas de pensamiento económico: El modelo neoclásico vs. modelo keynesiano. La economía postkeynesiana: la escuela monetarista de Chicago, el modelo de crecimiento económico de Solow."
+      },
+      {
+        "numero": 2,
+        "titulo": "Magnitudes agregadas básicas: El flujo circular de la renta y el producto. Contabilidad de la renta nacional en una economía abierta"
+      },
+      {
+        "numero": 3,
+        "titulo": "Componentes de la Demanda agregada. Teorías de consumo. Teorías de la inversión. El equilibrio en el mercado de bienes y servicios efecto multiplicador. El pleno empleo y la inflación."
+      },
+      {
+        "numero": 4,
+        "titulo": "La política fiscal: el consumo y la inversión del sector público. Las transferencias al sector privado y los impuestos. La financiación del déficit"
+      },
+      {
+        "numero": 5,
+        "titulo": "La Política Monetaria: Diseño e instrumentos; mecanismos de transmisión; efectos de la política monetaria. El dinero y los diferentes agregados monetarios. La demanda del dinero. La base monetaria y la creación de dinero."
+      },
+      {
+        "numero": 6,
+        "titulo": "El mercado de competencia perfecta. El precio de equilibrio. Las elasticidades de la oferta y de la demanda. Efecto de las variaciones de la oferta y de la demanda. La estabilidad del equilibrio. El teorema de la telaraña."
+      },
+      {
+        "numero": 7,
+        "titulo": "Teoría del comportamiento del consumidor: Concepto de utilidad. Curvas de indiferencia. La restricción presupuestaria. Efecto sustitución y efecto renta. El excedente del consumidor. La teoría de la preferencia revelada."
+      },
+      {
+        "numero": 8,
+        "titulo": "Teoría de la producción. Funciones de producción. Productividad y rendimientos. Los costes de producción. Concepto y clases. Funciones de costes. La curva de la oferta"
+      },
+      {
+        "numero": 9,
+        "titulo": "La financiación de las Comunidades Autónomas: Principios y recursos financieros. Evolución del sistema de financiación. Impuestos de la Comunidad Autónoma de Aragón. La Ley Orgánica de Financiación de las Comunidades Autónomas. El Fondo de Compensación Interterritorial. Los Fondos Europeos."
+      },
+      {
+        "numero": 10,
+        "titulo": "La renta nacional en España y su distribución. Efectos redistributivos del gasto en sanidad pública. Distribución de la renta en Aragón."
+      },
+      {
+        "numero": 11,
+        "titulo": "Contabilidad general. El Plan General de Contabilidad. Los principios de contabilidad generalmente aceptados. Libros obligatorios. Requisitos. Valor probatorio y reconocimiento de los libros. Las cuentas anuales. Depósito de las cuentas."
+      },
+      {
+        "numero": 12,
+        "titulo": "La contabilidad analítica: Concepto y metodología. Enlace entre la contabilidad analítica y financiera. El modelo español de contabilidad analítica."
+      },
+      {
+        "numero": 13,
+        "titulo": "Los costes. Concepto y clases. Métodos de cálculo. Los costes y la producción conjunta. Cálculo de resultado interno y de las desviaciones en costes."
+      },
+      {
+        "numero": 14,
+        "titulo": "La gestión de inmovilizado: concepto y clasificación. Análisis de inversiones. Inventarios: tipos y realización. El presupuesto de las inversiones. La obsolescencia: Modalidades. Las amortizaciones."
+      },
+      {
+        "numero": 15,
+        "titulo": "El aprovisionamiento: Concepto y funciones. La gestión de compras: El proceso, fases y factores determinantes. Herramientas de la gestión de compras: Presupuesto, negociación, cuadros de mando, clasificación ABC y variables financieras. El aprovisionamiento en el Servicio Aragonés de Salud."
+      }
+    ]
+  }
+]

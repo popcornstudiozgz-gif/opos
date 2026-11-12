@@ -1,0 +1,332 @@
+[
+  {
+    "bloque": "Materia común",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "Constitución Española de 1978: la protección de la salud en la Constitución. Estatuto de Autonomía de Aragón. Competencias en salud recogidas en el Estatuto de Autonomía. Las Cortes de Aragón. El Gobierno de Aragón."
+      },
+      {
+        "numero": 2,
+        "titulo": "El texto refundido de la Ley del Estatuto Básico del Empleado Público, aprobado por el Real Decreto Legislativo 5/2015: deberes del empleado público y código de conducta. Representación, participación y negociación colectiva."
+      },
+      {
+        "numero": 3,
+        "titulo": "El régimen jurídico de la protección de datos de carácter personal: Disposiciones generales. Principios de la protección de datos. Derechos de las personas."
+      },
+      {
+        "numero": 4,
+        "titulo": "El Procedimiento Administrativo Común de las Administraciones Públicas: Disposiciones Generales. Cómputo de plazos. Objeto y plazos de los recursos administrativos. El Régimen Jurídico del Sector Público: Disposiciones Generales."
+      },
+      {
+        "numero": 5,
+        "titulo": "Ley 14/86 General de Sanidad. Ley 6/2002 de Salud de Aragón. Principios generales, estructura, contenidos. Ley 16/2003 de cohesión y calidad del Sistema Nacional de Salud. Principios generales, estructura, contenidos."
+      },
+      {
+        "numero": 6,
+        "titulo": "Ley 44/2003 de Ordenación de las Profesiones Sanitarias. Ámbito de aplicación, contenidos. Ley 41/2002, de 14 de noviembre, básica reguladora de la autonomía del paciente y de derechos y obligaciones en materia de información y documentación clínica. Ley 9/2013, de 28 de noviembre, de Autoridad de Profesionales del Sistema Sanitario y de Servicios Sociales Públicos de Aragón."
+      },
+      {
+        "numero": 7,
+        "titulo": "Ley 55/2003 del Estatuto Marco de personal Estatutario de los Servicios de Salud (I). Principios generales, estructura, contenidos. Clasificación del personal estatutario. Derechos y deberes. Adquisición y pérdida de la condición de personal estatutario. Provisión de plazas, selección y promoción interna. Movilidad del personal."
+      },
+      {
+        "numero": 8,
+        "titulo": "Ley 55/2003 del Estatuto Marco de personal Estatutario de los Servicios de Salud (II). Retribuciones. Jornada de trabajo, permisos y licencias. Situaciones del personal estatutario. Régimen disciplinario. Modelo de Carrera Profesional en Aragón. Ley 53/1984 de 26 de diciembre, de incompatibilidades. Principios Generales. Ámbito de aplicación."
+      },
+      {
+        "numero": 9,
+        "titulo": "La igualdad de oportunidades entre mujeres y hombres en Aragón: Disposiciones generales. Prevención y Protección Integral a las Mujeres Víctimas de Violencia en Aragón: Disposiciones Generales. La identidad y expresión de género e igualdad social y no discriminación en la Comunidad Autónoma de Aragón: Disposiciones Generales. La diversidad cultural y lucha contra la discriminación: Principios y objetivos del Plan Integral para la Gestión de la Diversidad de Aragón."
+      },
+      {
+        "numero": 10,
+        "titulo": "El sistema sanitario. Niveles asistenciales. Organización de los servicios sanitarios en Aragón. Estructura del Departamento de Sanidad de Aragón y del Servicio Aragonés de la Salud. Los Sectores sanitarios."
+      },
+      {
+        "numero": 11,
+        "titulo": "Metodología de la Investigación: El método científico. Diseño de un proyecto de investigación. Estadística aplicada a los estudios de Medicina."
+      },
+      {
+        "numero": 12,
+        "titulo": "El método epidemiológico. Epidemiología descriptiva: tipos de estudios, tasas e indicadores. Epidemiología analítica: tipos de estudios. Riesgo relativo, riesgo atribuible y Odds Ratio. Sesgos."
+      },
+      {
+        "numero": 13,
+        "titulo": "Estudios experimentales. Ensayos clínicos. Ética de la investigación clínica. Validez de métodos diagnósticos: sensibilidad, especificidad, valor predictivo positivo."
+      },
+      {
+        "numero": 14,
+        "titulo": "Evaluación de Tecnologías Sanitarias: Procedimientos de evaluación. Cartera de Servicios del Sistema Nacional de Salud. Procedimiento de actualización de la Cartera de Servicios del sistema de Salud de Aragón."
+      },
+      {
+        "numero": 15,
+        "titulo": "Práctica basada en la evidencia. Variabilidad en la práctica médica. Búsqueda y valoración de evidencias. Aplicación de las evidencias a la toma de decisiones clínicas. Guías clínicas. Proyecto Guía-Salud."
+      },
+      {
+        "numero": 16,
+        "titulo": "La seguridad del paciente. Gestión de riesgos. Principales problemas para la seguridad del paciente en el hospital. Estrategias para la mejora de la seguridad."
+      },
+      {
+        "numero": 17,
+        "titulo": "Uso Racional del Medicamento. Criterios de selección de medicamentos. Equivalentes terapéuticos. Indicadores de calidad de prescripción."
+      },
+      {
+        "numero": 18,
+        "titulo": "Evaluación y mejora de la calidad. Modelos de Gestión de la Calidad. Diseño de un programa de calidad."
+      },
+      {
+        "numero": 19,
+        "titulo": "Principios fundamentales de la bioética: aplicación a la asistencia sanitaria. La relación médico-paciente, el consentimiento informado. Los comités de Bioética. La ética en la investigación clínica."
+      },
+      {
+        "numero": 20,
+        "titulo": "Gobierno clínico. La implicación de los profesionales en el funcionamiento de las instituciones sanitarias."
+      }
+    ]
+  },
+  {
+    "bloque": "Materia específica",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "Patología celular. Agentes y mecanismos de la lesión celular. Necrosis y apoptosis."
+      },
+      {
+        "numero": 2,
+        "titulo": "Aspectos conceptuales, manifestaciones morfológicas y consecuencias de los procesos inflamatorios e infecciosos."
+      },
+      {
+        "numero": 3,
+        "titulo": "Anatomía Patológica general de las neoplasias. Carcinogénesis. Oncogenes y genes supresores. Metástasis."
+      },
+      {
+        "numero": 4,
+        "titulo": "Métodos básicos en Anatomía Patológica: Autopsias. Patología Quirúrgica. Citología."
+      },
+      {
+        "numero": 5,
+        "titulo": "Técnicas en Patología molecular: Inmunohistoquímica. Hibridación in situ. PCR."
+      },
+      {
+        "numero": 6,
+        "titulo": "Patología valvular. Endocarditis. Cardiopatía reumática."
+      },
+      {
+        "numero": 7,
+        "titulo": "Miocardiopatías: estudio macro y microscópico. Miocarditis. Patología del pericardio. Citología del líquido pericárdico. Tumores cardíacos."
+      },
+      {
+        "numero": 8,
+        "titulo": "Malformaciones congénitas del corazón y grandes vasos."
+      },
+      {
+        "numero": 9,
+        "titulo": "Arteriosclerosis. Cardiopatía isquémica."
+      },
+      {
+        "numero": 10,
+        "titulo": "Vasculitis. Clasificación. Tumores vasculares."
+      },
+      {
+        "numero": 11,
+        "titulo": "Anatomía Patológica de las enfermedades inflamatorias y neoplásicas de la cavidad nasal, senos paranasales, nasofaringe, laringe y tráquea."
+      },
+      {
+        "numero": 12,
+        "titulo": "Enfermedad pulmonar obstructiva crónica: bronquitis, bronquiectasias, atelectasia y enfisema. Neumonías. Tuberculosis pulmonar."
+      },
+      {
+        "numero": 13,
+        "titulo": "Patología intersticial pulmonar. Neumoconiosis. Fibrosis pulmonar."
+      },
+      {
+        "numero": 14,
+        "titulo": "Patología de las neoplasias de pulmón. Patología de las enfermedades neoplásicas y no neoplásicas de la pleura."
+      },
+      {
+        "numero": 15,
+        "titulo": "Patología del mediastino. Timo."
+      },
+      {
+        "numero": 16,
+        "titulo": "Citopatología del aparato respiratorio. Citología exfoliativa, de esputo, lavado, cepillado y aspirado bronquiales. Citología por punción. Citología del líquido pleural. Citología por punción de masas mediastínicas y pulmonares."
+      },
+      {
+        "numero": 17,
+        "titulo": "Anatomía Patológica de la bucofaringe: quistes y tumores odontogénicos."
+      },
+      {
+        "numero": 18,
+        "titulo": "Patología de las glándulas salivales."
+      },
+      {
+        "numero": 19,
+        "titulo": "Patología del esófago. Esofagitis. Esófago de Barret. Tumores benignos. Tumores malignos."
+      },
+      {
+        "numero": 20,
+        "titulo": "Patología no tumoral del estómago: Gastritis. Úlceras."
+      },
+      {
+        "numero": 21,
+        "titulo": "Patología tumoral del estómago. Tumores benignos y malignos."
+      },
+      {
+        "numero": 22,
+        "titulo": "Patología del intestino delgado. Síndrome de malabsorción. Enfermedades inflamatorias. Tumores."
+      },
+      {
+        "numero": 23,
+        "titulo": "Patología no tumoral del intestino grueso: Enfermedad inflamatoria intestinal Colitis isquémica. Otros tipos de colitis. Enfermedad de Hirschprung."
+      },
+      {
+        "numero": 24,
+        "titulo": "Patología tumoral del intestino grueso."
+      },
+      {
+        "numero": 25,
+        "titulo": "Patología del apéndice y región anal."
+      },
+      {
+        "numero": 26,
+        "titulo": "Patología del hígado. Hepatitis. Cirrosis hepática. Patología vascular del hígado."
+      },
+      {
+        "numero": 27,
+        "titulo": "Tumores hepáticos. Tumores benignos. Hepatocarcinoma. Hepatoblastoma. Colangiocarcinoma. Otros tumores malignos. Tumores metastásicos."
+      },
+      {
+        "numero": 28,
+        "titulo": "Patología de la vesícula biliar y de las vías biliares."
+      },
+      {
+        "numero": 29,
+        "titulo": "Patología no tumoral y tumoral del páncreas exocrino y endocrino."
+      },
+      {
+        "numero": 30,
+        "titulo": "Anatomía Patológica del peritoneo. Patología del espacio retroperitoneal."
+      },
+      {
+        "numero": 31,
+        "titulo": "Citología por punción aspiración de glándulas salivares. Citopatología de aparato digestivo por fibroendoscopia. Citología por punción aspiración de órganos abdominales con control ecográfico. Citología de líquido ascítico."
+      },
+      {
+        "numero": 32,
+        "titulo": "Patología del aparato urinario: nefropatías túbulointersticiales. Litiasis. Citología exfoliativa de la orina. Citología por punción aspiración del riñón."
+      },
+      {
+        "numero": 33,
+        "titulo": "Glomerulonefritis. Patología renal en las enfermedades sistémicas. Lesiones renales en la hipertensión arterial."
+      },
+      {
+        "numero": 34,
+        "titulo": "Patología de las neoplasias del riñón y de sus vías excretoras."
+      },
+      {
+        "numero": 35,
+        "titulo": "Patología no tumoral y tumoral de la próstata. Citología exfoliativa de la orina. Citología por punción aspiración del riñón."
+      },
+      {
+        "numero": 36,
+        "titulo": "Patología no tumoral y tumoral del testículo."
+      },
+      {
+        "numero": 37,
+        "titulo": "Anatomía Patológica del aparato genital femenino. Patología de de vulva y vagina. Anatomía Patológica del cérvix uterino. Citopatología vaginal, cervical y endometrial."
+      },
+      {
+        "numero": 38,
+        "titulo": "Patología funcional del endometrio. Tumores del cuerpo uterino. Anatomía Patológica de la trompa."
+      },
+      {
+        "numero": 39,
+        "titulo": "Tumores ováricos. Punción aspiración de tumores ováricos."
+      },
+      {
+        "numero": 40,
+        "titulo": "Anatomía Patológica de la mama. Enfermedad fibroquística. Ginecomastia. Mastitis."
+      },
+      {
+        "numero": 41,
+        "titulo": "Tumores benignos y malignos de la mama. Citología de la mama: secreción por el pezón y punción aspirativa de la mama."
+      },
+      {
+        "numero": 42,
+        "titulo": "Patología del bazo."
+      },
+      {
+        "numero": 43,
+        "titulo": "Anatomía Patológica no tumoral y tumoral de los ganglios linfáticos. Enfermedad de Hodgkin. Linfomas no Hodgkinianos. Citopatología por punción de los ganglios linfáticos."
+      },
+      {
+        "numero": 44,
+        "titulo": "Patología de la médula ósea: Síndromes mieloproliferativos. Leucemias y síndromes mielodisplásicos. Síndromes linfoproliferativos. Desórdenes de las células plasmáticas."
+      },
+      {
+        "numero": 45,
+        "titulo": "Anatomía Patológica de la hipófisis. Anatomía Patológica de las paratiroides."
+      },
+      {
+        "numero": 46,
+        "titulo": "Anatomía Patológica del tiroides. Procesos no neoplásicos. Tiroiditis. Tumores tiroideos. Citopatología de la punción aspiración del tiroides."
+      },
+      {
+        "numero": 47,
+        "titulo": "Anatomía Patológica de las glándulas suprarrenales. Hiperplasias y neoplasias de la glándula suprarrenal."
+      },
+      {
+        "numero": 48,
+        "titulo": "Anatomía Patológica de los procesos inflamatorios del sistema nervioso central. Enfermedades infecciosas. Meningitis y encefalitis. Micosis. Infecciones parasitarias. Infecciones por rickettsias y virus. Encefalitis por priones."
+      },
+      {
+        "numero": 49,
+        "titulo": "Patología no tumoral y tumoral de los nervios periféricos. Desmielinización segmentaria. Neuropatía hipertrófica. Degeneración Walleriana. Degeneración axonal crónica. Neuropatías intersticiales. Neuropatías vasculares. Neuropatías metabólicas con depósito de sustancias anormales. Neuropatías inflamatorias autoinmunes. Neuropatías con lesiones axonales o mielínicas. Neuropatías con alteraciones inespecíficas."
+      },
+      {
+        "numero": 50,
+        "titulo": "Tumores del sistema nervioso central. Citopatología de tumores del sistema nervioso."
+      },
+      {
+        "numero": 51,
+        "titulo": "Patología muscular. Anatomía Patológica no tumoral del músculo esquelético. Lesiones elementales del músculo esquelético. Atrofia por desnervación. Alteraciones en la transmisión neuromuscular. Miopatías: inespecíficas, inflamatorias, metabólicas y tóxicas."
+      },
+      {
+        "numero": 52,
+        "titulo": "Anatomía Patológica de partes blandas: Tumores y lesiones pseudotumorales del tejido fibroso. Tumores fibrohistiocitiarios. Tumores del tejido adiposo. Tumores musculares. Citopatología por punción aspiración de tumores de partes blandas."
+      },
+      {
+        "numero": 53,
+        "titulo": "Patología tumoral ósea. Patología tumoral de las articulaciones."
+      },
+      {
+        "numero": 54,
+        "titulo": "Patología cutánea no tumoral: Pénfigo. Eczema. Psoriasis. Liquen plano. Lupus. Paniculitis."
+      },
+      {
+        "numero": 55,
+        "titulo": "Tumores cutáneos epidérmicos. Tumores mesenquimales cutáneos. Tumores anexiales benignos y malignos."
+      },
+      {
+        "numero": 56,
+        "titulo": "Tumores melánicos benignos y malignos. Linfomas cutáneos."
+      },
+      {
+        "numero": 57,
+        "titulo": "Anatomía Patológica de la conjuntiva, córnea y retina."
+      },
+      {
+        "numero": 58,
+        "titulo": "Anatomía Patológica del oído externo, medio y oído interno."
+      },
+      {
+        "numero": 59,
+        "titulo": "Anatomía Patológica de la placenta. Aborto. Enfermedad trofoblástica."
+      },
+      {
+        "numero": 60,
+        "titulo": "Tumores pediátricos malignos."
+      }
+    ]
+  }
+]

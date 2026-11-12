@@ -1,0 +1,212 @@
+[
+  {
+    "bloque": "Materia común",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "La Constitución Española de 1978: Principios fundamentales. Derechos y deberes fundamentales de los ciudadanos. La protección a la salud en la Constitución. La Corona. Las Cortes Generales. El Gobierno de la Nación. El Poder Judicial."
+      },
+      {
+        "numero": 2,
+        "titulo": "El Estatuto de Autonomía de Aragón. Principios informadores. Estructura y contenido. La organización institucional de la Comunidad Autónoma. Las Cortes y el Justicia de Aragón. Las competencias de la Comunidad de Aragón con especial referencia a las relativas a sanidad."
+      },
+      {
+        "numero": 3,
+        "titulo": "Población, geografía y territorio en Aragón. Desequilibrios demográficos en Aragón. Magnitudes más relevantes de la economía aragonesa. Evolución reciente de la actividad económica en Aragón."
+      },
+      {
+        "numero": 4,
+        "titulo": "La igualdad de oportunidades entre mujeres y hombres en Aragón: Disposiciones generales. Prevención y Protección Integral a las Mujeres Víctimas de Violencia en Aragón: Disposiciones Generales. La identidad y expresión de género e igualdad social y no discriminación en la Comunidad Autónoma de Aragón: Disposiciones Generales. La diversidad cultural y lucha contra la discriminación: Principios y objetivos del Plan Integral para la Gestión de la Diversidad vigente en Aragón."
+      },
+      {
+        "numero": 5,
+        "titulo": "Estructura y competencias del Departamento de Sanidad. Estructura y competencias del Servicio Aragonés de Salud. Decreto Legislativo 2/2004, de 30 de diciembre, Texto Refundido de la Ley del Servicio Aragonés de Salud. Estructura y funcionamiento de las áreas y sectores del Sistema de Salud de Aragón."
+      },
+      {
+        "numero": 6,
+        "titulo": "La Ley 14/1986, de 25 de abril, General de Sanidad: El Sistema Nacional de Salud y los Servicios de Salud de las Comunidades Autónomas. El Área de Salud. La Ley 6/2002, de 15 de abril, de Salud de Aragón. Principios generales. Derechos y deberes de los ciudadanos. Derechos de información sobre la salud y autonomía del paciente."
+      },
+      {
+        "numero": 7,
+        "titulo": "El Procedimiento Administrativo Común de las Administraciones Públicas: Disposiciones Generales. Computo de plazos. Objeto y plazos de los recursos administrativos. El Régimen Jurídico del Sector Público: Disposiciones generales, principios de actuación y funcionamiento del sector público. El régimen jurídico de la protección de datos de carácter personal: Objeto y ámbito de aplicación. Principios de la protección datos. Derechos de las personas. Ejercicio de los derechos."
+      },
+      {
+        "numero": 8,
+        "titulo": "Personal Estatutario de los Servicios de Salud (I). Clasificación del Personal Estatutario. Derechos y Deberes. Adquisición y pérdida de la condición de personal estatutario. Provisión de plazas, selección y promoción interna. Movilidad del personal."
+      },
+      {
+        "numero": 9,
+        "titulo": "Personal Estatutario de los Servicios de Salud (II): Retribuciones. Jornada de trabajo, permisos y licencias. Situaciones del personal estatutario. Régimen disciplinario. Régimen de Incompatibilidades: Principios generales. Ámbito de aplicación."
+      },
+      {
+        "numero": 10,
+        "titulo": "Ley de Prevención de Riesgos Laborales: Conceptos básicos. Derechos y obligaciones en materia de seguridad en el trabajo. Organización de la prevención de riesgos laborales en el Departamento de Sanidad: Unidad Central y Unidades Básicas de Prevención."
+      }
+    ]
+  },
+  {
+    "bloque": "Materia específica",
+    "temas": [
+      {
+        "numero": 11,
+        "titulo": "Protección radiológica durante la gestación y al paciente pediátrico."
+      },
+      {
+        "numero": 12,
+        "titulo": "Calidad en el Sistema Sanitario: Métodos de evaluación. Tendencias actuales en la evaluación de la calidad."
+      },
+      {
+        "numero": 13,
+        "titulo": "Aspectos éticos del trabajo del técnico especialista en radiodiagnóstico. Confidencialidad de la información."
+      },
+      {
+        "numero": 14,
+        "titulo": "Gestión de residuos sanitarios: clasificación, transporte, eliminación y tratamiento."
+      },
+      {
+        "numero": 15,
+        "titulo": "Epidemiología de las enfermedades transmisibles. Infección nosocomial: barreras higiénicas. Consecuencias de las infecciones nosocomiales. Informe Epine."
+      },
+      {
+        "numero": 16,
+        "titulo": "Sistemas de control de calidad de las instalaciones radiológicas: Factores de calidad del proceso. Instrumentos para el control de calidad. Garantía de calidad y mantenimiento de la misma."
+      },
+      {
+        "numero": 17,
+        "titulo": "Radioprotección. Concepto, objetivos y principios generales. Fundamentos de la detección de las radiaciones. Detectores utilizados en las instalaciones radiológicas. Tipos y aplicaciones."
+      },
+      {
+        "numero": 18,
+        "titulo": "Dosimetría de la radiación. Dosimetría individual. Dosis máxima permisible. Grupos de riesgo."
+      },
+      {
+        "numero": 19,
+        "titulo": "Dosimetría de área. Clasificación de zonas, señalización, sistemas de acceso y control."
+      },
+      {
+        "numero": 20,
+        "titulo": "Protección del paciente ante las radiaciones: factores que afectan a la dosis. Medidas generales."
+      },
+      {
+        "numero": 21,
+        "titulo": "Plan de situaciones de emergencias. Primeros auxilios, RCP, hemorragias, actuación del técnico en radiodiagnóstico"
+      },
+      {
+        "numero": 22,
+        "titulo": "Documentación sanitaria que maneja el Técnico Especialista. Tipos de documentos y criterios de cumplimentación. Circulación de la información."
+      },
+      {
+        "numero": 23,
+        "titulo": "Radiaciones ionizantes.- Formas de transmisión de la energía. Campos electromagnéticos. Ondas electromagnéticas. Radiación electromagnética. Espectro de la radiación electromagnética. Radiaciones de partículas. Intensidad y energía de la radiación. Ionización por radiación: radiaciones ionizantes. Fuentes de radiación."
+      },
+      {
+        "numero": 24,
+        "titulo": "Física de los rayos X. Equipos de radiología convencional. Tubo de rayos X. Haz de rayos X. Generador. Manejo de equipos: Fijos, móviles y portátiles."
+      },
+      {
+        "numero": 25,
+        "titulo": "Factores que intervienen en la exposición. Relación entre ellos. Cálculo de los cambios de los factores de exposición. Control automático de la exposición."
+      },
+      {
+        "numero": 26,
+        "titulo": "Imagen analógica en radiología. La imagen radiográfica, factores geométricos. Radioscopia."
+      },
+      {
+        "numero": 27,
+        "titulo": "Imagen Bases físicas de la radiografía, la película radiográfica, las pantallas intensificadoras, chasis radiográficas, métodos de reducción de radiación dispersa. Componentes de los equipos radiográficos."
+      },
+      {
+        "numero": 28,
+        "titulo": "La imagen radiológica digital. Concepto. Producción y tratamiento de la imagen digital. Fluoroscopia y Angiografía digital."
+      },
+      {
+        "numero": 29,
+        "titulo": "Nuevas tecnologías aplicadas a la imagen. Sistemas de información, comunicación y archivos radiológicos, PAC, HIS, RIS, DICOM y Teleradiología."
+      },
+      {
+        "numero": 30,
+        "titulo": "Clasificación de los Servicios de Radiología según la OMS: básica, general y especializada. Estructura básica: ubicación, instalaciones y disposición de equipos."
+      },
+      {
+        "numero": 31,
+        "titulo": "Atención al paciente. Requisitos de preparación. Técnicas de movilización e inmovilización y medios de protección."
+      },
+      {
+        "numero": 32,
+        "titulo": "Terminología anatómica. Anatomía general. Posiciones. Planos. Proyecciones."
+      },
+      {
+        "numero": 33,
+        "titulo": "Anatomía radiológica de la extremidad superior. Exploración radiológica de la cintura escapular y de la extremidad superior. Técnica radiográfica simple. Proyecciones más comunes."
+      },
+      {
+        "numero": 34,
+        "titulo": "Anatomía radiológica de la extremidad inferior. Exploración radiológica. Técnica radiográfica simple. Proyecciones más comunes."
+      },
+      {
+        "numero": 35,
+        "titulo": "Anatomía radiológica del tórax. Exploración radiológica. Técnica radiográfica simple. Proyecciones más comunes."
+      },
+      {
+        "numero": 36,
+        "titulo": "Anatomía radiológica del abdomen. Exploración radiológica. Técnica radiográfica simple. Proyecciones más comunes."
+      },
+      {
+        "numero": 37,
+        "titulo": "Anatomía radiológica del cráneo, cara y cuello. Exploración radiológica de los mismos. Técnica radiográfica simple. Proyecciones más comunes."
+      },
+      {
+        "numero": 38,
+        "titulo": "Anatomía radiológica de la pelvis. Exploración radiológica de pelvis y cadera. Técnica radiográfica simple. Proyecciones más comunes."
+      },
+      {
+        "numero": 39,
+        "titulo": "Anatomía radiológica de la columna vertebral. Exploración radiológica. Técnica radiográfica simple. Proyecciones más comunes."
+      },
+      {
+        "numero": 40,
+        "titulo": "Anatomía radiológica y técnicas de exploración de la mama. Galactografía. Clasificación BI-RADS de los estudios para descartar tumores de la mama."
+      },
+      {
+        "numero": 41,
+        "titulo": "Exploraciones radiológicas especiales: Angiografía y Flebografía, Histerosalpingografía, Ortopantomografía, densitometría ósea."
+      },
+      {
+        "numero": 42,
+        "titulo": "Exploración radiológica del Aparato Digestivo. Técnica radiográfica simple. Proyecciones más comunes. Contrastes. Estudios con contraste."
+      },
+      {
+        "numero": 43,
+        "titulo": "Exploración radiológica del Aparato Urinario. Técnica radiográfica simple. Proyecciones más comunes. Contrastes. Estudios con contraste."
+      },
+      {
+        "numero": 44,
+        "titulo": "Principios de tomografía axial computerizada (TAC). Bases físicas y aspectos técnicos. Ventajas e inconvenientes. Equipos para la tomografía axial computerizada. Características y funcionamiento."
+      },
+      {
+        "numero": 45,
+        "titulo": "Técnicas radiológicas de exploración con TAC."
+      },
+      {
+        "numero": 46,
+        "titulo": "Resonancia Magnética (RM): Secuencias de pulso: imágenes potenciadas en T1, T2 y densidad protónica. Contraindicaciones y precauciones en RM. Equipos de resonancia: Tipos, características y funcionamiento."
+      },
+      {
+        "numero": 47,
+        "titulo": "Técnicas de exploración con Resonancia Magnética (RM)."
+      },
+      {
+        "numero": 48,
+        "titulo": "Contrastes utilizados en los Servicios de Radiodiagnóstico. Tipos de contrastes. Composición y aplicaciones. Complicaciones y reacciones adversas producidas por los contrastes."
+      },
+      {
+        "numero": 49,
+        "titulo": "Ecografía. Bases Físicas. Ventajas. Inconvenientes."
+      },
+      {
+        "numero": 50,
+        "titulo": "Radiología y técnicas de imagen médica en pediatría y neonatología. El paciente prematuro y el lactante. Cuidados. Manejo e inmovilización."
+      }
+    ]
+  }
+]

@@ -1,0 +1,212 @@
+[
+  {
+    "bloque": "Materia común",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "La Constitución Española de 1978: Principios fundamentales. Derechos y deberes fundamentales de los ciudadanos. La protección a la salud en la Constitución. La Corona. Las Cortes Generales. El Gobierno de la Nación. El Poder Judicial."
+      },
+      {
+        "numero": 2,
+        "titulo": "El Estatuto de Autonomía de Aragón. Principios informadores. Estructura y contenido. La organización institucional de la Comunidad Autónoma. Las Cortes y el Justicia de Aragón. Las competencias de la Comunidad de Aragón con especial referencia a las relativas a sanidad."
+      },
+      {
+        "numero": 3,
+        "titulo": "Población, geografía y territorio en Aragón. Desequilibrios demográficos en Aragón. Magnitudes más relevantes de la economía aragonesa. Evolución reciente de la actividad económica en Aragón."
+      },
+      {
+        "numero": 4,
+        "titulo": "La igualdad de oportunidades entre mujeres y hombres en Aragón: Disposiciones generales. Prevención y Protección Integral a las Mujeres Víctimas de Violencia en Aragón: Disposiciones Generales. La identidad y expresión de género e igualdad social y no discriminación en la Comunidad Autónoma de Aragón. La diversidad cultural y lucha contra la discriminación: Principios y objetivos del Plan Integral para la Gestión de la Diversidad vigente en Aragón."
+      },
+      {
+        "numero": 5,
+        "titulo": "Estructura y competencias del Departamento de Sanidad. Estructura y competencias del Servicio Aragonés de Salud. Decreto Legislativo 2/2004, de 30 de diciembre, Texto Refundido de la Ley del Servicio Aragonés de Salud. Estructura y funcionamiento de las áreas y sectores del Sistema de Salud de Aragón."
+      },
+      {
+        "numero": 6,
+        "titulo": "La Ley 14/1986, de 25 de abril, General de Sanidad: El Sistema Nacional de Salud y los Servicios de Salud de las Comunidades Autónomas. El Área de Salud. La Ley 6/2002, de 15 de abril, de Salud de Aragón. Principios generales. Derechos y deberes de los ciudadanos. Derechos de información sobre la salud y autonomía del paciente."
+      },
+      {
+        "numero": 7,
+        "titulo": "El Procedimiento Administrativo Común de las Administraciones Públicas: Disposiciones Generales. Computo de plazos. Objeto y plazos de los recursos administrativos. El Régimen Jurídico del Sector Público: Disposiciones generales, principios de actuación y funcionamiento del sector público."
+      },
+      {
+        "numero": 8,
+        "titulo": "Personal Estatutario de los Servicios de Salud (I). Clasificación del Personal Estatutario. Derechos y Deberes. Adquisición y pérdida de la condición de personal estatutario. Provisión de plazas, selección y promoción interna. Movilidad del personal."
+      },
+      {
+        "numero": 9,
+        "titulo": "Personal Estatutario de los Servicios de Salud (II): Retribuciones. Jornada de trabajo, permisos y licencias. Situaciones del personal estatutario. Régimen disciplinario. Régimen de Incompatibilidades: Principios generales. Ámbito de aplicación."
+      },
+      {
+        "numero": 10,
+        "titulo": "Ley de Prevención de Riesgos Laborales: Conceptos básicos. Derechos y obligaciones en materia de seguridad en el trabajo. Organización de la prevención de riesgos laborales en la Comunidad Autónoma de Aragón. Distribución de funciones y responsabilidades en materia de prevención de riesgos laborales entre los diferentes órganos del Servicio Aragonés de Salud."
+      }
+    ]
+  },
+  {
+    "bloque": "Materia específica",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "Principios fundamentales de la Bioética: aspectos éticos del trabajo del Técnico Especialista en Dietética y Nutrición. El secreto profesional: concepto y regulación jurídica."
+      },
+      {
+        "numero": 2,
+        "titulo": "La Unidad de Nutrición Clínica y Dietética: Fundamentos, tipos, técnicas y características del instrumental. El material clínico y la documentación."
+      },
+      {
+        "numero": 3,
+        "titulo": "Anatomía y fisiología del aparato digestivo. Patologías digestivas y su repercusión nutricional."
+      },
+      {
+        "numero": 4,
+        "titulo": "Concepto de Bromatología. Definición de alimento. Clasificación. Características generales. Funciones y metabolismo de los nutrientes."
+      },
+      {
+        "numero": 5,
+        "titulo": "Glúcido, Lípidos y Proteínas. Recomendaciones nutricionales. Clasificación. Fuentes alimentarias. Funciones. Efectos perjudiciales."
+      },
+      {
+        "numero": 6,
+        "titulo": "Vitaminas. Micronutrientes. Minerales y Agua. Recomendaciones nutricionales. Clasificación. Fuentes alimentarias. Funciones. Efectos perjudiciales."
+      },
+      {
+        "numero": 7,
+        "titulo": "Ley 17/2011, de 5 de julio, de Seguridad Alimentaria y Nutrición."
+      },
+      {
+        "numero": 8,
+        "titulo": "Consejo de Europa. Comité de Ministros Resolución ResAP (2003)3, sobre Alimentación y Atención Nutricional en Hospitales."
+      },
+      {
+        "numero": 9,
+        "titulo": "Microbiología de los alimentos. Clasificación de los microorganismos. Toxiinfecciones alimentarias."
+      },
+      {
+        "numero": 10,
+        "titulo": "Seguridad Alimentaria. Intoxicaciones e infecciones de origen alimentario, Sustancias tóxicas alimentarias."
+      },
+      {
+        "numero": 11,
+        "titulo": "Seguridad alimentaria y contaminación cruzada. Vías de contaminación. Normas de higiene para la elaboración, distribución y servicio de comidas preparadas. Normas relativas a los manipuladores de alimentos."
+      },
+      {
+        "numero": 12,
+        "titulo": "El control de calidad en los procesos: El sistema de análisis de riesgos, identificación y control de puntos críticos. Aplicaciones del sistema de análisis de riesgo."
+      },
+      {
+        "numero": 13,
+        "titulo": "Definición de los aditivos, según el Código Alimentario Español. Clasificación. Ingestión diaria admisible (IDA) y efectos que producen."
+      },
+      {
+        "numero": 14,
+        "titulo": "Etiquetado y presentación de los productos alimenticios e información facilitada al consumidor. Legislación."
+      },
+      {
+        "numero": 15,
+        "titulo": "Alérgenos en los alimentos. Nuevas normas de etiquetado y de Información a pacientes."
+      },
+      {
+        "numero": 16,
+        "titulo": "Bromatología aplicada I: Leche, carnes, pescados, huevos y cereales. Propiedades nutritivas. Composición, métodos de conservación. Modificación por el cocinado."
+      },
+      {
+        "numero": 17,
+        "titulo": "Bromatología aplicada II: Verduras, hortalizas, frutas, legumbres, alimentos grasos. Propiedades nutritivas. Composición, métodos de conservación. Modificación por el cocinado."
+      },
+      {
+        "numero": 18,
+        "titulo": "Bromatología aplicada III: Otros alimentos de interés. Edulcorantes naturales. Condimentos y especias. Bebidas alcohólicas, refrescantes y estimulantes. Alimentos transgénicos. Alimentos funcionales."
+      },
+      {
+        "numero": 19,
+        "titulo": "Valoración del Estado Nutricional I: Conocer al cliente/paciente. Valoración de la ingesta. Valoración calórica."
+      },
+      {
+        "numero": 20,
+        "titulo": "Valoración del Estado Nutricional II: Valoración de los compartimentos corporales. Medidas de los compartimentos graso y proteico. Parámetros inmunológicos. Metabolismo nitrogenado. Valoración hidroelectrolítica."
+      },
+      {
+        "numero": 21,
+        "titulo": "Características y requerimientos nutricionales en las distintas etapas de la vida I: Adulto sano. Mujer gestante. Mujer lactante."
+      },
+      {
+        "numero": 22,
+        "titulo": "Características y requerimientos nutricionales en las distintas etapas de la vida II: Lactantes y niños. Adolescencia. Alimentación en personas de edad avanzada. Deportistas y trabajadores en condiciones extremas."
+      },
+      {
+        "numero": 23,
+        "titulo": "Conductas alimentarias en la infancia que repercuten en la edad adulta."
+      },
+      {
+        "numero": 24,
+        "titulo": "Elaboración de dietas: Cuestiones previas. Confección de la dieta. Comprensión y seguimiento de la dieta por el cliente/paciente."
+      },
+      {
+        "numero": 25,
+        "titulo": "Guías alimentarias y tablas de composición de alimentos: definición, estructura, tipos. Necesidades nutricionales y recomendaciones dietéticas."
+      },
+      {
+        "numero": 26,
+        "titulo": "Sistema de recepción, almacenamiento y conservación de los alimentos en los centros hospitalarios. Sistema de autocontrol de las cocinas de los centros hospitalarios. Control de la temperatura: mantenimiento de las cadenas de frío y caliente."
+      },
+      {
+        "numero": 27,
+        "titulo": "Dieta terapéutica. Concepto y fin."
+      },
+      {
+        "numero": 28,
+        "titulo": "Dietas progresivas: Concepto y clasificación."
+      },
+      {
+        "numero": 29,
+        "titulo": "Dietas con modificación de nutrientes. Características generales. Recomendaciones nutricionales y seguimiento."
+      },
+      {
+        "numero": 30,
+        "titulo": "Dietoterapia en patología gástrica."
+      },
+      {
+        "numero": 31,
+        "titulo": "Dietoterapia en patología intestinal. Dietoterapia en síndromes diarréicos y estreñimiento."
+      },
+      {
+        "numero": 32,
+        "titulo": "Dietoterapia en patología renal y vías urinarias."
+      },
+      {
+        "numero": 33,
+        "titulo": "Dietoterapia en patología hepática y vía biliar. Enfermedades del Páncreas."
+      },
+      {
+        "numero": 34,
+        "titulo": "Dietoterapìa en patología Cardiaca y patología Respiratoria."
+      },
+      {
+        "numero": 35,
+        "titulo": "Dietoterapia en patología del Sistema Nervioso. Dietoterapia en Disfagia."
+      },
+      {
+        "numero": 36,
+        "titulo": "Dietoterapia en diabetes Mellitus. Obesidad. Dislipemias."
+      },
+      {
+        "numero": 37,
+        "titulo": "Dietoterapia en trastornos de la conducta alimentaria."
+      },
+      {
+        "numero": 38,
+        "titulo": "Dietoterapia en situaciones especiales: Paciente en estado crítico, quirúrgico, oncológico, quemado, séptico."
+      },
+      {
+        "numero": 39,
+        "titulo": "Apoyo nutricional en la nutrición Enteral. Características. Indicaciones. Métodos, vías y técnicas de administración. Complicaciones."
+      },
+      {
+        "numero": 40,
+        "titulo": "Apoyo nutricional en la nutrición Parenteral. Características."
+      }
+    ]
+  }
+]

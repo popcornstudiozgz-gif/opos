@@ -1,0 +1,332 @@
+[
+  {
+    "bloque": "Materia común",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "Constitución Española de 1978: la protección de la salud en la Constitución. Estatuto de Autonomía de Aragón. Competencias en salud recogidas en el Estatuto de Autonomía. Las Cortes de Aragón. El Gobierno de Aragón."
+      },
+      {
+        "numero": 2,
+        "titulo": "El texto refundido de la Ley del Estatuto Básico del Empleado Público, aprobado por el Real Decreto Legislativo 5/2015: deberes del empleado público y código de conducta. Representación, participación y negociación colectiva."
+      },
+      {
+        "numero": 3,
+        "titulo": "El régimen jurídico de la protección de datos de carácter personal: Disposiciones generales. Derechos de las personas."
+      },
+      {
+        "numero": 4,
+        "titulo": "El Procedimiento Administrativo Común de las Administraciones Públicas: Disposiciones Generales. Cómputo de plazos. Objeto y plazos de los recursos administrativos. El Régimen Jurídico del Sector Público: Disposiciones Generales."
+      },
+      {
+        "numero": 5,
+        "titulo": "Ley 14/86 General de Sanidad. Ley 6/2002 de Salud de Aragón. Principios generales, estructura, contenidos. Ley 16/2003 de cohesión y calidad del Sistema Nacional de Salud. Principios generales, estructura, contenidos."
+      },
+      {
+        "numero": 6,
+        "titulo": "Ley 44/2003 de Ordenación de las Profesiones Sanitarias. Ámbito de aplicación, contenidos. Ley 41/2002, de 14 de noviembre, básica reguladora de la autonomía del paciente y de derechos y obligaciones en materia de información y documentación clínica. Ley 9/2013, de 28 de noviembre, de Autoridad de Profesionales del Sistema Sanitario y de Servicios Sociales Públicos de Aragón."
+      },
+      {
+        "numero": 7,
+        "titulo": "Ley 55/2003 del Estatuto Marco de personal Estatutario de los Servicios de Salud (I). Principios generales, estructura, contenidos. Clasificación del personal estatutario. Derechos y deberes. Adquisición y pérdida de la condición de personal estatutario. Provisión de plazas, selección y promoción interna. Movilidad del personal."
+      },
+      {
+        "numero": 8,
+        "titulo": "Ley 55/2003 del Estatuto Marco de personal Estatutario de los Servicios de Salud (II). Retribuciones. Jornada de trabajo, permisos y licencias. Situaciones del personal estatutario. Régimen disciplinario. Modelo de Carrera Profesional en Aragón. Ley 53/1984 de 26 de diciembre, de incompatibilidades. Principios Generales. Ámbito de aplicación."
+      },
+      {
+        "numero": 9,
+        "titulo": "La igualdad de oportunidades entre mujeres y hombres en Aragón: Disposiciones generales. Prevención y Protección Integral a las Mujeres Víctimas de Violencia en Aragón: Disposiciones Generales. La identidad y expresión de género e igualdad social y no discriminación en la Comunidad Autónoma de Aragón: Disposiciones Generales. La diversidad cultural y lucha contra la discriminación: Principios y objetivos del vigente Plan Integral para la Gestión de la Diversidad de Aragón."
+      },
+      {
+        "numero": 10,
+        "titulo": "El sistema sanitario. Niveles asistenciales. Organización de los servicios sanitarios en Aragón. Estructura del Departamento de Sanidad de Aragón y del Servicio Aragonés de la Salud. Los Sectores sanitarios."
+      },
+      {
+        "numero": 11,
+        "titulo": "Metodología de la Investigación: El método científico. Diseño de un proyecto de investigación. Estadística aplicada a los estudios de Medicina."
+      },
+      {
+        "numero": 12,
+        "titulo": "El método epidemiológico. Epidemiología descriptiva: tipos de estudios, tasas e indicadores. Epidemiología analítica: tipos de estudios. Riesgo relativo, riesgo atribuible y Odds Ratio. Sesgos."
+      },
+      {
+        "numero": 13,
+        "titulo": "Estudios experimentales. Ensayos clínicos. Ética de la investigación clínica. Validez de métodos diagnósticos: sensibilidad, especificidad, valor predictivo positivo."
+      },
+      {
+        "numero": 14,
+        "titulo": "Evaluación de Tecnologías Sanitarias: Procedimientos de evaluación. Cartera de Servicios del Sistema Nacional de Salud. Procedimiento de actualización de la Cartera de Servicios del sistema de Salud de Aragón."
+      },
+      {
+        "numero": 15,
+        "titulo": "Práctica basada en la evidencia. Variabilidad en la práctica médica. Búsqueda y valoración de evidencias. Aplicación de las evidencias a la toma de decisiones clínicas. Guías clínicas. Proyecto Guía-Salud."
+      },
+      {
+        "numero": 16,
+        "titulo": "La seguridad del paciente. Gestión de riesgos. Principales problemas para la seguridad del paciente en el hospital. Estrategias para la mejora de la seguridad."
+      },
+      {
+        "numero": 17,
+        "titulo": "Uso Racional del Medicamento. Criterios de selección de medicamentos. Equivalentes terapéuticos. Indicadores de calidad de prescripción."
+      },
+      {
+        "numero": 18,
+        "titulo": "Evaluación y mejora de la calidad. Modelos de Gestión de la Calidad. Diseño de un programa de calidad."
+      },
+      {
+        "numero": 19,
+        "titulo": "Principios fundamentales de la bioética: aplicación a la asistencia sanitaria. La relación médico-paciente, el consentimiento informado. Los comités de Bioética. La ética en la investigación clínica."
+      },
+      {
+        "numero": 20,
+        "titulo": "Gobierno clínico. La implicación de los profesionales en el funcionamiento de las instituciones sanitarias."
+      }
+    ]
+  },
+  {
+    "bloque": "Materia específica",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "Anatomía del globo ocular. Nervio óptico. Vías y centros ópticos. Vías motoras."
+      },
+      {
+        "numero": 2,
+        "titulo": "Anatomía de la órbita. Anejos oculares. Aparato lagrimal secretor y excretor."
+      },
+      {
+        "numero": 3,
+        "titulo": "Semiología general de las alteraciones de la refracción del ojo. Hipermetropía. Miopía. Astigmatismo."
+      },
+      {
+        "numero": 4,
+        "titulo": "La acomodación y sus alteraciones: Parálisis de la acomodación. Presbicia."
+      },
+      {
+        "numero": 5,
+        "titulo": "Ametropías, fisiopatología, formas clínicas, alteraciones orgánicas derivadas, corrección óptica."
+      },
+      {
+        "numero": 6,
+        "titulo": "Cirugía de los defectos de corrección, alternativas e indicaciones"
+      },
+      {
+        "numero": 7,
+        "titulo": "Fisiología de la secreción lagrimal. El film lagrimal. Exploración de la secreción lagrimal. Ojo seco."
+      },
+      {
+        "numero": 8,
+        "titulo": "Dacriocistitis. Obstrucción de las vías lagrimales. Técnicas reconstructivas de la permeabilidad de la vía lagrimal."
+      },
+      {
+        "numero": 9,
+        "titulo": "Conjuntivitis infecciosas. Conjuntivitis alérgicas."
+      },
+      {
+        "numero": 10,
+        "titulo": "Tumores conjuntivales y degeneraciones de la conjuntiva."
+      },
+      {
+        "numero": 11,
+        "titulo": "Anatomía microscópica de la córnea. Microscopía endotelial."
+      },
+      {
+        "numero": 12,
+        "titulo": "Técnicas de exploración del segmento anterior ocular Topografía. Tomografía de coherencia óptica."
+      },
+      {
+        "numero": 13,
+        "titulo": "Queratitis infecciosas Abscesos corneales. Pruebas de diagnóstico microbiológico en patología corneal."
+      },
+      {
+        "numero": 14,
+        "titulo": "Queratitis superficiales. Queratitis neurotrófica. Úlceras corneales periféricas Lentes de contacto en patología de la superficie ocular."
+      },
+      {
+        "numero": 15,
+        "titulo": "Causticación de la superficie ocular. Tratamientos reconstructivos. Adhesivos titulares. Membrana amniótica. Trasplante de limbo."
+      },
+      {
+        "numero": 16,
+        "titulo": "Ectasias corneales. Cuadros clínicos y alternativas terapéuticas."
+      },
+      {
+        "numero": 17,
+        "titulo": "Queratoplastias penetrantes. Queratoplastias lamelares."
+      },
+      {
+        "numero": 18,
+        "titulo": "Patología del cristalino. Cataratas del adulto. Cataratas infantiles."
+      },
+      {
+        "numero": 19,
+        "titulo": "Valoración del paciente con catarata. Biometría, fórmulas de cálculo biométrico. Lentes intraoculares."
+      },
+      {
+        "numero": 20,
+        "titulo": "Tratamiento de la catarata. Técnicas de extracción. Complicaciones de la cirugía de la catarata."
+      },
+      {
+        "numero": 21,
+        "titulo": "Fisiología del humor acuoso. Exploración de los glaucomas. Tonometría. Gonioscopia."
+      },
+      {
+        "numero": 22,
+        "titulo": "Perimetría. Técnicas de análisis morfológico y cuantitativo de la papila y capa de fibras nerviosas. OCT en glaucoma"
+      },
+      {
+        "numero": 23,
+        "titulo": "Glaucoma e hipertensión ocular. Glaucoma de ángulo abierto. Glaucoma de ángulo cerrado. Glaucoma congénito y juvenil."
+      },
+      {
+        "numero": 24,
+        "titulo": "Glaucomas secundarios. Glaucoma pseudoexfoliativo, pigmentario, inflamatorio, neovascular."
+      },
+      {
+        "numero": 25,
+        "titulo": "Tratamiento médico de los glaucomas. Fármacos antiglaucomatosos."
+      },
+      {
+        "numero": 26,
+        "titulo": "Tratamiento quirúrgico de los glaucomas. Tratamiento láser. Procedimientos quirúrgicos: trabeculectomía, otros procedimientos, dispositivos de drenaje. Uso de antimetabolitos. Métodos ciclodestructivos."
+      },
+      {
+        "numero": 27,
+        "titulo": "Anatomía microscópica de la retina. Función visual. Fotorreceptores."
+      },
+      {
+        "numero": 28,
+        "titulo": "Exploración retiniana. Oftalmoscopia. Angiografía, técnicas"
+      },
+      {
+        "numero": 29,
+        "titulo": "Técnicas de exploración ocular retiniana Ecografía ocular. Tomografía de coherencia óptica."
+      },
+      {
+        "numero": 30,
+        "titulo": "Retinopatía del prematuro. Trastornos vasculares congénitos. Hemangiomas. Enfermedad de Coats. Facomatosis."
+      },
+      {
+        "numero": 31,
+        "titulo": "Alteraciones coroideas. Distrofias coroideas genéticas. Roturas coroideas. Hemorragias de coroides. Desprendimiento coroideo."
+      },
+      {
+        "numero": 32,
+        "titulo": "Degeneraciones retinianas. Retinosis pigmentaria. Distrofia de conos. Amaurosis de Leber. Otros trastornos hereditarios. Trastornos congénitos del epitelio pigmentario: Albinismo. Estrías angioides. Enfemedad de Best. Fondo flavimaculatus."
+      },
+      {
+        "numero": 33,
+        "titulo": "Patología vascular retiniana I. Retinopatía diabética."
+      },
+      {
+        "numero": 34,
+        "titulo": "Patología vascular retiniana II. Vasculopatía esclerohipertensiva. Oclusiones vasculares retinianas. Enfermedad de Eales. Retinopatía de células falciformes."
+      },
+      {
+        "numero": 35,
+        "titulo": "Degeneración macular asociada a la edad. Fisiopatología. Opciones terapéuticas."
+      },
+      {
+        "numero": 36,
+        "titulo": "Otras enfermedades maculares. Edema macular. Maculopatía central serosa. Agujero macular. Maculopatía miópica. Tracciones vitreoretinianas."
+      },
+      {
+        "numero": 37,
+        "titulo": "Desprendimiento de retina. Lesiones predisponentes. Vitreoretinopatía proliferante."
+      },
+      {
+        "numero": 38,
+        "titulo": "Cirugía vitreo-retiniana. Alternativas."
+      },
+      {
+        "numero": 39,
+        "titulo": "Tumores de la retina y coroides. Melanoma. Retinoblastoma."
+      },
+      {
+        "numero": 40,
+        "titulo": "Traumatología del segmento posterior. Cuerpos extraños intraoculares. Enfermedades tóxicas que afectan a la retina."
+      },
+      {
+        "numero": 41,
+        "titulo": "Laserterapia en patología retiniana."
+      },
+      {
+        "numero": 42,
+        "titulo": "Uveitis. Clasificación. Formas clínicas. Diagnóstico de las uveítis. Tratamiento de la inflamación ocular."
+      },
+      {
+        "numero": 43,
+        "titulo": "Síndromes uveíticos de origen autoinmune."
+      },
+      {
+        "numero": 44,
+        "titulo": "Enfermedades de la esclera. Epiescleritis. Escleritis."
+      },
+      {
+        "numero": 45,
+        "titulo": "Oftalmología pediátrica I. Exploración del paciente infantil. Infecciones oculares congénitas y neonatales."
+      },
+      {
+        "numero": 46,
+        "titulo": "Oftalmología pediátrica II. Obstrucción de la vía lagrimal. Opciones terapéuticas"
+      },
+      {
+        "numero": 47,
+        "titulo": "Oftalmología pediátrica III. Leucocoria, causas, diagnóstico diferencial."
+      },
+      {
+        "numero": 48,
+        "titulo": "Ambliopía. Clasificación, diagnóstico y tratamiento."
+      },
+      {
+        "numero": 49,
+        "titulo": "Estrabismos del niño I: Endoforias y endotropias"
+      },
+      {
+        "numero": 50,
+        "titulo": "Estrabismos del niño II: Exoforias y exotropias."
+      },
+      {
+        "numero": 51,
+        "titulo": "Nervio óptico. Anomalías congénitas de la papila. Patología quiasmática y retroquiasmática."
+      },
+      {
+        "numero": 52,
+        "titulo": "Neuropatías ópticas, isquémicas, desmielinizantes, toxicomedicamentosas."
+      },
+      {
+        "numero": 53,
+        "titulo": "Estrabismos del adulto: Parálisis y paresias oculomotoras."
+      },
+      {
+        "numero": 54,
+        "titulo": "Vías pupilomotoras. Patología pupilar."
+      },
+      {
+        "numero": 55,
+        "titulo": "Edema de papila y papiledema."
+      },
+      {
+        "numero": 56,
+        "titulo": "Infecciones e inflamaciones de los párpados."
+      },
+      {
+        "numero": 57,
+        "titulo": "Anomalías en la posición de los párpados. Ptosis. Entropión. Ectropión. Lagoftalmos."
+      },
+      {
+        "numero": 58,
+        "titulo": "Tumores palpebrales."
+      },
+      {
+        "numero": 59,
+        "titulo": "Valoración del paciente con exoftalmos. Exoftalmos endocrino. Orbitopatía tiroidea."
+      },
+      {
+        "numero": 60,
+        "titulo": "Patología orbitaria, infecciosa, vascular y tumoral."
+      }
+    ]
+  }
+]

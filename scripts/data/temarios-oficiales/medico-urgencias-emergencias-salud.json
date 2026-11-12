@@ -1,0 +1,332 @@
+[
+  {
+    "bloque": "Materia común",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "Constitución Española de 1978: La protección de la salud en la Constitución. Estatuto de Autonomía de Aragón. Competencias en salud recogidas en el Estatuto de Autonomía. Las Cortes de Aragón. El Gobierno de Aragón."
+      },
+      {
+        "numero": 2,
+        "titulo": "El texto refundido de la Ley del Estatuto Básico del Empleado Público, aprobado por el Real Decreto Legislativo 5/2015: Deberes del empleado público y código de conducta. Representación, participación y negociación colectiva."
+      },
+      {
+        "numero": 3,
+        "titulo": "El régimen jurídico de la protección de datos de carácter personal: Disposiciones generales. Derechos de las personas."
+      },
+      {
+        "numero": 4,
+        "titulo": "El Procedimiento Administrativo Común de las Administraciones Públicas: Disposiciones Generales. Computo de plazos. Objeto y plazos de los recursos administrativos. El Régimen Jurídico del Sector Público: Disposiciones Generales."
+      },
+      {
+        "numero": 5,
+        "titulo": "Ley 14/1986 General de Sanidad. Ley 6/2002 de Salud de Aragón. Principios generales, estructura, contenidos. Ley 16/2003 de cohesión y calidad del Sistema Nacional de Salud. Principios generales, estructura, contenidos."
+      },
+      {
+        "numero": 6,
+        "titulo": "Ley 44/2003 de Ordenación de las Profesiones Sanitarias. Ámbito de aplicación, contenidos. Ley 41/2002, de 14 de noviembre, básica reguladora de la autonomía del paciente y de derechos y obligaciones en materia de información y documentación clínica. Ley 9/2013, de 28 de noviembre, de Autoridad de Profesionales del Sistema Sanitario y de Servicios Sociales Públicos de Aragón."
+      },
+      {
+        "numero": 7,
+        "titulo": "El Estatuto Marco de personal Estatutario de los Servicios de Salud (I). Principios generales, estructura, contenidos. Clasificación del personal estatutario. Derechos y deberes. Adquisición y pérdida de la condición de personal estatutario. Provisión de plazas, selección y promoción interna. Movilidad del personal."
+      },
+      {
+        "numero": 8,
+        "titulo": "El Estatuto Marco de personal Estatutario de los Servicios de Salud (II). Retribuciones. Jornada de trabajo, permisos y licencias. Situaciones del personal estatutario. Régimen disciplinario. Modelo de Carrera Profesional en Aragón. Ley 53/1984 de 26 de diciembre, de incompatibilidades. Principios Generales. Ámbito de aplicación."
+      },
+      {
+        "numero": 9,
+        "titulo": "La igualdad de oportunidades entre mujeres y hombres en Aragón: Disposiciones generales. Prevención y Protección Integral a las Mujeres Víctimas de Violencia en Aragón: Disposiciones Generales. La identidad y expresión de género e igualdad social y no discriminación en la Comunidad Autónoma de Aragón: Disposiciones Generales. La diversidad cultural y lucha contra la discriminación: Principios y objetivos del Plan Integral para la Gestión de la Diversidad vigente en Aragón."
+      },
+      {
+        "numero": 10,
+        "titulo": "El sistema sanitario. Niveles asistenciales. Organización de los servicios sanitarios en Aragón. Estructura del Departamento de Sanidad de Aragón y del Servicio Aragonés de la Salud. Los Sectores sanitarios."
+      },
+      {
+        "numero": 11,
+        "titulo": "Metodología de la Investigación: El método científico. Diseño de un proyecto de investigación. Estadística aplicada a los estudios de Medicina."
+      },
+      {
+        "numero": 12,
+        "titulo": "El método epidemiológico. Epidemiología descriptiva: tipos de estudios, tasas e indicadores. Epidemiología analítica: tipos de estudios. Riesgo relativo, riesgo atribuible y Odds Ratio. Sesgos."
+      },
+      {
+        "numero": 13,
+        "titulo": "Estudios experimentales. Ensayos clínicos. Ética de la investigación clínica. Validez de métodos diagnósticos: sensibilidad, especificidad, valor predictivo positivo."
+      },
+      {
+        "numero": 14,
+        "titulo": "Evaluación de Tecnologías Sanitarias: Procedimientos de evaluación. Cartera de Servicios del Sistema Nacional de Salud. Procedimiento de actualización de la Cartera de Servicios del sistema de Salud de Aragón."
+      },
+      {
+        "numero": 15,
+        "titulo": "Práctica basada en la evidencia. Variabilidad en la práctica médica. Búsqueda y valoración de evidencias. Aplicación de las evidencias a la toma de decisiones clínicas. Guías clínicas. Proyecto Guía-Salud."
+      },
+      {
+        "numero": 16,
+        "titulo": "La seguridad del paciente. Gestión de riesgos. Principales problemas para la seguridad del paciente en el hospital. Estrategias para la mejora de la seguridad."
+      },
+      {
+        "numero": 17,
+        "titulo": "Uso Racional del Medicamento. Criterios de selección de medicamentos. Equivalentes terapéuticos. Indicadores de calidad de prescripción."
+      },
+      {
+        "numero": 18,
+        "titulo": "Evaluación y mejora de la calidad. Modelos de Gestión de la Calidad. Diseño de un programa de calidad."
+      },
+      {
+        "numero": 19,
+        "titulo": "Principios fundamentales de la bioética: aplicación a la asistencia sanitaria. La relación médico-paciente, el consentimiento informado. Los comités de Bioética. La ética en la investigación clínica."
+      },
+      {
+        "numero": 20,
+        "titulo": "Gobierno clínico. La implicación de los profesionales en el funcionamiento de las instituciones sanitarias."
+      }
+    ]
+  },
+  {
+    "bloque": "Materia específica",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "Organización de la atención a urgencias y emergencias. Dispositivos sanitarios. Estructura, organización y funcionamiento de un Centro Coordinador de Urgencias. Protocolos de coordinación."
+      },
+      {
+        "numero": 2,
+        "titulo": "Sistema de transporte urgente y crítico. Normativa vigente en Transporte Sanitario Nacional. Tipos de vehículos. Transporte Sanitario, equipamiento y personal. Comunicación entre los distintos niveles asistenciales. Transferencia de pacientes."
+      },
+      {
+        "numero": 3,
+        "titulo": "Atención extrahospitalaria a múltiples víctimas y catástrofes. Clasificacioń . Regulación en el centro coordinador. Cadena de mando. Comunicaciones. Triaje. Asistencia. Evacuacioń ."
+      },
+      {
+        "numero": 4,
+        "titulo": "Parada cardiorrespiratoria. Soporte vital básico y avanzado en adultos. Protocolos de actuacioń . SVA en situaciones especiales."
+      },
+      {
+        "numero": 5,
+        "titulo": "Manejo avanzado de la vía aérea. Principios de ventilación mecánica invasiva. Métodos de ventilacioń mecánica en emergencias. Indicaciones de aislamiento de la vía aérea. Intubación asistida por fármacos. Vía aérea dificil. Control de la vía aérea en el trauma grave. Principios de Ventilación mecánica no invasiva, indicaciones en urgencias extrahospitalarias."
+      },
+      {
+        "numero": 6,
+        "titulo": "Monitorización del paciente en emergencias: Hemodinaḿ ica, respiratoria y neuroloǵ ica. Interpretación registro electrocardiográfico. Capnografía. Teć nicas de canalizacioń venosa e intraósea. Fluidoterapia en emergencias."
+      },
+      {
+        "numero": 7,
+        "titulo": "Valoración inicial del politraumatizado adulto. Manejo. Movilización, inmovilización y transporte sanitario. Analgesia y sedación en el trauma grave."
+      },
+      {
+        "numero": 8,
+        "titulo": "Traumatismo craneoencefálico. Valoración y tratamiento."
+      },
+      {
+        "numero": 9,
+        "titulo": "Traumatismo torácico. Traumatismo abdominal. Valoración y tratamiento."
+      },
+      {
+        "numero": 10,
+        "titulo": "Traumatismo raquimedular. Traumatismo facial y cervical. Valoración y tratamiento."
+      },
+      {
+        "numero": 11,
+        "titulo": "Valoración y tratamiento inicial de traumatismos en extremidades. Fracturas, luxaciones y amputaciones."
+      },
+      {
+        "numero": 12,
+        "titulo": "Valoracioń y tratamiento inicial de las heridas, lesiones tendinosas, vasculares y nerviosas."
+      },
+      {
+        "numero": 13,
+        "titulo": "Shock. Manejo prehospitalario. Diagnóstico diferencial. Shock hipovolémico, control de hemorragia masiva."
+      },
+      {
+        "numero": 14,
+        "titulo": "El paciente ahogado y semiahogado. Electrocución. Ahorcamiento. Barotraumatizado. Hipotermia. Hipertermia. Golpe de calor. Congelaciones. Lesiones por onda expansiva. Aplastamiento. Siń drome compartimental. El paciente quemado. Valoracioń . Tratamiento. Criterios de derivación."
+      },
+      {
+        "numero": 15,
+        "titulo": "Dolor torácico agudo. Diagnoś tico diferencial. Valoracioń y criterios de traslado."
+      },
+      {
+        "numero": 16,
+        "titulo": "Siń drome coronario agudo. Diagnóstico. Manejo en urgencias. Cod́ igo Infarto Aragoń ."
+      },
+      {
+        "numero": 17,
+        "titulo": "Arritmias cardiacas. Criterios electrocardiográficos. Tratamiento. Terapias eleć tricas. Marcapasos transcutáneo. Manejo del paciente con desfibrilador implantado."
+      },
+      {
+        "numero": 18,
+        "titulo": "Insuficiencia cardiaca. Edema agudo de pulmoń . Shock cardiogénico. Valvulopatiá s y miocardiopatiá s. Valoracioń y pautas de tratamiento en urgencias."
+      },
+      {
+        "numero": 19,
+        "titulo": "Patología arterial aguda. Aneurisma de aorta toraco-abdominal. Isquemia arterial aguda. Valoración y pautas de tratamiento en urgencias."
+      },
+      {
+        "numero": 20,
+        "titulo": "Pericarditis. Taponamiento cardiaco. Valoracioń y tratamiento."
+      },
+      {
+        "numero": 21,
+        "titulo": "Siń cope. Valoracioń y actitud terapeú tica."
+      },
+      {
+        "numero": 22,
+        "titulo": "Urgencia y emergencia hipertensiva. Concepto. Manejo."
+      },
+      {
+        "numero": 23,
+        "titulo": "Insuficiencia respiratoria aguda. Diagnoś tico diferencial. Valoración y tratamiento."
+      },
+      {
+        "numero": 24,
+        "titulo": "Diagnoś tico y manejo de las enfermedades infecciosas respiratorias. Criterios de derivación. Medidas de aislamiento respiratorio."
+      },
+      {
+        "numero": 25,
+        "titulo": "Asma bronquial. Crisis asmática. Enfermedad pulmonar obstructiva crónica (EPOC). Agudización de EPOC. Manejo en urgencias."
+      },
+      {
+        "numero": 26,
+        "titulo": "Enfermedad tromboembólica. Tomboembolismo pulmonar. Valoración y tratamiento."
+      },
+      {
+        "numero": 27,
+        "titulo": "Actitud ante el paciente con hemoptisis. Diagnóstico diferencial. Valoracioń y tratamiento inicial."
+      },
+      {
+        "numero": 28,
+        "titulo": "Neumotórax. Valoracioń y tratamiento en urgencias."
+      },
+      {
+        "numero": 29,
+        "titulo": "Hemorragia digestiva aguda. Valoración y tratamiento inicial."
+      },
+      {
+        "numero": 30,
+        "titulo": "Dolor abdominal. Diagnoś tico diferencial. Valoración. Manejo. Criterios de traslado urgente."
+      },
+      {
+        "numero": 31,
+        "titulo": "Vómitos y diarreas. Valoración. Manejo de Deshidratacioń Tratamiento. Criterios de derivacioń ."
+      },
+      {
+        "numero": 32,
+        "titulo": "Fallo hepat́ ico agudo. Encefalopatiá hepat́ ica. Ictericia aguda. Concepto. Causas. Manejo. Complicaciones agudas del paciente con cirrosis hepática."
+      },
+      {
+        "numero": 33,
+        "titulo": "Coma. Diagnoś tico diferencial. Valoracioń y tratamiento inicial."
+      },
+      {
+        "numero": 34,
+        "titulo": "Accidente cerebrovascular agudo. Manejo. Código Ictus. PAIA (Plan de Atención al Ictus en Aragón)"
+      },
+      {
+        "numero": 35,
+        "titulo": "Siń drome confusional agudo. Diagnóstico diferencial. Manejo."
+      },
+      {
+        "numero": 36,
+        "titulo": "Crisis convulsiva. Estatus epileṕ tico. Conceptos. Actitud en urgencias."
+      },
+      {
+        "numero": 37,
+        "titulo": "Encefalitis y meningitis aguda. Valoración. Medidas generales y tratamiento inicial."
+      },
+      {
+        "numero": 38,
+        "titulo": "Cefaleas. Diagnóstico diferencial. Tratamiento. Criterios de derivación hospitalaria."
+      },
+      {
+        "numero": 39,
+        "titulo": "Hiperglucemia. Cetoacidosis. Coma hiperosmolar. Hipoglucemia. Crisis suprarrenal. Coma mixedematoso. Crisis tirotóxica. Conceptos y manejo. Criterios de derivacioń hospitalaria."
+      },
+      {
+        "numero": 40,
+        "titulo": "Pielonefritis aguda. Uropatiá obstructiva. Oligoanuria. Hematuria. Siń drome escrotal agudo. Concepto. Valoración y pautas de actuacioń en urgencias."
+      },
+      {
+        "numero": 41,
+        "titulo": "Urgencias obstet́ rico-ginecológicas. Hemorragias en el embarazo. Eclampsia. Preeclampsia. Placenta previa. Parto extrahospitalario. Posibles distocias y complicaciones. Valoración y pautas de actuación en urgencias. Consideraciones del traumatismo en la mujer gestante."
+      },
+      {
+        "numero": 42,
+        "titulo": "Síndrome febril en el adulto y el niño. Manejo del paciente séptico. Sepsis. Shock séptico. Manejo inicial y criterios de derivación. Manejo del paciente inmunocomprometido."
+      },
+      {
+        "numero": 43,
+        "titulo": "Intoxicaciones agudas: aspectos generales de la evaluación, diagnoś tico y tratamiento. Tratamiento específico de las intoxicaciones agudas: humos, gases, químicas, alimentarias, drogas de abuso, drogas de diseño, alcohol, fármacos y picaduras de animales potencialmente venenosos."
+      },
+      {
+        "numero": 44,
+        "titulo": "Urgencias otorrinolaringológicas: Cuerpos extraños. Infecciones agudas. Epistaxis. Vértigo. Valoración y tratamiento. Criterios de derivación hospitalaria."
+      },
+      {
+        "numero": 45,
+        "titulo": "Urgencias oftalmológicas. Traumatismo ocular. Perdida de visión aguda. Valoración y tratamiento. Criterios de derivación hospitalaria."
+      },
+      {
+        "numero": 46,
+        "titulo": "Actitud ante el paciente agitado. Orientación diagnostica. Técnicas de contención verbal, mecánica y farmacológica. Implicaciones med́ ico-legales. Descompensación aguda del paciente psiquiátrico. Manejo inicial y criterios de derivación hospitalaria. Intento autolítico. Manejo inicial y criterios de derivación hospitalaria."
+      },
+      {
+        "numero": 47,
+        "titulo": "Soporte vital básico y avanzado pediátrico y neonatal."
+      },
+      {
+        "numero": 48,
+        "titulo": "Urgencias pediátricas I: Urgencias neurológicas, endocrinológicas. Insuficiencia respiratoria aguda. Valoración, tratamiento y criterios de derivación hospitalaria."
+      },
+      {
+        "numero": 49,
+        "titulo": "Urgencias pediátricas II: Shock. Arritmias. Cardiopatías congénitas. Sepsis. Valoración, tratamiento y criterios de derivación hospitalaria."
+      },
+      {
+        "numero": 50,
+        "titulo": "Manejo inicial del trauma grave pediátrico."
+      },
+      {
+        "numero": 51,
+        "titulo": "Aspectos relevantes en la atención urgente al paciente anciano."
+      },
+      {
+        "numero": 52,
+        "titulo": "Actitud ante el paciente terminal. Manejo de la agonía. Urgencias en cuidados paliativos."
+      },
+      {
+        "numero": 53,
+        "titulo": "Reacción aleŕ gica. Urticaria. Angioedema. Shock anafiláctico. Diagnoś tico y manejo."
+      },
+      {
+        "numero": 54,
+        "titulo": "Manejo prehospitalario de la donación de órganos. Deteccioń de posibles donantes. Donacioń en asistolia."
+      },
+      {
+        "numero": 55,
+        "titulo": "Manejo de la violencia doméstica. Manejo de la agresión sexual. Manejo del maltrato infantil."
+      },
+      {
+        "numero": 56,
+        "titulo": "Manejo de la muerte violenta. Activación de la vía judicial."
+      },
+      {
+        "numero": 57,
+        "titulo": "Seguridad Cliń ica. SiNASP como sistema de notificación."
+      },
+      {
+        "numero": 58,
+        "titulo": "La seguridad del paciente. Aspectos básicos de seguridad del paciente en urgencias. Gestión de riesgos. Estrategias para la mejora de la seguridad."
+      },
+      {
+        "numero": 59,
+        "titulo": "Aspectos médico legales en la atención de urgencias y emergencias. Documentación médico legal."
+      },
+      {
+        "numero": 60,
+        "titulo": "Urgencias en el paciente oncológico. Manejo del dolor, sedación y tratamientos de soporte."
+      }
+    ]
+  }
+]

@@ -1,0 +1,332 @@
+[
+  {
+    "bloque": "Materia común",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "Constitución Española de 1978: la protección de la salud en la Constitución. Estatuto de Autonomía de Aragón. Competencias en salud recogidas en el Estatuto de Autonomía. Las Cortes de Aragón. El Gobierno de Aragón."
+      },
+      {
+        "numero": 2,
+        "titulo": "El Texto Refundido de la Ley del Estatuto Básico del Empleado Público, aprobado por el Real Decreto Legislativo 5/2015: deberes del empleado público y código de conducta. Representación, participación y negociación colectiva."
+      },
+      {
+        "numero": 3,
+        "titulo": "El régimen jurídico de la protección de datos de carácter personal: Disposiciones generales. Derechos de las personas."
+      },
+      {
+        "numero": 4,
+        "titulo": "El Procedimiento Administrativo Común de las Administraciones Públicas: Disposiciones generales. Cómputo de plazos. Objeto y plazos de los recursos administrativos. El Régimen Jurídico del Sector Público: Disposiciones generales."
+      },
+      {
+        "numero": 5,
+        "titulo": "Ley 14/1986 General de Sanidad. Ley 6/2002 de Salud de Aragón. Principios generales, estructura, contenidos. Ley 16/2003 de cohesión y calidad del Sistema Nacional de Salud. Principios generales, estructura, contenidos."
+      },
+      {
+        "numero": 6,
+        "titulo": "Ley 44/2003 de Ordenación de las Profesiones Sanitarias. Ámbito de aplicación, contenidos. Ley 41/2002, de 14 de noviembre, básica reguladora de la autonomía del paciente y de derechos y obligaciones en materia de información y documentación clínica. Ley 9/2013, de 28 de noviembre, de Autoridad de Profesionales del Sistema Sanitario y de Servicios Sociales Públicos de Aragón."
+      },
+      {
+        "numero": 7,
+        "titulo": "Ley 55/2003 del Estatuto Marco de personal Estatutario de los Servicios de Salud (I). Principios generales, estructura, contenidos. Clasificación del personal estatutario. Derechos y deberes. Adquisición y pérdida de la condición de personal estatutario. Provisión de plazas, selección y promoción interna. Movilidad del personal."
+      },
+      {
+        "numero": 8,
+        "titulo": "Ley 55/2003 del Estatuto Marco de personal Estatutario de los Servicios de Salud (II). Retribuciones. Jornada de trabajo, permisos y licencias. Situaciones del personal estatutario. Régimen disciplinario. Modelo de Carrera Profesional en Aragón. Ley 53/1984 de 26 de diciembre, de incompatibilidades. Principios Generales. Ámbito de aplicación."
+      },
+      {
+        "numero": 9,
+        "titulo": "La igualdad de oportunidades entre mujeres y hombres en Aragón: Disposiciones generales. Prevención y Protección Integral a las Mujeres Víctimas de Violencia en Aragón: Disposiciones Generales. La identidad y expresión de género e igualdad social y no discriminación en la Comunidad Autónoma de Aragón: Disposiciones Generales. La diversidad cultural y lucha contra la discriminación: Principios y objetivos del Plan Integral para la Gestión de la Diversidad vigente en Aragón."
+      },
+      {
+        "numero": 10,
+        "titulo": "El sistema sanitario. Niveles asistenciales. Organización de los servicios sanitarios en Aragón. Estructura del Departamento de Sanidad de Aragón y del Servicio Aragonés de la Salud. Los Sectores sanitarios."
+      },
+      {
+        "numero": 11,
+        "titulo": "Metodología de la Investigación: El método científico. Diseño de un proyecto de investigación. Estadística aplicada a los estudios de Medicina."
+      },
+      {
+        "numero": 12,
+        "titulo": "El método epidemiológico. Epidemiología descriptiva: tipos de estudios, tasas e indicadores. Epidemiología analítica: tipos de estudios. Riesgo relativo, riesgo atribuible y Odds Ratio. Sesgos."
+      },
+      {
+        "numero": 13,
+        "titulo": "Estudios experimentales. Ensayos clínicos. Ética de la investigación clínica. Validez de métodos diagnósticos: sensibilidad, especificidad, valor predictivo positivo."
+      },
+      {
+        "numero": 14,
+        "titulo": "Evaluación de Tecnologías Sanitarias: Procedimientos de evaluación. Cartera de Servicios del Sistema Nacional de Salud. Procedimiento de actualización de la Cartera de Servicios del sistema de Salud de Aragón."
+      },
+      {
+        "numero": 15,
+        "titulo": "Práctica basada en la evidencia. Variabilidad en la práctica médica. Búsqueda y valoración de evidencias. Aplicación de las evidencias a la toma de decisiones clínicas. Guías clínicas. Proyecto Guía-Salud."
+      },
+      {
+        "numero": 16,
+        "titulo": "La seguridad del paciente. Gestión de riesgos. Principales problemas para la seguridad del paciente en el hospital. Estrategias para la mejora de la seguridad."
+      },
+      {
+        "numero": 17,
+        "titulo": "Uso Racional del Medicamento. Criterios de selección de medicamentos. Equivalentes terapéuticos. Indicadores de calidad de prescripción."
+      },
+      {
+        "numero": 18,
+        "titulo": "Evaluación y mejora de la calidad. Modelos de Gestión de la Calidad. Diseño de un programa de calidad."
+      },
+      {
+        "numero": 19,
+        "titulo": "Principios fundamentales de la bioética: aplicación a la asistencia sanitaria. La relación médico-paciente, el consentimiento informado. Los comités de Bioética. La ética en la investigación clínica."
+      },
+      {
+        "numero": 20,
+        "titulo": "Gobierno clínico. La implicación de los profesionales en el funcionamiento de las instituciones sanitarias."
+      }
+    ]
+  },
+  {
+    "bloque": "Materia específica",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "Concepto de cáncer. Hipótesis monoclonal y policlonal de los tumores malignos. Conceptos de tumor microscópico, subclínico y clínico."
+      },
+      {
+        "numero": 2,
+        "titulo": "Epidemiología y prevención: Consejo genético. Registros de cáncer. Epidemiología molecular: cáncer familiar y cáncer esporádico."
+      },
+      {
+        "numero": 3,
+        "titulo": "Carcinogénesis y desarrollo tumoral. Genética tumoral. Inmunología tumoral."
+      },
+      {
+        "numero": 4,
+        "titulo": "Técnicas de biología molecular en cancerología. Análisis génico. Terapia génica."
+      },
+      {
+        "numero": 5,
+        "titulo": "Aspectos histopatológicos generales. Métodos diagnósticos histopatológicos. Inmunohistoquímica. Citogenética. Citometría de flujo. Diagnóstico molecular. Cuadros anatomopatológicos. Invasión. Diferenciación. Pleomorfismo. Anaplasia. Actividad mitótica. Ploidía nuclear."
+      },
+      {
+        "numero": 6,
+        "titulo": "Radiobiología general. Magnitudes y unidades radiológicas fundamentales. Efectos generales de la radiación sobre los sis s biológicos. Ensayos de clonogenicidad y curvas de supervivencia."
+      },
+      {
+        "numero": 7,
+        "titulo": "Modelos teóricos de análisis de la supervivencia. El modelo linealcuadrático: coeficientes α y β. Parámetros de respuesta a la radiación."
+      },
+      {
+        "numero": 8,
+        "titulo": "Lesiones moleculares radioinducidas. Mecanismos reparación. Concepto de lesión letal, subletal y potencialmente letal."
+      },
+      {
+        "numero": 9,
+        "titulo": "Efectos celulares de la radiación. Radiosensibilidad. Efectos tisulares de la radiación. Tejidos limitantes de la dosis. Radiopatología de tejidos y órganos. Carcinogénesis por radiación."
+      },
+      {
+        "numero": 10,
+        "titulo": "Radiobiología tumoral. Respuesta tumoral a la radiación: Radiosensibilidad intrínseca. Reparación. Reoxigenación. Redistribución. Regeneración tumoral clonogénica. Modificadores de la respuesta tumoral a la radiación."
+      },
+      {
+        "numero": 11,
+        "titulo": "Control tumoral por radiación. Respuesta a la radiación de los tejidos normales. Relaciones dosis-efecto. El concepto «double-trouble». Fraccionamiento de la dosis en radioterapia."
+      },
+      {
+        "numero": 12,
+        "titulo": "Relaciones dosis-tiempo en la radioterapia fraccionada del cáncer. Efecto del tiempo sobre la proliferación tumoral. Reirradiación. Ensayos predictivos en radioterapia."
+      },
+      {
+        "numero": 13,
+        "titulo": "Radiofísica básica. Radioisótopos. Interacción de la radiación con la materia: mecanismos y consecuencias. Protección radiológica: Dosis equivalente y dosis efectiva. Objetivos de la protección radiológica. Protección radiológica operacional. Sis de limitación de dosis. Legislación."
+      },
+      {
+        "numero": 14,
+        "titulo": "Radiofísica aplicada a la radioterapia. Equipos de radioterapia. Fuentes radiactivas utilizables en radioterapia. Dosimetría física. Dosimetría clínica. Modificadores de la intensidad del haz."
+      },
+      {
+        "numero": 15,
+        "titulo": "Planificación en radioterapia: Concepto de planificación. El proceso de la radioterapia: etapas. Informes ICRU. Otras recomendaciones. Prescripción estimativa del tratamiento. Estimación de la probabilidad de control tumoral. Tolerancia de los tejidos normales: probabilidad de complicaciones (NTCPs)."
+      },
+      {
+        "numero": 16,
+        "titulo": "Técnicas de simulación. Fusión de imágenes. Planificación geométrica: Contorneo de volúmenes de irradiación y de órganos en riesgo (ORs). Definición de las condiciones del tratamiento. Planificación dosimétrica. Prescripción definitiva del tratamiento. Verificación del tratamiento."
+      },
+      {
+        "numero": 17,
+        "titulo": "Planificación en Radioterapia de intensidad modulada."
+      },
+      {
+        "numero": 18,
+        "titulo": "SBRT.(Stetotaxic Body Radiation Therapy) Aplicaciones cínicas."
+      },
+      {
+        "numero": 19,
+        "titulo": "Braquiterapia. Modalidades y técnicas de aplicación. Planificación. Dosimetría clínica. Especificación de la dosis."
+      },
+      {
+        "numero": 20,
+        "titulo": "Planificación de técnicas no convencionales: Radioterapia estereotáxica. Radioterapia intraoperatoria. Irradiación corporal total. Radioterapia superficial corporal total. Otras."
+      },
+      {
+        "numero": 21,
+        "titulo": "Garantía de calidad: Protocolos. Mecanismos de control. Identificación de errores. Introducción de mejoras. Responsabilidades (Real Decreto 1566/1998)."
+      },
+      {
+        "numero": 22,
+        "titulo": "Técnicas no convencionales. Bases físicas y biológicas, objetivos e indicaciones generales."
+      },
+      {
+        "numero": 23,
+        "titulo": "Hipertermia e irradiación: Efectos biológicos de la hipertermia. Interacción radiación-hipertermia. Indicaciones de la hipertermia en la radioterapia del cáncer. Radioterapia con emisores marcados: Bases radiobiológicas. Aplicaciones."
+      },
+      {
+        "numero": 24,
+        "titulo": "Cirugía: Objetivos generales de la cirugía en el tratamiento del cáncer. Modalidades de tratamiento quirúrgico. Modalidades de combinación con Radioterapia."
+      },
+      {
+        "numero": 25,
+        "titulo": "Quimioterapia: Objetivos generales y ámbito terapéutico. Principios de farmacocinética antitumoral. Mecanismos de acción de los agentes citotóxicos. Efectos secundarios. Modalidades de empleo. Mecanismos de quimiorresistencia tumoral. Segundos cánceres. Modalidades de combinación con Radioterapia."
+      },
+      {
+        "numero": 26,
+        "titulo": "Otras formas de tratamiento. Hormonoterapia. Inmunoterapia. Modificadores de la respuesta biológica. Tratamiento de la enfermedad tumoral mínima."
+      },
+      {
+        "numero": 27,
+        "titulo": "Nuevas dianas moleculares. Tratamiento de soporte. Modalidades de combinación con Radioterapia."
+      },
+      {
+        "numero": 28,
+        "titulo": "Criterios de respuesta al tratamiento y escalas de toxicidad: Criterios de respuesta. Escalas de toxicidad: Toxicidad aguda. Respuesta tardía. Criterios generales de evaluación. Factores generales de pronóstico. Parámetros de radiosensibilidad, oxigenación y cinética tumoral"
+      },
+      {
+        "numero": 29,
+        "titulo": "Tratamiento de soporte en oncología radioterápica. Situaciones clínicas especiales."
+      },
+      {
+        "numero": 30,
+        "titulo": "Urgencias oncológicas."
+      },
+      {
+        "numero": 31,
+        "titulo": "Epidemiología, historia natural, anatomía patológica, diagnóstico de extensión, factores de pronóstico, tratamiento, control local, seguimiento, supervivencia, toxicidad y complicaciones de los tumores de Sis nervioso central."
+      },
+      {
+        "numero": 32,
+        "titulo": "Epidemiología, historia natural, anatomía patológica, diagnóstico de extensión, factores de pronóstico, tratamiento, control local, seguimiento, supervivencia, toxicidad y complicaciones de los tumores oftálmicos y de cabeza y cuello."
+      },
+      {
+        "numero": 33,
+        "titulo": "Epidemiología, historia natural, anatomía patológica, diagnóstico de extensión, factores de pronóstico, tratamiento, control local, seguimiento, supervivencia, toxicidad y complicaciones de los tumores de mama."
+      },
+      {
+        "numero": 34,
+        "titulo": "Epidemiología, historia natural, anatomía patológica, diagnóstico de extensión, factores de pronóstico, tratamiento, control local, seguimiento, supervivencia, toxicidad y complicaciones de los tumores de pulmón."
+      },
+      {
+        "numero": 35,
+        "titulo": "Epidemiología, historia natural, anatomía patológica, diagnóstico de extensión, factores de pronóstico, tratamiento, control local, seguimiento, supervivencia, toxicidad y complicaciones de los mesoteliomas, timomas y otros tumores torácicos."
+      },
+      {
+        "numero": 36,
+        "titulo": "Epidemiología, historia natural, anatomía patológica, diagnóstico de extensión, factores de pronóstico, tratamiento, control local, seguimiento, supervivencia, toxicidad y complicaciones de los tumores de esófago, estómago e intestino delgado."
+      },
+      {
+        "numero": 37,
+        "titulo": "Epidemiología, historia natural, anatomía patológica, diagnóstico de extensión, factores de pronóstico, tratamiento, control local, seguimiento, supervivencia, toxicidad y complicaciones de los tumores de hígado y vías biliares"
+      },
+      {
+        "numero": 38,
+        "titulo": "Epidemiología, historia natural, anatomía patológica, diagnóstico de extensión, factores de pronóstico, tratamiento, control local, seguimiento, supervivencia, toxicidad y complicaciones de los tumores de páncreas."
+      },
+      {
+        "numero": 39,
+        "titulo": "Epidemiología, historia natural, anatomía patológica, diagnóstico de extensión, factores de pronóstico, tratamiento, control local, seguimiento, supervivencia, toxicidad y complicaciones de los tumores de colon, recto y ano."
+      },
+      {
+        "numero": 40,
+        "titulo": "Epidemiología, historia natural, anatomía patológica, diagnóstico de extensión, factores de pronóstico, tratamiento, control local, seguimiento, supervivencia, toxicidad y complicaciones de los tumores de vejiga, testículo y pene."
+      },
+      {
+        "numero": 41,
+        "titulo": "Epidemiología, historia natural, anatomía patológica, diagnóstico de extensión, factores de pronóstico, tratamiento, control local, seguimiento, supervivencia, toxicidad y complicaciones de los tumores de próstata."
+      },
+      {
+        "numero": 42,
+        "titulo": "Epidemiología, historia natural, anatomía patológica, diagnóstico de extensión, factores de pronóstico, tratamiento, control local, seguimiento, supervivencia, toxicidad y complicaciones de los tumores de riñón, pelvis renal, uréter y uretra."
+      },
+      {
+        "numero": 43,
+        "titulo": "Epidemiología, historia natural, anatomía patológica, diagnóstico de extensión, factores de pronóstico, tratamiento, control local, seguimiento, supervivencia, toxicidad y complicaciones de los tumores de cuello uterino y útero."
+      },
+      {
+        "numero": 44,
+        "titulo": "Epidemiología, historia natural, anatomía patológica, diagnóstico de extensión, factores de pronóstico, tratamiento, control local, seguimiento, supervivencia, toxicidad y complicaciones de los tumores de ovario y trompas, vagina y vulva."
+      },
+      {
+        "numero": 45,
+        "titulo": "Epidemiología, historia natural, anatomía patológica, diagnóstico de extensión, factores de pronóstico, tratamiento, control local, seguimiento, supervivencia, toxicidad y complicaciones de los linfomas de Hodgkin."
+      },
+      {
+        "numero": 46,
+        "titulo": "Epidemiología, historia natural, anatomía patológica, diagnóstico de extensión, factores de pronóstico, tratamiento, control local, seguimiento, supervivencia, toxicidad y complicaciones de los linfomas no Hodgkin."
+      },
+      {
+        "numero": 47,
+        "titulo": "Epidemiología, historia natural, anatomía patológica, diagnóstico de extensión, factores de pronóstico, tratamiento, control local, seguimiento, supervivencia, toxicidad y complicaciones del plasmocitoma y mieloma múltiple, leucemias. Irradiación corporal total. Irradiación superficial total."
+      },
+      {
+        "numero": 48,
+        "titulo": "Epidemiología, historia natural, anatomía patológica, diagnóstico de extensión, factores de pronóstico, tratamiento, control local, seguimiento, supervivencia, toxicidad y complicaciones del cáncer de piel no melanoma y de los melanomas."
+      },
+      {
+        "numero": 49,
+        "titulo": "Epidemiología, historia natural, anatomía patológica, diagnóstico de extensión, factores de pronóstico, tratamiento, control local, seguimiento, supervivencia, toxicidad y complicaciones de los tumores de células germinales."
+      },
+      {
+        "numero": 50,
+        "titulo": "Epidemiología, historia natural, anatomía patológica, diagnóstico de extensión, factores de pronóstico, tratamiento, control local, seguimiento, supervivencia, toxicidad y complicaciones de los sarcomas óseos y de partes blandas."
+      },
+      {
+        "numero": 51,
+        "titulo": "Epidemiología, historia natural, anatomía patológica, diagnóstico de xtensión, factores de pronóstico, tratamiento, control local, seguimiento, supervivencia, toxicidad y complicaciones de los tumores pediátricos."
+      },
+      {
+        "numero": 52,
+        "titulo": "Epidemiología, historia natural, anatomía patológica, diagnóstico de extensión, factores de pronóstico, tratamiento, control local, seguimiento, supervivencia, toxicidad y complicaciones de los tumores de origen desconocido. Cáncer en geriatría."
+      },
+      {
+        "numero": 53,
+        "titulo": "Radioterapia en procesos benignos."
+      },
+      {
+        "numero": 54,
+        "titulo": "Medicina paliativa y enfermedad terminal: Desarrollo y evolución histórica. Situación actual. Calidad de vida de los pacientes oncológicos. Organización de los cuidados: Asistencia hospitalaria. Asistencia domiciliaria. Coordinación entre niveles asistenciales. Atención a la familia."
+      },
+      {
+        "numero": 55,
+        "titulo": "Tratamiento de pacientes de cáncer en situación terminal: Principios generales. Farmacología y vías de administración. Alimentación e hidratación."
+      },
+      {
+        "numero": 56,
+        "titulo": "Manejo del dolor en el paciente oncológico."
+      },
+      {
+        "numero": 57,
+        "titulo": "Aspectos psicosociales de la enfermedad neoplásica: Impacto de la enfermedad. Información al enfermo con cáncer. Apoyo psicológico. Asistencia social, ayuda domiciliaria y voluntariado. Reintegración laboral."
+      },
+      {
+        "numero": 58,
+        "titulo": "Programas multidisciplinares: Intrahospitalarios. Extrahospitalarios. Organización institucional: Comités de tumores. Unidades asistenciales especializadas. Grupos cooperativos multiinstitucionales: Nacionales. Internacionales."
+      },
+      {
+        "numero": 59,
+        "titulo": "Ensayos clínicos en oncología radioterápica: Ensayos tipo I, II, III, IV: objetivos y metodología. Legislación básica. Aspectos médico-legales. Aspectos institucionales: Ética y deontología. Comités deontológicos. Comités éticos de investigación clínica."
+      },
+      {
+        "numero": 60,
+        "titulo": "Formación en Bioética. Consideraciones generales. Ética de la distribución de recursos en oncología radioterápica. Listas de espera en pacientes para tratamiento radioterápico. Métodos de eliminación de las desigualdades terapéuticas."
+      }
+    ]
+  }
+]

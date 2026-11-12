@@ -1,0 +1,212 @@
+[
+  {
+    "bloque": "Materia común",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "La Constitución Española de 1978: Principios fundamentales. Derechos y deberes fundamentales de los ciudadanos. La protección a la salud en la Constitución. La Corona. Las Cortes Generales. El Gobierno de la Nación. El Poder Judicial."
+      },
+      {
+        "numero": 2,
+        "titulo": "El Estatuto de Autonomía de Aragón. Principios informadores. Estructura y contenido. La organización institucional de la Comunidad Autónoma. Las Cortes y el Justicia de Aragón. Las competencias de la Comunidad de Aragón con especial referencia a las relativas a sanidad."
+      },
+      {
+        "numero": 3,
+        "titulo": "Población, geografía y territorio en Aragón. Desequilibrios demográficos en Aragón. Magnitudes más relevantes de la economía aragonesa. Evolución reciente de la actividad económica en Aragón."
+      },
+      {
+        "numero": 4,
+        "titulo": "La igualdad de oportunidades entre mujeres y hombres en Aragón: Disposiciones generales. Prevención y Protección Integral a las Mujeres Víctimas de Violencia en Aragón: Disposiciones Generales. La identidad y expresión de género e igualdad social y no discriminación en la Comunidad Autónoma de Aragón. La diversidad cultural y lucha contra la discriminación: Principios y objetivos del Plan Integral para la Gestión de la Diversidad vigente en Aragón."
+      },
+      {
+        "numero": 5,
+        "titulo": "Estructura y competencias del Departamento de Sanidad. Estructura y competencias del Servicio Aragonés de Salud. Decreto Legislativo 2/2004, de 30 de diciembre, Texto Refundido de la Ley del Servicio Aragonés de Salud. Estructura y funcionamiento de las áreas y sectores del Sistema de Salud de Aragón."
+      },
+      {
+        "numero": 6,
+        "titulo": "La Ley 14/1986, de 25 de abril, General de Sanidad: El Sistema Nacional de Salud y los servicios de salud de las comunidades autónomas. El Área de Salud. La Ley 6/2002, de 15 de abril, de Salud de Aragón. Principios generales. Derechos y deberes de los ciudadanos. Derechos de información sobre la salud y autonomía del paciente."
+      },
+      {
+        "numero": 7,
+        "titulo": "El Procedimiento Administrativo Común de las Administraciones Públicas: Disposiciones Generales. Cómputo de plazos. Objeto y plazos de los recursos administrativos. El Régimen Jurídico del Sector Público: Disposiciones generales, principios de actuación y funcionamiento del sector público. El régimen jurídico de la protección de datos de carácter personal: Objeto y ámbito de aplicación. Principios de la protección datos. Derechos de las personas. Ejercicio de los derechos."
+      },
+      {
+        "numero": 8,
+        "titulo": "Personal estatutario de los servicios de salud (I). Clasificación del Personal Estatutario. Derechos y Deberes. Adquisición y pérdida de la condición de personal estatutario. Provisión de plazas, selección y promoción interna. Movilidad del personal."
+      },
+      {
+        "numero": 9,
+        "titulo": "Personal estatutario de los servicios de salud (II): Retribuciones. Jornada de trabajo, permisos y licencias. Situaciones del personal estatutario. Régimen disciplinario. Régimen de Incompatibilidades: Principios generales. Ámbito de aplicación."
+      },
+      {
+        "numero": 10,
+        "titulo": "Ley de Prevención de Riesgos Laborales: Conceptos básicos. Derechos y obligaciones en materia de seguridad en el trabajo. Organización de la prevención de riesgos laborales en la Comunidad Autónoma de Aragón. Distribución de funciones y responsabilidades en materia de prevención de riesgos laborales entre los diferentes órganos del Servicio Aragonés de Salud"
+      }
+    ]
+  },
+  {
+    "bloque": "Materia específica",
+    "temas": [
+      {
+        "numero": 11,
+        "titulo": "Riesgos derivados del manejo de sustancias químicas y aparataje en el laboratorio clínico. Enfermedades profesionales. Asepsia y esterilización. Manejo de materiales estériles. Conceptos: sepsis, asepsia, esterilización y desinfección."
+      },
+      {
+        "numero": 12,
+        "titulo": "Calidad y seguridad del paciente: conceptos generales de calidad, aplicación de sistemas de gestión de la calidad en el laboratorio clínico. Normas de calidad en el laboratorio: acreditación y certificación. Fuentes de error en el laboratorio clínico."
+      },
+      {
+        "numero": 13,
+        "titulo": "Responsabilidad civil y aspectos éticos del trabajo del Técnico Especialista en Laboratorio. Confidencialidad de la información. Protección de datos de carácter personal y aplicaciones informáticas en los laboratorios clínicos."
+      },
+      {
+        "numero": 14,
+        "titulo": "Gestión de los residuos sanitarios generados en el laboratorio clínico: clasificación, transporte, eliminación y tratamiento. Normativa vigente."
+      },
+      {
+        "numero": 15,
+        "titulo": "Epidemiología de las enfermedades transmisibles. Infección nosocomial: barreras higiénicas. Consecuencia de las infecciones nosocomiales."
+      },
+      {
+        "numero": 16,
+        "titulo": "Recogida de muestras en el laboratorio de microbiología: sangre, líquidos corporales estériles, tejidos, etc. Muestras corporales obtenidas mediante procedimientos invasivos o quirúrgicos: líquido cefalorraquídeo, pleural, ascítico, sinovial, muestras del tracto respiratorio inferior, exudados del tracto respiratorio superior, etc: Características generales y prevención de errores en la manipulación."
+      },
+      {
+        "numero": 17,
+        "titulo": "Manejo de los líquidos biológicos en el laboratorio de bioquímica: características y determinaciones a realizar. Aplicaciones."
+      },
+      {
+        "numero": 18,
+        "titulo": "Conceptos generales de las enfermedades reumáticas."
+      },
+      {
+        "numero": 19,
+        "titulo": "Conceptos generales sobre lípidos y su clasificación."
+      },
+      {
+        "numero": 20,
+        "titulo": "La función hepática: determinaciones y técnicas aplicadas para su valoración."
+      },
+      {
+        "numero": 21,
+        "titulo": "Marcadores tumorales y aplicaciones clínicas."
+      },
+      {
+        "numero": 22,
+        "titulo": "Marcadores cardiacos y aplicaciones clínicas."
+      },
+      {
+        "numero": 23,
+        "titulo": "Marcadores de enfermedad endocrina y aplicaciones clínicas."
+      },
+      {
+        "numero": 24,
+        "titulo": "Hormonas tiroideas: conceptos generales, técnicas para su determinación y aplicaciones clínicas."
+      },
+      {
+        "numero": 25,
+        "titulo": "Examen físico-químico de las heces."
+      },
+      {
+        "numero": 26,
+        "titulo": "Técnicas de estudio de muestras de orina."
+      },
+      {
+        "numero": 27,
+        "titulo": "Parámetros de laboratorio en la valoración de la infertilidad masculina y femenina."
+      },
+      {
+        "numero": 28,
+        "titulo": "Clasificación de las proteínas: características. Determinación de enzimas."
+      },
+      {
+        "numero": 29,
+        "titulo": "Screening neonatal. Detección de errores innatos del metabolismo y otras enfermedades."
+      },
+      {
+        "numero": 30,
+        "titulo": "Tipos de medios de cultivo: clasificación según consistencia, origen, composición y utilidad."
+      },
+      {
+        "numero": 31,
+        "titulo": "Gérmenes del tracto respiratorio: clasificación, significado clínico, determinación de la sensibilidad y tratamiento."
+      },
+      {
+        "numero": 32,
+        "titulo": "Gérmenes del tracto genitourinario: tinciones diferenciales (material y técnica)."
+      },
+      {
+        "numero": 33,
+        "titulo": "Hemocultivos, incubación y sistemas automáticos. Mycobacterias y hongos: clasificación y medios de cultivo adecuados para su aislamiento e identificación."
+      },
+      {
+        "numero": 34,
+        "titulo": "Técnicas de separación de moléculas: centrifugación, electroforesis y técnicas relacionadas: cromatográficas."
+      },
+      {
+        "numero": 35,
+        "titulo": "Técnicas de medida de analitos: basadas en la detección de radiación electromagnética, electroquímicas, y otras técnicas (osmometría, inmunoanálisis…)."
+      },
+      {
+        "numero": 36,
+        "titulo": "Conceptos básicos de genética: el ciclo vital de una célula somática: mitosis, meiosis, gametogénesis humana; estructura y función de los cromosomas y de los genes; bases cromosómicas de la herencia; patrones de herencia; alteraciones numéricas y estructurales de los cromosomas. Principales trastornos genéticos: clasificación."
+      },
+      {
+        "numero": 37,
+        "titulo": "Técnicas de análisis cromosómico: obtención de extensiones cromosómicas, métodos de tinción y bandeado cromosómico, nomenclatura citogenética. Tipos de cultivos celulares en citogenética, técnicas de obtención, manteniendo y propagación de cultivos. Diagnóstico prenatal."
+      },
+      {
+        "numero": 38,
+        "titulo": "Métodos de diagnóstico genético molecular: técnicas de extracción de ácidos nucleicos, técnicas de PCR y electroforesis para el estudio de los ácidos nucleicos, técnicas de transferencia e hibridación de ácidos nucleicos, secuenciación de ADN…etc."
+      },
+      {
+        "numero": 39,
+        "titulo": "Estudio básico de autoinmunidad: técnicas basadas en reacciones antígeno anticuerpo primarias y secundarias, detección de autoanticuerpos. Determinaciones."
+      },
+      {
+        "numero": 40,
+        "titulo": "Biología celular. Citometría de flujo: principios, componentes y aplicaciones en el laboratorio clínico."
+      },
+      {
+        "numero": 41,
+        "titulo": "Técnicas básicas de biología celular."
+      },
+      {
+        "numero": 42,
+        "titulo": "Laboratorio de Urgencias: parámetros habituales, metodologías, y control analítico. Aplicación clínica. Automatización y robotización."
+      },
+      {
+        "numero": 43,
+        "titulo": "El equilibrio ácido-base: Gasometría arterial y venosa."
+      },
+      {
+        "numero": 44,
+        "titulo": "Hemostasia y Coagulación. Coagulación: técnicas, estudio y alteraciones, dímeros."
+      },
+      {
+        "numero": 45,
+        "titulo": "Banco de sangre: grupos sanguíneos. Técnicas e interpretación. Test de Coombs."
+      },
+      {
+        "numero": 46,
+        "titulo": "Sistemas de conservación, estabilidad y aditivos a añadir a cada uno de los componentes sanguíneos obtenidos por fraccionamiento de una unidad."
+      },
+      {
+        "numero": 47,
+        "titulo": "Fisiopatología del hemograma."
+      },
+      {
+        "numero": 48,
+        "titulo": "Controles de calidad de las muestras, de instalaciones y de los equipos: control de calidad interno y externo."
+      },
+      {
+        "numero": 49,
+        "titulo": "Bases estadísticas de la calidad analítica: media, mediana, moda, desviación estándar, precisión, exactitud, veracidad, la distribución normal, validez y fiabilidad de los instrumentos de medida, sensibilidad y especificidad. Curvas de rendimiento diagnóstico. Valores de referencia, estadística en el laboratorio."
+      },
+      {
+        "numero": 50,
+        "titulo": "Metodología de la investigación: técnicas cualitativas y cuantitativas. Fuentes de datos. Estudios descriptivos y analíticos del laboratorio. El papel del Técnico Especialista."
+      }
+    ]
+  }
+]

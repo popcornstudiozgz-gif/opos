@@ -1,0 +1,264 @@
+[
+  {
+    "bloque": "Materia común",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "La Constitución española de 1978: estructura y contenido. Principios que la informan. Los derechos fundamentales y sus garantías. La protección a la salud en la Constitución. La Corona. Las Cortes Generales. El Gobierno de la Nación. El Poder Judicial."
+      },
+      {
+        "numero": 2,
+        "titulo": "El Estatuto de Autonomía de Aragón. Naturaleza y contenido. La organización institucional de la Comunidad Autónoma. Las Cortes de Aragón y el Justicia de Aragón. Las competencias de la Comunidad de Aragón con especial referencia a las relativas a sanidad. Los órganos de gobierno y administración de la Comunidad Autónoma de Aragón. Estructura administrativa."
+      },
+      {
+        "numero": 3,
+        "titulo": "Población, geografía y territorio en Aragón. Desequilibrios demográficos en Aragón. Magnitudes más relevantes de la economía aragonesa. Evolución reciente de la actividad económica en Aragón."
+      },
+      {
+        "numero": 4,
+        "titulo": "La igualdad de oportunidades entre mujeres y hombres en Aragón: Disposiciones generales. Prevención y Protección Integral a las Mujeres Víctimas de Violencia en Aragón: Disposiciones Generales. La identidad y expresión de género e igualdad social y no discriminación en la Comunidad Autónoma de Aragón: Disposiciones Generales. La diversidad cultural y lucha contra la discriminación: Principios y objetivos del Plan Integral para la Gestión de la Diversidad vigente en Aragón."
+      },
+      {
+        "numero": 5,
+        "titulo": "Los órganos de gobierno y administración de la Comunidad Autónoma de Aragón. Estructura y competencias del Departamento de Sanidad. Estructura y competencias del Servicio Aragonés de Salud. El Texto Refundido de la Ley del Servicio Aragonés de Salud. Estructura y funcionamiento de las áreas y sectores del Sistema de Salud de Aragón."
+      },
+      {
+        "numero": 6,
+        "titulo": "La Ley General de Sanidad. El derecho a la protección de la salud. Principios generales del Sistema Nacional de Salud. Organización general del sistema sanitario público. Los Servicios de Salud de las Comunidades Autónomas. La Ley de Salud de Aragón. Principios rectores. Derechos, deberes y garantías de los ciudadanos."
+      },
+      {
+        "numero": 7,
+        "titulo": "La Ley de Cohesión y Calidad del Sistema Nacional de Salud. Principios generales, estructura y contenidos. Las prestaciones del Sistema Nacional de Salud. Sistema de información sanitaria El Consejo Interterritorial."
+      },
+      {
+        "numero": 8,
+        "titulo": "Ley del Procedimiento Administrativo Común de las Administraciones Públicas: Ámbito de aplicación y principios generales. Fases del procedimiento. Computo de plazos. Objeto y plazos de los recursos administrativos. Ley de Régimen Jurídico del Sector Público: Disposiciones Generales."
+      },
+      {
+        "numero": 9,
+        "titulo": "El Estatuto Básico del Empleado Público. Clases de personal. Principios definidores del personal funcionario, estatutario y laboral. Derechos y deberes del empleado público. Representación, participación y negociación colectiva."
+      },
+      {
+        "numero": 10,
+        "titulo": "El Estatuto Marco del Personal Estatutario de los Servicios de Salud (I). Clasificación del personal estatutario. Derechos y deberes. Adquisición y pérdida de la condición de personal estatutario. Provisión de plazas, selección y promoción interna. Movilidad del personal."
+      },
+      {
+        "numero": 11,
+        "titulo": "El Estatuto Marco del Personal Estatutario de los Servicios de Salud (II). Retribuciones. Jornada de trabajo, permisos y licencias. Situaciones del personal estatutario. Régimen disciplinario. Legislación en materia de incompatibilidades."
+      },
+      {
+        "numero": 12,
+        "titulo": "La Ley de Ordenación de las Profesiones Sanitarias. Objeto y ámbito de aplicación. Profesiones sanitarias tituladas y profesionales del área sanitaria de formación profesional. El ejercicio de las profesiones sanitarias. Formación Especializada en Ciencias de la Salud."
+      },
+      {
+        "numero": 13,
+        "titulo": "El régimen jurídico de la protección de datos de carácter personal: Disposiciones generales. Derechos de las personas."
+      },
+      {
+        "numero": 14,
+        "titulo": "La Ley básica reguladora de la autonomía del paciente y de derechos y obligaciones en materia de información y documentación clínica: Principios generales. Derecho de información sanitaria. Derecho a la intimidad. Respeto a la autonomía del paciente. Consentimiento informado e instrucciones previas. La historia clínica."
+      }
+    ]
+  },
+  {
+    "bloque": "Materia específica",
+    "temas": [
+      {
+        "numero": 15,
+        "titulo": "El marco jurídico de la prevención de riesgos laborales en España. Antecedentes y normativa vigente. La Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos Laborales. Estructura, objeto y carácter de la norma. Ámbito de aplicación. Reglamento por el que se regula el Sistema de Prevención de Riesgos Laborales y Promoción de la Salud del personal de la Administración de la Comunidad Autónoma de Aragón."
+      },
+      {
+        "numero": 16,
+        "titulo": "Actuaciones de las Administraciones Públicas competentes en materia laboral. La distribución de competencias y coordinación de actuaciones en materia de seguridad y salud en el trabajo entre la Administración General del Trabajo y las Comunidades Autónomas. Funciones y actuaciones de la Inspección de Trabajo y Seguridad Social en esta materia. El Instituto Nacional de Seguridad y Salud en el Trabajo. La red española de Seguridad y Salud en el Trabajo. La Comisión Nacional de Seguridad y Salud en el Trabajo. La Fundación para la Prevención de Riesgos Laborales."
+      },
+      {
+        "numero": 17,
+        "titulo": "Competencias de la Comunidad Autónoma de Aragón en materia de seguridad y salud laboral. La Administración de la Comunidad Autónoma de Aragón como autoridad laboral. La Dirección General de Trabajo. El Instituto Aragonés de Seguridad y Salud Laboral de Aragón. El Consejo Aragonés de Seguridad y Salud Laboral. Responsabilidades y sanciones en materia de prevención de riesgos laborales."
+      },
+      {
+        "numero": 18,
+        "titulo": "Conceptos básicos relativos a la seguridad y salud en el trabajo. Concepto de riesgo laboral. Protección y prevención. Condiciones de trabajo en relación con la salud. Accidentes de trabajo y enfermedades profesionales: concepto. Notificación, registro, clasificación y cuantificación. Investigación como técnica preventiva. Aplicación en la organización de la Administración de la Comunidad Autónoma de Aragón."
+      },
+      {
+        "numero": 19,
+        "titulo": "El Reglamento de los Servicios de Prevención: la integración de prevención en la empresa. El plan de prevención de riesgos laborales. La evaluación de riesgos y la planificación preventiva. La organización de la actividad preventiva en la empresa: modalidades, requisitos y funciones. La figura del recurso preventivo."
+      },
+      {
+        "numero": 20,
+        "titulo": "Los Servicios de Prevención: regulación legal y reglamentaria. La acreditación de entidades especializadas como servicios de prevención ajenos a las empresas. Características y funciones de un servicio de prevención. Especialidades preventivas de Seguridad en el Trabajo, Higiene Industrial, Ergonomía y Psicosociología Aplicada y Medicina del Trabajo."
+      },
+      {
+        "numero": 21,
+        "titulo": "Consulta y participación de las personas trabajadoras: El deber de consulta del empresario. Los derechos de participación y representación. Los Delegados de Prevención: su designación, garantías, competencias y facultades. El Comité de Seguridad y Salud: competencias y facultades."
+      },
+      {
+        "numero": 22,
+        "titulo": "El concepto de salud y prevención. Conceptos y objetivos de la Medicina del Trabajo. Patologías de origen laboral. La vigilancia de la salud. Protocolos de vigilancia sanitaria específica. Protección de trabajadores especialmente sensibles a determinados riesgos. Normativa aplicable."
+      },
+      {
+        "numero": 23,
+        "titulo": "Protección de la maternidad: Riesgos laborales específicos para la mujer trabajadora durante el embarazo, posparto y lactancia. Medidas para promover la mejora de la seguridad y salud en el trabajo de la mujer embarazada, que haya dado a luz o en período de lactancia. Medidas preventivas frente a los riesgos específicos. Normativa aplicable."
+      },
+      {
+        "numero": 24,
+        "titulo": "Coordinación de actividades empresariales en relación con la prevención de riesgos laborales. Concurrencia de actividades y medios de coordinación. Normativa aplicable."
+      },
+      {
+        "numero": 25,
+        "titulo": "Equipos de protección individual (EPI). Concepto. Características. Tipos. Criterios para la elección, utilización y mantenimiento de los EPI. Obligaciones del empresario y de los trabajadores. Análisis previo a la implantación de los equipos de protección individual. Protección colectiva. Concepto de protección colectiva, criterios de elección. Normativa aplicable a los equipos de protección individual y colectiva."
+      },
+      {
+        "numero": 26,
+        "titulo": "Riesgos en los lugares de trabajo. Normativa sobre disposiciones mínimas de seguridad y salud en los lugares de trabajo. Normativa aplicable."
+      },
+      {
+        "numero": 27,
+        "titulo": "Señalización de seguridad y salud en el trabajo. Concepto y definiciones. Criterios para la utilización adecuada de la señalización de seguridad. Tipos de señales. Normativa aplicable."
+      },
+      {
+        "numero": 28,
+        "titulo": "El riesgo de incendio. Clasificación del fuego en función de la naturaleza del combustible Medidas de prevención y protección frente a riesgo de incendio. Sistemas de detección y alarma. Medios de lucha contra incendios. Iluminación de señalización y emergencia. Planes de emergencia y evacuación. Norma Básica de Autoprotección de los centros, establecimientos y dependencias dedicados a actividades que puedan dar origen a situaciones de emergencia."
+      },
+      {
+        "numero": 29,
+        "titulo": "Disposiciones mínimas de seguridad y salud para la utilización por los trabajadores de los equipos de trabajo. Análisis y evaluación de los riesgos. Procedimiento de adecuación y puesta en conformidad. Normativa aplicable."
+      },
+      {
+        "numero": 30,
+        "titulo": "Riesgos eléctricos. Concepto. Lesiones producidas por la electricidad. Factores que influyen en el riesgo eléctrico. Tipos de contactos eléctricos. Protección frente a contactos eléctricos directos e indirectos. Actuación en caso de accidente eléctrico. Normativa sobre disposiciones mínimas para la protección de la salud y seguridad de los trabajadores frente a riesgo eléctrico."
+      },
+      {
+        "numero": 31,
+        "titulo": "Riesgos para la seguridad de los trabajadores y medidas preventivas aplicables en actividades específicas: Trabajos en recintos confinados, atmosferas explosivas, soldadura eléctrica y oxiacetilénica y trabajos en altura. Presencia del recurso preventivo."
+      },
+      {
+        "numero": 32,
+        "titulo": "Reglamento de equipos a presión y sus instrucciones técnicas complementarias: disposiciones generales. Instalación y puesta en servicio. Inspecciones periódicas, reparaciones y modificaciones. Normativa por la que se establecen los requisitos esenciales de seguridad para la comercialización de los equipos y recipientes a presión."
+      },
+      {
+        "numero": 33,
+        "titulo": "Trabajos en altura: riesgos y medidas preventivas. Disposiciones de seguridad sobre la utilización de equipos de trabajo para realizar trabajos temporales en altura."
+      },
+      {
+        "numero": 34,
+        "titulo": "Higiene Industrial. Conceptos generales y definición. Toxicología laboral: clasificación y efectos sobre la salud y vías de entrada al organismo de los agentes químicos. Mecanismos de toxicidad. Relación dosis-efecto y dosisrespuesta. Sustancias y mezclas químicas. Clases y categorías de peligros. Clasificación y etiquetado de agentes químicos. Fichas de datos de seguridad. Almacenaje y manipulación. Metodología para la evaluación y control del riesgo higiénico. Normativa aplicable."
+      },
+      {
+        "numero": 35,
+        "titulo": "Agentes químicos. Concepto. Límites de exposición profesional. Valores límites ambientales y valores límites biológicos. Índices de exposición."
+      },
+      {
+        "numero": 36,
+        "titulo": "Medición de contaminantes. Instrumentos de lectura directa. Sistemas activos de toma de muestras. Sistemas pasivos de toma muestras. Estrategia de muestreo. Condicionantes de la toma de muestras. Criterios para la elección de los equipos de medida."
+      },
+      {
+        "numero": 37,
+        "titulo": "Agentes cancerígenos y mutágenos. Evaluación de la exposición a agentes cancerígenos y mutágenos. Normativa sobre la protección de los trabajadores contra los riesgos relacionados con la exposición a agentes cancerígenos o mutágenos durante el trabajo. Medicamentos Peligrosos. Metodología de evaluación y control del riesgo. Medidas preventivas a adoptar."
+      },
+      {
+        "numero": 38,
+        "titulo": "Riesgos higiénicos en los centros sanitarios derivados de la exposición a agentes químicos: Desinfectantes y esterilizantes, formaldehido, xileno, gases anestésicos, humos quirúrgicos, etc. Evaluación de los riesgos. Medidas de prevención generales y específicas."
+      },
+      {
+        "numero": 39,
+        "titulo": "Organización del trabajo en laboratorios. Hábitos personales de trabajo y buenas prácticas en el laboratorio. Recomendaciones preventivas generales. Elementos de actuación y protección para el control de incidentes y emergencias en un laboratorio. Características, instalación, ubicación, mantenimiento, señalización, formación e información."
+      },
+      {
+        "numero": 40,
+        "titulo": "Control de la exposición a agentes químicos. Medidas preventivas. Métodos generales de control: acciones técnicas y organizativas. Priorización del control de riesgos. Técnicas de ventilación para el control de los agentes químicos: extracción localizada y ventilación por dilución. Vigilancia específica de la salud. Medidas a adoptar frente a accidentes, incidentes y emergencias. Información y formación de los trabajadores con relación a los riesgos por agentes químicos."
+      },
+      {
+        "numero": 41,
+        "titulo": "Ruido. Efectos del ruido en la salud de los trabajadores. Normativa sobre la protección de la salud y la seguridad de los trabajadores contra los riesgos relacionados con la exposición al ruido. Conceptos básicos. Valores límites de exposición. Evaluación de riesgos. Equipos de medición y procedimiento. Medidas de prevención y protección. Vigilancia de la salud."
+      },
+      {
+        "numero": 42,
+        "titulo": "Vibraciones. Efectos de las vibraciones en la salud de los trabajadores. Normativa sobre la protección de la salud y la seguridad de los trabajadores frente a los riesgos derivados o que puedan derivarse de la exposición a vibraciones mecánicas. Conceptos básicos. Valores límites de exposición. Evaluación de riesgos. Equipos de medición y procedimiento. Medidas de prevención y protección. Vigilancia de la salud."
+      },
+      {
+        "numero": 43,
+        "titulo": "Radiaciones no ionizantes. Concepto de radiación, radiaciones ultravioletas, radiación infrarroja, radiación luminosa o luz visible, microondas y radiofrecuencias, radiaciones láser, los campos electromagnéticos de frecuencia extremadamente baja. Efectos sobre el organismo humano. Riesgos y medidas preventivas. Normativa aplicable."
+      },
+      {
+        "numero": 44,
+        "titulo": "Radiaciones ópticas. Disposiciones encaminadas a evitar o a reducir la exposición. Evaluación de riesgo. Normativa de aplicación. Protección de la salud y seguridad de los trabajadores contra los riesgos relacionados con la exposición a campos electromagnéticos. Normativa aplicable."
+      },
+      {
+        "numero": 45,
+        "titulo": "Radiaciones ionizantes. Conceptos y clasificación de las radiaciones ionizantes, Interacción con el organismo, efectos biológicos. Riesgos de la exposición a radiaciones ionizantes y medidas preventivas. Normativa aplicable."
+      },
+      {
+        "numero": 46,
+        "titulo": "Agentes biológicos: características de los agentes biológicos y clasificación. Efectos para la salud. Medición de agentes biológicos. Identificación y evaluación de los riesgos. Metodología de evaluación y control de riesgo. Prevención y control de las exposiciones. Protección de los trabajadores frente a riesgos relacionados con la exposición a agentes biológicos durante el trabajo. Normativa aplicable."
+      },
+      {
+        "numero": 47,
+        "titulo": "Bioseguridad: Prevención en el uso de los instrumentos cortantes y punzantes en las instituciones sanitarias, dispositivos de bioseguridad. Orden ESS/1451/2013, de 29 de julio, por la que se establecen disposiciones para la prevención de lesiones causadas por instrumentos cortantes y punzantes en el sector sanitario y hospitalario."
+      },
+      {
+        "numero": 48,
+        "titulo": "Trabajo con muestras biológicas en el laboratorio. Ventilación general y localizada. Cabinas de seguridad biológica. Desinfección y descontaminación. Manipulación y transporte de muestras biológicas."
+      },
+      {
+        "numero": 49,
+        "titulo": "Residuos sanitarios. Clasificación de los residuos. Gestión de los residuos generados en el ámbito sanitario. Normativa aplicable."
+      },
+      {
+        "numero": 50,
+        "titulo": "Ambiente térmico: concepto, efectos sobre el organismo. Balance térmico. Métodos de evaluación: índice WBGT. Control de las exposiciones. Normativa aplicable."
+      },
+      {
+        "numero": 51,
+        "titulo": "La Ergonomía: definición, objetivos y conceptos generales. Bases antropométricas dinámicas y estáticas. Biomecánica laboral. Métodos ergonómicos de evaluación. Concepto del puesto de trabajo. Estudio y evaluación de puestos de trabajo. Diseño del puesto de trabajo. Aspectos a considerar desde el punto de vista ergonómico."
+      },
+      {
+        "numero": 52,
+        "titulo": "Calidad del ambiente interior: factores influyentes: contaminantes químicos, físicos y biológicos. Efectos sobre la salud. Medidas de prevención."
+      },
+      {
+        "numero": 53,
+        "titulo": "Condiciones mínimas de seguridad y salud relativas a trabajos que incluyen pantallas de visualización de datos. Normativa aplicable."
+      },
+      {
+        "numero": 54,
+        "titulo": "Condiciones mínimas de seguridad y salud en la manipulación de cargas que entrañe riesgos, en particular dorsolumbares, para las personas trabajadoras. Obligaciones del empresario. Evaluación de riesgos y medidas preventivas. Normativa aplicable. Movilización de pacientes. Metodología de evaluación."
+      },
+      {
+        "numero": 55,
+        "titulo": "La carga física de trabajo. Conceptos básicos. Evaluación. La fatiga muscular y su prevención. Los movimientos repetitivos, patologías asociadas. Posturas de trabajo: conceptos básicos. Evaluación. Patologías asociadas. Prevención. Gasto energético. Consideraciones generales. Métodos de determinación. El trabajo físico. Clasificación. La capacidad de trabajo físico. Métodos generales de evaluación de los riesgos y medidas preventivas. Normativa aplicable."
+      },
+      {
+        "numero": 56,
+        "titulo": "Factores psicosociales. Definición. Contenido y significado del trabajo. Autonomía, conflicto y ambigüedad de rol. Relaciones personales y extralaborales. Participación en el trabajo. Técnicas de investigación en ergonomía y psicosociología. La encuesta y la escala de actitudes."
+      },
+      {
+        "numero": 57,
+        "titulo": "Evaluación de los factores de riesgo psicosociales: etapas y técnicas de evaluación. La intervención psicosocial. Identificación y evaluación de riesgos psicosociales."
+      },
+      {
+        "numero": 58,
+        "titulo": "La carga mental del trabajo. Factores determinantes y características de la carga mental. Efectos derivados de la exposición al riesgo y su prevención. Métodos de evaluación"
+      },
+      {
+        "numero": 59,
+        "titulo": "La organización del tiempo de trabajo. Objetivos. Ritmos biológicos del organismo humano. Diferentes horarios laborales y su organización. El trabajo en turnos y el trabajo nocturno: tipo de organizaciones y estilos de mando. Trabajo en equipo. Trabajo colaborativo."
+      },
+      {
+        "numero": 60,
+        "titulo": "El estrés. Concepto. Modelos de generación de estrés. Fisiología del estrés. Agentes estresores. Síndrome de burnout o de estar quemado por el trabajo. Definición y delimitación conceptual. Instrumentos de medida: Referencia explícita del MBI (Maslach Burnout Inventory). Consecuencias personales y para la organización. Estrategias de prevención y afrontamiento."
+      },
+      {
+        "numero": 61,
+        "titulo": "El acoso psicológico en el trabajo. Conceptos generales, características y fase de desarrollo. Tipos de acoso. Consecuencias sobre el trabajador y sobre la organización. Métodos de evaluación. Prevención e intervención. Normativa aplicable."
+      },
+      {
+        "numero": 62,
+        "titulo": "Violencia externa en el lugar de trabajo. Prevención de las agresiones en el ámbito sanitario. Plan de Prevención frente a agresiones externas en el lugar de trabajo y atención a profesionales del sistema sanitario público de la Comunidad Autónoma de Aragón. Normativa aplicable."
+      },
+      {
+        "numero": 63,
+        "titulo": "Promoción de la salud en las organizaciones. Empresa saludable. Modelos para la certificación. Red Europea de la Promoción de Seguridad y la Salud en el Trabajo."
+      }
+    ]
+  }
+]

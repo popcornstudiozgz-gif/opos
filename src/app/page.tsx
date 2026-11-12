@@ -10,6 +10,7 @@ import { getConvocatoriasAbiertas } from "@/data/convocatorias";
 import { getArticulosPublicados } from "@/lib/blog";
 import { ArticuloCard } from "@/components/blog/ArticuloCard";
 import { SITE, crearMetadata } from "@/lib/site";
+import { agruparOposiciones } from "@/lib/grupos";
 import type { Oposicion } from "@/lib/types";
 
 /**
@@ -165,7 +166,14 @@ export default async function Home() {
   }
   const bloquesOrganismo = [...organismos.entries()]
     .map(([organismoSlug, { nombre, oposiciones: lista }]) => ({ organismoSlug, nombre, oposiciones: lista }))
-    .sort((a, b) => b.oposiciones.length - a.oposiciones.length);
+    // Primero los organismos con más oposiciones con material de estudio; las
+    // "solo ficha" solo desempatan (si no, el SALUD, con 89 fichas, iría delante
+    // del Ayuntamiento, que es el núcleo del sitio).
+    .sort(
+      (a, b) =>
+        b.oposiciones.filter((o) => !o.soloFicha).length - a.oposiciones.filter((o) => !o.soloFicha).length ||
+        b.oposiciones.length - a.oposiciones.length
+    );
 
   return (
     <>
@@ -262,8 +270,9 @@ export default async function Home() {
 
           <div className="mt-10 space-y-12">
             {bloquesOrganismo.map(({ organismoSlug, nombre, oposiciones: lista }) => {
-              const administracion = lista.filter((o) => !o.puestoSlug.startsWith("oficial-"));
-              const oficios = lista.filter((o) => o.puestoSlug.startsWith("oficial-"));
+              const grupos = agruparOposiciones(organismoSlug, lista);
+              const administracion = grupos ? [] : lista.filter((o) => !o.puestoSlug.startsWith("oficial-"));
+              const oficios = grupos ? [] : lista.filter((o) => o.puestoSlug.startsWith("oficial-"));
               return (
                 <div key={organismoSlug}>
                   <div className="flex flex-wrap items-end justify-between gap-3">
@@ -275,6 +284,17 @@ export default async function Home() {
                   <p className="mt-1 text-sm text-slate-500">
                     {lista.length} {lista.length === 1 ? "oposición" : "oposiciones"} disponibles
                   </p>
+
+                  {grupos?.map((grupo) => (
+                    <div key={grupo.titulo} className="mt-6">
+                      <p className="text-xs font-semibold tracking-wide text-brand-500 uppercase">{grupo.titulo}</p>
+                      <div className="mt-3 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+                        {grupo.oposiciones.map((oposicion) => (
+                          <EnlaceOposicion key={oposicion.slug} oposicion={oposicion} />
+                        ))}
+                      </div>
+                    </div>
+                  ))}
 
                   {administracion.length > 0 && (
                     <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
@@ -444,6 +464,18 @@ function OposicionCard({ oposicion, numTemas }: { oposicion: Oposicion; numTemas
         {oposicion.soloFicha ? "Ver plazas y temario →" : "Empezar a estudiar →"}
       </Button>
     </Card>
+  );
+}
+
+/** Enlace compacto para los organismos agrupados por tipo de puesto (ver `lib/grupos.ts`), sin icono. */
+function EnlaceOposicion({ oposicion }: { oposicion: Oposicion }) {
+  return (
+    <Link
+      href={`/${oposicion.organismoSlug}/${oposicion.puestoSlug}`}
+      className="flex items-center rounded-xl border border-brand-100 bg-white p-4 text-sm font-semibold text-brand-900 transition-colors hover:border-brand-300 hover:bg-brand-50"
+    >
+      {oposicion.nombre}
+    </Link>
   );
 }
 

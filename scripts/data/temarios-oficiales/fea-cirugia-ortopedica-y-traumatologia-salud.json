@@ -1,0 +1,332 @@
+[
+  {
+    "bloque": "Materia común",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "Constitución Española de 1978: la protección de la salud en la Constitución. Estatuto de Autonomía de Aragón. Competencias en salud recogidas en el Estatuto de Autonomía. Las Cortes de Aragón. El Gobierno de Aragón."
+      },
+      {
+        "numero": 2,
+        "titulo": "El texto refundido de la Ley del Estatuto Básico del Empleado Público, aprobado por el Real Decreto Legislativo 5/2015: deberes del empleado público y código de conducta. Representación, participación y negociación colectiva."
+      },
+      {
+        "numero": 3,
+        "titulo": "El régimen jurídico de la protección de datos de carácter personal: Disposiciones generales. Derechos de las personas."
+      },
+      {
+        "numero": 4,
+        "titulo": "El Procedimiento Administrativo Común de las Administraciones Públicas: Disposiciones Generales. Cómputo de plazos. Objeto y plazos de los recursos administrativos. El Régimen Jurídico del Sector Público: Disposiciones Generales."
+      },
+      {
+        "numero": 5,
+        "titulo": "Ley 14/86 General de Sanidad. Ley 6/2002 de Salud de Aragón. Principios generales, estructura, contenidos. Ley 16/2003 de cohesión y calidad del Sistema Nacional de Salud. Principios generales, estructura, contenidos."
+      },
+      {
+        "numero": 6,
+        "titulo": "Ley 44/2003 de Ordenación de las Profesiones Sanitarias. Ámbito de aplicación, contenidos. Ley 41/2002, de 14 de noviembre, básica reguladora de la autonomía del paciente y de derechos y obligaciones en materia de información y documentación clínica. Ley 9/2013, de 28 de noviembre, de Autoridad de Profesionales del Sistema Sanitario y de Servicios Sociales Públicos de Aragón."
+      },
+      {
+        "numero": 7,
+        "titulo": "Ley 55/2003 del Estatuto Marco de personal Estatutario de los Servicios de Salud (I). Principios generales, estructura, contenidos. Clasificación del personal estatutario. Derechos y deberes. Adquisición y pérdida de la condición de personal estatutario. Provisión de plazas, selección y promoción interna. Movilidad del personal."
+      },
+      {
+        "numero": 8,
+        "titulo": "Ley 55/2003 del Estatuto Marco de personal Estatutario de los Servicios de Salud (II). Retribuciones. Jornada de trabajo, permisos y licencias. Situaciones del personal estatutario. Régimen disciplinario. Modelo de Carrera Profesional en Aragón. Ley 53/1984 de 26 de diciembre, de incompatibilidades. Principios Generales. Ámbito de aplicación."
+      },
+      {
+        "numero": 9,
+        "titulo": "La igualdad de oportunidades entre mujeres y hombres en Aragón: Disposiciones generales. Prevención y Protección Integral a las Mujeres Víctimas de Violencia en Aragón: Disposiciones Generales. La identidad y expresión de género e igualdad social y no discriminación en la Comunidad Autónoma de Aragón: Disposiciones Generales. La diversidad cultural y lucha contra la discriminación: Principios y objetivos del vigente Plan Integral para la Gestión de la Diversidad de Aragón."
+      },
+      {
+        "numero": 10,
+        "titulo": "El sistema sanitario. Niveles asistenciales. Organización de los servicios sanitarios en Aragón. Estructura del Departamento de Sanidad de Aragón y del Servicio Aragonés de la Salud. Los Sectores sanitarios."
+      },
+      {
+        "numero": 11,
+        "titulo": "Metodología de la Investigación: El método científico. Diseño de un proyecto de investigación. Estadística aplicada a los estudios de Medicina."
+      },
+      {
+        "numero": 12,
+        "titulo": "El método epidemiológico. Epidemiología descriptiva: tipos de estudios, tasas e indicadores. Epidemiología analítica: tipos de estudios. Riesgo relativo, riesgo atribuible y Odds Ratio. Sesgos."
+      },
+      {
+        "numero": 13,
+        "titulo": "Estudios experimentales. Ensayos clínicos. Ética de la investigación clínica. Validez de métodos diagnósticos: sensibilidad, especificidad, valor predictivo positivo."
+      },
+      {
+        "numero": 14,
+        "titulo": "Evaluación de Tecnologías Sanitarias: Procedimientos de evaluación. Cartera de Servicios del Sistema Nacional de Salud. Procedimiento de actualización de la Cartera de Servicios del sistema de Salud de Aragón."
+      },
+      {
+        "numero": 15,
+        "titulo": "Práctica basada en la evidencia. Variabilidad en la práctica médica. Búsqueda y valoración de evidencias. Aplicación de las evidencias a la toma de decisiones clínicas. Guías clínicas. Proyecto Guía-Salud."
+      },
+      {
+        "numero": 16,
+        "titulo": "La seguridad del paciente. Gestión de riesgos. Principales problemas para la seguridad del paciente en el hospital. Estrategias para la mejora de la seguridad."
+      },
+      {
+        "numero": 17,
+        "titulo": "Uso Racional del Medicamento. Criterios de selección de medicamentos. Equivalentes terapéuticos. Indicadores de calidad de prescripción."
+      },
+      {
+        "numero": 18,
+        "titulo": "Evaluación y mejora de la calidad. Modelos de Gestión de la Calidad. Diseño de un programa de calidad."
+      },
+      {
+        "numero": 19,
+        "titulo": "Principios fundamentales de la bioética: aplicación a la asistencia sanitaria. La relación médico-paciente, el consentimiento informado. Los comités de Bioética. La ética en la investigación clínica."
+      },
+      {
+        "numero": 20,
+        "titulo": "Gobierno clínico. La implicación de los profesionales en el funcionamiento de las instituciones sanitarias."
+      }
+    ]
+  },
+  {
+    "bloque": "Materia específica",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "Anatomía funcional y quirúrgica del aparato locomotor. Estructura y fisiopatología de los tejidos del aparato locomotor."
+      },
+      {
+        "numero": 2,
+        "titulo": "Diagnóstico de las enfermedades del aparato locomotor. Historia y exploración clínica en Cirugía Ortopédica y Traumatología."
+      },
+      {
+        "numero": 3,
+        "titulo": "Terapéuticas relacionadas: Antibioticoterapia. Quimioterapia. Antiinflamatorios, antineuríticos, miorrelajantes y analgésicos. Hemoterapia, profilaxis y tratamiento de la enfermedad tromboembólica. Radioterapia. Otras terapias físicas."
+      },
+      {
+        "numero": 4,
+        "titulo": "Biomecánica y biomateriales: Propiedades biomecánicas de los tejidos, biomecánica de los huesos y las articulaciones, bases biomecánicas de los procedimientos terapéuticos. Tipos y propiedades mecánicas de los biomateriales: reacciones de los tejidos; polímeros, cerámicas, metales y compuestos. Reacciones de los tejidos."
+      },
+      {
+        "numero": 5,
+        "titulo": "Procedimientos diagnósticos y terapéuticos propios de la especialidad: Radiología, ecografía, gammagrafía, TAC, resonancia magnética y densitometría. Diagnóstico funcional: electromiografía y técnicas vasculares. La artroscopia."
+      },
+      {
+        "numero": 6,
+        "titulo": "Diagnóstico de laboratorio en Cirugía Ortopédica y Traumatología: Bioquímica. Inmunología. Técnicas de diagnóstico citológico y anatomopatológico. Biopsia."
+      },
+      {
+        "numero": 7,
+        "titulo": "Injertos biológicos. Banco de tejidos. Implantes osteoarticulares."
+      },
+      {
+        "numero": 8,
+        "titulo": "Patología traumática. Traumatismos articulares: Esguinces. Luxaciones. Traumatismos de las fisis. Traumas obstétricos."
+      },
+      {
+        "numero": 9,
+        "titulo": "Traumatismos de las partes blandas. Contusión. Heridas. Derrame seroso. Lesiones musculares, tendinosas, vasculares y nerviosas. Bursitis traumática. Principios generales para su diagnóstico y tratamiento."
+      },
+      {
+        "numero": 10,
+        "titulo": "Politraumatizado."
+      },
+      {
+        "numero": 11,
+        "titulo": "Fracturas: clasificación, etiología, mecanismo, anatomía patológica, síntomas y diagnóstico. Bases terapéuticas. El proceso de consolidación. Complicaciones de las fracturas. Síndromes compartimentales y otras complicaciones postquirúrgicas y postraumáticas. Tratamiento de la pseudoartrosis y osteítis con pérdida de sustancia en los huesos largos."
+      },
+      {
+        "numero": 12,
+        "titulo": "Infecciones del aparato locomotor. Osteomielitis. Artritis séptica. Tuberculosis osteoarticular. Otras infecciones. Parasitosis óseas."
+      },
+      {
+        "numero": 13,
+        "titulo": "Profilaxis y medidas higiénicas de las enfermedades del aparato locomotor."
+      },
+      {
+        "numero": 14,
+        "titulo": "Tumores óseos y de partes blandas del aparato locomotor."
+      },
+      {
+        "numero": 15,
+        "titulo": "Malformaciones y displasias generales con expresión clínica en el aparato locomotor. Deformaciones osteoarticulares más comunes."
+      },
+      {
+        "numero": 16,
+        "titulo": "Osteocondrosis y osteonecrosis."
+      },
+      {
+        "numero": 17,
+        "titulo": "Procesos inflamatorios y dolorosos agudos de huesos, articulaciones, partes blandas y de compresión nerviosa."
+      },
+      {
+        "numero": 18,
+        "titulo": "Aspectos ortopédicos de la artritis reumatoide y de la espondiloartritis anquilopoyética. Otras artropatías inflamatorias. Prótesis y ortesis."
+      },
+      {
+        "numero": 19,
+        "titulo": "Artropatías degenerativas e inflamatorias en sus diferentes localizaciones. Procesos relacionados de cadera y rodilla."
+      },
+      {
+        "numero": 20,
+        "titulo": "Enfermedades osteoarticulares metabólicas y endocrinas."
+      },
+      {
+        "numero": 21,
+        "titulo": "Osteoporosis y sus complicaciones."
+      },
+      {
+        "numero": 22,
+        "titulo": "Secuelas de lesiones y enfermedades neurológicas."
+      },
+      {
+        "numero": 23,
+        "titulo": "Síndromes de sobrecarga ocupacional y deportiva."
+      },
+      {
+        "numero": 24,
+        "titulo": "Patología de la columna vertebral. Escoliosis y cifosis congénitas. Desviaciones de la columna vertebral. Cirugía de las deformidades del raquis."
+      },
+      {
+        "numero": 25,
+        "titulo": "Traumatismos raquimedulares. Lesiones vasculares y nerviosas."
+      },
+      {
+        "numero": 26,
+        "titulo": "Tratamiento urgente de las lesiones raquimedulares."
+      },
+      {
+        "numero": 27,
+        "titulo": "Fracturas vertebrales complejas."
+      },
+      {
+        "numero": 28,
+        "titulo": "Discectomía lumbar convencional.Patología del disco intervertebral."
+      },
+      {
+        "numero": 29,
+        "titulo": "Espondilodiscitis Espondiloartrosis. Estenosis de canal."
+      },
+      {
+        "numero": 30,
+        "titulo": "Fusiones vertebrales cortas. Tratamiento de pseudoartrosis y osteítis con pérdidas de sustancia en el raquis."
+      },
+      {
+        "numero": 31,
+        "titulo": "Malformaciones congénitas del miembro superior."
+      },
+      {
+        "numero": 32,
+        "titulo": "El hombro doloroso."
+      },
+      {
+        "numero": 33,
+        "titulo": "Lesiones traumáticas de la clavícula y de la escápula."
+      },
+      {
+        "numero": 34,
+        "titulo": "Síndrome de atrapamiento subacromial y artrosis acromioclavicular."
+      },
+      {
+        "numero": 35,
+        "titulo": "Hombro inestable. Luxaciones escápulo-humerales agudas y recidivantes."
+      },
+      {
+        "numero": 36,
+        "titulo": "Traumatismos del brazo. Roturas musculares."
+      },
+      {
+        "numero": 37,
+        "titulo": "Síndromes de compresión de los troncos nerviosos de la extremidad superior."
+      },
+      {
+        "numero": 38,
+        "titulo": "Fracturas del extremo proximal y de la diáfisis humeral incluyendo el desprendimiento epifisario."
+      },
+      {
+        "numero": 39,
+        "titulo": "Fracturas de la extremidad distal del húmero. Fracturas de la extremidad proximal del cúbito y del radio. Luxación del codo. Sinostosis radiocubital. Epicondilitis. Epitrocleitis. Pronación dolorosa. Bursitis traumática."
+      },
+      {
+        "numero": 40,
+        "titulo": "Fracturas del antebrazo en el adulto y en el niño. Complicaciones."
+      },
+      {
+        "numero": 41,
+        "titulo": "Traumatismos graves de la mano y heridas de los tendones flexores."
+      },
+      {
+        "numero": 42,
+        "titulo": "Fracturas, luxaciones y lesiones ligamentosas de la muñeca y la mano en el adulto y en el niño. Tratamiento inmediato de las lesiones tendinosas del miembro superior."
+      },
+      {
+        "numero": 43,
+        "titulo": "Tendinitis de la muñeca. Enfermedad de Kienböck. Dedo en resorte. Infecciones de la mano. Enfermedad de Dupuytren. Tenosinovitis y gangliones."
+      },
+      {
+        "numero": 44,
+        "titulo": "Cirugía reparadora y reconstructiva de la mano."
+      },
+      {
+        "numero": 45,
+        "titulo": "Patología de la pelvis y miembro inferior. Displasia congénita de cadera. Patología de la cadera en crecimiento."
+      },
+      {
+        "numero": 46,
+        "titulo": "Cadera dolorosa infantil y del adulto."
+      },
+      {
+        "numero": 47,
+        "titulo": "Fracturas aisladas de coxal y del sacro. Fracturas y luxaciones coccígeas. Fracturas estables del anillo pelviano. Fracturas inestables del anillo pelviano y fractura-luxaciones."
+      },
+      {
+        "numero": 48,
+        "titulo": "Fracturas del acetábulo. Fractura-luxación central de la cadera. Lesiones asociadas intrapélvicas. Osteopatía dinámica del pubis. Tendinitis de los aductores."
+      },
+      {
+        "numero": 49,
+        "titulo": "Estabilización inicial de fracturas de la pelvis."
+      },
+      {
+        "numero": 50,
+        "titulo": "Osteotomías de la pelvis y de la extremidad superior del fémur. Tratamiento de las secuelas de lesiones y enfermedades neurológicas."
+      },
+      {
+        "numero": 51,
+        "titulo": "Fracturas y luxaciones de la extremidad superior del fémur. Fracturas diafisarias de fémur."
+      },
+      {
+        "numero": 52,
+        "titulo": "Fracturas y desprendimientos epifisarios de la rodilla. Lesiones meniscales y de los ligamentos colaterales y cruzados. Síndromes del aparato extensor y de la rótula."
+      },
+      {
+        "numero": 53,
+        "titulo": "Deformidades angulares y torsionales de la extremidad inferior en el niño."
+      },
+      {
+        "numero": 54,
+        "titulo": "Fracturas de la diáfisis de la tibia. Lesiones musculares. Rotura del tendón de Aquiles."
+      },
+      {
+        "numero": 55,
+        "titulo": "Esguinces, luxaciones y fracturas de tobillo y pie. Síndromes dolorosos de tobillo y pie. Pie zambo. Pie plano valgo infantil. Hallux valgus. Deformidades de los dedos del pie."
+      },
+      {
+        "numero": 56,
+        "titulo": "Abordajes quirúrgicos ortopédicos estándar. Procedimientos de limpieza quirúrgica, evacuación y drenaje. Técnicas simples de cobertura y cierre cutáneo. Utilización de fijadores externos. Procedimientos usuales de osteosíntesis abierta intra y extramedular."
+      },
+      {
+        "numero": 57,
+        "titulo": "Artrodesis de grandes articulaciones. Diferencia de longitud de los miembros. Reparaciones artroscópicas en rodilla."
+      },
+      {
+        "numero": 58,
+        "titulo": "Recambios convencionales de artroplastias de cadera y rodilla. Recambios complejos de artroplastias en cadera y rodilla. Artroplastias primarias de otras articulaciones."
+      },
+      {
+        "numero": 59,
+        "titulo": "Cirugía tumoral ablativa y para conservación del miembro."
+      },
+      {
+        "numero": 60,
+        "titulo": "Amputaciones en el miembro inferior."
+      }
+    ]
+  }
+]

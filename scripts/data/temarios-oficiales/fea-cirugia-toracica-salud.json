@@ -1,0 +1,332 @@
+[
+  {
+    "bloque": "Materia común",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "Constitución Española de 1978: la protección de la salud en la Constitución. Estatuto de Autonomía de Aragón. Competencias en salud recogidas en el Estatuto de Autonomía. Las Cortes de Aragón. El Gobierno de Aragón."
+      },
+      {
+        "numero": 2,
+        "titulo": "El texto refundido de la Ley del Estatuto Básico del Empleado Público, aprobado por el Real Decreto Legislativo 5/2015: deberes del empleado público y código de conducta. Representación, participación y negociación colectiva."
+      },
+      {
+        "numero": 3,
+        "titulo": "El régimen jurídico de la protección de datos de carácter personal: Disposiciones generales. Derechos de las personas."
+      },
+      {
+        "numero": 4,
+        "titulo": "El Procedimiento Administrativo Común de las Administraciones Públicas: Disposiciones Generales. Cómputo de plazos. Objeto y plazos de los recursos administrativos. El Régimen Jurídico del Sector Público: Disposiciones generales."
+      },
+      {
+        "numero": 5,
+        "titulo": "Ley 14/1986 General de Sanidad. Ley 6/2002 de Salud de Aragón. Principios generales, estructura, contenidos. Ley 16/2003 de cohesión y calidad del Sistema Nacional de Salud. Principios generales, estructura, contenidos."
+      },
+      {
+        "numero": 6,
+        "titulo": "Ley 44/2003 de Ordenación de las Profesiones Sanitarias. Ámbito de aplicación, contenidos. Ley 41/2002, de 14 de noviembre, básica reguladora de la autonomía del paciente y de derechos y obligaciones en materia de información y documentación clínica. Ley 9/2013, de 28 de noviembre, de Autoridad de Profesionales del Sistema Sanitario y de Servicios Sociales Públicos de Aragón."
+      },
+      {
+        "numero": 7,
+        "titulo": "Ley 55/2003 del Estatuto Marco de personal estatutario de los servicios de salud (I). Principios generales, estructura, contenidos. Clasificación del personal estatutario. Derechos y deberes. Adquisición y pérdida de la condición de personal estatutario. Provisión de plazas, selección y promoción interna. Movilidad del personal."
+      },
+      {
+        "numero": 8,
+        "titulo": "Ley 55/2003 del Estatuto Marco de personal estatutario de los servicios de salud (II). Retribuciones. Jornada de trabajo, permisos y licencias. Situaciones del personal estatutario. Régimen disciplinario. Modelo de Carrera Profesional en Aragón. Ley 53/1984 de 26 de diciembre, de incompatibilidades. Principios Generales. Ámbito de aplicación."
+      },
+      {
+        "numero": 9,
+        "titulo": "La igualdad de oportunidades entre mujeres y hombres en Aragón: Disposiciones generales. Prevención y Protección Integral a las Mujeres Víctimas de Violencia en Aragón: Disposiciones generales. La identidad y expresión de género e igualdad social y no discriminación en la Comunidad Autónoma de Aragón: Disposiciones generales. La diversidad cultural y lucha contra la discriminación: Principios y objetivos del Plan Integral para la Gestión de la Diversidad vigente en Aragón."
+      },
+      {
+        "numero": 10,
+        "titulo": "El sistema sanitario. Niveles asistenciales. Organización de los servicios sanitarios en Aragón. Estructura del Departamento de Sanidad de Aragón y del Servicio Aragonés de la Salud. Los Sectores sanitarios."
+      },
+      {
+        "numero": 11,
+        "titulo": "Metodología de la Investigación: El método científico. Diseño de un proyecto de investigación. Estadística aplicada a los estudios de Medicina."
+      },
+      {
+        "numero": 12,
+        "titulo": "El método epidemiológico. Epidemiología descriptiva: tipos de estudios, tasas e indicadores. Epidemiología analítica: tipos de estudios. Riesgo relativo, riesgo atribuible y Odds Ratio. Sesgos."
+      },
+      {
+        "numero": 13,
+        "titulo": "Estudios experimentales. Ensayos clínicos. Ética de la investigación clínica. Validez de métodos diagnósticos: sensibilidad, especificidad, valor predictivo positivo."
+      },
+      {
+        "numero": 14,
+        "titulo": "Evaluación de Tecnologías Sanitarias: Procedimientos de evaluación. Cartera de Servicios del Sistema Nacional de Salud. Procedimiento de actualización de la Cartera de Servicios del sistema de Salud de Aragón."
+      },
+      {
+        "numero": 15,
+        "titulo": "Práctica basada en la evidencia. Variabilidad en la práctica médica. Búsqueda y valoración de evidencias. Aplicación de las evidencias a la toma de decisiones clínicas. Guías clínicas. Proyecto Guía-Salud."
+      },
+      {
+        "numero": 16,
+        "titulo": "La seguridad del paciente. Gestión de riesgos. Principales problemas para la seguridad del paciente en el hospital. Estrategias para la mejora de la seguridad."
+      },
+      {
+        "numero": 17,
+        "titulo": "Uso Racional del Medicamento. Criterios de selección de medicamentos. Equivalentes terapéuticos. Indicadores de calidad de prescripción."
+      },
+      {
+        "numero": 18,
+        "titulo": "Evaluación y mejora de la calidad. Modelos de Gestión de la calidad. Diseño de un programa de calidad."
+      },
+      {
+        "numero": 19,
+        "titulo": "Principios fundamentales de la bioética: aplicación a la asistencia sanitaria. La relación médico-paciente, el consentimiento informado. Los comités de Bioética. La ética en la investigación clínica."
+      },
+      {
+        "numero": 20,
+        "titulo": "Gobierno clínico. La implicación de los profesionales en el funcionamiento de las instituciones sanitarias."
+      }
+    ]
+  },
+  {
+    "bloque": "Materia específica",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "Historia y desarrollo de la cirugía torácica."
+      },
+      {
+        "numero": 2,
+        "titulo": "Anatomía quirúrgica del tórax."
+      },
+      {
+        "numero": 3,
+        "titulo": "Fisiopatología del tórax. Estudios de función pulmonar."
+      },
+      {
+        "numero": 4,
+        "titulo": "Evaluación preoperatoria del paciente subsidiario de cirugía torácica."
+      },
+      {
+        "numero": 5,
+        "titulo": "Aspectos generales de la anestesia en cirugía torácica. Fundamentos y técnicas de ventilación mecánica e intubación orotraqueal."
+      },
+      {
+        "numero": 6,
+        "titulo": "Técnicas endoscópicas: Broncoscopia, mediastinoscopia, toracoscopia diagnóstica. Laserterapia y prótesis traqueobronquiales."
+      },
+      {
+        "numero": 7,
+        "titulo": "Vías de abordaje. Incisiones torácicas."
+      },
+      {
+        "numero": 8,
+        "titulo": "Manejo perioperatorio en cirugía torácica."
+      },
+      {
+        "numero": 9,
+        "titulo": "Circulación extracorpórea en cirugía torácica."
+      },
+      {
+        "numero": 10,
+        "titulo": "Complicaciones tardías de la cirugía torácica."
+      },
+      {
+        "numero": 11,
+        "titulo": "Peculiaridades de la Cirugía Torácica infantil."
+      },
+      {
+        "numero": 12,
+        "titulo": "Lesiones congénitas, neoplasias e injurias de la tráquea. Fístulas traqueoesofágicas."
+      },
+      {
+        "numero": 13,
+        "titulo": "Traqueotomía y resecciones de vía aérea. Cirugía traqueal."
+      },
+      {
+        "numero": 14,
+        "titulo": "Anormalidades congénitas del pulmón."
+      },
+      {
+        "numero": 15,
+        "titulo": "Infecciones pulmonares: bacterianas, micóticas y parasitarias. Absceso pulmonar. Bronquiectasias."
+      },
+      {
+        "numero": 16,
+        "titulo": "Tratamiento quirúrgico de la tuberculosis pulmonar y de la hidatidosis."
+      },
+      {
+        "numero": 17,
+        "titulo": "Patología intersticial pulmonar. Biopsia pulmonar."
+      },
+      {
+        "numero": 18,
+        "titulo": "Cirugía del enfisema."
+      },
+      {
+        "numero": 19,
+        "titulo": "Patología quirúrgica vascular pulmonar. Hemoptisis masiva. Embolismo pulmonar crónico."
+      },
+      {
+        "numero": 20,
+        "titulo": "Tumores broncopulmonares benignos."
+      },
+      {
+        "numero": 21,
+        "titulo": "Nódulo pulmonar solitario."
+      },
+      {
+        "numero": 22,
+        "titulo": "Cáncer de pulmón: Biología, epidemiología, clínica, abordaje diagnóstico y estadificación."
+      },
+      {
+        "numero": 23,
+        "titulo": "Carcinoma Pulmonar de Células No Pequeñas: estrategias de tratamiento. Seguimiento postoperatorio."
+      },
+      {
+        "numero": 24,
+        "titulo": "Carcinoma Pulmonar de Células Pequeñas."
+      },
+      {
+        "numero": 25,
+        "titulo": "Tumores primarios malignos raros del pulmón."
+      },
+      {
+        "numero": 26,
+        "titulo": "Cirugía de las metástasis pulmonares."
+      },
+      {
+        "numero": 27,
+        "titulo": "Resecciones pulmonares (I): Neumonectomías, lobectomías, segmentectomías, resecciones atípicas. Disección ganglionar mediastínica."
+      },
+      {
+        "numero": 28,
+        "titulo": "Resecciones pulmonares (II): Técnicas broncoplásticas, resecciones pulmonares extendidas. Abordaje quirúrgico de tumores de sulcus superior."
+      },
+      {
+        "numero": 29,
+        "titulo": "Vías de abordaje de cirugía mínimamente invasiva para resecciones pulmonares: Videotoracoscopia, cirugía robótica."
+      },
+      {
+        "numero": 30,
+        "titulo": "Trasplante pulmonar: indicaciones, técnica, seguimiento y resultados."
+      },
+      {
+        "numero": 31,
+        "titulo": "Derrame pleural benigno y maligno. Quilotórax."
+      },
+      {
+        "numero": 32,
+        "titulo": "Empiema pleural y fístula broncopleural. Toracoplastias."
+      },
+      {
+        "numero": 33,
+        "titulo": "Neumotórax espontáneo."
+      },
+      {
+        "numero": 34,
+        "titulo": "Mesotelioma y otros tumores pleurales."
+      },
+      {
+        "numero": 35,
+        "titulo": "Métodos de drenaje del espacio pleural."
+      },
+      {
+        "numero": 36,
+        "titulo": "Deformidades congénitas de pared torácica."
+      },
+      {
+        "numero": 37,
+        "titulo": "Síndromes del opérculo torácico."
+      },
+      {
+        "numero": 38,
+        "titulo": "Tumores primarios de la pared torácica."
+      },
+      {
+        "numero": 39,
+        "titulo": "Radionecrosis e infecciones de pared torácica."
+      },
+      {
+        "numero": 40,
+        "titulo": "Resección y estabilización de la pared torácica. Mioplastias."
+      },
+      {
+        "numero": 41,
+        "titulo": "Simpatectomía y esplacnicectomía toracoscópica."
+      },
+      {
+        "numero": 42,
+        "titulo": "Patología quirúrgica del diafragma: Hernias y eventraciones diafragmáticas. Rotura traumática de diafragma."
+      },
+      {
+        "numero": 43,
+        "titulo": "Parálisis frénica. Patología infradiafragmática con repercusión torácica."
+      },
+      {
+        "numero": 44,
+        "titulo": "Infecciones mediastínicas: mediastinitis."
+      },
+      {
+        "numero": 45,
+        "titulo": "Cirugía de la miastenia gravis. Timectomía. Vías de abordaje."
+      },
+      {
+        "numero": 46,
+        "titulo": "Tumores del mediastino."
+      },
+      {
+        "numero": 47,
+        "titulo": "Patología quística del mediastino: quistes de duplicación."
+      },
+      {
+        "numero": 48,
+        "titulo": "Patología del tiroides: bocio cérvico-mediastínico y tumores."
+      },
+      {
+        "numero": 49,
+        "titulo": "Abordajes quirúrgicos de mínima invasión en patología mediastínica: videotoracoscopia, cirugía robótica."
+      },
+      {
+        "numero": 50,
+        "titulo": "Alteraciones motoras del esófago."
+      },
+      {
+        "numero": 51,
+        "titulo": "Traumatismos del esófago."
+      },
+      {
+        "numero": 52,
+        "titulo": "Tumores esofágicos."
+      },
+      {
+        "numero": 53,
+        "titulo": "Estenosis esofágicas benignas."
+      },
+      {
+        "numero": 54,
+        "titulo": "Cirugía del reflujo gastroesofágico."
+      },
+      {
+        "numero": 55,
+        "titulo": "Fisiopatología y manejo inicial del paciente politraumatizado."
+      },
+      {
+        "numero": 56,
+        "titulo": "Reanimación cardiopulmonar."
+      },
+      {
+        "numero": 57,
+        "titulo": "Traumatismos de la vía aérea."
+      },
+      {
+        "numero": 58,
+        "titulo": "Traumatismos torácicos cerrados."
+      },
+      {
+        "numero": 59,
+        "titulo": "Traumatismos torácicos penetrantes."
+      },
+      {
+        "numero": 60,
+        "titulo": "Secuelas tardías de los traumatismos torácicos."
+      }
+    ]
+  }
+]

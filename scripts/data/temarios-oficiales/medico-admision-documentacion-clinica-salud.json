@@ -1,0 +1,332 @@
+[
+  {
+    "bloque": "Materia común",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "Constitución Española de 1978: la protección de la salud en la Constitución. Estatuto de Autonomía de Aragón. Competencias en salud recogidas en el Estatuto de Autonomía. Las Cortes de Aragón. El Gobierno de Aragón."
+      },
+      {
+        "numero": 2,
+        "titulo": "El texto refundido de la Ley del Estatuto Básico del Empleado Público, aprobado por el Real Decreto Legislativo 5/2015: deberes del empleado público y código de conducta. Representación, participación y negociación colectiva."
+      },
+      {
+        "numero": 3,
+        "titulo": "El régimen jurídico de la protección de datos de carácter personal: Disposiciones generales. Derechos de las personas."
+      },
+      {
+        "numero": 4,
+        "titulo": "El Procedimiento Administrativo Común de las Administraciones Públicas: Disposiciones Generales. Cómputo de plazos. Objeto y plazos de los recursos administrativos. El Régimen Jurídico del Sector Público: Disposiciones Generales."
+      },
+      {
+        "numero": 5,
+        "titulo": "Ley 14/1986 General de Sanidad. Ley 6/2002 de Salud de Aragón. Principios generales, estructura, contenidos. Ley 16/2003 de cohesión y calidad del Sistema Nacional de Salud. Principios generales, estructura, contenidos."
+      },
+      {
+        "numero": 6,
+        "titulo": "Ley 44/2003 de Ordenación de las Profesiones Sanitarias. Ámbito de aplicación, contenidos. Ley 41/2002, de 14 de noviembre, básica reguladora de la autonomía del paciente y de derechos y obligaciones en materia de información y documentación clínica. Ley 9/2013, de 28 de noviembre, de Autoridad de Profesionales del Sistema Sanitario y de Servicios Sociales Públicos de Aragón."
+      },
+      {
+        "numero": 7,
+        "titulo": "Ley 55/2003 del Estatuto Marco de personal Estatutario de los Servicios de Salud (I). Principios generales, estructura, contenidos. Clasificación del personal estatutario. Derechos y deberes. Adquisición y pérdida de la condición de personal estatutario. Provisión de plazas, selección y promoción interna. Movilidad del personal."
+      },
+      {
+        "numero": 8,
+        "titulo": "Ley 55/2003 del Estatuto Marco de personal Estatutario de los Servicios de Salud (II). Retribuciones. Jornada de trabajo, permisos y licencias. Situaciones del personal estatutario. Régimen disciplinario. Modelo de Carrera Profesional en Aragón. Ley 53/1984 de 26 de diciembre, de incompatibilidades. Principios Generales. Ámbito de aplicación."
+      },
+      {
+        "numero": 9,
+        "titulo": "La igualdad de oportunidades entre mujeres y hombres en Aragón: Disposiciones generales. Prevención y Protección Integral a las Mujeres Víctimas de Violencia en Aragón: Disposiciones Generales. La identidad y expresión de género e igualdad social y no discriminación en la Comunidad Autónoma de Aragón: Disposiciones Generales. La diversidad cultural y lucha contra la discriminación: Principios y objetivos del Plan Integral para la Gestión de la Diversidad vigente en Aragón."
+      },
+      {
+        "numero": 10,
+        "titulo": "El sistema sanitario. Niveles asistenciales. Organización de los servicios sanitarios en Aragón. Estructura del Departamento de Sanidad de Aragón y del Servicio Aragonés de la Salud. Los Sectores sanitarios."
+      },
+      {
+        "numero": 11,
+        "titulo": "Metodología de la Investigación: El método científico. Diseño de un proyecto de investigación. Estadística aplicada a los estudios de Medicina."
+      },
+      {
+        "numero": 12,
+        "titulo": "El método epidemiológico. Epidemiología descriptiva: tipos de estudios, tasas e indicadores. Epidemiología analítica: tipos de estudios. Riesgo relativo, riesgo atribuible y Odds Ratio. Sesgos."
+      },
+      {
+        "numero": 13,
+        "titulo": "Estudios experimentales. Ensayos clínicos. Ética de la investigación clínica. Validez de métodos diagnósticos: sensibilidad, especificidad, valor predictivo positivo."
+      },
+      {
+        "numero": 14,
+        "titulo": "Evaluación de Tecnologías Sanitarias: Procedimientos de evaluación. Cartera de Servicios del Sistema Nacional de Salud. Procedimiento de actualización de la Cartera de Servicios del sistema de Salud de Aragón."
+      },
+      {
+        "numero": 15,
+        "titulo": "Práctica basada en la evidencia. Variabilidad en la práctica médica. Búsqueda y valoración de evidencias. Aplicación de las evidencias a la toma de decisiones clínicas. Guías clínicas. Proyecto Guía-Salud."
+      },
+      {
+        "numero": 16,
+        "titulo": "La seguridad del paciente. Gestión de riesgos. Principales problemas para la seguridad del paciente en el hospital. Estrategias para la mejora de la seguridad."
+      },
+      {
+        "numero": 17,
+        "titulo": "Uso Racional del Medicamento. Criterios de selección de medicamentos. Equivalentes terapéuticos. Indicadores de calidad de prescripción."
+      },
+      {
+        "numero": 18,
+        "titulo": "Evaluación y mejora de la calidad. Modelos de Gestión de la Calidad. Diseño de un programa de calidad."
+      },
+      {
+        "numero": 19,
+        "titulo": "Principios fundamentales de la bioética: aplicación a la asistencia sanitaria. La relación médico-paciente, el consentimiento informado. Los comités de Bioética. La ética en la investigación clínica."
+      },
+      {
+        "numero": 20,
+        "titulo": "Gobierno clínico. La implicación de los profesionales en el funcionamiento de las instituciones sanitarias."
+      }
+    ]
+  },
+  {
+    "bloque": "Materia específica",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "El concepto de salud y enfermedad. Necesidad y demanda de los servicios de salud."
+      },
+      {
+        "numero": 2,
+        "titulo": "La legislación en materia de información y documentación sanitaria."
+      },
+      {
+        "numero": 3,
+        "titulo": "Ordenación sanitaria: Niveles asistenciales y continuidad asistencial."
+      },
+      {
+        "numero": 4,
+        "titulo": "Catálogo de prestaciones del sistema de salud."
+      },
+      {
+        "numero": 5,
+        "titulo": "La organización en centros de atención primaria."
+      },
+      {
+        "numero": 6,
+        "titulo": "La organización de Atención Especializada, Salud mental y Sociosanitario."
+      },
+      {
+        "numero": 7,
+        "titulo": "El Servicio de Admisión y Documentación Clínica (SADC): Historia, concepto y diferentes modelos de organización."
+      },
+      {
+        "numero": 8,
+        "titulo": "El Servicio de Admisión y Documentación Clínica (SADC) en el organigrama asistencial."
+      },
+      {
+        "numero": 9,
+        "titulo": "Planificación de un SADC. Dimensionamiento. Cálculo de recursos humanos e infraestructura."
+      },
+      {
+        "numero": 10,
+        "titulo": "El Servicio de Admisión y Documentación Clínica (SADC): Cartera de servicios."
+      },
+      {
+        "numero": 11,
+        "titulo": "El Servicio de Admisión y Documentación Clínica (SADC): Indicadores de actividad y calidad."
+      },
+      {
+        "numero": 12,
+        "titulo": "Papel del SADC en los órganos consultivos: Las comisiones clínicas."
+      },
+      {
+        "numero": 13,
+        "titulo": "Acreditación de los SADC."
+      },
+      {
+        "numero": 14,
+        "titulo": "La identificación de pacientes. Sistemas de información poblacional."
+      },
+      {
+        "numero": 15,
+        "titulo": "El área de Admisión y Gestión de pacientes. Concepto. Organización. Funciones. Procesos."
+      },
+      {
+        "numero": 16,
+        "titulo": "Gestión de la demanda en asistencia primaria."
+      },
+      {
+        "numero": 17,
+        "titulo": "Gestión de la demanda de asistencia especializada en régimen ambulatorio."
+      },
+      {
+        "numero": 18,
+        "titulo": "Gestión de la demanda de hospitalización."
+      },
+      {
+        "numero": 19,
+        "titulo": "Gestión de prestaciones especiales (transporte sanitario, prótesis, terapias domiciliarias)."
+      },
+      {
+        "numero": 20,
+        "titulo": "Urgencias: registro de pacientes y de su asistencia."
+      },
+      {
+        "numero": 21,
+        "titulo": "Gestión de la demanda y actividad quirúrgica."
+      },
+      {
+        "numero": 22,
+        "titulo": "Listas de espera. Definición. Tipos. Monitorización."
+      },
+      {
+        "numero": 23,
+        "titulo": "Nuevos servicios asistenciales basados en TIC´s y en el paciente activo: Salud conectada, carpeta del ciudadano, consulta no presencial, interconsultas virtuales, la atención integrada social y sanitaria y el internet de las cosas."
+      },
+      {
+        "numero": 24,
+        "titulo": "Coordinación entre las instituciones sanitarias y los distintos niveles de asistencia primaria y especializada."
+      },
+      {
+        "numero": 25,
+        "titulo": "Productos, evaluación y costes del área de Admisión y Gestión de Pacientes."
+      },
+      {
+        "numero": 26,
+        "titulo": "El área de Documentación Clínica. Concepto. Organización. Funciones. Procesos."
+      },
+      {
+        "numero": 27,
+        "titulo": "La historia clínica. Historia. Definición. Funciones. Usos y Modelos."
+      },
+      {
+        "numero": 28,
+        "titulo": "Diseño y normalización de los documentos de la historia clínica. Control de calidad de la historia clínica."
+      },
+      {
+        "numero": 29,
+        "titulo": "Aspectos médico-legales de la historia clínica."
+      },
+      {
+        "numero": 30,
+        "titulo": "Archivos de historias clínicas: Sistemas de almacenamiento y custodia de la documentación clínica. Tratamiento y conservación de la documentación clínica."
+      },
+      {
+        "numero": 31,
+        "titulo": "Estructura y diseño de un archivo de historias clínicas. Seguridad. Normativa y legislación."
+      },
+      {
+        "numero": 32,
+        "titulo": "Gestión del uso de la documentación clínica: movimientos y accesos."
+      },
+      {
+        "numero": 33,
+        "titulo": "La Historia Clínica electrónica. Modelo y funcionalidades implantados en Aragón y en el Sistema Nacional de Salud."
+      },
+      {
+        "numero": 34,
+        "titulo": "Esquema Nacional de Seguridad. Política de Seguridad de las T.I.C. del Servicio Aragonés de Salud."
+      },
+      {
+        "numero": 35,
+        "titulo": "Gestión de derechos ARCO en materia de protección de datos"
+      },
+      {
+        "numero": 36,
+        "titulo": "Gestión del archivo. Indicadores."
+      },
+      {
+        "numero": 37,
+        "titulo": "Tratamiento de la información clínica: Indización y codificación."
+      },
+      {
+        "numero": 38,
+        "titulo": "Lenguajes documentales: Nomenclaturas y clasificaciones de enfermedades y procedimientos."
+      },
+      {
+        "numero": 39,
+        "titulo": "La Clasificación Internacional de Enfermedades 9ª edición. Modificación Clínica (CIE-9-MC)."
+      },
+      {
+        "numero": 40,
+        "titulo": "La Clasificación Internacional de Enfermedades 9ª edición. Modificación Clínica (CIE-9-MC). Cambio y transición de CIE-9 a CIE-10"
+      },
+      {
+        "numero": 41,
+        "titulo": "La Clasificación Internacional de Enfermedades 10ª edición. (CIE-10). Estructura y principios básicos de utilización."
+      },
+      {
+        "numero": 42,
+        "titulo": "Adaptaciones de la CIE: CIE-O y otras."
+      },
+      {
+        "numero": 43,
+        "titulo": "La SNOMED."
+      },
+      {
+        "numero": 44,
+        "titulo": "El Conjunto Mínimo Básico de Datos (CMBD). Áreas de aplicación."
+      },
+      {
+        "numero": 45,
+        "titulo": "La medida del producto asistencial."
+      },
+      {
+        "numero": 46,
+        "titulo": "Sistemas de clasificación de pacientes. Generalidades y tipos."
+      },
+      {
+        "numero": 47,
+        "titulo": "Los Grupos Relacionados con el Diagnóstico (GRD)."
+      },
+      {
+        "numero": 48,
+        "titulo": "Sistemas de clasificación de pacientes ambulatorios."
+      },
+      {
+        "numero": 49,
+        "titulo": "Sistemas de clasificación de pacientes sociosanitarios."
+      },
+      {
+        "numero": 50,
+        "titulo": "Productos, evaluación y costes del área de Documentación Clínica."
+      },
+      {
+        "numero": 51,
+        "titulo": "La información clínico-asistencial. Concepto. Organización. Funciones. Procesos."
+      },
+      {
+        "numero": 52,
+        "titulo": "Sistemas de recuperación de información asistencial: Fuentes, análisis y evaluación."
+      },
+      {
+        "numero": 53,
+        "titulo": "Sistemas de Información para la gestión, para la investigación, la docencia y otros usos."
+      },
+      {
+        "numero": 54,
+        "titulo": "La Seguridad de la Información en el entorno sanitario. Análisis y gestión de riesgos en los sistemas de información asistenciales."
+      },
+      {
+        "numero": 55,
+        "titulo": "Indicadores de actividad y calidad asistencial. Definición. Conceptos."
+      },
+      {
+        "numero": 56,
+        "titulo": "Metodología para el análisis de las necesidades de información clínicoasistencial de los usuarios."
+      },
+      {
+        "numero": 57,
+        "titulo": "Evaluación de la satisfacción de los usuarios de los sistemas de información clínico-asistencial."
+      },
+      {
+        "numero": 58,
+        "titulo": "Productos, evaluación y costes del sistema de información clínicoasistencial."
+      },
+      {
+        "numero": 59,
+        "titulo": "Principales fuentes de información científica en admisión, gestión de pacientes y documentación clínica."
+      },
+      {
+        "numero": 60,
+        "titulo": "Metodología del trabajo científico."
+      }
+    ]
+  }
+]

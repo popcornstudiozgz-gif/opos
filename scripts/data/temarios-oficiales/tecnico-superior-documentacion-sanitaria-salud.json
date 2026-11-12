@@ -1,0 +1,212 @@
+[
+  {
+    "bloque": "Materia común",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "La Constitución Española de 1978: Principios fundamentales. Derechos y deberes fundamentales de los ciudadanos. La protección a la salud en la Constitución. La Corona. Las Cortes Generales. El Gobierno de la Nación. El Poder Judicial."
+      },
+      {
+        "numero": 2,
+        "titulo": "El Estatuto de Autonomía de Aragón. Principios informadores. Estructura y contenido. La organización institucional de la Comunidad Autónoma. Las Cortes y el Justicia de Aragón. Las competencias de la Comunidad de Aragón con especial referencia a las relativas a sanidad."
+      },
+      {
+        "numero": 3,
+        "titulo": "Población, geografía y territorio en Aragón. Desequilibrios demográficos en Aragón. Magnitudes más relevantes de la economía aragonesa. Evolución reciente de la actividad económica en Aragón."
+      },
+      {
+        "numero": 4,
+        "titulo": "La igualdad de oportunidades entre mujeres y hombres en Aragón: Disposiciones generales. Prevención y Protección Integral a las Mujeres Víctimas de Violencia en Aragón: Disposiciones Generales. La identidad y expresión de género e igualdad social y no discriminación en la Comunidad Autónoma de Aragón. La diversidad cultural y lucha contra la discriminación: Principios y objetivos del Plan Integral para la Gestión de la Diversidad vigente en Aragón."
+      },
+      {
+        "numero": 5,
+        "titulo": "Estructura y competencias del Departamento de Sanidad. Estructura y competencias del Servicio Aragonés de Salud. Decreto Legislativo 2/2004, de 30 de diciembre, Texto Refundido de la Ley del Servicio Aragonés de Salud. Estructura y funcionamiento de las áreas y sectores del Sistema de Salud de Aragón."
+      },
+      {
+        "numero": 6,
+        "titulo": "La Ley 14/1986, de 25 de abril, General de Sanidad: El Sistema Nacional de Salud y los Servicios de Salud de las Comunidades Autónomas. El Área de Salud. La Ley 6/2002, de 15 de abril, de Salud de Aragón. Principios generales. Derechos y deberes de los ciudadanos. Derechos de información sobre la salud y autonomía del paciente."
+      },
+      {
+        "numero": 7,
+        "titulo": "El Procedimiento Administrativo Común de las Administraciones Públicas: Disposiciones Generales. Computo de plazos. Objeto y plazos de los recursos administrativos. El Régimen Jurídico del Sector Público: Disposiciones generales, principios de actuación y funcionamiento del sector público."
+      },
+      {
+        "numero": 8,
+        "titulo": "Personal Estatutario de los Servicios de Salud (I). Clasificación del Personal Estatutario. Derechos y Deberes. Adquisición y pérdida de la condición de personal estatutario. Provisión de plazas, selección y promoción interna. Movilidad del personal."
+      },
+      {
+        "numero": 9,
+        "titulo": "Personal Estatutario de los Servicios de Salud (II): Retribuciones. Jornada de trabajo, permisos y licencias. Situaciones del personal estatutario. Régimen disciplinario. Régimen de Incompatibilidades: Principios generales. Ámbito de aplicación."
+      },
+      {
+        "numero": 10,
+        "titulo": "Ley de Prevención de Riesgos Laborales: Conceptos básicos. Derechos y obligaciones en materia de seguridad en el trabajo. Organización de la prevención de riesgos laborales en la Comunidad Autónoma de Aragón. Distribución de funciones y responsabilidades en materia de prevención de riesgos laborales entre los diferentes órganos del Servicio Aragonés de Salud."
+      }
+    ]
+  },
+  {
+    "bloque": "Materia específica",
+    "temas": [
+      {
+        "numero": 11,
+        "titulo": "Documentación sanitaria. Necesidades documentales de los centros sanitarios. Verificación de la calidad de la documentación clínica. Gestión de historias clínicas desde el punto de vista documental. Documentación activa y pasiva. Conservación y expurgo."
+      },
+      {
+        "numero": 12,
+        "titulo": "Historia clínica: definición, estructura, tipos de soporte de historia clínica, elementos diferenciadores, utilización de colores, funciones y usuarios. El informe de alta hospitalaria. Historia clínica electrónica (HCE). Historia Clínica Digital Del Sistema Nacional de Salud (HCDSNS). Interoperabilidad. Normativa específica. Reglamento de uso de la historia clínica."
+      },
+      {
+        "numero": 13,
+        "titulo": "Ley 41/2002, de 14 de noviembre, básica reguladora de la autonomía del paciente y de derechos y obligaciones en materia de información y documentación clínica."
+      },
+      {
+        "numero": 14,
+        "titulo": "El régimen jurídico de la protección de datos de carácter personal: Objeto y ámbito de aplicación. Principios de la protección datos. Derechos de las personas. Ejercicio de los derechos. El Delegado de Protección de Datos. La Agencia Española de Protección de Datos."
+      },
+      {
+        "numero": 15,
+        "titulo": "Anatomía y fisiología humana: Recuerdo anatomofisiológico de los principales aparatos y sistemas."
+      },
+      {
+        "numero": 16,
+        "titulo": "Nociones de patología general. Principales conceptos: etiología, clínica (signos, síntomas, síndrome), diagnóstico, evolución (aguda, crónica), antecedentes, complicaciones, procedimientos diagnósticos y terapéuticos. Terminología médica por aparatos y sistemas. Principales patologías, síntomas y signos por aparatos y sistemas."
+      },
+      {
+        "numero": 17,
+        "titulo": "Extracción de términos de diagnósticos y procedimientos: Procedimiento general de codificación. Indización del episodio asistencial. Fuentes documentales necesarias para el proceso de codificación."
+      },
+      {
+        "numero": 18,
+        "titulo": "Caracterización de los elementos de creación de un sistema de información sanitaria (SIS): la información en el ámbito sanitario. Tipos de información. Características y proceso de la información. Componentes de un SIS. Datos clínicos y no clínicos, información y conocimiento."
+      },
+      {
+        "numero": 19,
+        "titulo": "El Conjunto Mínimo Básico de Datos (CMBD). Usos y aplicaciones. Áreas de aplicación. Envíos, periodicidad, destinatarios. Su integración como sistema de información para la gestión clínico-asistencial y administrativa. Explotación y validaciones. Control de Calidad del CMBD. RAE-CMBD (Real Decreto 69/2015 de 6 de febrero por el que se regula el Registro de Actividad de Atención Sanitaria Especializada)."
+      },
+      {
+        "numero": 20,
+        "titulo": "Manejo de los sistemas de clasificación de enfermedades: Codificación. Concepto y utilidad. Clasificaciones y terminologías en uso por la Organización Mundial de la Salud (OMS): Clasificación internacional de enfermedades, novena revisión (CIE-9CM). Clasificación internacional de enfermedades, décima revisión (CIE-10). Clasificación internacional de enfermedades para oncología (CIE-0). Otras: SNOMED CT (Systematized Nomenclature of Medicine, Clinical Terms). DSM-IV (Diagnostic and Statistical Manual of Mental Disorders)."
+      },
+      {
+        "numero": 21,
+        "titulo": "Aplicación de normativas sobre codificación con la Clasificación internacional de enfermedades CIE-10-ES: Legislación vigente. Normativa Americana. Manuales y su utilización. Cuadernos de codificación. Unidad Técnica de la CIE del Sistema Nacional del Ministerio de Sanidad, Consumo y Bienestar Social: Estructura, composición y competencias"
+      },
+      {
+        "numero": 22,
+        "titulo": "Clasificación internacional de enfermedades CIE-10-ES, en su edición vigente. Diagnósticos: manejo del índice alfabético de enfermedades. Manejo de la lista tabular de enfermedades. Reglas básicas de codificación. Asignación de marcador de diagnósticos presente al ingreso (POA)."
+      },
+      {
+        "numero": 23,
+        "titulo": "Clasificación Internacional de enfermedades CIE-10-ES, en su edición vigente. Procedimientos: clasificación de procedimientos, codificación múltiple y códigos de combinación. Criterios que definen el procedimiento principal y secundarios. Tipos de procedimientos. Procedimiento significativo."
+      },
+      {
+        "numero": 24,
+        "titulo": "Reconocimiento y Codificación de enfermedades infecciosas y parasitarias: Normas generales. Infección. Enfermedades infecciosas de interés. Normas específicas de codificación de las infecciones:"
+      },
+      {
+        "numero": 25,
+        "titulo": "Reconocimiento y Codificación de diagnósticos de neoplasias: Clasificación de las neoplasias según su comportamiento y localización anatómica. Normas generales de codificación de las neoplasias. Selección del diagnóstico principal. Complicaciones de las neoplasias y de su tratamiento."
+      },
+      {
+        "numero": 26,
+        "titulo": "Reconocimiento y Codificación de las enfermedades de la sangre y órganos hematopoyéticos y ciertos trastornos que afectan al mecanismo inmunológico. Reconocimiento y Codificación de las enfermedades endocrinas, nutricionales y metabólicas."
+      },
+      {
+        "numero": 27,
+        "titulo": "Reconocimiento y Codificación de los trastornos mentales y de comportamiento. Reconocimiento y Codificación de las enfermedades del sistema nervioso."
+      },
+      {
+        "numero": 28,
+        "titulo": "Codificación de las enfermedades del ojo y sus anexos. Codificación de las enfermedades del oído y apófisis mastoidea. Enfermedades de la piel y del tejido subcutáneo. Enfermedades del aparato musculoesquelético y del tejido conectivo."
+      },
+      {
+        "numero": 29,
+        "titulo": "Reconocimiento y Codificación de las enfermedades del aparato circulatorio. Enfermedad cardiaca valvular. HTA y enfermedad hipertensiva. Insuficiencia cardiaca/fallo cardiaco. Cardiopatía isquémica. Parada cardiorrespiratoria (PCR). Trastornos cerebrovasculares."
+      },
+      {
+        "numero": 30,
+        "titulo": "Reconocimiento y Codificación de las enfermedades del aparato respiratorio: Infecciones. Enfermedad pulmonar obstructiva crónica (EPOC). Bronquiectasias. Asma. Insuficiencia respiratoria. Hipertensión pulmonar y cor pulmonale. Edema agudo de pulmón. Derrame pleural."
+      },
+      {
+        "numero": 31,
+        "titulo": "Reconocimiento y Codificación de enfermedades del aparato digestivo. Normativa específica de codificación. Complicaciones. Reconocimiento y Codificación de las enfermedades del aparato genitourinario. Complicaciones de la Diálisis."
+      },
+      {
+        "numero": 32,
+        "titulo": "Codificación del embarazo, parto y puerperio: Normas generales. Selección del diagnóstico principal. Enfermedades o circunstancias que complican el embarazo, parto o puerperio. Parto normal y complicado. Embarazo con resultado abortivo."
+      },
+      {
+        "numero": 33,
+        "titulo": "Codificación de ciertas afecciones originadas en el período perinatal. Malformaciones congénitas, deformidades y anomalías cromosómicas."
+      },
+      {
+        "numero": 34,
+        "titulo": "Codificación de síntomas, signos y resultados anormales de pruebas complementarias, no clasificados bajo otro concepto."
+      },
+      {
+        "numero": 35,
+        "titulo": "Codificación de las lesiones, envenenamientos y otras consecuencias de causas externas: Normas generales. Lesiones traumáticas. Quemaduras."
+      },
+      {
+        "numero": 36,
+        "titulo": "Codificación de las lesiones, envenenamientos y otras consecuencias de causas externas: Efectos adversos, envenenamiento, infradosificación y efectos tóxicos. Otros efectos de causas externas. Complicaciones de cuidados."
+      },
+      {
+        "numero": 37,
+        "titulo": "Codificación de las causas externas de morbilidad. Factores que influyen en el estado de salud y contactos con los servicios sanitarios."
+      },
+      {
+        "numero": 38,
+        "titulo": "Codificación de los procedimientos que extirpan o eliminan una estructura corporal total o parcialmente."
+      },
+      {
+        "numero": 39,
+        "titulo": "Codificación de los procedimientos que extraen sólidos/líquidos/gases de una estructura anatómica."
+      },
+      {
+        "numero": 40,
+        "titulo": "Codificación de los procedimientos que implican solamente corte o separación."
+      },
+      {
+        "numero": 41,
+        "titulo": "Codificación de los procedimientos que implantan, recolocan o desplazan total o parcialmente una estructura anatómica."
+      },
+      {
+        "numero": 42,
+        "titulo": "Codificación de los procedimientos que alteran el diámetro o el trayecto de una estructura anatómica tubular."
+      },
+      {
+        "numero": 43,
+        "titulo": "Codificación de los procedimientos que siempre implican la presencia de un dispositivo."
+      },
+      {
+        "numero": 44,
+        "titulo": "Codificación de los procedimientos que implican solamente exploración."
+      },
+      {
+        "numero": 45,
+        "titulo": "Codificación de los procedimientos que definen otros procedimientos de reparación."
+      },
+      {
+        "numero": 46,
+        "titulo": "Codificación de los procedimientos que definen otros objetivos. Codificación de los procedimientos de las secciones relacionadas con la médicoquirúrgica. Codificación de los procedimientos de obstetricia y otras secciones complementarias."
+      },
+      {
+        "numero": 47,
+        "titulo": "Conocimientos de informática básica. Gestión de archivos y búsqueda de información. Gestión de correo y agenda electrónica. Creación de documentos con procesadores de texto. Elaboración de hojas de cálculo. Utilización de bases de datos para el tratamiento de la información administrativa. Elaboración de presentaciones."
+      },
+      {
+        "numero": 48,
+        "titulo": "Estadística descriptiva: parámetros estadísticos, muestreo aleatorio, representación gráfica. Validación y Explotación de las bases de datos sanitarios. Indicadores Hospitalarios."
+      },
+      {
+        "numero": 49,
+        "titulo": "Sistemas de clasificación de pacientes. Fundamentos, características y necesidad de los sistemas de clasificación de pacientes. Información necesaria para su elaboración. Los Grupos relacionados por el Diagnóstico (GRD): Concepto y tipos. El concepto de case-mix o casuística hospitalaria. Peso de los GRD. Indicadores sanitarios hospitalarios derivados de la agrupación de pacientes: EMAC, EMAF, Índice Funcional."
+      },
+      {
+        "numero": 50,
+        "titulo": "La calidad de la asistencia sanitaria. Ciclo de mejora continua de la calidad. Medición de la calidad. La seguridad del paciente. Modelos de gestión de calidad. Acreditación y certificación. Indicadores de calidad de la Unidad de codificación. Control de la calidad de la historia clínica. Comisiones de documentación en los centros sanitarios."
+      }
+    ]
+  }
+]

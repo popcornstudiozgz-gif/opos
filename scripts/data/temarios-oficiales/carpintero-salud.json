@@ -1,0 +1,132 @@
+[
+  {
+    "bloque": "Materia común",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "La Constitución Española de 1978: Principios fundamentales. Derechos y deberes fundamentales de los ciudadanos. La protección a la salud en la Constitución. La Corona. Las Cortes Generales. El Gobierno de la Nación. El Poder Judicial."
+      },
+      {
+        "numero": 2,
+        "titulo": "El Estatuto de Autonomía de Aragón. Principios informadores. Estructura y contenido. La organización institucional de la Comunidad Autónoma. Las Cortes y El Justicia de Aragón. Las competencias de la Comunidad de Aragón con especial referencia a las relativas a sanidad."
+      },
+      {
+        "numero": 3,
+        "titulo": "Población, geografía y territorio en Aragón. Desequilibrios demográficos en Aragón. Magnitudes más relevantes de la economía aragonesa. Evolución reciente de la actividad económica en Aragón."
+      },
+      {
+        "numero": 4,
+        "titulo": "La igualdad de oportunidades entre mujeres y hombres en Aragón: disposiciones generales. Prevención y Protección Integral a las Mujeres Víctimas de Violencia en Aragón: disposiciones generales. La identidad y expresión de género e igualdad social y no discriminación en la Comunidad Autónoma de Aragón: disposiciones generales. La diversidad cultural y lucha contra la discriminación: principios y objetivos del Plan Integral para la Gestión de la Diversidad vigente en Aragón."
+      },
+      {
+        "numero": 5,
+        "titulo": "Los órganos de gobierno y administración de la Comunidad Autónoma de Aragón. El Departamento de Sanidad del Gobierno de Aragón: estructura básica y competencias. El Servicio Aragonés de Salud: estructura y competencias. El Texto Refundido de la Ley del Servicio Aragonés de Salud. Estructura y funcionamiento de las áreas y sectores del Sistema de Salud de Aragón."
+      },
+      {
+        "numero": 6,
+        "titulo": "La Ley General de Sanidad: El Sistema Nacional de Salud y los servicios de salud de las comunidades autónomas. El Área de Salud. La Ley de Salud de Aragón: principios generales. Derechos y deberes de los ciudadanos. Derechos de información sobre la salud y autonomía del paciente."
+      },
+      {
+        "numero": 7,
+        "titulo": "El Procedimiento Administrativo Común de las Administraciones Públicas: disposiciones generales. Computo de plazos. Objeto y plazos de los recursos administrativos. El Régimen Jurídico del Sector Público: disposiciones generales."
+      },
+      {
+        "numero": 8,
+        "titulo": "El régimen jurídico de la protección de datos de carácter personal. Disposiciones generales. Principios de la protección de datos. Derechos de las personas. Responsable y encargado del tratamiento."
+      },
+      {
+        "numero": 9,
+        "titulo": "Personal Estatutario de los servicios de salud: clasificación del personal estatutario. Derechos y deberes. Adquisición y pérdida de la condición de personal estatutario. Provisión de plazas, selección y promoción interna. Movilidad del personal. Situaciones. Régimen disciplinario. La Ley del Estatuto Básico del Empleado Público: deberes del empleado público y código de conducta. Representación, participación y negociación colectiva. El régimen de incompatibilidades: principios generales. Ámbito de aplicación."
+      },
+      {
+        "numero": 10,
+        "titulo": "Ley de Prevención de Riesgos Laborales: conceptos básicos. Derechos y obligaciones en materia de seguridad en el trabajo. Organización de la prevención de riesgos laborales en la Comunidad Autónoma de Aragón. Distribución de funciones y responsabilidades en materia de prevención de riesgos laborales entre los diferentes órganos del Servicio Aragonés de Salud."
+      }
+    ]
+  },
+  {
+    "bloque": "Materia específica",
+    "temas": [
+      {
+        "numero": 11,
+        "titulo": "Conceptos fundamentales de carpintería. Tipos de materiales. Herramientas."
+      },
+      {
+        "numero": 12,
+        "titulo": "La madera. Propiedades físicas y mecánicas. El bosque. Partes del árbol. La madera como género al por menor: tala, desmoche, troceo de la madera, defectos de la madera de sierra."
+      },
+      {
+        "numero": 13,
+        "titulo": "Enfermedades de la madera. Medidas de protección de la madera contra hongos e insectos. Anomalías, defectos y patologías de la madera. Aserrada. Medidas y clasificación."
+      },
+      {
+        "numero": 14,
+        "titulo": "Secado de la madera. Humedad. Proceso de secado. Secado natural, secado artificial."
+      },
+      {
+        "numero": 15,
+        "titulo": "Pegamentos. Colas. Procesos en la junta o ensamble del pegamento. Plásticos: termoestables."
+      },
+      {
+        "numero": 16,
+        "titulo": "Maderas compuestas. Maderas en capas. Tableros compuestos. Materiales aglomerados. Tableros antihumedad."
+      },
+      {
+        "numero": 17,
+        "titulo": "Tratamientos de superficie. Revestimientos y su empleo. Técnicas para la superficie. Técnicas de aplicación. Técnicas de secado."
+      },
+      {
+        "numero": 18,
+        "titulo": "Imprimación, blanqueo, tintado, fondo, patinado, decapé, anticuado, pulido, veteado, craquelado."
+      },
+      {
+        "numero": 19,
+        "titulo": "Productos para acabado de la madera, tintes, pinturas, barnices, ceras."
+      },
+      {
+        "numero": 20,
+        "titulo": "Decapantes, poliuretanos, equipos de aplicación sobre la madera, tapa poros, disolventes, diluyentes, clasificación y usos."
+      },
+      {
+        "numero": 21,
+        "titulo": "Banco de carpintero. Herramientas y aparatos. Herramientas para perforar. Para escoplear. Para serrar. Máquinas. Sierra mecánica. Cepilladora. Fresadora. Taladradora. Máquinas universales. Lijadoras. Máquinas manuales."
+      },
+      {
+        "numero": 22,
+        "titulo": "Ensambles planos. Ensambladoras de esquina de muebles. Uniones de esquina de marco. Ensambladora de bastidores. Marcos y entrepaños."
+      },
+      {
+        "numero": 23,
+        "titulo": "Dibujo. Elementos fundamentales. Materiales. Normalización. Signos. Proyecciones. Perspectiva."
+      },
+      {
+        "numero": 24,
+        "titulo": "Mediciones en la construcción. Ordenación de dimensiones en la construcción de edificios. Tolerancias. Medición de huecos de pared. Tabiques de separación ligeros."
+      },
+      {
+        "numero": 25,
+        "titulo": "Puertas. Batientes. Correderas. De vaivén. Plegables y de acordeón. Insonorizantes."
+      },
+      {
+        "numero": 26,
+        "titulo": "Construcciones de ventanas. Ventanas y puertas de hoja batiente, batiente basculante, batiente levadiza y levadiza de corredera. Ventana de caja. Ventana de hoja giratoria, eje horizontal y vertical. Ventana hoja basculante, eje inferior y superior."
+      },
+      {
+        "numero": 27,
+        "titulo": "Herrajes diversos, colocación, tornillería, puntas, bisagras, cerraduras, pomos, manillas, cierrapuertas, colocación."
+      },
+      {
+        "numero": 28,
+        "titulo": "Suelos. Sencillos de tablas. Entarimados de madera machihembrada. Suelo inferior de secado. De parqué. Listones de zócalo."
+      },
+      {
+        "numero": 29,
+        "titulo": "Protección medioambiental, nociones básicas sobre contaminación ambiental. Principales riesgos medioambientales relacionados con las funciones de la categoría."
+      },
+      {
+        "numero": 30,
+        "titulo": "Prevención de riesgos laborales en los trabajos de carpintería. Condiciones de seguridad en el uso de equipos, herramientas y medios auxiliares. Riesgos higiénicos y medidas preventivas. Elementos para la seguridad física."
+      }
+    ]
+  }
+]

@@ -1,0 +1,332 @@
+[
+  {
+    "bloque": "Materia común",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "Constitución Española de 1978: la protección de la salud en la Constitución. Estatuto de Autonomía de Aragón. Competencias en salud recogidas en el Estatuto de Autonomía. Las Cortes de Aragón. El Gobierno de Aragón."
+      },
+      {
+        "numero": 2,
+        "titulo": "El texto refundido de la Ley del Estatuto Básico del Empleado Público, aprobado por el Real Decreto Legislativo 5/2015: deberes del empleado público y código de conducta. Representación, participación y negociación colectiva."
+      },
+      {
+        "numero": 3,
+        "titulo": "El régimen jurídico de la protección de datos de carácter personal: Disposiciones generales. Derechos de las personas."
+      },
+      {
+        "numero": 4,
+        "titulo": "El Procedimiento Administrativo Común de las Administraciones Públicas: Disposiciones Generales. Cómputo de plazos. Objeto y plazos de los recursos administrativos. El Régimen Jurídico del Sector Público: Disposiciones Generales."
+      },
+      {
+        "numero": 5,
+        "titulo": "Ley 14/1986 General de Sanidad. Ley 6/2002 de Salud de Aragón. Principios generales, estructura, contenidos. Ley 16/2003 de cohesión y calidad del Sistema Nacional de Salud. Principios generales, estructura, contenidos."
+      },
+      {
+        "numero": 6,
+        "titulo": "Ley 44/2003 de Ordenación de las Profesiones Sanitarias. Ámbito de aplicación, contenidos. Ley 41/2002, de 14 de noviembre, básica reguladora de la autonomía del paciente y de derechos y obligaciones en materia de información y documentación clínica. Ley 9/2013, de 28 de noviembre, de Autoridad de Profesionales del Sistema Sanitario y de Servicios Sociales Públicos de Aragón."
+      },
+      {
+        "numero": 7,
+        "titulo": "Ley 55/2003 del Estatuto Marco de personal Estatutario de los Servicios de Salud (I). Principios generales, estructura, contenidos. Clasificación del personal estatutario. Derechos y deberes. Adquisición y pérdida de la condición de personal estatutario. Provisión de plazas, selección y promoción interna. Movilidad del personal."
+      },
+      {
+        "numero": 8,
+        "titulo": "Ley 55/2003 del Estatuto Marco de personal Estatutario de los Servicios de Salud (II). Retribuciones. Jornada de trabajo, permisos y licencias. Situaciones del personal estatutario. Régimen disciplinario. Modelo de Carrera Profesional en Aragón. Ley 53/1984 de 26 de diciembre, de incompatibilidades. Principios Generales. Ámbito de aplicación."
+      },
+      {
+        "numero": 9,
+        "titulo": "La igualdad de oportunidades entre mujeres y hombres en Aragón: Disposiciones generales. Prevención y Protección Integral a las Mujeres Víctimas de Violencia en Aragón: Disposiciones Generales. La identidad y expresión de género e igualdad social y no discriminación en la Comunidad Autónoma de Aragón: Disposiciones Generales. La diversidad cultural y lucha contra la discriminación: Principios y objetivos del vigente Plan Integral para la Gestión de la Diversidad de Aragón."
+      },
+      {
+        "numero": 10,
+        "titulo": "El sistema sanitario. Niveles asistenciales. Organización de los servicios sanitarios en Aragón. Estructura del Departamento de Sanidad de Aragón y del Servicio Aragonés de la Salud. Los Sectores sanitarios."
+      },
+      {
+        "numero": 11,
+        "titulo": "Metodología de la Investigación: El método científico. Diseño de un proyecto de investigación. Estadística aplicada a los estudios de Medicina."
+      },
+      {
+        "numero": 12,
+        "titulo": "El método epidemiológico. Epidemiología descriptiva: tipos de estudios, tasas e indicadores. Epidemiología analítica: tipos de estudios. Riesgo relativo, riesgo atribuible y Odds Ratio. Sesgos."
+      },
+      {
+        "numero": 13,
+        "titulo": "Estudios experimentales. Ensayos clínicos. Ética de la investigación clínica. Validez de métodos diagnósticos: sensibilidad, especificidad, valor predictivo positivo."
+      },
+      {
+        "numero": 14,
+        "titulo": "Evaluación de Tecnologías Sanitarias: Procedimientos de evaluación. Cartera de Servicios del Sistema Nacional de Salud. Procedimiento de actualización de la Cartera de Servicios del sistema de Salud de Aragón."
+      },
+      {
+        "numero": 15,
+        "titulo": "Práctica basada en la evidencia. Variabilidad en la práctica médica. Búsqueda y valoración de evidencias. Aplicación de las evidencias a la toma de decisiones clínicas. Guías clínicas. Proyecto Guía-Salud."
+      },
+      {
+        "numero": 16,
+        "titulo": "La seguridad del paciente. Gestión de riesgos. Principales problemas para la seguridad del paciente en el hospital. Estrategias para la mejora de la seguridad."
+      },
+      {
+        "numero": 17,
+        "titulo": "Uso Racional del Medicamento. Criterios de selección de medicamentos. Equivalentes terapéuticos. Indicadores de calidad de prescripción."
+      },
+      {
+        "numero": 18,
+        "titulo": "Evaluación y mejora de la calidad. Modelos de Gestión de la Calidad. Diseño de un programa de calidad."
+      },
+      {
+        "numero": 19,
+        "titulo": "Principios fundamentales de la bioética: aplicación a la asistencia sanitaria. La relación médico-paciente, el consentimiento informado. Los comités de Bioética. La ética en la investigación clínica."
+      },
+      {
+        "numero": 20,
+        "titulo": "Gobierno clínico. La implicación de los profesionales en el funcionamiento de las instituciones sanitarias."
+      }
+    ]
+  },
+  {
+    "bloque": "Materia específica",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "Respuesta EMG de la unidad motora normal. Actividad de inserción. Actividad de placa motora. Potencial de unidad motora. Técnicas de medida e instrumentación."
+      },
+      {
+        "numero": 2,
+        "titulo": "Actividad espontánea patológica."
+      },
+      {
+        "numero": 3,
+        "titulo": "Sistema de registro neurográfico. Potenciales de acción compuesto de nervio y músculo. Conducción motora y sensorial. Técnicas de medida e instrumentación."
+      },
+      {
+        "numero": 4,
+        "titulo": "Fuentes de error en electromiografía y electroneurografía."
+      },
+      {
+        "numero": 5,
+        "titulo": "Evaluación neurofisiológica de los trastornos del movimiento."
+      },
+      {
+        "numero": 6,
+        "titulo": "Evaluación neurofisiológica del suelo de la pelvis."
+      },
+      {
+        "numero": 7,
+        "titulo": "Técnicas de valoración neurofisiológica del sistema nervioso autónomo."
+      },
+      {
+        "numero": 8,
+        "titulo": "Valoración neurofisiológica de los reflejos y respuestas tardías."
+      },
+      {
+        "numero": 9,
+        "titulo": "Estudio neurofisiológico de las fibras mielinizadas finas y amielínicas."
+      },
+      {
+        "numero": 10,
+        "titulo": "Exploración neurofisiológica en la patología de los pares craneales."
+      },
+      {
+        "numero": 11,
+        "titulo": "Exploración neurofisiológica de las radiculopatías."
+      },
+      {
+        "numero": 12,
+        "titulo": "Exploración neurofisiológica en plexopatía braquial y lumbosacra."
+      },
+      {
+        "numero": 13,
+        "titulo": "Exploración neurofisiológica en la patología de los nervios de miembros superiores. Mononeuropatías y síndromes de atrapamiento."
+      },
+      {
+        "numero": 14,
+        "titulo": "Exploración neurofisiológica en la patología de los nervios de miembros inferiores. Mononeuropatías y síndromes de atrapamiento."
+      },
+      {
+        "numero": 15,
+        "titulo": "Tipificación electrofisiológica de las neuropatías."
+      },
+      {
+        "numero": 16,
+        "titulo": "Correlación clínico-electrofisiológica de las neuropatías hereditarias."
+      },
+      {
+        "numero": 17,
+        "titulo": "Correlación clínico-electrofisiológica de las neuropatías adquiridas"
+      },
+      {
+        "numero": 18,
+        "titulo": "Correlación clínico-neurofisiológica en las enfermedades de motoneurona."
+      },
+      {
+        "numero": 19,
+        "titulo": "Correlación clínico-neurofisiológica en los síndromes de hiperactividad muscular."
+      },
+      {
+        "numero": 20,
+        "titulo": "Exploración neurofisiológica de los trastornos e la unión neuromuscular. Técnicas de estimulación repetitiva. Procedimiento de activación. EMG de fibra aislada."
+      },
+      {
+        "numero": 21,
+        "titulo": "Correlación clínico-neurofisiológica de los trastornos de la unión neuromuscular."
+      },
+      {
+        "numero": 22,
+        "titulo": "Correlación clínico-neurofisiológica de las miopatías hereditarias"
+      },
+      {
+        "numero": 23,
+        "titulo": "Exploración neurofisiológica de las miopatias adquiridas."
+      },
+      {
+        "numero": 24,
+        "titulo": "Correlación clínico-neurofisiológica de las canalopatías."
+      },
+      {
+        "numero": 25,
+        "titulo": "Evaluación neurofisiológica del paciente en cuidados intensivos."
+      },
+      {
+        "numero": 26,
+        "titulo": "Evaluación neurofisiológica en la patología neuromuscular del niño."
+      },
+      {
+        "numero": 27,
+        "titulo": "Cirugía de la epilepsia."
+      },
+      {
+        "numero": 28,
+        "titulo": "Monitorización intraoperatoria de la patología raquimedular y de nervios craneales."
+      },
+      {
+        "numero": 29,
+        "titulo": "Estimulación cerebral profunda."
+      },
+      {
+        "numero": 30,
+        "titulo": "Monitorización en patología de fosa posterior y supratentorial."
+      },
+      {
+        "numero": 31,
+        "titulo": "ERG y EOG. Técnicas, instrumentación. Metodología. Correlación clínica."
+      },
+      {
+        "numero": 32,
+        "titulo": "Potenciales evocados visuales. Técnicas, instrumentación. Metodología. Correlación clínica."
+      },
+      {
+        "numero": 33,
+        "titulo": "Potenciales evocados somestésicos. Técnicas, instrumentación. Metodología. Correlación clínica."
+      },
+      {
+        "numero": 34,
+        "titulo": "Potenciales evocados auditivos. Potenciales de Estado Estable. Potenciales vestibulares. Técnicas, instrumentación. Metodología. Correlación clínica."
+      },
+      {
+        "numero": 35,
+        "titulo": "Potenciales evocados cognitivos. P300. N400."
+      },
+      {
+        "numero": 36,
+        "titulo": "Bases neurofisiológicas de la electrogénesis cerebral. Bases tecnológicas del registro EEG. Características instrumentales."
+      },
+      {
+        "numero": 37,
+        "titulo": "Técnicas de activación del EEG y metodología. Artefactos. Principios de localización."
+      },
+      {
+        "numero": 38,
+        "titulo": "Monitorización video EEG. Monitorización ambulatoria. EEG intracraneal."
+      },
+      {
+        "numero": 39,
+        "titulo": "EEG normal en adultos y niños. Maduración cerebral."
+      },
+      {
+        "numero": 40,
+        "titulo": "Anomalías EEG focales y generalizadas. Patrones EEG."
+      },
+      {
+        "numero": 41,
+        "titulo": "EEG en infecciones del sistema nervioso central."
+      },
+      {
+        "numero": 42,
+        "titulo": "EEG en enfermedades cerebrovasculares, traumatismo craneoencefálico, lesiones ocupantes de espacio."
+      },
+      {
+        "numero": 43,
+        "titulo": "EEG en demencias, trastornos metabólicos, enfermedades carenciales, endocrinas."
+      },
+      {
+        "numero": 44,
+        "titulo": "EEG en trastornos de conciencia, coma y muerte cerebral. Efecto de fármacos y tóxicos sobre el EEG."
+      },
+      {
+        "numero": 45,
+        "titulo": "EEG en el neonato normal y patológico."
+      },
+      {
+        "numero": 46,
+        "titulo": "EEG en los síndromes neurológicos pediátricos progresivos."
+      },
+      {
+        "numero": 47,
+        "titulo": "EEG en los síndromes epilépticos infantiles."
+      },
+      {
+        "numero": 48,
+        "titulo": "EEG en los síndromes epilépticos del adulto."
+      },
+      {
+        "numero": 49,
+        "titulo": "EEG en los síndromes epilépticos del anciano."
+      },
+      {
+        "numero": 50,
+        "titulo": "Estado epiléptico."
+      },
+      {
+        "numero": 51,
+        "titulo": "Neuromodulación no invasiva."
+      },
+      {
+        "numero": 52,
+        "titulo": "Bases neurofisiológicas del sueño. Técnicas de estudio, instrumentación y metodología."
+      },
+      {
+        "numero": 53,
+        "titulo": "Características polisomnográficas en sujetos normales y su evolución según la edad."
+      },
+      {
+        "numero": 54,
+        "titulo": "Correlación clínico-neurofisiológica del insomnio."
+      },
+      {
+        "numero": 55,
+        "titulo": "Correlación clínico-neurofisiológica de las hipersomnias. Síndrome de piernas Inquietas y movimientos periódicos de las piernas."
+      },
+      {
+        "numero": 56,
+        "titulo": "Correlación clínico-neurofisiológica en la narcolepsia."
+      },
+      {
+        "numero": 57,
+        "titulo": "Correlación clínico-neurofisiológica de los trastornos respiratorios del sueño en adultos."
+      },
+      {
+        "numero": 58,
+        "titulo": "Correlación clínico-neurofisiológica de los trastornos del sueño en niños."
+      },
+      {
+        "numero": 59,
+        "titulo": "Correlación clínico-neurofisiológica de los trastornos del ritmo circadiano."
+      },
+      {
+        "numero": 60,
+        "titulo": "Correlación clínico-neurofisiológica de las parasomnias."
+      }
+    ]
+  }
+]

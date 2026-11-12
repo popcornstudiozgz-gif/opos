@@ -8,6 +8,8 @@ import { Navbar } from "@/components/layout/Navbar";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { crearMetadata, organismoConPreposicionCompleto } from "@/lib/site";
 import { getOposiciones, getOposicionesDeOrganismo, getTemasDeOposicion } from "@/lib/oposiciones";
+import { agruparOposiciones } from "@/lib/grupos";
+import type { Oposicion } from "@/lib/types";
 
 interface PageProps {
   params: Promise<{ organismo: string }>;
@@ -25,9 +27,12 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const oposiciones = await getOposicionesDeOrganismo(organismo);
   if (oposiciones.length === 0) return {};
   const nombreOrganismo = oposiciones[0].organismo;
+  const de = organismoConPreposicionCompleto(organismo, nombreOrganismo);
   return crearMetadata({
-    titulo: `Oposiciones ${organismoConPreposicionCompleto(organismo, nombreOrganismo)}`,
-    descripcion: `Prepara gratis las oposiciones ${organismoConPreposicionCompleto(organismo, nombreOrganismo)}: temario, test, flashcards, casos prácticos y simulacros.`,
+    titulo: `Oposiciones ${de}`,
+    descripcion: oposiciones.every((o) => o.soloFicha)
+      ? `Las ${oposiciones.length} oposiciones ${de}: plazas, requisitos, cómo es el examen y temario oficial de cada categoría.`
+      : `Prepara gratis las oposiciones ${de}: temario, test, flashcards, casos prácticos y simulacros.`,
     ruta: `/${organismo}`,
   });
 }
@@ -52,6 +57,8 @@ export default async function OrganismoPage({ params }: PageProps) {
     oposiciones.map(async (o) => ({ slug: o.slug, total: (await getTemasDeOposicion(o.slug)).length }))
   );
   const totalTemasDe = (slug: string) => numTemasPorOposicion.find((n) => n.slug === slug)?.total ?? 0;
+  const soloFichas = oposiciones.every((o) => o.soloFicha);
+  const grupos = agruparOposiciones(organismo, oposiciones) ?? [{ titulo: "Oposiciones disponibles", oposiciones }];
 
   return (
     <>
@@ -69,8 +76,9 @@ export default async function OrganismoPage({ params }: PageProps) {
               Oposiciones {organismoConPreposicionCompleto(organismo, nombreOrganismo)}
             </h1>
             <p className="mt-6 max-w-2xl text-lg leading-relaxed text-brand-100">
-              Temario oficial, test, flashcards, casos prácticos y simulacros cronometrados para
-              cada oposición {organismoConPreposicionCompleto(organismo, nombreOrganismo)}, gratis.
+              {soloFichas
+                ? `Plazas, requisitos, cómo es el examen y el temario oficial de las ${oposiciones.length} oposiciones ${organismoConPreposicionCompleto(organismo, nombreOrganismo)}, a partir de sus convocatorias en el boletín oficial.`
+                : `Temario oficial, test, flashcards, casos prácticos y simulacros cronometrados para cada oposición ${organismoConPreposicionCompleto(organismo, nombreOrganismo)}, gratis.`}
             </p>
           </div>
         </Container>
@@ -79,35 +87,42 @@ export default async function OrganismoPage({ params }: PageProps) {
       {/* Catálogo de oposiciones del organismo */}
       <section className="bg-white">
         <Container className="py-16 sm:py-20">
-          <SectionHeading
-            titulo="Oposiciones disponibles"
-            subtitulo="Cada oposición tiene su propio temario. Cuando dos oposiciones comparten materia, comparten también ese contenido."
-          />
-
-          <div className="mt-10 grid gap-6 sm:grid-cols-2">
-            {oposiciones.map((oposicion) => {
-              const numTemas = totalTemasDe(oposicion.slug);
-              return (
-                <Card key={oposicion.slug} className="flex flex-col p-6 transition-shadow hover:shadow-md">
-                  <h3 className="text-xl font-bold text-brand-900">{oposicion.nombre}</h3>
-                  <p className="mt-3 flex-1 text-slate-600">{oposicion.descripcionCorta}</p>
-                  <p className="mt-4 text-sm text-slate-500">
-                    {oposicion.soloFicha
-                      ? `${oposicion.temarioOficial.reduce((n, b) => n + b.temas.length, 0)} temas en el programa · material en preparación`
-                      : `${numTemas} temas en el temario oficial`}
-                  </p>
-                  <Button
-                    href={`/${oposicion.organismoSlug}/${oposicion.puestoSlug}`}
-                    className="mt-6 self-start"
-                  >
-                    {oposicion.soloFicha ? "Ver plazas y temario →" : "Empezar a estudiar →"}
-                  </Button>
-                </Card>
-              );
-            })}
-          </div>
+          {grupos.map((grupo, i) => (
+            <div key={grupo.titulo} className={i > 0 ? "mt-16" : undefined}>
+              <SectionHeading
+                titulo={grupo.titulo}
+                subtitulo={
+                  i === 0
+                    ? "Cada oposición tiene su propio temario. Cuando dos oposiciones comparten materia, comparten también ese contenido."
+                    : undefined
+                }
+              />
+              <div className="mt-10 grid gap-6 sm:grid-cols-2">
+                {grupo.oposiciones.map((oposicion) => (
+                  <TarjetaOposicion key={oposicion.slug} oposicion={oposicion} numTemas={totalTemasDe(oposicion.slug)} />
+                ))}
+              </div>
+            </div>
+          ))}
         </Container>
       </section>
     </>
+  );
+}
+
+function TarjetaOposicion({ oposicion, numTemas }: { oposicion: Oposicion; numTemas: number }) {
+  return (
+    <Card className="flex flex-col p-6 transition-shadow hover:shadow-md">
+      <h3 className="text-xl font-bold text-brand-900">{oposicion.nombre}</h3>
+      <p className="mt-3 flex-1 text-slate-600">{oposicion.descripcionCorta}</p>
+      <p className="mt-4 text-sm text-slate-500">
+        {oposicion.soloFicha
+          ? `${oposicion.temarioOficial.reduce((n, b) => n + b.temas.length, 0)} temas en el programa · material en preparación`
+          : `${numTemas} temas en el temario oficial`}
+      </p>
+      <Button href={`/${oposicion.organismoSlug}/${oposicion.puestoSlug}`} className="mt-6 self-start">
+        {oposicion.soloFicha ? "Ver plazas y temario →" : "Empezar a estudiar →"}
+      </Button>
+    </Card>
   );
 }

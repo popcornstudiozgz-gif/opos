@@ -1,0 +1,96 @@
+[
+  {
+    "bloque": "Materia común",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "La Constitución Española de 1978: Principios fundamentales. Derechos y deberes fundamentales de los ciudadanos. La protección a la salud en la Constitución."
+      },
+      {
+        "numero": 2,
+        "titulo": "La Corona. Las Cortes Generales. El Gobierno de la nación. El Poder Judicial. Clases de normas y jerarquía normativa. Organización territorial del Estado."
+      },
+      {
+        "numero": 3,
+        "titulo": "El Estatuto de Autonomía en Aragón. Principios informadores. Estructura y contenido. La organización institucional de la Comunidad Autónoma. Las Cortes y el Justicia de Aragón. Las competencias de la Comunidad de Aragón con especial referencia a las relativas a sanidad."
+      },
+      {
+        "numero": 4,
+        "titulo": "Población, geografía y territorio en Aragón. Desequilibrios demográficos en Aragón. Magnitudes más relevantes de la economía aragonesa. Evolución reciente de la actividad económica en Aragón."
+      },
+      {
+        "numero": 5,
+        "titulo": "La igualdad de oportunidades entre mujeres y hombres en Aragón: Disposiciones generales. Prevención y Protección Integral a las Mujeres Víctimas de Violencia en Aragón: Disposiciones generales. La identidad y expresión de género e igualdad social y no discriminación en la Comunidad Autónoma de Aragón: Disposiciones Generales. La diversidad cultural y lucha contra la discriminación: Principios y objetivos del Plan Integral para la Gestión de la Diversidad vigente en Aragón."
+      },
+      {
+        "numero": 6,
+        "titulo": "La Ley General de Sanidad: El Sistema Nacional de Salud y los Servicios de Salud de las Comunidades Autónomas. El Área de Salud. La Ley de Salud de Aragón. Principios rectores. Derechos, deberes y garantías de los ciudadanos. Derechos de información sobre la salud y autonomía del paciente."
+      },
+      {
+        "numero": 7,
+        "titulo": "El Departamento de Sanidad del Gobierno de Aragón: Estructura básica y competencias. El Servicio Aragonés de Salud: Estructura y competencias. El Texto Refundido de la Ley del Servicio Aragonés de Salud. Estructura y funcionamiento de las áreas y sectores del Sistema de Salud de Aragón."
+      },
+      {
+        "numero": 8,
+        "titulo": "Personal Estatutario de los servicios de salud (I). Clasificación del Personal Estatutario. Derechos y Deberes. Adquisición y pérdida de la condición de personal estatutario. Provisión de plazas, selección y promoción interna. Movilidad del personal."
+      },
+      {
+        "numero": 9,
+        "titulo": "Estatuto Marco del Personal Estatutario de los servicios de salud (II). Retribuciones. Jornada de trabajo, permisos y licencias. Situaciones del personal estatutario. Régimen disciplinario. Estatuto Básico del Empleado Público: Deberes del empleado público y código de conducta. Representación, participación y negociación colectiva. Incompatibilidades. Principios generales. Ámbito de aplicación."
+      },
+      {
+        "numero": 10,
+        "titulo": "Ley de Prevención de Riesgos Laborales: Conceptos básicos. Derechos y obligaciones en materia de seguridad en el trabajo. Organización de la prevención de riesgos laborales en la Comunidad Autónoma de Aragón. Distribución de funciones y responsabilidades en materia de prevención de riesgos laborales entre los diferentes órganos del Servicio Aragonés de Salud."
+      }
+    ]
+  },
+  {
+    "bloque": "Materia específica",
+    "temas": [
+      {
+        "numero": 11,
+        "titulo": "Nociones generales sobre corte y confección. Técnicas de corte. Tipos de costura. Instrumentos de costura. Tipos de tejidos, Estructura y características fundamentales."
+      },
+      {
+        "numero": 12,
+        "titulo": "Patronaje y confección. Toma de medidas. Útiles para el trazado de patrones. Cálculo de tela y orientación de patrones."
+      },
+      {
+        "numero": 13,
+        "titulo": "Técnicas de ensamblaje: cosido, pegado y termosellado. Ensamblaje a máquina o a mano de diferentes tipos de tejido según el modelo de patrón."
+      },
+      {
+        "numero": 14,
+        "titulo": "Preparación del trabajo para costura. Tipos de puntada. Realización de operaciones de reparación de piezas y tejidos por los procedimientos y técnicas habituales: repaso y zurcido de prendas."
+      },
+      {
+        "numero": 15,
+        "titulo": "Acabados de la confección, por clase de tejido, por tipo de prenda. Tintura y estampación. Etiquetado. Conservación."
+      },
+      {
+        "numero": 16,
+        "titulo": "La ropa hospitalaria. Tipos y características."
+      },
+      {
+        "numero": 17,
+        "titulo": "Medios y recursos materiales del servicio de costura: la máquina de coser, tipos, órganos operadores de la máquina de coser, los sistemas de arrastre."
+      },
+      {
+        "numero": 18,
+        "titulo": "Áreas organizativas del servicio de lavandería, planchado y costura."
+      },
+      {
+        "numero": 19,
+        "titulo": "Nociones de lavado y planchado: útiles, productos y técnicas. Etiquetado de productos textiles."
+      },
+      {
+        "numero": 20,
+        "titulo": "Prevención riesgos laborales y factores de riesgo inherentes al trabajo de costura. Medios de prevención. Prevención y protección colectiva. Equipos de protección individual (EPI). Fichas de datos de seguridad. Actuaciones en caso de emergencias y evacuación."
+      },
+      {
+        "numero": 21,
+        "titulo": "Protección ambiental. Impactos ambientales asociados a los trabajos de costura. Recogida y selección de residuos."
+      }
+    ]
+  }
+]

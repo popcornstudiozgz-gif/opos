@@ -1,0 +1,312 @@
+[
+  {
+    "bloque": "Materia común",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "La Constitución Española de 1978: Principios fundamentales. Derechos y deberes fundamentales de los ciudadanos. La protección a la salud en la Constitución. La Corona. Las Cortes Generales. El Gobierno de la Nación. El Poder Judicial."
+      },
+      {
+        "numero": 2,
+        "titulo": "El Estatuto de Autonomía de Aragón. Principios informadores. Estructura y contenido. La organización institucional de la Comunidad Autónoma. Las Cortes y el Justicia de Aragón. Las competencias de la Comunidad de Aragón con especial referencia a las relativas a sanidad."
+      },
+      {
+        "numero": 3,
+        "titulo": "Población, geografía y territorio en Aragón. Desequilibrios demográficos en Aragón. Magnitudes más relevantes de la economía aragonesa. Evolución reciente de la actividad económica en Aragón."
+      },
+      {
+        "numero": 4,
+        "titulo": "La igualdad de oportunidades entre mujeres y hombres en Aragón: Disposiciones generales. Prevención y Protección Integral a las Mujeres Víctimas de Violencia en Aragón: Disposiciones Generales. La identidad y expresión de género e igualdad social y no discriminación en la Comunidad Autónoma de Aragón: Disposiciones Generales. La diversidad cultural y lucha contra la discriminación: Principios y objetivos del Plan Integral para la Gestión de la Diversidad de Aragón 2022-2025."
+      },
+      {
+        "numero": 5,
+        "titulo": "Los órganos de gobierno y administración de la Comunidad Autónoma de Aragón. Estructura del Departamento de Sanidad. Estructura y competencias del Servicio Aragonés de Salud. El Texto Refundido de la Ley del Servicio Aragonés de Salud. Estructura y funcionamiento de las áreas y sectores del Sistema de Salud de Aragón."
+      },
+      {
+        "numero": 6,
+        "titulo": "La Ley General de Sanidad: El Sistema Nacional de Salud y los Servicios de Salud de las Comunidades Autónomas. El Área de Salud. La Ley de Salud de Aragón. Principios generales. Derechos y deberes de los ciudadanos. Derechos de información sobre la salud y autonomía del paciente."
+      },
+      {
+        "numero": 7,
+        "titulo": "El Procedimiento Administrativo Común de las Administraciones Públicas: Disposiciones Generales. Computo de plazos. Objeto y plazos de los recursos administrativos. El Régimen Jurídico del Sector Público: Disposiciones Generales."
+      },
+      {
+        "numero": 8,
+        "titulo": "El Estatuto Marco del Personal Estatutario de los servicios de salud (I). Clasificación del Personal Estatutario. Derechos y Deberes. Adquisición y pérdida de la condición de personal estatutario. Provisión de plazas, selección y promoción interna. Movilidad del personal."
+      },
+      {
+        "numero": 9,
+        "titulo": "Estatuto Marco del Personal Estatutario de los servicios de salud (II). Retribuciones. Jornada de trabajo, permisos y licencias. Situaciones del personal estatutario. Régimen disciplinario. Régimen de Incompatibilidades. Principios generales. Ámbito de aplicación."
+      },
+      {
+        "numero": 10,
+        "titulo": "Ley de Prevención de Riesgos Laborales: Conceptos básicos. Derechos y obligaciones en materia de seguridad en el trabajo. Organización de la prevención de riesgos laborales en la Comunidad Autónoma de Aragón. Distribución de funciones y responsabilidades en materia de prevención de riesgos laborales entre los diferentes órganos del Servicio Aragonés de Salud"
+      },
+      {
+        "numero": 11,
+        "titulo": "El texto refundido de la Ley del Estatuto Básico del Empleado Público. Deberes del empleado público y código de conducta. Representación, participación y negociación colectiva."
+      },
+      {
+        "numero": 12,
+        "titulo": "El régimen jurídico de la protección de datos de carácter personal. Disposiciones generales. Principios de la protección de datos. Derechos de las personas. Responsable y Encargado del tratamiento."
+      },
+      {
+        "numero": 13,
+        "titulo": "Ley 41/2002, de 14 de noviembre básica reguladora de la autonomía del paciente y de derechos y obligaciones en materia de información y documentación clínica."
+      },
+      {
+        "numero": 14,
+        "titulo": "La Ley 16/2003, de 28 de mayo, de Cohesión y Calidad del Sistema Nacional de Salud: Las prestaciones del Sistema Nacional de Salud. El Consejo Interterritorial. Sistema de información sanitaria."
+      },
+      {
+        "numero": 15,
+        "titulo": "La Ley 44/2003, de 21 de noviembre, de Ordenación de las Profesiones Sanitarias: Ámbito de aplicación. Profesiones sanitarias tituladas y profesionales del área sanitaria de formación profesional. El ejercicio de las profesiones sanitarias. Formación Especializada en Ciencias de la Salud."
+      }
+    ]
+  },
+  {
+    "bloque": "Materia específica",
+    "temas": [
+      {
+        "numero": 16,
+        "titulo": "Tarjeta sanitaria. Base de datos de usuario. Sistemas de Información en asistencia especializada: Conjunto Mínimo Básico de Datos (CMBD). Clasificaciones Internacionales de Problemas de Salud (CIE)"
+      },
+      {
+        "numero": 17,
+        "titulo": "Calidad en los centros sanitarios: comisiones clínicas hospitalarias reguladas por Ley. Otras comisiones hospitalarias e interniveles."
+      },
+      {
+        "numero": 18,
+        "titulo": "Conocimientos básicos de Planificación Sanitaria: Elaboración de programas de salud y su evaluación. Guías de Práctica Clínica. Gestión por Procesos Asistenciales Integrados. Planes integrales: situación, objetivos y líneas de acción."
+      },
+      {
+        "numero": 19,
+        "titulo": "Definición de Salud de la Organización Mundial de Salud (OMS). Clasificación Internacional de Deficiencias, Discapacidades y Minusvalías (CIF): Componentes y dominios de la Salud. Concepto de Funcionamiento y Discapacidad. Objetivos y aplicaciones de la CIF. Propiedades y Componentes de la CIF."
+      },
+      {
+        "numero": 20,
+        "titulo": "Perspectiva de Género en Salud. Morbilidad diferencial: biología, medioambiente, pobreza, violencia, condiciones de trabajo y salud ocupacional, detección de situaciones de maltrato."
+      },
+      {
+        "numero": 21,
+        "titulo": "Estadística aplicada a las ciencias de la salud. Conceptos generales. Estadística descriptiva."
+      },
+      {
+        "numero": 22,
+        "titulo": "Investigación cuantitativa y cualitativa. Definición. Concepto de población, muestra y variable. Tipo de estudios. Principales diseños y métodos. Técnicas de investigación cualitativa, análisis e interpretación de los datos."
+      },
+      {
+        "numero": 23,
+        "titulo": "Fundamentos de la práctica clínica basada en la evidencia. Investigación secundaria. Bases de datos bibliográficas, fuentes documentales de evidencia y revisión bibliográfica. Instrumentos de la evidencia científica. Fuentes documentales de Terapia Ocupacional."
+      },
+      {
+        "numero": 24,
+        "titulo": "Definición de Terapia Ocupacional según la Federación Mundial de Terapia Ocupacional (WOFT). Código deontológico de la WOFT. Código Ético de Terapia Ocupacional (AOTA)."
+      },
+      {
+        "numero": 25,
+        "titulo": "Historia de la Terapia Ocupacional: orígenes, promotores, principios e hitos históricos. La Terapia Ocupacional en España. Asociaciones y colegios profesionales, historia y desarrollo."
+      },
+      {
+        "numero": 26,
+        "titulo": "Técnicas y habilidades de comunicación: relación terapeuta ocupacional y paciente. Escucha activa. La Entrevista clínica."
+      },
+      {
+        "numero": 27,
+        "titulo": "Tratamiento grupal en Terapia Ocupacional. El equipo multidisciplinar."
+      },
+      {
+        "numero": 28,
+        "titulo": "Marcos de referencia biomecánico y de neurodesarrollo (neuromotriz y neurológico evolutivo)."
+      },
+      {
+        "numero": 29,
+        "titulo": "Marcos de referencia neuropsicológicos."
+      },
+      {
+        "numero": 30,
+        "titulo": "Marcos de referencia conductual, cognitivo-conductual y psicodinámico."
+      },
+      {
+        "numero": 31,
+        "titulo": "Modelo de Adolph Meyer, modelo biopsicosocial de A. Mosey, teoría del comportamiento ocupacional de Mary Reilly. Modelo de discapacidad cognitiva de Allen."
+      },
+      {
+        "numero": 32,
+        "titulo": "Modelo de la A.O.T.A. Directrices de la Terminología Uniforme en Terapia Ocupacional traducida (AOTA). Aplicación de la terminología uniforme."
+      },
+      {
+        "numero": 33,
+        "titulo": "Modelo Canadiense del Desempeño Ocupacional y Modelo Kawa."
+      },
+      {
+        "numero": 34,
+        "titulo": "Modelo de Ocupación Humana de Gary Kielhofner (I). Conceptos fundamentales."
+      },
+      {
+        "numero": 35,
+        "titulo": "Modelo de Ocupación Humana de Gary Kielhofner (II). Intervención e instrumentos de valoración."
+      },
+      {
+        "numero": 36,
+        "titulo": "Integración sensorial (I). Conceptos fundamentales."
+      },
+      {
+        "numero": 37,
+        "titulo": "Integración sensorial (II). Evaluación e intervención"
+      },
+      {
+        "numero": 38,
+        "titulo": "Habilidades y destrezas: manipulativa, constructiva, de adaptación, de interacción y comunicación y para la creatividad."
+      },
+      {
+        "numero": 39,
+        "titulo": "Actividades de la vida diaria. Valoración, clasificación e intervención."
+      },
+      {
+        "numero": 40,
+        "titulo": "Órtesis y férulas: clasificación, descripción e indicaciones."
+      },
+      {
+        "numero": 41,
+        "titulo": "Productos de apoyo para la autonomía personal en las actividades de la vida diaria. Adaptaciones del hogar."
+      },
+      {
+        "numero": 42,
+        "titulo": "Productos de apoyo para las actividades y la participación relacionadas con la movilidad personal y el transporte. La supresión de las barreras arquitectónicas."
+      },
+      {
+        "numero": 43,
+        "titulo": "Productos de apoyo para la comunicación. Comunicación aumentativa y alternativa."
+      },
+      {
+        "numero": 44,
+        "titulo": "Evaluación e Intervención en artritis reumatoide, artrosis y fibromialgia."
+      },
+      {
+        "numero": 45,
+        "titulo": "Evaluación e intervención en las lesiones traumatológicas y músculotendinosas (I): fracturas brazo-antebrazo, fracturas muñeca-carpo, fracturas y luxaciones de metacarpianos y falanges, síndrome de dolor regional complejo."
+      },
+      {
+        "numero": 46,
+        "titulo": "Evaluación e intervención en las lesiones traumatológicas y músculotendinosas (II): lesiones de los tendones flexores y extensores y lesiones por zonas. Tendinitis de De Quervain, epicondilitis, síndrome del túnel carpiano, enfermedad de Dupuytren."
+      },
+      {
+        "numero": 47,
+        "titulo": "Evaluación e intervención en las lesiones de nervio periférico de miembro superior."
+      },
+      {
+        "numero": 48,
+        "titulo": "Terapia Ocupacional en pacientes amputados: Tipos de prótesis y descripción de su uso. Actuación en periodo peri protésico, adiestramiento con la prótesis, cuidados de la misma. El/la paciente amputado/a y las actividades de la vida diaria."
+      },
+      {
+        "numero": 49,
+        "titulo": "Terapia Ocupacional en pacientes quemados. Criterios de evaluación de las quemaduras. Prevención de deformidades por contracturas y por cicatrización hipertrófica. Actividades de la vida diaria."
+      },
+      {
+        "numero": 50,
+        "titulo": "Terapia Ocupacional en el daño cerebral adquirido (I). Evaluación."
+      },
+      {
+        "numero": 51,
+        "titulo": "Terapia Ocupacional en el daño cerebral adquirido (II). Intervención."
+      },
+      {
+        "numero": 52,
+        "titulo": "Terapia Ocupacional en las Unidades de Cuidados Intensivos."
+      },
+      {
+        "numero": 53,
+        "titulo": "Terapia Ocupacional en oncología. Intervención de terapia ocupacional en pacientes terminales."
+      },
+      {
+        "numero": 54,
+        "titulo": "Terapia Ocupacional en lesión medular: Evaluación e intervención."
+      },
+      {
+        "numero": 55,
+        "titulo": "Terapia Ocupacional en deficiencia visual, hipoacusia o sordera y en deficiencia multisensorial. Lenguaje de signos."
+      },
+      {
+        "numero": 56,
+        "titulo": "Terapia Ocupacional en enfermedades cardíacas y respiratorias. Optimación del funcionamiento físico, técnicas de economía del esfuerzo. Ergonomía"
+      },
+      {
+        "numero": 57,
+        "titulo": "Terapia Ocupacional en enfermedades neurodegenerativas (I): Esclerosis múltiple y esclerosis lateral amiotrófica."
+      },
+      {
+        "numero": 58,
+        "titulo": "Terapia Ocupacional en enfermedades neurodegenerativas (II): Enfermedad de Parkinson."
+      },
+      {
+        "numero": 59,
+        "titulo": "Terapia Ocupacional en demencias. Tipos de demencias. Evaluación del deterioro cognitivo. Prevención en los grupos de riesgo. Intervención."
+      },
+      {
+        "numero": 60,
+        "titulo": "Terapia Ocupacional en Geriatría. Fracturas de cadera, síndrome de inmovilidad, Inestabilidad y caídas."
+      },
+      {
+        "numero": 61,
+        "titulo": "Terapia Ocupacional en parálisis cerebral: Clasificación, evaluación e intervención. Terapia Ocupacional en espina bífida."
+      },
+      {
+        "numero": 62,
+        "titulo": "Terapia Ocupacional en atención temprana y trastornos específicos del aprendizaje en la infancia."
+      },
+      {
+        "numero": 63,
+        "titulo": "Terapia Ocupacional en pacientes con limitación del funcionamiento intelectual y Síndrome de Down. Evaluación e Intervención."
+      },
+      {
+        "numero": 64,
+        "titulo": "Plan de Salud Mental de Aragón: Objetivos generales y específicos de las Líneas Estratégicas. Red de recursos de Salud Mental en Aragón."
+      },
+      {
+        "numero": 65,
+        "titulo": "Terapia Ocupacional en Salud mental en la infancia y adolescencia (I). Etapas evolutivas en la infancia y adolescencia. Actividades de la vida diaria: autonomía personal, el juego, las actividades sociales y el aprendizaje."
+      },
+      {
+        "numero": 66,
+        "titulo": "Terapia Ocupacional en Salud mental en la infancia y adolescencia (II). Trastornos de conducta disruptiva, trastornos de ansiedad, psicosis, trastornos alimentarios. Intervenciones en el maltrato infantil."
+      },
+      {
+        "numero": 67,
+        "titulo": "Terapia Ocupacional en trastornos del neurodesarrollo: trastorno de espectro autista, trastorno por déficit de atención/hiperactividad y trastornos motóricos. Clasificación e intervención."
+      },
+      {
+        "numero": 68,
+        "titulo": "Terapia Ocupacional en esquizofrenia. Clasificación e intervención."
+      },
+      {
+        "numero": 69,
+        "titulo": "Terapia Ocupacional en trastorno bipolar. Clasificación e intervención."
+      },
+      {
+        "numero": 70,
+        "titulo": "Terapia Ocupacional en trastornos de personalidad. Clasificación e intervención. Trastornos disociativos."
+      },
+      {
+        "numero": 71,
+        "titulo": "Terapia Ocupacional en trastornos de ansiedad, trastornos de Somatización, depresión mayor y depresión reactiva."
+      },
+      {
+        "numero": 72,
+        "titulo": "Terapia Ocupacional en trastornos de la conducta alimentaria. Clasificación e intervención."
+      },
+      {
+        "numero": 73,
+        "titulo": "Terapia Ocupacional en patología dual en salud mental."
+      },
+      {
+        "numero": 74,
+        "titulo": "Promoción de la autonomía personal y atención a las personas en situación de dependencia: Disposiciones generales y el Sistema para la Autonomia y atención a la dependencia. Baremo de valoración de la situación de dependencia (BVD): Introducción."
+      },
+      {
+        "numero": 75,
+        "titulo": "Nuevas tecnologías aplicadas en el tratamiento de Terapia Ocupacional. Domótica y Realidad Virtual. Tele-rehabilitación."
+      }
+    ]
+  }
+]

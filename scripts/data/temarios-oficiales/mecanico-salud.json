@@ -1,0 +1,132 @@
+[
+  {
+    "bloque": "Materia común",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "La Constitución Española de 1978: Principios fundamentales. Derechos y deberes fundamentales de los ciudadanos. La protección a la salud en la Constitución. La Corona. Las Cortes Generales. El Gobierno de la Nación. El Poder Judicial."
+      },
+      {
+        "numero": 2,
+        "titulo": "El Estatuto de Autonomía de Aragón. Principios informadores. Estructura y contenido. La organización institucional de la Comunidad Autónoma. Las Cortes y El Justicia de Aragón. Las competencias de la Comunidad de Aragón con especial referencia a las relativas a sanidad."
+      },
+      {
+        "numero": 3,
+        "titulo": "Población, geografía y territorio en Aragón. Desequilibrios demográficos en Aragón. Magnitudes más relevantes de la economía aragonesa. Evolución reciente de la actividad económica en Aragón."
+      },
+      {
+        "numero": 4,
+        "titulo": "La igualdad de oportunidades entre mujeres y hombres en Aragón: Disposiciones generales. Prevención y Protección Integral a las Mujeres Víctimas de Violencia en Aragón: Disposiciones Generales. La identidad y expresión de género e igualdad social y no discriminación en la Comunidad Autónoma de Aragón: Disposiciones Generales. La diversidad cultural y lucha contra la discriminación: Principios y objetivos del Plan Integral para la Gestión de la Diversidad vigente en Aragón."
+      },
+      {
+        "numero": 5,
+        "titulo": "Los órganos de gobierno y administración de la Comunidad Autónoma de Aragón. El Departamento de Sanidad del Gobierno de Aragón: Estructura básica y competencias. El Servicio Aragonés de Salud: Estructura y competencias. El Texto Refundido de la Ley del Servicio Aragonés de Salud. Estructura y funcionamiento de las áreas y sectores del Sistema de Salud de Aragón."
+      },
+      {
+        "numero": 6,
+        "titulo": "La Ley General de Sanidad: El Sistema Nacional de Salud y los Servicios de Salud de las Comunidades Autónomas. El Área de Salud. La Ley de Salud de Aragón: Principios generales. Derechos y deberes de los ciudadanos. Derechos de información sobre la salud y autonomía del paciente."
+      },
+      {
+        "numero": 7,
+        "titulo": "El Procedimiento Administrativo Común de las Administraciones Públicas: Disposiciones Generales. Computo de plazos. Objeto y plazos de los recursos administrativos. El Régimen Jurídico del Sector Público: Disposiciones Generales."
+      },
+      {
+        "numero": 8,
+        "titulo": "El régimen jurídico de la protección de datos de carácter personal. Disposiciones generales. Principios de la Protección de datos. Derechos de las personas. Responsable y Encargado del Tratamiento."
+      },
+      {
+        "numero": 9,
+        "titulo": "Personal Estatutario de los Servicios de Salud: Clasificación del Personal Estatutario. Derechos y Deberes. Adquisición y pérdida de la condición de personal estatutario. Provisión de plazas, selección y promoción interna. Movilidad del personal. Situaciones. Régimen disciplinario. La Ley del Estatuto Básico del Empleado Público: Deberes del empleado público y código de conducta. Representación, participación y negociación colectiva. El régimen de Incompatibilidades: Principios generales. Ámbito de aplicación"
+      },
+      {
+        "numero": 10,
+        "titulo": "Ley de Prevención de Riesgos Laborales: Conceptos básicos. Derechos y obligaciones en materia de seguridad en el trabajo. Organización de la prevención de riesgos laborales en la Comunidad Autónoma de Aragón. Distribución de funciones y responsabilidades en materia de prevención de riesgos laborales entre los diferentes órganos del Servicio Aragonés de Salud."
+      }
+    ]
+  },
+  {
+    "bloque": "Materia específica",
+    "temas": [
+      {
+        "numero": 11,
+        "titulo": "Soldadura eléctrica. Introducción a la soldadura eléctrica. Tipos de soldadura eléctrica. Electrodos."
+      },
+      {
+        "numero": 12,
+        "titulo": "Soldadura con llama. Gases empleados. Manipulación y cuidados. Accesorios para la conducción de gases. Tipos de sopletes. Regulación y control de la llama. Metales de aportación."
+      },
+      {
+        "numero": 13,
+        "titulo": "Máquinas herramientas. Clases de herramientas. Condiciones de trabajo. Taladradora. Plegadora. Cizalla. Amoladora. Torno. Fresadora. Limadora. Sierras mecánicas. Esmeriladora."
+      },
+      {
+        "numero": 14,
+        "titulo": "Herramientas de mano y utilización. Tipos de herramientas. Utilización: Limado. Roscado. Aserrado. Cincelado. Burilado. Afilado de brocas. Técnica del taladrado."
+      },
+      {
+        "numero": 15,
+        "titulo": "Instrumentos de medida y verificación. Herramientas de medida. Unidades de medida."
+      },
+      {
+        "numero": 16,
+        "titulo": "Principios generales de la física. Energía. Rendimiento. Estado de los cuerpos. Presión. Movimiento. Fuerzas. Dilatación. Peso específico. Densidad."
+      },
+      {
+        "numero": 17,
+        "titulo": "Mecánica general. Propiedades de materiales metálicos férreos y no férreos. Tornillería. Rodamientos. Grasas. Aceites."
+      },
+      {
+        "numero": 18,
+        "titulo": "Construcciones metálicas. Trazado, cortado, mecanizado y conformado de chapas, perfiles y tubos."
+      },
+      {
+        "numero": 19,
+        "titulo": "Sistemas hidráulicos y neumáticos. Conceptos básicos. Componentes de una instalación y sus características. Esquemas neumáticos y electroneumáticos básicos. Compresores. Fluidos. Filtros. Desecadores. Aplicaciones prácticas. Medidas de seguridad."
+      },
+      {
+        "numero": 20,
+        "titulo": "Climatización. Conceptos básicos. Temperatura. Movimiento del aire. Pureza del aire. Frío. Calor. Caloría. Frigoría. Salto térmico. Zona de confort. Termómetro húmedo. Termómetro seco. Humedad absoluta. Humedad específica. Humedad relativa. Calor sensible. Calor latente. Entalpía. Ábaco psicrometrito. Clasificación de los equipos de climatización y sus componentes."
+      },
+      {
+        "numero": 21,
+        "titulo": "Mantenimiento de instalaciones. Grupo electrógeno. Torres de refrigeración. Grupos de vacío. Correo neumático. Compresores neumáticos. Gas natural. Propano. Butano."
+      },
+      {
+        "numero": 22,
+        "titulo": "Mantenimiento de maquinaria de lavandería, cocina y esterilización. Lavadoras. Centrifugadora. Secadoras. Calandras. Planchado. Marmitas. Sartenes basculantes. Freidoras. Hornos. Trenes de lavado. Cintas transportadoras."
+      },
+      {
+        "numero": 23,
+        "titulo": "Gases medicinales: Composición, clasificación y seguridad. Depósitos criogénicos. Fuentes de suministro. Elementos de regulación."
+      },
+      {
+        "numero": 24,
+        "titulo": "Gases industriales. Acetileno. Argón. Oxígeno industrial. Nitrógeno industrial. Propiedades físicas. Propiedades químicas."
+      },
+      {
+        "numero": 25,
+        "titulo": "Botellas de gases. Identificación. Etiquetado. Partes de una botella. Almacenamiento y transporte."
+      },
+      {
+        "numero": 26,
+        "titulo": "Sistemas contra incendios. Red de distribución. Grupo de presión. Bocas de incendios equipadas. Rociadores. Extintores."
+      },
+      {
+        "numero": 27,
+        "titulo": "Mantenimiento mecánico. Tipos de mantenimiento: correctivo, preventivo y predictivo. Planes de mantenimiento preventivo de maquinaria y equipo industrial."
+      },
+      {
+        "numero": 28,
+        "titulo": "Protección medioambiental. Nociones básicas sobre contaminación ambiental. Principales riesgos medioambientales relacionados a las funciones de la categoría."
+      },
+      {
+        "numero": 29,
+        "titulo": "Mantenimiento Integral en los centros sanitarios. El trabajo en equipo. Conceptos de Calidad aplicables al trabajo de mantenimiento de las instalaciones mecánicas en los centros sanitarios."
+      },
+      {
+        "numero": 30,
+        "titulo": "Prevención de riesgos laborales. Riesgos laborales específicos en las funciones del mecánico, medidas de protección individuales y colectivas a las funciones de la categoría."
+      }
+    ]
+  }
+]

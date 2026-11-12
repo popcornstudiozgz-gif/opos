@@ -1,0 +1,332 @@
+[
+  {
+    "bloque": "Materia común",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "Constitución Española de 1978: la protección de la salud en la Constitución. Estatuto de Autonomía de Aragón. Competencias en salud recogidas en el Estatuto de Autonomía. Las Cortes de Aragón. El Gobierno de Aragón."
+      },
+      {
+        "numero": 2,
+        "titulo": "El texto refundido de la Ley del Estatuto Básico del Empleado Público, aprobado por el Real Decreto Legislativo 5/2015: deberes del empleado público y código de conducta. Representación, participación y negociación colectiva."
+      },
+      {
+        "numero": 3,
+        "titulo": "El régimen jurídico de la protección de datos de carácter personal: Disposiciones generales. Principios de la protección de datos. Derechos de las personas."
+      },
+      {
+        "numero": 4,
+        "titulo": "El Procedimiento Administrativo Común de las Administraciones Públicas: Disposiciones Generales. Cómputo de plazos. Objeto y plazos de los recursos administrativos. El Régimen Jurídico del Sector Público: Disposiciones Generales."
+      },
+      {
+        "numero": 5,
+        "titulo": "Ley 14/86 General de Sanidad. Ley 6/2002 de Salud de Aragón. Principios generales, estructura, contenidos. Ley 16/2003 de cohesión y calidad del Sistema Nacional de Salud. Principios generales, estructura, contenidos."
+      },
+      {
+        "numero": 6,
+        "titulo": "Ley 44/2003 de Ordenación de las Profesiones Sanitarias. Ámbito de aplicación, contenidos. Ley 41/2002, de 14 de noviembre, básica reguladora de la autonomía del paciente y de derechos y obligaciones en materia de información y documentación clínica. Ley 9/2013, de 28 de noviembre, de Autoridad de Profesionales del Sistema Sanitario y de Servicios Sociales Públicos de Aragón."
+      },
+      {
+        "numero": 7,
+        "titulo": "Ley 55/2003 del Estatuto Marco de personal Estatutario de los Servicios de Salud (I). Principios generales, estructura, contenidos. Clasificación del personal estatutario. Derechos y deberes. Adquisición y pérdida de la condición de personal estatutario. Provisión de plazas, selección y promoción interna. Movilidad del personal."
+      },
+      {
+        "numero": 8,
+        "titulo": "Ley 55/2003 del Estatuto Marco de personal Estatutario de los Servicios de Salud (II). Retribuciones. Jornada de trabajo, permisos y licencias. Situaciones del personal estatutario. Régimen disciplinario. Modelo de Carrera Profesional en Aragón. Ley 53/1984 de 26 de diciembre, de incompatibilidades. Principios Generales. Ámbito de aplicación."
+      },
+      {
+        "numero": 9,
+        "titulo": "La igualdad de oportunidades entre mujeres y hombres en Aragón: Disposiciones generales. Prevención y Protección Integral a las Mujeres Víctimas de Violencia en Aragón: Disposiciones Generales. La identidad y expresión de género e igualdad social y no discriminación en la Comunidad Autónoma de Aragón: Disposiciones Generales. La diversidad cultural y lucha contra la discriminación: Principios y objetivos del vigente Plan Integral para la Gestión de la Diversidad de Aragón."
+      },
+      {
+        "numero": 10,
+        "titulo": "El sistema sanitario. Niveles asistenciales. Organización de los servicios sanitarios en Aragón. Estructura del Departamento de Sanidad de Aragón y del Servicio Aragonés de la Salud. Los Sectores sanitarios."
+      },
+      {
+        "numero": 11,
+        "titulo": "Metodología de la Investigación: El método científico. Diseño de un proyecto de investigación. Estadística aplicada a los estudios de Medicina."
+      },
+      {
+        "numero": 12,
+        "titulo": "El método epidemiológico. Epidemiología descriptiva: tipos de estudios, tasas e indicadores. Epidemiología analítica: tipos de estudios. Riesgo relativo, riesgo atribuible y Odds Ratio. Sesgos."
+      },
+      {
+        "numero": 13,
+        "titulo": "Estudios experimentales. Ensayos clínicos. Ética de la investigación clínica. Validez de métodos diagnósticos: sensibilidad, especificidad, valor predictivo positivo."
+      },
+      {
+        "numero": 14,
+        "titulo": "Evaluación de Tecnologías Sanitarias: Procedimientos de evaluación. Cartera de Servicios del Sistema Nacional de Salud. Procedimiento de actualización de la Cartera de Servicios del sistema de Salud de Aragón."
+      },
+      {
+        "numero": 15,
+        "titulo": "Práctica basada en la evidencia. Variabilidad en la práctica médica. Búsqueda y valoración de evidencias. Aplicación de las evidencias a la toma de decisiones clínicas. Guías clínicas. Proyecto Guía-Salud."
+      },
+      {
+        "numero": 16,
+        "titulo": "La seguridad del paciente. Gestión de riesgos. Principales problemas para la seguridad del paciente en el hospital. Estrategias para la mejora de la seguridad."
+      },
+      {
+        "numero": 17,
+        "titulo": "Uso Racional del Medicamento. Criterios de selección de medicamentos. Equivalentes terapéuticos. Indicadores de calidad de prescripción."
+      },
+      {
+        "numero": 18,
+        "titulo": "Evaluación y mejora de la calidad. Modelos de Gestión de la Calidad. Diseño de un programa de calidad."
+      },
+      {
+        "numero": 19,
+        "titulo": "Principios fundamentales de la bioética: aplicación a la asistencia sanitaria. La relación médico-paciente, el consentimiento informado. Los comités de Bioética. La ética en la investigación clínica."
+      },
+      {
+        "numero": 20,
+        "titulo": "Gobierno clínico. La implicación de los profesionales en el funcionamiento de las instituciones sanitarias."
+      }
+    ]
+  },
+  {
+    "bloque": "Materia específica",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "Placenta y anejos ovulares: Anatomía y fisiología de la placenta. Membranas ovulares. Cordón umbilical. Líquido amniótico."
+      },
+      {
+        "numero": 2,
+        "titulo": "Fisiología del feto: Crecimiento y desarrollo. Circulación. Respiración. Desarrollo y maduración pulmonar. Función endocrina, renal y digestiva."
+      },
+      {
+        "numero": 3,
+        "titulo": "Adaptación materna al embarazo: Cambios del aparato genital. Modificaciones cardiovasculares, pulmonares, urinarias, digestivas, musculoesqueléticas, cutáneas, metabólicas, endocrinas e inmunológicas."
+      },
+      {
+        "numero": 4,
+        "titulo": "Consulta preconcepcional en la mujer sana y enferma. Consejo genético y reproductivo."
+      },
+      {
+        "numero": 5,
+        "titulo": "Diagnóstico del embarazo: Clínico, bioquímico y ecográfico. Diagnóstico diferencial."
+      },
+      {
+        "numero": 6,
+        "titulo": "Consulta prenatal: Historia, exploración clínica y exploraciones complementarias. Acciones preventivas y promotoras de la salud durante el embarazo. Efectos adversos de los agentes diagnósticos y terapéuticos durante el embarazo."
+      },
+      {
+        "numero": 7,
+        "titulo": "Cribado y diagnóstico de las cromosomopatías, enfermedades hereditarias y malformaciones estructurales fetales. Conducta general. Finalización voluntaria del embarazo: aspectos legales y clínicos."
+      },
+      {
+        "numero": 8,
+        "titulo": "Pruebas de evaluación fetal durante el embarazo y el parto (edad, crecimiento, maduración y bienestar fetal). Alteraciones del bienestar fetal durante el embarazo y el parto."
+      },
+      {
+        "numero": 9,
+        "titulo": "Causas del parto. Elementos del parto: Canal, objeto y motor del parto."
+      },
+      {
+        "numero": 10,
+        "titulo": "Mecanismo del parto en presentación de vértice (período de dilatación, expulsivo y alumbramiento)."
+      },
+      {
+        "numero": 11,
+        "titulo": "Asistencia clínica al parto (período de dilatación, expulsivo y alumbramiento)."
+      },
+      {
+        "numero": 12,
+        "titulo": "Puerperio. Cambios anatómicos y fisiológicos. Asistencia clínica al puerperio. Lactación: Fisiología. Fármacos y lactación. Inhibición de la lactación."
+      },
+      {
+        "numero": 13,
+        "titulo": "Aborto: Amenaza de aborto. Aborto espontáneo. Aborto habitual. Incompetencia cervical."
+      },
+      {
+        "numero": 14,
+        "titulo": "Embarazo ectópico."
+      },
+      {
+        "numero": 15,
+        "titulo": "Enfermedad trofoblástica gestacional."
+      },
+      {
+        "numero": 16,
+        "titulo": "Patología de la placenta: Abruptio placentae. Placenta previa. Acretismo placentario."
+      },
+      {
+        "numero": 17,
+        "titulo": "Patología del amnios y del cordón umbilical: Polihidramnios. Oligohidramnios. Bridas amnióticas."
+      },
+      {
+        "numero": 18,
+        "titulo": "Rotura prematura de las membranas amnióticas. Infección amniótica."
+      },
+      {
+        "numero": 19,
+        "titulo": "Alteraciones del crecimiento fetal: Crecimiento intrauterino restringido. Macrosomía fetal."
+      },
+      {
+        "numero": 20,
+        "titulo": "Alteraciones de la duración del embarazo: Parto pretérmino. Embarazo prolongado."
+      },
+      {
+        "numero": 21,
+        "titulo": "Embarazo múltiple."
+      },
+      {
+        "numero": 22,
+        "titulo": "Isoinmunización Rh."
+      },
+      {
+        "numero": 23,
+        "titulo": "Estados hipertensivos y gestación."
+      },
+      {
+        "numero": 24,
+        "titulo": "Diabetes mellitus y gestación."
+      },
+      {
+        "numero": 25,
+        "titulo": "Infecciones y gestación: Bacterianas, víricas y parasitarias."
+      },
+      {
+        "numero": 26,
+        "titulo": "Enfermedades maternas y gestación: Cardíacas, dermatológicas, digestivas, endocrinológicas, hematológicas, nefrológicas, neurológicas, respiratorias, inmunológicas, tromboembólicas, oncológicas y psiquiátricas."
+      },
+      {
+        "numero": 27,
+        "titulo": "Distocias del parto: Distocias del motor, del canal y del objeto del parto. Presentación podálica y situación transversa."
+      },
+      {
+        "numero": 28,
+        "titulo": "Rotura uterina. Desgarros y lesiones del canal del parto. Embolia del líquido amniótico. Muerte fetal"
+      },
+      {
+        "numero": 29,
+        "titulo": "Hemorragias del alumbramiento."
+      },
+      {
+        "numero": 30,
+        "titulo": "Infección puerperal. Patología mamaria puerperal. Tristeza, depresión y psicosis puerperal."
+      },
+      {
+        "numero": 31,
+        "titulo": "Tocurgia: fórceps, ventosa, espátulas y cesárea. Legrado. Histerectomía obstétrica."
+      },
+      {
+        "numero": 32,
+        "titulo": "Maduración cervical e inducción del parto."
+      },
+      {
+        "numero": 33,
+        "titulo": "Historia, exploración clínica y exploraciones complementarias en ginecología."
+      },
+      {
+        "numero": 34,
+        "titulo": "Ginecología de la infancia, pubertad y adolescencia."
+      },
+      {
+        "numero": 35,
+        "titulo": "Ginecología del climaterio y del envejecimiento."
+      },
+      {
+        "numero": 36,
+        "titulo": "Anomalías de la determinación y diferenciación sexual. Estados intersexuales. Alteraciones congénitas del aparato genital femenino."
+      },
+      {
+        "numero": 37,
+        "titulo": "Alteraciones menstruales. Amenorrea primaria y secundaria. Hemorragias uterinas disfuncionales. Dismenorrea. Síndrome premenstrual."
+      },
+      {
+        "numero": 38,
+        "titulo": "Síndrome de ovarios poliquísticos."
+      },
+      {
+        "numero": 39,
+        "titulo": "Estados hiperandrogénicos. Hirsutismo y virilismo."
+      },
+      {
+        "numero": 40,
+        "titulo": "Esterilidad e infertilidad."
+      },
+      {
+        "numero": 41,
+        "titulo": "Contracepción."
+      },
+      {
+        "numero": 42,
+        "titulo": "Infecciones genitales de transmisión sexual. Enfermedad inflamatoria pélvica. Tuberculosis genital."
+      },
+      {
+        "numero": 43,
+        "titulo": "Endometriosis."
+      },
+      {
+        "numero": 44,
+        "titulo": "Prolapso genital. Incontinencia urinaria. Desgarros perineales. Incontinencia fecal. Fístulas genitales."
+      },
+      {
+        "numero": 45,
+        "titulo": "Enfermedades de la vulva (1). Tumores benignos. Distrofias vulvares. Neoplasia intraepitelial vulvar."
+      },
+      {
+        "numero": 46,
+        "titulo": "Enfermedades de la vulva (2). Cáncer de vulva."
+      },
+      {
+        "numero": 47,
+        "titulo": "Enfermedades de la vagina. Vulvovaginitis. Bartolinitis. Tumores benignos. Cáncer de vagina."
+      },
+      {
+        "numero": 48,
+        "titulo": "Enfermedades del cuello uterino (1). Pólipos cervicales. Lesiones cervicales intraepiteliales."
+      },
+      {
+        "numero": 49,
+        "titulo": "Enfermedades del cuello uterino (2). Cáncer del cuello uterino."
+      },
+      {
+        "numero": 50,
+        "titulo": "Enfermedades del cuerpo uterino (1). Pólipos endometriales. Endometritis. Mioma uterino."
+      },
+      {
+        "numero": 51,
+        "titulo": "Enfermedades del cuerpo uterino (2). Cáncer de endometrio. Sarcomas de útero."
+      },
+      {
+        "numero": 52,
+        "titulo": "Enfermedades de las trompas de Falopio. Tumores benignos y malignos de las trompas. Quistes de paraovario"
+      },
+      {
+        "numero": 53,
+        "titulo": "Enfermedades del ovario (1). Patología tumoral del ovario. Clasificación y terminología."
+      },
+      {
+        "numero": 54,
+        "titulo": "Enfermedades del ovario (2). Clínica, diagnóstico y tratamiento de los tumores benignos del ovario."
+      },
+      {
+        "numero": 55,
+        "titulo": "Enfermedades del ovario (3). Clínica, diagnóstico y tratamiento de los tumores malignos del ovario."
+      },
+      {
+        "numero": 56,
+        "titulo": "Enfermedades de la mama (1). Mastodinia. Secreción mamaria. Mastitis. Mastopatía fibroquística. Tumores benignos de la mama."
+      },
+      {
+        "numero": 57,
+        "titulo": "Enfermedades de la mama (2). Cáncer de mama."
+      },
+      {
+        "numero": 58,
+        "titulo": "Programas de prevención y diagnóstico precoz del cáncer genital y mamario."
+      },
+      {
+        "numero": 59,
+        "titulo": "Conducta ante la agresión sexual."
+      },
+      {
+        "numero": 60,
+        "titulo": "Aspectos médico-legales del ejercicio de la Obstetricia y Ginecología."
+      }
+    ]
+  }
+]

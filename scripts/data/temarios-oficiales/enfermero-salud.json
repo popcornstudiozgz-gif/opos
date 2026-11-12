@@ -1,0 +1,292 @@
+[
+  {
+    "bloque": "Materia común",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "La Constitución Española de 1978: Principios fundamentales. Derechos y deberes fundamentales de los ciudadanos. La protección a la salud en la Constitución. La Corona. Las Cortes Generales. El Gobierno de la Nación. El Poder Judicial."
+      },
+      {
+        "numero": 2,
+        "titulo": "El Estatuto de Autonomía en Aragón. Principios informadores. Estructura y contenido. La organización institucional de la Comunidad Autónoma. Las Cortes y el Justicia de Aragón. Las competencias de la Comunidad de Aragón con especial referencia a las relativas a sanidad. Los órganos de gobierno y administración de la Comunidad Autónoma de Aragón."
+      },
+      {
+        "numero": 3,
+        "titulo": "Población, geografía y territorio en Aragón. Desequilibrios demográficos en Aragón. Magnitudes más relevantes de la economía aragonesa. Evolución reciente de la actividad económica en Aragón."
+      },
+      {
+        "numero": 4,
+        "titulo": "La igualdad de oportunidades entre mujeres y hombres en Aragón: Disposiciones generales. Prevención y Protección Integral a las Mujeres Víctimas de Violencia en Aragón: Disposiciones Generales. La identidad y expresión de género e igualdad social y no discriminación en la Comunidad Autónoma de Aragón: Disposiciones Generales. La diversidad cultural y lucha contra la discriminación: Principios y objetivos del Plan Integral para la Gestión de la Diversidad de Aragón 2022 - 2025."
+      },
+      {
+        "numero": 5,
+        "titulo": "El Departamento de Sanidad del Gobierno de Aragón. Estructura básica y competencias. El Servicio Aragonés de Salud: Estructura y competencias. El Decreto 174/2010, de 21 de septiembre, del Gobierno de Aragón, por el que se aprueba el reglamento de la estructura y funcionamiento de las áreas y sectores del Sistema de Salud de Aragón."
+      },
+      {
+        "numero": 6,
+        "titulo": "Ley General de Sanidad: El Sistema Nacional de Salud y los Servicios de Salud de las Comunidades Autónomas. El Área de Salud. La Ley 6/2002, de 15 de abril, de Salud de Aragón. Principios generales. Derechos y deberes de los ciudadanos. Derechos de información sobre la salud y autonomía del paciente."
+      },
+      {
+        "numero": 7,
+        "titulo": "Ley del Procedimiento Administrativo Común de las Administraciones Públicas. Ámbito de aplicación y principios generales. Los interesados en el procedimiento administrativo. Computo de plazos. Revisión de actos en vía administrativa: revisión de oficio y recursos administrativos."
+      },
+      {
+        "numero": 8,
+        "titulo": "El Estatuto Marco del Personal Estatutario de los Servicios de Salud (I). Clasificación del Personal Estatutario. Derechos y Deberes. Adquisición y pérdida de la condición de personal estatutario. Provisión de plazas, selección y promoción interna. Movilidad del personal."
+      },
+      {
+        "numero": 9,
+        "titulo": "El Estatuto Marco del Personal Estatutario de los Servicios de Salud (II). Retribuciones. Jornada de trabajo, permisos y licencias. Situaciones del personal estatutario. Régimen disciplinario. Ley 53/1984 de 26 de diciembre, de Incompatibilidades. Principios generales. Ámbito de aplicación."
+      },
+      {
+        "numero": 10,
+        "titulo": "Ley de Prevención de Riesgos Laborales: Conceptos básicos. Derechos y obligaciones en materia de seguridad en el trabajo. Organización de la prevención de riesgos laborales en la Comunidad Autónoma de Aragón. Distribución de funciones y responsabilidades en materia de prevención de riesgos laborales entre los diferentes órganos del Servicio Aragonés de Salud."
+      },
+      {
+        "numero": 11,
+        "titulo": "El texto refundido de la Ley del Estatuto Básico del Empleado Público, aprobado por el Real Decreto Legislativo 5/2015: Deberes del empleado público y código de conducta. Representación, participación y negociación colectiva."
+      },
+      {
+        "numero": 12,
+        "titulo": "El régimen jurídico de la protección de datos de carácter personal. Disposiciones generales. Principios de la Protección de datos. Derechos de las personas. Responsable y Encargado del Tratamiento"
+      },
+      {
+        "numero": 13,
+        "titulo": "Ley básica reguladora de la autonomía del paciente y de derechos y obligaciones en materia de información y documentación clínica."
+      },
+      {
+        "numero": 14,
+        "titulo": "Ley de Cohesión y Calidad del Sistema Nacional de Salud: Las prestaciones del Sistema Nacional de Salud. El Consejo Interterritorial. Sistema de información sanitaria."
+      },
+      {
+        "numero": 15,
+        "titulo": "Ley de Ordenación de las Profesiones Sanitarias: Ámbito de aplicación. Profesiones sanitarias tituladas y profesionales del área sanitaria de formación profesional. El ejercicio de las profesiones sanitarias. Formación Especializada en Ciencias de la Salud."
+      },
+      {
+        "numero": 16,
+        "titulo": "Ley 9/2013, de 28 de noviembre, de Autoridad de Profesionales del Sistema Sanitario y de Servicios Sociales Públicos de Aragón."
+      }
+    ]
+  },
+  {
+    "bloque": "Materia específica",
+    "temas": [
+      {
+        "numero": 17,
+        "titulo": "Principales modelos y Teorías de Enfermería. Características generales de los modelos: componentes y elementos."
+      },
+      {
+        "numero": 18,
+        "titulo": "Características y etapas del proceso enfermero."
+      },
+      {
+        "numero": 19,
+        "titulo": "Valoración de enfermería. Necesidades básicas de Virginia Henderson y Patrones funcionales de Marjory Gordon. Interpretación de resultados e identificación de problemas. Principales instrumentos de valoración en los cuidados de enfermería: Cuestionarios, escalas y test."
+      },
+      {
+        "numero": 20,
+        "titulo": "Técnicas y habilidades de comunicación y relación interpersonal. Entrevista clínica. Identificación de necesidades de apoyo emocional y psicológico al paciente, cuidador principal y familia. Dinámica de grupos y trabajo en equipo."
+      },
+      {
+        "numero": 21,
+        "titulo": "Diagnósticos enfermeros y problemas de colaboración. Taxonomía NANDA."
+      },
+      {
+        "numero": 22,
+        "titulo": "Planificación. Formulación de objetivos. Taxonomía NOC. Intervenciones. Taxonomía NIC. Evaluación del proceso enfermero."
+      },
+      {
+        "numero": 23,
+        "titulo": "Demografía sanitaria: Concepto y tendencias de la población española y aragonesa. Indicadores demográficos, socioeconómicos, del nivel de salud y medioambientales."
+      },
+      {
+        "numero": 24,
+        "titulo": "Epidemiología. El método epidemiológico. Enfermedades trasmisibles en la población española. Sistema nacional de Vigilancia Epidemiológica. Enfermedades de declaración obligatoria."
+      },
+      {
+        "numero": 25,
+        "titulo": "Estadística descriptiva. Tipos de distribución y parámetros que la definen. Estadística inferencial: Intervalos de confianza. Los tests de hipótesis. Validez y fiabilidad de los instrumentos de medida. Sensibilidad, especificidad. Valor predictivo positivo y negativo. Curvas ROC."
+      },
+      {
+        "numero": 26,
+        "titulo": "Investigación cuantitativa: definición. Conceptos de población y muestra variable. Tipos de estudios. Estudios descriptivos. Estudios de cohortes. Estudios de casos y controles. Estudios cuasi experimentales. Ensayos clínicos."
+      },
+      {
+        "numero": 27,
+        "titulo": "Fundamentos de la investigación cualitativa. Principales diseños y métodos de investigación cualitativa. Proceso y fases de la investigación cualitativa: formulación del problema, decisiones muestrales, selección de estrategias."
+      },
+      {
+        "numero": 28,
+        "titulo": "Enfermería basada en la evidencia. Búsqueda de evidencias científicas: Bases de datos bibliográficas, fuentes documentales de evidencia y revisión bibliográfica. Instrumentos de la evidencia científica. Formulación de preguntas y búsqueda de respuestas sobre la práctica clínica. Evaluación y síntesis de los hallazgos de la revisión bibliográfica."
+      },
+      {
+        "numero": 29,
+        "titulo": "Los Costes Sanitarios. Tipo de costes. Calculo de costes: Case Mix. Producto Sanitario. Concepto de financiación, gestión y provisión de servicios sanitarios. Concepto de equidad, eficacia, eficiencia y efectividad."
+      },
+      {
+        "numero": 30,
+        "titulo": "Salud Pública. Conceptos de salud y Enfermedad. Principales problemas de salud en la población española actual. Planificación sanitaria: Identificación de problemas. Priorización. Desarrollo de las Estrategias Nacionales de Salud en Aragón. Elaboración de programas de salud y su evaluación."
+      },
+      {
+        "numero": 31,
+        "titulo": "Prevención y promoción de la salud. Programas de detección precoz de enfermedad en Aragón."
+      },
+      {
+        "numero": 32,
+        "titulo": "Calidad en el Sistema Nacional de Salud. Diseño de Proyectos de Mejora de Calidad en el SALUD. Comisiones clínicas. Indicadores de calidad de cuidados."
+      },
+      {
+        "numero": 33,
+        "titulo": "Seguridad del paciente: identificación de eventos adversos. Evitabilidad e impacto. Análisis de eventos adversos. Sistemas de notificación."
+      },
+      {
+        "numero": 34,
+        "titulo": "Gestión por procesos. Mapas de de procesos asistenciales. Planes de cuidados. Unidades de Gestión clínica. Protocolización de cuidados: Guías de práctica clínica, mapas de cuidados y vías clínicas"
+      },
+      {
+        "numero": 35,
+        "titulo": "Sistemas de información utilizados en Atención Especializada y Atención Primaria en Aragón: Historia clínica. Registros específicos de Actividad de Enfermería. Principales clasificaciones Internacionales de Problemas de Salud: Características generales."
+      },
+      {
+        "numero": 36,
+        "titulo": "Bioética. Código Deontológico de la Enfermería Española. El secreto profesional. Comité de bioética de Aragón. Documento de voluntades anticipadas. Consentimiento informado. Decisiones compartidas."
+      },
+      {
+        "numero": 37,
+        "titulo": "Género y salud. Violencia de género. Maltrato infantil. Violencia intrafamiliar y filioparental. Estrategias para la prevención y detección, y atención sanitaria."
+      },
+      {
+        "numero": 38,
+        "titulo": "Higiene en centros sanitarios. Higiene de manos. Antisépticos. Desinfectantes. Esterilización. Infección nosocomial. Gestión de residuos sanitarios."
+      },
+      {
+        "numero": 39,
+        "titulo": "Inmunizaciones. Clasificación y tipos de vacunas. Conservación, administración y pautas de vacunación. Indicaciones, contraindicaciones y complicaciones. Calendario de vacunaciones de Aragón."
+      },
+      {
+        "numero": 40,
+        "titulo": "Clasificación general de los medicamentos. Absorción y eliminación de los fármacos. Problemas relacionados con la medicación. Condiciones de conservación de los medicamentos. Precauciones previas a la administración de un fármaco. Vías de administración: Definición y tipos. Técnicas y problemas más frecuentes. Cálculo de dosis. Farmacovigilancia."
+      },
+      {
+        "numero": 41,
+        "titulo": "Cuidados de enfermería en procedimientos clínicos: Venoclisis, punción arterial, manejo de reservorios, hemoterapia, extracción de cuerpos extraños, lavado gástrico y toma de muestras."
+      },
+      {
+        "numero": 42,
+        "titulo": "Cuidados de enfermería ante la donación de órganos y tejidos."
+      },
+      {
+        "numero": 43,
+        "titulo": "Cuidados de enfermería en situaciones de urgencia y emergencia. Soporte vital básico, instrumentalizado y avanzado en el niño y el adulto. Soporte vital en el traumatizado grave. Soporte vital avanzado en el neonato. Asistencia en catástrofes y situaciones con múltiples víctimas."
+      },
+      {
+        "numero": 44,
+        "titulo": "Cuidados de enfermería a personas con problemas de alimentación. Elaboración de dietas. Dietas terapéuticas. Valoración y cuidados a personas con problemas de desnutrición, deshidratación, anorexia, bulimia y obesidad. Promoción de la actividad física."
+      },
+      {
+        "numero": 45,
+        "titulo": "Cuidados de enfermería en personas con nutrición enteral y parenteral."
+      },
+      {
+        "numero": 46,
+        "titulo": "Cuidados del recién nacido sano. Parámetros de desarrollo y crecimiento. Detección precoz de enfermedades congénitas y metabólicas."
+      },
+      {
+        "numero": 47,
+        "titulo": "Cuidados del recién nacido con problemas de salud: bajo peso, prematuridad, crisis convulsivas, insuficiencia respiratoria aguda, problemas gastrointestinales agudos, deshidratación."
+      },
+      {
+        "numero": 48,
+        "titulo": "Cuidados en la infancia. Programa del niño sano en Aragón. Alimentación y nutrición. Dieta equilibrada. Higiene. Salud bucodental. Prevención de accidentes: Hogar, escuela y tráfico. Detección y protocolo de malos tratos. Adquisición de hábitos saludables: El papel de la familia."
+      },
+      {
+        "numero": 49,
+        "titulo": "Cuidados en la adolescencia. Adquisición de hábitos saludables. Alteraciones alimentarias: anorexia, bulimia y obesidad. Hábitos tóxicos: Alcohol, tabaco y drogas."
+      },
+      {
+        "numero": 50,
+        "titulo": "Cuidados de enfermería en la mujer gestante: alimentación, higiene, cambios fisiológicos y problemas más frecuentes. Educación maternal. Cuidados de enfermería en la gestación, puerperio y lactancia."
+      },
+      {
+        "numero": 51,
+        "titulo": "Cuidados de enfermería a la mujer en el climaterio. Prevención y control de riesgos. Educación para la salud individual y grupal. Diagnóstico precoz del cáncer ginecológico."
+      },
+      {
+        "numero": 52,
+        "titulo": "Cuidados en la salud sexual. Reproducción. Métodos anticonceptivos. Prevención de enfermedades de transmisión sexual. Cuidados a personas con patrones inefectivos o disfunción sexual."
+      },
+      {
+        "numero": 53,
+        "titulo": "Cuidados de enfermería a personas en cirugía mayor ambulatoria y cirugía menor. Procedimientos de enfermería: Drenajes, curas y otras técnicas."
+      },
+      {
+        "numero": 54,
+        "titulo": "Cuidados a personas con procesos crónicos y pluripatológicos. Paciente polimedicado. Adherencia al tratamiento y uso racional del medicamento."
+      },
+      {
+        "numero": 55,
+        "titulo": "Cuidados a personas en situación de dependencia. Prevención de la dependencia y promoción de la autonomía personal: Factores de riesgo. Atención domiciliaria. La organización de la atención domiciliaria. Población susceptible de la atención en el domicilio en Aragón."
+      },
+      {
+        "numero": 56,
+        "titulo": "Cuidados de enfermería a personas con diagnostico de diabetes y sus complicaciones. Procedimientos y técnicas de enfermería. Pie diabético: prevención y control. Educación diabetológica."
+      },
+      {
+        "numero": 57,
+        "titulo": "Cuidados de enfermería a personas con problemas en la piel. Cuidados generales de la piel. Valoración integral del deterioro de la integridad cutánea. Úlceras por presión: Escalas de valoración. Medidas de prevención y tratamiento. Heridas y quemaduras."
+      },
+      {
+        "numero": 58,
+        "titulo": "Cuidados de enfermería en el anciano. Proceso de envejecimiento. Valoración geriátrica integral. Síndromes geriátricos. Detección y prevención de los factores de riesgo relacionados con las caídas en el anciano."
+      },
+      {
+        "numero": 59,
+        "titulo": "Cuidados de enfermería en pacientes con enfermedades infecciosas. Medidas de prevención, aislamiento y control."
+      },
+      {
+        "numero": 60,
+        "titulo": "Cuidados de enfermería en el paciente terminal. Cuidados paliativos. Dolor: características y escalas de valoración. Duelo: tipo y manifestaciones. Apoyo al cuidador principal y familia."
+      },
+      {
+        "numero": 61,
+        "titulo": "Cuidados de enfermería a personas con problemas de salud mental. Trastorno mental grave. Salud mental infanto-juvenil. Intervención en situaciones críticas: riesgo suicida, agitación psicomotriz, auto y heteroagresividad, intoxicación por alcohol y otras drogas. Medidas de contención. Criterios y cuidados de la sujeción mecánica."
+      },
+      {
+        "numero": 62,
+        "titulo": "Cuidados de enfermería a personas con problemas cardiovasculares: Insuficiencia cardiaca, síndrome coronario agudo, hipertensión arterial, pericarditis aguda, aneurisma aórtico, arterioesclerosis de las extremidades inferiores y otros. Anticoagulación oral. Pautas de actuación urgente en Aragón (Código INFARTO)."
+      },
+      {
+        "numero": 63,
+        "titulo": "Cuidados de enfermería a personas con problemas en el sistema renal y urológico: Insuficiencia renal aguda, incontinencia urinaria, infección urinaria, prostatitis, cáncer de próstata, litiasis renoureteral y otros. Cateterismo vesical. Sondaje vesical. Tratamiento sustitutivo de la función renal: Diálisis peritoneal. Hemodiálisis."
+      },
+      {
+        "numero": 64,
+        "titulo": "Cuidados de enfermería a personas con problemas en los órganos de los sentidos. Factores de riesgo personal asociados a los déficit sensoriales y movilidad. Riesgo de Caídas. Procedimientos y técnicas de enfermería."
+      },
+      {
+        "numero": 65,
+        "titulo": "Cuidados de enfermería a personas con problemas en el sistema músculo esquelético. Enfermedades del aparato locomotor y traumatismos músculoesqueléticos. Procedimientos de enfermería: Vendajes, inmovilizaciones."
+      },
+      {
+        "numero": 66,
+        "titulo": "Cuidados de enfermería a personas con problemas neurológicos y del sistema nervioso: Accidente cerebrovascular, epilepsia, esclerosis múltiple y lateral amiotrófica, coma y otros. Pautas de actuación urgente en Aragón (Código ICTUS)."
+      },
+      {
+        "numero": 67,
+        "titulo": "Cuidados de enfermería a personas con problemas gastrointestinales: Abdomen agudo, obstrucción intestinal, cáncer colorrectal y otros. Procedimientos y técnicas de enfermería: Sondaje nasogástrico, lavado gástrico. Cuidados de las ostomías."
+      },
+      {
+        "numero": 68,
+        "titulo": "Cuidados de enfermería a personas con problemas respiratorios: Insuficiencia respiratoria aguda, enfermedad pulmonar obstructiva crónica, asma y otros. Procedimientos de enfermería: Espirometría, oxigenoterapia, drenaje torácico, aerosolterapia. Ventilación mecánica no invasiva."
+      },
+      {
+        "numero": 69,
+        "titulo": "Cuidados de enfermería a personas con problemas ontología y oncohematología. Abordaje integral. Procedimientos y técnicas de enfermería: manejo de reservorios y vías centrales. Manejo y administración de quimioterapia."
+      },
+      {
+        "numero": 70,
+        "titulo": "Cuidados enfermeros en la familia y la comunidad. Educación para la Salud individual, grupal y comunitaria. Metodología y técnicas. Elaboración de Programas de Educación para la Salud. Atención al cuidador principal y a la familia. Redes de apoyo social. Grupos de apoyo."
+      }
+    ]
+  }
+]

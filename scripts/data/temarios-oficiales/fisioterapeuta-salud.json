@@ -1,0 +1,312 @@
+[
+  {
+    "bloque": "Materia común",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "La Constitución española de 1978: Estructura y contenido. Principios que la informan. Los derechos fundamentales y sus garantías. La protección a la salud en la Constitución. La Corona. Las Cortes Generales. El Gobierno de la Nación. El Poder Judicial."
+      },
+      {
+        "numero": 2,
+        "titulo": "El Estatuto de Autonomía de Aragón. Naturaleza y contenido. La organización institucional de la Comunidad Autónoma. Las Cortes de Aragón y el Justicia de Aragón. Las competencias de la Comunidad de Aragón con especial referencia a las relativas a sanidad. Los órganos de gobierno y administración de la Comunidad Autónoma de Aragón. Estructura administrativa."
+      },
+      {
+        "numero": 3,
+        "titulo": "Población, geografía y territorio en Aragón. Desequilibrios demográficos en Aragón. Magnitudes más relevantes de la economía aragonesa. Evolución reciente de la actividad económica en Aragón."
+      },
+      {
+        "numero": 4,
+        "titulo": "La igualdad de oportunidades entre mujeres y hombres en Aragón: Disposiciones generales. Prevención y Protección Integral a las Mujeres Víctimas de Violencia en Aragón: Disposiciones Generales. La identidad y expresión de género e igualdad social y no discriminación en la Comunidad Autónoma de Aragón: Disposiciones Generales. La diversidad cultural y lucha contra la discriminación: Principios y objetivos del Plan Integral para la Gestión de la Diversidad vigente en Aragón."
+      },
+      {
+        "numero": 5,
+        "titulo": "Los órganos de gobierno y administración de la Comunidad Autónoma de Aragón. Estructura y competencias del Departamento de Sanidad. Estructura y competencias del Servicio Aragonés de Salud. El Texto Refundido de la Ley del Servicio Aragonés de Salud. Estructura y funcionamiento de las áreas y sectores del Sistema de Salud de Aragón."
+      },
+      {
+        "numero": 6,
+        "titulo": "La Ley General de Sanidad. El derecho a la protección de la salud. Principios generales del Sistema Nacional de Salud. Organización general del sistema sanitario público. Los Servicios de Salud de las Comunidades Autónomas. La Ley de Salud de Aragón: Principios rectores. Derechos, deberes y garantías de los ciudadanos."
+      },
+      {
+        "numero": 7,
+        "titulo": "La Ley de Cohesión y Calidad del Sistema Nacional de Salud. Principios generales, estructura y contenidos. Las prestaciones del Sistema Nacional de Salud. Sistema de información sanitaria El Consejo Interterritorial."
+      },
+      {
+        "numero": 8,
+        "titulo": "Ley del Procedimiento Administrativo Común de las Administraciones Públicas: Ámbito de aplicación y principios generales. Fases del procedimiento. Computo de plazos. Objeto y plazos de los recursos administrativos. El Régimen Jurídico del Sector Público: Disposiciones generales."
+      },
+      {
+        "numero": 9,
+        "titulo": "El Estatuto Básico del Empleado Público. Clases de personal. Principios definidores del personal funcionario, estatutario y laboral. Derechos y deberes del empleado público. Representación, participación y negociación colectiva."
+      },
+      {
+        "numero": 10,
+        "titulo": "El Estatuto Marco del Personal Estatutario de los Servicios de Salud (I). Clasificación del personal estatutario. Derechos y deberes. Adquisición y pérdida de la condición de personal estatutario. Provisión de plazas, selección y promoción interna. Movilidad del personal."
+      },
+      {
+        "numero": 11,
+        "titulo": "El Estatuto Marco del personal estatutario de los servicios de salud (II). Retribuciones. Jornada de trabajo, permisos y licencias. Situaciones del personal estatutario. Régimen disciplinario. Legislación en materia de incompatibilidades."
+      },
+      {
+        "numero": 12,
+        "titulo": "La Ley de Ordenación de las Profesiones Sanitarias. Objeto y ámbito de aplicación. Profesiones sanitarias tituladas y profesionales del área sanitaria de formación profesional. El ejercicio de las profesiones sanitarias. Formación Especializada en Ciencias de la Salud."
+      },
+      {
+        "numero": 13,
+        "titulo": "El régimen jurídico de la protección de datos de carácter personal: Disposiciones generales. Derechos de las personas."
+      },
+      {
+        "numero": 14,
+        "titulo": "La Ley básica reguladora de la autonomía del paciente y de derechos y obligaciones en materia de información y documentación clínica: principios generales. Derecho de información sanitaria. Derecho a la intimidad. Respeto a la autonomía del paciente. Consentimiento informado e instrucciones previas. La historia clínica."
+      },
+      {
+        "numero": 15,
+        "titulo": "Ley de Prevención de Riesgos Laborales: Conceptos básicos. Derechos y obligaciones en materia de seguridad en el trabajo. Organización de la prevención de riesgos laborales en la Comunidad Autónoma de Aragón. Distribución de funciones y responsabilidades en materia de prevención de riesgos laborales entre los diferentes órganos del Servicio Aragonés de Salud"
+      }
+    ]
+  },
+  {
+    "bloque": "Materia específica",
+    "temas": [
+      {
+        "numero": 16,
+        "titulo": "Calidad en los centros sanitarios: Comisiones clínicas hospitalarias reguladas por Ley. Otras comisiones clínicas hospitalarias e interniveles."
+      },
+      {
+        "numero": 17,
+        "titulo": "Tarjeta sanitaria. Base de datos de usuario. Sistemas de información en asistencia especializada: Conjunto Mínimo Básico de Datos (CMBD). Clasificación Internacional de Problemas de Salud: (CIE 10)."
+      },
+      {
+        "numero": 18,
+        "titulo": "Planificación sanitaria. Identificación de problemas. Indicadores demográficos, socioeconómicos, del nivel de salud, medioambientales. Elaboración de programas de salud y su evaluación."
+      },
+      {
+        "numero": 19,
+        "titulo": "Estadística aplicada a las ciencias de la salud. Conceptos generales. Estadística descriptiva. Estadística inferencial. Estadística no paramétrica. Validez de los métodos diagnósticos: validez y fiabilidad de los instrumentos de medida. Sensibilidad, especificidad. Curvas ROC. Valor predictivo positivo y negativo."
+      },
+      {
+        "numero": 20,
+        "titulo": "Investigación cuantitativa: Definición. Conceptos de población, muestra y variable. Epidemiología: Concepto, tipos de estudios. Investigación cualitativa: Principales diseños y métodos en investigación cualitativa. Técnicas de investigación cualitativa, análisis e interpretación de los datos."
+      },
+      {
+        "numero": 21,
+        "titulo": "Bases de datos bibliográficas, fuentes documentales de evidencia y revisión bibliográfica. Instrumentos de la evidencia científica. Elaboración de informes sobre la información relevante encontrada. Integración de los resultados de la investigación secundaria a la práctica clínica."
+      },
+      {
+        "numero": 22,
+        "titulo": "La gestión de los servicios sanitarios. Gestión por procesos asistenciales integrados. Mapas de procesos asistenciales. Procesos de soporte. Planes de cuidados."
+      },
+      {
+        "numero": 23,
+        "titulo": "Ética de los tratamientos fisioterapéuticos y responsabilidad civil del personal sanitario."
+      },
+      {
+        "numero": 24,
+        "titulo": "Conceptos generales de higiene hospitalaria. Papel del fisioterapeuta en la prevención y control de las infecciones nosocomiales. Medidas preventivas de eficacia probada. Aislamiento en el hospital."
+      },
+      {
+        "numero": 25,
+        "titulo": "Educación para la salud. Comunicación. Metodología de la educación para la salud."
+      },
+      {
+        "numero": 26,
+        "titulo": "El papel del fisioterapeuta en la formación básica: teoría y práctica. El papel del fisioterapeuta en la formación continuada. Líneas de desarrollo, importancia."
+      },
+      {
+        "numero": 27,
+        "titulo": "Organización de la atención del fisioterapeuta al paciente de atención primaria y especializada. Niveles de atención."
+      },
+      {
+        "numero": 28,
+        "titulo": "Protocolización del tratamiento fisioterapéutico, programas y pautas de prevención."
+      },
+      {
+        "numero": 29,
+        "titulo": "Coordinación de la actividad fisioterapéutica con los distintos servicios y departamentos del hospital. Coordinación entre niveles asistenciales. Protocolos conjuntos, informes de alta, etc."
+      },
+      {
+        "numero": 30,
+        "titulo": "Metodología de intervención en fisioterapia asistencial. Examen general, valoración fisioterapéutica, historia clínica en fisioterapia."
+      },
+      {
+        "numero": 31,
+        "titulo": "Actuación del fisioterapeuta en situaciones críticas. Parada cardiorrespiratoria. Obstrucción de las vías aéreas. Reanimación cardiopulmonar básica. Fases."
+      },
+      {
+        "numero": 32,
+        "titulo": "Fisioterapia respiratoria en el adulto. Valoración fisioterapéutica. Objetivos. Plan de tratamiento fisioterapéutico en las patologías más frecuentes."
+      },
+      {
+        "numero": 33,
+        "titulo": "Fisioterapia respiratoria en el lactante y el niño. Valoración fisioterapéutica. Objetivos Plan de tratamiento fisioterapéutico en las patologías más frecuentes."
+      },
+      {
+        "numero": 34,
+        "titulo": "Fisioterapia en UCI, valoración y tratamiento del paciente crítico en ventilación mecánica. Preparación para el destete."
+      },
+      {
+        "numero": 35,
+        "titulo": "Fisioterapia en patología cardíaca. Valoración fisioterapéutica. Objetivos. Plan de tratamiento fisioterapéutico en las patologías más frecuentes."
+      },
+      {
+        "numero": 36,
+        "titulo": "Fisioterapia en patología arterial y venosa. Valoración fisioterapéutica. Objetivos. Plan de tratamiento fisioterapéutico en las patologías más frecuentes."
+      },
+      {
+        "numero": 37,
+        "titulo": "Fisioterapia en patología linfática. Valoración fisioterapéutica. Objetivos. Plan de tratamiento fisioterapéutico en las patologías más frecuentes."
+      },
+      {
+        "numero": 38,
+        "titulo": "Fisioterapia en traumatología de miembro superior. Valoración fisioterapéutica. Objetivos. Plan de tratamiento fisioterapéutico."
+      },
+      {
+        "numero": 39,
+        "titulo": "Fisioterapia en traumatología de miembro inferior. Valoración fisioterapéutica. Objetivos. Plan de tratamiento fisioterapéutico."
+      },
+      {
+        "numero": 40,
+        "titulo": "Fisioterapia en traumatología de cabeza, tronco y raquis. Valoración fisioterapéutica. Objetivos. Plan de tratamiento fisioterapéutico."
+      },
+      {
+        "numero": 41,
+        "titulo": "Fisioterapia en el paciente amputado. Valoración fisioterapéutica. Objetivos. Plan de tratamiento fisioterapéutico."
+      },
+      {
+        "numero": 42,
+        "titulo": "Valoración fisioterapéutica del desarrollo psicomotor del niño normal."
+      },
+      {
+        "numero": 43,
+        "titulo": "Valoración fisioterapéutica de la parálisis cerebral (PC). Valoración de los trastornos motores y de los trastornos asociados. Educación terapéutica de la parálisis cerebral (PC)."
+      },
+      {
+        "numero": 44,
+        "titulo": "Fisioterapia en el recién nacido pretérmino. Valoración fisioterapéutica. Objetivos. Plan de tratamiento fisioterapéutico."
+      },
+      {
+        "numero": 45,
+        "titulo": "Fisioterapia en las patologías genéticas más frecuentes (AME, Rett, Prader Willy, osteogénesis imperfecta…). Valoración fisioterapéutica. Objetivos. Plan de tratamiento fisioterapéutico."
+      },
+      {
+        "numero": 46,
+        "titulo": "Fisioterapia en las patologías pediátricas más frecuentes (parálisis braquial neonatal, torticolis congénitas, displasias de cadera, etc.). Valoración fisioterapéutica. Objetivos. Plan de tratamiento fisioterapéutico."
+      },
+      {
+        "numero": 47,
+        "titulo": "Fisioterapia en las alteraciones y desviaciones vertebrales. Valoración fisioterapéutica. Objetivos. Plan de tratamiento fisioterapéutico en las patologías más frecuentes."
+      },
+      {
+        "numero": 48,
+        "titulo": "Fisioterapia en patología reumática degenerativa. Valoración fisioterapéutica. Objetivos. Plan de tratamiento fisioterapéutico en las patologías más frecuentes."
+      },
+      {
+        "numero": 49,
+        "titulo": "Fisioterapia en patología reumática inflamatoria y metabólica. Valoración fisioterapéutica. Objetivos. Plan de tratamiento fisioterapéutico en las patologías más frecuentes."
+      },
+      {
+        "numero": 50,
+        "titulo": "Fisioterapia en el daño cerebral adquirido. Valoración fisioterapéutica. Objetivos. Plan de tratamiento fisioterapéutico."
+      },
+      {
+        "numero": 51,
+        "titulo": "Fisioterapia en grandes síndromes neurológicos. Valoración fisioterapéutica. Objetivos. Plan de tratamiento fisioterapéutico."
+      },
+      {
+        "numero": 52,
+        "titulo": "Fisioterapia en enfermedades y lesiones de la médula espinal. Valoración fisioterapéutica. Objetivos. Plan de tratamiento fisioterapéutico."
+      },
+      {
+        "numero": 53,
+        "titulo": "Fisioterapia en enfermedades y lesiones del sistema nervioso periférico. Valoración fisioterapéutica. Objetivos. Plan de tratamiento fisioterapéutico."
+      },
+      {
+        "numero": 54,
+        "titulo": "Fisioterapia en el paciente quemado. Valoración fisioterapéutica. Objetivos. Plan de tratamiento fisioterapéutico."
+      },
+      {
+        "numero": 55,
+        "titulo": "Fisioterapia en el paciente oncológico. Valoración fisioterapéutica. Objetivos. Plan de tratamiento fisioterapéutico."
+      },
+      {
+        "numero": 56,
+        "titulo": "Electroterapia: concepto. Técnicas electroterápicas con corrientes de baja, media y alta frecuencia. Indicaciones terapéuticas y contraindicaciones. Factores a tener en cuenta en la dosificación de las diferentes técnicas electroterápicas."
+      },
+      {
+        "numero": 57,
+        "titulo": "Técnicas electroterápicas con ultrasonidos, radiaciones infrarrojas y ultravioletas, láser y campos magnéticos. Indicaciones terapéuticas y contraindicaciones. Factores a tener en cuenta en la dosificación de las diferentes técnicas electroterápicas."
+      },
+      {
+        "numero": 58,
+        "titulo": "Masoterapia: concepto. Influencia del masaje sobre el cuerpo humano. Consideraciones técnicas y generalidades en la aplicación del masaje. Maniobras fundamentales en masoterapia: roce, fricción, presión, amasamiento, vibración, percusión."
+      },
+      {
+        "numero": 59,
+        "titulo": "Técnicas especiales de masoterapia."
+      },
+      {
+        "numero": 60,
+        "titulo": "Cinesiterapia activa: concepto, modalidades, metodología, indicaciones y contraindicaciones"
+      },
+      {
+        "numero": 61,
+        "titulo": "Cinesiterapia pasiva: concepto, modalidades, metodología, indicaciones y contraindicaciones."
+      },
+      {
+        "numero": 62,
+        "titulo": "Aplicación de poleoterapia y mecanoterapia a las distintas modalidades de cinesiterapia."
+      },
+      {
+        "numero": 63,
+        "titulo": "Evaluación analítica y funcional. Coeficiente funcional de movilidad articular."
+      },
+      {
+        "numero": 64,
+        "titulo": "Modalidades de actuación muscular. Cadenas musculares. Sinergias."
+      },
+      {
+        "numero": 65,
+        "titulo": "Evaluación de la marcha normal y patológica. Reeducación en las diferentes patologías."
+      },
+      {
+        "numero": 66,
+        "titulo": "Principios de reeducación propioceptiva. Aplicaciones."
+      },
+      {
+        "numero": 67,
+        "titulo": "Hidroterapia. Conceptos. Estudio físico del agua. Función de la piel. Técnicas hidroterápicas, balneoterapia. Procedimientos hidrocinéticos. Indicaciones y contraindicaciones."
+      },
+      {
+        "numero": 68,
+        "titulo": "Termoterapia y crioterapia. Conceptos. Efectos fisiológicos y terapéuticos. Técnicas de aplicación. Indicaciones y contraindicaciones."
+      },
+      {
+        "numero": 69,
+        "titulo": "Papel de la fisioterapia en la tercera edad. Medidas preventivas y educativas. La atención y asistencia fisioterapéutica en el anciano patológico."
+      },
+      {
+        "numero": 70,
+        "titulo": "Fisioterapia en la incontinencia urinaria y fecal. Valoración fisioterapéutica. Objetivos. Plan de tratamiento fisioterapéutico."
+      },
+      {
+        "numero": 71,
+        "titulo": "Fisioterapia en la patología ginecológica y obstétrica. Valoración fisioterapéutica. Objetivos. Plan de tratamiento fisioterapéutico."
+      },
+      {
+        "numero": 72,
+        "titulo": "Ejercicio terapéutico. Prescripción fisioterápica. Valoración y objetivos. Técnicas y métodos de tratamiento."
+      },
+      {
+        "numero": 73,
+        "titulo": "Abordaje del dolor crónico desde la fisioterapia. Escalas de valoración. Educación en dolor. Estrategias de afrontamiento activo."
+      },
+      {
+        "numero": 74,
+        "titulo": "Ortesis y prótesis del aparato locomotor."
+      },
+      {
+        "numero": 75,
+        "titulo": "El vendaje funcional. Teoría y definición. Material necesario. Métodos. Indicaciones y contraindicaciones."
+      }
+    ]
+  }
+]

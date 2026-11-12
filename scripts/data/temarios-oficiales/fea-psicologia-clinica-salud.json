@@ -1,0 +1,332 @@
+[
+  {
+    "bloque": "Materia común",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "Constitución Española de 1978: la protección de la salud en la Constitución. Estatuto de Autonomía de Aragón. Competencias en salud recogidas en el Estatuto de Autonomía. Las Cortes de Aragón. El Gobierno de Aragón."
+      },
+      {
+        "numero": 2,
+        "titulo": "El texto refundido de la Ley del Estatuto Básico del Empleado Público, aprobado por el Real Decreto Legislativo 5/2015: deberes del empleado público y código de conducta. Representación, participación y negociación colectiva."
+      },
+      {
+        "numero": 3,
+        "titulo": "El régimen jurídico de la protección de datos de carácter personal: Disposiciones generales. Derechos de las personas."
+      },
+      {
+        "numero": 4,
+        "titulo": "El Procedimiento Administrativo Común de las Administraciones Públicas: Disposiciones Generales. Cómputo de plazos. Objeto y plazos de los recursos administrativos. El Régimen Jurídico del Sector Público: Disposiciones Generales."
+      },
+      {
+        "numero": 5,
+        "titulo": "Ley 14/86 General de Sanidad. Ley 6/2002 de Salud de Aragón. Principios generales, estructura, contenidos. Ley 16/2003 de cohesión y calidad del Sistema Nacional de Salud. Principios generales, estructura, contenidos."
+      },
+      {
+        "numero": 6,
+        "titulo": "Ley 44/2003 de Ordenación de las Profesiones Sanitarias. Ámbito de aplicación, contenidos. Ley 41/2002, de 14 de noviembre, básica reguladora de la autonomía del paciente y de derechos y obligaciones en materia de información y documentación clínica. Ley 9/2013, de 28 de noviembre, de Autoridad de Profesionales del Sistema Sanitario y de Servicios Sociales Públicos de Aragón."
+      },
+      {
+        "numero": 7,
+        "titulo": "Ley 55/2003 del Estatuto Marco de personal Estatutario de los Servicios de Salud (I). Principios generales, estructura, contenidos. Clasificación del personal estatutario. Derechos y deberes. Adquisición y pérdida de la condición de personal estatutario. Provisión de plazas, selección y promoción interna. Movilidad del personal."
+      },
+      {
+        "numero": 8,
+        "titulo": "Ley 55/2003 del Estatuto Marco de personal Estatutario de los Servicios de Salud (II). Retribuciones. Jornada de trabajo, permisos y licencias. Situaciones del personal estatutario. Régimen disciplinario. Modelo de Carrera Profesional en Aragón. Ley 53/1984 de 26 de diciembre, de incompatibilidades. Principios Generales. Ámbito de aplicación."
+      },
+      {
+        "numero": 9,
+        "titulo": "La igualdad de oportunidades entre mujeres y hombres en Aragón: Disposiciones generales. Prevención y Protección Integral a las Mujeres Víctimas de Violencia en Aragón: Disposiciones Generales. La identidad y expresión de género e igualdad social y no discriminación en la Comunidad Autónoma de Aragón: Disposiciones Generales. La diversidad cultural y lucha contra la discriminación: Principios y objetivos del vigente Plan Integral para la Gestión de la Diversidad de Aragón."
+      },
+      {
+        "numero": 10,
+        "titulo": "El sistema sanitario. Niveles asistenciales. Organización de los servicios sanitarios en Aragón. Estructura del Departamento de Sanidad de Aragón y del Servicio Aragonés de la Salud. Los Sectores sanitarios."
+      },
+      {
+        "numero": 11,
+        "titulo": "Metodología de la Investigación: El método científico. Diseño de un proyecto de investigación. Estadística aplicada a los estudios de Medicina."
+      },
+      {
+        "numero": 12,
+        "titulo": "El método epidemiológico. Epidemiología descriptiva: tipos de estudios, tasas e indicadores. Epidemiología analítica: tipos de estudios. Riesgo relativo, riesgo atribuible y Odds Ratio. Sesgos."
+      },
+      {
+        "numero": 13,
+        "titulo": "Estudios experimentales. Ensayos clínicos. Ética de la investigación clínica. Validez de métodos diagnósticos: sensibilidad, especificidad, valor predictivo positivo."
+      },
+      {
+        "numero": 14,
+        "titulo": "Evaluación de Tecnologías Sanitarias: Procedimientos de evaluación. Cartera de Servicios del Sistema Nacional de Salud. Procedimiento de actualización de la Cartera de Servicios del sistema de Salud de Aragón."
+      },
+      {
+        "numero": 15,
+        "titulo": "Práctica basada en la evidencia. Variabilidad en la práctica médica. Búsqueda y valoración de evidencias. Aplicación de las evidencias a la toma de decisiones clínicas. Guías clínicas. Proyecto Guía-Salud."
+      },
+      {
+        "numero": 16,
+        "titulo": "La seguridad del paciente. Gestión de riesgos. Principales problemas para la seguridad del paciente en el hospital. Estrategias para la mejora de la seguridad."
+      },
+      {
+        "numero": 17,
+        "titulo": "Uso Racional del Medicamento. Criterios de selección de medicamentos. Equivalentes terapéuticos. Indicadores de calidad de prescripción."
+      },
+      {
+        "numero": 18,
+        "titulo": "Evaluación y mejora de la calidad. Modelos de Gestión de la Calidad. Diseño de un programa de calidad."
+      },
+      {
+        "numero": 19,
+        "titulo": "Principios fundamentales de la bioética: aplicación a la asistencia sanitaria. La relación médico-paciente, el consentimiento informado. Los comités de Bioética. La ética en la investigación clínica."
+      },
+      {
+        "numero": 20,
+        "titulo": "Gobierno clínico. La implicación de los profesionales en el funcionamiento de las instituciones sanitarias."
+      }
+    ]
+  },
+  {
+    "bloque": "Materia específica",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "Marco jurídico-normativo en salud mental y aspectos legales relacionados con la asistencia a personas con trastorno mental en el sistema sanitario público español."
+      },
+      {
+        "numero": 2,
+        "titulo": "Marco legal e institucional de la red de salud mental de la Comunidad Autónoma y su articulación con otras redes de servicios"
+      },
+      {
+        "numero": 3,
+        "titulo": "Salud Pública. Epidemiología. Promoción de la Salud y prevención de la enfermedad."
+      },
+      {
+        "numero": 4,
+        "titulo": "Planificación y gestión en salud mental. Identificación de problemas. Indicadores demográficos, socioeconómicos, del nivel de salud, medioambientales. Conceptos de financiación, gestión y provisión de servicios sanitarios. Conceptos de equidad, eficacia, eficiencia y efectividad. Diseño, realización y evaluación de programas y servicios de salud."
+      },
+      {
+        "numero": 5,
+        "titulo": "Modelo Biopsicosocial de salud."
+      },
+      {
+        "numero": 6,
+        "titulo": "Psicología Clínica. Ámbito de la especialidad, campo asistencial y límites. El perfil del Psicólogo Clínico: funciones y competencias fundamentales. Las nuevas demandas de la Psicología Clínica."
+      },
+      {
+        "numero": 7,
+        "titulo": "Código deontológico y salud mental. Responsabilidad civil del Psicólogo Clínico."
+      },
+      {
+        "numero": 8,
+        "titulo": "Fundamentos históricos de la Psicopatología. Conceptos y modelos en Psicopatología."
+      },
+      {
+        "numero": 9,
+        "titulo": "Diseños de investigación en Psicología Clínica y Psicopatología."
+      },
+      {
+        "numero": 10,
+        "titulo": "Clasificación y diagnóstico en Psicopatología."
+      },
+      {
+        "numero": 11,
+        "titulo": "Psicopatología de la atención y la conciencia. Concepto y tipos de trastornos."
+      },
+      {
+        "numero": 12,
+        "titulo": "Psicopatología de la memoria. Concepto y tipos de trastornos."
+      },
+      {
+        "numero": 13,
+        "titulo": "Psicopatología de la percepción. Concepto y tipos de trastornos."
+      },
+      {
+        "numero": 14,
+        "titulo": "Psicopatología del pensamiento. Concepto y tipos de trastornos."
+      },
+      {
+        "numero": 15,
+        "titulo": "Psicopatología del lenguaje. Concepto y tipos de trastornos."
+      },
+      {
+        "numero": 16,
+        "titulo": "Psicopatología de la afectividad. Concepto y tipos de trastornos."
+      },
+      {
+        "numero": 17,
+        "titulo": "Psicopatología de la psicomotricidad. Concepto y tipos de trastornos."
+      },
+      {
+        "numero": 18,
+        "titulo": "Entrevista e historia clínica."
+      },
+      {
+        "numero": 19,
+        "titulo": "Técnicas de exploración psicológica. Teoría de los Tests. Significación, Validez y fiabilidad. Tests psicométricos. Tests Proyectivos. Test neuropsicológicos."
+      },
+      {
+        "numero": 20,
+        "titulo": "Trastornos afectivos. Teorías etiológicas, clínica, evaluación, diagnóstico y tratamiento psicológico."
+      },
+      {
+        "numero": 21,
+        "titulo": "Trastorno disociativo. Teorías etiológicas, clínica, evaluación, diagnóstico y tratamiento psicológico."
+      },
+      {
+        "numero": 22,
+        "titulo": "Esquizofrenia y otros trastornos psicóticos. Teorías etiológicas, clínica, evaluación, diagnóstico y tratamiento psicológico."
+      },
+      {
+        "numero": 23,
+        "titulo": "Trastornos de ansiedad. Ansiedad generalizada. Trastorno de ansiedad fóbica. Teorías etiológicas, clínica, evaluación, diagnóstico y tratamiento psicológico."
+      },
+      {
+        "numero": 24,
+        "titulo": "Trastornos obsesivos-compulsivos. Teorías etiológicas, clínica, evaluación, diagnóstico y tratamiento psicológico."
+      },
+      {
+        "numero": 25,
+        "titulo": "Trastornos por estrés y trastornos de adaptación. Teorías etiológicas, clínica, evaluación, diagnóstico y tratamiento psicológico."
+      },
+      {
+        "numero": 26,
+        "titulo": "Trastornos psicosomáticos Teorías etiológicas, clínica, evaluación, diagnóstico y tratamiento psicológico."
+      },
+      {
+        "numero": 27,
+        "titulo": "Trastornos somatomorfos. Teorías etiológicas, clínica, evaluación, diagnóstico y tratamiento psicológico."
+      },
+      {
+        "numero": 28,
+        "titulo": "Trastornos de la conducta alimentaria. Teorías etiológicas, clínica, evaluación, diagnóstico y tratamiento psicológico."
+      },
+      {
+        "numero": 29,
+        "titulo": "Trastornos no orgánicos del sueño. Clasificaciones, diagnóstico y tratamiento psicológicos."
+      },
+      {
+        "numero": 30,
+        "titulo": "Trastornos de la conducta sexual. Criterios de valoración en el estudio de la conducta sexual normal y patológica. Diagnóstico y tratamiento psicológico."
+      },
+      {
+        "numero": 31,
+        "titulo": "Trastornos de personalidad. Teorías etiológicas, clínica, evaluación, diagnóstico y tratamiento psicológico."
+      },
+      {
+        "numero": 32,
+        "titulo": "Trastornos por consumo de sustancias. Diagnóstico y evaluación psicológicas. Alternativas terapéuticas. Programas de prevención, asistencia, rehabilitación y reinserción social."
+      },
+      {
+        "numero": 33,
+        "titulo": "Trastornos del control de impulsos y juego patológico. Teorías etiológicas, clínica, evaluación, diagnóstico y tratamiento psicológico."
+      },
+      {
+        "numero": 34,
+        "titulo": "Dolor crónico. Afrontamiento de la enfermedad Etiología, clínica, evaluación, diagnóstico y tratamiento psicológico."
+      },
+      {
+        "numero": 35,
+        "titulo": "Suicidio. Teorías etiológicas, clínica, evaluación, diagnóstico y tratamiento psicológico."
+      },
+      {
+        "numero": 36,
+        "titulo": "Terapia psicoanalítica y psicoterapia dinámica breve. Fundamentos teóricotécnicos y aplicaciones."
+      },
+      {
+        "numero": 37,
+        "titulo": "Terapia de modificación de conducta. Condicionamiento clásico, operante y aprendizaje social. Bases teóricas y procedimientos."
+      },
+      {
+        "numero": 38,
+        "titulo": "Terapia cognitiva. Terapia racional – emotiva de Ellis, Terapia cognitiva de Beck. Bases teóricas y procedimientos."
+      },
+      {
+        "numero": 39,
+        "titulo": "Terapia de tercera generación. Bases teóricas y procedimientos."
+      },
+      {
+        "numero": 40,
+        "titulo": "Terapia sistémica. Bases teóricas. La escuela de Palo Alto, la escuela estructural-estratégica (Haley y Minuchin), la escuela de Milan. Técnicas y aplicaciones."
+      },
+      {
+        "numero": 41,
+        "titulo": "Aproximaciones humanísticas a la psicoterapia: terapia gestaltica, terapia centrada en el cliente. Terapias narrativas. Terapia interpersonal. Psicoterapia motivacional Terapias constructivistas."
+      },
+      {
+        "numero": 42,
+        "titulo": "Los principales modelos de la psicoterapia integradora."
+      },
+      {
+        "numero": 43,
+        "titulo": "La psicoterapia de grupo. Definición. La organización del grupo terapéutico, dinámica del grupo, los factores terapéuticos. Tipos de grupo y técnicas terapéuticas específicas."
+      },
+      {
+        "numero": 44,
+        "titulo": "Intervención en crisis. Principios de actuación."
+      },
+      {
+        "numero": 45,
+        "titulo": "Psicofarmacología"
+      },
+      {
+        "numero": 46,
+        "titulo": "Trastornos generalizados del desarrollo infantil. Bases etiológicas, clínica, evaluación, diagnóstico y tratamiento psicológico."
+      },
+      {
+        "numero": 47,
+        "titulo": "Discapacidad Intelectual. Bases etiológicas, clínica, evaluación, diagnóstico y tratamiento psicológico."
+      },
+      {
+        "numero": 48,
+        "titulo": "Trastorno por déficit de atención. Bases etiológicas, clínica, evaluación, diagnóstico y tratamiento psicológico."
+      },
+      {
+        "numero": 49,
+        "titulo": "Trastorno de aprendizaje Trastornos específicos del lenguaje. Bases etiológicas, clínica, evaluación, diagnóstico y tratamiento psicológico."
+      },
+      {
+        "numero": 50,
+        "titulo": "Trastornos disociales y trastornos del comportamiento social en la infancia. Bases etiológicas, clínica, evaluación, diagnóstico y tratamiento psicológico."
+      },
+      {
+        "numero": 51,
+        "titulo": "Trastornos emocionales en la infancia. Bases etiológicas, clínica, evaluación, diagnóstico y tratamiento psicológico."
+      },
+      {
+        "numero": 52,
+        "titulo": "Trastornos de ansiedad en la infancia. Bases etiológicas, clínica, evaluación, diagnóstico y tratamiento psicológico."
+      },
+      {
+        "numero": 53,
+        "titulo": "Trastornos del control de esfínteres: Encopresis, enuresis. Bases etiológicas, clínica, evaluación, diagnóstico y tratamiento psicológico."
+      },
+      {
+        "numero": 54,
+        "titulo": "La atención al paciente con trastorno mental grave: Rehabilitación y reinserción social."
+      },
+      {
+        "numero": 55,
+        "titulo": "Aspectos psicológicos de la emigración: estrés y duelo migratorio."
+      },
+      {
+        "numero": 56,
+        "titulo": "Psicología de la Salud. Estilos y calidad de vida relacionada con la salud. Educación para la salud."
+      },
+      {
+        "numero": 57,
+        "titulo": "Enfermedades crónicas, procesos de larga duración. Intervención psicológica, rehabilitación y adherencia al tratamiento."
+      },
+      {
+        "numero": 58,
+        "titulo": "Trastornos asociados a la vejez. Evaluación, diagnóstico y tratamiento psicológico."
+      },
+      {
+        "numero": 59,
+        "titulo": "Demencias. Concepto, clasificación, evaluación y diagnóstico."
+      },
+      {
+        "numero": 60,
+        "titulo": "Enfermedades terminales y cuidados paliativos. Intervención Psicológica."
+      }
+    ]
+  }
+]

@@ -1,0 +1,252 @@
+[
+  {
+    "bloque": "Materia común",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "La Constitución Española de 1978: Principios fundamentales. Derechos y deberes fundamentales de los ciudadanos. La Corona. Las Cortes Generales. El Gobierno de la Nación. El Poder Judicial. Organización territorial del Estado. La protección a la salud en la Constitución."
+      },
+      {
+        "numero": 2,
+        "titulo": "El Estatuto de Autonomía en Aragón. Principios informadores. Estructura y contenido. La organización institucional de la Comunidad Autónoma. Las Cortes y El Justicia de Aragón. Las competencias de la Comunidad de Aragón relativas a sanidad. Los órganos de gobierno y administración de la Comunidad Autónoma de Aragón. Estructura administrativa."
+      },
+      {
+        "numero": 3,
+        "titulo": "Población, geografía y territorio en Aragón. Desequilibrios demográficos en Aragón. Magnitudes más relevantes de la economía aragonesa. Evolución reciente de la actividad económica en Aragón."
+      },
+      {
+        "numero": 4,
+        "titulo": "La igualdad de oportunidades entre mujeres y hombres en Aragón: Disposiciones generales. Prevención y Protección Integral a las Mujeres Víctimas de Violencia en Aragón: Disposiciones Generales. La identidad y expresión de género e igualdad social y no discriminación en la Comunidad Autónoma de Aragón: Disposiciones Generales. La diversidad cultural y lucha contra la discriminación: Principios y objetivos del Plan Integral para la Gestión de la Diversidad vigente en Aragón."
+      },
+      {
+        "numero": 5,
+        "titulo": "La Ley General de Sanidad. El derecho a la protección de la salud. Principios Generales del Sistema Nacional de Salud. Organización general del sistema sanitario público. Los Servicios Autonómicos de Salud."
+      },
+      {
+        "numero": 6,
+        "titulo": "La Ley de Cohesión y Calidad del Sistema Nacional de Salud. Principios generales, estructura y contenidos. Sistema de información sanitaria. Consejo Interterritorial."
+      },
+      {
+        "numero": 7,
+        "titulo": "La Ley de Salud de Aragón. Principios rectores. Características y organización del Sistema Sanitario Público. Derechos, deberes y garantías de los ciudadanos."
+      },
+      {
+        "numero": 8,
+        "titulo": "La Consejería de Sanidad del Gobierno de Aragón: estructura básica y competencias. El Servicio Aragonés de Salud: Estructura y competencias."
+      },
+      {
+        "numero": 9,
+        "titulo": "La Ley del Estatuto Básico del Empleado Público. Clases de personal. Deberes del empleado público y código de conducta. Representación, participación y negociación colectiva."
+      },
+      {
+        "numero": 10,
+        "titulo": "Personal Estatutario: Ley 55/2003 del Estatuto Marco de personal Estatutario de los Sistemas de Salud. Clasificación. Derechos y deberes. Adquisición y pérdida de la condición de personal estatutario fijo. Retribuciones. Jornada, permisos y licencias. Selección de personal estatutario y provisión de plazas en los centros del Servicio Aragonés de Salud. Movilidad y Promoción Interna. Situaciones administrativas. Régimen disciplinario. El Régimen de Incompatibilidades: Principios generales. Ámbito de aplicación."
+      },
+      {
+        "numero": 11,
+        "titulo": "El Procedimiento Administrativo Común de las Administraciones Públicas: Disposiciones Generales. Computo de plazos. Objeto y plazos de los recursos administrativos. El Régimen Jurídico del Sector Público: Disposiciones Generales."
+      },
+      {
+        "numero": 12,
+        "titulo": "Ley de Prevención de Riesgos Laborales: Conceptos básicos. Derechos y obligaciones en materia de seguridad en el trabajo. Organización de la Prevención de Riesgos Laborales en la Administración de la Comunidad Autónoma de Aragón."
+      },
+      {
+        "numero": 13,
+        "titulo": "El régimen jurídico de la protección de datos de carácter personal: Disposiciones generales. Principios de la protección de datos. Derechos de las personas. Responsable y Encargado del Tratamiento."
+      },
+      {
+        "numero": 14,
+        "titulo": "Ley 41/2002, de 14 de noviembre, básica reguladora de la autonomía del paciente y de derechos y obligaciones en materia de información y documentación clínica."
+      },
+      {
+        "numero": 15,
+        "titulo": "Directivas comunitarias en materia de contratación pública. Legislación estatal en materia de contratos del Sector Público. Normativa aragonesa en materia de contratación pública. Los contratos del sector público. Clases de contratos. Configuración general de la contratación del sector público y elementos estructurales de los contratos. De los contratos de las Administraciones Públicas."
+      }
+    ]
+  },
+  {
+    "bloque": "Materia específica",
+    "temas": [
+      {
+        "numero": 16,
+        "titulo": "Reglamento de autorización de centros y servicios sanitarios en Aragón. Requisitos mínimos para la autorización de centros y servicios sanitarios en la Comunidad Autónoma de Aragón. Requisitos mínimos para la autorización de y centros quirúrgicos en la Comunidad Autónoma de Aragón."
+      },
+      {
+        "numero": 17,
+        "titulo": "Seguridad y Calidad Industrial de aplicación en el ámbito hospitalario. Gestión, sistemas de aseguramiento e inspección, certificación. Organismos de control. Sistemas de Gestión de la Calidad. Normalización y conceptos. Certificaciones y acreditaciones en el entorno hospitalario. Fases de implantación y seguimiento. Periodicidades. Equipos patrón."
+      },
+      {
+        "numero": 18,
+        "titulo": "Condiciones técnicas y garantías de seguridad en instalaciones eléctricas de alta tensión: Tensiones Nominales. Clasificación de las instalaciones. Instaladores y empresas instaladoras para instalaciones de alta tensión. Protecciones e Instalaciones de Puestas a tierra. Verificaciones e inspecciones."
+      },
+      {
+        "numero": 19,
+        "titulo": "Reglamento electrotécnico de baja tensión e Instrucciones técnicas complementarias (I): Ámbito de aplicación. Tipos de suministro. Locales de características especiales. Acometidas e instalaciones de enlace. Instalaciones interiores o receptoras. Ejecución y puesta en servicio de las instalaciones. Inspecciones. Documentación y puesta en servicio de las instalaciones. Verificaciones e inspecciones."
+      },
+      {
+        "numero": 20,
+        "titulo": "Reglamento electrotécnico de baja tensión e Instrucciones técnicas complementarias (II): Instalaciones de puesta a tierra. Protección contra sobreintensidades y sobretensiones en instalaciones eléctricas de baja tensión. Contactos directos e indirectos en instalaciones eléctricas de baja tensión. Instalaciones generadoras de baja tensión. Receptores para alumbrado. Motores."
+      },
+      {
+        "numero": 21,
+        "titulo": "Reglamento electrotécnico de baja tensión e Instrucciones técnicas complementarias (III): Instalaciones eléctricas en locales de pública concurrencia. Prescripciones particulares para las instalaciones eléctricas de los locales con riesgo de incendio o explosión. Instalaciones en locales de características especiales. Requisitos particulares para la instalación eléctrica en quirófanos y salas de intervención."
+      },
+      {
+        "numero": 22,
+        "titulo": "Alumbrado en centros sanitarios. Tipos de lámparas y de luminarias. Características y criterios de selección. Código Técnico de la Edificación: DB-HE 3 Condiciones de las instalaciones de iluminación; DB-SUA 4 Seguridad frente al riesgo causado por iluminación inadecuada. Tarifas eléctricas: estructura y cálculo. Factor de Potencia. Armónicos. Compatibilidad electromagnética."
+      },
+      {
+        "numero": 23,
+        "titulo": "Reglamento de instalaciones térmicas en los edificios (RITE) e instrucciones técnicas complementarias."
+      },
+      {
+        "numero": 24,
+        "titulo": "Sistemas de calefacción: conceptos fundamentales (producción, conducción, control y regulación, aislamientos, emisores, salas de calderas, evacuación de humos)."
+      },
+      {
+        "numero": 25,
+        "titulo": "Producción y distribución de agua caliente sanitaria: conceptos fundamentales (producción, acumulación, prevención de la legionelosis)."
+      },
+      {
+        "numero": 26,
+        "titulo": "Climatización y producción de frío. Tipos de sistemas. Fluidos refrigerantes. Torres de refrigeración, condensadores evaporativos y condensación por aire. Climatizadores y fan-coils. Humectación."
+      },
+      {
+        "numero": 27,
+        "titulo": "Ventilación. Diseño de instalaciones de climatización y ventilación en habitaciones de hospitalización de pacientes inmunodeprimidos, pacientes infecciosos y habitaciones de hospitalización convencionales. Código técnico de la edificación. Sección HS 3: Calidad del aire interior."
+      },
+      {
+        "numero": 28,
+        "titulo": "Suministro, tratamiento y evacuación de agua (potable y residuales). Instalaciones, materiales y equipos. El ámbito hospitalario. Código Técnico de la edificación. Secciones HS4: Suministro de agua y HS 5: Evacuación de aguas. Criterios sanitarios de la calidad del agua de consumo humano."
+      },
+      {
+        "numero": 29,
+        "titulo": "Criterios higiénico-sanitarios para la prevención y control de la legionelosis. Medidas especiales para la prevención y control de la legionelosis en la Comunicad Autónoma de Aragón."
+      },
+      {
+        "numero": 30,
+        "titulo": "Aprovechamiento de la energía solar. Energía solar térmica. Energía solar fotovoltaica. Principios básicos. Instalaciones y equipos. Código técnico de la edificación. Secciones HE4: Contribución mínima de energía renovable para cubrir la demanda de agua caliente sanitaria y HE 5: Generación mínima de energía eléctrica."
+      },
+      {
+        "numero": 31,
+        "titulo": "Reglamento de seguridad para instalaciones frigoríficas. Puesta en servicio de las instalaciones frigoríficas. Mantenimiento, revisiones e inspecciones."
+      },
+      {
+        "numero": 32,
+        "titulo": "Reglamento de equipos a presión. Calderas. Depósitos Criogénicos. Recipientes a presión transportables."
+      },
+      {
+        "numero": 33,
+        "titulo": "Gases medicinales. Tipos y prescripciones particulares. Descarga, almacenamiento y distribución en centros sanitarios. Instalaciones y equipamiento asociadas a dichos gases en ámbito hospitalario. Revisiones y pruebas. Reglamento de almacenamiento de productos químicos: Almacenamiento de líquidos inflamables y combustibles en recipientes fijos. Almacenamiento de gases en recipientes a presión móviles. Etiquetado y pictogramas."
+      },
+      {
+        "numero": 34,
+        "titulo": "Reglamento de instalaciones petrolíferas. Instalaciones de almacenamiento para su consumo en la propia instalación. Procedimiento para dejar fuera de servicio los tanques de almacenamiento de productos petrolíferos líquidos."
+      },
+      {
+        "numero": 35,
+        "titulo": "Reglamento técnico de distribución y utilización de combustibles gaseosos. Instalaciones de distribución de combustibles gaseosos por canalización. Instalaciones receptoras de combustibles gaseosos. Aparatos de gas. Instaladores y empresas instaladoras de gas."
+      },
+      {
+        "numero": 36,
+        "titulo": "Aparatos elevadores y de transporte. Ascensores y montacargas. Dispositivos de funcionamiento, seguridad, pruebas y verificaciones. Escaleras mecánicas. Reglamento de aparatos de elevación y manutención de los mismos. Prescripciones para el incremento de la seguridad del parque de ascensores existente. Tubos neumáticos de transporte de muestras. Puertas automáticas. Sistemas robotizados de transporte."
+      },
+      {
+        "numero": 37,
+        "titulo": "Gestión de residuos. Plan de Gestión Integral de residuos de Aragón. Los residuos sanitarios. Clasificación. La gestión intracentro y extracentro de los residuos sanitarios."
+      },
+      {
+        "numero": 38,
+        "titulo": "Reglamento de instalaciones de protección contra incendios. Sistemas y agentes extintores. Revisiones e inspecciones."
+      },
+      {
+        "numero": 39,
+        "titulo": "Norma Básica de autoprotección de los centros, establecimientos y dependencias dedicados a actividades que puedan dar origen a situaciones de emergencia. Especial aplicación al ámbito sanitario."
+      },
+      {
+        "numero": 40,
+        "titulo": "Código técnico de la edificación. Documento básico SI. Seguridad en caso de incendio. Especial referencia al ámbito hospitalario."
+      },
+      {
+        "numero": 41,
+        "titulo": "Disposiciones mínimas en materia de Prevención de Riesgos Laborales (I). Disposiciones mínimas de seguridad y salud en los lugares de trabajo. Disposiciones mínimas en materia de señalización de seguridad y salud en el trabajo."
+      },
+      {
+        "numero": 42,
+        "titulo": "Disposiciones mínimas en materia de Prevención de Riesgos Laborales (II). Disposiciones mínimas de seguridad y salud relativas a la manipulación manual de cargas que entrañe riesgo, en particular dorsolumbares, para los trabajadores."
+      },
+      {
+        "numero": 43,
+        "titulo": "Disposiciones mínimas en materia de Prevención de Riesgos Laborales (III). Disposiciones mínimas para la protección de la salud y seguridad de los trabajadores frente al riesgo eléctrico. Disposiciones mínimas de seguridad y de salud en las obras de construcción."
+      },
+      {
+        "numero": 44,
+        "titulo": "Disposiciones mínimas en materia de Prevención de Riesgos Laborales (IV). Disposiciones mínimas de seguridad y salud relativas a la utilización por los trabajadores de equipos de protección individual. Disposiciones mínimas de seguridad y salud para la utilización por los trabajadores de los equipos de trabajo."
+      },
+      {
+        "numero": 45,
+        "titulo": "Disposiciones mínimas en materia de Prevención de Riesgos Laborales (V). Protección de la salud y la seguridad de los trabajadores contra los riesgos relacionados con la exposición al ruido. protección de la salud y la seguridad de los trabajadores frente a los riesgos derivados o que puedan derivarse de la exposición a vibraciones mecánicas."
+      },
+      {
+        "numero": 46,
+        "titulo": "El mantenimiento. Concepto. Tipos de mantenimiento. Planes de mantenimiento integral. Gestión y contratación de servicios técnicos. Gestión documental del mantenimiento. Gestión del mantenimiento asistido por ordenador, aplicaciones y herramientas informáticas básicas. Sistemas de control de instalaciones."
+      },
+      {
+        "numero": 47,
+        "titulo": "El Servicio de Ingeniería y Mantenimiento. Organigrama. Organización del servicio. Funciones. Talleres: oficios, organización y control. Almacén: gestión de stocks, planificación y control."
+      },
+      {
+        "numero": 48,
+        "titulo": "El Servicio/Unidad de Electromedicina. Organigrama. Organización del servicio. Funciones. Recursos necesarios. Equipamiento electromédico. Legislación sobre Productos sanitarios activos no implantables. Clasificación según riesgo, funcionalidad y/o tipo de producto."
+      },
+      {
+        "numero": 49,
+        "titulo": "Mantenimiento y gestión de activos en el ámbito sanitario. Gestión del inventario. Ciclo de vida, coste del ciclo de vida. Formulas de incorporación de activos: inversión, donación, cesión. Planificación. Fin de vida de los activos: bajas, eliminación. Marcado CE. Gestión del equipamiento médico según la OMS."
+      },
+      {
+        "numero": 50,
+        "titulo": "Gestión de Organizaciones y Personas. Análisis, diseño y valoración de puestos, planificación de la plantilla. Gestión del rendimiento: herramientas y metodologías de evaluación del desempeño, gestión por funciones, gestión por procesos, integración de la gestión por funciones y procesos, metodología LEAN. Gestión de personas. Habilidades para la gestión de equipos. Gestión del tiempo, toma de decisiones y liderazgo. Trabajo en equipo. Resolución de conflictos: Negociación y motivación."
+      },
+      {
+        "numero": 51,
+        "titulo": "Gestión y seguimiento de obras en el ámbito hospitalario. Plan de obra. Clasificación de riesgos, minimización de riesgos microbiológicos. Actuaciones en la ejecución de obras en el entorno hospitalario. Controles. Medios propios y medios ajenos. Planes directores de hospitales. Metodología. Etapas del plan director."
+      },
+      {
+        "numero": 52,
+        "titulo": "UCIs, Bloque Quirúrgico y unidades de reanimación post-anestésica. Instalaciones y equipos. Circuitos. Inspección y mantenimiento. Clasificación, características especiales, condiciones interiores, criterios técnicos. Seguridad y asepsia. Controles preventivos."
+      },
+      {
+        "numero": 53,
+        "titulo": "Salas de hemodiálisis: instalaciones y equipos. Tratamiento del agua. Etapas y tipos de tratamiento. Ósmosis inversa. Instalaciones y materiales. Planes de mantenimiento."
+      },
+      {
+        "numero": 54,
+        "titulo": "Laboratorios. Tipos y clasificación. Instalaciones y equipos particulares. Circuitos. Inspección y mantenimiento. Sistemas de acreditación propios. Seguridad y asepsia."
+      },
+      {
+        "numero": 55,
+        "titulo": "Radiaciones ionizantes y no ionizantes. Reglamento sobre protección sanitaria contra radiaciones ionizantes. Reglamento sobre instalación y utilización de aparatos de rayos X con fines de diagnóstico médico. Certificaciones y acreditaciones requeridas."
+      },
+      {
+        "numero": 56,
+        "titulo": "Sistemas de radiodiagnóstico, radioterapia e imagen médica. Equipos e instalaciones. Características, reglamentación, fundamentos y funcionamiento. Procesado de imágenes. Documentación típica y protocolos."
+      },
+      {
+        "numero": 57,
+        "titulo": "Cocinas: instalaciones y equipamiento particulares. Configuración y circuitos. Cámaras de conservación y de congelación. Mantenimiento."
+      },
+      {
+        "numero": 58,
+        "titulo": "Lavanderías: instalaciones y equipos particulares. Configuración y circuitos. Maquinaria: túneles de lavado, calandras, lavadoras, secadoras, plegadoras, etc. Suministro de vapor. Dependencias."
+      },
+      {
+        "numero": 59,
+        "titulo": "Esterilización: centrales, instalaciones y equipos. Tipos. Esterilización en alta y baja temperatura. Controles e inspecciones reglamentarias. Definición de áreas y circuitos."
+      },
+      {
+        "numero": 60,
+        "titulo": "Instalaciones de comunicaciones y seguridad. Redes de voz y datos, centrales y repartidores. Cableado estructurado. Centros de proceso de datos: prescripciones técnicas de los locales. Comunicación en planta e intercomunicadores."
+      }
+    ]
+  }
+]

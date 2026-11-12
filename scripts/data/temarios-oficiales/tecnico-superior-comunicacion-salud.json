@@ -1,0 +1,288 @@
+[
+  {
+    "bloque": "Materia común",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "La Constitución Española de 1978: Principios fundamentales. Derechos y deberes fundamentales de los ciudadanos. La protección a la salud en la Constitución."
+      },
+      {
+        "numero": 2,
+        "titulo": "La Corona. Las Cortes Generales. El Gobierno de la Nación. El Poder Judicial. Elaboración, aplicación e interpretación de las normas. Clases de normas y jerarquía normativa. Organización territorial del Estado."
+      },
+      {
+        "numero": 3,
+        "titulo": "El Estatuto de Autonomía de Aragón. Proceso de elaboración, estructura y características generales. El procedimiento de reforma del Estatuto de Autonomía de Aragón. Régimen de competencias de la Comunidad Autónoma."
+      },
+      {
+        "numero": 4,
+        "titulo": "Las Cortes de Aragón. Composición y régimen de funcionamiento. Función legislativa, presupuestaria y de control. Estatuto de los parlamentarios. El Justicia de Aragón"
+      },
+      {
+        "numero": 5,
+        "titulo": "El Presidente. El Gobierno de Aragón. Los Consejeros. La Administración Pública de la Comunidad Autónoma. Los órganos administrativos: su régimen y el ejercicio de las competencias. De los Organismos Públicos y de las Empresas de la Comunidad Autónoma."
+      },
+      {
+        "numero": 6,
+        "titulo": "Población, geografía y territorio en Aragón. Desequilibrios demográficos en Aragón. Magnitudes más relevantes de la economía aragonesa. Evolución reciente de la actividad económica en Aragón."
+      },
+      {
+        "numero": 7,
+        "titulo": "La igualdad de oportunidades entre mujeres y hombres en Aragón: Disposiciones generales. Prevención y Protección Integral a las Mujeres Víctimas de Violencia en Aragón: Disposiciones Generales. La identidad y expresión de género e igualdad social y no discriminación en la Comunidad Autónoma de Aragón: Disposiciones Generales. La diversidad cultural y lucha contra la discriminación: Principios y objetivos del Plan Integral para la Gestión de la Diversidad vigente en Aragón."
+      },
+      {
+        "numero": 8,
+        "titulo": "La Unión Europea. Jerarquía y fuentes del derecho comunitario, y su aplicación al derecho de los estados miembros."
+      },
+      {
+        "numero": 9,
+        "titulo": "La Ley General de Sanidad. El derecho a la protección de la salud. Principios Generales del sistema nacional de salud. Organización general del sistema sanitario público. Los Servicios Autonómicos de Salud."
+      },
+      {
+        "numero": 10,
+        "titulo": "La Ley de Cohesión y Calidad del Sistema Nacional de Salud. Principios generales, estructura y contenidos. Sistema de información sanitaria. Consejo Interterritorial."
+      },
+      {
+        "numero": 11,
+        "titulo": "La Ley de Salud de Aragón. Principios rectores. Características y organización del Sistema Sanitario Público. Derechos, deberes y garantías de los ciudadanos."
+      },
+      {
+        "numero": 12,
+        "titulo": "La Consejería de Sanidad del Gobierno de Aragón: Estructura básica y competencias. El Servicio Aragonés de Salud: Estructura y competencias."
+      },
+      {
+        "numero": 13,
+        "titulo": "La Ley del Estatuto Básico del Empleado Público. Clases de personal. Principios definidores del personal funcionario, estatutario y laboral. Deberes del empleado público y código de conducta. Representación, participación y negociación colectiva. El personal del Servicio Aragonés de Salud."
+      },
+      {
+        "numero": 14,
+        "titulo": "Personal Estatutario: Ley 55/2003 del Estatuto Marco de personal Estatutario de los Sistemas de Salud. Clasificación. Derechos y deberes. Adquisición y pérdida de la condición de personal estatutario fijo. Retribuciones. Jornada, permisos y licencias. Selección de personal estatutario y provisión de plazas en los centros del Servicio Aragonés de Salud. Movilidad y Promoción Interna. Situaciones administrativas. Régimen disciplinario."
+      },
+      {
+        "numero": 15,
+        "titulo": "El régimen de Incompatibilidades. Principios generales. Ámbito de aplicación."
+      },
+      {
+        "numero": 16,
+        "titulo": "Directivas comunitarias en materia de contratación pública. Legislación estatal en materia de contratos del Sector Público. Normativa aragonesa en materia de contratación pública. Los contratos del sector público. Clases de contratos. Configuración general de la contratación del sector público y elementos estructurales de los contratos. De los contratos de las Administraciones Públicas."
+      },
+      {
+        "numero": 17,
+        "titulo": "El Procedimiento Administrativo Común de las Administraciones Públicas: Disposiciones Generales. Computo de plazos. Objeto y plazos de los recursos administrativos. El Régimen Jurídico del Sector Público: Disposiciones Generales."
+      },
+      {
+        "numero": 18,
+        "titulo": "Ley de Prevención de Riesgos Laborales: Conceptos básicos. Derechos y obligaciones en materia de seguridad en el trabajo. Organización de la prevención de riesgos laborales en la Comunidad Autónoma de Aragón. Distribución de funciones y responsabilidades en materia de prevención de riesgos laborales entre los diferentes órganos del Servicio Aragonés de Salud."
+      },
+      {
+        "numero": 19,
+        "titulo": "El régimen jurídico de la protección de datos de carácter personal: Disposiciones generales. Principios de la protección de datos. Derechos de las personas. Responsable y Encargado del Tratamiento."
+      },
+      {
+        "numero": 20,
+        "titulo": "Ley 41/2002, de 14 de noviembre, básica reguladora de la autonomía del paciente y de derechos y obligaciones en materia de información y documentación clínica."
+      }
+    ]
+  },
+  {
+    "bloque": "Materia específica",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "Los derechos de la información y la comunicación en la Constitución Española de 1978: las garantías y suspensión de estos derechos y libertades. Los derechos de la personalidad. La libertad de expresión y su regulación jurídica. Derecho al honor, intimidad y propia imagen, protecciones específicas en materia de salud: intimidad, confidencialidad, secreto profesional. Nociones de información legítima, interés público y diligencia informativa."
+      },
+      {
+        "numero": 2,
+        "titulo": "Ley Orgánica 2/1997, de 19 de junio, reguladora de la cláusula de conciencia de los profesionales de la información."
+      },
+      {
+        "numero": 3,
+        "titulo": "Los derechos de la información y la comunicación en el ámbito internacional y europeo: instrumentos normativos internacionales. Normativas y políticas de la comunicación en Europa. Declaración Universal de Derechos Humanos de 1948. Pacto Internacional de Derechos Civiles y Políticos de 1966. Convenio Europeo para la Protección de los Derechos Humanos y las Libertades Fundamentales, de 1950."
+      },
+      {
+        "numero": 4,
+        "titulo": "Código deontológico del profesional del periodismo: el Código Deontológico de la profesión periodística de la Federación de Asociaciones de Periodistas de España (FAPE). Código europeo de deontología del periodismo (Estrasburgo, 1 de Julio de 1993)."
+      },
+      {
+        "numero": 5,
+        "titulo": "Ley General de Comunicación Audiovisual 13/2022 de 7 de julio (I): disposiciones generales."
+      },
+      {
+        "numero": 6,
+        "titulo": "Real Decreto Legislativo 1/1996, de 12 de abril, por el que se aprueba el texto refundido de la Ley de Propiedad Intelectual, regularizando, aclarando y armonizando las disposiciones legales vigentes sobre la materia: De los derechos de autor. De los otros derechos de propiedad intelectual y de protección «sui generis» de las bases de datos. De la protección de los derechos reconocidos en esta ley."
+      },
+      {
+        "numero": 7,
+        "titulo": "Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales: disposiciones generales. Principios de protección de datos. Derechos de las personas. Disposiciones aplicables a tratamientos concretos. Responsable y encargado del tratamiento. Transferencias internacionales de datos. Autoridades de protección de datos. Procedimientos en caso de posible vulneración de la normativa de protección de datos. Régimen sancionador. Garantía de los derechos digitales."
+      },
+      {
+        "numero": 8,
+        "titulo": "Ley 19/2013, de 9 de diciembre, de transparencia, acceso a la información pública y buen gobierno."
+      },
+      {
+        "numero": 9,
+        "titulo": "Ley 8/2015, de 25 de marzo, de Transparencia de la Actividad Pública y Participación Ciudadana de Aragón. Publicidad activa y derecho de acceso a la información."
+      },
+      {
+        "numero": 10,
+        "titulo": "Las agencias informativas en España y en Aragón: Estructura, funciones y rutinas productivas. Principales características de la información de agencia. Repercusiones de las nuevas tecnologías de la información y la comunicación en el periodismo de agencia."
+      },
+      {
+        "numero": 11,
+        "titulo": "El estilo informativo: Notas distintivas del estilo informativo. Normas prácticas referentes al estilo informativo. Legibilidad y comprensibilidad en los mensajes periodísticos."
+      },
+      {
+        "numero": 12,
+        "titulo": "Los géneros periodísticos: Consideraciones generales: Aparición histórica de estos géneros. Criterios de clasificación. Características diferenciales de los géneros. El periodismo de explicación o interpretativo y sus géneros predominantes. El periodismo especializado. Géneros periodísticos y actitudes informativas. Correspondencia entre estilos, actitudes y género."
+      },
+      {
+        "numero": 13,
+        "titulo": "Los géneros periodísticos informativos (I): La información: La noticia y el género periodístico información. Elementos para la valoración del contenido de la noticia. Técnica de realización (lead y el cuerpo de la información). Diagrama de la información."
+      },
+      {
+        "numero": 14,
+        "titulo": "Los géneros periodísticos informativos (II): El reportaje objetivo: rasgos distintivos del lenguaje literario en el reportaje. Tipos de reportaje y estructura de cada uno (reportaje de acontecimiento, reportaje de acción, reportaje de citas o entrevistas, reportaje corto), la entrevista y sus modalidades, reportajes especiales (el gran reportaje y las conferencias y ruedas de prensa)."
+      },
+      {
+        "numero": 15,
+        "titulo": "La codificación lingüística de los redactores, reelaboración, síntesis, titulación: La valoración de las noticias. La reelaboración y documentación de los textos. Síntesis y condensación. Servicio de teletipo. Las secciones de los lectores. Pies de fotografías. Titulares y encabezamientos."
+      },
+      {
+        "numero": 16,
+        "titulo": "Los gabinetes de comunicación en instituciones públicas (I): Géneros y formatos en la información institucional. Flujos de trabajo. Influencia de las nuevas tecnologías de la información y la comunicación en la comunicación institucional y en la organización de tareas."
+      },
+      {
+        "numero": 17,
+        "titulo": "Los gabinetes de comunicación en instituciones públicas (II): Las relaciones de las instituciones públicas y los medios de comunicación: canales formales e informales. Preparación de encuentros de representantes institucionales con/en los medios de comunicación (nota de prensa, ruedas de prensa, intervenciones en medios de comunicación, entrevistas)."
+      },
+      {
+        "numero": 18,
+        "titulo": "Los gabinetes de comunicación en instituciones públicas (III): La comunicación de acuerdos y acciones en materia sanitaria."
+      },
+      {
+        "numero": 19,
+        "titulo": "Los gabinetes de comunicación en instituciones públicas (IV): Evaluación, análisis y seguimiento informativo."
+      },
+      {
+        "numero": 20,
+        "titulo": "Los gabinetes de comunicación en instituciones públicas (V): Comunicación interna en las administraciones públicas."
+      },
+      {
+        "numero": 21,
+        "titulo": "La figura del o de la portavoz."
+      },
+      {
+        "numero": 22,
+        "titulo": "Documentación. Gestión de archivo."
+      },
+      {
+        "numero": 23,
+        "titulo": "El plan de comunicación (I): Contenido, objetivos y cronograma de desarrollo."
+      },
+      {
+        "numero": 24,
+        "titulo": "El plan de comunicación (II): Comunicación interna: tipologías."
+      },
+      {
+        "numero": 25,
+        "titulo": "Gestión de la comunicación en una situación de crisis: La comunicación de crisis. Concepto. Tipos de crisis. La comunicación en tiempos de pandemia. La adaptación del trabajo informativo durante una crisis sanitaria y las consecuencias posteriores."
+      },
+      {
+        "numero": 26,
+        "titulo": "Comunicación preventiva frente a comunicación reactiva. Plan de comunicación de crisis."
+      },
+      {
+        "numero": 27,
+        "titulo": "El Protocolo y sus relaciones con la comunicación en una administración sanitaria: Sinergias en la organización y difusión de eventos. Los tratamientos honoríficos. Uso de los Tratamientos."
+      },
+      {
+        "numero": 28,
+        "titulo": "Los actos públicos oficiales: definición, clases, organización y desarrollo. Normas generales sobre precedencias de autoridades en los actos oficiales y tradición aplicada."
+      },
+      {
+        "numero": 29,
+        "titulo": "La documentación del protocolo. Elaboración del programa para el desarrollo de un acto."
+      },
+      {
+        "numero": 30,
+        "titulo": "La comunicación en el protocolo. Reglas de expresión verbal y escrita. Los discursos. Los traductores e intérpretes."
+      },
+      {
+        "numero": 31,
+        "titulo": "Hitos históricos de la Comunidad Autónoma de Aragón. Sus personajes."
+      },
+      {
+        "numero": 32,
+        "titulo": "Alternativas a las ruedas de prensa. Otros formatos de encuentros informativos con los medios de comunicación."
+      },
+      {
+        "numero": 33,
+        "titulo": "Influencia de las nuevas tecnologías de la información y la comunicación."
+      },
+      {
+        "numero": 34,
+        "titulo": "Redes sociales y comunicación institucional. La importancia de la interacción con la ciudadanía a través de las redes para las Administraciones Públicas."
+      },
+      {
+        "numero": 35,
+        "titulo": "La web institucional como herramienta y soporte de comunicación. Estructura y funcionalidades."
+      },
+      {
+        "numero": 36,
+        "titulo": "Otros canales de comunicación digital. Boletines digitales y canales de mensajería instantánea. Concepto y utilidad."
+      },
+      {
+        "numero": 37,
+        "titulo": "Divulgación y comunicación de la información de servicio al ciudadano. Tipos de avisos y canales de comunicación."
+      },
+      {
+        "numero": 38,
+        "titulo": "El asociacionismo profesional del periodismo en España. La Federación de Asociaciones de Periodistas de España (FAPE): historia y órganos. El asociacionismo profesional del periodismo en Aragón. La Asociación y el Colegio de Periodistas de Aragón. Origen y estatutos: objeto, fines, funciones y servicios. Colegiación."
+      },
+      {
+        "numero": 39,
+        "titulo": "Situación actual de la profesión periodística en España. Perfiles y principales problemáticas."
+      },
+      {
+        "numero": 40,
+        "titulo": "La Corporación Aragonesa de Radio y Televisión: objeto, ámbito de aplicación y principios generales. Programación y control. El Consejo de Administración y el Consejo Asesor."
+      },
+      {
+        "numero": 41,
+        "titulo": "Géneros periodísticos (I). La información y noticia. Contenido de la noticia. Técnica de realización (lead y cuerpo). Diagrama de la información."
+      },
+      {
+        "numero": 42,
+        "titulo": "Géneros periodísticos (II). El reportaje. Tipos y estructura. Entrevista y sus modalidades."
+      },
+      {
+        "numero": 43,
+        "titulo": "Nuevas narrativas en el periodismo actual. Estrategias y herramientas."
+      },
+      {
+        "numero": 44,
+        "titulo": "La prensa diaria en papel en Aragón. Principales cabeceras, historia, evolución y realidad actual. Rutinas productivas. Tratamiento de la información sanitaria de Aragón."
+      },
+      {
+        "numero": 45,
+        "titulo": "El periodismo digital en Aragón. Medios nativos y no nativos. Evolución en la última década y panorama actual. Rutinas productivas. Tratamiento de la información sanitaria de Aragón en estos medios."
+      },
+      {
+        "numero": 46,
+        "titulo": "El sector radiofónico en Aragón. Evolución de la última década y panorama actual de las principales emisoras. La digitalización de la radio. Programación local y audiencias. Rutinas productivas. Tratamiento dé la información sanitaria aragonesa en estos medios."
+      },
+      {
+        "numero": 47,
+        "titulo": "Las agencias informativas en Aragón. Evolución de la última década y panorama actual. La digitalización de la radio. Rutinas productivas. Tratamiento de la información sanitaria aragonesa."
+      },
+      {
+        "numero": 48,
+        "titulo": "La medición de audiencias en prensa, radio, televisión y medios digitales. Tendencias y panorama actual de los principales medios en Aragón."
+      },
+      {
+        "numero": 49,
+        "titulo": "Carta de derechos digitales. Derechos de libertad. Derechos de Igualdad. Derechos de participación y conformación del espacio público."
+      }
+    ]
+  }
+]

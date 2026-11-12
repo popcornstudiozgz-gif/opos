@@ -40,11 +40,19 @@ async function upsert(tabla, filas, onConflict) {
 function validar(oposicion, temario, convocatoria) {
   const errores = [];
   if (!temario.length || temario.some((b) => !b.temas.length)) errores.push("programa vacío o con un bloque sin temas");
-  const numeros = temario.flatMap((b) => b.temas.map((t) => t.numero));
-  const continuo = numeros.every((n, i) => n === i + 1);
-  const porBloque = temario.every((b) => b.temas.every((t, i) => t.numero === i + 1));
-  if (!continuo && !porBloque) errores.push("numeración del programa con saltos");
-  if (temario.some((b) => b.temas.some((t) => !t.titulo || t.titulo.length < 10))) errores.push("algún tema sin título");
+  // Cada bloque es correlativo y empieza en 1 o donde acabó el anterior (así
+  // caben los programas numerados de corrido, los numerados por bloque y los
+  // mixtos, como el Grupo Técnico del SALUD: parte general y específica de
+  // corrido y dos módulos optativos que vuelven a empezar en 1).
+  let ultimo = 0;
+  const sinSaltos = temario.every((b) => {
+    const inicio = b.temas[0]?.numero;
+    const ok = (inicio === 1 || inicio === ultimo + 1) && b.temas.every((t, i) => t.numero === inicio + i);
+    ultimo = b.temas.at(-1)?.numero ?? ultimo;
+    return ok;
+  });
+  if (!sinSaltos) errores.push("numeración del programa con saltos");
+  if (temario.some((b) => b.temas.some((t) => !t.titulo || t.titulo.trim().length < 5))) errores.push("algún tema sin título"); // «Lepra.» o «Coma.» son temas reales del SALUD
   const suma = convocatoria.desglose_plazas.reduce((s, d) => s + d.cantidad, 0);
   if (suma !== convocatoria.plazas_total) errores.push(`desglose de plazas (${suma}) ≠ plazas_total (${convocatoria.plazas_total})`);
   if (convocatoria.oposicion_slug !== oposicion.slug) errores.push("convocatoria.oposicion_slug no coincide");
@@ -63,6 +71,45 @@ export async function sembrarFicha({ oposicion, convocatoria }) {
   const temas = temario.reduce((n, b) => n + b.temas.length, 0);
   console.log(`✅ Ficha ${oposicion.slug}: ${temas} temas en ${temario.length} bloques, ${convocatoria.plazas_total} plazas (${convocatoria.estado}).`);
 }
+
+/**
+ * Datos comunes a las convocatorias del Servicio Aragonés de Salud (SALUD),
+ * personal estatutario. Todas las de 2023-2026 comprobadas (89 categorías,
+ * noviembre de 2026) siguen las mismas bases 6 y 7, conforme al Decreto
+ * 37/2011: un test de 100 preguntas + 10 de reserva con 4 alternativas que
+ * resta un tercio por error, nota de corte del 60 % de la media de las 10
+ * mejores (mínimo el 50 % de la máxima alcanzada y más de un tercio de la
+ * alcanzable), como mucho tres aprobados por plaza, concurso de méritos de
+ * hasta 100 puntos grabados en 10 días hábiles y nota final 60 % + 40 %.
+ */
+export const SALUD = {
+  organismo: "Servicio Aragonés de Salud",
+  organismo_slug: "salud-aragon",
+  sistema_seleccion:
+    "Concurso-oposición: un test eliminatorio (fase de oposición) y, para quien lo supera, la valoración de méritos (fase de concurso); la nota final suma el 60 % del test y el 40 % de los méritos",
+  duracion_maxima_proceso:
+    "Las bases no fijan una duración máxima. La fecha del examen y el resto de actos se publican en la web del Servicio Aragonés de Salud y en los tablones de sus centros.",
+  orden_actuacion:
+    "No hay orden de actuación: el examen es un único test en llamamiento único. Si hay empate en la nota final, se desempata por la nota del test, después por los apartados del baremo y, en último lugar, por la letra del apellido del sorteo del Instituto Aragonés de Administración Pública del año en que se resuelva.",
+  pruebas: [
+    {
+      id: "fase-oposicion", icono: "📝", numero: 1,
+      nombre: "Fase de oposición (test)",
+      formato: "Test",
+      duracion: "La fija el tribunal",
+      opciones: "100 preguntas + 10 de reserva, 4 alternativas, 1 válida",
+      detalle: "Ejercicio único y eliminatorio. Cada acierto suma 1 punto (máximo 100), cada error resta un tercio y las preguntas en blanco no cuentan. Para aprobar hay que llegar al 60 % de la media de las 10 mejores notas, sin que el corte baje del 50 % de la nota más alta obtenida y siempre por encima de un tercio de la máxima posible. Como mucho aprueban tres aspirantes por plaza (más los empatados con la nota de corte).",
+    },
+    {
+      id: "fase-concurso", icono: "📋", numero: 2,
+      nombre: "Fase de concurso (méritos)",
+      formato: "Valoración de méritos",
+      duracion: "No es un examen",
+      opciones: "Hasta 100 puntos según el baremo de la convocatoria",
+      detalle: "Solo para quien aprueba el test. Se valoran la experiencia profesional, la formación y la docencia e investigación; los méritos se graban en el Portal de Recursos Humanos del SALUD en un plazo de 10 días hábiles. Los puntos del concurso no sirven para aprobar el test. Nota final: 60 % del test y 40 % del concurso.",
+    },
+  ],
+};
 
 /** Datos comunes a las convocatorias de la DGA (Instituto Aragonés de Administración Pública). */
 export const DGA = {

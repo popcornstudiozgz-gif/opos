@@ -1,0 +1,212 @@
+[
+  {
+    "bloque": "Materia común",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "La Constitución Española de 1978: Principios fundamentales. Derechos y deberes fundamentales de los ciudadanos. La protección a la salud en la Constitución. La Corona. Las Cortes Generales. El Gobierno de la Nación. El Poder Judicial."
+      },
+      {
+        "numero": 2,
+        "titulo": "El Estatuto de Autonomía de Aragón. Principios informadores. Estructura y contenido. La organización institucional de la Comunidad Autónoma. Las Cortes y el Justicia de Aragón. Las competencias de la Comunidad de Aragón con especial referencia a las relativas a sanidad."
+      },
+      {
+        "numero": 3,
+        "titulo": "Población, geografía y territorio en Aragón. Desequilibrios demográficos en Aragón. Magnitudes más relevantes de la economía aragonesa. Evolución reciente de la actividad económica en Aragón."
+      },
+      {
+        "numero": 4,
+        "titulo": "La igualdad de oportunidades entre mujeres y hombres en Aragón: Disposiciones generales. Prevención y Protección Integral a las Mujeres Víctimas de Violencia en Aragón: Disposiciones Generales. La identidad y expresión de género e igualdad social y no discriminación en la Comunidad Autónoma de Aragón: Disposiciones Generales. La diversidad cultural y lucha contra la discriminación: Principios y objetivos del Plan Integral para la Gestión de la Diversidad vigente en Aragón."
+      },
+      {
+        "numero": 5,
+        "titulo": "Estructura y competencias del Departamento de Sanidad. Estructura y competencias del Servicio Aragonés de Salud. Decreto Legislativo 2/2004, de 30 de diciembre, Texto Refundido de la Ley del Servicio Aragonés de Salud. Estructura y funcionamiento de las áreas y sectores del Sistema de Salud de Aragón."
+      },
+      {
+        "numero": 6,
+        "titulo": "La Ley 14/1986, de 25 de abril, General de Sanidad: El Sistema Nacional de Salud y los Servicios de Salud de las Comunidades Autónomas. El Área de Salud. La Ley 6/2002, de 15 de abril, de Salud de Aragón. Principios generales. Derechos y deberes de los ciudadanos. Derechos de información sobre la salud y autonomía del paciente."
+      },
+      {
+        "numero": 7,
+        "titulo": "El Procedimiento Administrativo Común de las Administraciones Públicas: Disposiciones Generales. Computo de plazos. Objeto y plazos de los recursos administrativos. El Régimen Jurídico del Sector Público: Disposiciones generales, principios de actuación y funcionamiento del sector público. El régimen jurídico de la protección de datos de carácter personal. Principios en el tratamiento de los datos personales. La seguridad de los datos. Ejercicio y tutela de los derechos del titular de los datos."
+      },
+      {
+        "numero": 8,
+        "titulo": "Personal Estatutario de los Servicios de Salud (I). Clasificación del Personal Estatutario. Derechos y Deberes. Adquisición y pérdida de la condición de personal estatutario. Provisión de plazas, selección y promoción interna. Movilidad del personal."
+      },
+      {
+        "numero": 9,
+        "titulo": "Personal Estatutario de los Servicios de Salud (II): Retribuciones. Jornada de trabajo, permisos y licencias. Situaciones del personal estatutario. Régimen disciplinario. Régimen de Incompatibilidades: Principios generales. Ámbito de aplicación."
+      },
+      {
+        "numero": 10,
+        "titulo": "Ley de Prevención de Riesgos Laborales: Conceptos básicos. Derechos y obligaciones en materia de seguridad en el trabajo. Organización de la prevención de riesgos laborales en la Comunidad Autónoma de Aragón. Distribución de funciones y responsabilidades en materia de prevención de riesgos laborales entre los diferentes órganos del Servicio Aragonés de Salud."
+      }
+    ]
+  },
+  {
+    "bloque": "Materia específica",
+    "temas": [
+      {
+        "numero": 11,
+        "titulo": "Desarrollo embriológico de la cara y estructuras bucales."
+      },
+      {
+        "numero": 12,
+        "titulo": "La célula: componentes físicos y químicos. Concepto de tejido."
+      },
+      {
+        "numero": 13,
+        "titulo": "Anatomía dental: características generales de los dientes. Odontograma. Tipos de dentición. Diferencias entre dentición temporal y permanente. Anomalías de la dentición."
+      },
+      {
+        "numero": 14,
+        "titulo": "Estructuras anatómicas de cabeza y cuello. Características morfológicas. Fisiología del aparato estomatognático. Articulación temporo-mandibular, estructuras asociadas. Huesos y articulaciones de la cabeza y del cuello."
+      },
+      {
+        "numero": 15,
+        "titulo": "Músculos de la masticación, deglución, lenguaje oral y del gesto. Inervación y vascularización bucodental y estructuras asociadas."
+      },
+      {
+        "numero": 16,
+        "titulo": "Oclusión y maloclusión: concepto, tipos y prevención. Hábitos nocivos. Epidemiología de las maloclusiones. Etiología. Riesgo de la maloclusión no tratada. Riesgo del tratamiento ortodoncico"
+      },
+      {
+        "numero": 17,
+        "titulo": "Aparato digestivo: definición, composición, función, alteraciones. Aparato excretor. Definición y función"
+      },
+      {
+        "numero": 18,
+        "titulo": "Placa dental: concepto, localización y composición. Formas clínicas: placa cariógena y periodontógena. Visualización y detección de la placa dental. Métodos de control de la placa bacteriana."
+      },
+      {
+        "numero": 19,
+        "titulo": "Dieta, nutrición, hábitos alimenticios relacionados con la salud bucodental. Alimentos cariogénicos y no cariogénicos: componentes y definición. Saliva y salud oral."
+      },
+      {
+        "numero": 20,
+        "titulo": "Salud bucodental: concepto y métodos para prevención. Higiene bucodental e interdental: concepto y utilización."
+      },
+      {
+        "numero": 21,
+        "titulo": "Caries: fundamentos actuales de su prevención y control. Diagnóstico de la caries. Criterios clínicos para el diagnóstico de las lesiones de caries. Riesgo de caries y su actividad. Tratamiento de la enfermedad y las lesiones."
+      },
+      {
+        "numero": 22,
+        "titulo": "Selladores de fosas y fisuras. Concepto. Composición, metodologías, materiales e indicaciones."
+      },
+      {
+        "numero": 23,
+        "titulo": "Concepto de flúor, metabolismo, actuación preventiva. Desmineralización/ remineralización. Uso racional del flúor. Flúor sistémico. Flúor tópico. Toxicidad aguda y crónica."
+      },
+      {
+        "numero": 24,
+        "titulo": "Defectos del esmalte congénitos y adquiridos. Hipomineralización incisivo molar. Fluorosis dental: etiología y prevención"
+      },
+      {
+        "numero": 25,
+        "titulo": "Traumatismos bucodentales. Epidemiología, Primeros auxilios. Organización del tratamiento de urgencia. Prevención"
+      },
+      {
+        "numero": 26,
+        "titulo": "Enfermedad periodontal. Prevención y control de las enfermedades periodontales. Diagnóstico y pronóstico periodontales. Enfermedad periodontal como factor de riesgo de otras enfermedades. Enfermedades periodontales como problema de salud pública."
+      },
+      {
+        "numero": 27,
+        "titulo": "Alteraciones de las encías, mucosa oral y glándulas salivares"
+      },
+      {
+        "numero": 28,
+        "titulo": "Lesiones orales. Neoplasia oral. Concepto, etiología, tratamiento y prevención. Papel del higienista dental en la detección precoz del cáncer oral."
+      },
+      {
+        "numero": 29,
+        "titulo": "Riesgos profesionales en odontología. Normas de seguridad y medidas preventivas. Enfermedades de transmisión por fluidos orgánicos. Mecanismos de transmisión, epidemiología y prevención. Normas de seguridad en enfermedades infectocontagiosas: material de aislamiento y precauciones. Equipos de protección individual."
+      },
+      {
+        "numero": 30,
+        "titulo": "Concepto de asepsia y antisepsia. Antisépticos orales: tipos, composición, uso e indicaciones. Manejo de materiales estériles. Limpieza, desinfección y esterilización en la consulta odontológica."
+      },
+      {
+        "numero": 31,
+        "titulo": "Inmunidad: definición. Sistema inmunitario. Antígeno/anticuerpo: concepto y diferenciación."
+      },
+      {
+        "numero": 32,
+        "titulo": "Infecciones odontológicas: Definición, etiología, tratamiento y prevención."
+      },
+      {
+        "numero": 33,
+        "titulo": "Funciones del higienista dental."
+      },
+      {
+        "numero": 34,
+        "titulo": "El higienista dental en Atención Primaria. Prestaciones odontológicas en las Unidades de Salud Bucodental."
+      },
+      {
+        "numero": 35,
+        "titulo": "Programa de Atención Bucodental Infantil y Juvenil (PABIJ) en la Comunidad Autónoma de Aragón."
+      },
+      {
+        "numero": 36,
+        "titulo": "La unidad dental: concepto, estructura y funcionamiento. Características del sillón dental. Iluminación. Sistemas de aspiración. Jeringa, turbina, micromotor. Mantenimiento de la unidad dental."
+      },
+      {
+        "numero": 37,
+        "titulo": "Equipo humano odontológico. Composición y organización. Colocación del enfermo para exploración bucodental. Posición del facultativo y del higienista. Ergonomía: objetivos y fundamentos. Instrumentación. Posición básica del equipo dental."
+      },
+      {
+        "numero": 38,
+        "titulo": "Instrumentación en la consulta odontológica. Instrumental quirúrgico, instrumental no quirúrgico. Instrumental desechable y no desechable. Ultrasonidos. Cuidado y mantenimiento del instrumental."
+      },
+      {
+        "numero": 39,
+        "titulo": "Radiología en odontología: Concepto. Tipos de radiografías bucodentales. Revelado. Métodos. Conservación y mantenimiento del equipo radiológico. Requisitos legales. Normas de protección radiológica en la consulta de odontología."
+      },
+      {
+        "numero": 40,
+        "titulo": "Concepto de salud y enfermedad. Educación para la salud en odontología; individual y grupal: Programas educativos especiales."
+      },
+      {
+        "numero": 41,
+        "titulo": "Manejo de residuos en las unidades de salud bucodental: clasificación, transporte, eliminación y tratamiento. Segregación de residuos y envasado."
+      },
+      {
+        "numero": 42,
+        "titulo": "Comunicación con el paciente. Recepción. Recogida de datos. Sistema de registro y archivos. Mantenimiento y conservación de historias clínicas y datos odontológicos. La ética en odontología. Confidencialidad."
+      },
+      {
+        "numero": 43,
+        "titulo": "Métodos de tratamiento de la placa y tártaro por la higienista dental. Tartrectomía. Raspaje y alisado radicular. Controles periódicos. Mantenimiento. Instrumental utilizado. Mantenimiento de material. Afilado."
+      },
+      {
+        "numero": 44,
+        "titulo": "Materiales dentales: fundamento, composición, tipos. Instrumentos odontológicos: descripción, tipos y conservación. Clasificación clínica. Normativas y regulaciones internacionales."
+      },
+      {
+        "numero": 45,
+        "titulo": "La rehabilitación oral en el paciente odontológico. Prótesis fija y removible. Indicaciones. Conservación y normas de higiene de las prótesis odontológicas."
+      },
+      {
+        "numero": 46,
+        "titulo": "Ley de autonomía del paciente. Protección de datos. Reglamento Europeo de protección de datos. Datos especialmente protegidos. Consentimiento informado en odontología."
+      },
+      {
+        "numero": 47,
+        "titulo": "Urgencias médicas en odontología. Papel del higienista dental. Soporte Vital Básico (SVB). Cadena de supervivencia."
+      },
+      {
+        "numero": 48,
+        "titulo": "Pacientes especiales en odontología. Papel del higienista dental ante el paciente con cardiopatía, diabético, hipertenso u otras patologías."
+      },
+      {
+        "numero": 49,
+        "titulo": "Pacientes discapacitados. Peculiaridades del tratamiento y cuidado de estos pacientes. Papel del higienista dental."
+      },
+      {
+        "numero": 50,
+        "titulo": "Fármacos en odontología: Concepto, descripción y diferenciación. Vías de administración. Efectos secundarios. Interacciones."
+      }
+    ]
+  }
+]

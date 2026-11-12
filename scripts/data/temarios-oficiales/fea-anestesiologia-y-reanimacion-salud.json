@@ -1,0 +1,332 @@
+[
+  {
+    "bloque": "Materia común",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "Constitución Española de 1978: la protección de la salud en la Constitución. Estatuto de Autonomía de Aragón. Competencias en salud recogidas en el Estatuto de Autonomía. Las Cortes de Aragón. El Gobierno de Aragón."
+      },
+      {
+        "numero": 2,
+        "titulo": "El texto refundido de la Ley del Estatuto Básico del Empleado Público, aprobado por el Real Decreto Legislativo 5/2015: deberes del empleado público y código de conducta. Representación, participación y negociación colectiva."
+      },
+      {
+        "numero": 3,
+        "titulo": "El régimen jurídico de la protección de datos de carácter personal: Disposiciones generales. Principios de la protección de datos. Derechos de las personas."
+      },
+      {
+        "numero": 4,
+        "titulo": "El Procedimiento Administrativo Común de las Administraciones Públicas: Disposiciones Generales. Cómputo de plazos. Objeto y plazos de los recursos administrativos. El Régimen Jurídico del Sector Público: Disposiciones Generales."
+      },
+      {
+        "numero": 5,
+        "titulo": "Ley 14/86 General de Sanidad. Ley 6/2002 de Salud de Aragón. Principios generales, estructura, contenidos. Ley 16/2003 de cohesión y calidad del Sistema Nacional de Salud. Principios generales, estructura, contenidos."
+      },
+      {
+        "numero": 6,
+        "titulo": "Ley 44/2003 de Ordenación de las Profesiones Sanitarias. Ámbito de aplicación, contenidos. Ley 41/2002, de 14 de noviembre, básica reguladora de la autonomía del paciente y de derechos y obligaciones en materia de información y documentación clínica. Ley 9/2013, de 28 de noviembre, de Autoridad de Profesionales del Sistema Sanitario y de Servicios Sociales Públicos de Aragón."
+      },
+      {
+        "numero": 7,
+        "titulo": "Ley 55/2003 del Estatuto Marco de personal Estatutario de los Servicios de Salud (I). Principios generales, estructura, contenidos. Clasificación del personal estatutario. Derechos y deberes. Adquisición y pérdida de la condición de personal estatutario. Provisión de plazas, selección y promoción interna. Movilidad del personal."
+      },
+      {
+        "numero": 8,
+        "titulo": "Ley 55/2003 del Estatuto Marco de personal Estatutario de los Servicios de Salud (II). Retribuciones. Jornada de trabajo, permisos y licencias. Situaciones del personal estatutario. Régimen disciplinario. Modelo de Carrera Profesional en Aragón. Ley 53/1984 de 26 de diciembre, de incompatibilidades. Principios Generales. Ámbito de aplicación."
+      },
+      {
+        "numero": 9,
+        "titulo": "La igualdad de oportunidades entre mujeres y hombres en Aragón: Disposiciones generales. Prevención y Protección Integral a las Mujeres Víctimas de Violencia en Aragón: Disposiciones Generales. La identidad y expresión de género e igualdad social y no discriminación en la Comunidad Autónoma de Aragón: Disposiciones Generales. La diversidad cultural y lucha contra la discriminación: Principios y objetivos del vigente Plan Integral para la Gestión de la Diversidad de Aragón."
+      },
+      {
+        "numero": 10,
+        "titulo": "El sistema sanitario. Niveles asistenciales. Organización de los servicios sanitarios en Aragón. Estructura del Departamento de Sanidad de Aragón y del Servicio Aragonés de la Salud. Los Sectores sanitarios."
+      },
+      {
+        "numero": 11,
+        "titulo": "Metodología de la Investigación: El método científico. Diseño de un proyecto de investigación. Estadística aplicada a los estudios de Medicina."
+      },
+      {
+        "numero": 12,
+        "titulo": "El método epidemiológico. Epidemiología descriptiva: tipos de estudios, tasas e indicadores. Epidemiología analítica: tipos de estudios. Riesgo relativo, riesgo atribuible y Odds Ratio. Sesgos."
+      },
+      {
+        "numero": 13,
+        "titulo": "Estudios experimentales. Ensayos clínicos. Ética de la investigación clínica. Validez de métodos diagnósticos: sensibilidad, especificidad, valor predictivo positivo."
+      },
+      {
+        "numero": 14,
+        "titulo": "Evaluación de Tecnologías Sanitarias: Procedimientos de evaluación. Cartera de Servicios del Sistema Nacional de Salud. Procedimiento de actualización de la Cartera de Servicios del sistema de Salud de Aragón."
+      },
+      {
+        "numero": 15,
+        "titulo": "Práctica basada en la evidencia. Variabilidad en la práctica médica. Búsqueda y valoración de evidencias. Aplicación de las evidencias a la toma de decisiones clínicas. Guías clínicas. Proyecto Guía-Salud."
+      },
+      {
+        "numero": 16,
+        "titulo": "La seguridad del paciente. Gestión de riesgos. Principales problemas para la seguridad del paciente en el hospital. Estrategias para la mejora de la seguridad."
+      },
+      {
+        "numero": 17,
+        "titulo": "Uso Racional del Medicamento. Criterios de selección de medicamentos. Equivalentes terapéuticos. Indicadores de calidad de prescripción."
+      },
+      {
+        "numero": 18,
+        "titulo": "Evaluación y mejora de la calidad. Modelos de Gestión de la Calidad. Diseño de un programa de calidad."
+      },
+      {
+        "numero": 19,
+        "titulo": "Principios fundamentales de la bioética: aplicación a la asistencia sanitaria. La relación médico-paciente, el consentimiento informado. Los comités de Bioética. La ética en la investigación clínica."
+      },
+      {
+        "numero": 20,
+        "titulo": "Gobierno clínico. La implicación de los profesionales en el funcionamiento de las instituciones sanitarias."
+      }
+    ]
+  },
+  {
+    "bloque": "Materia específica",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "Fisiología respiratoria y anestesia. Respiración celular. Anatomía funcional respiratoria. Mecanismo básico de la respiración. Mecánica de la respiración. Control de la respiración. Relaciones ventilación/perfusión. Transporte de gases respiratorios en la sangre."
+      },
+      {
+        "numero": 2,
+        "titulo": "Fisiología cardiovascular y anestesia. Inicio y conducción del impulso cardíaco. Mecanismo de la contracción. Inervación del corazón. Ciclo cardíaco. Determinantes de la función ventricular. Evaluación de la función ventricular. Circulación sistémica y su regulación."
+      },
+      {
+        "numero": 3,
+        "titulo": "Fisiología de la función hepática y anestesia. Anatomía funcional. Funciones vasculares del hígado. Funciones metabólicas. Formación y excreción de bilis. Pruebas de función hepática. Efecto de la anestesia sobre la función hepática."
+      },
+      {
+        "numero": 4,
+        "titulo": "Fisiología del sistema nervioso y anestesia. Metabolismo cerebral. Flujo sanguíneo cerebral. Regulación del flujo sanguíneo cerebral. La barrera hematoencefálica. Líquido cefalorraquídeo. Presión intracraneal. Efecto de los anestésicos sobre la fisiología cerebral. Fisiología de la protección cerebral."
+      },
+      {
+        "numero": 5,
+        "titulo": "Fisiología de la función renal y anestesia. Circulación renal. Flujo sanguíneo renal y filtración glomerular. Efectos de la anestesia y la cirugía sobre la función renal."
+      },
+      {
+        "numero": 6,
+        "titulo": "Fisiología y monitorización del equilibrio ácido-base. Mecanismos de compensación. Acidosis. Alcalosis."
+      },
+      {
+        "numero": 7,
+        "titulo": "Fisiología y monitorización de la hemostasia."
+      },
+      {
+        "numero": 8,
+        "titulo": "Fisiología del envejecimiento. Cambios biológicos en aparatos y sistemas."
+      },
+      {
+        "numero": 9,
+        "titulo": "Fisiología del sistema endocrino. Fisiología de las glándulas tiroideas, paratiroideas, suprarrenales y páncreas."
+      },
+      {
+        "numero": 10,
+        "titulo": "Fisiología del embarazo. Cambios fisiológicos del embarazo. Circulación uteroplacentaria. Fisiología del trabajo de parto normal."
+      },
+      {
+        "numero": 11,
+        "titulo": "Fisiología del dolor."
+      },
+      {
+        "numero": 12,
+        "titulo": "Principios de farmacología. Farmacocinética. Farmacodinámica. Variabilidad de la respuesta farmacológica. Aplicación de los principios farmacológicos a la dosificación racional de los anestésicos."
+      },
+      {
+        "numero": 13,
+        "titulo": "Analgésicos antiinflamatorios no esteroideos (AINEs). Efectos secundarios de los AINEs."
+      },
+      {
+        "numero": 14,
+        "titulo": "Analgésicos opioides. Factores farmacocinéticas y farmacodinámicos. Propiedades farmacológicas."
+      },
+      {
+        "numero": 15,
+        "titulo": "Benzodiacepinas en anestesiología. Midazolam. Hipnóticos. Propofol. Etomidato. Tiopental. Ketamina."
+      },
+      {
+        "numero": 16,
+        "titulo": "Farmacología comparada de los anestésicos inhalatorios. Sevofluorane. Desfluorane. Isofluorane. Óxido nitroso."
+      },
+      {
+        "numero": 17,
+        "titulo": "Bloqueantes neuromusculares. Bloqueantes despolarizantes.. Succinilcolina. Bloqueantes no despolarizantes. Atracurio. Cisatracurio. Vecuronio. Rocuronio. Mivacurio."
+      },
+      {
+        "numero": 18,
+        "titulo": "Farmacología clínica de los anestésicos locales. Lidocaína. Mepivacaína. Ropivacaína, Bupivacaína. Levobupivacaína."
+      },
+      {
+        "numero": 19,
+        "titulo": "Hipotensores. Vasopresores. Inotrópicos. Vasodilatadores."
+      },
+      {
+        "numero": 20,
+        "titulo": "Anestesia en cirugía mayor ambulatoria. Preparación del paciente. Técnicas anestésicas. Dolor y emesis postoperatorias. Analgesia postoperatoria. Criterios de alta. Gestión de una Unidad de Cirugía Ambulatoria."
+      },
+      {
+        "numero": 21,
+        "titulo": "Sala de operaciones: sistemas de gases médicos, factores ambientales y seguridad de relación con la electricidad."
+      },
+      {
+        "numero": 22,
+        "titulo": "Estudio preoperatorio. Examen preoperatorio general. Evaluación cardiovascular. Evaluación respiratoria. Evaluación en pacientes con enfermedades intercurrentes. Preparación preoperatorio."
+      },
+      {
+        "numero": 23,
+        "titulo": "Posición del paciente."
+      },
+      {
+        "numero": 24,
+        "titulo": "Monitorización hemodinámica. Electrocardiografía. Presión arterial. Presión venosa central. Presión de arteria pulmonar. Gasto cardíaco. Saturación venosa mixta. Doppler esofágico."
+      },
+      {
+        "numero": 25,
+        "titulo": "Monitorización respiratoria y del bloqueo neuromuscular. Monitorización de gases. Monitorización de la mecánica pulmonar. Monitorización del bloqueo neuromuscular."
+      },
+      {
+        "numero": 26,
+        "titulo": "Monitorización neurológica. Actividad eléctrica cerebral. Hemodinámica cerebral Oxigenación y metabolismo cerebral."
+      },
+      {
+        "numero": 27,
+        "titulo": "Hemostasia intraoperatoria. Evaluación clínica y analítica de la hemostasia."
+      },
+      {
+        "numero": 28,
+        "titulo": "Manejo de la vía área. Anatomía. Equipo. Técnicas para la laringoscopia directa e intubación. Complicaciones de la intubación."
+      },
+      {
+        "numero": 29,
+        "titulo": "Anestesia regional neuroaxial. Bloqueos intradurales, epidurales y caudales. Mecanismos de acción. Consideraciones clínicas comunes a los bloqueos intradurales y epidurales. Complicaciones de los bloqueos neuroaxiales."
+      },
+      {
+        "numero": 30,
+        "titulo": "Bloqueos de nerviosos periféricos. Bloqueos de la extremidad superior. Bloqueos de la extremidad inferior."
+      },
+      {
+        "numero": 31,
+        "titulo": "Tratamientos con líquidos y transfusión. Líquidos intravenosos. Tratamiento perioperatorio con líquidos. Transfusión y sus complicaciones."
+      },
+      {
+        "numero": 32,
+        "titulo": "Anestesia para neurocirugía. Hipertensión intracraneal. Anestesia y craneotomía para pacientes con lesiones ocupantes de espacio. Anestesia en cirugía de fosa posterior. Anestesia en cirugía estereotáxica. Anestesia en el traumatismo craneoencefálico. Anestesia y craneotomía para aneurismas intracraneanos y malformaciones arteriovenosas. Anestesia en cirugía de la columna vertebral."
+      },
+      {
+        "numero": 33,
+        "titulo": "Anestesia para cirugía torácica. Consideraciones fisiológicas de la anestesia torácica. Técnicas de ventilación de pulmón único. Anestesia para resección pulmonar. Anestesia para resección traqueal. Anestesia para la cirugía toracoscópica. Anestesia para procedimientos torácicos diagnósticos. Anestesia para trasplante pulmonar. Anestesia para la cirugía esofágica. Anestesia para la cirugía de reducción de volumen pulmonar."
+      },
+      {
+        "numero": 34,
+        "titulo": "Anestesia para cirugía cardiovascular. Derivación cardiovascular. Procedimiento anestésico en la cirugía cardiaca. Cirugía de derivación coronaria sin bomba. Trasplante cardíaco. Anestesia en el enfermo hipertenso y en el coronario en cirugía no cardiaca."
+      },
+      {
+        "numero": 35,
+        "titulo": "Anestesia en cirugía vascular. Anestesia para cirugía de la aorta. Lesiones específicas de la aorta. Manejo anestésico. Anestesia en cirugía de la arteria carótida."
+      },
+      {
+        "numero": 36,
+        "titulo": "Anestesia para cirugía genitourinaria. Cistoscopia. Resección transuretral de próstata. Cirugía radical en neoplasias urológicas. Trasplante renal. Anestesia en el paciente con insuficiencia renal."
+      },
+      {
+        "numero": 37,
+        "titulo": "Tema 52. Anestesia en la cirugía abdominal. Traumatismos abdominales. Cirugía abdominal de urgencia. Cirugía laparoscópica."
+      },
+      {
+        "numero": 38,
+        "titulo": "Anestesia para la cirugía de la vía biliar y hepática. Anestesia en el paciente con enfermedad hepática"
+      },
+      {
+        "numero": 39,
+        "titulo": "Anestesia obstétrica. Anestesia para el trabajo de parto y el parto vaginal. Anestesia para la cesárea. Anestesia en el embarazo complicado. Reanimación neonatal y fetal."
+      },
+      {
+        "numero": 40,
+        "titulo": "Anestesia pediátrica. Anatomía y fisiología. Riesgo anestésico pediátrico. Técnicas anestésicas en pediatría. Anestesia en el prematuro. Malrotación y vólvulo intestinal. Hernia diafragmática congénita. Fístula traqueoesofágica. Gastrosquisis y onfalocele. Estenosis hipertrófica de píloro. Crup infeccioso. Amigdalectomía y adenoidectomía. Anestesia en el síndrome de Down. Hipertermia maligna."
+      },
+      {
+        "numero": 41,
+        "titulo": "Anestesia para cirugía ortopédica. Consideraciones especiales en cirugía ortopédica: cemento óseo, torniquetes neumáticos, síndrome de embolia grasa, trombosis venosa profunda y tromboembolismo. Cirugía de la cadera. Cirugía de la rodilla. Cirugía de la extremidad superior."
+      },
+      {
+        "numero": 42,
+        "titulo": "Anestesia en cirugía endocrinológica Anestesia en cirugía de tiroides y paratiroides. Anestesia en cirugía de las glándulas suprarrenales. Feocromocitoma. Anestesia para los pacientes con enfermedades endocrinas. Consideraciones anestésicas en los pacientes con Diabetes Mellitus. Hipertiroidismo. Hipotiroidismo. Hiperparatiroidismo. Hipoparatiroidismo."
+      },
+      {
+        "numero": 43,
+        "titulo": "Anestesia para cirugía oftálmica. Dinámica de la presión intraocular. Reflejo oculocardiaco. Efectos generales de los fármacos oftálmicos. Anestesia general para la cirugía oftálmica. Anestesia regional para la cirugía oftálmica."
+      },
+      {
+        "numero": 44,
+        "titulo": "Anestesia en ORL. Cirugía del oído. Cirugía de nariz y senos paranasales. Cirugía de la cavidad orofaríngea. Cirugía de la vía aérea superior. Endoscopia de la vía aérea superior. Cirugía con láser. Cirugía ambulatoria. Cirugía de urgencia en ORL."
+      },
+      {
+        "numero": 45,
+        "titulo": "Anestesia en Cirugía maxilofacial. Tratamiento y control de la vía aérea. Anestesia e intervenciones específicas de cirugía maxilofacial. Implicaciones anestésicas de los traumatismos faciales."
+      },
+      {
+        "numero": 46,
+        "titulo": "Anestesia geriátrica."
+      },
+      {
+        "numero": 47,
+        "titulo": "Anestesia en el paciente traumatizado. Evaluación inicial. Consideraciones anestésicas en el paciente traumatizado."
+      },
+      {
+        "numero": 48,
+        "titulo": "Anestesia en cirugía plástica. Selección de pacientes. Anestesia para cirugía plástica ambulatoria. Anestesia local y regional para cirugía plástica. Sedación y técnicas de anestesia general. Anestesia para técnicas especiales de cirugía plástica."
+      },
+      {
+        "numero": 49,
+        "titulo": "Anestesia fuera del quirófano. Radiología diagnóstica. Radiología terapéutica. Tomografía computerizada. Resonancia magnética. Neurorradiología intervencionista. Cateterismo cardíaco."
+      },
+      {
+        "numero": 50,
+        "titulo": "Anestesia para los pacientes con enfermedades neuromusculares: miastemia gravis y en la distrofias musculares."
+      },
+      {
+        "numero": 51,
+        "titulo": "Anestesia en el paciente obeso. Anestesia para la cirugía del by-pass gástrico."
+      },
+      {
+        "numero": 52,
+        "titulo": "Complicaciones anestésicas. Desenlaces anestésicos adversos. Lesión de la vía aérea. Lesión de los nervios periféricos. Despertar intraoperatorio. Lesiones oculares. Pérdida auditiva. Reacciones alérgicas. Hipertermia maligna."
+      },
+      {
+        "numero": 53,
+        "titulo": "Sedación, farmacología y técnicas. Cuidados anestésicos monitorizados."
+      },
+      {
+        "numero": 54,
+        "titulo": "Cuidados postanestésicos. Unidad de cuidados postanestésicos. Despertar de la anestesia general. Traslado del paciente. Cuidados en el área de recuperación: anestesia general, anestesia regional, control del dolor, agitación, náuseas y vómitos, escalofríos e hipotermia. Criterio de alta de la sala de recuperación. Manejo de las complicaciones: complicaciones respiratorias, complicaciones circulatorias."
+      },
+      {
+        "numero": 55,
+        "titulo": "Cuidados postoperatorios tras cirugía cardiaca y vascular. Cuidados postoperatorios de neurocirugía. Cuidados postoperatorios tras cirugía torácica."
+      },
+      {
+        "numero": 56,
+        "titulo": "Reanimación cardiopulmonar. Reanimación pediátrica."
+      },
+      {
+        "numero": 57,
+        "titulo": "Anatomía y fisiología del dolor. Dolor agudo postoperatorio. Dolor crónico."
+      },
+      {
+        "numero": 58,
+        "titulo": "Memoria, percepción y anestesia. Bases neurobiológicas de la memoria. Implicaciones anestésicas. Niveles de función cognitiva bajo anestesia general. Memoria implícita. Monitorización de la hipnosis."
+      },
+      {
+        "numero": 59,
+        "titulo": "Sistemas de ventilación en anestesia. Insuflación. Circuitos de Mapleson. Sistema circular. Sistemas de respiración para reanimación."
+      },
+      {
+        "numero": 60,
+        "titulo": "Calidad y costes en anestesia. La mejora de la calidad en anestesiología. El papel de la informática en anestesiología.."
+      }
+    ]
+  }
+]

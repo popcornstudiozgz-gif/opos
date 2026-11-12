@@ -1,0 +1,200 @@
+[
+  {
+    "bloque": "Materia común",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "La Constitución española de 1978: estructura y contenido. Principios que la informan. Los derechos fundamentales y sus garantías. La protección a la salud en la Constitución."
+      },
+      {
+        "numero": 2,
+        "titulo": "La Corona. Las Cortes Generales. El Gobierno de la Nación. El Poder Judicial. Elaboración, aplicación e interpretación de las normas. Clases de normas y jerarquía normativa. Organización territorial del Estado."
+      },
+      {
+        "numero": 3,
+        "titulo": "El Estatuto de Autonomía en Aragón. Naturaleza y contenido. La organización institucional de la Comunidad Autónoma. Las Cortes de Aragón y el Justicia de Aragón."
+      },
+      {
+        "numero": 4,
+        "titulo": "Los órganos de gobierno y administración de la Comunidad Autónoma de Aragón. Estructura administrativa. Las competencias de la Comunidad de Aragón relativas a sanidad."
+      },
+      {
+        "numero": 5,
+        "titulo": "Población, geografía y territorio en Aragón. Desequilibrios demográficos en Aragón. Magnitudes más relevantes de la economía aragonesa. Evolución reciente de la actividad económica en Aragón."
+      },
+      {
+        "numero": 6,
+        "titulo": "La igualdad de oportunidades entre mujeres y hombres en Aragón: Disposiciones generales. Prevención y Protección Integral a las Mujeres Víctimas de Violencia en Aragón: Disposiciones generales. La identidad y expresión de género e igualdad social y no discriminación en la Comunidad Autónoma de Aragón: Disposiciones generales. La diversidad cultural y lucha contra la discriminación: Principios y objetivos del Plan para la Gestión de la Diversidad de vigente en Aragón."
+      },
+      {
+        "numero": 7,
+        "titulo": "Competencias del Estado, las Comunidades Autónomas y las Entidades Locales en materia de sanidad. La alta inspección. Coordinación entre las administraciones públicas."
+      },
+      {
+        "numero": 8,
+        "titulo": "La Ley General de Sanidad. El Sistema Nacional de Salud y los servicios de salud de las comunidades autónomas. La Ley de Salud de Aragón. Principios rectores. Derechos, deberes y garantías de los ciudadanos. Derechos de información sobre la salud y autonomía del paciente."
+      },
+      {
+        "numero": 9,
+        "titulo": "El Departamento de Sanidad del Gobierno de Aragón: Estructura básica y competencias. El Servicio Aragonés de Salud: Estructura y competencias. El Texto Refundido de la Ley del Servicio Aragonés de Salud. Estructura y funcionamiento de las áreas y sectores del Sistema de Salud de Aragón."
+      },
+      {
+        "numero": 10,
+        "titulo": "Ley de Prevención de Riesgos Laborales: Conceptos básicos. Derechos y obligaciones en materia de seguridad en el trabajo. Organización de la prevención de riesgos laborales en la Comunidad Autónoma de Aragón. Distribución de funciones y responsabilidades en materia de prevención de riesgos laborales entre los diferentes órganos del Servicio Aragonés de Salud."
+      }
+    ]
+  },
+  {
+    "bloque": "Materia específica",
+    "temas": [
+      {
+        "numero": 11,
+        "titulo": "El Estatuto Básico del Empleado Público. Clases de empleados públicos. Derechos y deberes del empleado público. Representación, participación y negociación colectiva."
+      },
+      {
+        "numero": 12,
+        "titulo": "Estatuto Marco del personal estatutario de los servicios de salud (I). Clasificación del personal estatutario. Derechos y deberes. Adquisición y pérdida de la condición de personal estatutario. Provisión de plazas, selección y promoción interna. Movilidad del personal."
+      },
+      {
+        "numero": 13,
+        "titulo": "Estatuto Marco del personal estatutario de los servicios de salud (II). Retribuciones. Jornada de trabajo, permisos y licencias. Situaciones del personal estatutario. Régimen disciplinario. Incompatibilidades."
+      },
+      {
+        "numero": 14,
+        "titulo": "Derecho de reunión, sindicación y huelga del personal de los servicios de salud. Órganos de representación del personal estatutario. La participación en la determinación de las condiciones de trabajo. Acuerdos y Pactos. La negociación colectiva en las Administraciones Públicas."
+      },
+      {
+        "numero": 15,
+        "titulo": "El personal de las Administraciones Públicas: sus deberes y funciones con respecto a la Administración, a la sociedad y al ciudadano. Los servicios de información administrativa y atención al ciudadano."
+      },
+      {
+        "numero": 16,
+        "titulo": "La atención primaria de la salud: concepto y características generales. La ordenación de la Atención Primaria en la Comunidad Autónoma de Aragón. Órganos de dirección."
+      },
+      {
+        "numero": 17,
+        "titulo": "La asistencia especializada: concepto y características generales. La ordenación de la atención especializada en la Comunidad Autónoma de Aragón. Órganos de dirección."
+      },
+      {
+        "numero": 18,
+        "titulo": "El usuario del Sistema Nacional de Salud: sus derechos y deberes. La tarjeta sanitaria individual. El derecho de información sanitaria y a la intimidad de la Ley básica reguladora de la autonomía del paciente y derechos y obligaciones en materia de información y documentación clínica."
+      },
+      {
+        "numero": 19,
+        "titulo": "La comunicación paciente/usuario. Factores que la facilitan o dificultan. Diferencia entre información y comunicación."
+      },
+      {
+        "numero": 20,
+        "titulo": "Conceptos de documento, registro y archivo, funciones y clases de archivo. Documentación de uso en los centros sanitarios: administrativa y clínica. La historia clínica: funciones, características, contenido."
+      },
+      {
+        "numero": 21,
+        "titulo": "Funcionamiento de los centros sanitarios. Servicio de documentación clínica hospitalaria. Servicio de admisión. Servicio de atención al paciente."
+      },
+      {
+        "numero": 22,
+        "titulo": "El Régimen General de Seguridad Social. Estructura del Sistema de Seguridad Social. Afiliación, cotización y recaudación. Acción protectora, concepto y clases de prestaciones."
+      },
+      {
+        "numero": 23,
+        "titulo": "La calidad en los centros sanitarios. Modelos y tendencias actuales de evaluación de la calidad."
+      },
+      {
+        "numero": 24,
+        "titulo": "El régimen jurídico de la protección de datos de carácter personal. Disposiciones generales. Derechos de las personas. Ficheros de titularidad pública. Acceso electrónico de los ciudadanos a los servicios públicos, transparencia y acceso a la información pública, conceptos básicos."
+      },
+      {
+        "numero": 25,
+        "titulo": "El procedimiento administrativo: concepto, naturaleza y fines. Ley del Procedimiento Administrativo Común de las Administraciones Públicas. Ámbito de aplicación y principios informadores. Los sujetos del procedimiento administrativo. Fases del procedimiento. Cómputo de plazos. Régimen Jurídico del Sector Público: Disposiciones generales, principios de actuación y funcionamiento del sector público."
+      },
+      {
+        "numero": 26,
+        "titulo": "El acto administrativo: características generales. Requisitos. Eficacia. Actos nulos y anulables. La revisión de los actos administrativos. Los recursos administrativos: Concepto y clases."
+      },
+      {
+        "numero": 27,
+        "titulo": "El ciudadano y la Administración: derechos y deberes de los ciudadanos. Derecho de acceso a archivos y registros. Colaboración y comparecencia de los ciudadanos."
+      },
+      {
+        "numero": 28,
+        "titulo": "La Jurisdicción Contenciosa-administrativa. Su organización. Las partes. Actos impugnables. Idea general del proceso."
+      },
+      {
+        "numero": 29,
+        "titulo": "Contratación pública (I). Directivas comunitarias en materia de contratación pública. Legislación estatal en materia de contratos del Sector Público. Objeto y ámbito de aplicación subjetivo y objetivo. Normativa aragonesa en materia de contratación pública. Los contratos del sector público. Clases de contratos. Elementos estructurales de los contratos."
+      },
+      {
+        "numero": 30,
+        "titulo": "Contratación pública (II). Contratos de las Administraciones Públicas: Preparación de los contratos. Selección del contratista y adjudicación de los contratos. Prerrogativas de la Administración Ejecución y modificación de los contratos. Extinción. La cesión de los contratos y la subcontratación. Técnicas para la racionalización de la contratación. Contratación electrónica."
+      },
+      {
+        "numero": 31,
+        "titulo": "Responsabilidad patrimonial de las Administraciones Públicas. Responsabilidad del personal y de las autoridades al servicio de la Administración Pública."
+      },
+      {
+        "numero": 32,
+        "titulo": "El Presupuesto: concepto y clases. Ciclo presupuestario. Presupuesto por programas: concepto y objetivos. Programación, presupuestación y control. El presupuesto en base 0."
+      },
+      {
+        "numero": 33,
+        "titulo": "Financiación del Sistema Sanitario de la Comunidad Autónoma de Aragón. Regulación Jurídica."
+      },
+      {
+        "numero": 34,
+        "titulo": "El Presupuesto de la Comunidad Autónoma de Aragón. Estructura, elaboración, contenido y aprobación del Presupuesto. El ciclo presupuestario."
+      },
+      {
+        "numero": 35,
+        "titulo": "Los créditos presupuestarios. Modificaciones de créditos iniciales. Gastos plurianuales. Anulación de remanentes. Incorporación de créditos. Créditos extraordinarios y suplementos de créditos. Anticipos de Tesorería. Créditos ampliables. Transferencias de créditos. Ingresos que generan crédito."
+      },
+      {
+        "numero": 36,
+        "titulo": "Contabilidad pública: concepto. Contabilidad preventiva, ejecutiva y crítica. Ingresos presupuestos, créditos presupuestos y remanentes de crédito. Devoluciones y minoraciones de ingresos. Reconocimiento y liquidación de derechos."
+      },
+      {
+        "numero": 37,
+        "titulo": "Ideas generales de los estados contables. La Cuenta General del Estado. Plan General de Contabilidad Pública."
+      },
+      {
+        "numero": 38,
+        "titulo": "Ordenación del gasto y ordenación del pago: órganos competentes, fases del procedimiento y documentos contables que intervienen. Liquidación y cierre del ejercicio."
+      },
+      {
+        "numero": 39,
+        "titulo": "Control del gasto público. Clases. Especial referencia del control de legalidad. El Tribunal de Cuentas. La Cámara de Cuentas de Aragón."
+      },
+      {
+        "numero": 40,
+        "titulo": "Gastos para la compra de bienes y servicios. Gastos y transferencias corrientes y de capital. Gastos de inversión."
+      },
+      {
+        "numero": 41,
+        "titulo": "Pagos: concepto y clasificación. Pagos por obligaciones presupuestarias. Pago \"en firme\" y a \"justificar\". Justificación de libramientos."
+      },
+      {
+        "numero": 42,
+        "titulo": "Retribuciones del personal estatutario. Nóminas: estructura y normas de confección. Altas y Bajas: su justificación. Sueldo, trienios, pagas extraordinarias, complementos y otras remuneraciones. Devengo y liquidación de derechos económicos."
+      },
+      {
+        "numero": 43,
+        "titulo": "Los sistemas de información: conceptos generales de las tecnologías de información."
+      },
+      {
+        "numero": 44,
+        "titulo": "Nociones de informática: El ordenador, Dispositivos centrales y periféricos. Redes informáticas. El microprocesador. Soportes informáticos."
+      },
+      {
+        "numero": 45,
+        "titulo": "Los sistemas operativos más frecuentes. Sus elementos comunes. Comandos básicos. Administrador de archivos. Administrador de impresión. Impresoras."
+      },
+      {
+        "numero": 46,
+        "titulo": "Herramientas ofimáticas: Procesadores de texto, bases de datos, hoja de cálculo, paquetes informáticos integrados y correo electrónico."
+      },
+      {
+        "numero": 47,
+        "titulo": "Redes de área local: concepto. Compartición de recursos, ventajas. Red internet: concepto. Principales navegadores. Intranet."
+      }
+    ]
+  }
+]

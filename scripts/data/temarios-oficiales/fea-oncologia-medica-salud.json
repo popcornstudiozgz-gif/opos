@@ -1,0 +1,332 @@
+[
+  {
+    "bloque": "Materia común",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "Constitución Española de 1978: la protección de la salud en la Constitución. Estatuto de Autonomía de Aragón. Competencias en salud recogidas en el Estatuto de Autonomía. Las Cortes de Aragón. El Gobierno de Aragón."
+      },
+      {
+        "numero": 2,
+        "titulo": "El texto refundido de la Ley del Estatuto Básico del Empleado Público, aprobado por el Real Decreto Legislativo 5/2015: deberes del empleado público y código de conducta. Representación, participación y negociación colectiva."
+      },
+      {
+        "numero": 3,
+        "titulo": "El régimen jurídico de la protección de datos de carácter personal: Disposiciones generales. Principios de la protección de datos. Derechos de las personas."
+      },
+      {
+        "numero": 4,
+        "titulo": "El Procedimiento Administrativo Común de las Administraciones Públicas: Disposiciones Generales. Cómputo de plazos. Objeto y plazos de los recursos administrativos. El Régimen Jurídico del Sector Público: Disposiciones Generales."
+      },
+      {
+        "numero": 5,
+        "titulo": "Ley 14/86 General de Sanidad. Ley 6/2002 de Salud de Aragón. Principios generales, estructura, contenidos. Ley 16/2003 de cohesión y calidad del Sistema Nacional de Salud. Principios generales, estructura, contenidos."
+      },
+      {
+        "numero": 6,
+        "titulo": "Ley 44/2003 de Ordenación de las Profesiones Sanitarias. Ámbito de aplicación, contenidos. Ley 41/2002, de 14 de noviembre, básica reguladora de la autonomía del paciente y de derechos y obligaciones en materia de información y documentación clínica. Ley 9/2013, de 28 de noviembre, de Autoridad de Profesionales del Sistema Sanitario y de Servicios Sociales Públicos de Aragón."
+      },
+      {
+        "numero": 7,
+        "titulo": "Ley 55/2003 del Estatuto Marco de personal Estatutario de los Servicios de Salud (I). Principios generales, estructura, contenidos. Clasificación del personal estatutario. Derechos y deberes. Adquisición y pérdida de la condición de personal estatutario. Provisión de plazas, selección y promoción interna. Movilidad del personal."
+      },
+      {
+        "numero": 8,
+        "titulo": "Ley 55/2003 del Estatuto Marco de personal Estatutario de los Servicios de Salud (II). Retribuciones. Jornada de trabajo, permisos y licencias. Situaciones del personal estatutario. Régimen disciplinario. Modelo de Carrera Profesional en Aragón. Ley 53/1984 de 26 de diciembre, de incompatibilidades. Principios Generales. Ámbito de aplicación."
+      },
+      {
+        "numero": 9,
+        "titulo": "La igualdad de oportunidades entre mujeres y hombres en Aragón: Disposiciones generales. Prevención y Protección Integral a las Mujeres Víctimas de Violencia en Aragón: Disposiciones Generales. La identidad y expresión de género e igualdad social y no discriminación en la Comunidad Autónoma de Aragón: Disposiciones Generales. La diversidad cultural y lucha contra la discriminación: Principios y objetivos del vigente Plan Integral para la Gestión de la Diversidad de Aragón."
+      },
+      {
+        "numero": 10,
+        "titulo": "El sistema sanitario. Niveles asistenciales. Organización de los servicios sanitarios en Aragón. Estructura del Departamento de Sanidad de Aragón y del Servicio Aragonés de la Salud. Los Sectores sanitarios."
+      },
+      {
+        "numero": 11,
+        "titulo": "Metodología de la Investigación: El método científico. Diseño de un proyecto de investigación. Estadística aplicada a los estudios de Medicina."
+      },
+      {
+        "numero": 12,
+        "titulo": "El método epidemiológico. Epidemiología descriptiva: tipos de estudios, tasas e indicadores. Epidemiología analítica: tipos de estudios. Riesgo relativo, riesgo atribuible y Odds Ratio. Sesgos."
+      },
+      {
+        "numero": 13,
+        "titulo": "Estudios experimentales. Ensayos clínicos. Ética de la investigación clínica. Validez de métodos diagnósticos: sensibilidad, especificidad, valor predictivo positivo."
+      },
+      {
+        "numero": 14,
+        "titulo": "Evaluación de Tecnologías Sanitarias: Procedimientos de evaluación. Cartera de Servicios del Sistema Nacional de Salud. Procedimiento de actualización de la Cartera de Servicios del sistema de Salud de Aragón."
+      },
+      {
+        "numero": 15,
+        "titulo": "Práctica basada en la evidencia. Variabilidad en la práctica médica. Búsqueda y valoración de evidencias. Aplicación de las evidencias a la toma de decisiones clínicas. Guías clínicas. Proyecto Guía-Salud."
+      },
+      {
+        "numero": 16,
+        "titulo": "La seguridad del paciente. Gestión de riesgos. Principales problemas para la seguridad del paciente en el hospital. Estrategias para la mejora de la seguridad."
+      },
+      {
+        "numero": 17,
+        "titulo": "Uso Racional del Medicamento. Criterios de selección de medicamentos. Equivalentes terapéuticos. Indicadores de calidad de prescripción."
+      },
+      {
+        "numero": 18,
+        "titulo": "Evaluación y mejora de la calidad. Modelos de Gestión de la Calidad. Diseño de un programa de calidad."
+      },
+      {
+        "numero": 19,
+        "titulo": "Principios fundamentales de la bioética: aplicación a la asistencia sanitaria. La relación médico-paciente, el consentimiento informado. Los comités de Bioética. La ética en la investigación clínica."
+      },
+      {
+        "numero": 20,
+        "titulo": "Gobierno clínico. La implicación de los profesionales en el funcionamiento de las instituciones sanitarias."
+      }
+    ]
+  },
+  {
+    "bloque": "Materia específica",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "Biología del cáncer: principios básicos de biología molecular y celular aplicada a cáncer. Principales técnicas de biología molecular de utilidad en oncología."
+      },
+      {
+        "numero": 2,
+        "titulo": "Epidemiología del cáncer. Epidemiología descriptiva y analítica. Registro de tumores. Proyecto “Eurocare”. Métodos de investigación epidemiológica en cáncer. “Big-data”."
+      },
+      {
+        "numero": 3,
+        "titulo": "Etiología y patogenia del cáncer. Historia natural de los tumores y sus posibles agentes causales. Carcinogénesis por agentes físicos, químicos y virus."
+      },
+      {
+        "numero": 4,
+        "titulo": "Inmunología tumoral: Biología de la respuesta inmune. Mecanismos de inmunidad humoral y celular y su interacción con el cáncer. Tratamiento oncológico con mecanismo de acción inmunológico, indicaciones y perfil de toxicidad."
+      },
+      {
+        "numero": 5,
+        "titulo": "Cribado y prevención primaria: Factores epidemiológicos, familiares y genéticos relacionados con la enfermedad oncológica. Beneficios y las limitaciones de las pruebas de cribado de los tumores más prevalentes."
+      },
+      {
+        "numero": 6,
+        "titulo": "Cáncer familiar y hereditario: Indicaciones de los test genéticos, síndromes hereditarios y papel de las intervenciones profilácticas. Unidades de Consejo Genético del Cáncer."
+      },
+      {
+        "numero": 7,
+        "titulo": "Factores pronóstico y predictivos de respuesta. Clasificaciones pronósticas de diferentes tumores.23.- Principios de la clasificación TNM. Estudio de extensión. Estadios pronósticos."
+      },
+      {
+        "numero": 8,
+        "titulo": "Evaluación de respuesta. Respuesta clínica: metodología RECIST. Respuesta patológica: concepto y diferentes clasificaciones."
+      },
+      {
+        "numero": 9,
+        "titulo": "Principios básicos de manejo del paciente con cáncer: Evaluación integral del paciente oncológico. Manejo sintomático esencial del paciente con cáncer. Valoración nutricional."
+      },
+      {
+        "numero": 10,
+        "titulo": "Urgencias oncológicas. Síndromes más frecuentes y su abordaje terapéutico."
+      },
+      {
+        "numero": 11,
+        "titulo": "Marcadores tumorales. Concepto y propiedades. Utilidad clínica."
+      },
+      {
+        "numero": 12,
+        "titulo": "Síndromes paraneoplásicos. Concepto y clasificación. Orientación terapéutica."
+      },
+      {
+        "numero": 13,
+        "titulo": "Principios básicos de la cirugía oncológica. Introducción y características generales. Cirugía diagnóstica y terapéutica."
+      },
+      {
+        "numero": 14,
+        "titulo": "Bases de la Radioterapia. Unidades de tratamiento. Indicaciones fundamentales."
+      },
+      {
+        "numero": 15,
+        "titulo": "Terapéutica combinada. Situación actual del tratamiento quimioterápico y radioterápico combinado."
+      },
+      {
+        "numero": 16,
+        "titulo": "Enfoque terapéutico integral. Comité de Tumores. Asistencia por procesos."
+      },
+      {
+        "numero": 17,
+        "titulo": "Agentes antineoplásicos. Clasificación y características más importantes. Principios de farmacología clínica de la terapia antitumoral y sus interacciones. Biosimilares y genéricos. Uso racional del medicamento."
+      },
+      {
+        "numero": 18,
+        "titulo": "Principios de la quimioterapia. Conocer los mecanismos de resistencia farmacológica intrínseca y adquirida, así como estrategias de reversibilidad. Bases y fundamentos de la quimioterapia adyuvante, neoadyuvante y paliativa. Quimioterapia regional. Toxicidad de la quimioterapia. Tipos y grados."
+      },
+      {
+        "numero": 19,
+        "titulo": "Hormonoterapia. Tipos y mecanismos de acción. Indicaciones. Efectos secundarios."
+      },
+      {
+        "numero": 20,
+        "titulo": "Terapia antidiana: Anticuerpos Monoclonales, inhibidores tirosina kinasa (TKIs), inhibidores mTOR, inhibidores de ciclinas, …"
+      },
+      {
+        "numero": 21,
+        "titulo": "Inmuno-oncología: Inhibidores chek-points; anti CTLA-4, combinaciones de fármacos. Mecanismos de acción, indicaciones y efectos secundarios."
+      },
+      {
+        "numero": 22,
+        "titulo": "Quimioterapia intensiva: indicaciones, complicaciones y efectos adversos de la quimioterapia de intensificación a altas dosis. Transplante de “stem cells”."
+      },
+      {
+        "numero": 23,
+        "titulo": "Factores de crecimiento hematopoyético en oncología: Tipos y aplicaciones clínicas."
+      },
+      {
+        "numero": 24,
+        "titulo": "Prevención y tratamiento de los efectos adversos del tratamiento oncológico. Mecanismo de acción, interacciones y efectos adversos de los tratamientos de soporte oncológicos. Extravasaciones: manejo y tratamiento de las mismas."
+      },
+      {
+        "numero": 25,
+        "titulo": "Tratamiento de soporte: Antiemesis, control de náuseas y vómitos inducidos por quimioterapia. Fiebre neutropénica. Profilaxis y tratamiento. Nutrición y cáncer. Terapéutica nutricional en el paciente. Alopecia. Apoyo psicológico. Accesos venosos centrales."
+      },
+      {
+        "numero": 26,
+        "titulo": "Dolor y cáncer. Terapéutica del dolor en el paciente oncológico con cáncer. Escalera analgésica. Clasificación dolor. Manejo de mórficos y coadyuvantes. Prevención de los efectos secundarios."
+      },
+      {
+        "numero": 27,
+        "titulo": "Tumores de cabeza y cuello. Abordaje diagnóstico y terapéutico."
+      },
+      {
+        "numero": 28,
+        "titulo": "Cáncer de pulmón, no microcítico. Abordaje diagnóstico y terapéutico."
+      },
+      {
+        "numero": 29,
+        "titulo": "Carcinoma microcítico de pulmón. Abordaje diagnóstico y terapéutico."
+      },
+      {
+        "numero": 30,
+        "titulo": "Mesotelioma, Tumores mediastínicos, y otros tumores torácicos. Abordaje diagnóstico y terapéutico."
+      },
+      {
+        "numero": 31,
+        "titulo": "Cáncer de esófago. Abordaje diagnóstico y terapéutico."
+      },
+      {
+        "numero": 32,
+        "titulo": "Cáncer gástrico. Abordaje diagnóstico y terapéutico."
+      },
+      {
+        "numero": 33,
+        "titulo": "Cáncer colon y recto. Cáncer anal. Tumores de intestino delgado. Abordaje diagnóstico y terapéutico."
+      },
+      {
+        "numero": 34,
+        "titulo": "Metástasis hepáticas. Abordaje del paciente resecable y potencialmente resecable."
+      },
+      {
+        "numero": 35,
+        "titulo": "Hepatocarcinoma. Abordaje diagnóstico y terapéutico."
+      },
+      {
+        "numero": 36,
+        "titulo": "Cáncer de páncreas y de las vías biliares. Abordaje diagnóstico y terapéutico."
+      },
+      {
+        "numero": 37,
+        "titulo": "Cáncer renal. Abordaje diagnóstico y terapéutico."
+      },
+      {
+        "numero": 38,
+        "titulo": "Cáncer tracto urotelial superior. Cáncer de vejiga. Cáncer de pene. Abordaje diagnóstico y terapéutico."
+      },
+      {
+        "numero": 39,
+        "titulo": "Cáncer de próstata. Abordaje diagnóstico y terapéutico."
+      },
+      {
+        "numero": 40,
+        "titulo": "Tumores testiculares: seminomatosos y no seminomatosos. Abordaje diagnóstico y terapéutico."
+      },
+      {
+        "numero": 41,
+        "titulo": "Cáncer de ovario. Abordaje diagnóstico y terapéutico."
+      },
+      {
+        "numero": 42,
+        "titulo": "Cáncer de útero. Cáncer de cérvix. Abordaje diagnóstico y terapéutico."
+      },
+      {
+        "numero": 43,
+        "titulo": "Cáncer de vulva y vagina, neoplasia trofoblástica gestacional. Abordaje diagnóstico y terapéutico."
+      },
+      {
+        "numero": 44,
+        "titulo": "Cáncer de mama. Abordaje diagnóstico y terapéutico."
+      },
+      {
+        "numero": 45,
+        "titulo": "Sarcoma de partes blandas. Tumores del estroma gastrointestinal (GIST). Abordaje diagnóstico y terapéutico."
+      },
+      {
+        "numero": 46,
+        "titulo": "Sarcoma óseo. Abordaje diagnóstico y terapéutico."
+      },
+      {
+        "numero": 47,
+        "titulo": "Cáncer de piel: Melanoma. Carcinoma de células escamosas y basalioma. Abordaje diagnóstico y terapéutico."
+      },
+      {
+        "numero": 48,
+        "titulo": "Cáncer de tiroides. Carcinoma suprarrenal. Tumores carcinoides. Síndromes NEM (Neoplasia Endocina Múltiple). Abordaje diagnóstico y terapéutico."
+      },
+      {
+        "numero": 49,
+        "titulo": "Tumores neuroendocrinos: pancreáticos y extrapancreáticos. Abordaje diagnóstico y terapéutico."
+      },
+      {
+        "numero": 50,
+        "titulo": "Tumores del sistema nervioso central. Abordaje diagnóstico y terapéutico."
+      },
+      {
+        "numero": 51,
+        "titulo": "Carcinoma de origen desconocido. Definición. Árbol de decisión. Clasificación pronóstica. Plataformas genómicas. Orientación terapéutica"
+      },
+      {
+        "numero": 52,
+        "titulo": "Cáncer y Sida. Aspectos especiales. Orientación terapéutica."
+      },
+      {
+        "numero": 53,
+        "titulo": "Cáncer y embarazo. Implicaciones y características especiales del enfoque terapéutico: Cirugía, quimioterapia y radioterapia. Embarazo después del cáncer: métodos de preservación de la fertilidad."
+      },
+      {
+        "numero": 54,
+        "titulo": "El cáncer en el anciano. Particularidades especiales y tumores más frecuentes. Tratamiento del anciano con cáncer. Papel de la cirugía, quimioterapia y radioterapia. Oncogeriatria."
+      },
+      {
+        "numero": 55,
+        "titulo": "Aspectos psicosociales del paciente con cáncer. Impacto del diagnóstico. Rehabilitación del paciente oncológico. Importancia de la calidad de vida en el enfoque terapéutico. Necesidades del largo superviviente. Reinserción a la vida laboral."
+      },
+      {
+        "numero": 56,
+        "titulo": "Cuidados del enfermo terminal. Información ante el enfermo terminal. Planificación terapéutica. Síndrome Anorexia – Caquexia. Humanización de la muerte. Aspectos éticos en oncología. Principios básicos de la ética médica. Implicaciones específicas del paciente con cáncer. Sedación terminal."
+      },
+      {
+        "numero": 57,
+        "titulo": "Investigación clínica y traslacional. Ensayos clínicos. Desarrollo de nuevos fármacos. Unidades fase I. Metodología de la investigación clínica aplicada a la oncología. Estadística aplicada a la oncología. Nuevo decreto investigación clínica."
+      },
+      {
+        "numero": 58,
+        "titulo": "Investigación traslacional. Conocer las principales técnicas anatomopatológicas, de biología molecular y plataformas tecnológicas utilizadas en investigación traslacional oncológica. Biopsia líquida. Principios básicos. Aplicaciones actuales y futuro próximo."
+      },
+      {
+        "numero": 59,
+        "titulo": "Biobancos en oncología. Técnicas de obtención de muestras. Métodos de conservación y envíos de muestras."
+      },
+      {
+        "numero": 60,
+        "titulo": "Planes de cáncer. Programas europeos contra el cáncer. Estrategia en cáncer del plan Nacional de Salud. Uso racional del medicamento."
+      }
+    ]
+  }
+]
