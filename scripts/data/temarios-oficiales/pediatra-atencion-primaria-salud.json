@@ -1,0 +1,332 @@
+[
+  {
+    "bloque": "Materia común",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "Constitución Española de 1978: la protección de la salud en la Constitución. Estatuto de Autonomía de Aragón. Competencias en salud recogidas en el Estatuto de Autonomía. Las Cortes de Aragón. El Gobierno de Aragón."
+      },
+      {
+        "numero": 2,
+        "titulo": "El texto refundido de la Ley del Estatuto Básico del Empleado Público, aprobado por el Real Decreto Legislativo 5/2015: deberes del empleado público y código de conducta. Representación, participación y negociación colectiva."
+      },
+      {
+        "numero": 3,
+        "titulo": "El régimen jurídico de la protección de datos de carácter personal: Disposiciones generales. Derechos de las personas."
+      },
+      {
+        "numero": 4,
+        "titulo": "El Procedimiento Administrativo Común de las Administraciones Públicas: Disposiciones Generales. Cómputo de plazos. Objeto y plazos de los recursos administrativos. El Régimen Jurídico del Sector Público: Disposiciones Generales."
+      },
+      {
+        "numero": 5,
+        "titulo": "Ley 14/86 General de Sanidad. Ley 6/2002 de Salud de Aragón. Principios generales, estructura, contenidos. Ley 16/2003 de cohesión y calidad del Sistema Nacional de Salud. Principios generales, estructura, contenidos."
+      },
+      {
+        "numero": 6,
+        "titulo": "Ley 44/2003 de Ordenación de las Profesiones Sanitarias. Ámbito de aplicación, contenidos. Ley 41/2002, de 14 de noviembre, básica reguladora de la autonomía del paciente y de derechos y obligaciones en materia de información y documentación clínica. Ley 9/2013, de 28 de noviembre, de Autoridad de Profesionales del Sistema Sanitario y de Servicios Sociales Públicos de Aragón."
+      },
+      {
+        "numero": 7,
+        "titulo": "El Estatuto Marco de personal Estatutario de los Servicios de Salud (I). Principios generales, estructura, contenidos. Clasificación del personal estatutario. Derechos y deberes. Adquisición y pérdida de la condición de personal estatutario. Provisión de plazas, selección y promoción interna. Movilidad del personal."
+      },
+      {
+        "numero": 8,
+        "titulo": "El Estatuto Marco de personal Estatutario de los Servicios de Salud (II). Retribuciones. Jornada de trabajo, permisos y licencias. Situaciones del personal estatutario. Régimen disciplinario."
+      },
+      {
+        "numero": 9,
+        "titulo": "La igualdad de oportunidades entre mujeres y hombres en Aragón: Disposiciones generales. Prevención y Protección Integral a las Mujeres Víctimas de Violencia en Aragón: Disposiciones Generales. La identidad y expresión de género e igualdad social y no discriminación en la Comunidad Autónoma de Aragón: Disposiciones Generales. La diversidad cultural y lucha contra la discriminación: Principios y objetivos del Plan Integral para la Gestión de la Diversidad vigente en Aragón."
+      },
+      {
+        "numero": 10,
+        "titulo": "El sistema sanitario. Niveles asistenciales. Organización de los servicios sanitarios en Aragón. Estructura del Departamento de Sanidad de Aragón y del Servicio Aragonés de la Salud. Los Sectores sanitarios."
+      },
+      {
+        "numero": 11,
+        "titulo": "Metodología de la Investigación: El método científico. Diseño de un proyecto de investigación. Estadística aplicada a los estudios de Medicina."
+      },
+      {
+        "numero": 12,
+        "titulo": "El método epidemiológico. Epidemiología descriptiva: tipos de estudios, tasas e indicadores. Epidemiología analítica: tipos de estudios. Riesgo relativo, riesgo atribuible y Odds Ratio. Sesgos."
+      },
+      {
+        "numero": 13,
+        "titulo": "Estudios experimentales. Ensayos clínicos. Ética de la investigación clínica. Validez de métodos diagnósticos: sensibilidad, especificidad, valor predictivo positivo."
+      },
+      {
+        "numero": 14,
+        "titulo": "Evaluación de Tecnologías Sanitarias: Procedimientos de evaluación. Cartera de Servicios del Sistema Nacional de Salud. Procedimiento de actualización de la Cartera de Servicios del sistema de Salud de Aragón."
+      },
+      {
+        "numero": 15,
+        "titulo": "Práctica basada en la evidencia. Variabilidad en la práctica médica. Búsqueda y valoración de evidencias. Aplicación de las evidencias a la toma de decisiones clínicas. Guías clínicas. Proyecto Guía-Salud."
+      },
+      {
+        "numero": 16,
+        "titulo": "La seguridad del paciente. Gestión de riesgos. Principales problemas para la seguridad del paciente en el hospital. Estrategias para la mejora de la seguridad."
+      },
+      {
+        "numero": 17,
+        "titulo": "Uso Racional del Medicamento. Criterios de selección de medicamentos. Equivalentes terapéuticos. Indicadores de calidad de prescripción."
+      },
+      {
+        "numero": 18,
+        "titulo": "Evaluación y mejora de la calidad. Modelos de Gestión de la Calidad. Diseño de un programa de calidad."
+      },
+      {
+        "numero": 19,
+        "titulo": "Principios fundamentales de la bioética: aplicación a la asistencia sanitaria. La relación médico-paciente, el consentimiento informado. Los comités de Bioética. La ética en la investigación clínica."
+      },
+      {
+        "numero": 20,
+        "titulo": "Gobierno clínico. La implicación de los profesionales en el funcionamiento de las instituciones sanitarias."
+      }
+    ]
+  },
+  {
+    "bloque": "Materia específica",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "Cartera de Servicios en Pediatría de Atención Primaria en Aragón. Aspectos conceptuales y metodológicos de evaluación. Coberturas. Normas Técnicas. Criterios de Inclusión."
+      },
+      {
+        "numero": 2,
+        "titulo": "Educación para la salud. Intervención educativa desde la consulta de Pediatría de Atención Primaria."
+      },
+      {
+        "numero": 3,
+        "titulo": "La comunicación en la consulta. La entrevista clínica."
+      },
+      {
+        "numero": 4,
+        "titulo": "Epidemiología: concepto y objetivos. Tipos de estudios epidemiológicos."
+      },
+      {
+        "numero": 5,
+        "titulo": "Medidas de frecuencia, asociación e impacto."
+      },
+      {
+        "numero": 6,
+        "titulo": "Validez de métodos diagnósticos: sensibilidad, especificidad y valor predictivo positivo."
+      },
+      {
+        "numero": 7,
+        "titulo": "Actividades preventivas y de promoción de la salud en pediatría."
+      },
+      {
+        "numero": 8,
+        "titulo": "Vigilancia epidemiológica. Enfermedades de Declaración Obligatoria en Aragón."
+      },
+      {
+        "numero": 9,
+        "titulo": "Atención al niño sano. Captación, controles y seguimiento. El niño viajero"
+      },
+      {
+        "numero": 10,
+        "titulo": "Bases inmunológicas de las vacunas. Concepto de vacunación. Clasificación microbiológica y sanitaria de las vacunas. Eficacia, efectividad y eficiencia de las vacunas. Programación en inmunizaciones. Calendario vacunal en Aragón."
+      },
+      {
+        "numero": 11,
+        "titulo": "Programa de Salud Bucodental en Aragón."
+      },
+      {
+        "numero": 12,
+        "titulo": "Uso racional del medicamento. Criterios de selección de medicamentos. Equivalentes terapéuticos. Indicadores de calidad de prescripción."
+      },
+      {
+        "numero": 13,
+        "titulo": "Prescripción y cumplimentación. Uso de antibióticos en Atención Primaria."
+      },
+      {
+        "numero": 14,
+        "titulo": "El recién nacido. Exploración, necesidades y cuidados. Fisiología evolutiva: la maduración de los órganos y sistemas. Cribado neonatal en la Comunidad Autónoma de Aragón."
+      },
+      {
+        "numero": 15,
+        "titulo": "Cromosomopatías más frecuentes y su seguimiento: Síndrome de Down, Síndrome de Klinefelter, Síndrome de Turner, delecciones, etc."
+      },
+      {
+        "numero": 16,
+        "titulo": "Crecimiento. Curvas de crecimiento. Trastornos del crecimiento."
+      },
+      {
+        "numero": 17,
+        "titulo": "El desarrollo psicomotor. Signos de alerta de su alteración."
+      },
+      {
+        "numero": 18,
+        "titulo": "Factores de riesgo físicos, psíquicos y sociales del desarrollo del niño. Evolución psicológica del niño y del adolescente. Niño adoptado e inmigrante."
+      },
+      {
+        "numero": 19,
+        "titulo": "Lactancia materna: promoción, técnica, dificultades y contraindicaciones. Fármacos durante la lactancia."
+      },
+      {
+        "numero": 20,
+        "titulo": "Alimentación y nutrición del niño y del adolescente."
+      },
+      {
+        "numero": 21,
+        "titulo": "Accidentes en la infancia: epidemiología, clínica y prevención. Manejo de los accidentes más frecuentes: quemaduras, heridas, traumatismos e intoxicaciones."
+      },
+      {
+        "numero": 22,
+        "titulo": "Neonatología. Malformaciones mayores y menores: despistaje y diagnóstico. Ictericia. Infecciones neonatales. Seguimientos de los traumatismos obstétricos. Soplos en el recién nacido: actitud diagnóstica."
+      },
+      {
+        "numero": 23,
+        "titulo": "Patología más frecuente en el recién nacido. Hijo de madre de riesgo. Prematuridad."
+      },
+      {
+        "numero": 24,
+        "titulo": "Patología ORL: rinitis, adenoiditis, sinusitis, faringoamigdalitis, laringitis, otitis. Hipoacusia: Factores de riesgo y signo de alerta. Rinoconjuntivitis alérgica. Epistaxis, disfonía"
+      },
+      {
+        "numero": 25,
+        "titulo": "Patología de vías respiratorias bajas (I): Bronquitis, bronquiolitis. Neumonía."
+      },
+      {
+        "numero": 26,
+        "titulo": "Patología de vías respiratorias bajas (II): Asma. Programa de Atención al Niño Asmático en Aragón. Tos recurrente."
+      },
+      {
+        "numero": 27,
+        "titulo": "Patología digestiva (I): Patología bucal. Vómitos y regurgitaciones del lactante: reflujo gastroesofágico. Dolor abdominal recurrente. Abdomen agudo."
+      },
+      {
+        "numero": 28,
+        "titulo": "Patología digestiva (II): Gastroenteritis aguda. Alergia e intolerancia alimentaria. Diarrea crónica. Enfermedad celíaca."
+      },
+      {
+        "numero": 29,
+        "titulo": "Patología digestiva (III): Estreñimiento, encopresis. Parasitosis. Hepatitis agudas y crónicas."
+      },
+      {
+        "numero": 30,
+        "titulo": "Patología genitourinaria en la infancia y adolescencia (I): Infección del tracto urinario. Reflujo vésico-ureteral."
+      },
+      {
+        "numero": 31,
+        "titulo": "Patología genitourinaria en la infancia y adolescencia (II): Diagnóstico diferencial de proteinuria y hematuria. Fimosis, balanitis, hipospadias, hidrocele, criptorquidia, escroto agudo, vulvovaginitis, sinequia de labios, dismenorrea."
+      },
+      {
+        "numero": 32,
+        "titulo": "Hematología Pediátrica: Anemia. Neutropenia. Diagnóstico diferencial de adenopatías. Alteraciones hemostasia y coagulación. Inmunodeficiencias."
+      },
+      {
+        "numero": 33,
+        "titulo": "Oncología Pediátrica: Signos clínicos y diagnóstico precoz. Leucemias. Tumores más frecuentes en la infancia."
+      },
+      {
+        "numero": 34,
+        "titulo": "Patología cardiocirculatoria: Evaluación cardiológica niño sano. Diagnóstico diferencial del soplo. Cardiopatías congénitas. Seguimiento niño cardiópata. Profilaxis endocarditis bacteriana. Hipertensión arterial. Arritmias."
+      },
+      {
+        "numero": 35,
+        "titulo": "Patología endocrinológica (I): Obesidad. Trastornos de la talla. Trastornos del inicio puberal."
+      },
+      {
+        "numero": 36,
+        "titulo": "Patología endocrinológica (II): Diabetes mellitus. Hipoglucemia. Trastornos tiroideos. Alteraciones suprarrenales."
+      },
+      {
+        "numero": 37,
+        "titulo": "Patología neurológica (I): Cefaleas. Hipertensión endocraneal. Convulsiones. Meningitis: diagnóstico diferencial. Vértigos. Trastornos paroxísticos. Alteraciones tamaño y forma cráneo. Parálisis facial"
+      },
+      {
+        "numero": 38,
+        "titulo": "Patología neurológica (II): Trastornos de cierre del tubo neural. Parálisis cerebral infantil. Enfermedades neuromusculares más frecuentes."
+      },
+      {
+        "numero": 39,
+        "titulo": "Patología oftalmológica: Conjuntivitis, dacriocistitis, blefaritis, estrabismo, ambliopía, enfermedades congénitas. El fondo de ojo. Traumatismos oculares."
+      },
+      {
+        "numero": 40,
+        "titulo": "Odontoestomatología: exploración de la boca. Higiene bucal, caries y patología periodontal, malposición y maloclusión. Profilaxis bucodental. Gingivitis y estomatitis. Traumatismos dentarios."
+      },
+      {
+        "numero": 41,
+        "titulo": "Patología dermatológica (I): Angiomas. Nevus. Dermatitis seborreica, dermatitis atópica, dermatitis del área del pañal. Piodermitis. Acné. Urticaria y angioedema."
+      },
+      {
+        "numero": 42,
+        "titulo": "Patología dermatológica (II): Micosis cutáneas. Herpes simple y herpes zóster, verrugas, moluscum contagioso, pitiriasis rosácea. Pediculosis y sarna. Psoriasis. Alopecia. Eritema y quemaduras solares. Manifestaciones cutáneas de enfermedades sistémicas."
+      },
+      {
+        "numero": 43,
+        "titulo": "Patología del aparato locomotor (I): Exploración del aparato locomotor. Detección precoz de alteraciones del aparato locomotor: Luxación congénita de cadera, tortícolis congénita, parálisis braquial, fractura de clavícula."
+      },
+      {
+        "numero": 44,
+        "titulo": "Patología del aparato locomotor (II): Alteraciones de los miembros superiores: pronación dolorosa. Alteraciones de la columna: tortícolis, escoliosis, cifosis, hiperlordosis, espondilolistesis, dolor de espalda en niños y adolescentes. Alteraciones de los miembros inferiores: epifisiolisis de cadera, genu varo y valgo, rotaciones tibiales. Dolor de piernas. Dolor de rodilla. Pies planos, metatarso varo y otras alteraciones de los ejes del pie. Dolor de pies. El calzado."
+      },
+      {
+        "numero": 45,
+        "titulo": "Patología del aparato locomotor (III): Fracturas y esguinces. Sinovitis, artritis y osteomielitis."
+      },
+      {
+        "numero": 46,
+        "titulo": "Patología infecciosa (I): Manejo de la fiebre en el niño. Fiebre prolongada y fiebre de origen desconocido. Infecciones recurrentes."
+      },
+      {
+        "numero": 47,
+        "titulo": "Patología infecciosa (II): Diagnóstico diferencial de los exantemas. Medidas de control de las infecciones: guarderías, colegios."
+      },
+      {
+        "numero": 48,
+        "titulo": "Patología infecciosa (III): Enfermedades bacterianas. Tuberculosis: epidemiología, diagnóstico y tratamiento."
+      },
+      {
+        "numero": 49,
+        "titulo": "Patología infecciosa (IV): Enfermedades víricas. Infección por VIH. Enfermedades parasitarias."
+      },
+      {
+        "numero": 50,
+        "titulo": "Reumatología: Signos de sospecha de trastornos reumáticos. Principales enfermedades reumáticas en el niño. Fiebres recurrentes"
+      },
+      {
+        "numero": 51,
+        "titulo": "El niño maltratado. Tipos de maltrato infantil. Detección e intervención en situaciones de maltrato infantil en Aragón."
+      },
+      {
+        "numero": 52,
+        "titulo": "Salud mental en pediatría. Trastornos del desarrollo (retraso mental, trastornos aprendizaje, trastorno generalizado del desarrollo). Alteraciones de la función somática (control de esfínteres, trastornos del sueño, alimentación, tics). Fobia escolar. Acoso escolar. Orientación sexual. Transexualidad."
+      },
+      {
+        "numero": 53,
+        "titulo": "Salud mental en pediatría. Trastorno por déficit de atención e hiperactividad. Trastornos del comportamiento (negativista desafiante, disocial). Anorexia, bulimia. Trastornos ansiedad. Depresión. Trastorno bipolar. Alteraciones psicosomáticas. Fobias."
+      },
+      {
+        "numero": 54,
+        "titulo": "Salud mental en pediatría. Trastorno de personalidad. Abuso de sustancias. Psicosis. Autolesiones. Suicidio."
+      },
+      {
+        "numero": 55,
+        "titulo": "Programa de Atención a la Salud Mental Infanto-Juvenil en Aragón."
+      },
+      {
+        "numero": 56,
+        "titulo": "Muerte súbita: epidemiología, prevención y tratamiento de la familia."
+      },
+      {
+        "numero": 57,
+        "titulo": "Emergencias en Atención Primaria (I): Reanimación cardiopulmonar. Obstrucción de las vías aéreas superiores. Transporte en situación de emergencia."
+      },
+      {
+        "numero": 58,
+        "titulo": "Emergencias en Atención Primaria (II): Anafilaxia. Intoxicaciones. Convulsiones. Coma. Traumatismo craneal."
+      },
+      {
+        "numero": 59,
+        "titulo": "Seguimiento en Atención Primaria del niño con enfermedades crónicas."
+      },
+      {
+        "numero": 60,
+        "titulo": "Adolescencia: epidemiología de las alteraciones en el adolescente. Abuso de sustancias tóxicas. Sexualidad del adolescente. Enfermedades de transmisión sexual. Contracepción y embarazo en el adolescente."
+      }
+    ]
+  }
+]

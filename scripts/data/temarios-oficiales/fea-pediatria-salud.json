@@ -1,0 +1,332 @@
+[
+  {
+    "bloque": "Materia común",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "Constitución Española de 1978: la protección de la salud en la Constitución. Estatuto de Autonomía de Aragón. Competencias en salud recogidas en el Estatuto de Autonomía. Las Cortes de Aragón. El Gobierno de Aragón."
+      },
+      {
+        "numero": 2,
+        "titulo": "El Texto Refundido de la Ley del Estatuto Básico del Empleado Público, aprobado por el Real Decreto Legislativo 5/2015: Deberes del empleado público y código de conducta. Representación, participación y negociación colectiva."
+      },
+      {
+        "numero": 3,
+        "titulo": "El régimen jurídico de la protección de datos de carácter personal: Disposiciones generales. Principios de la protección de datos. Derechos de las personas."
+      },
+      {
+        "numero": 4,
+        "titulo": "El Procedimiento Administrativo Común de las Administraciones Públicas: Disposiciones Generales. Cómputo de plazos. Objeto y plazos de los recursos administrativos. El Régimen Jurídico del Sector Público: Disposiciones Generales."
+      },
+      {
+        "numero": 5,
+        "titulo": "Ley 14/1986 General de Sanidad. Ley 6/2002 de Salud de Aragón. Principios generales, estructura, contenidos. Ley 16/2003 de cohesión y calidad del Sistema Nacional de Salud. Principios generales, estructura, contenidos."
+      },
+      {
+        "numero": 6,
+        "titulo": "Ley 44/2003 de Ordenación de las Profesiones Sanitarias. Ámbito de aplicación, contenidos. Ley 41/2002, de 14 de noviembre, básica reguladora de la autonomía del paciente y de derechos y obligaciones en materia de información y documentación clínica. Ley 9/2013, de 28 de noviembre, de Autoridad de Profesionales del Sistema Sanitario y de Servicios Sociales Públicos de Aragón."
+      },
+      {
+        "numero": 7,
+        "titulo": "Ley 55/2003 del Estatuto Marco de personal Estatutario de los Servicios de Salud (I). Principios generales, estructura, contenidos. Clasificación del personal estatutario. Derechos y deberes. Adquisición y pérdida de la condición de personal estatutario. Provisión de plazas, selección y promoción interna. Movilidad del personal."
+      },
+      {
+        "numero": 8,
+        "titulo": "Ley 55/2003 del Estatuto Marco de personal Estatutario de los Servicios de Salud (II). Retribuciones. Jornada de trabajo, permisos y licencias. Situaciones del personal estatutario. Régimen disciplinario. Modelo de Carrera Profesional en Aragón. Ley 53/1984 de 26 de diciembre, de incompatibilidades. Principios Generales. Ámbito de aplicación."
+      },
+      {
+        "numero": 9,
+        "titulo": "La igualdad de oportunidades entre mujeres y hombres en Aragón: Disposiciones generales. Prevención y Protección Integral a las Mujeres Víctimas de Violencia en Aragón: Disposiciones Generales. La identidad y expresión de género e igualdad social y no discriminación en la Comunidad Autónoma de Aragón: Disposiciones Generales. La diversidad cultural y lucha contra la discriminación: Principios y objetivos del vigente Plan Integral para la Gestión de la Diversidad de Aragón."
+      },
+      {
+        "numero": 10,
+        "titulo": "El sistema sanitario. Niveles asistenciales. Organización de los servicios sanitarios en Aragón. Estructura del Departamento de Sanidad de Aragón y del Servicio Aragonés de la Salud. Los Sectores sanitarios."
+      },
+      {
+        "numero": 11,
+        "titulo": "Metodología de la Investigación: El método científico. Diseño de un proyecto de investigación. Estadística aplicada a los estudios de Medicina."
+      },
+      {
+        "numero": 12,
+        "titulo": "El método epidemiológico. Epidemiología descriptiva: tipos de estudios, tasas e indicadores. Epidemiología analítica: tipos de estudios. Riesgo relativo, riesgo atribuible y Odds Ratio. Sesgos."
+      },
+      {
+        "numero": 13,
+        "titulo": "Estudios experimentales. Ensayos clínicos. Ética de la investigación clínica. Validez de métodos diagnósticos: sensibilidad, especificidad, valor predictivo positivo."
+      },
+      {
+        "numero": 14,
+        "titulo": "Evaluación de Tecnologías Sanitarias: Procedimientos de evaluación. Cartera de Servicios del Sistema Nacional de Salud. Procedimiento de actualización de la Cartera de Servicios del sistema de Salud de Aragón."
+      },
+      {
+        "numero": 15,
+        "titulo": "Práctica basada en la evidencia. Variabilidad en la práctica médica. Búsqueda y valoración de evidencias. Aplicación de las evidencias a la toma de decisiones clínicas. Guías clínicas. Proyecto Guía-Salud."
+      },
+      {
+        "numero": 16,
+        "titulo": "La seguridad del paciente. Gestión de riesgos. Principales problemas para la seguridad del paciente en el hospital. Estrategias para la mejora de la seguridad."
+      },
+      {
+        "numero": 17,
+        "titulo": "Uso Racional del Medicamento. Criterios de selección de medicamentos. Equivalentes terapéuticos. Indicadores de calidad de prescripción."
+      },
+      {
+        "numero": 18,
+        "titulo": "Evaluación y mejora de la calidad. Modelos de Gestión de la Calidad. Diseño de un programa de calidad."
+      },
+      {
+        "numero": 19,
+        "titulo": "Principios fundamentales de la bioética: aplicación a la asistencia sanitaria. La relación médico-paciente, el consentimiento informado. Los comités de Bioética. La ética en la investigación clínica."
+      },
+      {
+        "numero": 20,
+        "titulo": "Gobierno clínico. La implicación de los profesionales en el funcionamiento de las instituciones sanitarias."
+      }
+    ]
+  },
+  {
+    "bloque": "Materia específica",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "Educación para la salud. Intervención educativa desde la consulta de Pediatría."
+      },
+      {
+        "numero": 2,
+        "titulo": "La comunicación en la consulta. La entrevista clínica. El consentimiento informado."
+      },
+      {
+        "numero": 3,
+        "titulo": "Niveles de prevención sanitaria. Actividades de prevención. Vigilancia epidemiológica."
+      },
+      {
+        "numero": 4,
+        "titulo": "Bases inmunológicas de las vacunas. Concepto de vacunación. Clasificación microbiológica y sanitaria de las vacunas. Eficacia, efectividad y eficiencia de las vacunas."
+      },
+      {
+        "numero": 5,
+        "titulo": "Programación en inmunizaciones. Calendario vacunal en Aragón."
+      },
+      {
+        "numero": 6,
+        "titulo": "Uso racional del medicamento en Pediatría. Prescripción y cumplimentación."
+      },
+      {
+        "numero": 7,
+        "titulo": "El recién nacido. Exploración, necesidades y cuidados. Fisiología evolutiva: la maduración de los órganos y sistemas."
+      },
+      {
+        "numero": 8,
+        "titulo": "Crecimiento. Curvas de crecimiento. Trastornos del crecimiento."
+      },
+      {
+        "numero": 9,
+        "titulo": "El desarrollo psicomotor. Signos de alerta de su alteración."
+      },
+      {
+        "numero": 10,
+        "titulo": "Factores de riesgo físicos, psíquicos y sociales del desarrollo del niño. Evolución psicológica del niño y del adolescente."
+      },
+      {
+        "numero": 11,
+        "titulo": "Alimentación y nutrición del niño y del adolescente."
+      },
+      {
+        "numero": 12,
+        "titulo": "Lactancia materna: promoción, técnica, dificultades y contraindicaciones. Fármacos durante la lactancia."
+      },
+      {
+        "numero": 13,
+        "titulo": "Principales trastornos de la salud mental en el niño y el adolescente: del desarrollo (retraso mental, autismo, trastornos del aprendizaje), de la función somática (tics, control de esfínteres, trastornos del sueño), de la conducta (TDAH, anorexia, bulimia, conducta antisocial) y de adaptación (ansiedad, depresión, fobias)."
+      },
+      {
+        "numero": 14,
+        "titulo": "Señales de alarma del trastorno mental grave en el niño y en el adolescente: psicosis (trastorno bipolar, esquizofrenia), trastornos de personalidad, conductas suicidas."
+      },
+      {
+        "numero": 15,
+        "titulo": "Accidentes en la infancia: epidemiología, clínica y prevención. Manejo de los accidentes más frecuentes: quemaduras, heridas y traumatismos."
+      },
+      {
+        "numero": 16,
+        "titulo": "Lesiones por radiación. Intoxicaciones por productos químicos y medicamentos. Enfermedades causadas por venenos animales."
+      },
+      {
+        "numero": 17,
+        "titulo": "El niño maltratado. Tipos de maltrato infantil. Detección e intervención en situaciones de maltrato infantil en Aragón."
+      },
+      {
+        "numero": 18,
+        "titulo": "Muerte súbita: epidemiología, prevención y tratamiento de la familia."
+      },
+      {
+        "numero": 19,
+        "titulo": "Estudio de la biología y patología prenatal: Genética molecular. Alteraciones genéticas. Cromosomopatías. Fetopatías. Malformaciones congénitas. Diagnóstico prenatal. Consejo genético."
+      },
+      {
+        "numero": 20,
+        "titulo": "Neonatología (I): Periodo prenatal e intraparto. Corioamnionitis, hijo de madre diabética, enfermedad hipertensiva del embarazo, restricción del crecimiento fetal, infecciones congénitas, gestación múltiple, abusos tóxicos y gestación. Reanimación cardiopulmonar del recién nacido. Cuidados del recién nacido sano. Transporte neonatal. Fisiopatología y manejo del recién nacido prematuro. Seguimiento neonatal."
+      },
+      {
+        "numero": 21,
+        "titulo": "Neonatología (II): Alteraciones hidroelectrolíticas, metabólicas y endocrinológicas. Enfermedades digestivas. Enterocolitis necrosante. Enfermedades infecciosas. Prevención de la infección nosocomial. Enfermedades respiratorias. Displasia broncopulmonar. Soporte respiratorio en el periodo neonatal. Enfermedades cardiocirculatorias. Diagnóstico y manejo del compromiso circulatorio en el recién nacido."
+      },
+      {
+        "numero": 22,
+        "titulo": "Neonatología (III): Neurología neonatal. Asfixia intraparto y encefalopatía hipóxico isquémica. Convulsiones en el periodo neonatal. Hipotonía muscular. Enfermedades hematológicas en el recién nacido. Patología renal en el recién nacido. Insuficiencia renal. Malformaciones nefrourológicas. Urgencias traumatológicas."
+      },
+      {
+        "numero": 23,
+        "titulo": "Errores congénitos del metabolismo. Manifestaciones clínicas más frecuentes. Manejo terapéutico."
+      },
+      {
+        "numero": 24,
+        "titulo": "Fisiología y patología del aparato digestivo y del abdomen (I): Patología de la boca. Malformaciones congénitas del tubo digestivo y obstrucción intestinal. Estudio del vómito en el niño. Trastornos del esófago y de la unión cardioesofágica. Estenosis hipertrófica de píloro."
+      },
+      {
+        "numero": 25,
+        "titulo": "Fisiología y patología del aparato digestivo y del abdomen (II): Diarrea aguda. Síndromes de maldigestión y malabsorción intestinal. Parasitosis intestinal. Estreñimiento y encopresis. Patología del páncreas exocrino. Patología del hígado y del sistema biliar."
+      },
+      {
+        "numero": 26,
+        "titulo": "Fisiología y patología del aparato digestivo y del abdomen (II): Abdomen agudo. Tumores intestinales. Hernias: inguinales, diafragmáticas y epigástricas. Procesos quirúrgicos del ano, recto y colon. Enfermedades inflamatorias crónicas del tubo digestivo."
+      },
+      {
+        "numero": 27,
+        "titulo": "Estudio de la patología respiratoria (I): Patología de las vías respiratorias altas. Síndrome de apnea obstructiva del sueño. Patología de las vías respiratorias bajas: anomalías congénitas y enfermedades adquiridas."
+      },
+      {
+        "numero": 28,
+        "titulo": "Estudio de la patología respiratoria (II): Estudio particular de las infecciones respiratorias. Asma bronquial. Insuficiencia respiratoria aguda y crónica. Neumonías. Enfermedades de la pleura. Enfermedades musculares y esqueléticas que afectan a la función pulmonar. Patología del mediastino."
+      },
+      {
+        "numero": 29,
+        "titulo": "Alteraciones orgánicas y funcionales del sistema circulatorio (I): Semiología cardiovascular. Angiocardiopatías congénitas. Trastornos de la frecuencia y ritmo cardíacos. Insuficiencia cardíaca en la infancia."
+      },
+      {
+        "numero": 30,
+        "titulo": "Alteraciones orgánicas y funcionales del sistema circulatorio (II): Insuficiencia circulatoria periférica. Endocarditis infecciosa. Miocardiopatías. Cardiopatía reumática. Enfermedades del pericardio. Hipertensión arterial. Angiología pediátrica."
+      },
+      {
+        "numero": 31,
+        "titulo": "Estudio de la patología hematológica y oncológica pediátrica (I): Anemias. Pancitopenias. Alteraciones cuantitativas y cualitativas de los neutrófilos. Trastornos de la hemostasia. Trastornos de los factores de coagulación. Púrpuras vasculares. Procesos trombóticos. Patología del bazo. Linfadenitis agudas y crónicas. Utilización de sangre y hemoderivados en Pediatría."
+      },
+      {
+        "numero": 32,
+        "titulo": "Estudio de la patología hematológica y oncológica pediátrica (II): Neoplasias y procesos afines a neoplasias: estudio general. Leucemias. Linfomas. Reticuloendoteliosis. Neuroblastoma. Tumor de Wilms. Rabdomiosarcoma. Otros sarcomas de tejidos blandos. Tumores óseos. Neoplasias digestivas, hepáticas y gonadales y de células germinales. Tumores benignos."
+      },
+      {
+        "numero": 33,
+        "titulo": "Fisiología y patología del sistema endocrino (I): Fisiología hipotálamohipofisaria: síndromes clínicos. Fisiología y patología del metabolismo hidromineral. Deshidrataciones y otros trastornos hidroelectrolíticos comunes: fluidoterapia y rehidratación oral. Fisiología y patología del metabolismo ácido-base."
+      },
+      {
+        "numero": 34,
+        "titulo": "Fisiología y patología del sistema endocrino (II): Metabolismo calciofosfórico. Raquitismos. Síndromes hipercalcémicos. Síndromes hipoglucémicos. Enfermedades de la glándula tiroidea. Enfermedades de las glándulas paratiroides. Patología de las suprarrenales: síndromes clínicos. Patología del desarrollo sexual. Diabetes mellitus."
+      },
+      {
+        "numero": 35,
+        "titulo": "Fisiopatología nefrourológica (I): Fisiología renal. Interpretación de las pruebas de función renal. Malformaciones del riñón y vías urinarias. Infección urinaria. Reflujo vésico-ureteral. Estudio de la hematuria y la proteinuria. Síndrome nefrótico. Síndrome nefrítico de comienzo agudo."
+      },
+      {
+        "numero": 36,
+        "titulo": "Fisiopatología nefrourológica (II): Glomerulopatías más frecuentes en edad pediátrica. Tubulopatías más frecuentes en edad pediátrica. Insuficiencia renal aguda y crónica. Hipertensión arterial. Compuestos nefrotóxicos. Litiasis urinaria. Afecciones de los órganos genitales (pene, testículos y escroto). Ginecología pediátrica."
+      },
+      {
+        "numero": 37,
+        "titulo": "Patología del sistema nervioso (I): Malformaciones congénitas del sistema nervioso central. Encefalopatías connatales. Encefalopatías congénitas y adquiridas. Parálisis cerebral. Síndrome convulsivo en la infancia. Epilepsia. Hipertensión endocraneal. Hidrocefalia. Tumores intracraneales."
+      },
+      {
+        "numero": 38,
+        "titulo": "Patología del sistema nervioso (II): Deficiencia mental. Cefaleas. Traumatismos craneoencefálicos. Síndromes neurocutáneos. Procesos neurovegetativos. Alteraciones del movimiento: ataxia, corea, distonías, tics. Enfermedades de la médula espinal."
+      },
+      {
+        "numero": 39,
+        "titulo": "Patología del sistema nervioso (III): Neuropatías sensitivo-motoras hereditarias. Otras neuropatías. Síndrome de GuillainBarré. Parálisis periféricas. Procesos vasculares. Coma. Muerte cerebral."
+      },
+      {
+        "numero": 40,
+        "titulo": "Patología del sistema óseo y locomotor: Miopatías. Enfermedades óseas constitucionales. Estudio de los tumores óseos. Problemas ortopédicos prevalentes en el niño. Lesiones musculoesqueléticas secundarias al deporte. Enfermedades reumáticas durante la infancia y la adolescencia."
+      },
+      {
+        "numero": 41,
+        "titulo": "Fisiología y fisiopatología de la inmunidad (I): Valoración inicial del sistema inmune ante un niño con infecciones recurrentes. Síndromes de inmunodeficiencia congénita. Infección por VIH y síndrome de inmunodeficiencia adquirida en el niño."
+      },
+      {
+        "numero": 42,
+        "titulo": "Fisiología y fisiopatología de la inmunidad (II): Enfermedades autoinmunes. Enfermedades autoinmunes del tejido conjuntivo (colagenosis). Alergia: bases inmunes y medidores químicos de la reacción alérgica. Principales alergopatías respiratorias, digestivas y dermatológicas."
+      },
+      {
+        "numero": 43,
+        "titulo": "Patología infecciosa (I): Consideraciones generales. Fiebre. Fiebre de origen desconocido. Diagnóstico complementario de las enfermedades infecciosas en el niño. Infecciones bacterianas. Tuberculosis infantil. Infecciones víricas y otras presuntamente causadas por virus. Infecciones micóticas. Infecciones parasitarias."
+      },
+      {
+        "numero": 44,
+        "titulo": "Patología infecciosa (II): Diagnóstico diferencial de las enfermedades exantemáticas. Hepatitis víricas en el niño. Meningitis. Encefalitis. Infecciones frecuentes en el niño inmunocomprometido. Infecciones nosocomiales. Guarderías, centro de acogida y enfermedades transmisibles."
+      },
+      {
+        "numero": 45,
+        "titulo": "Otras afecciones prevalentes en edad pediátrica: Afecciones cutáneas. Síndrome de muerte súbita del lactante. Síndrome de Münchaussen. Histiocitosis en la infancia."
+      },
+      {
+        "numero": 46,
+        "titulo": "Fundamentos de otorrinolaringología infantil (malformaciones congénitas, screenig auditivo en población de riesgo, infecciones de la esfera ORL). Fundamentos de oftalmología pediátrica."
+      },
+      {
+        "numero": 47,
+        "titulo": "Fundamentos de ginecología pediátrica (vulvovaginitis, hirsutismo, tumores, dismenorrea y síndrome premenstrual). Síndrome de fatiga crónica."
+      },
+      {
+        "numero": 48,
+        "titulo": "Cuidados intensivos pediátricos (I): Reanimación cardiopulmonar en el niño. Técnicas y procedimientos diagnósticos y terapéuticos en situaciones críticas. Escalas clínicas."
+      },
+      {
+        "numero": 49,
+        "titulo": "Cuidados intensivos pediátricos (II): Shock séptico. Uso y monitorización de fármacos."
+      },
+      {
+        "numero": 50,
+        "titulo": "Características biológicas, psicobiológicas y sociales del adolescente. Accidentes. Neoplasias. Problemas psicosociales: depresión, suicidio, consumo de sustancias tóxicas, anorexia nerviosa, bulimia y otros."
+      },
+      {
+        "numero": 51,
+        "titulo": "Problemas del adolescente relacionados con la sexualidad: enfermedades de transmisión sexual, embarazo, anticoncepción. Patología dermatológica prevalente en el adolescente. Problemas ortopédicos prevalentes en el adolescente. Promoción de la salud en el adolescente. El adolescente crónicamente enfermo."
+      },
+      {
+        "numero": 52,
+        "titulo": "Patología más representativa de la relacionada con la población inmigrante (I): Infecciones producidas por bacterias, ricketsiosis de interés humano, enfermedades producidas por protozoos, enfermedades producidas por helmintos, enfermedades producidas por virus, micosis profundas, enfermedades producidas por artópodos, tuberculosis, hepatitis B, infección VIH."
+      },
+      {
+        "numero": 53,
+        "titulo": "Patología más representativa de la relacionada con la población inmigrante (II): Anemias hemolíticas (Déficit de G6PD; hemoglobinopatías). Patología nutricional (malnutrición, anemia ferropénica, raquitismo, errores dietéticos). Problemas psiquiátricos (problemas de adaptación psicosocial). Patología relacionada con otras culturas."
+      },
+      {
+        "numero": 54,
+        "titulo": "Habilidades y actitudes en la asistencia al niño y al adolescente enfermo."
+      },
+      {
+        "numero": 55,
+        "titulo": "El niño y adolescente enfermo agudo. Comunicación con los padres."
+      },
+      {
+        "numero": 56,
+        "titulo": "Tratamiento de la fiebre. Tratamiento del dolor agudo. Fluidoterapia."
+      },
+      {
+        "numero": 57,
+        "titulo": "El niño y el adolescente moribundo. Cuidados paliativos: atención integral, centrada en la familia, con enfermedades graves que acortan la vida. La familia del niño y adolescente moribundo."
+      },
+      {
+        "numero": 58,
+        "titulo": "El niño y el adolescente enfermo crónico. Discapacidad física y enfermedad crónica. Retraso mental. Niños y adolescentes tecnológicamentedependientes. Fibrosis quística. Distrofia muscular. Parálisis cerebral."
+      },
+      {
+        "numero": 59,
+        "titulo": "Fundamentos de anestesia pediátrica. Cuidados pre y postoperatorios. Fundamentos del trasplante de órganos."
+      },
+      {
+        "numero": 60,
+        "titulo": "Orientación diagnósticoterapéutica en Urgencias. Recomendaciones para el niño y el adolescente que viaja (previas al viaje, problemas relacionados con el medio ambiente, vacunaciones, quimioprofilaxis).."
+      }
+    ]
+  }
+]

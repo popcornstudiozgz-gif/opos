@@ -1,0 +1,272 @@
+[
+  {
+    "bloque": "Materia común",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "La Constitución Española de 1978: Principios fundamentales. Derechos y deberes fundamentales de los ciudadanos. La protección a la salud en la Constitución. La Corona. Las Cortes Generales. El Gobierno de la Nación. El Poder Judicial."
+      },
+      {
+        "numero": 2,
+        "titulo": "El Estatuto de Autonomía en Aragón. Principios informadores. Estructura y contenido. La organización institucional de la Comunidad Autónoma. Las Cortes y el Justicia de Aragón. Las competencias de la Comunidad de Aragón con especial referencia a las relativas a sanidad. Los órganos de gobierno y administración de la Comunidad Autónoma de Aragón."
+      },
+      {
+        "numero": 3,
+        "titulo": "Población, geografía y territorio en Aragón. Desequilibrios demográficos en Aragón. Magnitudes más relevantes de la economía aragonesa. Evolución reciente de la actividad económica en Aragón."
+      },
+      {
+        "numero": 4,
+        "titulo": "La igualdad de oportunidades entre mujeres y hombres en Aragón: Disposiciones generales. Prevención y Protección Integral a las Mujeres Víctimas de Violencia en Aragón: Disposiciones Generales. La identidad y expresión de género e igualdad social y no discriminación en la Comunidad Autónoma de Aragón: Disposiciones Generales. Diversidad cultural y lucha contra la discriminación."
+      },
+      {
+        "numero": 5,
+        "titulo": "Estructura del Departamento de Sanidad. El Decreto 174/2010, de 21 de septiembre, del Gobierno de Aragón, por el que se aprueba el reglamento de la estructura y funcionamiento de las áreas y sectores del Sistema de Salud de Aragón."
+      },
+      {
+        "numero": 6,
+        "titulo": "La Ley General de Sanidad: El Sistema Nacional de Salud y los Servicios de Salud de las Comunidades Autónomas. El Área de Salud. La Ley de Salud de Aragón. Principios generales. Derechos y deberes de los ciudadanos. Derechos de información sobre la salud y autonomía del paciente."
+      },
+      {
+        "numero": 7,
+        "titulo": "El Procedimiento Administrativo Común de las Administraciones Públicas. Ámbito de aplicación y principios generales. Los interesados en el procedimiento administrativo. Computo de plazos. Revisión de actos en vía administrativa: Revisión de oficio y recursos administrativos."
+      },
+      {
+        "numero": 8,
+        "titulo": "El Estatuto Marco del Personal Estatutario de los Servicios de Salud (I). Clasificación del Personal Estatutario. Derechos y Deberes. Adquisición y pérdida de la condición de personal estatutario. Provisión de plazas, selección y promoción interna. Movilidad del personal."
+      },
+      {
+        "numero": 9,
+        "titulo": "El Estatuto Marco del Personal Estatutario de los Servicios de Salud (II). Retribuciones. Jornada de trabajo, permisos y licencias. Situaciones del personal estatutario. Régimen disciplinario. Ley 53/1984 de 26 de diciembre, de Incompatibilidades. Principios generales. Ámbito de aplicación."
+      },
+      {
+        "numero": 10,
+        "titulo": "Ley de Prevención de Riesgos Laborales: Conceptos básicos. Derechos y obligaciones en materia de seguridad en el trabajo. Organización de la prevención de riesgos laborales en la Comunidad Autónoma de Aragón. Distribución de funciones y responsabilidades en materia de prevención de riesgos laborales entre los diferentes órganos del Servicio Aragonés de Salud."
+      },
+      {
+        "numero": 11,
+        "titulo": "El Texto Refundido de la Ley del Estatuto Básico del Empleado Público: Deberes del empleado público y código de conducta. Representación, participación y negociación colectiva."
+      },
+      {
+        "numero": 12,
+        "titulo": "El régimen jurídico de la protección de datos de carácter personal: Disposiciones generales. Principios de la Protección de datos. Derechos de las personas. Responsable y Encargado del Tratamiento."
+      },
+      {
+        "numero": 13,
+        "titulo": "Ley 41/2002, de 14 de noviembre, básica reguladora de la autonomía del paciente y de derechos y obligaciones en materia de información y documentación clínica"
+      },
+      {
+        "numero": 14,
+        "titulo": "Ley 16/2003, de 28 de mayo, de Cohesión y Calidad del Sistema Nacional de Salud: Las prestaciones del Sistema Nacional de Salud. El Consejo Interterritorial. Sistema de información sanitaria."
+      },
+      {
+        "numero": 15,
+        "titulo": "Ley 44//2003, de 21 de noviembre, de Ordenación de las Profesiones Sanitarias: Ámbito de aplicación. Profesiones sanitarias tituladas y profesionales del área sanitaria de formación profesional. El ejercicio de las profesiones sanitarias. Formación Especializada en Ciencias de la Salud."
+      },
+      {
+        "numero": 16,
+        "titulo": "Ley 9/2013, de 28 de noviembre, de Autoridad de Profesionales del Sistema Sanitario y de Servicios Sociales Públicos de Aragón. Ley Orgánica 1/2023, de 28 de febrero, por la que se modifica la Ley Orgánica 2/2010, de 3 de marzo, de salud sexual y reproductiva y de la interrupción voluntaria del embarazo."
+      }
+    ]
+  },
+  {
+    "bloque": "Materia específica",
+    "temas": [
+      {
+        "numero": 17,
+        "titulo": "Principales modelos y teorías de enfermería. Características generales de los modelos. Componentes y elementos."
+      },
+      {
+        "numero": 18,
+        "titulo": "Características y etapas del proceso enfermero."
+      },
+      {
+        "numero": 19,
+        "titulo": "Valoración de enfermería. Necesidades básicas de Virginia Henderson y Patrones funcionales de Marjory Gordon. Interpretación de resultados e identificación de problemas. Principales instrumentos de valoración en los cuidados de enfermería: Cuestionarios, escalas y test."
+      },
+      {
+        "numero": 20,
+        "titulo": "Diagnósticos enfermeros y problemas de colaboración. Taxonomía NANDA."
+      },
+      {
+        "numero": 21,
+        "titulo": "Planificación. Formulación de objetivos. Taxonomía NOC. Intervenciones. Taxonomía NIC. Evaluación del proceso enfermero."
+      },
+      {
+        "numero": 22,
+        "titulo": "Estadística descriptiva. Tipos de distribución y parámetros que la definen. Estadística inferencial, intervalos de confianza. Los test de hipótesis. Validez y fiabilidad de los instrumentos de medida. Sensibilidad, especificidad. Valor predictivo positivo y negativo. Curvas ROC (Receiver Operating Characteristic)."
+      },
+      {
+        "numero": 23,
+        "titulo": "Investigación cuantitativa, definición. Conceptos de población y muestra variable. Tipos de estudios."
+      },
+      {
+        "numero": 24,
+        "titulo": "Investigación cualitativa. Principales diseños y métodos de investigación cualitativa, Procesos y fases de la investigación cualitativa."
+      },
+      {
+        "numero": 25,
+        "titulo": "Enfermería basada en la evidencia. Búsqueda de evidencias científicas: Bases de datos bibliográficas, fuentes documentales de evidencia y revisión bibliográfica. Instrumentos de la evidencia científica. Formulación de preguntas y búsqueda de respuestas sobre la práctica clínica. Evaluación y síntesis de los hallazgos de la revisión bibliográfica."
+      },
+      {
+        "numero": 26,
+        "titulo": "Epidemiología. El método epidemiológico. Enfermedades trasmisibles en la población española. Sistema nacional de Vigilancia Epidemiológica. Enfermedades de Declaración Obligatoria."
+      },
+      {
+        "numero": 27,
+        "titulo": "Salud Pública. Conceptos de salud y enfermedad. Principales problemas de salud en la población española actual. Planificación sanitaria: Identificación de problemas. Priorización. Desarrollo de las Estrategias Nacionales de Salud en Aragón. Elaboración de programas de salud y su evaluación."
+      },
+      {
+        "numero": 28,
+        "titulo": "Prevención y promoción de la salud. Programas de detección precoz de enfermedad en Aragón."
+      },
+      {
+        "numero": 29,
+        "titulo": "Calidad en el Sistema Nacional de Salud. Diseño de Proyectos de Mejora de Calidad en el Servicio Aragonés de Salud. Comisiones clínicas. Indicadores de calidad de cuidados."
+      },
+      {
+        "numero": 30,
+        "titulo": "Seguridad del paciente, identificación de eventos adversos. Evitabilidad e impacto. Análisis de eventos adversos. Sistemas de notificación y aprendizaje para la seguridad del paciente (SINAPS)."
+      },
+      {
+        "numero": 31,
+        "titulo": "Los Costes Sanitarios. Tipo de costes. Calculo de costes. Producto Sanitario. Concepto de financiación, gestión y provisión de servicios sanitarios. Concepto de equidad, eficacia, eficiencia y efectividad."
+      },
+      {
+        "numero": 32,
+        "titulo": "Sistemas de información utilizados en Atención Especializada y Atención Primaria en Aragón: Historia clínica. Registros específicos de Actividad de Enfermería. Principales clasificaciones Internacionales de Problemas de Salud: Características generales."
+      },
+      {
+        "numero": 33,
+        "titulo": "Bioética. Comité de Bioética de Aragón, Código Deontológico de la Confederación Internacional de Matronas."
+      },
+      {
+        "numero": 34,
+        "titulo": "Género y salud. Morbilidad y mortalidad diferencial, biología. Determinantes de la salud."
+      },
+      {
+        "numero": 35,
+        "titulo": "Violencia de género, violencia sexual, mutilación genital femenina: prevención, detección y atención sanitaria."
+      },
+      {
+        "numero": 36,
+        "titulo": "Farmacología en salud sexual y reproductiva, analgesia obstétrica, farmacovigilancia. Métodos de alivio del dolor no farmacológicos."
+      },
+      {
+        "numero": 37,
+        "titulo": "Atención sanitaria de urgencias y emergencias obstétrico-ginecológicas. Soporte vital. Atención al parto extra-hospitalario."
+      },
+      {
+        "numero": 38,
+        "titulo": "Anatomía y fisiología del aparato reproductor femenino y masculino. Anatomía y fisiología de la mama. Anatomía de la pelvis y biomecánica."
+      },
+      {
+        "numero": 39,
+        "titulo": "Fisiopatología del ciclo menstrual."
+      },
+      {
+        "numero": 40,
+        "titulo": "Atención y cuidados a la mujer en el climaterio."
+      },
+      {
+        "numero": 41,
+        "titulo": "Atención a sexualidad de la mujer en las diferentes etapas de la vida. Educación y asesoramiento afectivo-sexual."
+      },
+      {
+        "numero": 42,
+        "titulo": "Suelo pélvico. Anatomía del suelo pélvico. Patologías y disfunciones asociadas. Valoración, atención y cuidados. Recuperación del suelo pélvico."
+      },
+      {
+        "numero": 43,
+        "titulo": "Cáncer ginecológico y cáncer de mama: Atención y cuidados específicos a la mujer con patología de cáncer ginecológico y cáncer de mama. Factores de riesgo. Detección y diagnostico precoz."
+      },
+      {
+        "numero": 44,
+        "titulo": "Atención y cuidados a la mujer en las patologías obstétrico ginecológicas."
+      },
+      {
+        "numero": 45,
+        "titulo": "Infecciones de transmisión sexual: Prevención, detección, gestión del caso."
+      },
+      {
+        "numero": 46,
+        "titulo": "Anticoncepción: Métodos anticonceptivos. Asesoramiento contraceptivo, programa para la organización de la atención anticonceptiva en Aragón y plan de cuidados."
+      },
+      {
+        "numero": 47,
+        "titulo": "Atención y cuidados a la mujer en la interrupción voluntaria del embarazo. Supuestos legales. Procedimientos."
+      },
+      {
+        "numero": 48,
+        "titulo": "Atención y cuidados en la esterilidad y en la infertilidad. Técnicas de reproducción asistida."
+      },
+      {
+        "numero": 49,
+        "titulo": "Consulta preconcepcional. Factores de riesgo que inciden en el desarrollo de la gestación. Consejo genético. Atención y cuidados."
+      },
+      {
+        "numero": 50,
+        "titulo": "Atención y cuidados a la mujer embarazada, control prenatal. Modificaciones fisiológicas y adaptación psicológicas. Valoración del bienestar fetal anteparto. Atención y cuidados del embarazo múltiple."
+      },
+      {
+        "numero": 51,
+        "titulo": "Diagnóstico prenatal. Desarrollo embrionario y fetal."
+      },
+      {
+        "numero": 52,
+        "titulo": "Atención y cuidados a la embarazada con patología materno-fetal."
+      },
+      {
+        "numero": 53,
+        "titulo": "Atención y cuidados a la mujer en el parto. Valoración de bienestar fetal intraparto. Estrategia de atención al parto normal. Valoración y cuidados del parto múltiple. Donación de sangre de cordón umbilical."
+      },
+      {
+        "numero": 54,
+        "titulo": "Atención y cuidados a la mujer en el parto distócico e inducido. Patología del alumbramiento."
+      },
+      {
+        "numero": 55,
+        "titulo": "Atención y cuidados a la mujer en el puerperio normal"
+      },
+      {
+        "numero": 56,
+        "titulo": "Atención y cuidados a la mujer en el puerperio patológico."
+      },
+      {
+        "numero": 57,
+        "titulo": "Lactancia materna y lactancia artificial. Donación de leche materna. Banco de leche materna de Aragón"
+      },
+      {
+        "numero": 58,
+        "titulo": "Atención y cuidados al recién nacido sano."
+      },
+      {
+        "numero": 59,
+        "titulo": "Atención y cuidados al recién nacido con problemas de salud y en situaciones especiales. Soporte vital neonatal."
+      },
+      {
+        "numero": 60,
+        "titulo": "Atención y cuidados en perdida gestacional. Manejo del duelo."
+      },
+      {
+        "numero": 61,
+        "titulo": "Legislación sobre trabajo y maternidad. Derechos de los progenitores."
+      },
+      {
+        "numero": 62,
+        "titulo": "Técnicas y habilidades de comunicación y relación interpersonal. Entrevista clínica. Identificación de necesidades de apoyo emocional y psicológico al paciente, cuidador principal y familia. Dinámica de grupos y trabajo en equipo. Relación matrona-paciente."
+      },
+      {
+        "numero": 63,
+        "titulo": "Educación para la salud: Metodología para la educación para la salud, técnicas de comunicación, educación grupal y educación individual."
+      },
+      {
+        "numero": 64,
+        "titulo": "Educación prenatal, postparto y apoyo en la crianza. Contenido teórico-práctico."
+      },
+      {
+        "numero": 65,
+        "titulo": "Docencia como competencia para el desarrollo profesional. Sistema EIR. Programa formativo. Formación continuada."
+      }
+    ]
+  }
+]

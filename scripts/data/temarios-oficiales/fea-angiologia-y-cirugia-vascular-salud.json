@@ -1,0 +1,332 @@
+[
+  {
+    "bloque": "Materia común",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "Constitución Española de 1978: la protección de la salud en la Constitución. Estatuto de Autonomía de Aragón. Competencias en salud recogidas en el Estatuto de Autonomía. Las Cortes de Aragón. El Gobierno de Aragón."
+      },
+      {
+        "numero": 2,
+        "titulo": "El texto refundido de la Ley del Estatuto Básico del Empleado Público, aprobado por el Real Decreto Legislativo 5/2015: deberes del empleado público y código de conducta. Representación, participación y negociación colectiva."
+      },
+      {
+        "numero": 3,
+        "titulo": "El régimen jurídico de la protección de datos de carácter personal: Disposiciones generales. Derechos de las personas."
+      },
+      {
+        "numero": 4,
+        "titulo": "El Procedimiento Administrativo Común de las Administraciones Públicas: Disposiciones Generales. Cómputo de plazos. Objeto y plazos de los recursos administrativos. El Régimen Jurídico del Sector Público: Disposiciones Generales."
+      },
+      {
+        "numero": 5,
+        "titulo": "Ley 14/1986 General de Sanidad. Ley 6/2002 de Salud de Aragón. Principios generales, estructura, contenidos. Ley 16/2003 de cohesión y calidad del Sistema Nacional de Salud. Principios generales, estructura, contenidos."
+      },
+      {
+        "numero": 6,
+        "titulo": "Ley 44/2003 de Ordenación de las Profesiones Sanitarias. Ámbito de aplicación, contenidos. Ley 41/2002, de 14 de noviembre, básica reguladora de la autonomía del paciente y de derechos y obligaciones en materia de información y documentación clínica. Ley 9/2013, de 28 de noviembre, de Autoridad de Profesionales del Sistema Sanitario y de Servicios Sociales Públicos de Aragón."
+      },
+      {
+        "numero": 7,
+        "titulo": "Ley 55/2003 del Estatuto Marco de personal Estatutario de los Servicios de Salud (I). Principios generales, estructura, contenidos. Clasificación del personal estatutario. Derechos y deberes. Adquisición y pérdida de la condición de personal estatutario. Provisión de plazas, selección y promoción interna. Movilidad del personal."
+      },
+      {
+        "numero": 8,
+        "titulo": "Ley 55/2003 del Estatuto Marco de personal Estatutario de los Servicios de Salud (II). Retribuciones. Jornada de trabajo, permisos y licencias. Situaciones del personal estatutario. Régimen disciplinario. Modelo de Carrera Profesional en Aragón. Ley 53/1984 de 26 de diciembre, de incompatibilidades. Principios Generales. Ámbito de aplicación."
+      },
+      {
+        "numero": 9,
+        "titulo": "La igualdad de oportunidades entre mujeres y hombres en Aragón: Disposiciones generales. Prevención y Protección Integral a las Mujeres Víctimas de Violencia en Aragón: Disposiciones Generales. La identidad y expresión de género e igualdad social y no discriminación en la Comunidad Autónoma de Aragón: Disposiciones Generales. La diversidad cultural y lucha contra la discriminación: Principios y objetivos del Plan Integral para la Gestión de la Diversidad vigente en Aragón."
+      },
+      {
+        "numero": 10,
+        "titulo": "El sistema sanitario. Niveles asistenciales. Organización de los servicios sanitarios en Aragón. Estructura del Departamento de Sanidad de Aragón y del Servicio Aragonés de la Salud. Los Sectores sanitarios."
+      },
+      {
+        "numero": 11,
+        "titulo": "Metodología de la Investigación: El método científico. Diseño de un proyecto de investigación. Estadística aplicada a los estudios de Medicina."
+      },
+      {
+        "numero": 12,
+        "titulo": "El método epidemiológico. Epidemiología descriptiva: tipos de estudios, tasas e indicadores. Epidemiología analítica: tipos de estudios. Riesgo relativo, riesgo atribuible y Odds Ratio. Sesgos."
+      },
+      {
+        "numero": 13,
+        "titulo": "Estudios experimentales. Ensayos clínicos. Ética de la investigación clínica. Validez de métodos diagnósticos: sensibilidad, especificidad, valor predictivo positivo."
+      },
+      {
+        "numero": 14,
+        "titulo": "Evaluación de Tecnologías Sanitarias: Procedimientos de evaluación. Cartera de Servicios del Sistema Nacional de Salud. Procedimiento de actualización de la Cartera de Servicios del sistema de Salud de Aragón."
+      },
+      {
+        "numero": 15,
+        "titulo": "Práctica basada en la evidencia. Variabilidad en la práctica médica. Búsqueda y valoración de evidencias. Aplicación de las evidencias a la toma de decisiones clínicas. Guías clínicas. Proyecto Guía-Salud."
+      },
+      {
+        "numero": 16,
+        "titulo": "La seguridad del paciente. Gestión de riesgos. Principales problemas para la seguridad del paciente en el hospital. Estrategias para la mejora de la seguridad."
+      },
+      {
+        "numero": 17,
+        "titulo": "Uso Racional del Medicamento. Criterios de selección de medicamentos. Equivalentes terapéuticos. Indicadores de calidad de prescripción."
+      },
+      {
+        "numero": 18,
+        "titulo": "Evaluación y mejora de la calidad. Modelos de Gestión de la Calidad. Diseño de un programa de calidad."
+      },
+      {
+        "numero": 19,
+        "titulo": "Principios fundamentales de la bioética: aplicación a la asistencia sanitaria. La relación médico-paciente, el consentimiento informado. Los comités de Bioética. La ética en la investigación clínica."
+      },
+      {
+        "numero": 20,
+        "titulo": "Gobierno clínico. La implicación de los profesionales en el funcionamiento de las instituciones sanitarias."
+      }
+    ]
+  },
+  {
+    "bloque": "Materia específica",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "Laboratorio vascular: evaluación fisiológica."
+      },
+      {
+        "numero": 2,
+        "titulo": "Plaqueta-Pared Vascular. Síndromes hemorrágicos. Trombofilias."
+      },
+      {
+        "numero": 3,
+        "titulo": "Diagnóstico por imagen."
+      },
+      {
+        "numero": 4,
+        "titulo": "Ecografía duplex arterial y venosa"
+      },
+      {
+        "numero": 5,
+        "titulo": "Técnicas básicas de cirugía arterial. Endarterectomia."
+      },
+      {
+        "numero": 6,
+        "titulo": "Técnicas básicas de cirugía arterial. Conductos vasculares."
+      },
+      {
+        "numero": 7,
+        "titulo": "Abordajes en Cirugía Vascular."
+      },
+      {
+        "numero": 8,
+        "titulo": "Conceptos de cirugía endovascular."
+      },
+      {
+        "numero": 9,
+        "titulo": "Prótesis e injertos en Cirugía Vascular."
+      },
+      {
+        "numero": 10,
+        "titulo": "Infección en Cirugía Vascular. Profilaxis."
+      },
+      {
+        "numero": 11,
+        "titulo": "Ateroesclerosis."
+      },
+      {
+        "numero": 12,
+        "titulo": "Isquemia aguda. Síndrome de revascularización."
+      },
+      {
+        "numero": 13,
+        "titulo": "Isquemia crónica. Epidemiología e historia natural. Diagnóstico clínico. Diagnóstico instrumental."
+      },
+      {
+        "numero": 14,
+        "titulo": "Tratamiento médico de la isquemia arterial crónica."
+      },
+      {
+        "numero": 15,
+        "titulo": "Cirugía arterial directa de la enfermedad obstructiva crónica del sector aorto-iliaco. Resultados y complicaciones."
+      },
+      {
+        "numero": 16,
+        "titulo": "Cirugía endovascular de la enfermedad obstructiva crónica del sector aorto-iliaco. Resultados y complicaciones."
+      },
+      {
+        "numero": 17,
+        "titulo": "Pie diabético."
+      },
+      {
+        "numero": 18,
+        "titulo": "Cirugía arterial directa de la enfermedad obstructiva crónica del sector fémoro-poplíteo y distal. Resultados y complicaciones."
+      },
+      {
+        "numero": 19,
+        "titulo": "Cirugía endovascular de la enfermedad obstructiva crónica del sector fémoro-poplíteo y distal. Resultados y complicaciones."
+      },
+      {
+        "numero": 20,
+        "titulo": "Complicaciones, seguimiento y reintervenciones en el sector aortoiliaco"
+      },
+      {
+        "numero": 21,
+        "titulo": "Complicaciones, seguimiento y reintervenciones en el sector femoropoplíteo"
+      },
+      {
+        "numero": 22,
+        "titulo": "Complicaciones, seguimiento y reintervenciones en el sector distal"
+      },
+      {
+        "numero": 23,
+        "titulo": "Infección del injerto en sector aortoiliaco, femoropoplíteo y distal."
+      },
+      {
+        "numero": 24,
+        "titulo": "Atrapamiento poplíteo."
+      },
+      {
+        "numero": 25,
+        "titulo": "Enfermedad quística adventicial."
+      },
+      {
+        "numero": 26,
+        "titulo": "Síndromes vasoespásticos."
+      },
+      {
+        "numero": 27,
+        "titulo": "Vasculitis. Generalidades. Enfermedad de Takayasu. Arteritis de la temporal o Enfermedad de Horton."
+      },
+      {
+        "numero": 28,
+        "titulo": "Enfermedad de Buerger (tromboangeitis obliterante)."
+      },
+      {
+        "numero": 29,
+        "titulo": "Otras arteriopatías no ateroescleróticas. Ergotismo. Enfermedad de Behçet. Arteriopatía por radiación. Arteriopatías químicas."
+      },
+      {
+        "numero": 30,
+        "titulo": "Enfermedad aneurismática. Etiopatogenia."
+      },
+      {
+        "numero": 31,
+        "titulo": "Patología oclusiva y aneurismática de los miembros superiores."
+      },
+      {
+        "numero": 32,
+        "titulo": "Síndrome desfiladero torácico."
+      },
+      {
+        "numero": 33,
+        "titulo": "Aneurismas de aorta torácica."
+      },
+      {
+        "numero": 34,
+        "titulo": "Aneurismas toracoabdominales."
+      },
+      {
+        "numero": 35,
+        "titulo": "Disección aórtica."
+      },
+      {
+        "numero": 36,
+        "titulo": "Aneurismas de aorta abdominal."
+      },
+      {
+        "numero": 37,
+        "titulo": "Aneurismas iliacos."
+      },
+      {
+        "numero": 38,
+        "titulo": "Aneurismas periféricos de los miembros."
+      },
+      {
+        "numero": 39,
+        "titulo": "Aneurismas viscerales."
+      },
+      {
+        "numero": 40,
+        "titulo": "Aneurismas de los troncos supraaórticos y sus ramas."
+      },
+      {
+        "numero": 41,
+        "titulo": "Patología obliterante de los troncos supraaórticos."
+      },
+      {
+        "numero": 42,
+        "titulo": "Patología oclusiva de la bifurcación carotídea."
+      },
+      {
+        "numero": 43,
+        "titulo": "Patología oclusiva subclaviovertebral."
+      },
+      {
+        "numero": 44,
+        "titulo": "Tumores del cuerpo carotídeo y paragangliomas."
+      },
+      {
+        "numero": 45,
+        "titulo": "Hipertensión vasculorenal y nefropatía isquémica."
+      },
+      {
+        "numero": 46,
+        "titulo": "Isquemia mesentérica aguda y crónica. Colitis isquémica."
+      },
+      {
+        "numero": 47,
+        "titulo": "Accesos vasculares para hemodiálisis y otras terapias. Fístulas y derivaciones arteriovenosas para hemodiálisis."
+      },
+      {
+        "numero": 48,
+        "titulo": "Fístulas arteriovenosas y angiodisplasias."
+      },
+      {
+        "numero": 49,
+        "titulo": "Amputaciones."
+      },
+      {
+        "numero": 50,
+        "titulo": "Rehabilitación y protetización del paciente amputado."
+      },
+      {
+        "numero": 51,
+        "titulo": "Tumores vasculares."
+      },
+      {
+        "numero": 52,
+        "titulo": "Traumatismos vasculares de extremidades, torácicos, abdominales y de troncos supraaorticos."
+      },
+      {
+        "numero": 53,
+        "titulo": "Complicaciones de los traumatismos vasculares: síndrome compartimental"
+      },
+      {
+        "numero": 54,
+        "titulo": "Consideraciones clínicas de la insuficiencia venosa"
+      },
+      {
+        "numero": 55,
+        "titulo": "Tratamiento médico de la insuficiencia venosa."
+      },
+      {
+        "numero": 56,
+        "titulo": "Cirugía de las varices."
+      },
+      {
+        "numero": 57,
+        "titulo": "Úlceras Venosas. Diagnóstico diferencial. Tratamiento."
+      },
+      {
+        "numero": 58,
+        "titulo": "Enfermedad tromboembólica venosa: Trombosis venosas aguda. Embolia pulmonar. Síndrome postrombótico."
+      },
+      {
+        "numero": 59,
+        "titulo": "Linfedema. Tipos etiopatogénicos. Diagnóstico. Prevención y tratamiento médico. Tratamiento quirúrgico."
+      },
+      {
+        "numero": 60,
+        "titulo": "Síndromes vasculares congénitos complejos: Síndrome de KlippelTrenaunay y Síndrome de ParkesWeber."
+      }
+    ]
+  }
+]

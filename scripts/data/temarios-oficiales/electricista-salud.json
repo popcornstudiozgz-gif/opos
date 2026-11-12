@@ -1,0 +1,132 @@
+[
+  {
+    "bloque": "Materia común",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "La Constitución Española de 1978: Principios fundamentales. Derechos y deberes fundamentales de los ciudadanos. La protección a la salud en la Constitución. La Corona. Las Cortes Generales. El Gobierno de la Nación. El Poder Judicial."
+      },
+      {
+        "numero": 2,
+        "titulo": "El Estatuto de Autonomía de Aragón. Principios informadores. Estructura y contenido. La organización institucional de la Comunidad Autónoma. Las Cortes y El Justicia de Aragón. Las competencias de la Comunidad de Aragón con especial referencia a las relativas a sanidad."
+      },
+      {
+        "numero": 3,
+        "titulo": "Población, geografía y territorio en Aragón. Desequilibrios demográficos en Aragón. Magnitudes más relevantes de la economía aragonesa. Evolución reciente de la actividad económica en Aragón."
+      },
+      {
+        "numero": 4,
+        "titulo": "La igualdad de oportunidades entre mujeres y hombres en Aragón: Disposiciones generales. Prevención y Protección Integral a las Mujeres Víctimas de Violencia en Aragón: Disposiciones Generales. La identidad y expresión de género e igualdad social y no discriminación en la Comunidad Autónoma de Aragón: Disposiciones Generales. La diversidad cultural y lucha contra la discriminación: Principios y objetivos del Plan Integral para la Gestión de la Diversidad vigente en Aragón."
+      },
+      {
+        "numero": 5,
+        "titulo": "Los órganos de gobierno y administración de la Comunidad Autónoma de Aragón. El Departamento de Sanidad del Gobierno de Aragón: Estructura básica y competencias. El Servicio Aragonés de Salud: Estructura y competencias. El Texto Refundido de la Ley del Servicio Aragonés de Salud. Estructura y funcionamiento de las áreas y sectores del Sistema de Salud de Aragón."
+      },
+      {
+        "numero": 6,
+        "titulo": "La Ley General de Sanidad: El Sistema Nacional de Salud y los Servicios de Salud de las Comunidades Autónomas. El Área de Salud. La Ley de Salud de Aragón: Principios generales. Derechos y deberes de los ciudadanos. Derechos de información sobre la salud y autonomía del paciente."
+      },
+      {
+        "numero": 7,
+        "titulo": "El Procedimiento Administrativo Común de las Administraciones Públicas: Disposiciones Generales. Computo de plazos. Objeto y plazos de los recursos administrativos. El Régimen Jurídico del Sector Público: Disposiciones Generales."
+      },
+      {
+        "numero": 8,
+        "titulo": "El régimen jurídico de la protección de datos de carácter personal. Disposiciones generales. Principios de la Protección de datos. Derechos de las personas. Responsable y Encargado del Tratamiento."
+      },
+      {
+        "numero": 9,
+        "titulo": "Personal Estatutario de los Servicios de Salud: Clasificación del Personal Estatutario. Derechos y Deberes. Adquisición y pérdida de la condición de personal estatutario. Provisión de plazas, selección y promoción interna. Movilidad del personal. Situaciones. Régimen disciplinario. La Ley del Estatuto Básico del Empleado Público: Deberes del empleado público y código de conducta. Representación, participación y negociación colectiva. El régimen de Incompatibilidades: Principios generales. Ámbito de aplicación"
+      },
+      {
+        "numero": 10,
+        "titulo": "Ley de Prevención de Riesgos Laborales: Conceptos básicos. Derechos y obligaciones en materia de seguridad en el trabajo. Organización de la prevención de riesgos laborales en la Comunidad Autónoma de Aragón. Distribución de funciones y responsabilidades en materia de prevención de riesgos laborales entre los diferentes órganos del Servicio Aragonés de Salud."
+      }
+    ]
+  },
+  {
+    "bloque": "Materia específica",
+    "temas": [
+      {
+        "numero": 11,
+        "titulo": "Electricidad y electrónica. Conceptos generales. Los fenómenos eléctricos, magnéticos y electromagnéticos y sus aplicaciones."
+      },
+      {
+        "numero": 12,
+        "titulo": "Herramientas, equipos y materiales para la ejecución y mantenimiento de las instalaciones eléctricas."
+      },
+      {
+        "numero": 13,
+        "titulo": "Cálculos básicos en las instalaciones eléctricas de baja tensión. Previsión de potencias, sección de conductores, procedimientos normalizados de cálculo de las instalaciones de Baja Tensión."
+      },
+      {
+        "numero": 14,
+        "titulo": "Medidas en las instalaciones eléctricas. Tensión, intensidad, resistencia y continuidad, potencia, resistencia eléctrica de las tomas de tierra. Instrumentos de medidas y características."
+      },
+      {
+        "numero": 15,
+        "titulo": "Cuadros eléctricos. Protección en media y baja tensión. Generalidades. Interruptores, disyuntores, seccionadores, fusiles, interruptores automáticos magnetotérmicos e interruptores diferenciales."
+      },
+      {
+        "numero": 16,
+        "titulo": "Circuitos eléctricos: símbolos, esquemas, mecanismos, sensores, reguladores, relés, contactores, temporizadores, conductores, canalizaciones, protecciones."
+      },
+      {
+        "numero": 17,
+        "titulo": "Motores eléctricos y automatismos. Esquemas, conexionado, mando y regulación."
+      },
+      {
+        "numero": 18,
+        "titulo": "Instalaciones de electrificación de viviendas y edificios. Conceptos normativos, ejecución y mantenimiento."
+      },
+      {
+        "numero": 19,
+        "titulo": "Instalaciones en locales de pública concurrencia. Conceptos normativos, ejecución y mantenimiento."
+      },
+      {
+        "numero": 20,
+        "titulo": "Instalaciones eléctricas de los locales con riesgo de incendio o explosión. Conceptos normativos, ejecución y mantenimiento."
+      },
+      {
+        "numero": 21,
+        "titulo": "Instalaciones en locales de características especiales y con fines especiales. Requisitos particulares para las instalaciones eléctricas en quirófanos y salas de intervención. Conceptos normativos, ejecución y mantenimiento."
+      },
+      {
+        "numero": 22,
+        "titulo": "Luminotecnia. Conceptos generales. Fuentes luminosas. Cálculos de alumbrado."
+      },
+      {
+        "numero": 23,
+        "titulo": "Instalaciones de alumbrado exterior. Conceptos normativos, ejecución y mantenimiento."
+      },
+      {
+        "numero": 24,
+        "titulo": "Redes de tierra y pararrayos. Conceptos generales. Normativa de aplicación, ejecución y mantenimiento."
+      },
+      {
+        "numero": 25,
+        "titulo": "Grupos electrógenos. Procesos de arranques y paradas de un grupo electrógeno. Protección del grupo. Alarmas. Medidas eléctricas. Mantenimiento de grupos electrógenos."
+      },
+      {
+        "numero": 26,
+        "titulo": "Física eléctrica aplicada: Ley de ohm, resistencia de un conductor. Acoplamiento de resistencias, condensadores, baterías. Caída de tensión de conductores, energía eléctrica. Escalas de temperatura, corrección del factor de potencia."
+      },
+      {
+        "numero": 27,
+        "titulo": "Mantenimiento eléctrico: tipos de mantenimiento. Verificaciones e inspecciones iniciales previas a la puesta en servicio de una instalación. Mantenimiento preventivo. Mantenimiento correctivo. Averías tipo."
+      },
+      {
+        "numero": 28,
+        "titulo": "Instalaciones de telefonía interior e intercomunicación. Instalaciones de megafonía. Instalaciones de antenas. Conceptos, ejecución y mantenimiento."
+      },
+      {
+        "numero": 29,
+        "titulo": "Protección medioambiental. Nociones básicas sobre contaminación ambiental. Principales riesgos medioambientales ligados a las funciones de la categoría."
+      },
+      {
+        "numero": 30,
+        "titulo": "Prevención de Riesgos Laborales. Riesgos Laborales específicos en las funciones de electricista, medidas de protección individuales y colectivas a las funciones de la categoría."
+      }
+    ]
+  }
+]

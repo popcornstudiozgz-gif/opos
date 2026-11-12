@@ -1,0 +1,88 @@
+[
+  {
+    "bloque": "Materia común",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "La Constitución Española de 1978: Principios fundamentales. Derechos y deberes fundamentales de los ciudadanos. La protección a la salud en la Constitución. La Corona. Las Cortes Generales. El Gobierno de la Nación. El Poder Judicial."
+      },
+      {
+        "numero": 2,
+        "titulo": "El Estatuto de Autonomía en Aragón. Principios informadores. Estructura y contenido. La organización institucional de la Comunidad Autónoma. Las Cortes y el Justicia de Aragón. Las competencias de la Comunidad de Aragón con especial referencia a las relativas a sanidad."
+      },
+      {
+        "numero": 3,
+        "titulo": "Población, geografía y territorio en Aragón. Desequilibrios demográficos en Aragón. Magnitudes más relevantes de la economía aragonesa. Evolución reciente de la actividad económica en Aragón."
+      },
+      {
+        "numero": 4,
+        "titulo": "La igualdad de oportunidades entre mujeres y hombres en Aragón: Disposiciones generales. Prevención y Protección Integral a las Mujeres Víctimas de Violencia en Aragón: Disposiciones Generales. La identidad y expresión de género e igualdad social y no discriminación en la Comunidad Autónoma de Aragón: Disposiciones Generales. La diversidad cultural y lucha contra la discriminación: Principios y objetivos del Plan Integral para la Gestión de la Diversidad Cultural vigente en Aragón."
+      },
+      {
+        "numero": 5,
+        "titulo": "La Ley General de Sanidad: El Sistema Nacional de Salud y los Servicios de Salud de las Comunidades Autónomas. El Área de Salud. La Ley de Salud de Aragón: Principios rectores. Derechos y deberes de los ciudadanos. Derechos de información sobre la salud y autonomía del paciente."
+      },
+      {
+        "numero": 6,
+        "titulo": "El Departamento de Sanidad del Gobierno de Aragón. Estructura básica y competencias. El Servicio Aragonés de Salud: Estructura y competencias. El Texto Refundido de la Ley del Servicio Aragonés de Salud. Estructura y funcionamiento de las áreas y sectores del Sistema de Salud de Aragón."
+      },
+      {
+        "numero": 7,
+        "titulo": "Personal Estatutario de los Servicios de Salud: Clasificación del Personal Estatutario. Derechos y Deberes. Adquisición y pérdida de la condición de personal estatutario. Provisión de plazas, selección y promoción interna. Movilidad del personal. Situaciones. Régimen disciplinario. Estatuto Básico del Empleado Público: Deberes del empleado público y código de conducta. Representación, participación y negociación colectiva. Incompatibilidades del personal al servicio de las Administraciones Públicas. Principios generales. Ámbito de aplicación"
+      },
+      {
+        "numero": 8,
+        "titulo": "El Procedimiento Administrativo Común de las Administraciones Públicas: Disposiciones Generales. Computo de plazos. Objeto y plazos de los recursos administrativos. El Régimen Jurídico del Sector Público: Disposiciones Generales."
+      },
+      {
+        "numero": 9,
+        "titulo": "Ley de Prevención de Riesgos Laborales: Conceptos básicos. Derechos y obligaciones en materia de seguridad en el trabajo. Organización de la prevención de riesgos laborales en la Comunidad Autónoma de Aragón. Distribución de funciones y responsabilidades en materia de prevención de riesgos laborales entre los diferentes órganos del Servicio Aragonés de Salud."
+      }
+    ]
+  },
+  {
+    "bloque": "Materia específica",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "Áreas organizativas del servicio de lavandería y planchado. Áreas organizativas. La barrera sanitaria. Zona de lavado: almacenamiento, clasificación, pesado y carga. Zona limpia: clasificación, secado, planchado, repaso (costura), empaquetado y distribución."
+      },
+      {
+        "numero": 2,
+        "titulo": "Medios y recursos materiales del servicio de lavandería y planchado. Zona de clasificación: contenedores, mesas de clasificación, cintas y básculas. Sistemas de lavado de ropa: lavadoras y túneles de lavado. Sistemas de secado/planchado de ropa: secadoras, calandras, plegadoras, centrales de planchado, maniquí y túneles de secado, doblado y apilado."
+      },
+      {
+        "numero": 3,
+        "titulo": "Factores de rendimiento, electricidad estática, purgadores, dificultades que pueden surgir en las calandras, plegadoras y túneles de secado."
+      },
+      {
+        "numero": 4,
+        "titulo": "La ropa hospitalaria. Tipos y características: ropa de línea y ropa de forma hospitalaria. Fibras: origen animal y origen vegetal. La ropa limpia: manipulación, transporte y almacenamiento. La ropa sucia: manipulación, recogida, transporte y almacenamiento."
+      },
+      {
+        "numero": 5,
+        "titulo": "Actuación de las fibras textiles frente al planchado. Cuidados en la operación y riesgos en las piezas al planchado."
+      },
+      {
+        "numero": 6,
+        "titulo": "Factores que intervienen en un buen planchado. Presión, vapor al vacío. Tiempos para la vaporización y el vacío."
+      },
+      {
+        "numero": 7,
+        "titulo": "Almacenamiento después del planchado."
+      },
+      {
+        "numero": 8,
+        "titulo": "Prevención de riesgos laborales en el servicio de lavandería y planchado. Evaluación de riesgos y puntos críticos. Prevención en las máquinas lavacentrifugadoras, túneles, manipulación de ropa en lavadoras, plegadoras, túnel de ropa de forma, cargas, etc."
+      },
+      {
+        "numero": 9,
+        "titulo": "Plan de emergencia ante un posible incendio. Medidas preventivas. Conceptos básicos. Medios técnicos de protección. Equipos de Primera Intervención (E.P.I.). Tipos y manejo de extintores."
+      },
+      {
+        "numero": 10,
+        "titulo": "Protección ambiental. Impactos ambientales asociados a los trabajos de plancha. Nociones básicas sobre contaminación ambiental."
+      }
+    ]
+  }
+]

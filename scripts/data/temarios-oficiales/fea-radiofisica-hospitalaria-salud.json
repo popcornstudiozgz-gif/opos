@@ -1,0 +1,332 @@
+[
+  {
+    "bloque": "Materia común",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "Constitución Española de 1978: la protección de la salud en la Constitución. Estatuto de Autonomía de Aragón. Competencias en salud recogidas en el Estatuto de Autonomía. Las Cortes de Aragón. El Gobierno de Aragón."
+      },
+      {
+        "numero": 2,
+        "titulo": "El Texto refundido de la Ley del Estatuto Básico del Empleado Público, aprobado por el Real Decreto Legislativo 5/2015: deberes del empleado público y código de conducta. Representación, participación y negociación colectiva."
+      },
+      {
+        "numero": 3,
+        "titulo": "El régimen jurídico de la protección de datos de carácter personal: Disposiciones generales. Derechos de las personas."
+      },
+      {
+        "numero": 4,
+        "titulo": "El Procedimiento Administrativo Común de las Administraciones Públicas: Disposiciones generales. Cómputo de plazos. Objeto y plazos de los recursos administrativos. El Régimen Jurídico del Sector Público: Disposiciones generales."
+      },
+      {
+        "numero": 5,
+        "titulo": "Ley 14/1986 General de Sanidad. Ley 6/2002 de Salud de Aragón. Principios generales, estructura, contenidos. Ley 16/2003 de cohesión y calidad del Sistema Nacional de Salud. Principios generales, estructura, contenidos."
+      },
+      {
+        "numero": 6,
+        "titulo": "Ley 44/2003 de Ordenación de las Profesiones Sanitarias. Ámbito de aplicación, contenidos. Ley 41/2002, de 14 de noviembre, básica reguladora de la autonomía del paciente y de derechos y obligaciones en materia de información y documentación clínica. Ley 9/2013, de 28 de noviembre, de Autoridad de Profesionales del Sistema Sanitario y de Servicios Sociales Públicos de Aragón."
+      },
+      {
+        "numero": 7,
+        "titulo": "Ley 55/2003, de 16 de diciembre, del Estatuto Marco de personal estatutario de los servicios de salud (I). Principios generales, estructura, contenidos. Clasificación del personal estatutario. Derechos y deberes. Adquisición y pérdida de la condición de personal estatutario. Provisión de plazas, selección y promoción interna. Movilidad del personal."
+      },
+      {
+        "numero": 8,
+        "titulo": "Ley 55/2003, de 16 de diciembre, del Estatuto Marco de personal estatutario de los servicios de salud (II). Retribuciones. Jornada de trabajo, permisos y licencias. Situaciones del personal estatutario. Régimen disciplinario. Modelo de Carrera Profesional en Aragón. Ley 53/1984, de 26 de diciembre, de incompatibilidades. Principios generales. Ámbito de aplicación."
+      },
+      {
+        "numero": 9,
+        "titulo": "La igualdad de oportunidades entre mujeres y hombres en Aragón: Disposiciones generales. Prevención y Protección Integral a las Mujeres Víctimas de Violencia en Aragón: Disposiciones Generales. La identidad y expresión de género e igualdad social y no discriminación en la Comunidad Autónoma de Aragón: Disposiciones generales. La diversidad cultural y lucha contra la discriminación: Principios y objetivos del Plan Integral para la Gestión de la Diversidad vigente en Aragón."
+      },
+      {
+        "numero": 10,
+        "titulo": "El sistema sanitario. Niveles asistenciales. Organización de los servicios sanitarios en Aragón. Estructura del Departamento de Sanidad de Aragón y del Servicio Aragonés de la Salud. Los Sectores sanitarios."
+      },
+      {
+        "numero": 11,
+        "titulo": "Metodología de la Investigación: El método científico. Diseño de un proyecto de investigación. Estadística aplicada a los estudios de Medicina."
+      },
+      {
+        "numero": 12,
+        "titulo": "El método epidemiológico. Epidemiología descriptiva: tipos de estudios, tasas e indicadores. Epidemiología analítica: tipos de estudios. Riesgo relativo, riesgo atribuible y Odds Ratio. Sesgos."
+      },
+      {
+        "numero": 13,
+        "titulo": "Estudios experimentales. Ensayos clínicos. Ética de la investigación clínica. Validez de métodos diagnósticos: sensibilidad, especificidad, valor predictivo positivo."
+      },
+      {
+        "numero": 14,
+        "titulo": "Evaluación de Tecnologías Sanitarias: Procedimientos de evaluación. Cartera de Servicios del Sistema Nacional de Salud. Procedimiento de actualización de la Cartera de Servicios del sistema de Salud de Aragón."
+      },
+      {
+        "numero": 15,
+        "titulo": "Práctica basada en la evidencia. Variabilidad en la práctica médica. Búsqueda y valoración de evidencias. Aplicación de las evidencias a la toma de decisiones clínicas. Guías clínicas. Proyecto Guía-Salud."
+      },
+      {
+        "numero": 16,
+        "titulo": "La seguridad del paciente. Gestión de riesgos. Principales problemas para la seguridad del paciente en el hospital. Estrategias para la mejora de la seguridad."
+      },
+      {
+        "numero": 17,
+        "titulo": "Uso racional del medicamento. Criterios de selección de medicamentos. Equivalentes terapéuticos. Indicadores de calidad de prescripción."
+      },
+      {
+        "numero": 18,
+        "titulo": "Evaluación y mejora de la calidad. Modelos de gestión de la calidad. Diseño de un programa de calidad."
+      },
+      {
+        "numero": 19,
+        "titulo": "Principios fundamentales de la bioética: aplicación a la asistencia sanitaria. La relación médico-paciente, el consentimiento informado. Los comités de Bioética. La ética en la investigación clínica."
+      },
+      {
+        "numero": 20,
+        "titulo": "Gobierno clínico. La implicación de los profesionales en el funcionamiento de las instituciones sanitarias."
+      }
+    ]
+  },
+  {
+    "bloque": "Materia específica",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "Aspectos físicos de las radiaciones en medicina. Ampliación de Física de radiaciones. Estructura de la materia. Radiaciones ionizantes y no ionizantes. Radiactividad. Interacción de la radiación con la materia."
+      },
+      {
+        "numero": 2,
+        "titulo": "Metrología y Dosimetría de las radiaciones. Técnicas e instrumentación. Fundamentos de Metrología. Teoría de la medida. Incertidumbres y tolerancias. Sistemas de medida. Técnicas e instrumentación."
+      },
+      {
+        "numero": 3,
+        "titulo": "Concepto de dosis y kerma. Teoría de la cavidad de Bragg-Gray. Magnitudes dosimétricas y sus relaciones."
+      },
+      {
+        "numero": 4,
+        "titulo": "Bases físicas de los diferentes sistemas de medida de la radiación: calorimetría, dosimetría química, detectores de gas, cámaras de ionización, detectores de centelleo, dosímetros de termoluminiscencia, semiconductores, dosimetría fotográfica, dosímetros portales, dosimetría por geles. Sistemas de dosimetría utilizados en la práctica hospitalaria."
+      },
+      {
+        "numero": 5,
+        "titulo": "Fundamentos de Anatomía y Fisiología humanas y Oncología. Bases de Anatomía. Bases de Fisiología. Órganos y sistemas. Identificación de estructuras anatómicas en la imagen clínica."
+      },
+      {
+        "numero": 6,
+        "titulo": "Bases de Oncología: epidemiología, etiología. Biología del proceso tumoral. Clasificación de tumores. Modalidades de tratamiento del cáncer."
+      },
+      {
+        "numero": 7,
+        "titulo": "Radiobiología. Introducción a la Biología molecular y celular. Repuesta de los tejidos a la radiación a nivel molecular y celular. Efectos deterministas y estocásticos. Daño celular y curvas de supervivencia celular. Respuesta macroscópica del tejido a la radiación. Respuesta de tumores y tejido normal a la radiación a niveles terapéuticos. Dependencia con el fraccionamiento, la tasa y el volumen."
+      },
+      {
+        "numero": 8,
+        "titulo": "Radiobiología. Modelos radiobiológicos. Dosis de tolerancia en Órganos de Riesgo. Efectos dosis-volumen. Modelos TCP (Tumor Control Probability) y NTCP (Normal Tissue Complication Probability): aplicaciones en la práctica clínica. Bases biológicas del riesgo radiológico. Carcinogénesis, riesgos genéticos y somáticos para los individuos expuestos y para la población. Efectos de la radiación en el embrión y el feto."
+      },
+      {
+        "numero": 9,
+        "titulo": "Fundamentos de la imagen médica. Física de la formación de imágenes. Principios básicos de las diferentes modalidades de imagen clínica. Tratamiento de imágenes: filtros, algoritmos de reconstrucción. Evaluación de la calidad de imagen: función de transferencia, ruido, resolución y contraste. Eficiencia de los detectores de imagen."
+      },
+      {
+        "numero": 10,
+        "titulo": "Gestión de la imagen médica. Sistemas de transmisión de imágenes. Protocolos DICOM (Digital Imaging and Communications in Medicine). Procesado de imágenes médicas. Fusión de imágenes. Sustracción de imágenes. Sistemas de almacenamiento y gestión de imágenes médicas."
+      },
+      {
+        "numero": 11,
+        "titulo": "Estadística. Estadística descriptiva. Distribuciones de probabilidad. Parámetros fundamentales. Teoría del muestreo. Estimación estadística. Teoría estadística de las decisiones. Aplicación al cálculo de incertidumbres. Teoría de la correlación. Diseño de estudios clínicos."
+      },
+      {
+        "numero": 12,
+        "titulo": "Fundamentos sobre garantía y control de calidad. Definición de calidad, garantía de calidad, control de calidad, estándares de calidad. Gestión de la Calidad. Normas nacionales e internacionales de calidad. Programas de garantía de calidad y control de calidad."
+      },
+      {
+        "numero": 13,
+        "titulo": "Protección Radiológica (Bases científicas). Magnitudes y unidades en Protección Radiológica. Detección de la radiación en Protección Radiológica. Justificación y optimización: principio ALARA (As Low As Reasonably Available). Principios básicos de la limitación de dosis."
+      },
+      {
+        "numero": 14,
+        "titulo": "Protección Radiológica (equipos). Equipos de medida de la radiación y contaminación radiactiva: tipos y características. Control de calidad del equipamiento de medida de la radiación ambiental y de contaminación. Calibraciones y verificaciones."
+      },
+      {
+        "numero": 15,
+        "titulo": "Protección Radiológica (Legislación y Normativa). Regulaciones, recomendaciones y normas. Administración y organización de la Protección Radiológica. Organismos, normas y recomendaciones nacionales e internacionales. Legislación nacional e internacional."
+      },
+      {
+        "numero": 16,
+        "titulo": "Protección Radiológica Operacional y de instalaciones. Diseño de instalaciones con radiaciones. Cálculo de blindajes. Gestión de la seguridad radiológica."
+      },
+      {
+        "numero": 17,
+        "titulo": "Estimación del riesgo radiológico. Evaluación del riesgo radiológico en función de la actividad. Vigilancia de la radiación: clasificación de áreas y de personal. Procedimientos operativos de cada una de las áreas de trabajo según el tipo de fuentes y equipos empleados. Medida y control de dosis personales. Sistemas de dosimetría personal. Historiales dosimétricos."
+      },
+      {
+        "numero": 18,
+        "titulo": "Gestión de materiales radiactivos. Manipulación del material radiactivo. Transporte. Control de la petición y recepción del material radiactivo. Estudio y valoración de contaminaciones. Gestión de residuos. Procedimientos operativos de cada una de las áreas de trabajo según el tipo de radiación empleada. Planes de emergencia. Simulacros de emergencia."
+      },
+      {
+        "numero": 19,
+        "titulo": "Radioterapia Externa. Equipos de tratamiento e imagen. Unidades de Rayos X de kilovoltaje. Unidades de Cobalto. Aceleradores lineales de electrones."
+      },
+      {
+        "numero": 20,
+        "titulo": "Radioterapia Externa. Sistemas de imagen en unidades de tratamiento. Simuladores: convencionales, TC, virtuales. Sistemas de imagen para localización."
+      },
+      {
+        "numero": 21,
+        "titulo": "Radioterapia Externa (Dosimetría física). Caracterización y estudio de haces de radiación. Definición de condiciones de referencia y terminología. Determinación de la dosis en haces de fotones y electrones según los diferentes protocolos existentes. Especificación de la dosis de referencia en la práctica clínica."
+      },
+      {
+        "numero": 22,
+        "titulo": "Radioterapia Externa (Dosimetría física relativa): a) variación de la dosis a lo largo del eje del haz: rendimiento en profundidad, b) variación de la dosis perpendicularmente al eje del haz: perfiles, penumbra, planitud, simetría, c) factores de campo: contribución de la radiación dispersa del cabezal y del maniquí, d) parámetros de caracterización de haces de fotones y electrones, e) distribuciones de dosis 3D, f) efecto de los modificadores del haz (cuñas físicas y virtuales, compensadores... ), g) métodos de adquisición y transferencia de datos para los sistemas de planificación y requerimientos de cada sistema."
+      },
+      {
+        "numero": 23,
+        "titulo": "Radioterapia Externa. Adquisición de datos del paciente. Técnicas de simulación. Posicionamiento del paciente. Sistemas de inmovilización. Adquisición de imágenes (sistemas radiográficos, TC, RM, PET). Contornos. Sistemas de adquisición. Control de calidad del proceso de obtención de imágenes. Localización de volúmenes y órganos de riesgo. Fusión de imágenes para localización tumoral."
+      },
+      {
+        "numero": 24,
+        "titulo": "Radioterapia Externa (Dosimetría Clínica). Sistemas de planificación y cálculo de dosis. Dosimetría clínica. Especificación de dosis y volúmenes. Recomendaciones internacionales (ICRU50, ICRU62…). Parámetros y funciones que intervienen en el cálculo de la dosis. Principios de la planificación manual y con ordenador. Cálculo de Unidades Monitor. Algoritmos de cálculo (1D, 2D, 3D). Herramientas en la planificación 3D: BEV, DRR, HDV."
+      },
+      {
+        "numero": 25,
+        "titulo": "Radioterapia Externa. Optimización y evaluación de la planificación del tratamiento. Verificación de cálculos dosimétricos. Transmisión de imágenes y datos. Registro y archivo (recomendaciones internacionales)."
+      },
+      {
+        "numero": 26,
+        "titulo": "Radioterapia Externa (Técnicas de tratamiento). Técnicas convencionales: a) campos regulares e irregulares, b) modificadores del haz: cuñas, bolus y compensadores, c) colimación del haz: bloques, multiláminas, d) efectos de la oblicuidad, contigüidad y superposición de campos, e) efectos de la heterogeneidad, f) conceptos de normalización y ponderación de los haces, g) campos fijos y Arcoterapia."
+      },
+      {
+        "numero": 27,
+        "titulo": "Radioterapia Externa (Técnicas avanzadas): a) 3D conformada, b) haces no coplanares, c) radioterapia de intensidad modulada (IMRT). Técnicas especiales: a) campos extensos: irradiaciones totales corporales con fotones y electrones, b) haces estrechos: radiocirugía y radioterapia estereotáxica fraccionada, c) radioterapia intraoperatoria, d) tratamientos con haces de partículas pesadas."
+      },
+      {
+        "numero": 28,
+        "titulo": "Radioterapia Externa (Verificación). Verificación inicial del posicionamiento del paciente y de la planificación del tratamiento en el simulador o en la unidad de tratamiento. Comprobación con imágenes portales. Precisión geométrica, reproducibilidad y métodos de verificación. Dosimetría in vivo. Sistemas de registro y verificación."
+      },
+      {
+        "numero": 29,
+        "titulo": "Radioterapia Externa (Garantía y Control de Calidad I). Selección de equipos: a) definición de especificaciones técnicas, b) comprobación de características, c) pruebas de aceptación, de referencia y de constancia del equipamiento. Control de calidad: a) instrumentación y equipos de medida, b) unidades de tratamiento, c) sistemas de planificación, d) simuladores, e) dosimetría clínica."
+      },
+      {
+        "numero": 30,
+        "titulo": "Radioterapia Externa (Garantía y Control de Calidad II). Revisiones periódicas de cálculos y parámetros de tratamiento. Revisiones de las fichas individuales de tratamiento. Diseño y realización de programas de garantía de calidad en los aspectos asociados al equipamiento y la dosimetría. Normas y recomendaciones de calidad nacionales e internacionales en radioterapia externa."
+      },
+      {
+        "numero": 31,
+        "titulo": "Braquiterapia (Equipos). Tipos de radionúclidos. Fuentes radiactivas encapsuladas: características, selección y diseño de fuentes. Aplicadores. Sistemas de carga diferida (LDR, HDR, PDR). Equipos de calibración de fuentes. Sistemas de imagen para braquiterapia."
+      },
+      {
+        "numero": 32,
+        "titulo": "Braquiterapia (Especificaciones de fuentes). Especificación de fuentes: a) caracterización de la emisión de las fuentes: actividad, tasa de kerma en aire de referencia, b) definición del rendimiento de las fuentes (protocolos nacionales e internacionales), c) métodos de dosimetría."
+      },
+      {
+        "numero": 33,
+        "titulo": "Braquiterapia (Técnicas de tratamiento) Selección de fuentes. Preparación de fuentes. Procedimientos de trabajo. Aplicaciones de carga directa. Aplicaciones de carga diferida (manual y automática). Implantes permanentes y temporales. Aplicaciones estándar: implantes de baja tasa de dosis. Sistemas de implantación y de cálculo de dosis clásicos: sistema de París, de Manchester. Extensión a otros tipos de implantes: HDR, PDR."
+      },
+      {
+        "numero": 34,
+        "titulo": "Braquiterapia (Planificación de tratamientos y cálculo de dosis). Formalismos generales. Estructura general de los sistemas de planificación de braquiterapia y datos necesarios para la configuración de los sistemas de planificación. Sistemas de toma de datos y localización de fuentes. Algoritmos de reconstrucción. Algoritmos de cálculo. Optimización y evaluación de la planificación. Especificación de dosis y volúmenes de acuerdo con protocolos internacionales."
+      },
+      {
+        "numero": 35,
+        "titulo": "Braquiterapia (Técnicas especiales): braquiterapia intracoronaria, braquiterapia intraoperatoria, implantes permanentes de semillas, implantes oftálmicos, implantes estereotáxicos."
+      },
+      {
+        "numero": 36,
+        "titulo": "Braquiterapia (Garantía y Control de Calidad). Definición de especificaciones técnicas de compra, comprobación de características, pruebas de aceptación, de referencia y de constancia. Control de calidad: instrumentos y equipos de medida, fuentes y aplicadores, unidades de tratamiento, sistemas de planificación y cálculo, accesorios utilizados para la reconstrucción espacial del implante, sistemas de imagen, dosimetría clínica. Diseño y realización de programas de garantía de calidad en los aspectos asociados al equipamiento y la dosimetría."
+      },
+      {
+        "numero": 37,
+        "titulo": "Braquiterapia (Normativa y Legislación). Normas y recomendaciones de calidad nacionales e internacionales en braquiterapia. Legislación en Braquiterapia."
+      },
+      {
+        "numero": 38,
+        "titulo": "Radiodiagnóstico (Fundamentos). Producción de rayos X, espectro energético y parámetros que lo modifican. Formación de la imagen de rayos X, contraste, artefactos. Colimación, radiación dispersa, rejillas. Geometría de la imagen radiográfica. Amplificación, distorsión."
+      },
+      {
+        "numero": 39,
+        "titulo": "Radiodiagnóstico (Componentes principales). Tubos y generadores de rayos X. Propiedades."
+      },
+      {
+        "numero": 40,
+        "titulo": "Radiodiagnóstico (Cadena de imagen): a) placa radiográfica, características de la película radiográfica, pantallas de refuerzo, procesadoras, negatoscopios, b) intensificadores de imagen, c) sistemas receptores de imagen digital: CR, detectores de panel plano, etc."
+      },
+      {
+        "numero": 41,
+        "titulo": "Radiodiagnóstico (Clases y características de los equipos de radiodiagnóstico). Radiográficos, tomógrafos convencionales, mamógrafos, equipos dentales, telemandos, arcos quirúrgicos, equipos vasculares y de hemodinámica, tomógrafos computadorizados (TC). Equipos especiales: densitómetría ósea, mesas de punción mamografía, litotricia."
+      },
+      {
+        "numero": 42,
+        "titulo": "Radiodiagnóstico (Principales procedimientos). Estudios simples: proyecciones más frecuentes. Estudios complejos: urografías, estudios digestivos. Estudios de mamografía. Radiografía dental. Procedimientos intervencionistas: vasculares y de hemodinámica. Estudios de TC espiral y TC multicorte."
+      },
+      {
+        "numero": 43,
+        "titulo": "Radiodiagnóstico (Dosimetría física I). Dosimetría del haz de radiación en radiodiagnóstico: rendimiento, sistemas de medida: cámaras de ionización, detectores de semiconductor,dosímetros de termoluminiscencia, películas radiográficas."
+      },
+      {
+        "numero": 44,
+        "titulo": "Radiodiagnóstico (Dosimetría física II). Caracterización del haz: filtración total, calidad del haz, equipos para la medida de la tensión, la corriente y el tiempo, analizadores compactos."
+      },
+      {
+        "numero": 45,
+        "titulo": "Radiodiagnóstico (Garantía y Control de Calidad I). Selección de equipos. Definición de especificaciones técnicas de compra. Comparación de características. Pruebas de aceptación, de establecimiento del estado de referencia inicial y de constancia del equipamiento. Parámetros geométricos, dosimétricos y de calidad de imagen."
+      },
+      {
+        "numero": 46,
+        "titulo": "Radiodiagnóstico (Garantía y Control de Calidad II). Diseño y realización de programas de garantía de calidad en radiodiagnóstico. Legislación, normas y recomendaciones de calidad nacionales e internacionales. Control de calidad de la instrumentación de medida: calibración e intercomparación."
+      },
+      {
+        "numero": 47,
+        "titulo": "Radiodiagnóstico (Dosimetría de pacientes). Indicadores de dosis. Dosis en la superficie de entrada, producto dosis-área, producto dosis-longitud. Niveles de referencia. Estimación de dosis en órganos de pacientes: métodos y programas de cálculo. Dosimetría en procedimientos de alta dosis: dosis de interés. Aplicación del criterio ALARA."
+      },
+      {
+        "numero": 48,
+        "titulo": "Medicina Nuclear (Fundamentos y principios físicos). Radisótopos empleados y características de los radionucleidos. Obtención de los radionucleidos. Radiofármacos. Captación de los radiofármacos por el organismo: períodos físico, biológico y efectivo. Estudios morfológicos y funcionales. Exploraciones gammagráficas más frecuentes y radiofármacos usados."
+      },
+      {
+        "numero": 49,
+        "titulo": "Medicina Nuclear (Principios físicos). Principios físicos de la tomografía computadorizada por emisión de fotón único (SPECT). Principios físicos de la tomografía por emisión de positrones (PET). Corrección por atenuación. Algoritmos de fusión. Estadística. Errores de contaje."
+      },
+      {
+        "numero": 50,
+        "titulo": "Medicina Nuclear (Equipamiento). Activímetros. Gammacámaras: planares, sistemas SPECT y PET. Contadores gamma. Contadores beta. Sondas intraoperatorias. Programas de análisis de imagen y funciones. Work Stations."
+      },
+      {
+        "numero": 51,
+        "titulo": "Medicina Nuclear (Garantía y Control de Calidad I). Selección de equipos: definición de especificaciones técnicas de compra y comparación de características. Pruebas de aceptación, de establecimiento del estado de referencia inicial y de constancia de los equipos y del instrumental de medida."
+      },
+      {
+        "numero": 52,
+        "titulo": "Medicina Nuclear (Garantía y Control de Calidad II). Diseño y realización de programas de garantía de calidad en medicina nuclear. Legislación, normas y recomendaciones de calidad nacionales e internacionales. Control de calidad de la instrumentación de medida. Control de calidad del equipamiento y de la imagen, control de calidad periódico."
+      },
+      {
+        "numero": 53,
+        "titulo": "Medicina Nuclear (Tratamientos con fuentes no encapsuladas I). Procedimientos de terapia. Elección del radionúclido y el radiofármaco. Propiedades físicas, cinéticas y distribución."
+      },
+      {
+        "numero": 54,
+        "titulo": "Medicina Nuclear (Tratamientos con fuentes no encapsuladas II). Consideraciones radiobiológicas. Técnicas dosimétricas. Procedimientos generales en el manejo de esta clase de fuentes. Manejo del paciente y su entorno. Diseño de este tipo de instalaciones."
+      },
+      {
+        "numero": 55,
+        "titulo": "Medicina Nuclear (Dosimetría de pacientes). Dosimetría interna: métodos de cálculo, modelos estándar de distribución de radiofármacos. Modelo MIRD. Dosimetría clínica y dosis típicas en los procedimientos estándar de diagnóstico. Actividades de referencia."
+      },
+      {
+        "numero": 56,
+        "titulo": "Ultrasonidos (Fundamentos y principios físicos). Naturaleza de los ultrasonidos. Propagación. Impedancia acústica. Transductores."
+      },
+      {
+        "numero": 57,
+        "titulo": "Ultrasonidos. Aplicaciones clínicas en diagnóstico y en terapia. Formación y tratamiento de imágenes. Descripción general de los equipos, componentes. Garantía y control de calidad. Efectos biológicos y seguridad."
+      },
+      {
+        "numero": 58,
+        "titulo": "Resonancia Magnética (Fundamentos y principios físicos). Campo magnético: imanes y bobinas. Propiedades magnéticas de la materia. Conducta de un núcleo bajo un campo magnético. Excitación y relajación."
+      },
+      {
+        "numero": 59,
+        "titulo": "Resonancia Magnética. Obtención de imágenes, artefactos. Aplicaciones clínicas. Espectroscopia. Componentes de un equipo de resonancia magnética. Garantía y control de calidad. Efectos biológicos y seguridad."
+      },
+      {
+        "numero": 60,
+        "titulo": "Otros usos de las radiaciones en el ámbito hospitalario. Fuentes utilizadas. Equipamiento asociado con su producción, uso, medida y evaluación. Programas de Garantía y Control de Calidad. Aplicaciones terapéuticas, riesgos y seguridad."
+      }
+    ]
+  }
+]

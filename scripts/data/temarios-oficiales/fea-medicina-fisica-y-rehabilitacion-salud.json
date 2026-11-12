@@ -1,0 +1,332 @@
+[
+  {
+    "bloque": "Materia común",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "Constitución Española de 1978: la protección de la salud en la Constitución. Estatuto de Autonomía de Aragón. Competencias en salud recogidas en el Estatuto de Autonomía. Las Cortes de Aragón. El Gobierno de Aragón."
+      },
+      {
+        "numero": 2,
+        "titulo": "El texto refundido de la Ley del Estatuto Básico del Empleado Público, aprobado por el Real Decreto Legislativo 5/2015: deberes del empleado público y código de conducta. Representación, participación y negociación colectiva."
+      },
+      {
+        "numero": 3,
+        "titulo": "El régimen jurídico de la protección de datos de carácter personal: Disposiciones generales. Derechos de las personas."
+      },
+      {
+        "numero": 4,
+        "titulo": "El Procedimiento Administrativo Común de las Administraciones Públicas: Disposiciones Generales. Cómputo de plazos. Objeto y plazos de los recursos administrativos. El Régimen Jurídico del Sector Público: Disposiciones Generales."
+      },
+      {
+        "numero": 5,
+        "titulo": "Ley 14/86 General de Sanidad. Ley 6/2002 de Salud de Aragón. Principios generales, estructura, contenidos. Ley 16/2003 de cohesión y calidad del Sistema Nacional de Salud. Principios generales, estructura, contenidos."
+      },
+      {
+        "numero": 6,
+        "titulo": "Ley 44/2003 de Ordenación de las Profesiones Sanitarias. Ámbito de aplicación, contenidos. Ley 41/2002, de 14 de noviembre, básica reguladora de la autonomía del paciente y de derechos y obligaciones en materia de información y documentación clínica. Ley 9/2013, de 28 de noviembre, de Autoridad de Profesionales del Sistema Sanitario y de Servicios Sociales Públicos de Aragón."
+      },
+      {
+        "numero": 7,
+        "titulo": "Ley 55/2003 del Estatuto Marco de personal Estatutario de los Servicios de Salud (I). Principios generales, estructura, contenidos. Clasificación del personal estatutario. Derechos y deberes. Adquisición y pérdida de la condición de personal estatutario. Provisión de plazas, selección y promoción interna. Movilidad del personal."
+      },
+      {
+        "numero": 8,
+        "titulo": "Ley 55/2003 del Estatuto Marco de personal Estatutario de los Servicios de Salud (II). Retribuciones. Jornada de trabajo, permisos y licencias. Situaciones del personal estatutario. Régimen disciplinario. Modelo de Carrera Profesional en Aragón. Ley 53/1984 de 26 de diciembre, de incompatibilidades. Principios Generales. Ámbito de aplicación."
+      },
+      {
+        "numero": 9,
+        "titulo": "La igualdad de oportunidades entre mujeres y hombres en Aragón: Disposiciones generales. Prevención y Protección Integral a las Mujeres Víctimas de Violencia en Aragón: Disposiciones Generales. La identidad y expresión de género e igualdad social y no discriminación en la Comunidad Autónoma de Aragón: Disposiciones Generales. La diversidad cultural y lucha contra la discriminación: Principios y objetivos del vigente Plan Integral para la Gestión de la Diversidad de Aragón."
+      },
+      {
+        "numero": 10,
+        "titulo": "El sistema sanitario. Niveles asistenciales. Organización de los servicios sanitarios en Aragón. Estructura del Departamento de Sanidad de Aragón y del Servicio Aragonés de la Salud. Los Sectores sanitarios."
+      },
+      {
+        "numero": 11,
+        "titulo": "Metodología de la Investigación: El método científico. Diseño de un proyecto de investigación. Estadística aplicada a los estudios de Medicina."
+      },
+      {
+        "numero": 12,
+        "titulo": "El método epidemiológico. Epidemiología descriptiva: tipos de estudios, tasas e indicadores. Epidemiología analítica: tipos de estudios. Riesgo relativo, riesgo atribuible y Odds Ratio. Sesgos."
+      },
+      {
+        "numero": 13,
+        "titulo": "Estudios experimentales. Ensayos clínicos. Ética de la investigación clínica. Validez de métodos diagnósticos: sensibilidad, especificidad, valor predictivo positivo."
+      },
+      {
+        "numero": 14,
+        "titulo": "Evaluación de Tecnologías Sanitarias: Procedimientos de evaluación. Cartera de Servicios del Sistema Nacional de Salud. Procedimiento de actualización de la Cartera de Servicios del sistema de Salud de Aragón."
+      },
+      {
+        "numero": 15,
+        "titulo": "Práctica basada en la evidencia. Variabilidad en la práctica médica. Búsqueda y valoración de evidencias. Aplicación de las evidencias a la toma de decisiones clínicas. Guías clínicas. Proyecto Guía-Salud."
+      },
+      {
+        "numero": 16,
+        "titulo": "La seguridad del paciente. Gestión de riesgos. Principales problemas para la seguridad del paciente en el hospital. Estrategias para la mejora de la seguridad."
+      },
+      {
+        "numero": 17,
+        "titulo": "Uso Racional del Medicamento. Criterios de selección de medicamentos. Equivalentes terapéuticos. Indicadores de calidad de prescripción."
+      },
+      {
+        "numero": 18,
+        "titulo": "Evaluación y mejora de la calidad. Modelos de Gestión de la Calidad. Diseño de un programa de calidad."
+      },
+      {
+        "numero": 19,
+        "titulo": "Principios fundamentales de la bioética: aplicación a la asistencia sanitaria. La relación médico-paciente, el consentimiento informado. Los comités de Bioética. La ética en la investigación clínica."
+      },
+      {
+        "numero": 20,
+        "titulo": "Gobierno clínico. La implicación de los profesionales en el funcionamiento de las instituciones sanitarias."
+      }
+    ]
+  },
+  {
+    "bloque": "Materia específica",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "Deficiencia, discapacidad y minusvalía, Conceptos y clasificaciones de la OMS. La Clasificación internacional de la función (CIF)."
+      },
+      {
+        "numero": 2,
+        "titulo": "Discapacidad, incapacidad laboral y dependencia. Valoración de daño corporal."
+      },
+      {
+        "numero": 3,
+        "titulo": "La rehabilitación en atención primaria. Rehabilitación en el plan de atención al paciente crónico dependiente en Aragón."
+      },
+      {
+        "numero": 4,
+        "titulo": "La valoración clínica y funcional en rehabilitación (I): Evaluación del balance articular. Evaluación del balance muscular. Valoración neurológica funcional y pruebas regionales específicas."
+      },
+      {
+        "numero": 5,
+        "titulo": "La valoración clínica y funcional en rehabilitación (II): evaluación instrumentada. Análisis de la marcha normal y patológica. Valoración de movilidad raquídea. Órtesis plantares instrumentadas. Estudio de presión en sedestación y decúbito."
+      },
+      {
+        "numero": 6,
+        "titulo": "La valoración clínica y funcional en rehabilitación (III): evaluación instrumentada. Dinamometría isocinética. Valoración instrumentada del equilibrio."
+      },
+      {
+        "numero": 7,
+        "titulo": "La valoración clínica y funcional en rehabilitación (IV): evaluación instrumentada. Estudio electromiográfico y de conducción nerviosa. Técnicas de imagen en rehabilitación."
+      },
+      {
+        "numero": 8,
+        "titulo": "Escalas de valoración en rehabilitación, según patologías. Valoración de calidad de vida en Rehabilitación. Escalas específicas y genéricas."
+      },
+      {
+        "numero": 9,
+        "titulo": "Técnicas terapéuticas en rehabilitación (I). Ejercicio terapéutico. Cinesiterapia. Masoterapia y terapia ortopédica manual. Definición, prescripción e indicación, tipos y objetivos."
+      },
+      {
+        "numero": 10,
+        "titulo": "Técnicas terapéuticas en rehabilitación (II). Medicina Física: Electroterapia. Tipos y efectos. Indicaciones y Contraindicaciones."
+      },
+      {
+        "numero": 11,
+        "titulo": "Técnicas terapéuticas en rehabilitación (III). Medicina Física: Hidroterapia. Tipos y efectos. Indicaciones y Contraindicaciones."
+      },
+      {
+        "numero": 12,
+        "titulo": "Técnicas terapéuticas en rehabilitación (IV). Medicina Física: Termoterapia profunda y superficial. Crioterapia. Laserterapia. Magnetoterapia. Indicaciones y Contraindicaciones."
+      },
+      {
+        "numero": 13,
+        "titulo": "Técnicas terapéuticas en rehabilitación (V). Medicina Física: efectos de la presión, vibración y tracción. Ondas mecánicas y ultrasonidos. Ondas de choque. Tipos y efectos. Indicaciones y Contraindicaciones."
+      },
+      {
+        "numero": 14,
+        "titulo": "Técnicas terapéuticas en rehabilitación (VI). Terapia Ocupacional y Ergoterapia. Realidad virtual aplicada a la rehabilitación."
+      },
+      {
+        "numero": 15,
+        "titulo": "Farmacología en patologías susceptibles de tratamiento rehabilitador. Analgésicos. Antiinflamatorios. Fármacos de acción en el Sistema Nervioso Central. Otros fármacos de utilidad en rehabilitación. Indicaciones."
+      },
+      {
+        "numero": 16,
+        "titulo": "Procedimientos invasivos en rehabilitación (I). Técnicas de infiltración articular, periarticular, muscular y del Sistema Nervioso -bloqueos-. Sistemas de guiado. Conceptos ecográficos de utilidad en el guiado."
+      },
+      {
+        "numero": 17,
+        "titulo": "Procedimientos invasivos en rehabilitación (II). Aplicación en patologías de aparato locomotor, sistema nervioso -espasticidady en el tratamiento del dolor."
+      },
+      {
+        "numero": 18,
+        "titulo": "Órtesis de tronco: tipos, características, aplicación y función según patologías."
+      },
+      {
+        "numero": 19,
+        "titulo": "Órtesis de miembro superior: tipos, características, aplicación y función según patologías."
+      },
+      {
+        "numero": 20,
+        "titulo": "Órtesis de miembro inferior: tipos, características, aplicación y función según patologías. Calzado ortopédico. Plantillas."
+      },
+      {
+        "numero": 21,
+        "titulo": "Prótesis de miembro superior: tipos, características, aplicación y función según patologías y niveles de amputación."
+      },
+      {
+        "numero": 22,
+        "titulo": "Prótesis de miembro inferior: tipos, características, aplicación y función según patologías y niveles de amputación."
+      },
+      {
+        "numero": 23,
+        "titulo": "Ayudas técnicas en rehabilitación del niño y del adulto. Concepto y tipos. Sillas de ruedas: tipos e indicaciones. Asientos adaptados. Tipos e indicaciones."
+      },
+      {
+        "numero": 24,
+        "titulo": "Valoración del Desarrollo psicomotor del niño normal y patológico. Parálisis cerebral: concepto. Características. Tipos. Evaluación y procedimientos terapéuticos. Metodologías. Atención a la familia. Coordinación con otros niveles asistenciales y de servicios sociales."
+      },
+      {
+        "numero": 25,
+        "titulo": "Daño cerebral adquirido (I) en infancia y en adulto: Accidentes cerebrovasculares (ACV). Traumatismo cráneo encefálico (TCE). Enfermedades infecciosas. Tumoraciones. Tipos y Características. Valoración integral y tratamiento rehabilitador."
+      },
+      {
+        "numero": 26,
+        "titulo": "Daño cerebral adquirido (II) en infancia y en adulto: Dolor de origen central, alteración de equilibrio, control postural, ataxia, trastornos perceptivos, cognitivos, conductuales y emocionales. Valoración y tratamiento rehabilitador."
+      },
+      {
+        "numero": 27,
+        "titulo": "Lesión medular y mielomeningocele. Conceptos, clasificación, valoración funcional y tratamiento rehabilitador. Complicaciones. Tratamiento rehabilitador de las complicaciones."
+      },
+      {
+        "numero": 28,
+        "titulo": "Vejiga neurógena. Intestino neurógeno. Sexualidad en el paciente neurológico. Características. Valoración. Tratamiento de rehabilitación."
+      },
+      {
+        "numero": 29,
+        "titulo": "Esclerosis múltiple. Concepto, clasificación, valoración funcional y tratamiento rehabilitador."
+      },
+      {
+        "numero": 30,
+        "titulo": "Enfermedades degenerativas del sistema nervioso central (I): enfermedades de motoneurona: Concepto, clasificación, valoración funcional y tratamiento rehabilitador."
+      },
+      {
+        "numero": 31,
+        "titulo": "Enfermedades degenerativas del sistema nervioso central (II): Parkinson. Síndromes atáxicos. Concepto, clasificación, valoración funcional y tratamiento rehabilitador."
+      },
+      {
+        "numero": 32,
+        "titulo": "Lesiones del plexo braquial. Parálisis braquial Obstétrica. Polineuropatías. Síndromes neuropáticos periféricos de etiología compresiva."
+      },
+      {
+        "numero": 33,
+        "titulo": "Enfermedades neuromusculares de inicio infanto-juvenil. Diagnóstico. Valoración y tratamiento de rehabilitación."
+      },
+      {
+        "numero": 34,
+        "titulo": "Espasticidad. Definición. Valoración. Tratamiento físico y farmacológico. Toxina botulínica. Neurocirugía (rizotomía) y cirugía ortopédica."
+      },
+      {
+        "numero": 35,
+        "titulo": "Disfagia. Tipos. Características. Valoración y tratamiento rehabilitador."
+      },
+      {
+        "numero": 36,
+        "titulo": "Trastornos del lenguaje y de la comunicación. Afasias. Tipos. Características. Valoración y tratamiento de rehabilitación."
+      },
+      {
+        "numero": 37,
+        "titulo": "Disartrias y disfonías. Diagnóstico. Tipos. Características. Valoración y tratamiento de rehabilitación."
+      },
+      {
+        "numero": 38,
+        "titulo": "Rehabilitación vestibular y del equilibrio. Fisiopatología. Métodos de valoración y tratamiento."
+      },
+      {
+        "numero": 39,
+        "titulo": "Rehabilitación del suelo pélvico. Tipos de incontinencia urinaria y fecal. Síndromes dolorosos. Valoración y diagnóstico. Tratamiento rehabilitador."
+      },
+      {
+        "numero": 40,
+        "titulo": "Rehabilitación en el paciente con quemaduras y úlceras por presión. Tipos. Características. Valoración y Tratamientos."
+      },
+      {
+        "numero": 41,
+        "titulo": "Linfedema de miembro superior e inferior. Tipos. Valoración y tratamiento de rehabilitación."
+      },
+      {
+        "numero": 42,
+        "titulo": "Alteraciones vasculares en extremidades. Arteriopatías y obstrucción venosa. Diagnóstico y tratamiento rehabilitador."
+      },
+      {
+        "numero": 43,
+        "titulo": "Rehabilitación en el paciente oncológico. Valoración, objetivos y Tratamiento de rehabilitación."
+      },
+      {
+        "numero": 44,
+        "titulo": "Rehabilitación en el paciente geriátrico. El paciente frágil. Detección. Valoración, objetivos y Tratamiento de rehabilitación."
+      },
+      {
+        "numero": 45,
+        "titulo": "Desviaciones del raquis (I): Escoliosis y actitudes escolióticas. Conceptos. Clasificaciones. Métodos de cinesiterapia y ortésico. Indicaciones."
+      },
+      {
+        "numero": 46,
+        "titulo": "Desviaciones del raquis (II) -plano sagital-: Hipercifosis e hiperlordosis. Scheuermann. Conceptos. Clasificaciones. Métodos de cinesiterapia y ortésico. Indicaciones."
+      },
+      {
+        "numero": 47,
+        "titulo": "Algias vertebrales (I): Cervicalgias (con y sin irradiación) y Síndrome de Latigazo cervical. Epidemiología. Etiología. Clasificación. Valoración. Objetivos. Tratamiento rehabilitador."
+      },
+      {
+        "numero": 48,
+        "titulo": "Algias vertebrales (II): Dorsalgias, Lumbalgias (con y sin irradiación). Epidemiología. Etiología. Clasificación. Valoración. Objetivos. Tratamiento rehabilitador."
+      },
+      {
+        "numero": 49,
+        "titulo": "Patología de aparato locomotor en la edad infanto-juvenil: artritis crónica juvenil. Displasias óseas. Artrogriposis. Osteogénesis imperfecta. Acondroplasias. Perthes y otras alteraciones en cadera. Torticolis congénita. Alteraciones en los pies. Tumoraciones. Valoración. Objetivos. Tratamiento rehabilitador."
+      },
+      {
+        "numero": 50,
+        "titulo": "Patología de aparato locomotor en el adulto (I): Espondiloartritis anquilosante. Artritis reumatoide. Discopatías. Artrosis. Estenosis de canal. Valoración. Objetivos. Tratamiento rehabilitador."
+      },
+      {
+        "numero": 51,
+        "titulo": "Patología de aparato locomotor en el adulto (II): Osteoporosis. Fibromialgia. Dolor miofascial. Valoración. Objetivos. Tratamiento rehabilitador."
+      },
+      {
+        "numero": 52,
+        "titulo": "Patología de aparato locomotor en el adulto (III) -articular, tendinosa, muscular -: Miembro superior (hombro, codo, muñeca y mano). Valoración. Objetivos. Tratamiento rehabilitador. Tratamientos quirúrgicos. Rehabilitación postcirugía."
+      },
+      {
+        "numero": 53,
+        "titulo": "Patología de aparato locomotor en el adulto (IV) -articular, tendinosa, muscular -: Miembro inferior (cadera, rodilla, tobillo y pie). Valoración. Objetivos. Tratamiento rehabilitador. Tratamientos quirúrgicos. Rehabilitación postcirugía."
+      },
+      {
+        "numero": 54,
+        "titulo": "Patología deportiva y rehabilitación en el niño, adulto y tercera edad. Actividad deportiva en el discapacitado: deporte adaptado."
+      },
+      {
+        "numero": 55,
+        "titulo": "El dolor en Rehabilitación. Tipos. Síndrome de dolor regional complejo: valoración, tratamiento farmacológico y terapéutica física. Aspectos psicológicos. Programas multidisciplinares."
+      },
+      {
+        "numero": 56,
+        "titulo": "Programas de Rehabilitación cardiaca (I). Valoración. Factores de riesgo coronario. Interpretación de pruebas complementarias (ECG, Eco-Doppler y pruebas de esfuerzo). Estratificación. Fases."
+      },
+      {
+        "numero": 57,
+        "titulo": "Programas de Rehabilitación cardiaca (II). Tratamiento"
+      },
+      {
+        "numero": 58,
+        "titulo": "Rehabilitación Respiratoria (I). Síndromes obstructivos, restrictivos y mixtos en el niño y en el adulto. Fibrosis Quística. EPOC. Valoración clínica y funcional. Programas. Calidad de vida. Tratamiento rehabilitador."
+      },
+      {
+        "numero": 59,
+        "titulo": "Rehabilitación Respiratoria (II). Cirugía torácica, Abdominal y Bariátrica. Valoración clínica y funcional. Calidad de vida. Tratamiento rehabilitador."
+      },
+      {
+        "numero": 60,
+        "titulo": "Rehabilitación en pacientes con complicaciones pre o postrasplante. Síndrome de inmovilización o de desacondicionamiento. Valoración clínica y funcional. Calidad de vida. Tratamiento rehabilitador."
+      }
+    ]
+  }
+]

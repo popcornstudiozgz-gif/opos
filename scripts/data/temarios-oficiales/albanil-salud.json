@@ -1,0 +1,132 @@
+[
+  {
+    "bloque": "Materia común",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "La Constitución Española de 1978: Principios fundamentales. Derechos y deberes fundamentales de los ciudadanos. La protección a la salud en la Constitución. La Corona. Las Cortes Generales. El Gobierno de la Nación. El Poder Judicial."
+      },
+      {
+        "numero": 2,
+        "titulo": "El Estatuto de Autonomía de Aragón. Principios informadores. Estructura y contenido. La organización institucional de la Comunidad Autónoma. Las Cortes y El Justicia de Aragón. Las competencias de la Comunidad de Aragón con especial referencia a las relativas a sanidad."
+      },
+      {
+        "numero": 3,
+        "titulo": "Población, geografía y territorio en Aragón. Desequilibrios demográficos en Aragón. Magnitudes más relevantes de la economía aragonesa. Evolución reciente de la actividad económica en Aragón."
+      },
+      {
+        "numero": 4,
+        "titulo": "La igualdad de oportunidades entre mujeres y hombres en Aragón: Disposiciones generales. Prevención y Protección Integral a las Mujeres Víctimas de Violencia en Aragón: Disposiciones Generales. La identidad y expresión de género e igualdad social y no discriminación en la Comunidad Autónoma de Aragón: Disposiciones Generales. La diversidad cultural y lucha contra la discriminación: Principios y objetivos del Plan Integral para la Gestión de la Diversidad Cultural vigente en Aragón."
+      },
+      {
+        "numero": 5,
+        "titulo": "Los órganos de gobierno y administración de la Comunidad Autónoma de Aragón. El Departamento de Sanidad del Gobierno de Aragón: Estructura básica y competencias. El Servicio Aragonés de Salud: Estructura y competencias. El Texto Refundido de la Ley del Servicio Aragonés de Salud. Estructura y funcionamiento de las áreas y sectores del Sistema de Salud de Aragón."
+      },
+      {
+        "numero": 6,
+        "titulo": "La Ley General de Sanidad: El Sistema Nacional de Salud y los Servicios de Salud de las Comunidades Autónomas. El Área de Salud. La Ley de Salud de Aragón: Principios generales. Derechos y deberes de los ciudadanos. Derechos de información sobre la salud y autonomía del paciente."
+      },
+      {
+        "numero": 7,
+        "titulo": "El Procedimiento Administrativo Común de las Administraciones Públicas: Disposiciones Generales. Computo de plazos. Objeto y plazos de los recursos administrativos. El Régimen Jurídico del Sector Público: Disposiciones Generales."
+      },
+      {
+        "numero": 8,
+        "titulo": "El régimen jurídico de la protección de datos de carácter personal. Disposiciones generales. Principios de la Protección de datos. Derechos de las personas. Responsable y Encargado del Tratamiento."
+      },
+      {
+        "numero": 9,
+        "titulo": "Personal Estatutario de los Servicios de Salud: Clasificación del Personal Estatutario. Derechos y Deberes. Adquisición y pérdida de la condición de personal estatutario. Provisión de plazas, selección y promoción interna. Movilidad del personal. Situaciones. Régimen disciplinario. La Ley del Estatuto Básico del Empleado Público: Deberes del empleado público y código de conducta. Representación, participación y negociación colectiva. El régimen de Incompatibilidades: Principios generales. Ámbito de aplicación."
+      },
+      {
+        "numero": 10,
+        "titulo": "Ley de Prevención de Riesgos Laborales: Conceptos básicos. Derechos y obligaciones en materia de seguridad en el trabajo. Organización de la prevención de riesgos laborales en la Comunidad Autónoma de Aragón. Distribución de funciones y responsabilidades en materia de prevención de riesgos laborales entre los diferentes órganos del Servicio Aragonés de Salud."
+      }
+    ]
+  },
+  {
+    "bloque": "Materia específica",
+    "temas": [
+      {
+        "numero": 11,
+        "titulo": "Saneamiento (I). Redes colgadas: arquetas, colectores, elementos complementarios y otros. Redes enterradas: arquetas, colectores, elementos complementarios, pozos y otros. Trabajos de ejecución, conservación y reparación relacionados con estos elementos. Planificación y ordenación del trabajo. Medios materiales para su realización. Técnicas adecuadas en cada caso. Selección de la técnica más adecuada. Forma de ejecución de cada técnica. Calidad: verificación de que lo ejecutado se corresponde con lo proyectado y corrección de posibles deficiencias."
+      },
+      {
+        "numero": 12,
+        "titulo": "Saneamiento (II). Recuperaciones: redes colgadas, enterradas, verticales y otras. Redes verticales: bajantes, cazoletas, elementos complementarios y otros. Otros trabajos de saneamiento: acometidas y otros. Trabajos de ejecución, conservación y reparación relacionados con estos elementos. Planificación y ordenación del trabajo. Medios materiales para su realización. Técnicas adecuadas en cada caso. Selección de la técnica más adecuada. Forma de ejecución de cada técnica. Calidad: verificación de que lo ejecutado se corresponde con lo proyectado y corrección de posibles deficiencias."
+      },
+      {
+        "numero": 13,
+        "titulo": "Albañilería (I). Arcos: especiales, huecos, macizos, perforados y otros. Fábricas de bloques: huecos, macizos y otros. Trabajos de ejecución, conservación y reparación relacionados con estos elementos. Planificación y ordenación del trabajo. Medios materiales para su realización. Técnicas adecuadas en cada caso. Selección de la técnica más adecuada. Forma de ejecución de cada técnica. Calidad: verificación de que lo ejecutado se corresponde con lo proyectado y corrección de posibles deficiencias."
+      },
+      {
+        "numero": 14,
+        "titulo": "Albañilería (II). Divisiones: tabiquería prefabricada, tabiques sencillos, tabicones y otros. Trabajos de ejecución, conservación y reparación relacionados con estos elementos. Planificación y ordenación del trabajo. Medios materiales para su realización. Técnicas adecuadas en cada caso. Selección de la técnica más adecuada. Forma de ejecución de cada técnica. Calidad: verificación de que lo ejecutado se corresponde con lo proyectado y corrección de posibles deficiencias."
+      },
+      {
+        "numero": 15,
+        "titulo": "Albañilería (III). Fábricas de ladrillo: especiales, huecos, macizos, perforados, mixtos y otros. Trabajos de ejecución, conservación y reparación relacionados con estos elementos. Planificación y ordenación del trabajo. Medios materiales para su realización. Técnicas adecuadas en cada caso. Selección de la técnica más adecuada. Forma de ejecución de cada técnica. Calidad: verificación de que lo ejecutado se corresponde con lo proyectado y corrección de posibles deficiencias."
+      },
+      {
+        "numero": 16,
+        "titulo": "Albañilería (IV). Prefabricados: cerámicos, hormigón, metálicos, sintéticos y otros. Trabajos de ejecución, conservación y reparación relacionados con estos elementos. Planificación y ordenación del trabajo. Medios materiales para su realización. Técnicas adecuadas en cada caso. Selección de la técnica más adecuada. Forma de ejecución de cada técnica. Calidad: verificación de que lo ejecutado se corresponde con lo proyectado y corrección de posibles deficiencias."
+      },
+      {
+        "numero": 17,
+        "titulo": "Albañilería (V). Recuperación: de bloques, ladrillos, mixtas, piedras, tapiales y otros. Otros trabajos de albañilería: dinteles, formación de pendientes, mochetas, peldañeados, rampas, otros. Trabajos de ejecución, conservación y reparación relacionados con estos elementos. Planificación y ordenación del trabajo. Medios materiales para su realización. Técnicas adecuadas en cada caso. Selección de la técnica más adecuada. Forma de ejecución de cada técnica. Calidad: verificación de que lo ejecutado se corresponde con lo proyectado y corrección de posibles deficiencias."
+      },
+      {
+        "numero": 18,
+        "titulo": "Cubiertas (I). Horizontales: ajardinadas, no transitables, transitables, otras. Inclinadas: de fibrocemento, galvanizados, de aleaciones ligeras, pizarra, sintéticas, de tejas, otras. Trabajos de ejecución, conservación y reparación relacionados con estos elementos. Planificación y ordenación del trabajo. Medios materiales para su realización. Técnicas adecuadas en cada caso. Selección de la técnica más adecuada. Forma de ejecución de cada técnica. Calidad: verificación de que lo ejecutado se corresponde con lo proyectado y corrección de posibles deficiencias."
+      },
+      {
+        "numero": 19,
+        "titulo": "Cubiertas (II). Recuperación: curvas, horizontales, inclinadas, otras. Otros elementos en cubiertas: lucernarios, claraboyas, otros. Trabajos de ejecución, conservación y reparación relacionados con estos elementos. Planificación y ordenación del trabajo. Medios materiales para su realización. Técnicas adecuadas en cada caso. Selección de la técnica más adecuada. Forma de ejecución de cada técnica. Calidad: verificación de que lo ejecutado se corresponde con lo proyectado y corrección de posibles deficiencias."
+      },
+      {
+        "numero": 20,
+        "titulo": "Revestimientos (I). Aplacados: alicatados, chapados, otros. Trabajos de ejecución, conservación y reparación relacionados con estos elementos. Planificación y ordenación del trabajo. Medios materiales para su realización. Técnicas adecuadas en cada caso. Selección de la técnica más adecuada. Forma de ejecución de cada técnica. Calidad: verificación de que lo ejecutado se corresponde con lo proyectado y corrección de posibles deficiencias."
+      },
+      {
+        "numero": 21,
+        "titulo": "Revestimientos (II). Continuos: enfoscados, guarnecidos, enlucidos, poliméricos, revocos, tendidos, otros. Trabajos de ejecución, conservación y reparación relacionados con estos elementos. Planificación y ordenación del trabajo. Medios materiales para su realización. Técnicas adecuadas en cada caso. Selección de la técnica más adecuada. Forma de ejecución de cada técnica. Calidad: verificación de que lo ejecutado se corresponde con lo proyectado y corrección de posibles deficiencias."
+      },
+      {
+        "numero": 22,
+        "titulo": "Revestimientos (III). Ligeros: aleaciones ligeras, corcho, maderas, otros. Peldaños: piedras artificiales, cerámicos, ligeros, maderas, piedras naturales, otros. Trabajos de ejecución, conservación y reparación relacionados con estos elementos. Planificación y ordenación del trabajo. Medios materiales para su realización. Técnicas adecuadas en cada caso. Selección de la técnica más adecuada. Forma de ejecución de cada técnica. Calidad: verificación de que lo ejecutado se corresponde con lo proyectado y corrección de posibles deficiencias."
+      },
+      {
+        "numero": 23,
+        "titulo": "Revestimientos (IV). Recuperación: peldaños, suelos, techos, paramentos verticales, otros. Trabajos de ejecución, conservación y reparación relacionados con estos elementos. Planificación y ordenación del trabajo. Medios materiales para su realización. Técnicas adecuadas en cada caso. Selección de la técnica más adecuada. Forma de ejecución de cada técnica. Calidad: verificación de que lo ejecutado se corresponde con lo proyectado y corrección de posibles deficiencias."
+      },
+      {
+        "numero": 24,
+        "titulo": "Revestimientos (V). Suelos: cerámicos, especiales, hidráulicos, piedras naturales, soleras, terrazos, otros. Trabajos de ejecución, conservación y reparación relacionados con estos elementos. Planificación y ordenación del trabajo. Medios materiales para su realización. Técnicas adecuadas en cada caso. Selección de la técnica más adecuada. Forma de ejecución de cada técnica. Calidad: verificación de que lo ejecutado se corresponde con lo proyectado y corrección de posibles deficiencias."
+      },
+      {
+        "numero": 25,
+        "titulo": "Revestimientos (VI). Techos: escayolas, fibras, aleaciones ligeras, sintéticos, otros. Trabajos de ejecución, conservación y reparación relacionados con estos elementos. Planificación y ordenación del trabajo. Medios materiales para su realización. Técnicas adecuadas en cada caso. Selección de la técnica más adecuada. Forma de ejecución de cada técnica. Calidad: verificación de que lo ejecutado se corresponde con lo proyectado y corrección de posibles deficiencias."
+      },
+      {
+        "numero": 26,
+        "titulo": "Revestimientos (VII). Otros revestimientos: alféizares, remates, otros. Trabajos de ejecución, conservación y reparación relacionados con estos elementos. Planificación y ordenación del trabajo. Medios materiales para su realización. Técnicas adecuadas en cada caso. Selección de la técnica más adecuada. Forma de ejecución de cada técnica. Calidad: verificación de que lo ejecutado se corresponde con lo proyectado y corrección de posibles deficiencias."
+      },
+      {
+        "numero": 27,
+        "titulo": "Herramientas de gestión. Plan anual de trabajos. Atención al cliente. Comunicación. Elaboración de presupuestos. Sistemas de gestión de la calidad."
+      },
+      {
+        "numero": 28,
+        "titulo": "Prevención de riesgos laborales (I). Riesgos y factores de riesgo inherentes al trabajo de técnico de mantenimiento de obras de albañilería. Medios de prevención. Prevención y protección colectiva. Equipos de protección individual o EPI’s. Señalización en las labores de albañilería."
+      },
+      {
+        "numero": 29,
+        "titulo": "Prevención de riesgos laborales (II). Normalización de las señales. Seguridad en los trabajos de técnico de mantenimiento de obras de albañilería. Elementos de seguridad y protocolos de actuación en la ejecución de operaciones. Fichas de datos de seguridad. Especial referencia al Real Decreto 1627/1997, de 24 de octubre, por el que se establecen disposiciones mínimas de seguridad y de salud en las obras de construcción. Actuaciones en caso de emergencias: el Plan de Autoprotección."
+      },
+      {
+        "numero": 30,
+        "titulo": "Protección ambiental. El Sistema de gestión ambiental del Servicio Aragonés de Salud. Impactos ambientales asociados a los trabajos de técnico de mantenimiento de obras de albañilería. Recogida y selección de residuos. Almacenamiento y retirada de residuos."
+      }
+    ]
+  }
+]

@@ -1,0 +1,300 @@
+[
+  {
+    "bloque": "Materia común",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "La Constitución española de 1978: estructura y contenido. Principios que la informan. Los derechos fundamentales y sus garantías. La protección a la salud en la Constitución. La Corona. Las Cortes Generales. El Gobierno de la Nación. El Poder Judicial."
+      },
+      {
+        "numero": 2,
+        "titulo": "El Estatuto de Autonomía de Aragón. Naturaleza y contenido. La organización institucional de la Comunidad Autónoma. Las Cortes de Aragón y el Justicia de Aragón. Las competencias de la Comunidad de Aragón con especial referencia a las relativas a sanidad. Los órganos de gobierno y administración de la Comunidad Autónoma de Aragón. Estructura administrativa."
+      },
+      {
+        "numero": 3,
+        "titulo": "Población, geografía y territorio en Aragón. Desequilibrios demográficos en Aragón. Magnitudes más relevantes de la economía aragonesa. Evolución reciente de la actividad económica en Aragón."
+      },
+      {
+        "numero": 4,
+        "titulo": "La igualdad de oportunidades entre mujeres y hombres en Aragón: Disposiciones generales. Prevención y Protección Integral a las Mujeres Víctimas de Violencia en Aragón: Disposiciones Generales. La identidad y expresión de género e igualdad social y no discriminación en la Comunidad Autónoma de Aragón: Disposiciones Generales. La diversidad cultural y lucha contra la discriminación: Principios y objetivos del Plan Integral para la Gestión de la Diversidad vigente en Aragón."
+      },
+      {
+        "numero": 5,
+        "titulo": "Los órganos de gobierno y administración de la Comunidad Autónoma de Aragón. Estructura y competencias del Departamento de Sanidad. Estructura y competencias del Servicio Aragonés de Salud. El Texto Refundido de la Ley del Servicio Aragonés de Salud. Estructura y funcionamiento de las áreas y sectores del Sistema de Salud de Aragón."
+      },
+      {
+        "numero": 6,
+        "titulo": "La Ley General de Sanidad. El derecho a la protección de la salud. Principios generales del Sistema Nacional de Salud. Organización general del sistema sanitario público. Los Servicios de Salud de las Comunidades Autónomas. La Ley de Salud de Aragón. Principios rectores. Derechos, deberes y garantías de los ciudadanos."
+      },
+      {
+        "numero": 7,
+        "titulo": "La Ley de Cohesión y Calidad del Sistema Nacional de Salud. Principios generales, estructura y contenidos. Las prestaciones del Sistema Nacional de Salud. Sistema de información sanitaria El Consejo Interterritorial."
+      },
+      {
+        "numero": 8,
+        "titulo": "Ley del Procedimiento Administrativo Común de las Administraciones Públicas: Ámbito de aplicación y principios generales. Fases del procedimiento. Computo de plazos. Objeto y plazos de los recursos administrativos. Ley de Régimen Jurídico del Sector Público: Disposiciones Generales."
+      },
+      {
+        "numero": 9,
+        "titulo": "El Estatuto Básico del Empleado Público. Clases de personal. Principios definidores del personal funcionario, estatutario y laboral. Derechos y deberes del empleado público. Representación, participación y negociación colectiva."
+      },
+      {
+        "numero": 10,
+        "titulo": "El Estatuto Marco del Personal Estatutario de los Servicios de Salud (I). Clasificación del personal estatutario. Derechos y deberes. Adquisición y pérdida de la condición de personal estatutario. Provisión de plazas, selección y promoción interna. Movilidad del personal."
+      },
+      {
+        "numero": 11,
+        "titulo": "El Estatuto Marco del Personal Estatutario de los Servicios de Salud (II). Retribuciones. Jornada de trabajo, permisos y licencias. Situaciones del personal estatutario. Régimen disciplinario. Legislación en materia de incompatibilidades."
+      },
+      {
+        "numero": 12,
+        "titulo": "La Ley de Ordenación de las Profesiones Sanitarias. Objeto y ámbito de aplicación. Profesiones sanitarias tituladas y profesionales del área sanitaria de formación profesional. El ejercicio de las profesiones sanitarias. Formación Especializada en Ciencias de la Salud."
+      },
+      {
+        "numero": 13,
+        "titulo": "La Ley básica reguladora de la autonomía del paciente y de derechos y obligaciones en materia de información y documentación clínica: Principios generales. Derecho de información sanitaria. Derecho a la intimidad. Respeto a la autonomía del paciente. Consentimiento informado e instrucciones previas. La historia clínica."
+      },
+      {
+        "numero": 14,
+        "titulo": "Ley de Prevención de Riesgos Laborales: Conceptos básicos. Derechos y obligaciones en materia de seguridad en el trabajo. Organización de la prevención de riesgos laborales en la Comunidad Autónoma de Aragón. Distribución de funciones y responsabilidades en materia de prevención de riesgos laborales entre los diferentes órganos del Servicio Aragonés de Salud."
+      }
+    ]
+  },
+  {
+    "bloque": "Materia específica",
+    "temas": [
+      {
+        "numero": 15,
+        "titulo": "Estructura demográfica de Aragón. Evolución y características. Consecuencias territoriales de la evolución demográfica por zonas."
+      },
+      {
+        "numero": 16,
+        "titulo": "Interacción social. Comportamientos colectivos. Conflictos sociales."
+      },
+      {
+        "numero": 17,
+        "titulo": "Los grupos sociales. Dinámica grupal: Método y técnicas de trabajo social con grupos; actuación con grupos socioterapéuticos."
+      },
+      {
+        "numero": 18,
+        "titulo": "Necesidades humanas y sociales. Tipologías de necesidad social y metodología de investigación."
+      },
+      {
+        "numero": 19,
+        "titulo": "El trabajo social como profesión: Origen y evolución. El ejercicio libre. Principios éticos. Código deontológico."
+      },
+      {
+        "numero": 20,
+        "titulo": "El trabajador social como miembro de un equipo interdisciplinar: fundamento, funciones y principios básicos como técnico y en los diferentes ámbitos de intervención."
+      },
+      {
+        "numero": 21,
+        "titulo": "El trabajador social como técnico de las relaciones humanas. Aportaciones en el plan de humanización del sistema sanitario. Papel del trabajador social en las distintas comisiones."
+      },
+      {
+        "numero": 22,
+        "titulo": "Tratamiento social directo: concepto y objetivos. El trabajo social individual, el cliente-paciente como realidad bio-psicosocial."
+      },
+      {
+        "numero": 23,
+        "titulo": "Trabajo social familiar y mediación."
+      },
+      {
+        "numero": 24,
+        "titulo": "Tratamiento social indirecto: concepto, objetivos y técnicas. Trabajo en redes sociales. Papel del trabajador social."
+      },
+      {
+        "numero": 25,
+        "titulo": "Trabajo social en grupo: grupos de tratamiento social, grupos orientados a la acción social. Diferencias entre ambos, en cuanto a objetivos, técnicas, desarrollo del proceso grupal y papel del trabajador social."
+      },
+      {
+        "numero": 26,
+        "titulo": "El método en trabajo social. Técnicas e instrumentos utilizados. Soportes técnicos. La entrevista en Trabajo Social."
+      },
+      {
+        "numero": 27,
+        "titulo": "La intervención social y su metodología. Niveles de actuación desde el trabajo social. La investigación social. Su aplicación en el proceso metodológico de trabajo social."
+      },
+      {
+        "numero": 28,
+        "titulo": "La planificación en trabajo social. Niveles de operaciones de planificación. Planes, programas, proyectos: definición. Tipos de planificación. La evaluación, tipos, metodología e instrumentos."
+      },
+      {
+        "numero": 29,
+        "titulo": "El equipo de trabajo social: tipos, especial referencia al multidisciplinar."
+      },
+      {
+        "numero": 30,
+        "titulo": "Política social y protección social en España. Áreas de actuación. Modelos de desarrollo. El Estado social de derecho: concepto. Criterios que rigen una adecuada política de bienestar social. Bienestar social en la Constitución Española."
+      },
+      {
+        "numero": 31,
+        "titulo": "Política social en la Unión Europea. El Fondo Social Europeo y programación de sus recursos. La Carta Social Europea. Los Trabajadores sociales y el Consejo de Europa."
+      },
+      {
+        "numero": 32,
+        "titulo": "El derecho de información sanitaria y a la intimidad en la Ley básica reguladora de la autonomía del paciente y derechos y obligaciones en materia de información y documentación clínica."
+      },
+      {
+        "numero": 33,
+        "titulo": "La transparencia de las Administraciones Públicas. Legislación en la materia."
+      },
+      {
+        "numero": 34,
+        "titulo": "El régimen jurídico de la protección de datos de carácter personal: Disposiciones generales. Derechos de las personas."
+      },
+      {
+        "numero": 35,
+        "titulo": "Acceso electrónico de los ciudadanos a los Servicios Públicos."
+      },
+      {
+        "numero": 36,
+        "titulo": "Composición del sistema de la Seguridad Social. Régimen General y Regímenes Especiales: Características y enumeración."
+      },
+      {
+        "numero": 37,
+        "titulo": "La acción protectora. Contingencias cubiertas. Concepto y clases de prestaciones. Caracteres de las prestaciones. Reintegro de prestaciones indebidas. Responsabilidad en orden a las prestaciones. Asistencia sanitaria: Concepto y objeto. Hechos causantes. Beneficiarios. Prestaciones médicas y farmacéuticas. Modalidades de la prestación médica. Protección a la familia. Clases de prestaciones: Beneficiarios. Condiciones y cuantía de la prestación."
+      },
+      {
+        "numero": 38,
+        "titulo": "La incapacidad temporal. Incapacidad permanente, situaciones y prestaciones entre ambos tipos de incapacidad. Maternidad. Jubilación, muerte y supervivencia. Requisitos. Beneficiarios. Tipos de jubilación e incompatibilidad con el trabajo. Accidente de trabajo y enfermedad profesional. Las prestaciones sociales contributivas y no contributivas. Prestaciones asistenciales y servicios sociales en el Estado y la Comunidad Autónoma."
+      },
+      {
+        "numero": 39,
+        "titulo": "Política social en la Comunidad Autónoma de Aragón. Competencias de la Comunidad Autónoma en servicios sociales. Sistema de servicios sociales en la Ley de Servicios Sociales de Aragón."
+      },
+      {
+        "numero": 40,
+        "titulo": "El ingreso mínimo vital. Prestación aragonesa complementaria al ingreso mínimo vital."
+      },
+      {
+        "numero": 41,
+        "titulo": "Salud y trabajo social: concepto de salud. Importancia de los factores sociales en los estados de salud y enfermedad y determinantes sociales de la salud."
+      },
+      {
+        "numero": 42,
+        "titulo": "El trabajo social comunitario. Promoción de la salud comunitaria y marco estratégico."
+      },
+      {
+        "numero": 43,
+        "titulo": "El papel del trabajador social en Atención Primaria y la cartera de servicios."
+      },
+      {
+        "numero": 44,
+        "titulo": "El trabajo social en atención especializada. Estructura del Departamento de Servicios Sociales. Intervención en los diferentes servicios hospitalarios. Funciones del trabajador social."
+      },
+      {
+        "numero": 45,
+        "titulo": "La prevención. Ámbito y fases de actuación desde el trabajo social."
+      },
+      {
+        "numero": 46,
+        "titulo": "El proceso de socialización. Los agentes de socialización: familia, escuela y otros."
+      },
+      {
+        "numero": 47,
+        "titulo": "Los servicios sociales especializados en infancia. Recursos sociales y niveles de intervención La protección y tutela de menores. Reforma de menores. Régimen jurídico. Niveles de intervención y medidas de actuación. Detección de situaciones de maltrato infantil. Factores de riesgo, señales de alerta, indicadores, seguimiento y coordinación con los servicios de Protección de Menores."
+      },
+      {
+        "numero": 48,
+        "titulo": "Ley 8/2021, de 2 de junio, por la que se reforma la legislación civil y procesal para el apoyo a las personas con discapacidad en el ejercicio de su capacidad jurídica. Internamientos involuntarios."
+      },
+      {
+        "numero": 49,
+        "titulo": "Los servicios sociales especializados para personas con discapacidad. Niveles de intervención. Recursos y medidas de integración."
+      },
+      {
+        "numero": 50,
+        "titulo": "Los servicios sociales especializados para personas mayores. Niveles de intervención. Recursos y medidas de actuación: Instituciones abiertas y cerradas, servicios de apoyo, ayuda a domicilio y acogimiento familiar."
+      },
+      {
+        "numero": 51,
+        "titulo": "La Ley de Promoción de la Autonomía Personal y Atención a las personas en situación de dependencia. Valoración de la dependencia. Instrumento y plan individual de atención."
+      },
+      {
+        "numero": 52,
+        "titulo": "Actuación del trabajador social de salud en situaciones de emergencia social. Coordinación con los servicios sociales de emergencia,"
+      },
+      {
+        "numero": 53,
+        "titulo": "La discriminación de la mujer. Situación actual y factores discriminatorios. Intervención específica a mujeres. Centros especializados: casas de acogida, centros de información y asesoramiento a la mujer. Violencia de género. Ley de Prevención y Protección Integral a las Mujeres Víctimas de Violencia de Género en Aragón."
+      },
+      {
+        "numero": 54,
+        "titulo": "Exclusión social y medidas de integración social."
+      },
+      {
+        "numero": 55,
+        "titulo": "La atención a colectivos con problemas de vulnerabilidad. Tipos de recursos y modalidades de intervención."
+      },
+      {
+        "numero": 56,
+        "titulo": "Los servicios sociales especializados en adicciones. Prevención. Desintoxicación. Tratamiento. Rehabilitación. Reinserción social."
+      },
+      {
+        "numero": 57,
+        "titulo": "Salud Pública: la intervención del trabajador social en pacientes con enfermedades de declaración obligatoria."
+      },
+      {
+        "numero": 58,
+        "titulo": "La coordinación socio-sanitaria. Planteamiento. Coordinación Institucional. Experiencias y perspectivas."
+      },
+      {
+        "numero": 59,
+        "titulo": "La rehabilitación del paciente con enfermedad mental, su importancia en la mejora de la calidad de vida. La reinserción laboral y social. Papel del trabajador/a social. Importancia del trabajo con la comunidad."
+      },
+      {
+        "numero": 60,
+        "titulo": "Organización y funcionamiento de la atención a la Salud Mental en la Comunidad Autónoma de Aragón. Plan integral de la Salud Mental en Aragón."
+      },
+      {
+        "numero": 61,
+        "titulo": "Influencia de los factores psicosociales en la Salud Mental."
+      },
+      {
+        "numero": 62,
+        "titulo": "La intervención del trabajador social sanitario en los distintos dispositivos asistenciales. Formas de acceso y criterios de derivación."
+      },
+      {
+        "numero": 63,
+        "titulo": "Procesos asistenciales integrados y protocolos en la red de Salud Mental."
+      },
+      {
+        "numero": 64,
+        "titulo": "Estrategia y prevención del suicidio en Aragón."
+      },
+      {
+        "numero": 65,
+        "titulo": "Trabajo social con familiares de pacientes con enfermedad mental."
+      },
+      {
+        "numero": 66,
+        "titulo": "El voluntariado y el trabajo social. La cooperación con movimientos asociativos y agentes sociales."
+      },
+      {
+        "numero": 67,
+        "titulo": "Los cuidados paliativos en Aragón. Intervención del trabajador social. Acompañamiento en procesos de duelo."
+      },
+      {
+        "numero": 68,
+        "titulo": "Documento de voluntades anticipadas. Regulación de la eutanasia."
+      },
+      {
+        "numero": 69,
+        "titulo": "Salud sexual y reproductiva e interrupción voluntaria del embarazo."
+      },
+      {
+        "numero": 70,
+        "titulo": "Identidad y expresión de género e igualdad social y no discriminación en la Comunidad Autónoma de Aragón. Atención sanitaria a personas transexuales en los centros sanitarios públicos de Aragón."
+      },
+      {
+        "numero": 71,
+        "titulo": "Plan de salud de Aragón 2030. Líneas estratégicas."
+      },
+      {
+        "numero": 72,
+        "titulo": "Abordaje integral de los pacientes pluripatológicos. La atención integrada a pacientes con enfermedad crónica."
+      }
+    ]
+  }
+]

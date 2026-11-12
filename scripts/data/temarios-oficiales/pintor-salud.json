@@ -1,0 +1,132 @@
+[
+  {
+    "bloque": "Materia común",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "La Constitución Española de 1978: Principios fundamentales. Derechos y deberes fundamentales de los ciudadanos. La protección a la salud en la Constitución. La Corona. Las Cortes Generales. El Gobierno de la Nación. El Poder Judicial."
+      },
+      {
+        "numero": 2,
+        "titulo": "El Estatuto de Autonomía de Aragón. Principios informadores. Estructura y contenido. La organización institucional de la Comunidad Autónoma. Las Cortes y El Justicia de Aragón. Las competencias de la Comunidad de Aragón con especial referencia a las relativas a sanidad."
+      },
+      {
+        "numero": 3,
+        "titulo": "Población, geografía y territorio en Aragón. Desequilibrios demográficos en Aragón. Magnitudes más relevantes de la economía aragonesa. Evolución reciente de la actividad económica en Aragón."
+      },
+      {
+        "numero": 4,
+        "titulo": "La igualdad de oportunidades entre mujeres y hombres en Aragón: Disposiciones generales. Prevención y Protección Integral a las Mujeres Víctimas de Violencia en Aragón: Disposiciones generales. La identidad y expresión de género e igualdad social y no discriminación en la Comunidad Autónoma de Aragón: Disposiciones generales. La diversidad cultural y lucha contra la discriminación: Principios y objetivos del Plan Integral para la Gestión de la Diversidad vigente en Aragón."
+      },
+      {
+        "numero": 5,
+        "titulo": "Los órganos de gobierno y administración de la Comunidad Autónoma de Aragón. El Departamento de Sanidad del Gobierno de Aragón: Estructura básica y competencias. El Servicio Aragonés de Salud: Estructura y competencias. El Texto Refundido de la Ley del Servicio Aragonés de Salud. Estructura y funcionamiento de las áreas y sectores del Sistema de Salud de Aragón."
+      },
+      {
+        "numero": 6,
+        "titulo": "La Ley General de Sanidad: El Sistema Nacional de Salud y los Servicios de Salud de las Comunidades Autónomas. El Área de Salud. La Ley de Salud de Aragón: Principios generales. Derechos y deberes de los ciudadanos. Derechos de información sobre la salud y autonomía del paciente."
+      },
+      {
+        "numero": 7,
+        "titulo": "El Procedimiento Administrativo Común de las Administraciones Públicas: Disposiciones Generales. Computo de plazos. Objeto y plazos de los recursos administrativos. El Régimen Jurídico del Sector Público: Disposiciones generales."
+      },
+      {
+        "numero": 8,
+        "titulo": "El régimen jurídico de la protección de datos de carácter personal. Disposiciones generales. Principios de la Protección de datos. Derechos de las personas. Responsable y Encargado del Tratamiento."
+      },
+      {
+        "numero": 9,
+        "titulo": "Personal estatutario de los servicios de salud: Clasificación del personal estatutario. Derechos y deberes. Adquisición y pérdida de la condición de personal estatutario. Provisión de plazas, selección y promoción interna. Movilidad del personal. Situaciones. Régimen disciplinario. La Ley del Estatuto Básico del Empleado Público: Deberes del empleado público y código de conducta. Representación, participación y negociación colectiva. El régimen de Incompatibilidades: Principios generales. Ámbito de aplicación."
+      },
+      {
+        "numero": 10,
+        "titulo": "Ley de Prevención de Riesgos Laborales: Conceptos básicos. Derechos y obligaciones en materia de seguridad en el trabajo. Organización de la prevención de riesgos laborales en la Comunidad Autónoma de Aragón. Distribución de funciones y responsabilidades en materia de prevención de riesgos laborales entre los diferentes órganos del Servicio Aragonés de Salud."
+      }
+    ]
+  },
+  {
+    "bloque": "Materia específica",
+    "temas": [
+      {
+        "numero": 11,
+        "titulo": "El taller de pintura. Instalaciones. Materiales. Herramientas. Equipos de pintura. Limpieza."
+      },
+      {
+        "numero": 12,
+        "titulo": "Clases de pinturas: Pinturas plásticas. Silicatos. Esmaltes. Epoxi. Poliuretanos. Clorocaucho. Disolventes. Usos. Métodos de aplicación. Fichas técnicas."
+      },
+      {
+        "numero": 13,
+        "titulo": "Imprimaciones, productos de impermeabilización y sus disolventes. Tipos. Usos. Métodos de aplicación. Fichas técnicas."
+      },
+      {
+        "numero": 14,
+        "titulo": "Composición y tecnología de la pintura. Aditivos. Pigmentos. Tipos. Características. Usos. Métodos de aplicación."
+      },
+      {
+        "numero": 15,
+        "titulo": "Cálculo de volumen y cantidad de pintura para la ejecución en la aplicación de revestimientos. Rendimiento de los revestimientos de pintura. Cálculo de superficies."
+      },
+      {
+        "numero": 16,
+        "titulo": "Pintura para pavimientos. Resinas. Barnices. Aditivos. Características. Tipos. Usos. Herramientas. Equipos. Método de aplicación. Fichas técnicas."
+      },
+      {
+        "numero": 17,
+        "titulo": "Componentes del color en pinturas. Sistemas de color. Mezclas. Cartas de color."
+      },
+      {
+        "numero": 18,
+        "titulo": "Procesos de los trabajos de pintura. Tipos de superficies y características de los materiales. Preparación y limpieza de superficies."
+      },
+      {
+        "numero": 19,
+        "titulo": "Brochas, rodillos y pistolas: clases y aplicaciones. Clases y aplicaciones de las espátulas. Técnicas de pintura."
+      },
+      {
+        "numero": 20,
+        "titulo": "Sistemas de pintado en exteriores e interiores. Barnices. Superficies. Materiales. Procesos. Métodos de aplicación. Defectos de la pintura y de su aplicación."
+      },
+      {
+        "numero": 21,
+        "titulo": "Pulido y matizado de muebles. Mobiliario hospitalario: mobiliario metálico (Mesillas de noche, camas, taquillas, etc). Tratamiento."
+      },
+      {
+        "numero": 22,
+        "titulo": "Pintura decorativa. Aerografía. Imitaciones. Materiales. Herramientas. Métodos de aplicación."
+      },
+      {
+        "numero": 23,
+        "titulo": "Empapelado. Materiales. Herramientas. Cálculos. Técnicas de aplicación."
+      },
+      {
+        "numero": 24,
+        "titulo": "Aplicación de los documentos básicos del Código Técnico de la Edificación: DB HS-1: Protección frente a la humedad. DB SUA-1: Seguridad frente al riesgo de caídas. DB SI: Seguridad en caso de incendio."
+      },
+      {
+        "numero": 25,
+        "titulo": "Patologías en la edificación afectas a la pintura. Causas. Reparaciones."
+      },
+      {
+        "numero": 26,
+        "titulo": "Andamios. Plataformas elevadoras y otros medios auxiliares. Condiciones que deben reunir."
+      },
+      {
+        "numero": 27,
+        "titulo": "Materias primas empleadas en artes gráficas. Vinilos adhesivos. Vinilo de corte. Adhesivos. Soportes del material gráfico. Tipos. Usos. Manipulación. Métodos de aplicación."
+      },
+      {
+        "numero": 28,
+        "titulo": "Protección medioambiental. Nociones básicas sobre contaminación ambiental. Principales riesgos medioambientales relacionados a las funciones de la categoría."
+      },
+      {
+        "numero": 29,
+        "titulo": "Prevención de riesgos laborales. Riesgos laborales específicos en las funciones del pintor, medidas de protección individuales y colectivas."
+      },
+      {
+        "numero": 30,
+        "titulo": "Seguridad en la aplicación de pinturas. Elementos para la seguridad física. Elementos para la seguridad química."
+      }
+    ]
+  }
+]

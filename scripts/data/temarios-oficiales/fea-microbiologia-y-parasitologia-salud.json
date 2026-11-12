@@ -1,0 +1,332 @@
+[
+  {
+    "bloque": "Materia común",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "Constitución Española de 1978: la protección de la salud en la Constitución. Estatuto de Autonomía de Aragón. Competencias en salud recogidas en el Estatuto de Autonomía. Las Cortes de Aragón. El Gobierno de Aragón."
+      },
+      {
+        "numero": 2,
+        "titulo": "El texto refundido de la Ley del Estatuto Básico del Empleado Público, aprobado por el Real Decreto Legislativo 5/2015: deberes del empleado público y código de conducta. Representación, participación y negociación colectiva."
+      },
+      {
+        "numero": 3,
+        "titulo": "El régimen jurídico de la protección de datos de carácter personal: Disposiciones generales. Principios de la protección de datos. Derechos de las personas."
+      },
+      {
+        "numero": 4,
+        "titulo": "El Procedimiento Administrativo Común de las Administraciones Públicas: Disposiciones Generales. Cómputo de plazos. Objeto y plazos de los recursos administrativos. El Régimen Jurídico del Sector Público: Disposiciones Generales."
+      },
+      {
+        "numero": 5,
+        "titulo": "Ley 14/86 General de Sanidad. Ley 6/2002 de Salud de Aragón. Principios generales, estructura, contenidos. Ley 16/2003 de cohesión y calidad del Sistema Nacional de Salud. Principios generales, estructura, contenidos."
+      },
+      {
+        "numero": 6,
+        "titulo": "Ley 44/2003 de Ordenación de las Profesiones Sanitarias. Ámbito de aplicación, contenidos. Ley 41/2002, de 14 de noviembre, básica reguladora de la autonomía del paciente y de derechos y obligaciones en materia de información y documentación clínica. Ley 9/2013, de 28 de noviembre, de Autoridad de Profesionales del Sistema Sanitario y de Servicios Sociales Públicos de Aragón."
+      },
+      {
+        "numero": 7,
+        "titulo": "Ley 55/2003 del Estatuto Marco de personal Estatutario de los Servicios de Salud (I). Principios generales, estructura, contenidos. Clasificación del personal estatutario. Derechos y deberes. Adquisición y pérdida de la condición de personal estatutario. Provisión de plazas, selección y promoción interna. Movilidad del personal."
+      },
+      {
+        "numero": 8,
+        "titulo": "Ley 55/2003 del Estatuto Marco de personal Estatutario de los Servicios de Salud (II). Retribuciones. Jornada de trabajo, permisos y licencias. Situaciones del personal estatutario. Régimen disciplinario. Modelo de Carrera Profesional en Aragón. Ley 53/1984 de 26 de diciembre, de incompatibilidades. Principios Generales. Ámbito de aplicación."
+      },
+      {
+        "numero": 9,
+        "titulo": "La igualdad de oportunidades entre mujeres y hombres en Aragón: Disposiciones generales. Prevención y Protección Integral a las Mujeres Víctimas de Violencia en Aragón: Disposiciones Generales. La identidad y expresión de género e igualdad social y no discriminación en la Comunidad Autónoma de Aragón: Disposiciones Generales. La diversidad cultural y lucha contra la discriminación: Principios y objetivos del vigente Plan Integral para la Gestión de la Diversidad de Aragón."
+      },
+      {
+        "numero": 10,
+        "titulo": "El sistema sanitario. Niveles asistenciales. Organización de los servicios sanitarios en Aragón. Estructura del Departamento de Sanidad de Aragón y del Servicio Aragonés de la Salud. Los Sectores sanitarios."
+      },
+      {
+        "numero": 11,
+        "titulo": "Metodología de la Investigación: El método científico. Diseño de un proyecto de investigación. Estadística aplicada a los estudios de Medicina."
+      },
+      {
+        "numero": 12,
+        "titulo": "El método epidemiológico. Epidemiología descriptiva: tipos de estudios, tasas e indicadores. Epidemiología analítica: tipos de estudios. Riesgo relativo, riesgo atribuible y Odds Ratio. Sesgos."
+      },
+      {
+        "numero": 13,
+        "titulo": "Estudios experimentales. Ensayos clínicos. Ética de la investigación clínica. Validez de métodos diagnósticos: sensibilidad, especificidad, valor predictivo positivo."
+      },
+      {
+        "numero": 14,
+        "titulo": "Evaluación de Tecnologías Sanitarias: Procedimientos de evaluación. Cartera de Servicios del Sistema Nacional de Salud. Procedimiento de actualización de la Cartera de Servicios del sistema de Salud de Aragón."
+      },
+      {
+        "numero": 15,
+        "titulo": "Práctica basada en la evidencia. Variabilidad en la práctica médica. Búsqueda y valoración de evidencias. Aplicación de las evidencias a la toma de decisiones clínicas. Guías clínicas. Proyecto Guía-Salud."
+      },
+      {
+        "numero": 16,
+        "titulo": "La seguridad del paciente. Gestión de riesgos. Principales problemas para la seguridad del paciente en el hospital. Estrategias para la mejora de la seguridad."
+      },
+      {
+        "numero": 17,
+        "titulo": "Uso Racional del Medicamento. Criterios de selección de medicamentos. Equivalentes terapéuticos. Indicadores de calidad de prescripción."
+      },
+      {
+        "numero": 18,
+        "titulo": "Evaluación y mejora de la calidad. Modelos de Gestión de la Calidad. Diseño de un programa de calidad."
+      },
+      {
+        "numero": 19,
+        "titulo": "Principios fundamentales de la bioética: aplicación a la asistencia sanitaria. La relación médico-paciente, el consentimiento informado. Los comités de Bioética. La ética en la investigación clínica."
+      },
+      {
+        "numero": 20,
+        "titulo": "Gobierno clínico. La implicación de los profesionales en el funcionamiento de las instituciones sanitarias."
+      }
+    ]
+  },
+  {
+    "bloque": "Materia específica",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "Microbiología Clínica: concepto y contenido. Taxonomía microbiana: criterios, métodos y clasificación de microorganismos. Relación huéspedmicroorganismo. Infección y enfermedad infecciosa. Factores de virulencia. Mecanismos de defensa frente a la infección."
+      },
+      {
+        "numero": 2,
+        "titulo": "Diagnóstico microbiológico. Diagnóstico directo (I). Obtención de muestras clínicas para diagnóstico microbiológico. Normas de transporte y conservación. Criterios de aceptación y rechazo de muestras. Visualización. Cultivo y aislamiento de patógenos a partir de muestras clínicas: Selección de medios, siembras, identificación bioquímica y antigénica. Criterios de patogenicidad. Identificación por espectrometría de masas"
+      },
+      {
+        "numero": 3,
+        "titulo": "Diagnóstico microbiológico. Diagnóstico directo (II). Detección de antígenos, metabolitos y ácidos nucleicos. Métodos de amplificación de ácidos nucleicos. Aportaciones de la microbiología molecular al diagnóstico, terapéutica y epidemiología de las enfermedades infecciosas. Técnicas de microbiología diagnóstica molecular:hibridación con sondas, métodos de amplificación y microarrays."
+      },
+      {
+        "numero": 4,
+        "titulo": "Inmunología microbiana (diagnóstico indirecto). Métodos de detección de anticuerpos en fluidos biológicos. Interpretación de los resultados. Sensibilidad, especificidad y otros parámetros. Marcadores serológicos."
+      },
+      {
+        "numero": 5,
+        "titulo": "Acción de los agentes físicos y químicos sobre los microorganismos. Esterilización: concepto, métodos, aplicaciones y controles. Antisépticos y desinfectantes: clasificación, mecanismos de acción, indicaciones, métodos de evaluación, mecanismos de resistencia, recomendaciones y control de su utilización."
+      },
+      {
+        "numero": 6,
+        "titulo": "Antibacterianos. Concepto y clasificación. Mecanismos de acción. Resistencia a los antibacterianos: bases genéticas y bioquímicas. Importancia de las resistencias y situación actual. Mecanismos de resistencia"
+      },
+      {
+        "numero": 7,
+        "titulo": "Métodos de estudio de los antibacterianos: antibiograma. Detección de resistencias mediante métodos moleculares. Interpretación clínica del antibiograma. Conceptos generales de la terapéutica antimicrobiana. Impacto clínico del uso de los antibacterianos: evaluación o control del tratamiento antibacteriano, epidemiología de la resistencia, política de utilización."
+      },
+      {
+        "numero": 8,
+        "titulo": "Género Staphylococcus. Género Micrococcus y otros cocos catalasa positivo aerobios. Diagnóstico de laboratorio, epidemiología, patogenia, cuadros clínicos, tratamiento y profilaxis."
+      },
+      {
+        "numero": 9,
+        "titulo": "Género Streptococcus. Género Enterococcus. Leuconostoc, Alloiococcus, Aerococcus, Pediococcus, Abiotrophia. Diagnóstico de laboratorio, epidemiología, patogenia, cuadros clínicos, tratamiento y profilaxis."
+      },
+      {
+        "numero": 10,
+        "titulo": "Géneros Haemophilus, Neisseria, Moraxella (Branhamella). Diagnóstico de laboratorio, epidemiología, patogenia, cuadros clínicos, tratamiento y profilaxis."
+      },
+      {
+        "numero": 11,
+        "titulo": "Géneros Bordetella, Legionella, Brucella, Pasteurella, Francisella. Otros bacilos y cocobacilos gramnegativos, Bartonella, Afipia. Otros bacilos gramnegativos de difícil crecimiento: Actinobacillus, Capnocytophaga, Eikenella. Diagnóstico de laboratorio, epidemiología, patogenia, cuadros clínicos, tratamiento y profilaxis."
+      },
+      {
+        "numero": 12,
+        "titulo": "Género Corynebacterium. Otros bacilos Gram positivos corineformes. Género Listeria. Género Erysipelothrix. Diagnóstico de laboratorio, epidemiología, patogenia, cuadros clínicos, tratamiento y profilaxis."
+      },
+      {
+        "numero": 13,
+        "titulo": "Género Bacillus. Actinomicetales de interés médico: Actinomyces, Nocardia, Rhodococcus. Otros actinomicetales. Diagnóstico de laboratorio, epidemiología, patogenia, cuadros clínicos, tratamiento y profilaxis."
+      },
+      {
+        "numero": 14,
+        "titulo": "Enterobacterias. Escherichia coli, Salmonella y Shigella. Enterobacterias oportunistas: Proteus, Klebsiella, Enterobacter, Citrobacter, Serratia. Otras especies de enterobacterias. Yersinia. Vibrionaceas: Vibrio cholerae. Otras especies patógenas del género Vibrio. Aeromonas. A.veronii, A.caviae, A.hydrophila. Plesiomonas. P. shigelloides. Diagnóstico de laboratorio, epidemiología, patogenia, cuadros clínicos, tratamiento y profilaxis."
+      },
+      {
+        "numero": 15,
+        "titulo": "Género Campylobacter. Género Helicobacter. Otros bacilos Gram negativos curvados. Diagnóstico de laboratorio, epidemiología, patogenia, cuadros clínicos, tratamiento y profilaxis."
+      },
+      {
+        "numero": 16,
+        "titulo": "Género Pseudomonas. Género Acinetobacter. Otros bacilos Gram negativos no fermentadores oportunistas: Stenotrophomonas, Alcaligenes. Diagnóstico de laboratorio, epidemiología, patogenia, cuadros clínicos, tratamiento y profilaxis."
+      },
+      {
+        "numero": 17,
+        "titulo": "Cocos y bacilos Gram positivos anaerobios. Genero Clostridium. Bacilos Gram positivos no esporulados: Actinomyces, Lactobacillus, Propionibacterium, Eubacterium, Bifidobacterium, Mobiluncus. Cocos Gram positivos, Peptostreptococcus, Peptococcus. Diagnóstico de laboratorio, epidemiología, patogenia, cuadros clínicos, tratamiento y profilaxis."
+      },
+      {
+        "numero": 18,
+        "titulo": "Cocos y bacilos Gram negativos anaerobios. Cocos Gram negativos anaerobios, Veillonella. Infecciones por bacilos Gram negativos anaerobios, Género Bacteroides. Prevotella y Porphyromonas. Fusobacterium. Otros bacilos Gram negativos anaerobios. Diagnóstico de laboratorio, epidemiología, patogenia, cuadros clínicos, tratamiento y profilaxis."
+      },
+      {
+        "numero": 19,
+        "titulo": "Género Treponema. Género Borrelia. Género Leptospira. Diagnóstico de laboratorio, epidemiología, patogenia, cuadros clínicos, tratamiento y profilaxis."
+      },
+      {
+        "numero": 20,
+        "titulo": "Género Micoplasma y Ureaplasma, Género Chlamydia, Género Rickettsia y Coxiella, Género Erlichia. Diagnóstico de laboratorio, epidemiología, patogenia, cuadros clínicos, tratamiento y profilaxis."
+      },
+      {
+        "numero": 21,
+        "titulo": "Micobacterias. Clasificación. Epidemiología. Patogenia. Fármacos antituberculosos: mecanismos de acción y resistencia. El laboratorio de micobacterias. Procesamiento de las muestras. Diagnóstico directo: tinciones, cultivo. Identificación: métodos fenotípicos, cromatográficos y genéticos. Métodos moleculares. Antibiograma: métodos. Identificación epidemiológica. Control de calidad. Normas de seguridad. IGRA (Ensayo de liberación de Interferón Gamma)."
+      },
+      {
+        "numero": 22,
+        "titulo": "Características de los hongos, estructura, taxonomía. Patogenia. Identificación de levaduras y mohos por métodos macroscópicos, microscópicos, bioquímicos, moleculares, serológicos."
+      },
+      {
+        "numero": 23,
+        "titulo": "Micosis cutáneas: dermatofitos, Malassezia, Sporothrix, Alternaria y otros hongos cutáneos y subcutáneos."
+      },
+      {
+        "numero": 24,
+        "titulo": "Candida, Aspergillus, Pneumocystis y otros hongos oportunitas. Cryptococcus, hongos endémicos. Control de la infección fúngica nosocomial."
+      },
+      {
+        "numero": 25,
+        "titulo": "Antifúngicos: mecanismos de acción, resistencia y estudio de sensibilidad."
+      },
+      {
+        "numero": 26,
+        "titulo": "Enfermedades parasitarias. Concepto de parasitismo. Diagnóstico de las parasitosis. Obtención de muestras. Diagnóstico directo. Tinciones. Cultivos. Diagnóstico inmunológico. Métodos moleculares. Epidemiología molecular. Estudio de brotes."
+      },
+      {
+        "numero": 27,
+        "titulo": "Protozoos. Metazoos. Nematodos. Cestodos. Trematodos. Parasitosis del enfermo inmunodeprimido. Artrópodos de interés sanitario."
+      },
+      {
+        "numero": 28,
+        "titulo": "Medicamentos antiparasitarios. Antiprotozoarios. Antihelmínticos. Tratamiento de ectoparásitos. Resistencias. Infecciones en relación con los viajes. Consejo al viajero. Normas. Fuentes de información. Vacunación necesaria."
+      },
+      {
+        "numero": 29,
+        "titulo": "Estructura, clasificación, taxonomía y mecanismos de patogénesis de los virus. Aspectos generales del diagnóstico virológico. Métodos y técnicas aplicables al diagnóstico de las infecciones virales."
+      },
+      {
+        "numero": 30,
+        "titulo": "Agentes antivirales. Mecanismo de acción. Toxicidad. Métodos de laboratorio para el estudio de la acción antiviral. Resistencia a los antivirales."
+      },
+      {
+        "numero": 31,
+        "titulo": "Herpesvirus. Clasificación. Infecciones causadas por Herpesvirus. Diagnóstico de laboratorio, epidemiología, patogenia, cuadros clínicos, tratamiento y profilaxis."
+      },
+      {
+        "numero": 32,
+        "titulo": "Papilomavirus, Poliomavirus y Parvovirus. Diagnóstico de laboratorio, epidemiología, patogenia, cuadros clínicos, tratamiento y profilaxis."
+      },
+      {
+        "numero": 33,
+        "titulo": "Virus de la gripe y otros virus respiratorios. Virus exantemáticos y virus de la parotiditis. Diagnóstico de laboratorio, epidemiología, patogenia, cuadros clínicos, tratamiento y profilaxis."
+      },
+      {
+        "numero": 34,
+        "titulo": "Enterovirus. Diagnóstico de laboratorio, epidemiología, patogenia, cuadros clínicos, tratamiento y profilaxis."
+      },
+      {
+        "numero": 35,
+        "titulo": "Virus causantes de gastroenteritis. Clasificación. Diagnóstico de laboratorio, epidemiología, patogenia, cuadros clínicos, tratamiento y profilaxis."
+      },
+      {
+        "numero": 36,
+        "titulo": "Virus de las hepatitis. Clasificación. Diagnóstico de laboratorio, epidemiología, patogenia, cuadros clínicos, tratamiento y profilaxis."
+      },
+      {
+        "numero": 37,
+        "titulo": "Filovirus. Virus de la Rabia. Arbovirus y Arenavirus. Diagnóstico de laboratorio, epidemiología, patogenia, cuadros clínicos, tratamiento y profilaxis."
+      },
+      {
+        "numero": 38,
+        "titulo": "Retrovirus. Clasificación. Diagnóstico de laboratorio, epidemiología y patogenia, cuadros clínicos, tratamiento y profilaxis del tratamiento del VIH. Carga viral. Resistencias. Viroides y priones."
+      },
+      {
+        "numero": 39,
+        "titulo": "Microbiota normal: Factores que determinan la flora normal. Flora normal de aparatos y sistemas. Funciones de la flora normal. Patógenos oportunistas. Factores que favorecen las infecciones oportunistas. Microorganismos contaminantes de muestras clínicas."
+      },
+      {
+        "numero": 40,
+        "titulo": "Fiebre de origen desconocido: concepto y definición. FOD de causa no infecciosa. Etiologías infecciosas de la FOD. Diagnóstico microbiológico. Bases microbiológicas para el tratamiento. Enfermedades tropicales o importadas."
+      },
+      {
+        "numero": 41,
+        "titulo": "Bacteriemia. Sepsis y shock séptico: Concepto y definición. Etiología. Patogenia. Manifestaciones clínicas. Diagnóstico microbiológico. Bases microbiológicas para el tratamiento. Epidemiología y profilaxis. Endocarditis infecciosa. Miocarditis. Pericarditis. Otras infecciones intravasculares: Etiología. Patogenia. Clínica. Diagnóstico microbiológico. Bases microbiológicas para el tratamiento. Epidemiología y profilaxis."
+      },
+      {
+        "numero": 42,
+        "titulo": "Infecciones del sistema nervioso central: Definición: Infecciones agudas y crónicas del SNC. Principales cuadros clínicos: Meningitis. Encefalitis. Absceso cerebral. Empiema subdural. Etiología. Patogenia. Diagnóstico microbiológico. Bases microbiológicas para el tratamiento. Epidemiología y profilaxis."
+      },
+      {
+        "numero": 43,
+        "titulo": "Infecciones del aparato respiratorio. Definición y clasificación. Etiología. Patogenia. Principales cuadros clínicos. Diagnóstico microbiológico. Bases microbiológicas para el tratamiento. Epidemiología y profilaxis."
+      },
+      {
+        "numero": 44,
+        "titulo": "Infecciones del tracto urinario: Definición. Clasificación. ITU no complicada, ITU complicada: Etiología. Epidemiología y patogenia. Cuadros Clínicos: Cistitis. Pielonefritis. Prostatitis. Abscesos renales y perirrenales. Diagnóstico microbiológico. Bases microbiológicas para el tratamiento. Profilaxis de la ITU recurrente. ITU del embarazo. ITU asociada a catéter."
+      },
+      {
+        "numero": 45,
+        "titulo": "Síndromes diarreicos de etiología infecciosa: Etiología. Patogenia. Clínica. Diagnóstico microbiológico. Bases microbiológicas para el tratamiento. Epidemiología y profilaxis. Diarrea asociada a antibióticos: Etiología. Clínica. Diagnóstico microbiológico. Tratamiento. Epidemiología y profilaxis. Diarrea del viajero. Técnicas de biología molecular para la detección de E.coli enteropatógenos."
+      },
+      {
+        "numero": 46,
+        "titulo": "Infecciones de piel y tejidos blandos: Clasificación. Principales cuadros clínicos: Piodermas, celulitis, fascitis, miositis, linfadenitis y linfangitis. Etiología. Patogenia. Diagnóstico microbiológico. Bases microbiológicas para el tratamiento. Epidemiología y profilaxis. Infecciones exantemáticas."
+      },
+      {
+        "numero": 47,
+        "titulo": "Infecciones osteo-articulares: Infecciones osteo-articulares: Clasificación. Principales cuadros clínicos: osteomielitis, artritis. Infecciones asociadas a prótesis óseas y articulares. Etiología. Patogenia. Diagnóstico microbiológico. Bases microbiológicas para el tratamiento. Epidemiología y profilaxis."
+      },
+      {
+        "numero": 48,
+        "titulo": "Enfermedades de transmisión sexual (ETS): Definición. Clasificación. Principales cuadros clínicos: uretritis, vulvovaginitis y cervicitis, enfermedad inflamatoria pélvica, epididimitis, orquitis. Otras ETS. Etiología. Patogenia. Diagnóstico microbiológico. Bases microbiológicas para el tratamiento. Epidemiología y profilaxis."
+      },
+      {
+        "numero": 49,
+        "titulo": "Infecciones obstétricas y perinatales. Clasificación. Etiología. Patogenia. Clínica. Diagnóstico microbiológico. Bases microbiológicas para el tratamiento. Epidemiología y profilaxis."
+      },
+      {
+        "numero": 50,
+        "titulo": "Infecciones asociadas a dispositivos protésicos. Etiología. Patogenia. Clínica. Diagnóstico microbiológico. Bases microbiológicas para el tratamiento. Epidemiología y profilaxis. Infecciones asociadas a catéteres intravasculares."
+      },
+      {
+        "numero": 51,
+        "titulo": "Infección en pacientes inmunodeprimidos. Factores que predisponen a la infección oportunista. Infecciones en pacientes neutropénicos, transplantados y grandes quemados. Epidemiología y profilaxis."
+      },
+      {
+        "numero": 52,
+        "titulo": "Síndrome de Inmunodeficiencia Adquirida. Infecciones oportunistas asociadas. Patogenia. Clínica. Diagnóstico microbiológico. Bases microbiológicas para el tratamiento. Epidemiología y profilaxis."
+      },
+      {
+        "numero": 53,
+        "titulo": "Infecciones nosocomiales. Introducción y conceptos. Definiciones de tipos de infección de los CDC. Epidemiología. Patogenia. Métodos de tipificación molecular. Sistemas de vigilancia e indicadores de las principales infecciones. Estructura y medios para el estudio y control de las infecciones nosocomiales y de la comunidad. Principales infecciones nosocomiales."
+      },
+      {
+        "numero": 54,
+        "titulo": "Prevención y control de las infecciones. Diseños de estudios epidemiológicos y análisis estadístico para identificar frecuencia, factores de riesgo y eficacia de las medidas. Estudio de brotes por microorganismos hospitalarios Comisión de Infecciones: composición y funciones."
+      },
+      {
+        "numero": 55,
+        "titulo": "Microbiología ambiental: control microbiológico del aire, controles microbiológicos del agua y control microbiológico de superficies, instrumentos y objetos utilizados en el cuidado del paciente."
+      },
+      {
+        "numero": 56,
+        "titulo": "Bioseguridad. Disposiciones legislativas y reglamentarias. Objetivación del riesgo biológico. Principales agentes biológicos y su clasificación de riesgo. Niveles de bioseguridad recomendados. Diseño de las instalaciones. Eliminación de residuos. Transporte, almacenamiento y envío de muestras biológicas. Planes de emergencia."
+      },
+      {
+        "numero": 57,
+        "titulo": "Bioterrorismo. Agentes biológicos potencialmente utilizables. Características clínicas y epidemiológicas. Obtención y procesamiento de muestras para su diagnóstico. Métodos y sistema de aislamiento de pacientes. Mecanismos de información, comunicación y actuación en caso de sospecha de actos de bioterrorismo."
+      },
+      {
+        "numero": 58,
+        "titulo": "Organización, gestión e información. Organigrama de un servicio. Cartera de servicios. Catálogo de productos y manual de procedimientos. Medidas de actividad y costes. Sistemas de información de laboratorios. Transmisión de la información."
+      },
+      {
+        "numero": 59,
+        "titulo": "Gestión de la calidad: Control de calidad, certificación, acreditación. Metodología de la gestión de la calidad. Modelos de sistemas de calidad y normativas. Responsabilidades en cuanto al sistema de calidad implantado."
+      },
+      {
+        "numero": 60,
+        "titulo": "Ingeniería hospitalaria y diseño de un laboratorio de Microbiología: Tipos de laboratorios de microbiología de acuerdo al tipo de hospital. Áreas generales y específicas. Superficies mínimas. Equipamiento. Planificación de las zonas de riesgo biológico. Climatización. Áreas experimentales y de investigación. Mantenimiento."
+      }
+    ]
+  }
+]

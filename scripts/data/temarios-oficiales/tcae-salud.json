@@ -1,0 +1,132 @@
+[
+  {
+    "bloque": "Materia común",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "La Constitución Española de 1978: Principios fundamentales. Derechos y deberes fundamentales de los ciudadanos. La protección a la salud en la Constitución."
+      },
+      {
+        "numero": 2,
+        "titulo": "La Corona. Las Cortes Generales. El Gobierno de la Nación. El Poder Judicial. Elaboración, aplicación e interpretación de las normas. Clases de normas y jerarquía normativa. Organización Territorial del Estado."
+      },
+      {
+        "numero": 3,
+        "titulo": "El Estatuto de Autonomía en Aragón. Principios informadores. Estructura y contenido. La organización institucional de la Comunidad Autónoma. Las Cortes y El Justicia de Aragón. Las competencias de la Comunidad de Aragón con especial referencia a las relativas a sanidad. Los órganos de gobierno y administración de la Comunidad Autónoma de Aragón. Estructura administrativa."
+      },
+      {
+        "numero": 4,
+        "titulo": "Población, geografía y territorio en Aragón. Desequilibrios demográficos en Aragón. Despoblación: causas y consecuencias. Magnitudes más relevantes de la economía aragonesa. Evolución reciente de la actividad económica en Aragón."
+      },
+      {
+        "numero": 5,
+        "titulo": "La igualdad de oportunidades entre mujeres y hombres en Aragón: Disposiciones generales. Prevención y Protección Integral a las Mujeres Víctimas de Violencia en Aragón: Disposiciones Generales. La identidad y expresión de género e igualdad social y no discriminación en la Comunidad Autónoma de Aragón: Disposiciones Generales. La diversidad cultural y lucha contra la discriminación: Principios y objetivos del Plan Integral para la Gestión de la Diversidad vigente en Aragón."
+      },
+      {
+        "numero": 6,
+        "titulo": "La Ley 14/1986, de 25 de abril, General de Sanidad: El Sistema Nacional de Salud y los Servicios de Salud de las Comunidades Autónomas. El Área de Salud. La Ley 6/2002, de 15 de abril, de Salud de Aragón. - Principios generales. Derecho y deberes de los ciudadanos. Derechos de información sobre la salud y autonomía del paciente."
+      },
+      {
+        "numero": 7,
+        "titulo": "El Departamento de Sanidad del Gobierno de Aragón. Estructura básica y competencias. El Servicio Aragonés de Salud: Estructura y competencias. El Decreto 174/2010, de 21 de septiembre, del Gobierno de Aragón, por el que se aprueba el reglamento de la estructura y funcionamiento de las áreas y sectores del Sistema de Salud de Aragón."
+      },
+      {
+        "numero": 8,
+        "titulo": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas. Ámbito de aplicación y principios generales. Los interesados en el procedimiento administrativo. Computo de plazos. Revisión de actos en vía administrativa: revisión de oficio y recursos administrativos."
+      },
+      {
+        "numero": 9,
+        "titulo": "Personal estatutario de los Servicios de Salud: Clasificación del personal estatutario. Derechos y Deberes. Adquisición y pérdida de la condición de personal estatutario. Provisión de plazas, selección y promoción interna. Movilidad del personal. Situación. Régimen disciplinario. Incompatibilidades. El texto refundido de la Ley del Estatuto Básico del Empleado Público, aprobado por el Real Decreto Legislativo 5/2015: Deberes del empleado público y código de conducta. Representación, participación y negociación colectiva."
+      },
+      {
+        "numero": 10,
+        "titulo": "Ley de Prevención de Riesgos Laborales: Conceptos básicos. Derechos y obligaciones en materia de seguridad en el trabajo. Organización de la prevención de riesgos laborales en la Comunidad Autónoma de Aragón. Distribución de funciones y responsabilidades en materia de prevención de riesgos laborales entre los diferentes órganos del Servicio Aragonés de Salud"
+      }
+    ]
+  },
+  {
+    "bloque": "Materia específica",
+    "temas": [
+      {
+        "numero": 11,
+        "titulo": "Salud Laboral: Condiciones físico-ambientales del trabajo, riesgos de naturaleza biológico, químico y físico. Medidas de prevención. Factores de naturaleza psicosocial: Stress, burnout, mobbing. Medidas de prevención."
+      },
+      {
+        "numero": 12,
+        "titulo": "Calidad en el Sistema Nacional de Salud: Concepto, dimensiones y métodos de evaluación de la calidad. Seguridad Clínica: Identificación de eventos adversos. Evitabilidad e impacto. Sistemas de notificación. Gestión de fármacos: caducidades, conservación y almacenamiento."
+      },
+      {
+        "numero": 13,
+        "titulo": "Gestión de residuos sanitarios en la Comunidad Autónoma de Aragón: Definición, clasificación, recogida, envasado, etiquetado, eliminación, transporte, almacenamiento y tratamiento."
+      },
+      {
+        "numero": 14,
+        "titulo": "Procedimiento de recogida y transporte de muestras biológicas: Concepto y tipos de muestras biológicas. Obtención, manipulación, transporte y conservación de muestras."
+      },
+      {
+        "numero": 15,
+        "titulo": "Trabajo en equipo: Concepto, características e importancia del trabajo en equipo. Funciones del Técnico en cuidados auxiliares de enfermería dentro del equipo asistencial. Secreto profesional. Comunicación: Concepto, tipos y estilos. Factores y barreras que influyen en la comunicación. Relación de ayuda al paciente y al cuidador principal. Empatía y escucha activa."
+      },
+      {
+        "numero": 16,
+        "titulo": "Infección nosocomial: Definición, consecuencias, cadena epidemiológica y barreras higiénicas. Actuación del Técnico en cuidados Auxiliares de Enfermería ante enfermedades infecciosas: Descripción de medidas y tipos de aislamiento."
+      },
+      {
+        "numero": 17,
+        "titulo": "Limpieza, desinfección, asepsia y antisepsia. Desinfectantes y antisépticos: Tipos y mecanismos de acción. El servicio de esterilización. Concepto y métodos. Preparación y tipos de material a esterilizar. Tipos de controles de esterilización. Control de calidad. Manipulación y conservación del material estéril."
+      },
+      {
+        "numero": 18,
+        "titulo": "Concepto de alimentación y nutrición. Clasificación de los alimentos. Dietas: Concepto y tipos. Nutrición enteral y parenteral: Concepto, vías y métodos de administración. Precaución y complicaciones. Registro de actividades."
+      },
+      {
+        "numero": 19,
+        "titulo": "Atención y cuidados del paciente en relación con las necesidades de eliminación. Diuresis y defecación. Factores que afectan a la defecación. Enemas: administración y tipos. Actividades de colaboración para la realización de los sondajes del aparato urinario, digestivo y rectal. Tipos, manipulación, características y alteraciones. Registro de actividades."
+      },
+      {
+        "numero": 20,
+        "titulo": "Atención y cuidados del paciente con problemas de movilidad. Factores que afectan la movilidad. Movilizaciones del sistema músculo esquelético. Movilización, traslado y deambulación: Tipos, técnicas y dispositivos de ayuda. Riesgo de caídas y medidas preventivas."
+      },
+      {
+        "numero": 21,
+        "titulo": "Atención y cuidados del paciente en las necesidades de higiene. Piel: Estructura y funciones. Higiene general y parcial del paciente. Concepto, objetivos y normas generales de actuación. Procedimientos para preservar la intimidad al realizar la higiene del paciente."
+      },
+      {
+        "numero": 22,
+        "titulo": "Atención y cuidados de la mujer gestante. Fecundación, gestación, parto y puerperio: concepto y características generales. Actuación del Técnico en Cuidados Auxiliares de Enfermería en la atención a la mujer durante el parto y en el puerperio inmediato. Cuidados básicos del recién nacido. Lactancia materna y artificial."
+      },
+      {
+        "numero": 23,
+        "titulo": "Control básico de constantes vitales: temperatura, respiración, pulso, tensión arterial, presión venosa central y balance hídrico. Pulsioximetría y gasometría. Estado nivel de Conciencia. Registro de actividades."
+      },
+      {
+        "numero": 24,
+        "titulo": "Concepto de urgencia/emergencia y prioridad. Reanimación cardio-pulmonar básica, soporte vital básico. Carro de parada: reposición y mantenimiento del material. Primeros auxilios: Situaciones cardiacas, politraumatizados, quemados, shock, intoxicación, heridas, hemorragias y asfixias."
+      },
+      {
+        "numero": 25,
+        "titulo": "Administración de medicamentos: Normas generales, tipos y vías de administración. Precauciones previas, durante y tras la administración. Tratamientos con termoterapia, crioterapia, hidroterapia y electroterapia: Concepto, beneficios, efectos sobre el organismo y precauciones. Oxigenoterapia: Métodos de administración y precauciones."
+      },
+      {
+        "numero": 26,
+        "titulo": "Atención de los Técnicos en Cuidados Auxiliares de Enfermería al paciente encamado. Procedimientos de preparación de las camas. Conocimientos básicos sobre las úlceras por presión. Movilización y cambios posturales."
+      },
+      {
+        "numero": 27,
+        "titulo": "Atención y cuidados en el paciente quirúrgico. Clasificación de la cirugía. Cuidados preoperatorios, intraoperatorios y postoperatorios. Instrumental médicoquirúrgico."
+      },
+      {
+        "numero": 28,
+        "titulo": "Plan de Salud Mental en Aragón. Líneas estratégicas, objetivos y actuaciones. Dispositivos para la atención de la salud mental en Aragón, características y funciones. Agitación psicomotriz, características y abordaje sanitario."
+      },
+      {
+        "numero": 29,
+        "titulo": "Atención y cuidados en el anciano: Concepto de ancianidad, cambios físicos y psicológicos asociados con el envejecimiento. La actuación del Técnico en Cuidados Auxiliares de Enfermería en los principales síndromes geriátricos. Medidas de apoyo al cuidador del anciano."
+      },
+      {
+        "numero": 30,
+        "titulo": "Concepto de enfermedad terminal, principales problemas, cuidados físicos y psíquicos al paciente. Cuidados paliativos. Signos de muerte cierta. Atención al duelo. Apoyo al cuidador principal y a la familia. Cuidados post-mortem."
+      }
+    ]
+  }
+]

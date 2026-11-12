@@ -1,0 +1,332 @@
+[
+  {
+    "bloque": "Materia común",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "Constitución Española de 1978: la protección de la salud en la Constitución. Estatuto de Autonomía de Aragón. Competencias en salud recogidas en el Estatuto de Autonomía. Las Cortes de Aragón. El Gobierno de Aragón."
+      },
+      {
+        "numero": 2,
+        "titulo": "El texto refundido de la Ley del Estatuto Básico del Empleado Público, aprobado por el Real Decreto Legislativo 5/2015: deberes del empleado público y código de conducta. Representación, participación y negociación colectiva."
+      },
+      {
+        "numero": 3,
+        "titulo": "El régimen jurídico de la protección de datos de carácter personal: Disposiciones generales. Derechos de las personas."
+      },
+      {
+        "numero": 4,
+        "titulo": "El Procedimiento Administrativo Común de las Administraciones Públicas: Disposiciones Generales. Cómputo de plazos. Objeto y plazos de los recursos administrativos. El Régimen Jurídico del Sector Público: Disposiciones Generales."
+      },
+      {
+        "numero": 5,
+        "titulo": "Ley 14/86 General de Sanidad. Ley 6/2002 de Salud de Aragón. Principios generales, estructura, contenidos. Ley 16/2003 de cohesión y calidad del Sistema Nacional de Salud. Principios generales, estructura, contenidos."
+      },
+      {
+        "numero": 6,
+        "titulo": "Ley 44/2003 de Ordenación de las Profesiones Sanitarias. Ámbito de aplicación, contenidos. Ley 41/2002, de 14 de noviembre, básica reguladora de la autonomía del paciente y de derechos y obligaciones en materia de información y documentación clínica. Ley 9/2013, de 28 de noviembre, de Autoridad de Profesionales del Sistema Sanitario y de Servicios Sociales Públicos de Aragón."
+      },
+      {
+        "numero": 7,
+        "titulo": "Ley 55/2003 del Estatuto Marco de personal Estatutario de los Servicios de Salud (I). Principios generales, estructura, contenidos. Clasificación del personal estatutario. Derechos y deberes. Adquisición y pérdida de la condición de personal estatutario. Provisión de plazas, selección y promoción interna. Movilidad del personal."
+      },
+      {
+        "numero": 8,
+        "titulo": "Ley 55/2003 del Estatuto Marco de personal Estatutario de los Servicios de Salud (II). Retribuciones. Jornada de trabajo, permisos y licencias. Situaciones del personal estatutario. Régimen disciplinario. Modelo de Carrera Profesional en Aragón. Ley 53/1984 de 26 de diciembre, de incompatibilidades. Principios Generales. Ámbito de aplicación."
+      },
+      {
+        "numero": 9,
+        "titulo": "La igualdad de oportunidades entre mujeres y hombres en Aragón: Disposiciones generales. Prevención y Protección Integral a las Mujeres Víctimas de Violencia en Aragón: Disposiciones Generales. La identidad y expresión de género e igualdad social y no discriminación en la Comunidad Autónoma de Aragón: Disposiciones Generales. La diversidad cultural y lucha contra la discriminación: Principios y objetivos del vigente Plan Integral para la Gestión de la Diversidad de Aragón."
+      },
+      {
+        "numero": 10,
+        "titulo": "El sistema sanitario. Niveles asistenciales. Organización de los servicios sanitarios en Aragón. Estructura del Departamento de Sanidad de Aragón y del Servicio Aragonés de la Salud. Los Sectores sanitarios."
+      },
+      {
+        "numero": 11,
+        "titulo": "Metodología de la Investigación: El método científico. Diseño de un proyecto de investigación. Estadística aplicada a los estudios de Medicina."
+      },
+      {
+        "numero": 12,
+        "titulo": "El método epidemiológico. Epidemiología descriptiva: tipos de estudios, tasas e indicadores. Epidemiología analítica: tipos de estudios. Riesgo relativo, riesgo atribuible y Odds Ratio. Sesgos."
+      },
+      {
+        "numero": 13,
+        "titulo": "Estudios experimentales. Ensayos clínicos. Ética de la investigación clínica. Validez de métodos diagnósticos: sensibilidad, especificidad, valor predictivo positivo."
+      },
+      {
+        "numero": 14,
+        "titulo": "Evaluación de Tecnologías Sanitarias: Procedimientos de evaluación. Cartera de Servicios del Sistema Nacional de Salud. Procedimiento de actualización de la Cartera de Servicios del sistema de Salud de Aragón."
+      },
+      {
+        "numero": 15,
+        "titulo": "Práctica basada en la evidencia. Variabilidad en la práctica médica. Búsqueda y valoración de evidencias. Aplicación de las evidencias a la toma de decisiones clínicas. Guías clínicas. Proyecto Guía-Salud."
+      },
+      {
+        "numero": 16,
+        "titulo": "La seguridad del paciente. Gestión de riesgos. Principales problemas para la seguridad del paciente en el hospital. Estrategias para la mejora de la seguridad."
+      },
+      {
+        "numero": 17,
+        "titulo": "Uso Racional del Medicamento. Criterios de selección de medicamentos. Equivalentes terapéuticos. Indicadores de calidad de prescripción."
+      },
+      {
+        "numero": 18,
+        "titulo": "Evaluación y mejora de la calidad. Modelos de Gestión de la Calidad. Diseño de un programa de calidad."
+      },
+      {
+        "numero": 19,
+        "titulo": "Principios fundamentales de la bioética: aplicación a la asistencia sanitaria. La relación médico-paciente, el consentimiento informado. Los comités de Bioética. La ética en la investigación clínica."
+      },
+      {
+        "numero": 20,
+        "titulo": "Gobierno clínico. La implicación de los profesionales en el funcionamiento de las instituciones sanitarias."
+      }
+    ]
+  },
+  {
+    "bloque": "Materia específica",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "Principios de la técnica quirúrgica: Asepsia y antisepsia. Diéresis, exéresis y síntesis. Anestesia. Hemostasia. Drenajes."
+      },
+      {
+        "numero": 2,
+        "titulo": "Unidad de cirugía mayor ambulatoria y de corta estancia."
+      },
+      {
+        "numero": 3,
+        "titulo": "Cirugía mínimamente invasiva. Principios generales. Equipamientos. Procesos más frecuentes. Indicaciones y contraindicaciones."
+      },
+      {
+        "numero": 4,
+        "titulo": "Pruebas diagnósticas en cirugía general. Indicaciones de la radiología simple, contrastes baritados e intravenosos, ultrasonidos, eco-dopppler, tomografía computarizada, resonancia magnética. Mamografías. Radiología intervencionista. Radiología intraoperatoria. Pruebas diagnósticas de laboratorio."
+      },
+      {
+        "numero": 5,
+        "titulo": "Proceso biológico de la curación de las lesiones traumáticas: Inflamación. Cicatrización."
+      },
+      {
+        "numero": 6,
+        "titulo": "Respuesta biológica a la agresión, accidental o quirúrgica: Respuestas homeostáticas a la agresión. Mediadores de la respuesta. Alteraciones endocrinas y consecuencias metabólicas."
+      },
+      {
+        "numero": 7,
+        "titulo": "Desviaciones de la respuesta biológica a la agresión: Síndrome de respuesta inflamatoria sistémica. Shock. Alteraciones hidroelectrolíticas y del equilibrio ácido-base. Bases de fluidoterapia. Insuficiencia respiratoria. Insuficiencia renal aguda. Fracaso multiorgánico."
+      },
+      {
+        "numero": 8,
+        "titulo": "Valoración preoperatoria del paciente: Valoración del riesgo quirúrgico y anestésico. Valoración y manejo nutricional. Valoración de la co-morbilidad."
+      },
+      {
+        "numero": 9,
+        "titulo": "Cuidados postoperatorios en el paciente quirúrgico: Analgesia y sedación. Cuidados respiratorios. Cuidados cardiovasculares. Cuidados metabólicos y nutricionales. Tromboembolismo pulmonar."
+      },
+      {
+        "numero": 10,
+        "titulo": "Infecciones en cirugía y cirugía de las infecciones: Fisiopatología de las infecciones en el paciente quirúrgico. Prevención y tratamiento antibiótico. Complicaciones infecciosas de la cirugía. Infecciones no quirúrgicas en pacientes quirúrgicos: sepsis por catéter, neumonía postoperatoria e infección urinaria."
+      },
+      {
+        "numero": 11,
+        "titulo": "Nutrición y cirugía: Requerimientos nutricionales. Valoración nutricional. Consecuencias de la malnutrición en el paciente quirúrgico. Técnicas de soporte nutricional: accesos parenteral y enteral."
+      },
+      {
+        "numero": 12,
+        "titulo": "Bases biológicas y técnicas de los trasplantes de órganos: Concepto de muerte cerebral. Identificación y mantenimiento del donante. Preservación del injerto. Tipos de trasplantes. Mecanismos y características del rechazo. Principios de la inmunosupresión."
+      },
+      {
+        "numero": 13,
+        "titulo": "Principios de la cirugía oncológica: Bases de la oncogénesis. Genética del cáncer. Inmunología y cáncer. Marcadores tumorales."
+      },
+      {
+        "numero": 14,
+        "titulo": "Fundamentos de los tratamientos adyuvantes y neoadyuvantes: Radioterapia. Quimioterapia. Inmunoterapia. Hormonoterapia."
+      },
+      {
+        "numero": 15,
+        "titulo": "Pruebas de función esofágica. Reflujo gastroesofágico: Esofagitis. Estenosis. Esófago de Barrett. Hernia hiatal."
+      },
+      {
+        "numero": 16,
+        "titulo": "Esofagitis: Cáusticas. Infecciosas. Trastornos de la motilidad: Achalasia. Otros. Divertículos esofágicos. Perforación esofágica. Fístula traqueoesofágica."
+      },
+      {
+        "numero": 17,
+        "titulo": "Patología tumoral: Tumores benignos. Cáncer de esófago. Cáncer de cardias."
+      },
+      {
+        "numero": 18,
+        "titulo": "Complicaciones de la cirugía del esófago."
+      },
+      {
+        "numero": 19,
+        "titulo": "Enfermedad ulcero-péptica. Síndromes de hipersecreción ácida."
+      },
+      {
+        "numero": 20,
+        "titulo": "Síndrome de Mallory-Weiss. Vólvulos gástricos. Hemorragia digestiva alta. Traumatismos duodenales."
+      },
+      {
+        "numero": 21,
+        "titulo": "Cáncer gástrico. Tumores estromales gastrointestinales."
+      },
+      {
+        "numero": 22,
+        "titulo": "Cirugía bariátrica. Síndrome postgastrectomía."
+      },
+      {
+        "numero": 23,
+        "titulo": "Obstrucción intestinal. Enfermedad inflamatoria intestinal (Enfermedad de Crohn). Síndrome del intestino corto. Enteritis rádica."
+      },
+      {
+        "numero": 24,
+        "titulo": "Trasplante de intestino delgado."
+      },
+      {
+        "numero": 25,
+        "titulo": "Hemorragia digestiva de origen en intestino delgado. Obstrucción vascular mesentérica. Traumatismos del intestino delgado."
+      },
+      {
+        "numero": 26,
+        "titulo": "Divertículos del intestino delgado. Tumores del intestino delgado."
+      },
+      {
+        "numero": 27,
+        "titulo": "Apendicitis aguda."
+      },
+      {
+        "numero": 28,
+        "titulo": "Complicaciones de la cirugía del intestino delgado: Fístulas. Adherencias."
+      },
+      {
+        "numero": 29,
+        "titulo": "Enfermedad diverticular del intestino grueso."
+      },
+      {
+        "numero": 30,
+        "titulo": "Colitis ulcerosa. Colitis isquémica."
+      },
+      {
+        "numero": 31,
+        "titulo": "Obstrucción colónica. Síndrome pseudoobstructivo (síndrome de Ogilvie)."
+      },
+      {
+        "numero": 32,
+        "titulo": "Hemorragia digestiva de origen colorectal. Traumatismos colónicos."
+      },
+      {
+        "numero": 33,
+        "titulo": "Vólvulos de colon. Pólipos colorectales. Síndromes de poliposis familiar."
+      },
+      {
+        "numero": 34,
+        "titulo": "Cáncer colorrectal."
+      },
+      {
+        "numero": 35,
+        "titulo": "Prolapso rectal. Hemorroides. Fisura anal. Absceso y fístula anal. Condilomas. Seno pilonidal."
+      },
+      {
+        "numero": 36,
+        "titulo": "Traumatismos anorectales. Cirugía del estreñimiento. Cirugía de la incontinencia."
+      },
+      {
+        "numero": 37,
+        "titulo": "Traumatismo hepático."
+      },
+      {
+        "numero": 38,
+        "titulo": "Absceso hepático. Hidatidosis."
+      },
+      {
+        "numero": 39,
+        "titulo": "Cirrosis. Hipertensión portal: Síndrome de Budd-Chiari. Manejo de la HDA por varices. Técnicas derivativas. TIPS."
+      },
+      {
+        "numero": 40,
+        "titulo": "Tumores benignos del hígado. Hepatocarcinoma. Cirugía de las metástasis hepáticas."
+      },
+      {
+        "numero": 41,
+        "titulo": "Trasplante hepático."
+      },
+      {
+        "numero": 42,
+        "titulo": "Colelitiasis. Colecistitis. Colangitis. Coledocolitiasis: Manejo quirúrgico, endoscópico y radiológico. Ileo biliar. Quistes del colédoco. Colangitis esclerosante primaria."
+      },
+      {
+        "numero": 43,
+        "titulo": "Tumores benignos de la vía biliar. Tumores malignos de la vía biliar: Colangiocarcinoma. Cáncer de vesícula biliar."
+      },
+      {
+        "numero": 44,
+        "titulo": "Complicaciones de la cirugía de la vía biliar: Estenosis benigna. Fístulas."
+      },
+      {
+        "numero": 45,
+        "titulo": "Páncreas anular y páncreas divisum. Pancreatitis crónica."
+      },
+      {
+        "numero": 46,
+        "titulo": "Pancreatitis aguda. Necrosis pancreática infectada y absceso pancreático. Pseudoquistes de páncreas. Fístula pancreática."
+      },
+      {
+        "numero": 47,
+        "titulo": "Cáncer de páncreas exocrino. Ampuloma."
+      },
+      {
+        "numero": 48,
+        "titulo": "Traumatismos pancreáticos. Trasplante de páncreas: Trasplante de órgano sólido. Trasplante de islotes."
+      },
+      {
+        "numero": 49,
+        "titulo": "Traumatismos esplénicos. Cirugía conservadora del bazo. Esplenectomía por hemopatías. Tumores esplénicos. Abscesos esplénicos."
+      },
+      {
+        "numero": 50,
+        "titulo": "Hernias diafragmáticas congénitas distintas a las de hiato. Hernias diafragmáticas traumáticas."
+      },
+      {
+        "numero": 51,
+        "titulo": "Hernia inguinal. Hernia crural. Hernia umbilical. Hernia incisional (Eventraciones). Hernia epigástrica. Hernia de Spiegel. Hernia lumbar. Hernia obturatriz. Hematoma de la vaina de los rectos."
+      },
+      {
+        "numero": 52,
+        "titulo": "Peritoneo: Peritonitis difusas. Peritonitis circunscritas y abscesos intraabdominales. Peritonitis primarias. Retroperitoneo: Infecciones primarias y secundarias. Tumores retroperitoneales y mesentéricos. Fibrosis retroperitoneal."
+      },
+      {
+        "numero": 53,
+        "titulo": "Glándula tiroides: Tiroiditis. Hipertiroidismo. Nódulo tiroideo. Bocio multinodular. Cáncer diferenciado de tiroides. Cáncer medular de tiroides. Cáncer anaplásico de tiroides. Complicaciones de la cirugía tiroidea. Sustitución hormonal. Bases del tratamiento con 131I."
+      },
+      {
+        "numero": 54,
+        "titulo": "Hiperparatiroidismo: Primario. Secundario. Terciario. Recurrente o persistente. Cáncer de paratiroides. Complicaciones de la cirugía paratiroidea. Hipoparatiroidismo."
+      },
+      {
+        "numero": 55,
+        "titulo": "Glándulas suprarrenales: Incidentaloma. Feocromocitoma. Tumores adrenocorticales: Hipercortisolismo. Hiperaldosteronismo. Manejo metabólico del perioperatorio. Sustitución hormonal."
+      },
+      {
+        "numero": 56,
+        "titulo": "Sistema endocrino digestivo: Insulinoma. Gastrinoma. Otros tumores del páncreas endocrino. Tumor carcinoide. Síndromes de neoplasia endocrina múltiple."
+      },
+      {
+        "numero": 57,
+        "titulo": "Patología del desarrollo mamario. Procesos inflamatorios e infecciosos (mastitis). Tumores benignos de la mama. Lesiones preneoplásicas. Tumores malignos de la mama. Reconstrucción mamaria."
+      },
+      {
+        "numero": 58,
+        "titulo": "Cabeza y cuello: Traumatismos. Tumores cervicales. Adenopatías cervicales."
+      },
+      {
+        "numero": 59,
+        "titulo": "Piel y partes blandas: Lesiones por agentes físicos y químicos. Infecciones: Infecciones supurativas. Fascitis necrotizante. Miositis necrotizante. Gangrena gaseosa. Infecciones estreptocócicas. Úlceras por decúbito. Tumores benignos. Tumores malignos: Epidermoide. Melanoma. Sarcomas."
+      },
+      {
+        "numero": 60,
+        "titulo": "Heridas por arma de fuego. Heridas por asta de toro. Mordeduras. Picaduras. Lesiones por efecto explosivo. Síndrome de aplastamiento."
+      }
+    ]
+  }
+]

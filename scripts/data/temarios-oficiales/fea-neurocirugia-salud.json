@@ -1,0 +1,332 @@
+[
+  {
+    "bloque": "Materia común",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "Constitución Española de 1978: la protección de la salud en la Constitución. Estatuto de Autonomía de Aragón. Competencias en salud recogidas en el Estatuto de Autonomía. Las Cortes de Aragón. El Gobierno de Aragón."
+      },
+      {
+        "numero": 2,
+        "titulo": "El Texto Refundido de la Ley del Estatuto Básico del Empleado Público, aprobado por el Real Decreto Legislativo 5/2015: deberes del empleado público y código de conducta. Representación, participación y negociación colectiva."
+      },
+      {
+        "numero": 3,
+        "titulo": "El régimen jurídico de la protección de datos de carácter personal: Disposiciones generales. Derechos de las personas."
+      },
+      {
+        "numero": 4,
+        "titulo": "El Procedimiento Administrativo Común de las Administraciones Públicas: Disposiciones Generales. Cómputo de plazos. Objeto y plazos de los recursos administrativos. El Régimen Jurídico del Sector Público: Disposiciones Generales."
+      },
+      {
+        "numero": 5,
+        "titulo": "Ley 14/1986 General de Sanidad. Ley 6/2002 de Salud de Aragón. Principios generales, estructura, contenidos. Ley 16/2003 de cohesión y calidad del Sistema Nacional de Salud. Principios generales, estructura, contenidos."
+      },
+      {
+        "numero": 6,
+        "titulo": "Ley 44/2003 de Ordenación de las Profesiones Sanitarias. Ámbito de aplicación, contenidos. Ley 41/2002, de 14 de noviembre, básica reguladora de la autonomía del paciente y de derechos y obligaciones en materia de información y documentación clínica. Ley 9/2013, de 28 de noviembre, de Autoridad de Profesionales del Sistema Sanitario y de Servicios Sociales Públicos de Aragón."
+      },
+      {
+        "numero": 7,
+        "titulo": "Ley 55/2003 del Estatuto Marco de personal Estatutario de los Servicios de Salud (I). Principios generales, estructura, contenidos. Clasificación del personal estatutario. Derechos y deberes. Adquisición y pérdida de la condición de personal estatutario. Provisión de plazas, selección y promoción interna. Movilidad del personal."
+      },
+      {
+        "numero": 8,
+        "titulo": "Ley 55/2003 del Estatuto Marco de personal estatutario de los servicios de salud (II). Retribuciones. Jornada de trabajo, permisos y licencias. Situaciones del personal estatutario. Régimen disciplinario. Modelo de carrera profesional en Aragón. Ley 53/1984, de 26 de diciembre, de incompatibilidades. Principios Generales. Ámbito de aplicación."
+      },
+      {
+        "numero": 9,
+        "titulo": "La igualdad de oportunidades entre mujeres y hombres en Aragón: Disposiciones generales. Prevención y Protección Integral a las Mujeres Víctimas de Violencia en Aragón: Disposiciones Generales. La identidad y expresión de género e igualdad social y no discriminación en la Comunidad Autónoma de Aragón: Disposiciones Generales. La diversidad cultural y lucha contra la discriminación: Principios y objetivos del Plan Integral para la Gestión de la Diversidad vigente en Aragón."
+      },
+      {
+        "numero": 10,
+        "titulo": "El sistema sanitario. Niveles asistenciales. Organización de los servicios sanitarios en Aragón. Estructura del Departamento de Sanidad de Aragón y del Servicio Aragonés de la Salud. Los Sectores sanitarios."
+      },
+      {
+        "numero": 11,
+        "titulo": "Metodología de la Investigación: El método científico. Diseño de un proyecto de investigación. Estadística aplicada a los estudios de Medicina."
+      },
+      {
+        "numero": 12,
+        "titulo": "El método epidemiológico. Epidemiología descriptiva: tipos de estudios, tasas e indicadores. Epidemiología analítica: tipos de estudios. Riesgo relativo, riesgo atribuible y Odds Ratio. Sesgos."
+      },
+      {
+        "numero": 13,
+        "titulo": "Estudios experimentales. Ensayos clínicos. Ética de la investigación clínica. Validez de métodos diagnósticos: sensibilidad, especificidad, valor predictivo positivo."
+      },
+      {
+        "numero": 14,
+        "titulo": "Evaluación de Tecnologías Sanitarias: Procedimientos de evaluación. Cartera de Servicios del Sistema Nacional de Salud. Procedimiento de actualización de la Cartera de Servicios del sistema de Salud de Aragón."
+      },
+      {
+        "numero": 15,
+        "titulo": "Práctica basada en la evidencia. Variabilidad en la práctica médica. Búsqueda y valoración de evidencias. Aplicación de las evidencias a la toma de decisiones clínicas. Guías clínicas. Proyecto Guía-Salud."
+      },
+      {
+        "numero": 16,
+        "titulo": "La seguridad del paciente. Gestión de riesgos. Principales problemas para la seguridad del paciente en el hospital. Estrategias para la mejora de la seguridad."
+      },
+      {
+        "numero": 17,
+        "titulo": "Uso Racional del Medicamento. Criterios de selección de medicamentos. Equivalentes terapéuticos. Indicadores de calidad de prescripción."
+      },
+      {
+        "numero": 18,
+        "titulo": "Evaluación y mejora de la calidad. Modelos de Gestión de la Calidad. Diseño de un programa de calidad."
+      },
+      {
+        "numero": 19,
+        "titulo": "Principios fundamentales de la bioética: aplicación a la asistencia sanitaria. La relación médico-paciente, el consentimiento informado. Los comités de Bioética. La ética en la investigación clínica."
+      },
+      {
+        "numero": 20,
+        "titulo": "Gobierno clínico. La implicación de los profesionales en el funcionamiento de las instituciones sanitarias."
+      }
+    ]
+  },
+  {
+    "bloque": "Materia específica",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "Anatomía y fisiología del sistema nervioso central, periférico y vegetativo."
+      },
+      {
+        "numero": 2,
+        "titulo": "Histología y anatomía patológica de los procesos más comunes del sistema nervioso central y periférico y de la columna vertebral."
+      },
+      {
+        "numero": 3,
+        "titulo": "Exploración neurológica. Examen clínico de las funciones cerebrales superiores. Exploración de pares craneales. Exploración motora, sensitiva y reflejos."
+      },
+      {
+        "numero": 4,
+        "titulo": "Estados alterados de consciencia: Diagnóstico diferencial y evaluación del coma. Escala de comas de Glasgow."
+      },
+      {
+        "numero": 5,
+        "titulo": "Muerte cerebral. Legislación vigente sobre trasplante de órganos."
+      },
+      {
+        "numero": 6,
+        "titulo": "Evaluación preoperatoria en Neurocirugía. Nociones de neuroanestesia. Evaluación neurofisiológica preoperatorio."
+      },
+      {
+        "numero": 7,
+        "titulo": "Fundamentos del diagnóstico por imagen. Radiología del cráneo. Radiología del raquis. Ecografía y Doppler. Tomografía axial computerizada. Resonancia magnética. Tomografía de emisión de positrones (PET). Medicina nuclear."
+      },
+      {
+        "numero": 8,
+        "titulo": "Angiografía cerebral, medular y de troncos supraaórticos. Electroencefalografía. Potenciales evocados. Electromiografía. LCR: estudios dinámicos y de laboratorio."
+      },
+      {
+        "numero": 9,
+        "titulo": "Cirugía estereotáxica. Bases teóricas e indicaciones."
+      },
+      {
+        "numero": 10,
+        "titulo": "Neuroendocrinología. Neuro-oftalmología. Neuro-otología."
+      },
+      {
+        "numero": 11,
+        "titulo": "Metabolismo y distribución de líquidos y electrolitos en los compartimentos intra y extracelulares. Manejo y requerimientos en condiciones normales y patológicas."
+      },
+      {
+        "numero": 12,
+        "titulo": "Neurofarmacología."
+      },
+      {
+        "numero": 13,
+        "titulo": "Hipertensión intracraneal. Fisiopatología. Síndromes de herniación cerebral. Hipertensión intracraneal benigna: pseudotumor de cerebro. Etiología, clínica y opciones de tratamiento quirúrgico."
+      },
+      {
+        "numero": 14,
+        "titulo": "Síndrome de compresión medular."
+      },
+      {
+        "numero": 15,
+        "titulo": "Malformaciones congénitas craneales: encefalocele y meningocele craneal. Aplasia cutis congénita."
+      },
+      {
+        "numero": 16,
+        "titulo": "Espina bífida abierta: mielomeningocele. Espina bífida oculta. Malformación de Chiari tipo 2. Anclaje medular postreparación de mielomeningocele. Malformación de Chiari tipo 1. Siringomielia. Quistes aracnoideos. Malformación de Dandy-Walker."
+      },
+      {
+        "numero": 17,
+        "titulo": "Anomalías de la charnela cráneo-cervical. Craneosinostosis no sindrómica. Síndromes con craneosinostosis. Malformaciones craneofaciales."
+      },
+      {
+        "numero": 18,
+        "titulo": "Hidrocefalia. Concepto, clasificación, etiología. Diagnóstico clínico y neuroradiológico. Hidrocefalia crónica del adulto: diagnóstico, indicaciones para la cirugía. Tratamiento de la hidrocefalia. Tratamiento médico. Tratamiento quirúrgico. Derivaciones de LCR.: complicaciones y su tratamiento. Ventriculostomía mediante neuroendoscopia: complicaciones y su tratamiento."
+      },
+      {
+        "numero": 19,
+        "titulo": "Tumores cerebrales. Epidemiología. Clasificación histológica y gradación de los tumores. Marcadores de proliferación tumoral. Factores de crecimiento tumoral. Factores angiogénicos. Genética molecular de tumores."
+      },
+      {
+        "numero": 20,
+        "titulo": "Gliomas de bajo grado supratentoriales: astrocitoma, oligodendroglioma y tumores gliales mixtos. Gliomas malignos: astrocitoma anaplásico, glioblastoma multiforme, gliosarcoma y oligodendroglioma maligno."
+      },
+      {
+        "numero": 21,
+        "titulo": "Meningiomas. Clasificación anatomopatológica. Criterios quirúrgicos. Recidivas. Opciones no quirúrgicas de tratamiento."
+      },
+      {
+        "numero": 22,
+        "titulo": "Tumores de la fosa craneal posterior: meduloblastoma, ependimoma, papiloma de los plexos y astrocitoma benigno."
+      },
+      {
+        "numero": 23,
+        "titulo": "Tumores ventriculares. Tumores de los ventrículos laterales. Tumores del tercer ventrículo."
+      },
+      {
+        "numero": 24,
+        "titulo": "Ependimoma intracraneal. Subependimoma."
+      },
+      {
+        "numero": 25,
+        "titulo": "Tumores del tronco cerebral. Clasificación anatomoclínica. Criterios de cirugía. Opciones de tratamiento."
+      },
+      {
+        "numero": 26,
+        "titulo": "Tumores hipofisarios. Adenomas. Craneofaringiomas. Tumores de la región pineal. Clasificación. Diagnóstico. Opciones de tratamiento."
+      },
+      {
+        "numero": 27,
+        "titulo": "Linfomas intracerebrales. Carcinomatosis meníngea: problemas quirúrgicos."
+      },
+      {
+        "numero": 28,
+        "titulo": "Metástasis cerebrales. Etiología, diagnóstico e indicaciones de tratamiento quirúrgico. Selección de pacientes para la cirugía."
+      },
+      {
+        "numero": 29,
+        "titulo": "Tratamientos coadyuvantes en los tumores de cerebro. Tratamientos quimioterápicos. Radioterapia. Radiocirugía."
+      },
+      {
+        "numero": 30,
+        "titulo": "Tumores del cráneo. Tumores de la órbita. Tumores de la base del cráneo."
+      },
+      {
+        "numero": 31,
+        "titulo": "Tumores intramedulares: astrocitoma y ependimoma. Otras variedades histológicas. Tumores extramedulares intradurales. Meningioma y neurinoma. Otros tumores."
+      },
+      {
+        "numero": 32,
+        "titulo": "Tumores vertebrales primitivos. Metástasis vertebrales: origen, diagnóstico y tratamiento quirúrgico. Selección de pacientes para la cirugía."
+      },
+      {
+        "numero": 33,
+        "titulo": "Ictus isquémico cerebral. Ataque isquémico transitorio. Modalidades de diagnóstico. Indicaciones de cirugía."
+      },
+      {
+        "numero": 34,
+        "titulo": "Hemorragia subaracnoidea. Epidemiología, etiología, diagnóstico y tratamiento."
+      },
+      {
+        "numero": 35,
+        "titulo": "Aneurismas intracraneales. Etiología y clasificación. Opciones de tratamiento: cirugía, abordajes y embolización."
+      },
+      {
+        "numero": 36,
+        "titulo": "Hematomas intracerebrales espontáneos. Etiología, clasificación. Indicaciones del tratamiento quirúrgico. Pronóstico. Hematomas de fosa posterior."
+      },
+      {
+        "numero": 37,
+        "titulo": "Malformaciones arteriovenosas cerebrales. Clasificación. Diagnóstico y opciones de tratamiento: cirugía, embolización y radiocirugía. Fístulas carótidocavernosas: espontánea y traumática. Clínica, diagnóstico y tratamiento."
+      },
+      {
+        "numero": 38,
+        "titulo": "Trombosis venosa y de los senos venosos."
+      },
+      {
+        "numero": 39,
+        "titulo": "Cavernomas supra e infratentoriales. Clínica. Opciones e indicaciones de tratamiento."
+      },
+      {
+        "numero": 40,
+        "titulo": "Lesiones vasculares de la médula espinal. Clasificación y tratamiento quirúrgico y endovascular."
+      },
+      {
+        "numero": 41,
+        "titulo": "Traumatismo craneoencefálico. Fisiopatología. Tratamiento y pronóstico."
+      },
+      {
+        "numero": 42,
+        "titulo": "Fracturas craneales: fracturas de la bóveda, fracturas de la base de cráneo. Fracturas con hundimiento craneal. Criterios quirúrgicos."
+      },
+      {
+        "numero": 43,
+        "titulo": "Hematoma epidural intracraneal, hematoma subdural agudo y hematoma subdural crónico. Clínica, diagnóstico y tratamiento."
+      },
+      {
+        "numero": 44,
+        "titulo": "Traumatismo craneofacial. Fístulas de líquido cefalorraquídeo posttraumáticas."
+      },
+      {
+        "numero": 45,
+        "titulo": "Heridas penetrantes craneoencefálicas. Manejo inicial. Tratamiento quirúrgico. Complicaciones."
+      },
+      {
+        "numero": 46,
+        "titulo": "Secuelas de los traumatismos craneales. Síndrome post-traumático. Epilepsia. Lesiones de pares craneales. Secuelas neuropsicológicas y su rehabilitación."
+      },
+      {
+        "numero": 47,
+        "titulo": "Traumatismo raquimedular. Epidemiología. Evaluación del paciente. Diagnóstico y tratamiento inicial."
+      },
+      {
+        "numero": 48,
+        "titulo": "Lesiones traumáticas de la médula espinal. Evaluación, diagnóstico y tratamiento. Indicaciones del tratamiento quirúrgico. Cuidados del paciente tetra y parapléjico."
+      },
+      {
+        "numero": 49,
+        "titulo": "Fracturas y luxaciones de columna cervical alta (atlas y axis). Fracturas y luxaciones cervicales subaxiales. Fracturas y luxaciones del raquis torácico. Fracturas y luxaciones del raquis lumbar. Fracturas del sacro."
+      },
+      {
+        "numero": 50,
+        "titulo": "Conceptos y mecanismos de biomecánica del raquis. Conceptos de inestabilidad de columna. Indicaciones de las fijaciones con instrumentación de la columna. Complicaciones de la instrumentación del raquis."
+      },
+      {
+        "numero": 51,
+        "titulo": "Hernia discal cervical, hernia discal torácica, hernia discal lumbar y estenosis del canal lumbar. Clínica, diagnóstico y tratamiento."
+      },
+      {
+        "numero": 52,
+        "titulo": "Cuadros de fracaso de la cirugía de columna. Diagnóstico y tratamiento."
+      },
+      {
+        "numero": 53,
+        "titulo": "Cirugía de nervios periféricos. Etiología e indicaciones de la cirugía. Técnicas de evaluación y tratamiento quirúrgico. Compresión del nervio mediano y del cubital."
+      },
+      {
+        "numero": 54,
+        "titulo": "Lesiones quirúrgicas del Sistema Nervioso Vegetativo."
+      },
+      {
+        "numero": 55,
+        "titulo": "Diagnóstico y cirugía de la epilepsia."
+      },
+      {
+        "numero": 56,
+        "titulo": "Neurocirugía en la enfermedad de Parkinson. Tratamiento del temblor. Neurocirugía en trastornos psiquiátricos. Tratamiento de la espasticidad."
+      },
+      {
+        "numero": 57,
+        "titulo": "Tratamiento del dolor. Teorías del dolor. Tratamiento médico. Tratamiento quirúrgico. Técnicas percutáneas. Neurectomía percutánea del trigémino. Descompresión microvascular. Radiocirugía en la neuralgia del trigémino."
+      },
+      {
+        "numero": 58,
+        "titulo": "Absceso cerebral. Empiema cerebral. Etiología, diagnóstico, tratamiento médico y tratamiento quirúrgico. Secuelas."
+      },
+      {
+        "numero": 59,
+        "titulo": "Infecciones del raquis. Absceso epidural espinal. Osteomielitis vertebral no tuberculosa. Osteítis vertebral tuberculosa (Pott). Discitis espontánea y postquirúrgica."
+      },
+      {
+        "numero": 60,
+        "titulo": "Enfermedades parasitarias del SNC: neurocisticercosis, quiste hidatídico, enfermedades por hongos. Complicaciones neurológicas por infección de VIH."
+      }
+    ]
+  }
+]

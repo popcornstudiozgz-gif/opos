@@ -1,0 +1,332 @@
+[
+  {
+    "bloque": "Materia común",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "Constitución Española de 1978: la protección de la salud en la Constitución. Estatuto de Autonomía de Aragón. Competencias en salud recogidas en el Estatuto de Autonomía. Las Cortes de Aragón. El Gobierno de Aragón."
+      },
+      {
+        "numero": 2,
+        "titulo": "El texto refundido de la Ley del Estatuto Básico del Empleado Público, aprobado por el Real Decreto Legislativo 5/2015: deberes del empleado público y código de conducta. Representación, participación y negociación colectiva."
+      },
+      {
+        "numero": 3,
+        "titulo": "El régimen jurídico de la protección de datos de carácter personal: Disposiciones generales. Principios de la protección de datos. Derechos de las personas."
+      },
+      {
+        "numero": 4,
+        "titulo": "El Procedimiento Administrativo Común de las Administraciones Públicas: Disposiciones Generales. Cómputo de plazos. Objeto y plazos de los recursos administrativos. El Régimen Jurídico del Sector Público: Disposiciones generales."
+      },
+      {
+        "numero": 5,
+        "titulo": "Ley 14/86 General de Sanidad. Ley 6/2002 de Salud de Aragón. Principios generales, estructura, contenidos. Ley 16/2003 de cohesión y calidad del Sistema Nacional de Salud. Principios generales, estructura, contenidos."
+      },
+      {
+        "numero": 6,
+        "titulo": "Ley 44/2003 de Ordenación de las Profesiones Sanitarias. Ámbito de aplicación, contenidos. Ley 41/2002, de 14 de noviembre, básica reguladora de la autonomía del paciente y de derechos y obligaciones en materia de información y documentación clínica. Ley 9/2013, de 28 de noviembre, de Autoridad de Profesionales del Sistema Sanitario y de Servicios Sociales Públicos de Aragón."
+      },
+      {
+        "numero": 7,
+        "titulo": "Ley 55/2003 del Estatuto Marco de personal estatutario de los servicios de salud (I). Principios generales, estructura, contenidos. Clasificación del personal estatutario. Derechos y deberes. Adquisición y pérdida de la condición de personal estatutario. Provisión de plazas, selección y promoción interna. Movilidad del personal."
+      },
+      {
+        "numero": 8,
+        "titulo": "Ley 55/2003 del Estatuto Marco de personal estatutario de los servicios de salud (II). Retribuciones. Jornada de trabajo, permisos y licencias. Situaciones del personal estatutario. Régimen disciplinario. Modelo de carrera profesional en Aragón. Ley 53/1984 de 26 de diciembre, de incompatibilidades. Principios generales. Ámbito de aplicación."
+      },
+      {
+        "numero": 9,
+        "titulo": "La igualdad de oportunidades entre mujeres y hombres en Aragón: Disposiciones generales. Prevención y protección integral a las mujeres víctimas de violencia en Aragón: Disposiciones generales. La identidad y expresión de género e igualdad social y no discriminación en la Comunidad Autónoma de Aragón: Disposiciones generales. La diversidad cultural y lucha contra la discriminación: Principios y objetivos del Plan integral para la gestión de la diversidad vigente en Aragón."
+      },
+      {
+        "numero": 10,
+        "titulo": "El sistema sanitario. Niveles asistenciales. Organización de los servicios sanitarios en Aragón. Estructura del Departamento de Sanidad de Aragón y del Servicio Aragonés de la Salud. Los Sectores sanitarios."
+      },
+      {
+        "numero": 11,
+        "titulo": "Metodología de la investigación: El método científico. Diseño de un proyecto de investigación. Estadística aplicada a los estudios de medicina."
+      },
+      {
+        "numero": 12,
+        "titulo": "El método epidemiológico. Epidemiología descriptiva: tipos de estudios, tasas e indicadores. Epidemiología analítica: tipos de estudios. Riesgo relativo, riesgo atribuible y Odds Ratio. Sesgos."
+      },
+      {
+        "numero": 13,
+        "titulo": "Estudios experimentales. Ensayos clínicos. Ética de la investigación clínica. Validez de métodos diagnósticos: sensibilidad, especificidad, valor predictivo positivo."
+      },
+      {
+        "numero": 14,
+        "titulo": "Evaluación de tecnologías sanitarias: Procedimientos de evaluación. Cartera de servicios del Sistema Nacional de Salud. Procedimiento de actualización de la Cartera de servicios del Sistema de Salud de Aragón."
+      },
+      {
+        "numero": 15,
+        "titulo": "Práctica basada en la evidencia. Variabilidad en la práctica médica. Búsqueda y valoración de evidencias. Aplicación de las evidencias a la toma de decisiones clínicas. Guías clínicas. Proyecto Guía-Salud."
+      },
+      {
+        "numero": 16,
+        "titulo": "La seguridad del paciente. Gestión de riesgos. Principales problemas para la seguridad del paciente en el hospital. Estrategias para la mejora de la seguridad."
+      },
+      {
+        "numero": 17,
+        "titulo": "Uso racional del medicamento. Criterios de selección de medicamentos. Equivalentes terapéuticos. Indicadores de calidad de prescripción."
+      },
+      {
+        "numero": 18,
+        "titulo": "Evaluación y mejora de la calidad. Modelos de gestión de la calidad. Diseño de un programa de calidad."
+      },
+      {
+        "numero": 19,
+        "titulo": "Principios fundamentales de la bioética: aplicación a la asistencia sanitaria. La relación médico-paciente, el consentimiento informado. Los comités de bioética. La ética en la investigación clínica."
+      },
+      {
+        "numero": 20,
+        "titulo": "Gobierno clínico. La implicación de los profesionales en el funcionamiento de las instituciones sanitarias."
+      }
+    ]
+  },
+  {
+    "bloque": "Materia específica",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "Legislación aplicable a los servicios de farmacia. Características de la legislación sobre farmacia hospitalaria en la Comunidad Autónoma de Aragón. Personal auxiliar."
+      },
+      {
+        "numero": 2,
+        "titulo": "Docencia. Programas de formación pregrado y postgrado. Requisitos de acreditación de los servicios de farmacia hospitalaria para la docencia especializada. Formación de especialistas. Objetivos y desarrollo del programa. Evaluación de resultados."
+      },
+      {
+        "numero": 3,
+        "titulo": "Estructura, organización y planificación de un servicio de farmacia. Técnicas básicas de organización y gestión. Métodos para establecer un orden de prioridad racional en el desarrollo de las funciones de un servicio de farmacia."
+      },
+      {
+        "numero": 4,
+        "titulo": "Gestión económica del servicio de farmacia. Gestión y procedimientos de adquisiciones. Sistemas de gestión. Gestión de existencias. Control y análisis de la gestión económica hospitalaria. Indicadores de gestión de adquisiciones y de existencias. Seguimiento del presupuesto"
+      },
+      {
+        "numero": 5,
+        "titulo": "Sistema de gestión de la calidad de los servicios de farmacias: objetivos, metodología, definición de estándares, indicadores, evaluación y seguimiento."
+      },
+      {
+        "numero": 6,
+        "titulo": "Memoria del servicio de farmacia. Indicadores de actividad, calidad y económicos."
+      },
+      {
+        "numero": 7,
+        "titulo": "Uso racional del medicamento. Prescripción por principio activo. Problemas derivados de la terapia farmacológica. Revisión de polimedicados. Terapia secuencial. Comisiones que fomentan el uso racional del medicamento en Aragón."
+      },
+      {
+        "numero": 8,
+        "titulo": "Sistemas informáticos en los servicios de farmacia. Impacto de las nuevas tecnologías en los procesos de prescripción, administración y dispensación de medicamentos: informatización y automatización. Sistemas robotizados. Sistemas informatizados de prescripción: prescripción electrónica y prescripción electrónica asistida."
+      },
+      {
+        "numero": 9,
+        "titulo": "Dispensación de los medicamentos de especial control. Estupefacientes y psicótropos. Medicamentos de uso restringido. Medicamentos extranjeros. Especial control médico. Medicamentos de uso hospitalario y de diagnóstico hospitalario. RD 1015/2009. Medicamentos en situaciones especiales. Normativa en la Comunidad Autónoma de Aragón."
+      },
+      {
+        "numero": 10,
+        "titulo": "Dispensación de medicamentos. Sistemas de dispensación de medicamentos. Reposición de botiquines. Sistema de distribución de medicamentos dosis unitaria. Dispensación automatizada. Control de botiquines. Indicadores de actividad y de calidad."
+      },
+      {
+        "numero": 11,
+        "titulo": "Unidad de dispensación de medicamentos a pacientes externos. Funciones de la unidad. Legislación. Funciones del farmacéutico y técnicas de entrevista clínica. Programa de actuaciones farmacéutica en pacientes externos. Indicadores de calidad."
+      },
+      {
+        "numero": 12,
+        "titulo": "Farmacotecnia (I). Fórmulas magistrales y preparados oficinales. Real Decreto 175/2001. Elaboración. Formulación por terceros. Formulas normalizadas. Preparaciones especiales. Adaptación de los servicios de farmacia al Real Decreto 175/2001. Guía de buenas prácticas de preparación de medicamentos en servicios de farmacia hospitalaria."
+      },
+      {
+        "numero": 13,
+        "titulo": "Farmacotecnia (II). Organización. Funciones. Farmacopea española. Formulario nacional. Materias primas y material de acondicionamiento. Muestras y métodos analíticos. Reenvasado de medicamentos en dosis unitaria."
+      },
+      {
+        "numero": 14,
+        "titulo": "Farmacotecnia (III). Preparación de formas farmacéuticas estériles y no estériles. Elaboración de formas farmacéuticas orales, de aplicación en cavidades orgánicas y tópicas, de inyectables, mezclas intravenosas. Unidad centralizada de mezclas intravenosas Procedimientos normalizados de trabajo. Control de calidad. Legislación."
+      },
+      {
+        "numero": 15,
+        "titulo": "CIM (I) Información de medicamentos. Funciones del CIM. Fuentes de Información. Técnicas de selección de fuentes bibliográficas. Bases de datos. Evaluación de la información. Información activa y pasiva. Control de calidad. Sistemas de información dirigidos al profesional. Sistemas de información dirigidos al paciente. Estrategias de educación sanitaria sobre medicamentos."
+      },
+      {
+        "numero": 16,
+        "titulo": "CIM (II) Comisión de farmacia y terapéutica. Comité de evaluación de nuevos medicamentos en los hospitales del Servicio Aragonés de Salud: funcionamiento, organización, recomendaciones de uso de fármacos de Aragón, protocolos de tratamiento."
+      },
+      {
+        "numero": 17,
+        "titulo": "CIM (III) Métodos para la evaluación y seguimiento de la selección de medicamentos. Criterios de selección de medicamentos. Guía de inclusión de nuevos fármacos (GINF). Informe Genesis. Software: programa Madre. Guía Farmacoterapéutica. Establecimiento de protocolos. Seguimiento y evaluación de cumplimiento. Informes de posicionamiento terapéutico."
+      },
+      {
+        "numero": 18,
+        "titulo": "Farmacoepidemiología. Estudios de utilización de medicamentos. Conceptos básicos en farmacoepidemiología. Estudios cuantitativos y cualitativos. Métodos comparativos. Unidades de medidas. Estudios cualitativos. Indicadores. Tipos de estudios epidemiológicos: estudios observacionales y estudios experimentales."
+      },
+      {
+        "numero": 19,
+        "titulo": "Farmacoeconomía. Concepto. Tipos de estudios. Análisis de minimización de costes: coste/efectividad, coste/beneficio, coste/utilidad. Medidas de calidad de vida relacionada con la Salud."
+      },
+      {
+        "numero": 20,
+        "titulo": "Interacciones medicamentosas. Concepto. Tipos de interacciones: fisicoquímicas, farmacodinámicas y farmacocinéticas. Detección y prevención de las interacciones farmacológicas."
+      },
+      {
+        "numero": 21,
+        "titulo": "Equivalentes terapéuticos. Concepto. Bases para establecer la equivalencia terapéutica. Programas de intercambio terapéutico en Aragón. Aspectos legales del intercambio terapéutico. Criterios de calidad de un programa de intercambio terapéutico."
+      },
+      {
+        "numero": 22,
+        "titulo": "Medicamentos biosimilares. Definición. Marco legal. Semejanzas y diferencias con los medicamentos genéricos."
+      },
+      {
+        "numero": 23,
+        "titulo": "Farmacocinética clínica. Concepto. Parámetros farmacocinéticos y farmacodinámicos. Métodos de estimación de parámetros farmacocinéticos individuales y poblacionales. Monitorización de fármacos en la práctica clínica. Factores fisiopatológicos y clínicos que modifican la farmacocinética de los fármacos. Metodología de la monitorización. Modelos farmacocinéticos. Métodos de ajustes. Indicaciones de la monitorización. Monitorización farmacocinética en situaciones especiales: paciente crítico, paciente pediátrico, diálisis y diálisis peritoneal, obesos."
+      },
+      {
+        "numero": 24,
+        "titulo": "Toxicología clínica. Concepto. Intoxicaciones y agentes tóxicos. Clasificación. Tratamiento de las intoxicaciones. Pautas de tratamientos. Antagonistas y antídotos: clasificación, mecanismos de acción."
+      },
+      {
+        "numero": 25,
+        "titulo": "Nutrición artificial (I). Concepto. Estructuración de una unidad para la elaboración de mezclas para nutrición parenteral. Preparación de mezclas. Estabilidad de las mezclas. Incompatibilidades. Interacciones nutrientes/fármacos. Control de calidad."
+      },
+      {
+        "numero": 26,
+        "titulo": "Nutrición artificial (II): Nutrición parenteral. Indicaciones. Técnicas y vías de administración. Valoración del estado nutricional. Requerimientos nutricionales. Formulación en nutrición parenteral. Inicio y seguimiento clínico de la nutrición: controles. Complicaciones. Nutrición parenteral domiciliaria."
+      },
+      {
+        "numero": 27,
+        "titulo": "Nutrición artificial (III). Nutrición enteral. Concepto e indicaciones. Selección de preparados para nutrición enteral. Sistemas y técnicas de administración. Complicaciones. Nutrición enteral domiciliaria. Interacciones fármacos/nutrientes."
+      },
+      {
+        "numero": 28,
+        "titulo": "Nutrición artificial (IV): Nutrición enteral y parenteral en situaciones especiales. Nutrición en pediatría y neonatología. Insuficiencia renal. Insuficiencia hepática. Enfermedad inflamatoria intestinal. Quemados y politraumatizados."
+      },
+      {
+        "numero": 29,
+        "titulo": "Medicamentos huérfanos. Enfermedades raras. Marco legal."
+      },
+      {
+        "numero": 30,
+        "titulo": "Farmacia Oncológica (I). Organización de una unidad centralizada de citostáticos. Estructura. Equipamiento. Funciones de la unidad. Protocolos seguros de trabajo. Protocolos de derrame y neutralización. Funciones del farmacéutico. Control de calidad. Conservación, manipulación y administración de citostáticos. Control de calidad."
+      },
+      {
+        "numero": 31,
+        "titulo": "Farmacia Oncológica (II). Toxicidad de la quimioterapia: concepto, tipos y grados. Reacciones adversa de los agentes antineoplásicos. Terapias asociadas: control de la emesis, dolor, caquexia, infecciones, inmunosupresión, anemia, hipercalcemia tumoral."
+      },
+      {
+        "numero": 32,
+        "titulo": "Farmacia Oncológica (III). Protocolos de tratamiento de la toxicidad local de citostáticos: extravasaciones y tratamiento."
+      },
+      {
+        "numero": 33,
+        "titulo": "Farmacoterapia tumores sólidos: mama, pulmón, colorrectal y próstata. Inmunoterapia."
+      },
+      {
+        "numero": 34,
+        "titulo": "Farmacoterapia de tumores oncohematológicos: linfoma, leucemias y mieloma múltiple."
+      },
+      {
+        "numero": 35,
+        "titulo": "Farmacoterapia en geriatría. Modificaciones farmacocinéticas y farmacodinámicas en el anciano. Reacciones adversas. Cumplimiento de la prescripción. Funciones de los servicios de farmacia en los centros sociosanitarios de Aragón."
+      },
+      {
+        "numero": 36,
+        "titulo": "Paciente pluripatológico. Polimedicación. Adecuación de la medicación: criterios implícitos y explícitos. Concepto de desprescripción."
+      },
+      {
+        "numero": 37,
+        "titulo": "Conciliación de la medicación en las transiciones asistenciales. Indicadores. Recomendaciones de instituciones y organismos. Información de medicamentos y alta hospitalaria. Factores que influyen en el cumplimiento terapéutico. Métodos de cálculo del cumplimiento terapéutico. Estrategias para aumentar la adherencia a los tratamientos."
+      },
+      {
+        "numero": 38,
+        "titulo": "Relación del servicio de farmacia y la Atención Primaria. Circuitos de comunicación. Comisiones. Elaboración de protocolos. Áreas de salud. Indicadores de calidad de prescripción farmacoterapéutica que faciliten la continuidad asistencial."
+      },
+      {
+        "numero": 39,
+        "titulo": "Gases medicinales. Tipos. Características y aplicaciones del gas medicinal. Aspectos legales: Real Decreto 1800/2003, normativas específicas. Responsabilidad del farmacéutico de hospital: ámbito de actuación, implicaciones legales. Funcionamiento interno del servicio de farmacia. Redes de gases: fuente de suministro, distribución, instalaciones centralizadas en el hospital. Relaciones con otras instituciones intra y extrahospitalarias. Control de calidad."
+      },
+      {
+        "numero": 40,
+        "titulo": "Ensayos Clínicos (I). Concepto. Clasificación. Diseño. Etapas en el desarrollo de un EC. Metodología de la evaluación de los EECC. Gestión de medicamentos en fase de investigación clínica."
+      },
+      {
+        "numero": 41,
+        "titulo": "Ensayos clínicos (II): Comités éticos de investigación clínica de Aragón. Participación y funciones del servicio de farmacia. Aspectos legales actualmente aplicables a los ensayos clínicos en Aragón"
+      },
+      {
+        "numero": 42,
+        "titulo": "Farmacoterapia antiinfecciosa (I). Meningitis, endocarditis, neumonía, bacteriemia, infección tracto urinario, sepsis grave y shock séptico: Agentes causales y tratamiento. Profilaxis antibiótica quirúrgica. Tratamientos antifúngicos."
+      },
+      {
+        "numero": 43,
+        "titulo": "Farmacoterapia antiinfecciosa (II). Comisión de infecciones. Política de antibióticos. Papel del servicio de farmacia en el seguimiento de la política de antibióticos del hospital. Estudio de utilización y consumo de antimicrobianos. PROA"
+      },
+      {
+        "numero": 44,
+        "titulo": "Farmacoterapia antirretroviral. Clasificación. Características farmacocinéticas y farmacodinámicas. Interacciones farmacológicas. Incidencia y tipos de interacciones. Reacciones adversas. Optimización de los tratamientos. Atención Farmacéutica al paciente VIH+."
+      },
+      {
+        "numero": 45,
+        "titulo": "Farmacoterapia de las hepatitis víricas. Cirrosis y hepatitis. Fármacos utilizados: clasificación. Características farmacocinéticas, farmacodinámicas y clínicas. Indicaciones. Eficacia, seguridad y eficiencia. Reacciones adversas"
+      },
+      {
+        "numero": 46,
+        "titulo": "Problemas asociados a la terapéutica en el embarazo. Modificaciones farmacocinéticas y farmacodinámicas. Proceso LADME en la embarazada. Farmacocinética fetal. Toxicología fetal. Paso transplacentario de fármacos. Precauciones terapéuticas en la embarazada. Teratogenicidad."
+      },
+      {
+        "numero": 47,
+        "titulo": "Farmacia Pediátrica. Características diferenciales de la población infantil. Selección de medicamentos. Formulación magistral en pediatría. Farmacocinética y Toxicología. Problemas específicos de la dosificación pediátrica. Farmacoterapia con hormona del crecimiento. Fármacos y lactancia."
+      },
+      {
+        "numero": 48,
+        "titulo": "Métodos de Farmacovigilancia. Sistema notificación. Base de datos FEDRA. Métodos de evaluación. Seguridad del paciente. Análisis de incidentes y riesgos. Estrategia de seguridad del paciente del Sistema Nacional de Salud. Listas de medicamentos biopeligrosos."
+      },
+      {
+        "numero": 49,
+        "titulo": "Errores de medicación. Concepto. Terminología. Clasificación de errores. Tipos y causas de errores. Niveles de severidad. Sistema de detección de errores. Comunicación. Niveles de seguridad. Medicamentos de altos riesgo. Costes asociados a errores de medicación. Recomendaciones para prevenir errores de medicación. Tecnología aplicada a la prevención de errores de medicación."
+      },
+      {
+        "numero": 50,
+        "titulo": "Farmacogenómica. Introducción. Metabolismo oxidativo de los fármacos: variación genética. Farmacogenética de las dianas farmacológicas: polimorfismo. Estrategias genómicas para describir la variabilidad en la respuesta farmacológica. Transportadores de fármacos: variabilidad genética. La farmacogenómica en el desarrollo de los fármacos. Aspectos éticos legales y sociales de la farmacogenómica."
+      },
+      {
+        "numero": 51,
+        "titulo": "Farmacoterapia en la insuficiencia renal. Alteraciones de la función renal. Cálculo del aclaramiento de creatinina. Limitaciones de las fórmulas utilizadas para estimación filtrado glomerular. Alteración de la farmacocinética de los fármacos. Modificación de dosis, vías de administración, semivida, concentraciones plasmáticas y eliminación de los fármacos. Fármacos nefrotóxicos. Profilaxis de nefroprotección."
+      },
+      {
+        "numero": 52,
+        "titulo": "Farmacoterapia en enfermedades inflamatorias reumáticas. Artritis reumatoide. Espondilitis anquilosante. Artritis psoriásicas Fármacos utilizados: clasificación. Características farmacocinéticas, farmacodinámicas y clínicas. Indicaciones. Eficacia, seguridad y eficiencia. Reacciones adversas."
+      },
+      {
+        "numero": 53,
+        "titulo": "Farmacoterapia de trastornos del movimiento. Esclerosis múltiple. Esclerosis lateral amiotrófica. Fármacos utilizados. Características farmacocinéticas, farmacodinámicas y clínicas. Indicaciones. Reacciones adversas. Eficacia, seguridad y eficiencia."
+      },
+      {
+        "numero": 54,
+        "titulo": "Farmacoterapia en cardiología. Fibrilación auricular. Síndrome coronario agudo sin elevación ST. Fármacos utilizados: clasificación. Características farmacocinéticas, farmacodinámicas y clínicas. Indicaciones. Eficacia, seguridad y eficiencia. Reacciones adversas."
+      },
+      {
+        "numero": 55,
+        "titulo": "Farmacoterapia de la enfermedad inflamatoria intestinal. Hemorragia digestiva. Úlcera péptica. Fármacos utilizados: clasificación. Características farmacocinéticas, farmacodinámicas y clínicas. Indicaciones. Eficacia, seguridad y eficiencia. Reacciones adversas."
+      },
+      {
+        "numero": 56,
+        "titulo": "Atención farmacéutica del paciente en urgencias. Programa de atención a pacientes con ICTUS en el Sistema de Salud de Aragón. Código infarto en Aragón."
+      },
+      {
+        "numero": 57,
+        "titulo": "Farmacoterapia en el enfermo mental. Fármacos utilizados en el tratamiento de la esquizofrenia. Protocolo de dispensación de antipsicóticos parenterales de acción prolongada en Aragón. Características farmacocinéticas, farmacodinámicas y clínicas. Indicaciones. Reacciones adversas. Eficacia, seguridad y eficiencia."
+      },
+      {
+        "numero": 58,
+        "titulo": "Farmacoterapia de la hemostasia. Factores de la coagulación. Clasificación. Hemofilias. Fármacos utilizados: clasificación. Profilaxis tromboembólica. Características farmacocinéticas, farmacodinámicas y clínicas. Indicaciones. Eficacia, seguridad y eficiencia. Reacciones adversas."
+      },
+      {
+        "numero": 59,
+        "titulo": "Farmacoterapia de la Hipertensión pulmonar. Fármacos utilizados: clasificación. Características farmacocinéticas, farmacodinámicas y clínicas. Indicaciones. Eficacia, seguridad y eficiencia. Reacciones adversas."
+      },
+      {
+        "numero": 60,
+        "titulo": "Farmacoterapia de la Fibrosis quística. Fármacos utilizados: clasificación. Características farmacocinéticas, farmacodinámicas y clínicas. Indicaciones. Eficacia, seguridad y eficiencia. Reacciones adversas."
+      }
+    ]
+  }
+]

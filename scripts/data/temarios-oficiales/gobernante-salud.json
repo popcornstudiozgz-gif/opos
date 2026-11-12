@@ -1,0 +1,132 @@
+[
+  {
+    "bloque": "Materia común",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "La Constitución Española de 1978: Principios fundamentales. Derechos y deberes fundamentales de los ciudadanos. La protección a la salud en la Constitución."
+      },
+      {
+        "numero": 2,
+        "titulo": "La Corona. Las Cortes Generales. El Gobierno de la Nación. El Poder Judicial. Clases de normas y jerarquía normativa. Organización territorial del Estado."
+      },
+      {
+        "numero": 3,
+        "titulo": "El Estatuto de Autonomía en Aragón. Principios informadores. Estructura y contenido. La organización institucional de la Comunidad Autónoma. Las Cortes y el Justicia de Aragón. Las competencias de la Comunidad de Aragón con especial referencia a las relativas a sanidad."
+      },
+      {
+        "numero": 4,
+        "titulo": "Población, geografía y territorio en Aragón. Desequilibrios demográficos en Aragón. Magnitudes más relevantes de la economía aragonesa. Evolución reciente de la actividad económica en Aragón."
+      },
+      {
+        "numero": 5,
+        "titulo": "La igualdad de oportunidades entre mujeres y hombres en Aragón: Disposiciones generales. Prevención y Protección Integral a las Mujeres Víctimas de Violencia en Aragón: Disposiciones Generales. La identidad y expresión de género e igualdad social y no discriminación en la Comunidad Autónoma de Aragón: Disposiciones Generales. La diversidad cultural y lucha contra la discriminación: Principios y objetivos del Plan para la Gestión de la Diversidad vigente en Aragón."
+      },
+      {
+        "numero": 6,
+        "titulo": "La Ley General de Sanidad: El Sistema Nacional de Salud y los Servicios de Salud de las Comunidades Autónomas. El Área de Salud. La Ley de Salud de Aragón. Principios rectores. Derechos, deberes y garantías de los ciudadanos. Derechos de información sobre la salud y autonomía del paciente."
+      },
+      {
+        "numero": 7,
+        "titulo": "El Departamento de Sanidad del Gobierno de Aragón: Estructura básica y competencias. El Servicio Aragonés de Salud: Estructura y competencias. El Texto Refundido de la Ley del Servicio Aragonés de Salud. Estructura y funcionamiento de las áreas y sectores del Sistema de Salud de Aragón."
+      },
+      {
+        "numero": 8,
+        "titulo": "Personal Estatutario de los Servicios de Salud (I). Clasificación del Personal Estatutario. Derechos y Deberes. Adquisición y pérdida de la condición de personal estatutario. Provisión de plazas, selección y promoción interna. Movilidad del personal."
+      },
+      {
+        "numero": 9,
+        "titulo": "Estatuto Marco del Personal Estatutario de los Servicios de Salud (II). Retribuciones. Jornada de trabajo, permisos y licencias. Situaciones del personal estatutario. Régimen disciplinario. Estatuto Básico del Empleado Público: Deberes del empleado público y código de conducta. Representación, participación y negociación colectiva. Incompatibilidades. Principios generales. Ámbito de aplicación."
+      },
+      {
+        "numero": 10,
+        "titulo": "Ley de Prevención de Riesgos Laborales: Conceptos básicos. Derechos y obligaciones en materia de seguridad en el trabajo. Organización de la prevención de riesgos laborales en la Comunidad Autónoma de Aragón. Distribución de funciones y responsabilidades en materia de prevención de riesgos laborales entre los diferentes órganos del Servicio Aragonés de Salud."
+      }
+    ]
+  },
+  {
+    "bloque": "Materia específica",
+    "temas": [
+      {
+        "numero": 11,
+        "titulo": "El equipo de trabajo, conceptos generales. Características y funciones de los equipos de trabajo. La comunicación dentro del equipo de trabajo. Organización y distribución del trabajo. Turnos, plantillas, vacaciones, permisos y suplencias."
+      },
+      {
+        "numero": 12,
+        "titulo": "Partes de incidencias. Aprovisionamiento y compra de material. Suministros internos y externos. Recepción y almacenamiento de mercancías. Organización del almacén. Distribución de pedidos."
+      },
+      {
+        "numero": 13,
+        "titulo": "Registros documentales. Gestión y control de inventarios. Control de consumos y costes."
+      },
+      {
+        "numero": 14,
+        "titulo": "Funciones y requisitos del gobernante/a en relación con los servicios de costura, plancha, lavandería, cocina y limpieza en general. Ámbito de actuación."
+      },
+      {
+        "numero": 15,
+        "titulo": "Funciones del gobernante/a en relación con el servicio de ropero, la costura y el planchado. Ropa de línea y forma. Técnicas y precauciones. Aplicaciones y métodos. Características de los textiles y tipos de fibra."
+      },
+      {
+        "numero": 16,
+        "titulo": "El servicio de lencería hospitalaria: gestión y distribución de la lencería en uso, rotación, dotación diaria y almacenes de centro de consumo. Gestión del almacén de ropa y vestuario del personal."
+      },
+      {
+        "numero": 17,
+        "titulo": "El servicio de lavandería: áreas organizativas. Zona de sucio: recepción, pesado y carga de lavadoras. Sistema de preclasificación de sucio en las unidades. Barrera sanitaria. Zona limpia: clasificación, secado, empaquetado y distribución. Gestión del almacén de ropa y vestuario personal."
+      },
+      {
+        "numero": 18,
+        "titulo": "Técnicas de lavado, reacción a la acción de ácidos, lejías. Oxidantes, temperatura y acción mecánica. Los detergentes. Nociones de etiquetado de ropa."
+      },
+      {
+        "numero": 19,
+        "titulo": "Maquinaria de lavandería y plancha. Sistemas de lavados: lavadoras y túneles de lavado. Secadoras. Sistemas de secado: calandras, plegadoras, túneles de secado."
+      },
+      {
+        "numero": 20,
+        "titulo": "Productos de limpieza: tipos de productos, aplicación, composición y propiedades. El etiquetado, manipulación, trasvase y almacenamiento. Desinfectantes: tipos y variedades. Los detergentes y lejías: clases y aplicaciones."
+      },
+      {
+        "numero": 21,
+        "titulo": "Limpieza integral en centros asistenciales: suelos, techos, paredes, cristales, escaleras, rejillas de aire acondicionado, las luminarias. el mobiliario, sanitarios. Limpieza de distintas zonas en función del riesgo."
+      },
+      {
+        "numero": 22,
+        "titulo": "Personal al servicio de alimentación de un hospital. Categorías profesionales dentro de la cocina, funciones y organización. Ámbito de actuación de la Gobernanta."
+      },
+      {
+        "numero": 23,
+        "titulo": "Recepción y almacenamiento de mercancías: control de las materias primas, condiciones de los vehículos de transporte, etiquetado, temperaturas optimas, fechas de consumo preferente y caducidad, control organoléptico, control de trazabilidad. Organización del almacén. Organización e inventario de la despensa."
+      },
+      {
+        "numero": 24,
+        "titulo": "Higiene alimentaria y manipulación de alimentos. Requisitos de los manipuladores de alimentos. Formación en higiene alimentaria. Tratamiento y preparación inicial de los alimentos: lavado, corte, descongelación."
+      },
+      {
+        "numero": 25,
+        "titulo": "Concepto y clasificación de los alimentos. Alérgenos, intolerancias y enfermedades relacionadas con el consumo de alimentos. La dieta hospitalaria. Dieta basal y dieta terapéutica. Tipos de dietas terapéuticas."
+      },
+      {
+        "numero": 26,
+        "titulo": "La cocina hospitalaria centralizada. Línea fría, línea mixta, línea caliente. Organización de cocina: preparación, emplatado, distribución y lavado. El concepto de marcha adelante."
+      },
+      {
+        "numero": 27,
+        "titulo": "Tecnología de la cocina: maquinaria, utillaje y herramientas de cocina. Tratamiento y control de vajilla."
+      },
+      {
+        "numero": 28,
+        "titulo": "Autocontrol sanitario en las cocinas hospitalarias: análisis de peligros y puntos de control crítico (APPCC). Limpieza y desinfección de la cocina y anexos. Plan general de higiene. Programas de control higiénico-sanitario. Registros de limpieza."
+      },
+      {
+        "numero": 29,
+        "titulo": "Tipos de residuos y su gestión: clasificación y manipulación de residuos. Recogida y eliminación de residuos. Manejo de productos peligrosos, retirada y traslado de residuos."
+      },
+      {
+        "numero": 30,
+        "titulo": "Los sistemas de información: conceptos generales de las tecnologías de información: El ordenador, Dispositivos centrales y periféricos. Redes informáticas. El microprocesador. Soportes informáticos. Herramientas ofimáticas: Procesadores de texto, bases de datos, hoja de cálculo, paquetes informáticos integrados y correo electrónico."
+      }
+    ]
+  }
+]

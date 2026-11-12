@@ -1,0 +1,212 @@
+[
+  {
+    "bloque": "Materia común",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "La Constitución española de 1978. La protección de la salud en la Constitución. Limitaciones constitucionales al uso de la informática."
+      },
+      {
+        "numero": 2,
+        "titulo": "El Estatuto de Autonomía de Aragón. Organización autonómica. Instituciones. Competencias de la Comunidad Autónoma: Especial referencia a la materia sanitaria."
+      },
+      {
+        "numero": 3,
+        "titulo": "Población, geografía y territorio en Aragón. Desequilibrios demográficos en Aragón. Magnitudes más relevantes de la economía aragonesa. Evolución reciente de la actividad económica en Aragón."
+      },
+      {
+        "numero": 4,
+        "titulo": "La igualdad de oportunidades entre mujeres y hombres en Aragón: Disposiciones generales. Prevención y Protección Integral a las Mujeres Víctimas de Violencia en Aragón: Disposiciones Generales. La identidad y expresión de género e igualdad social y no discriminación en la Comunidad Autónoma de Aragón: Disposiciones Generales. La diversidad cultural y lucha contra la discriminación: Principios y objetivos del Plan Integral para la Gestión de la Diversidad vigente en Aragón."
+      },
+      {
+        "numero": 5,
+        "titulo": "La igualdad de oportunidades entre mujeres y hombres en Aragón. Disposiciones generales. Prevención y Protección Integral a las Mujeres Víctimas de Violencia en Aragón. Disposiciones generales. La identidad y expresión de género e igualdad social y no discriminación en la Comunidad Autónoma de Aragón."
+      },
+      {
+        "numero": 6,
+        "titulo": "La Ley General de Sanidad. El derecho a la protección de la salud. Principios Generales del sistema nacional de salud. Organización general del sistema sanitario público. Los Servicios Autonómicos de Salud."
+      },
+      {
+        "numero": 7,
+        "titulo": "Ley 16/2003 de cohesión y calidad del Sistema Nacional de Salud. Principios generales, estructura y contenidos. Sistema de información sanitaria. Consejo Interterritorial."
+      },
+      {
+        "numero": 8,
+        "titulo": "Ley 6/2002 de Salud de Aragón: Principios rectores. Características y organización del Sistema Sanitario Público. Derechos, deberes y garantías de los ciudadanos."
+      },
+      {
+        "numero": 9,
+        "titulo": "La Consejería de Sanidad del Gobierno de Aragón: Estructura básica y competencias. El Servicio Aragonés de Salud: estructura y competencias."
+      },
+      {
+        "numero": 10,
+        "titulo": "El Estatuto Básico del Empleado Público: Clases de personal. Principios definidores del personal funcionario, estatutario y laboral. El personal del Servicio Aragonés de Salud."
+      },
+      {
+        "numero": 11,
+        "titulo": "Personal Estatutario I: Ley 55/2003 del Estatuto Marco de personal Estatutario de los Sistemas de Salud. Clasificación. Derechos y deberes. Adquisición y pérdida de la condición de personal estatutario fijo. Retribuciones. Jornada, permisos y licencias."
+      },
+      {
+        "numero": 12,
+        "titulo": "Personal Estatutario II: Selección de personal estatutario y provisión de plazas en los centros del Servicio Aragonés de Salud. Movilidad y Promoción Interna. Situaciones administrativas. Régimen disciplinario. Incompatibilidades."
+      },
+      {
+        "numero": 13,
+        "titulo": "Categorías del personal que desarrolla tareas específicas en el Servicio Aragonés de Salud. El Decreto 105/2009, de 9 de junio, de creación de nuevas categorías estatutarias del área de sistemas y tecnologías de la información en el ámbito del Servicio Aragonés de Salud: Funciones, acceso, disposiciones adicionales y transitorias."
+      },
+      {
+        "numero": 14,
+        "titulo": "Procedimiento administrativo común: ámbito de aplicación, principios generales y sus fases. Registros electrónicos. Identificación y firma de los interesados."
+      },
+      {
+        "numero": 15,
+        "titulo": "Ley 41/2002 reguladora de la autonomía del paciente y de derechos y obligaciones en materia de información y documentación clínica: Principios generales. Derecho de información sanitaria. Derecho a la intimidad. Respeto a la autonomía del paciente. Consentimiento informado e instrucciones Previas. La historia clínica. Informe de alta y otra documentación clínica."
+      },
+      {
+        "numero": 16,
+        "titulo": "Directivas comunitarias en materia de contratación pública. Legislación estatal en materia de contratos del Sector Público. Normativa aragonesa en materia de contratación pública. Los contratos del sector público. Clases de contratos. Configuración general de la contratación del sector público y elementos estructurales de los contratos. De los contratos de las Administraciones Públicas."
+      }
+    ]
+  },
+  {
+    "bloque": "Materia específica",
+    "temas": [
+      {
+        "numero": 17,
+        "titulo": "Ley Orgánica de Protección de datos personales y garantía de los derechos digitales. Ámbito de aplicación. Categorías especiales de datos. Derechos de las personas. Procedimientos relativos a protección de datos en el Servicio Aragonés de Salud."
+      },
+      {
+        "numero": 18,
+        "titulo": "Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo de 27 de abril de 2016 relativo a la protección de las personas físicas en lo que respecta al tratamiento de datos personales y a la libre circulación de estos datos. Tratamiento de categorías especiales de datos. Delegado de Protección de Datos. Registro de Actividades de Tratamiento. Responsable y Encargado del Tratamiento."
+      },
+      {
+        "numero": 19,
+        "titulo": "Segmentación de redes: Descripción y finalidad. Tipos de segmentación."
+      },
+      {
+        "numero": 20,
+        "titulo": "Redes inalámbricas: Definición, tipos y características. Redes Wifi: Estándares, seguridad y fiabilidad, dispositivos."
+      },
+      {
+        "numero": 21,
+        "titulo": "Cortafuegos, reglas de cortafuegos y monitorización del tráfico local."
+      },
+      {
+        "numero": 22,
+        "titulo": "Real Decreto 4/2010, de 8 de enero, por el que se regula el Esquema Nacional de Interoperabilidad en el ámbito de la Administración Electrónica. Normas técnicas de Interoperabilidad de documento electrónico."
+      },
+      {
+        "numero": 23,
+        "titulo": "Gestión unificada de usuarios. Sistemas centralizados de autenticación y autorización."
+      },
+      {
+        "numero": 24,
+        "titulo": "Modelo OSI. Niveles. Descripción de servicios y protocolos. TCP/IP. Protocolos y servicios."
+      },
+      {
+        "numero": 25,
+        "titulo": "Monitorización de redes y comunicaciones, sistemas y configuración de dispositivos."
+      },
+      {
+        "numero": 26,
+        "titulo": "Virtualización de Sistemas. Virtualización de puestos de trabajo, Sistemas Citrix."
+      },
+      {
+        "numero": 27,
+        "titulo": "Gestor de bases de datos Oracle. Conceptos generales. Administración básica. Gestión de Almacenamiento."
+      },
+      {
+        "numero": 28,
+        "titulo": "Sistemas de backup: Hardware y Software de Backup. Estrategias de Backup a disco. Replicación local y remota. Estrategias de recuperación."
+      },
+      {
+        "numero": 29,
+        "titulo": "Sistema de gestión de bases de datos Informix. Gestión del almacenamiento. Gestión de logs. Detección y gestión de bloqueos. Utilidades de administración. Arranque y parada de la base de datos."
+      },
+      {
+        "numero": 30,
+        "titulo": "SQL. Lenguaje de definición de datos (DDL). Lenguaje de manipulación de datos (DML). Lenguaje de Control de Datos (DCL)."
+      },
+      {
+        "numero": 31,
+        "titulo": "Ingeniería del software. Proceso software, modelos de proceso software. Ciclos de vida, modelos de ciclo de vida. Fases del ciclo de vida. Modelos de desarrollo."
+      },
+      {
+        "numero": 32,
+        "titulo": "Programación estructurada. Programación orientada a objetos. Objetos, clases, herencia, métodos. Herramientas de programación."
+      },
+      {
+        "numero": 33,
+        "titulo": "Lenguaje de programación Java. Conceptos generales. Variables, tipos, estructuras de control, manejo y relaciones entre clases, tratamiento de excepciones, colecciones y manejo de hilos."
+      },
+      {
+        "numero": 34,
+        "titulo": "Sistemas de bases de datos relacionales. Modelo entidad-relación. Modelo relacional. Normalización."
+      },
+      {
+        "numero": 35,
+        "titulo": "Motores de integración entre aplicaciones (EAI). Rhapsody. Monitorización."
+      },
+      {
+        "numero": 36,
+        "titulo": "Estándar HL7. Conceptos generales. Ámbito de aplicación."
+      },
+      {
+        "numero": 37,
+        "titulo": "Infraestructura de PKI. Firma digital. Certificados digitales. Tarjetas Criptográficas. Técnicas de cifrado."
+      },
+      {
+        "numero": 38,
+        "titulo": "Consola de administración de directivas de grupo en un dominio Windows Server. Concepto. Organización de políticas. Esquema de árbol y herencia de directivas."
+      },
+      {
+        "numero": 39,
+        "titulo": "Actualizaciones de seguridad y WSUS. Concepto y funcionalidad. Despliegue en una red corporativa. Ventajas e inconvenientes."
+      },
+      {
+        "numero": 40,
+        "titulo": "La tarjeta sanitaria individual en Aragón: Código de Identificación de Pacientes (CIP), Código de Identificación Autonómico (CIA), Base de datos de Usuario (BDU)."
+      },
+      {
+        "numero": 41,
+        "titulo": "Receta Electrónica en Aragón: plataforma, comunicaciones con los Colegios de Farmacéuticos, aplicaciones que lo componen, interoperabilidad."
+      },
+      {
+        "numero": 42,
+        "titulo": "Sistema de información radiológica. Funcionalidad e Integraciones. Imagen médica. Sistemas PACS. Protocolo DICOM."
+      },
+      {
+        "numero": 43,
+        "titulo": "Requisitos y estructura básica de los procesos del Sistema de Información de atención hospitalaria, ambulatoria, quirúrgica y de urgencias."
+      },
+      {
+        "numero": 44,
+        "titulo": "Programas de gestión de la actividad de enfermería. Funcionalidad. Arquitectura tecnológica e integraciones."
+      },
+      {
+        "numero": 45,
+        "titulo": "Sistema de información de gestión de Hostelería hospitalaria y nutrición. Funcionalidad. Integraciones"
+      },
+      {
+        "numero": 46,
+        "titulo": "Sistemas de información de Gestión Económica: Logística. Requerimiento de los Sistemas de aprovisionamiento, almacén y programación de pactos de consumo. Integración con otros Sistemas."
+      },
+      {
+        "numero": 47,
+        "titulo": "Sistema de información integrado de recursos humanos del Gobierno de Aragón. Estructura Organizativa. Registro, Nómina. Componentes. Funcionalidades."
+      },
+      {
+        "numero": 48,
+        "titulo": "Gestión y planificación de turnos. Funcionalidad. Arquitectura tecnológica. Integración con el sistema de recursos humanos del Gobierno de Aragón."
+      },
+      {
+        "numero": 49,
+        "titulo": "La Historia Clínica Electrónica de Atención Primaria, codificación, DGPs. Integraciones."
+      },
+      {
+        "numero": 50,
+        "titulo": "La Historia Clínica Electrónica de Aragón: Arquitectura, Integraciones, codificaciones."
+      }
+    ]
+  }
+]

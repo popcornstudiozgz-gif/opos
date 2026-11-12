@@ -1,0 +1,312 @@
+[
+  {
+    "bloque": "Materia común",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "Constitución Española de 1978. Derechos y deberes fundamentales de los ciudadanos La protección de la salud en la Constitución."
+      },
+      {
+        "numero": 2,
+        "titulo": "Estatuto de Autonomía de Aragón. Competencias en salud recogidas en el Estatuto de Autonomía. Las Cortes de Aragón. El Gobierno de Aragón. Estructura y funciones. Estructura del Departamento de Sanidad."
+      },
+      {
+        "numero": 3,
+        "titulo": "Población, geografía y territorio en Aragón. Desequilibrios demográficos en Aragón. Magnitudes más relevantes de la economía aragonesa. Evolución reciente de la actividad económica en Aragón."
+      },
+      {
+        "numero": 4,
+        "titulo": "La igualdad de oportunidades entre mujeres y hombres en Aragón: Disposiciones generales. Prevención y Protección Integral a las Mujeres Víctimas de Violencia en Aragón: Disposiciones Generales. La identidad y expresión de género e igualdad social y no discriminación en la Comunidad Autónoma de Aragón: Disposiciones Generales. La diversidad cultural y lucha contra la discriminación: Principios y objetivos del Plan Integral para la Gestión de la Diversidad cultural vigente en Aragón."
+      },
+      {
+        "numero": 5,
+        "titulo": "La Ley General de Sanidad. La Ley de Salud de Aragón: Principios generales, estructura, contenidos. Ley de cohesión y calidad del Sistema Nacional de Salud: Principios generales, estructura y contenidos."
+      },
+      {
+        "numero": 6,
+        "titulo": "Ley 44/2003, de 21 de noviembre, de Ordenación de las Profesiones Sanitarias: Ámbito de aplicación, contenidos. Ley 41/2002, de 14 de noviembre, básica reguladora de la autonomía del paciente y de derechos y obligaciones en materia de información y documentación clínica."
+      },
+      {
+        "numero": 7,
+        "titulo": "El Procedimiento Administrativo Común de las Administraciones Públicas: Disposiciones Generales. Cómputo de plazos. Objeto y plazos de los recursos administrativos. El Régimen Jurídico del Sector Público: Disposiciones Generales. El régimen jurídico de la protección de datos de carácter personal. Disposiciones generales. Derechos de las personas."
+      },
+      {
+        "numero": 8,
+        "titulo": "Ley 55/2003, de 16 de diciembre, del Estatuto Marco de personal Estatutario de los Servicios de Salud. Principios generales, estructura, contenidos. El reconocimiento del desarrollo profesional. Modelo de Carrera Profesional en Aragón. Ley 53/1984, de 26 de diciembre, de Incompatibilidades. Principios generales. Ámbito de aplicación."
+      },
+      {
+        "numero": 9,
+        "titulo": "Atención Primaria de Salud en Aragón: concepto, estructuras básicas. Organización y funcionamiento de un Equipo de Atención Primaria."
+      },
+      {
+        "numero": 10,
+        "titulo": "Historia clínica y sistemas de registro en Atención Primaria. Sistema de clasificación de enfermedades en Atención Primaria."
+      },
+      {
+        "numero": 11,
+        "titulo": "Evaluación de Tecnologías Sanitarias: Procedimientos de evaluación. Aplicación en la clínica. Práctica basada en la evidencia. Variabilidad en la práctica médica. Búsqueda y valoración de evidencias. Aplicación de las evidencias a la toma de decisiones clínicas."
+      },
+      {
+        "numero": 12,
+        "titulo": "Guías clínicas. Proyecto Guía-Salud."
+      },
+      {
+        "numero": 13,
+        "titulo": "Evaluación y mejora de la calidad. Modelos de Gestión de la Calidad. Diseño de un programa de calidad."
+      },
+      {
+        "numero": 14,
+        "titulo": "Principios fundamentales de la bioética: aplicación a la asistencia sanitaria. La relación médico-paciente, el consentimiento informado. Los comités de Bioética. La ética en la investigación clínica."
+      },
+      {
+        "numero": 15,
+        "titulo": "Gobierno clínico. La implicación de los profesionales en el funcionamiento de las instituciones sanitarias."
+      }
+    ]
+  },
+  {
+    "bloque": "Materia específica",
+    "temas": [
+      {
+        "numero": 16,
+        "titulo": "Prestaciones sanitarias en materia de Salud Bucodental en la Comunidad de Aragón. La Orden de 28 de marzo de 2005, del Departamento de Salud y Consumo, modificada por la Orden de 21 de diciembre de 2012, del Departamento de Sanidad, Bienestar Social y Familia, que regula y actualiza la cartera de servicios sanitarios del Sistema Aragonés de Salud en materia de atención bucodental a la población infantil y juvenil de la Comunidad Autónoma de Aragón. Cartera de Servicios. Funciones del odontoestomatólogo como unidad de apoyo del Equipo de Atención Primaria."
+      },
+      {
+        "numero": 17,
+        "titulo": "Concepto de Odontología Preventiva y Comunitaria. Niveles de prevención. Epidemiología en Odontología: objetivos y metodología."
+      },
+      {
+        "numero": 18,
+        "titulo": "Historia Clínica en Odontología: Anamnesis y antecedentes. Exploración. Exámenes complementarios. Diagnóstico, pronóstico y plan de tratamiento."
+      },
+      {
+        "numero": 19,
+        "titulo": "Medición de las enfermedades bucodentales. Índices. Actividades de prevención y promoción para la salud bucodental."
+      },
+      {
+        "numero": 20,
+        "titulo": "Caries dental. Concepto. Etiología, patogenia e histopatología. Clínica. Diagnóstico, pronóstico y tratamiento."
+      },
+      {
+        "numero": 21,
+        "titulo": "Enfermedad periodontal. Concepto. Clasificación. Etiología. Epidemiología. Formas clínicas. Diagnóstico. Prevención y tratamiento."
+      },
+      {
+        "numero": 22,
+        "titulo": "Prevención de la caries y otras enfermedades bucodentales. Control mecánico y químico de la placa bacteriana. Consejos de higiene, dietéticos y hábitos. Antisépticos y motivación del paciente."
+      },
+      {
+        "numero": 23,
+        "titulo": "Selladores de fosas y fisuras. Bases científicas. Indicaciones y técnicas de aplicación."
+      },
+      {
+        "numero": 24,
+        "titulo": "Los fluoruros en Odontología. Mecanismos preventivos del flúor. Presentaciones y aplicaciones. Fluorosis."
+      },
+      {
+        "numero": 25,
+        "titulo": "Materiales dentales. Conceptos básicos. Propiedades físico-químicas y biológicas. Aplicaciones clínicas. Tipos y manejo."
+      },
+      {
+        "numero": 26,
+        "titulo": "Restauración dental. Bases biológicas. Grandes reconstrucciones del grupo anterior y posterior."
+      },
+      {
+        "numero": 27,
+        "titulo": "Tratamiento del complejo dentino-pulpar. Tratamientos conservadores de la vitalidad pulpar: protección pulpar indirecta y directa."
+      },
+      {
+        "numero": 28,
+        "titulo": "Patología pulpar. Pulpitis reversibles e irreversibles. Necrosis pulpar. Patología periapical."
+      },
+      {
+        "numero": 29,
+        "titulo": "Tratamientos endodónticos. Apicoformación. Preparación biomecánica. Técnicas de obturación radicular."
+      },
+      {
+        "numero": 30,
+        "titulo": "Restauración del diente desvitalizado. Muñones y pernos intrarradiculares. Restauración mediante coronas."
+      },
+      {
+        "numero": 31,
+        "titulo": "Descripción y tratamiento de las lesiones endo-periodontales combinadas. Síndrome del diente fisurado o estallido radicular."
+      },
+      {
+        "numero": 32,
+        "titulo": "Mucosa oral: bases biológicas. Particularidades de la lengua y labios. Aspectos inmunológicos de la mucosa bucal."
+      },
+      {
+        "numero": 33,
+        "titulo": "Lesiones elementales macroscópicas y microscópicas de la mucosa bucal. Concepto. Clasificación y proyección clínica."
+      },
+      {
+        "numero": 34,
+        "titulo": "Lesiones infecciosas de la mucosa oral: bacterianas, víricas y por hongos. Gingivitis ulcero-necrotizante aguda. Infecciones específicas: sífilis, lepra, tuberculosis y actinomicosis."
+      },
+      {
+        "numero": 35,
+        "titulo": "Lesiones erosivo-ulceradas de la mucosa oral. Lesiones vesiculoampollosas. Lesiones por agentes mecánicos, físicos, químicos y medicamentos."
+      },
+      {
+        "numero": 36,
+        "titulo": "Patología de la lengua. Glosopatías no clasificadas. Síndrome de boca ardiente."
+      },
+      {
+        "numero": 37,
+        "titulo": "Patología de las glándulas salivares: Infecciosas, inflamatorias, degenerativas y tumorales. Sialolitiasis. Síndrome de Sjögren."
+      },
+      {
+        "numero": 38,
+        "titulo": "Lesiones hiperplásicas de la cavidad oral. Tumores benignos de la cavidad oral."
+      },
+      {
+        "numero": 39,
+        "titulo": "Lesiones blancas en la cavidad oral: diagnóstico diferencial. Liquen plano oral: cuadro clínico, exploración complementaria, evolución y tratamiento. Lesiones premalignas de la cavidad oral."
+      },
+      {
+        "numero": 40,
+        "titulo": "Cáncer oral: prevención y diagnóstico. Biopsia en Odontoestomatología. Tumores metastásicos en la cavidad oral."
+      },
+      {
+        "numero": 41,
+        "titulo": "Patología quística de los maxilares. Quistes odontogénicos. Quistes no odontogénicos. Pseudoquistes."
+      },
+      {
+        "numero": 42,
+        "titulo": "Consideraciones odontológicas en pacientes con trastornos de la coagulación. Consideraciones odontológicas en pacientes con trastornos cardiovasculares."
+      },
+      {
+        "numero": 43,
+        "titulo": "Consideraciones odontológicas en pacientes con enfermedades hepáticas y/o renales. Consideraciones odontológicas en el paciente diabético y/o con enfermedades metabólicas."
+      },
+      {
+        "numero": 44,
+        "titulo": "Enfermedades víricas con repercusión en Odontología: SIDA, herpes simple, herpes zoster. Herpangina. Papilomavirus."
+      },
+      {
+        "numero": 45,
+        "titulo": "Consideraciones odontológicas en el paciente oncológico. Enfermedades sistémicas y tratamientos sistémicos con manifestaciones orales y/o repercusión odontológica."
+      },
+      {
+        "numero": 46,
+        "titulo": "Profilaxis antibiótica en Odontología. Prevención de la endocarditis bacteriana."
+      },
+      {
+        "numero": 47,
+        "titulo": "Traumatología dentaria. Concepto. Clasificación. Diagnóstico y tratamiento. Lesiones inmediatas y tardías. Evolución del diente lesionado. Reimplante dentario. Prevención de las infecciones y tétanos."
+      },
+      {
+        "numero": 48,
+        "titulo": "Dientes temporales lesionados: consideraciones especiales. Grado de reabsorción radicular. Extracción de dientes deciduos. Mantenedores de espacio."
+      },
+      {
+        "numero": 49,
+        "titulo": "Traumatismos alvéolo-dentarios y de los maxilares. Diagnóstico de las fracturas cráneo-faciales. Tratamiento de emergencia."
+      },
+      {
+        "numero": 50,
+        "titulo": "Procesos neoformativos dentarios. Concepto y clasificación: dentinarios, pulpares y cementarios. Defectos congénitos y adquiridos del esmalte y la dentina. Diagnóstico y tratamiento."
+      },
+      {
+        "numero": 51,
+        "titulo": "Indicaciones de las prótesis fijas. Indicaciones de las prótesis parciales y removibles."
+      },
+      {
+        "numero": 52,
+        "titulo": "Dolor orofacial: bases biológicas. Clínica. Diagnóstico diferencial y tratamiento."
+      },
+      {
+        "numero": 53,
+        "titulo": "Dolor neurógeno. Neuralgia del trigémino. Otras neuralgias esenciales del macizo orofacial."
+      },
+      {
+        "numero": 54,
+        "titulo": "Exodoncia: indicaciones y contraindicaciones. Instrumental de exodoncia y su uso. Extracción en maxilar superior y en mandíbula. Tratamiento y pautas postextracción."
+      },
+      {
+        "numero": 55,
+        "titulo": "Extracción de restos radiculares. Extracciones dentarias complejas. Odontosección. Exodoncia quirúrgica."
+      },
+      {
+        "numero": 56,
+        "titulo": "Dientes incluidos. Dientes supernumerarios. Patología del tercer molar: clínica y tratamiento."
+      },
+      {
+        "numero": 57,
+        "titulo": "Accidentes y complicaciones de la extracción dentaria. Exodoncias múltiples y alveoloplastias."
+      },
+      {
+        "numero": 58,
+        "titulo": "Infecciones odontógenas. Concepto. Etiopatogenia. Bacteriología. Vías de propagación y cuadros clínicos. Complicaciones sépticas: celulitis, osteítis y osteomielitis. Tratamiento."
+      },
+      {
+        "numero": 59,
+        "titulo": "Control de la infección en Odontología. Antibióticos, antiinflamatorios, analgésicos y antisépticos de uso frecuente en Odontología."
+      },
+      {
+        "numero": 60,
+        "titulo": "Diagnóstico por la imagen en Odontología: radiología, ecografía, resonancia magnética. Técnicas de uso común en Odontología. Normas de protección radiológica."
+      },
+      {
+        "numero": 61,
+        "titulo": "La intervención quirúrgica. Estudios preoperatorios. Tiempos operatorios en cirugía bucal. Hemostasia y suturas."
+      },
+      {
+        "numero": 62,
+        "titulo": "Técnicas anestésicas en cirugía bucal y procedimientos odontológicos. Anestésicos locales de uso común en Odontología. Contraindicaciones y efectos secundarios de la anestesia local. Fracasos y complicaciones. Prevención y tratamiento de las complicaciones."
+      },
+      {
+        "numero": 63,
+        "titulo": "Cirugía periapical. Cirugía preprotésica. Vestibuloplastias. Frenectomía."
+      },
+      {
+        "numero": 64,
+        "titulo": "Erupción dentaria. Cronología y alteraciones. Agenesias. Dientes ectópicos."
+      },
+      {
+        "numero": 65,
+        "titulo": "Crecimiento y desarrollo cráneo-facial en el niño. Normalidad y patología."
+      },
+      {
+        "numero": 66,
+        "titulo": "Maloclusiones. Concepto y etiopatogenia. Factores locales, generales y hábitos. Orientaciones ortodóncicas."
+      },
+      {
+        "numero": 67,
+        "titulo": "Disfunciones cráneo-mandibulares. Fisiopatología. Clínica. Exploración. Diagnóstico y tratamiento."
+      },
+      {
+        "numero": 68,
+        "titulo": "Desórdenes inflamatorios y degenerativos del complejo articular témporomandibular. Displasias y distrofias óseas: hereditarias, metabólicas y hormonales."
+      },
+      {
+        "numero": 69,
+        "titulo": "Atención bucodental a pacientes con patologías graves y polimedicados."
+      },
+      {
+        "numero": 70,
+        "titulo": "Atención bucodental a pacientes con discapacidad física o psíquica. Anestesia general y tratamiento odontológico."
+      },
+      {
+        "numero": 71,
+        "titulo": "Actitud del niño en la consulta odontológica. Técnicas de manejo de la conducta en odontopediatría."
+      },
+      {
+        "numero": 72,
+        "titulo": "Atención bucodental a la embarazada. Prevención y tratamiento."
+      },
+      {
+        "numero": 73,
+        "titulo": "Patología oral del anciano. Prevención y tratamiento."
+      },
+      {
+        "numero": 74,
+        "titulo": "Urgencias médicas en Odontoestomatología."
+      },
+      {
+        "numero": 75,
+        "titulo": "Prevención y control de las infecciones cruzadas en el gabinete odontológico. Técnicas de barrera. Asepsia y antisepsia. Indicaciones y metodología."
+      }
+    ]
+  }
+]

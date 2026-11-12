@@ -1,0 +1,184 @@
+[
+  {
+    "bloque": "Materia común",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "La Constitución Española de 1978: Principios fundamentales. Derechos y deberes fundamentales de los ciudadanos. La protección a la salud en la Constitución. La Corona. Las Cortes Generales. El Gobierno de la Nación. El Poder Judicial."
+      },
+      {
+        "numero": 2,
+        "titulo": "El Estatuto de Autonomía de Aragón. Principios informadores. Estructura y contenido. La organización institucional de la Comunidad Autónoma. Las Cortes y el Justicia de Aragón. Las competencias de la Comunidad de Aragón con especial referencia a las relativas a sanidad."
+      },
+      {
+        "numero": 3,
+        "titulo": "Población, geografía y territorio en Aragón. Desequilibrios demográficos en Aragón. Magnitudes más relevantes de la economía aragonesa. Evolución reciente de la actividad económica en Aragón."
+      },
+      {
+        "numero": 4,
+        "titulo": "La igualdad de oportunidades entre mujeres y hombres en Aragón: Disposiciones generales. Prevención y Protección Integral a las Mujeres Víctimas de Violencia en Aragón: Disposiciones Generales. La identidad y expresión de género e igualdad social y no discriminación en la Comunidad Autónoma de Aragón. La diversidad cultural y lucha contra la discriminación: Principios y objetivos del Plan Integral para la Gestión de la Diversidad vigente en Aragón."
+      },
+      {
+        "numero": 5,
+        "titulo": "Estructura y competencias del Departamento de Sanidad. Estructura y competencias del Servicio Aragonés de Salud. Decreto Legislativo 2/2004, de 30 de diciembre, Texto Refundido de la Ley del Servicio Aragonés de Salud. Estructura y funcionamiento de las áreas y sectores del Sistema de Salud de Aragón."
+      },
+      {
+        "numero": 6,
+        "titulo": "La Ley 14/1986, de 25 de abril, General de Sanidad: El Sistema Nacional de Salud y los Servicios de Salud de las Comunidades Autónomas. El Área de Salud. La Ley 6/2002, de 15 de abril, de Salud de Aragón. Principios generales. Derechos y deberes de los ciudadanos. Derechos de información sobre la salud y autonomía del paciente."
+      },
+      {
+        "numero": 7,
+        "titulo": "El Procedimiento Administrativo Común de las Administraciones Públicas: Disposiciones Generales. Computo de plazos. Objeto y plazos de los recursos administrativos. El Régimen Jurídico del Sector Público: Disposiciones generales, principios de actuación y funcionamiento del sector público."
+      },
+      {
+        "numero": 8,
+        "titulo": "Personal Estatutario de los Servicios de Salud (I). Clasificación del Personal Estatutario. Derechos y Deberes. Adquisición y pérdida de la condición de personal estatutario. Provisión de plazas, selección y promoción interna. Movilidad del personal."
+      },
+      {
+        "numero": 9,
+        "titulo": "Personal Estatutario de los Servicios de Salud (II): Retribuciones. Jornada de trabajo, permisos y licencias. Situaciones del personal estatutario. Régimen disciplinario. Régimen de Incompatibilidades: Principios generales. Ámbito de aplicación."
+      },
+      {
+        "numero": 10,
+        "titulo": "Ley de Prevención de Riesgos Laborales: Conceptos básicos. Derechos y obligaciones en materia de seguridad en el trabajo. Organización de la prevención de riesgos laborales en la Comunidad Autónoma de Aragón. Distribución de funciones y responsabilidades en materia de prevención de riesgos laborales entre los diferentes órganos del Servicio Aragonés de Salud."
+      }
+    ]
+  },
+  {
+    "bloque": "Materia específica",
+    "temas": [
+      {
+        "numero": 11,
+        "titulo": "Técnicas y habilidades de comunicación y relación interpersonal: relación profesional paciente. Trabajo en equipo. Colaboración con otros profesionales."
+      },
+      {
+        "numero": 12,
+        "titulo": "Metodología de Investigación Básica e Investigación Aplicada. Estudios descriptivos y analíticos. Estudios de procesos y resultados."
+      },
+      {
+        "numero": 13,
+        "titulo": "Epidemiología de las enfermedades transmisibles. Infección nosocomial: barreras higiénicas. Medidas de prevención y control. Equipos de protección individual."
+      },
+      {
+        "numero": 14,
+        "titulo": "Asepsia y esterilización. Concepto de sepsis, asepsia, esterilización y desinfección. Limpieza, desinfección y esterilización en medicina nuclear. Manejo de materiales estériles. Limpieza y desinfección de los equipos de medicina nuclear."
+      },
+      {
+        "numero": 15,
+        "titulo": "Bases físicas de la medicina nuclear. Isótopos radiactivos. Tipos de radiaciones. Ley de la desintegración radiactiva. Interacción de la radiación con la materia."
+      },
+      {
+        "numero": 16,
+        "titulo": "Radionúclidos y radiofármacos. Generador de tecnecio-99m. Elución del generador. Radioquímica del tecnecio-99m. Tipos de radiofármacos disponibles en medicina nuclear. Mecanismos de localización. Preparación extemporánea de radiofármacos."
+      },
+      {
+        "numero": 17,
+        "titulo": "Síntesis de radiofármacos PET. Tipos de radiofármacos PET. Descripción de la síntesis dela18 Fluor-Desoxi-Glucosa(18-FDG). Control de calidad de radiofármacos. Normas generales. Programa de garantía de calidad. Controles de calidad de radiofármacos convencionales. Controles de calidad de radiofármacos PET."
+      },
+      {
+        "numero": 18,
+        "titulo": "Gestión de residuos radiactivos: Definición de residuo radiactivo, Clasificación de los residuos, Opciones en la gestión de los residuos, Fases de la gestión de residuos, Gestión y almacenamiento de los residuos de baja y media actividad en España. Transporte de material radiactivo: Reglamento para el transporte seguro de material radiactivo, Clasificación de los materiales radiactivos, Tipos de embalajes y bultos, Categorías de los bultos y etiquetado, Documentación de transporte. Gestión de los residuos generados en un servicio de medicina nuclear."
+      },
+      {
+        "numero": 19,
+        "titulo": "Funcionamiento de los equipos de adquisición de imágenes. Fundamentos físico técnicos de los equipos: Tipos de detectores de radiación, Activímetro o calibrador de dosis. La gamma cámara: Componentes principales, Filtros y colimadores, Tipos de gamma cámara: monoo multicabezal, con o sin sistema de barrido o rastreo y sistema o mográfico (SPECT), Principios de funcionamiento, La formación de la imagen, Filtros a la radiación compton. Tipos de colimadores. Equipos para PET: Fundamentos básicos, Particularidades de los equipos de tomografía de emisión de positrones. Equipos híbridos: Fundamentos de la imagen híbrida, Tipos de equipos. Sondas para cirugía radiodirigida: Fundamentos de la cirugía radiodirigida, Tipos de equipos."
+      },
+      {
+        "numero": 20,
+        "titulo": "Registro de la imagen en medicina nuclear. Parámetros de calidad de la imagen. Artefactos. Resolución. Parámetros principales en la adquisición y su influencia en la calidad de imagen: Fases del procesado de estudios. Filtros de imagen, suavizado, interpolación, imágenes funcionales, reconstrucción en 2D y 3D, delimitación de ROI, sustracción de fondo y curvas actividad/ tiempo. Cuantificación de las imágenes. Proceso de imágenes en 2D y 3D. La tomografía de emisión de positrones (PET): Adquisición y procesado de imágenes, Modalidades de imágenes, imágenes de transmisión y de fusión PETTC, procesado y cuantificación de las imágenes. Archivo de imágenes: Formas de presentación, RIS-PACS."
+      },
+      {
+        "numero": 21,
+        "titulo": "Emergencia en instalaciones radiactivas: Accidentes y planes de emergencias en medicina nuclear: Prevención de incidentes y accidentes, Actuación en incidentes, Normas de descontaminación, Plan de emergencia."
+      },
+      {
+        "numero": 22,
+        "titulo": "Estudios isotópicos en sistema músculo-esquelético. Anatomía. Bases fisiológicas."
+      },
+      {
+        "numero": 23,
+        "titulo": "Músculo-esquelético. Información al paciente. Posicionamiento del paciente. Patrones fisiológicos. Posibles artefactos. Radiofármacos. Reacciones adversas. Técnicas disponibles. Indicaciones. Adquisición, procesado, presentación y archivo de imágenes."
+      },
+      {
+        "numero": 24,
+        "titulo": "Estudios isotópicos en cardiología y patología vascular. Anatomía. Bases fisiológicas."
+      },
+      {
+        "numero": 25,
+        "titulo": "Cardiología y patología vascular. Información al paciente. Posicionamiento del paciente. Patrones fisiológicos. Posibles artefactos. Radiofármacos. Reacciones adversas. Técnicas disponibles. Indicaciones. Adquisición, procesado, presentación y archivo de imágenes."
+      },
+      {
+        "numero": 26,
+        "titulo": "Estudios isotópicos en neumología. Anatomía. Bases fisiológicas."
+      },
+      {
+        "numero": 27,
+        "titulo": "Neumología. Información al paciente. Posicionamiento del paciente. Patrones fisiológicos. Posibles artefactos. Radiofármacos. Reacciones adversas. Técnicas disponibles. Indicaciones. Adquisición, procesado, presentación y archivo de imágenes."
+      },
+      {
+        "numero": 28,
+        "titulo": "Estudios isotópicos en endocrinología. Anatomía. Bases fisiológicas. Información al paciente."
+      },
+      {
+        "numero": 29,
+        "titulo": "Endocrinología. Posicionamiento del paciente. Patrones fisiológicos. Posibles artefactos. Radiofármacos. Reacciones adversas. Técnicas disponibles. Indicaciones. Adquisición, procesado, presentación y archivo de imágenes."
+      },
+      {
+        "numero": 30,
+        "titulo": "Estudios isotópicos en neurología. Anatomía. Bases fisiológicas."
+      },
+      {
+        "numero": 31,
+        "titulo": "Estudios de tomografía de emisión de positrones (PET) y tomografía computarizada por emisión de positrones (PET-TC) en neurología. Anatomía. Bases fisiológicas. Información al paciente. Posicionamiento del paciente. Patrones fisiológicos. Posibles artefactos. Radiofármacos. Reacciones adversas. Técnicas disponibles. Indicaciones. Adquisición, procesado, presentación y archivo de imágenes."
+      },
+      {
+        "numero": 32,
+        "titulo": "Estudios isotópicos en nefro-urología. Anatomía. Bases fisiológicas."
+      },
+      {
+        "numero": 33,
+        "titulo": "Nefro-urología. Información al paciente. Posicionamiento del paciente. Patrones fisiológicos. Posibles artefactos. Radiofármacos. Reacciones adversas. Técnicas disponibles. Indicaciones. Adquisición, procesado, presentación y archivo de imágenes."
+      },
+      {
+        "numero": 34,
+        "titulo": "Estudios isotópicos en patología digestiva y hepato-esplénica y biliar. Anatomía. Bases fisiológicas."
+      },
+      {
+        "numero": 35,
+        "titulo": "Digestivo. Información al paciente. Posicionamiento del paciente. Patrones fisiológicos. Posibles artefactos. Radiofármacos. Reacciones adversas. Técnicas disponibles. Indicaciones. Adquisición, procesado, presentación y archivo de imágenes."
+      },
+      {
+        "numero": 36,
+        "titulo": "Estudios isotópicos en oncología. Anatomía. Bases fisiológicas."
+      },
+      {
+        "numero": 37,
+        "titulo": "Oncología. Información al paciente. Posicionamiento del paciente. Patrones fisiológicos. Posibles artefactos. Radiofármacos. Reacciones adversas. Técnicas disponibles. Indicaciones. Adquisición, procesado, presentación y archivo de imágenes."
+      },
+      {
+        "numero": 38,
+        "titulo": "Estudios de tomografía de emisión de positrones (PET) y PET/TC en oncología. Anatomía. Bases fisiológicas. Información al paciente. Posicionamiento del paciente. Patrones fisiológicos. Posibles artefactos. Radiofármacos. Reacciones adversas. Técnicas disponibles. Indicaciones. Adquisición, procesado, presentación y archivo de imágenes."
+      },
+      {
+        "numero": 39,
+        "titulo": "Estudios isotópicos en patología inflamatoria e infecciosa. Anatomía. Bases fisiológicas."
+      },
+      {
+        "numero": 40,
+        "titulo": "Patología infecciosa. Información al paciente. Posicionamiento del paciente. Patrones fisiológicos. Posibles artefactos. Radiofármacos. Reacciones adversas. Técnicas disponibles. Indicaciones. Adquisición, procesado, presentación y archivo de imágenes."
+      },
+      {
+        "numero": 41,
+        "titulo": "La detección del ganglio centinela. Información al paciente. Posicionamiento del paciente. Patrones fisiológicos. Posibles artefactos. Radiofármacos. Reacciones adversas. Técnicas disponibles. Indicaciones. Adquisición, procesado, presentación y archivo de imágenes."
+      },
+      {
+        "numero": 42,
+        "titulo": "Tratamiento radioisotópico: Fundamentos de la terapia metabólica: Concepto y tipos de terapia metabólica, Radioisótopos de aplicación frecuente en terapia metabólica. El tratamiento radioisotópico de patología ósea metastásica: Radiofármacos de uso más frecuente, Procedimiento terapéutico, Recomendaciones generales de radioprotección. La sinoviortesis radioisotópica: Fundamentos y aplicaciones más comunes, Radioisótopos de uso habitual, Control y recomendaciones generales de radioprotección. El tratamiento radioisotópico del hipertiroidismo, Bases físicas del tratamiento con radioyodo, Métodos de tratamiento con radioyodo: dosis fija y dosis individualizada, Cálculo de la dosis. Factores que intervienen en el cálculo, Control y recomendaciones del tratamiento con I131, Radioprotección del personal,el paciente y el público en general. El tratamiento radioisotópico de las neoplasias diferenciadas de tiroides: Preparación del paciente y procedimiento de administración, La dosis ablativa de radioyodo, Control y recomendaciones del tratamiento con I131 durante el ingreso en unidad radioprotegida, Radioprotección del personal, paciente y público en general. Tratamiento isotópico en patología hepática metastásica: Radiofármacos de uso más frecuente, Procedimiento terapéutico, Recomendaciones generales de radioprotección. Tratamiento isotópico en tumores neuroendocrinos: Radiofármacos de uso más frecuente, Procedimiento terapéutico, Recomendaciones generales de radioprotección."
+      },
+      {
+        "numero": 43,
+        "titulo": "Terapia radiometabólica: Estructura, organización y funcionamiento de una unidad de internamiento. Características del personal que trabaja en estas unidades. Características de la habitación radioprotegida. Sistemas de vigilancia y control de la unidad. Sistemas de recogida, almacenamiento y vertido controlado de excretas. Normas generales de radioprotección para el personal sanitario, los pacientes y los familiares durante su internamiento. Preparación del paciente, del radiofármaco y de los recursos materiales y humanos necesarios. Principales situaciones críticas que se pueden dar en una unidad de terapia metabólica. Plan de emergencias."
+      }
+    ]
+  }
+]

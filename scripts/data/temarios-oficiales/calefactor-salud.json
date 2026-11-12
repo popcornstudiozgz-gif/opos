@@ -1,0 +1,132 @@
+[
+  {
+    "bloque": "Materia común",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "La Constitución Española de 1978: Principios fundamentales. Derechos y deberes fundamentales de los ciudadanos. La protección a la salud en la Constitución. La Corona. Las Cortes Generales. El Gobierno de la Nación. El Poder Judicial."
+      },
+      {
+        "numero": 2,
+        "titulo": "El Estatuto de Autonomía de Aragón. Principios informadores. Estructura y contenido. La organización institucional de la Comunidad Autónoma. Las Cortes y El Justicia de Aragón. Las competencias de la Comunidad de Aragón con especial referencia a las relativas a sanidad."
+      },
+      {
+        "numero": 3,
+        "titulo": "Población, geografía y territorio en Aragón. Desequilibrios demográficos en Aragón. Magnitudes más relevantes de la economía aragonesa. Evolución reciente de la actividad económica en Aragón."
+      },
+      {
+        "numero": 4,
+        "titulo": "La igualdad de oportunidades entre mujeres y hombres en Aragón: Disposiciones generales. Prevención y Protección Integral a las Mujeres Víctimas de Violencia en Aragón: Disposiciones Generales. La identidad y expresión de género e igualdad social y no discriminación en la Comunidad Autónoma de Aragón: Disposiciones Generales. La diversidad cultural y lucha contra la discriminación: Principios y objetivos del Plan Integral para la Gestión de la Diversidad vigente en Aragón."
+      },
+      {
+        "numero": 5,
+        "titulo": "Los órganos de gobierno y administración de la Comunidad Autónoma de Aragón. El Departamento de Sanidad del Gobierno de Aragón: Estructura básica y competencias. El Servicio Aragonés de Salud: Estructura y competencias. El Texto Refundido de la Ley del Servicio Aragonés de Salud. Estructura y funcionamiento de las áreas y sectores del Sistema de Salud de Aragón."
+      },
+      {
+        "numero": 6,
+        "titulo": "La Ley General de Sanidad: El Sistema Nacional de Salud y los Servicios de Salud de las Comunidades Autónomas. El Área de Salud. La Ley de Salud de Aragón: Principios generales. Derechos y deberes de los ciudadanos. Derechos de información sobre la salud y autonomía del paciente."
+      },
+      {
+        "numero": 7,
+        "titulo": "El Procedimiento Administrativo Común de las Administraciones Públicas: Disposiciones Generales. Computo de plazos. Objeto y plazos de los recursos administrativos. El Régimen Jurídico del Sector Público: Disposiciones Generales."
+      },
+      {
+        "numero": 8,
+        "titulo": "El régimen jurídico de la protección de datos de carácter personal. Disposiciones generales. Principios de la Protección de datos. Derechos de las personas. Responsable y Encargado del Tratamiento."
+      },
+      {
+        "numero": 9,
+        "titulo": "Personal Estatutario de los Servicios de Salud: Clasificación del Personal Estatutario. Derechos y Deberes. Adquisición y pérdida de la condición de personal estatutario. Provisión de plazas, selección y promoción interna. Movilidad del personal. Situaciones. Régimen disciplinario. La Ley del Estatuto Básico del Empleado Público: Deberes del empleado público y código de conducta. Representación, participación y negociación colectiva. El régimen de Incompatibilidades: Principios generales. Ámbito de aplicación"
+      },
+      {
+        "numero": 10,
+        "titulo": "Ley de Prevención de Riesgos Laborales: Conceptos básicos. Derechos y obligaciones en materia de seguridad en el trabajo. Organización de la prevención de riesgos laborales en la Comunidad Autónoma de Aragón. Distribución de funciones y responsabilidades en materia de prevención de riesgos laborales entre los diferentes órganos del Servicio Aragonés de Salud."
+      }
+    ]
+  },
+  {
+    "bloque": "Materia específica",
+    "temas": [
+      {
+        "numero": 11,
+        "titulo": "Termodinámica. Calor, temperatura y frío. Conceptos. Unidades. Formas de transmisión del calor. Termometría. Dilatación. Cambios de estado. Comportamiento de los gases. La presión. Ciclos termodinámicos. Instrumentos de medidas de variables termodinámicas."
+      },
+      {
+        "numero": 12,
+        "titulo": "Instalación de vapor: Salas de máquinas. Producción. Conducción. Válvulas. Instalaciones de vapor. en: calandras, secadoras-planchadoras, lavadoras-centrifugadoras, túneles de lavado, secadoras, maniquíes, prensa giratoria."
+      },
+      {
+        "numero": 13,
+        "titulo": "Instalación de agua caliente. Producción. Funcionamiento. Regulación. Conducción. Almacenamiento. Intercambiadores de calor. Radiadores."
+      },
+      {
+        "numero": 14,
+        "titulo": "Equipos de producción de calor. Calderas, partes de la caldera, clasificación de la s calderas. Seguridades en las calderas. Quemadores. Fundamentos básicos de la combustión. Análisis de humos. Control y regulación. Contaminación ambiental. Tratamiento de las emisiones. Rendimientos. Chimeneas."
+      },
+      {
+        "numero": 15,
+        "titulo": "Depósitos acumulables, de expansión. Productos y materiales utilizados en las instalaciones de calefacción. Purgadores."
+      },
+      {
+        "numero": 16,
+        "titulo": "Central de frío. Producción, máquinas de producción de frío. Conducción, torres de enfriamiento."
+      },
+      {
+        "numero": 17,
+        "titulo": "Corrosión y tratamiento del agua. Dureza. PH. Alcalinidad. Salinidad. Gases disueltos. Incrustación."
+      },
+      {
+        "numero": 18,
+        "titulo": "Agresividad. La corrosión y sus clases. Tratamientos: Cloración. Hipercloración. Descalcificación. Desmineralización. Desalinización. Legionela: concepto y medidas preventivas."
+      },
+      {
+        "numero": 19,
+        "titulo": "Refrigerantes. Almacenamiento. Recuperación y reciclaje de refrigerantes"
+      },
+      {
+        "numero": 20,
+        "titulo": "Unidades de tratamientos de aire: climatizadores. Principios de funcionamiento. Partes y elementos constituyentes. Distribución del aire. Conductos. Rejillas. Difusores. Procesos y acondicionamiento del aire. Filtración del aire."
+      },
+      {
+        "numero": 21,
+        "titulo": "Materiales aislantes. Tipos. Aislamiento de tuberías. Aislamiento de conductos."
+      },
+      {
+        "numero": 22,
+        "titulo": "Transporte de fluidos: Principios básicos de transporte de fluidos. Pérdida de carga en fluidos. Tuberías y accesorios. Instalación bitubular. Instalación monotubular. Intercambiadores de calor. Bombas hidráulicas. Tipos. Hidráulica: conceptos."
+      },
+      {
+        "numero": 23,
+        "titulo": "Regulación y control. Sistemas de regulación. Elementos de control y regulación de equipos en instalaciones de vapor e instalaciones de climatización. Válvula de dos vías. Válvulas de tres vías. Válvulas de cuatro vías. Electro válvulas. Válvulas reguladoras de presión. Válvulas de seguridad."
+      },
+      {
+        "numero": 24,
+        "titulo": "Combustibles. Sólidos, líquidos y gaseosos. Instalación de combustibles. Instalación de carga y almacenamiento. Instalación de trasiego y alimentación."
+      },
+      {
+        "numero": 25,
+        "titulo": "Soldadura. Oxiacetilénica, blanda, por arco eléctrico, por puntos, por sistemas TIG y MAG."
+      },
+      {
+        "numero": 26,
+        "titulo": "Centrales de esterilización: Autoclaves de vapor."
+      },
+      {
+        "numero": 27,
+        "titulo": "Energía solar térmica. Captación. Almacenamiento. Distribución."
+      },
+      {
+        "numero": 28,
+        "titulo": "Protección medioambiental. Nociones básicas sobre contaminación ambiental. Principales riesgos medioambientales relacionados a las funciones de la categoría."
+      },
+      {
+        "numero": 29,
+        "titulo": "Mantenimiento Integral en los centros sanitarios. El trabajo en equipo. Conceptos de calidad aplicables al trabajo de mantenimiento de las instalaciones de calefacción y agua caliente de los centros sanitarios."
+      },
+      {
+        "numero": 30,
+        "titulo": "Prevención de riesgos laborales. Riesgos laborales específicos en las funciones del calefactor, medidas de protección individuales y colectivas."
+      }
+    ]
+  }
+]

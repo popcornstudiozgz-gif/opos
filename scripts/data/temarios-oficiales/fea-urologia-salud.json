@@ -1,0 +1,332 @@
+[
+  {
+    "bloque": "Materia común",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "Constitución Española de 1978: la protección de la salud en la Constitución. Estatuto de Autonomía de Aragón. Competencias en salud recogidas en el Estatuto de Autonomía. Las Cortes de Aragón. El Gobierno de Aragón."
+      },
+      {
+        "numero": 2,
+        "titulo": "El texto refundido de la Ley del Estatuto Básico del Empleado Público, aprobado por el Real Decreto Legislativo 5/2015: deberes del empleado público y código de conducta. Representación, participación y negociación colectiva."
+      },
+      {
+        "numero": 3,
+        "titulo": "El régimen jurídico de la protección de datos de carácter personal: Disposiciones generales. Derechos de las personas."
+      },
+      {
+        "numero": 4,
+        "titulo": "El Procedimiento Administrativo Común de las Administraciones Públicas: Disposiciones Generales. Cómputo de plazos. Objeto y plazos de los recursos administrativos. El Régimen Jurídico del Sector Público: Disposiciones Generales"
+      },
+      {
+        "numero": 5,
+        "titulo": "Ley 14/1986 General de Sanidad. Ley 6/2002 de Salud de Aragón. Principios generales, estructura, contenidos. Ley 16/2003 de cohesión y calidad del Sistema Nacional de Salud. Principios generales, estructura, contenidos."
+      },
+      {
+        "numero": 6,
+        "titulo": "Ley 44/2003 de Ordenación de las Profesiones Sanitarias. Ámbito de aplicación, contenidos. Ley 41/2002, de 14 de noviembre, básica reguladora de la autonomía del paciente y de derechos y obligaciones en materia de información y documentación clínica. Ley 9/2013, de 28 de noviembre, de Autoridad de Profesionales del Sistema Sanitario y de Servicios Sociales Públicos de Aragón."
+      },
+      {
+        "numero": 7,
+        "titulo": "Ley 55/2003 del Estatuto Marco de personal Estatutario de los Servicios de Salud (I). Principios generales, estructura, contenidos. Clasificación del personal estatutario. Derechos y deberes. Adquisición y pérdida de la condición de personal estatutario. Provisión de plazas, selección y promoción interna. Movilidad del personal."
+      },
+      {
+        "numero": 8,
+        "titulo": "Ley 55/2003 del Estatuto Marco de personal Estatutario de los Servicios de Salud (II). Retribuciones. Jornada de trabajo, permisos y licencias. Situaciones del personal estatutario. Régimen disciplinario. Modelo de Carrera Profesional en Aragón. Ley 53/1984 de 26 de diciembre, de incompatibilidades. Principios Generales. Ámbito de aplicación."
+      },
+      {
+        "numero": 9,
+        "titulo": "La igualdad de oportunidades entre mujeres y hombres en Aragón: Disposiciones generales. Prevención y Protección Integral a las Mujeres Víctimas de Violencia en Aragón: Disposiciones Generales. La identidad y expresión de género e igualdad social y no discriminación en la Comunidad Autónoma de Aragón: Disposiciones Generales. La diversidad cultural y lucha contra la discriminación: Principios y objetivos del vigente Plan Integral para la Gestión de la Diversidad de Aragón."
+      },
+      {
+        "numero": 10,
+        "titulo": "El sistema sanitario. Niveles asistenciales. Organización de los servicios sanitarios en Aragón. Estructura del Departamento de Sanidad de Aragón y del Servicio Aragonés de la Salud. Los Sectores sanitarios."
+      },
+      {
+        "numero": 11,
+        "titulo": "Metodología de la Investigación: El método científico. Diseño de un proyecto de investigación. Estadística aplicada a los estudios de Medicina."
+      },
+      {
+        "numero": 12,
+        "titulo": "El método epidemiológico. Epidemiología descriptiva: tipos de estudios, tasas e indicadores. Epidemiología analítica: tipos de estudios. Riesgo relativo, riesgo atribuible y Odds Ratio. Sesgos."
+      },
+      {
+        "numero": 13,
+        "titulo": "Estudios experimentales. Ensayos clínicos. Ética de la investigación clínica. Validez de métodos diagnósticos: sensibilidad, especificidad, valor predictivo positivo."
+      },
+      {
+        "numero": 14,
+        "titulo": "Evaluación de Tecnologías Sanitarias: Procedimientos de evaluación. Cartera de Servicios del Sistema Nacional de Salud. Procedimiento de actualización de la Cartera de Servicios del sistema de Salud de Aragón."
+      },
+      {
+        "numero": 15,
+        "titulo": "Práctica basada en la evidencia. Variabilidad en la práctica médica. Búsqueda y valoración de evidencias. Aplicación de las evidencias a la toma de decisiones clínicas. Guías clínicas. Proyecto Guía-Salud."
+      },
+      {
+        "numero": 16,
+        "titulo": "La seguridad del paciente. Gestión de riesgos. Principales problemas para la seguridad del paciente en el hospital. Estrategias para la mejora de la seguridad."
+      },
+      {
+        "numero": 17,
+        "titulo": "Uso Racional del Medicamento. Criterios de selección de medicamentos. Equivalentes terapéuticos. Indicadores de calidad de prescripción."
+      },
+      {
+        "numero": 18,
+        "titulo": "Evaluación y mejora de la calidad. Modelos de Gestión de la Calidad. Diseño de un programa de calidad."
+      },
+      {
+        "numero": 19,
+        "titulo": "Principios fundamentales de la bioética: aplicación a la asistencia sanitaria. La relación médico-paciente, el consentimiento informado. Los comités de Bioética. La ética en la investigación clínica."
+      },
+      {
+        "numero": 20,
+        "titulo": "Gobierno clínico. La implicación de los profesionales en el funcionamiento de las instituciones sanitarias."
+      }
+    ]
+  },
+  {
+    "bloque": "Materia específica",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "Desarrollo normal del aparato urogenital. Anatomía quirúrgica del retroperitoneo, las glándulas suprarrenales, los riñones y los uréteres. Anatomía de las vías urinarias inferiores y los genitales masculinos."
+      },
+      {
+        "numero": 2,
+        "titulo": "Fisiología y farmacología de la pelvis renal, uréter, vejiga y uretra."
+      },
+      {
+        "numero": 3,
+        "titulo": "Toma de decisiones clínicas: anamnesis, examen físico, análisis de orina y semen. Diagnóstico por la imagen del aparato urinario: principios básicos. Investigación de los resultados."
+      },
+      {
+        "numero": 4,
+        "titulo": "Cirugía urológica: Principios fundamentales de los cuidados perioperatorios. Fundamentos de la instrumentación y el drenaje de las vías urinarias. Principios de la endoscopia. Fundamentos de laparoscopia y robótica en cirugía urológica."
+      },
+      {
+        "numero": 5,
+        "titulo": "Principios básicos de inmunología en la urología. Genética molecular y biología del cáncer. Medicina regenerativa en urología: células madre, ingeniería tisular y clonación."
+      },
+      {
+        "numero": 6,
+        "titulo": "Infecciones urinarias. Prostatitis y trastornos relacionados, orquitis y epididimitis."
+      },
+      {
+        "numero": 7,
+        "titulo": "Infecciones de transmisión sexual. Aspectos urológicos del SIDA y la infección por VIH. Enfermedades cutáneas de los genitales externos."
+      },
+      {
+        "numero": 8,
+        "titulo": "Tuberculosis y otras infecciones del aparato urogenital."
+      },
+      {
+        "numero": 9,
+        "titulo": "Fisiología reproductora masculina. Esterilidad masculina. Tratamiento de la esterilidad masculina."
+      },
+      {
+        "numero": 10,
+        "titulo": "Fisiología de la erección peneana y fisiopatología de la disfunción eréctil. Evaluación y tratamiento de la disfunción eréctil. Priapismo. Cirugía protésica para la disfunción eréctil."
+      },
+      {
+        "numero": 11,
+        "titulo": "Enfermedad de La Peyronie. Eyaculación precoz. Hipogonadismo de inicio tardío. Función y disfunción sexual femenina."
+      },
+      {
+        "numero": 12,
+        "titulo": "Neoplasias de los testículos. Tratamiento de los tumores testiculares."
+      },
+      {
+        "numero": 13,
+        "titulo": "Tumores del pene. Tratamiento del carcinoma peneano y uretral."
+      },
+      {
+        "numero": 14,
+        "titulo": "Cirugía del pene y de la uretra. Cirugía del escroto y las vesículas seminales."
+      },
+      {
+        "numero": 15,
+        "titulo": "Fisiología y fisiopatología renales. Hipertensión renovascular y nefropatía isquémica."
+      },
+      {
+        "numero": 16,
+        "titulo": "Uropatía obstructiva. Tratamiento de la obstrucción de las vías urinarias superiores."
+      },
+      {
+        "numero": 17,
+        "titulo": "Traumatismos urológicos. Traumatismo urogenital en pediatría."
+      },
+      {
+        "numero": 18,
+        "titulo": "Etiología, patogenia, clasificación y tratamiento de la insuficiencia renal."
+      },
+      {
+        "numero": 19,
+        "titulo": "Trasplante renal: auto y alotrasplante, criterios de selección de donante y receptor, extracción de órganos para trasplantes y conservación. Consideraciones urinarias en el trasplante renal pediátrico."
+      },
+      {
+        "numero": 20,
+        "titulo": "Litiasis urinaria: epidemiología, etiología, patogenia, clasificación, evaluación y tratamiento médico."
+      },
+      {
+        "numero": 21,
+        "titulo": "Litotricia extracorpórea por ondas de choque. Abordaje percutáneo al sistema colector de las vías urinarias. Tratamiento quirúrgico de la litiasis del tracto urinario superior. Litiasis del tracto urinario inferior. Tratamiento de la enfermedad litiásica pediátrica."
+      },
+      {
+        "numero": 22,
+        "titulo": "Tumores renales benignos. Tumores renales malignos. Tratamiento del carcinoma de células renales avanzado. Tumores uroteliales del tracto urinario superior."
+      },
+      {
+        "numero": 23,
+        "titulo": "Cirugía abierta del riñón. Cirugía renal laparoscópica. Tratamiento ablativo para los tumores renales."
+      },
+      {
+        "numero": 24,
+        "titulo": "Patología retroperitoneal. Tumores retroperitoneales. Fisiopatología, evaluación y tratamiento de los trastornos de las glándulas suprarrenales. Cirugía de las glándulas suprarrenales."
+      },
+      {
+        "numero": 25,
+        "titulo": "Fisiopatología y clasificación de la disfunción de las vías urinarias inferiores."
+      },
+      {
+        "numero": 26,
+        "titulo": "Incontinencia urinaria y prolapso pelviano: epidemiología y fisiopatología. Evaluación de pacientes con incontinencia urinaria y prolapso pelviano. Evaluación urodinámica y videourodinámica de la vía urinaria."
+      },
+      {
+        "numero": 27,
+        "titulo": "Disfunción neuromuscular de las vías urinarias inferiores. Vejiga hiperactiva. Nicturia."
+      },
+      {
+        "numero": 28,
+        "titulo": "Síndrome de dolor pélvico. Síndrome de dolor vesical (cistitis intersticial) y trastornos relacionados."
+      },
+      {
+        "numero": 29,
+        "titulo": "Tratamiento farmacológico de las alteraciones del llenado y vaciado vesicales."
+      },
+      {
+        "numero": 30,
+        "titulo": "Tratamiento conservador de la incontinencia urinaria: terapia conductual y tratamiento rehabilitador, dispositivos uretrales y pelvianos."
+      },
+      {
+        "numero": 31,
+        "titulo": "Tratamiento quirúrgico de la incontinencia urinaria femenina. Cirugía reparadora para el prolapso de los órganos pelvianos por vía vaginal y abdominal. Técnica laparoscópica y robótica. Intervenciones quirúrgicas para la incontinencia esfinteriana en el varón: los procedimientos del esfínter urinario artificial y del cabestrillo suburetral."
+      },
+      {
+        "numero": 32,
+        "titulo": "Estimulación eléctrica y neuromodulación para los trastornos del almacenamiento y la evacuación vesicales. Tratamiento endoscópico y mínimamente invasivo para la incontinencia urinaria. Otros tratamientos para alteraciones en el almacenamiento y la evacuación de orina."
+      },
+      {
+        "numero": 33,
+        "titulo": "Incontinencia urinaria y otras alteraciones de la micción en el paciente geriátrico."
+      },
+      {
+        "numero": 34,
+        "titulo": "Fístulas del tracto urinario y genital. Divertículos de la vejiga y la uretra femenina."
+      },
+      {
+        "numero": 35,
+        "titulo": "Tumores de la vejiga: etiología, clasificación, fisiopatología, epidemiología y diagnóstico."
+      },
+      {
+        "numero": 36,
+        "titulo": "Tratamiento carcinoma urotelial vesical no músculo-invasivo."
+      },
+      {
+        "numero": 37,
+        "titulo": "Tratamiento del carcinoma urotelial vesical músculo-invasivo y metastásico."
+      },
+      {
+        "numero": 38,
+        "titulo": "Cirugía del cáncer de vejiga. Cirugía laparoscópica y robótica de la vejiga."
+      },
+      {
+        "numero": 39,
+        "titulo": "Utilización de segmentos intestinales en la derivación urinaria. Derivación urinaria continente y no continente cutánea. Derivación urinaria ortotópica."
+      },
+      {
+        "numero": 40,
+        "titulo": "Desarrollo, biología molecular y fisiología de la próstata. Hiperplasia prostática benigna: epidemiología, etiología, fisiopatología e historia natural."
+      },
+      {
+        "numero": 41,
+        "titulo": "Evaluación y tratamiento no quirúrgico de la hiperplasia prostática benigna."
+      },
+      {
+        "numero": 42,
+        "titulo": "Tratamiento mínimamente invasivo y endoscópico de la hiperplasia prostática benigna. Prostatectomía abierta retropúbica y suprapúbica."
+      },
+      {
+        "numero": 43,
+        "titulo": "Cáncer de próstata: epidemiología, etiología, fisiopatología y prevención."
+      },
+      {
+        "numero": 44,
+        "titulo": "Marcadores tumorales del cáncer de próstata. Detección temprana, diagnóstico y clasificación del cáncer de próstata."
+      },
+      {
+        "numero": 45,
+        "titulo": "Diagnóstico por la imagen y biopsia de la próstata. Seguimiento del cáncer de próstata."
+      },
+      {
+        "numero": 46,
+        "titulo": "Conducta expectante y vigilancia activa en el cáncer de próstata."
+      },
+      {
+        "numero": 47,
+        "titulo": "Tratamiento del cáncer de próstata localizado. Prostatectomía retropúbica y perineal radical. Prostatectomía radical por vía laparoscópica y robótica."
+      },
+      {
+        "numero": 48,
+        "titulo": "La radioterapia en el cáncer de próstata. Terapia focal del cáncer de próstata. Crioterapia en el cáncer de próstata. HIFU en el tratamiento contra el cáncer de próstata."
+      },
+      {
+        "numero": 49,
+        "titulo": "Tratamiento del cáncer de próstata localmente avanzado. Tratamiento hormonal para el cáncer de próstata. Tratamiento del cáncer de próstata resistente a la castración."
+      },
+      {
+        "numero": 50,
+        "titulo": "Desarrollo de la función renal y enfermedades urológicas en los niños."
+      },
+      {
+        "numero": 51,
+        "titulo": "Obstrucción urinaria congénita: fisiopatología y evaluación clínica."
+      },
+      {
+        "numero": 52,
+        "titulo": "Urología perinatal. Evaluación del paciente urológico pediátrico. Principios básicos de la atención perioperatoria en niños."
+      },
+      {
+        "numero": 53,
+        "titulo": "Infección e inflamación del aparato urogenital en pediatría."
+      },
+      {
+        "numero": 54,
+        "titulo": "Anomalías de las vías urinarias superiores. Disgenesia renal y enfermedad quística del riñón."
+      },
+      {
+        "numero": 55,
+        "titulo": "Anomalías y cirugía del uréter en niños. Uréter ectópico, ureterocele y anomalías del uréter. Reflujo vesicoureteral."
+      },
+      {
+        "numero": 56,
+        "titulo": "Síndrome de Prune belly. Complejo extrofia-epispadias. Anomalías vesicales en niños."
+      },
+      {
+        "numero": 57,
+        "titulo": "Válvulas uretrales posteriores. Disfunción no neuropática de las vías urinarias inferiores en niños. Disfunción neuropática de las vías urinarias inferiores."
+      },
+      {
+        "numero": 58,
+        "titulo": "Reconstrucción de las vías urinarias en niños. Hipospadias. Malformaciones de los genitales externos masculinos. Malformaciones del testículo y el escroto y su tratamiento quirúrgico."
+      },
+      {
+        "numero": 59,
+        "titulo": "Diferenciación sexual normal y anormal. Tratamiento quirúrgico de los trastornos de la diferenciación sexual, las malformaciones cloacales y otras anomalías de los genitales en las niñas."
+      },
+      {
+        "numero": 60,
+        "titulo": "Uro-oncología pediátrica."
+      }
+    ]
+  }
+]

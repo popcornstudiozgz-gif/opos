@@ -1,0 +1,332 @@
+[
+  {
+    "bloque": "Materia común",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "Constitución Española de 1978: la protección de la salud en la Constitución. Estatuto de Autonomía de Aragón. Competencias en salud recogidas en el Estatuto de Autonomía. Las Cortes de Aragón. El Gobierno de Aragón."
+      },
+      {
+        "numero": 2,
+        "titulo": "El texto refundido de la Ley del Estatuto Básico del Empleado Público, aprobado por el Real Decreto Legislativo 5/2015: deberes del empleado público y código de conducta. Representación, participación y negociación colectiva."
+      },
+      {
+        "numero": 3,
+        "titulo": "El régimen jurídico de la protección de datos de carácter personal: Disposiciones generales. Principios de la protección de datos. Derechos de las personas."
+      },
+      {
+        "numero": 4,
+        "titulo": "El Procedimiento Administrativo Común de las Administraciones Públicas: Disposiciones Generales. Cómputo de plazos. Objeto y plazos de los recursos administrativos. El Régimen Jurídico del Sector Público: Disposiciones Generales."
+      },
+      {
+        "numero": 5,
+        "titulo": "Ley 14/86 General de Sanidad. Ley 6/2002 de Salud de Aragón. Principios generales, estructura, contenidos. Ley 16/2003 de cohesión y calidad del Sistema Nacional de Salud. Principios generales, estructura, contenidos."
+      },
+      {
+        "numero": 6,
+        "titulo": "Ley 44/2003 de Ordenación de las Profesiones Sanitarias. Ámbito de aplicación, contenidos. Ley 41/2002, de 14 de noviembre, básica reguladora de la autonomía del paciente y de derechos y obligaciones en materia de información y documentación clínica. Ley 9/2013, de 28 de noviembre, de Autoridad de Profesionales del Sistema Sanitario y de Servicios Sociales Públicos de Aragón."
+      },
+      {
+        "numero": 7,
+        "titulo": "Ley 55/2003 del Estatuto Marco de personal Estatutario de los Servicios de Salud (I). Principios generales, estructura, contenidos. Clasificación del personal estatutario. Derechos y deberes. Adquisición y pérdida de la condición de personal estatutario. Provisión de plazas, selección y promoción interna. Movilidad del personal."
+      },
+      {
+        "numero": 8,
+        "titulo": "Ley 55/2003 del Estatuto Marco de personal Estatutario de los Servicios de Salud (II). Retribuciones. Jornada de trabajo, permisos y licencias. Situaciones del personal estatutario. Régimen disciplinario. Modelo de Carrera Profesional en Aragón. Ley 53/1984 de 26 de diciembre, de incompatibilidades. Principios Generales. Ámbito de aplicación."
+      },
+      {
+        "numero": 9,
+        "titulo": "La igualdad de oportunidades entre mujeres y hombres en Aragón: Disposiciones generales. Prevención y Protección Integral a las Mujeres Víctimas de Violencia en Aragón: Disposiciones Generales. La identidad y expresión de género e igualdad social y no discriminación en la Comunidad Autónoma de Aragón: Disposiciones Generales. La diversidad cultural y lucha contra la discriminación: Principios y objetivos del vigente Plan Integral para la Gestión de la Diversidad de Aragón."
+      },
+      {
+        "numero": 10,
+        "titulo": "El sistema sanitario. Niveles asistenciales. Organización de los servicios sanitarios en Aragón. Estructura del Departamento de Sanidad de Aragón y del Servicio Aragonés de la Salud. Los Sectores sanitarios."
+      },
+      {
+        "numero": 11,
+        "titulo": "Metodología de la Investigación: El método científico. Diseño de un proyecto de investigación. Estadística aplicada a los estudios de Medicina."
+      },
+      {
+        "numero": 12,
+        "titulo": "El método epidemiológico. Epidemiología descriptiva: tipos de estudios, tasas e indicadores. Epidemiología analítica: tipos de estudios. Riesgo relativo, riesgo atribuible y Odds Ratio. Sesgos."
+      },
+      {
+        "numero": 13,
+        "titulo": "Estudios experimentales. Ensayos clínicos. Ética de la investigación clínica. Validez de métodos diagnósticos: sensibilidad, especificidad, valor predictivo positivo."
+      },
+      {
+        "numero": 14,
+        "titulo": "Evaluación de Tecnologías Sanitarias: Procedimientos de evaluación. Cartera de Servicios del Sistema Nacional de Salud. Procedimiento de actualización de la Cartera de Servicios del sistema de Salud de Aragón."
+      },
+      {
+        "numero": 15,
+        "titulo": "Práctica basada en la evidencia. Variabilidad en la práctica médica. Búsqueda y valoración de evidencias. Aplicación de las evidencias a la toma de decisiones clínicas. Guías clínicas. Proyecto Guía-Salud."
+      },
+      {
+        "numero": 16,
+        "titulo": "La seguridad del paciente. Gestión de riesgos. Principales problemas para la seguridad del paciente en el hospital. Estrategias para la mejora de la seguridad."
+      },
+      {
+        "numero": 17,
+        "titulo": "Uso Racional del Medicamento. Criterios de selección de medicamentos. Equivalentes terapéuticos. Indicadores de calidad de prescripción."
+      },
+      {
+        "numero": 18,
+        "titulo": "Evaluación y mejora de la calidad. Modelos de Gestión de la Calidad. Diseño de un programa de calidad."
+      },
+      {
+        "numero": 19,
+        "titulo": "Principios fundamentales de la bioética: aplicación a la asistencia sanitaria. La relación médico-paciente, el consentimiento informado. Los comités de Bioética. La ética en la investigación clínica."
+      },
+      {
+        "numero": 20,
+        "titulo": "Gobierno clínico. La implicación de los profesionales en el funcionamiento de las instituciones sanitarias."
+      }
+    ]
+  },
+  {
+    "bloque": "Materia específica",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "Definición y objetivos de la especialidad de Geriatría."
+      },
+      {
+        "numero": 2,
+        "titulo": "Aspectos gerontológicos del envejecimiento: biología del envejecimiento. Envejecimiento celular y molecular. Aspectos metabólicos del envejecimiento. Teorías del envejecimiento."
+      },
+      {
+        "numero": 3,
+        "titulo": "El paciente anciano: demografía y epidemiología."
+      },
+      {
+        "numero": 4,
+        "titulo": "Cambios más relevantes y peculiaridades de las enfermedades en el anciano."
+      },
+      {
+        "numero": 5,
+        "titulo": "Prevención de la enfermedad, la discapacidad y la dependencia."
+      },
+      {
+        "numero": 6,
+        "titulo": "Valoración geriátrica integral. Conceptos generales. Técnicas de valoración. Escalas Básicas de Valoración."
+      },
+      {
+        "numero": 7,
+        "titulo": "Farmacología clínica en el anciano. Polifarmacia. Iatrogenia."
+      },
+      {
+        "numero": 8,
+        "titulo": "Niveles asistenciales en Geriatría."
+      },
+      {
+        "numero": 9,
+        "titulo": "El equipo interdisciplinar. Concepto. Objetivos y limitaciones del Equipo. Enfermería en Geriatría. Trabajo social en Geriatría."
+      },
+      {
+        "numero": 10,
+        "titulo": "Aspectos de investigación: Estadística y estudios epidemiológicos, técnicas de muestreo y validación de resultados."
+      },
+      {
+        "numero": 11,
+        "titulo": "Sociología del envejecimiento. Envejecimiento bio-psico-social. Factores sociales, culturales y económicos y su repercusión sobre la enfermedad."
+      },
+      {
+        "numero": 12,
+        "titulo": "Aspectos legales y éticos. Negligencia, abuso y maltrato en atención geriátrica."
+      },
+      {
+        "numero": 13,
+        "titulo": "Programa de Atención a Enfermos Crónicos dependientes en Aragón. Aspectos generales."
+      },
+      {
+        "numero": 14,
+        "titulo": "Aspectos generales del Sistema para la Autonomía y Atención a las personas en situación de dependencia."
+      },
+      {
+        "numero": 15,
+        "titulo": "Catálogo de ayudas técnicas de ortoprótesis. Prestación ortoprotésica en geriatría."
+      },
+      {
+        "numero": 16,
+        "titulo": "Utilización racional de las principales pruebas diagnósticas en geriatría."
+      },
+      {
+        "numero": 17,
+        "titulo": "Aspectos básicos de la rehabilitación geriátrica. Fisioterapia y terapia ocupacional en el paciente geriátrico."
+      },
+      {
+        "numero": 18,
+        "titulo": "Neoplasias más frecuentes en geriatría."
+      },
+      {
+        "numero": 19,
+        "titulo": "Patología neoplásica secundaria y síndromes paraneoplásicos en geriatría."
+      },
+      {
+        "numero": 20,
+        "titulo": "Cuidados paliativos en el paciente anciano oncológico y no oncológico. Asistencia al final de la vida."
+      },
+      {
+        "numero": 21,
+        "titulo": "Manejo del dolor en geriatría."
+      },
+      {
+        "numero": 22,
+        "titulo": "Fiebre de origen desconocido. Bacteriemia, sepsis y shock séptico."
+      },
+      {
+        "numero": 23,
+        "titulo": "Enfermedades infecciosas frecuentes en el anciano (neumonía, tuberculosis, infecciones urinarias,…) Fármacos antimicrobianos. Prevención. Vacunas en el anciano."
+      },
+      {
+        "numero": 24,
+        "titulo": "Manejo del paciente con enfermedad coronaria en todo el proceso asistencial. Medidas preventivas."
+      },
+      {
+        "numero": 25,
+        "titulo": "Insuficiencia cardiaca y cardiomiopatía."
+      },
+      {
+        "numero": 26,
+        "titulo": "Hipertensión arterial. Cardiopatía hipertensiva en el anciano."
+      },
+      {
+        "numero": 27,
+        "titulo": "Síncopes y ortostatismos en el anciano. Síndrome vertiginoso."
+      },
+      {
+        "numero": 28,
+        "titulo": "Patología vascular periférica."
+      },
+      {
+        "numero": 29,
+        "titulo": "Arritmias. Fibrilación auricular. Anticoagulación."
+      },
+      {
+        "numero": 30,
+        "titulo": "Valvulopatías."
+      },
+      {
+        "numero": 31,
+        "titulo": "Enfermedad cerebrovascular: planificación asistencial; tratamiento en fase aguda y subaguda. Valoración y recuperación funcional."
+      },
+      {
+        "numero": 32,
+        "titulo": "Enfermedad de Parkinson, parkinsonismos y otros trastornos del movimiento. Epilepsia. Sistema nervioso y enfermedades sistémicas."
+      },
+      {
+        "numero": 33,
+        "titulo": "Depresión y ansiedad en el anciano."
+      },
+      {
+        "numero": 34,
+        "titulo": "Demencias. Concepto. Epidemiología. Clasificaciones. Criterios diagnósticos. Diagnóstico diferencial. Deterioro cognitivo leve. Enfermedad de Alzheimer. Demencias vasculares. Otras demencias."
+      },
+      {
+        "numero": 35,
+        "titulo": "Tratamiento integral de las demencias. Manejo farmacológico. Otras medidas terapéuticas."
+      },
+      {
+        "numero": 36,
+        "titulo": "Trastorno confusional en el anciano. Trastornos del sueño."
+      },
+      {
+        "numero": 37,
+        "titulo": "Trastornos psicóticos. Trastornos de conducta. Abuso y dependencia de sustancias en geriatría."
+      },
+      {
+        "numero": 38,
+        "titulo": "Osteoporosis y osteomalacia."
+      },
+      {
+        "numero": 39,
+        "titulo": "Osteoartrosis. Artritis inflamatorias. Polimialgia reumática y arteritis de la temporal."
+      },
+      {
+        "numero": 40,
+        "titulo": "Insuficiencia respiratoria. Enfermedad Pulmonar Obstructiva Crónica."
+      },
+      {
+        "numero": 41,
+        "titulo": "Tromboembolismo pulmonar. Patología pleural. Trastornos de la ventilación en el anciano."
+      },
+      {
+        "numero": 42,
+        "titulo": "Anemias. Trastornos de coagulación. Neoplasias hematológicas."
+      },
+      {
+        "numero": 43,
+        "titulo": "Patología bucal. Disfagia. Hemorragia digestiva. Enfermedad por reflujo gastroesofágico. Gastropatía por AINEs. Otros trastornos gastroesofágicos."
+      },
+      {
+        "numero": 44,
+        "titulo": "Patología hepatobiliar."
+      },
+      {
+        "numero": 45,
+        "titulo": "Pancreatitis aguda y crónica."
+      },
+      {
+        "numero": 46,
+        "titulo": "Abdomen agudo. Obstrucción Intestinal. Enfermedad inflamatoria intestinal."
+      },
+      {
+        "numero": 47,
+        "titulo": "Insuficiencia renal. Afectación renal por enfermedades multisistémicas. Criterios de diálisis. Nefrolitiasis."
+      },
+      {
+        "numero": 48,
+        "titulo": "Patología de la próstata y vejiga. Palpación prostática. Sondaje vesical."
+      },
+      {
+        "numero": 49,
+        "titulo": "Diabetes Mellitus en el anciano. Trastornos tiroideos."
+      },
+      {
+        "numero": 50,
+        "titulo": "Patología de la hipófisis. Enfermedades de la glándula suprarrenal."
+      },
+      {
+        "numero": 51,
+        "titulo": "Obesidad en el anciano. Alteraciones del metabolismo hidroelectrolítico. Hiperlipidemias."
+      },
+      {
+        "numero": 52,
+        "titulo": "Valoración y asistencia perioperatoria en el paciente geriátrico."
+      },
+      {
+        "numero": 53,
+        "titulo": "Fractura de cadera, columna, pelvis. Aplastamientos vertebrales en el anciano. Prótesis articulares. Aspectos rehabilitadores en el postoperatorio."
+      },
+      {
+        "numero": 54,
+        "titulo": "Disfunción sexual."
+      },
+      {
+        "numero": 55,
+        "titulo": "Incontinencia y retención urinaria. Estreñimiento e incontinencia fecal."
+      },
+      {
+        "numero": 56,
+        "titulo": "Caídas, trastornos de la marcha y del equilibrio. Manejo preventivo y rehabilitador."
+      },
+      {
+        "numero": 57,
+        "titulo": "Síndrome de inmovilización: protocolo diagnóstico, prevención y manejo de complicaciones. Úlceras por presión. Causas y consecuencias. Prevención. Tratamiento."
+      },
+      {
+        "numero": 58,
+        "titulo": "Malnutrición: valoración del estado nutricional. Deshidratación. Alimentación enteral y parenteral."
+      },
+      {
+        "numero": 59,
+        "titulo": "Trastornos oculares. Trastornos del oído. Perdida de audición. Alteraciones sensoriales en geriatría."
+      },
+      {
+        "numero": 60,
+        "titulo": "Peculiaridades de la urgencia geriátrica. Urgencias en geriatría. Claves diagnósticas y terapéuticas.."
+      }
+    ]
+  }
+]

@@ -1,0 +1,288 @@
+[
+  {
+    "bloque": "Materia común",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "La Constitución Española de 1978: Principios fundamentales. Derechos y deberes fundamentales de los ciudadanos. La protección a la salud en la Constitución. La Corona. Las Cortes Generales. El Gobierno de la Nación. El Poder Judicial."
+      },
+      {
+        "numero": 2,
+        "titulo": "El Estatuto de Autonomía en Aragón. Principios informadores. Estructura y contenido. La organización institucional de la Comunidad Autónoma. Las Cortes y el Justicia de Aragón. Las competencias de la Comunidad de Aragón con especial referencia a las relativas a sanidad."
+      },
+      {
+        "numero": 3,
+        "titulo": "Población, geografía y territorio en Aragón. Desequilibrios demográficos en Aragón. Magnitudes más relevantes de la economía aragonesa. Evolución reciente de la actividad económica en Aragón."
+      },
+      {
+        "numero": 4,
+        "titulo": "La igualdad de oportunidades entre mujeres y hombres en Aragón: Disposiciones generales. Prevención y Protección Integral a las Mujeres Víctimas de Violencia en Aragón: Disposiciones Generales. La identidad y expresión de género e igualdad social y no discriminación en la Comunidad Autónoma de Aragón: Disposiciones Generales. La diversidad cultural y lucha contra la discriminación: Principios y objetivos del Plan Integral para la Gestión de la Diversidad Cultural vigente en Aragón."
+      },
+      {
+        "numero": 5,
+        "titulo": "Los órganos de gobierno y administración de la Comunidad Autónoma de Aragón. Estructura del Departamento de Sanidad. Estructura y competencias del Servicio Aragonés de Salud. El Texto Refundido de la Ley del Servicio Aragonés de Salud. Estructura y funcionamiento de las áreas y sectores del Sistema de Salud de Aragón."
+      },
+      {
+        "numero": 6,
+        "titulo": "La Ley General de Sanidad: El Sistema Nacional de Salud y los Servicios de Salud de las Comunidades Autónomas. El Área de Salud. La Ley de Salud de Aragón. Principios generales. Derechos y deberes de los ciudadanos. Derechos de información sobre la salud y autonomía del paciente."
+      },
+      {
+        "numero": 7,
+        "titulo": "El Procedimiento Administrativo Común de las Administraciones Públicas: Disposiciones Generales. Computo de plazos. Objeto y plazos de los recursos administrativos. El Régimen Jurídico del Sector Público: Disposiciones Generales."
+      },
+      {
+        "numero": 8,
+        "titulo": "Ley 55/2003, de 16 de diciembre, del Estatuto Marco del Personal Estatutario de los Servicios de Salud (I). Clasificación del Personal Estatutario. Derechos y Deberes. Adquisición y pérdida de la condición de personal estatutario. Provisión de plazas, selección y promoción interna. Movilidad del personal."
+      },
+      {
+        "numero": 9,
+        "titulo": "Estatuto Marco del Personal Estatutario de los Servicios de Salud (II). Retribuciones. Jornada de trabajo, permisos y licencias. Situaciones del personal estatutario. Régimen disciplinario. Régimen de Incompatibilidades: Principios generales. Ámbito de aplicación."
+      },
+      {
+        "numero": 10,
+        "titulo": "Ley de Prevención de Riesgos Laborales: Conceptos básicos. Derechos y obligaciones en materia de seguridad en el trabajo. Organización de la prevención de riesgos laborales en el Departamento de Sanidad: Unidad Central y Unidades Básicas de Prevención."
+      },
+      {
+        "numero": 11,
+        "titulo": "El texto refundido de la Ley del Estatuto Básico del Empleado Público, aprobado por el Real Decreto Legislativo 5/2015: Deberes del empleado público y código de conducta. Representación, participación y negociación colectiva."
+      },
+      {
+        "numero": 12,
+        "titulo": "El régimen jurídico de la protección de datos de carácter personal. Disposiciones generales. Principios de la Protección de datos. Derechos de las personas. Responsable y Encargado del Tratamiento."
+      },
+      {
+        "numero": 13,
+        "titulo": "Ley 41/2002, de 14 de noviembre, básica reguladora de la autonomía del paciente y de derechos y obligaciones en materia de información y documentación clínica."
+      },
+      {
+        "numero": 14,
+        "titulo": "La Ley 16/2003, de 28 de mayo, de Cohesión y Calidad del Sistema Nacional de Salud: Las prestaciones del Sistema Nacional de Salud. El Consejo Interterritorial. Sistema de información sanitaria."
+      },
+      {
+        "numero": 15,
+        "titulo": "La Ley 44//2003, de 21 de noviembre, de Ordenación de las Profesiones Sanitarias: Ámbito de aplicación. Profesiones sanitarias tituladas y profesionales del área sanitaria de formación profesional. El ejercicio de las profesiones sanitarias. Formación Especializada en Ciencias de la Salud."
+      }
+    ]
+  },
+  {
+    "bloque": "Materia específica",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "Calidad en los Centros Sanitarios: Comisiones clínicas hospitalarias reguladas por Ley. Otras comisiones clínicas Hospitalarias e interniveles."
+      },
+      {
+        "numero": 2,
+        "titulo": "Principios fundamentales de la Bioética: dilemas éticos. Código deontológico."
+      },
+      {
+        "numero": 3,
+        "titulo": "El secreto profesional: concepto y regulación jurídica. El consentimiento informado. Derechos y deberes de los ciudadanos."
+      },
+      {
+        "numero": 4,
+        "titulo": "Metodología de investigación: técnicas cuantitativas y técnicas cualitativas. Estructura metodológica de un trabajo científico. Fuentes de datos."
+      },
+      {
+        "numero": 5,
+        "titulo": "El sistema fonatorio. Bases anatómicas y funcionales: la laringe y sus funciones. Mecánica respiratoria y fonación."
+      },
+      {
+        "numero": 6,
+        "titulo": "El sistema auditivo. Bases anatómicas y funcionales: anatomía del oído y ficología de la audición. El déficit auditivo, etiología y tipos."
+      },
+      {
+        "numero": 7,
+        "titulo": "Comunicación y lenguaje. Funciones del lenguaje, Lenguaje, lengua y habla. Niveles y unidades lingüísticas."
+      },
+      {
+        "numero": 8,
+        "titulo": "Etapas del desarrollo y adquisición del lenguaje."
+      },
+      {
+        "numero": 9,
+        "titulo": "Psicología del desarrollo y adquisición del lenguaje: pensamiento y lenguaje. Lenguaje y vida afectiva."
+      },
+      {
+        "numero": 10,
+        "titulo": "Esquema anatómico y funcional del lenguaje en sus aspectos expresivo y receptivo."
+      },
+      {
+        "numero": 11,
+        "titulo": "Neurología general y del lenguaje (I) Neuroanatomía general. Neurofisiología general."
+      },
+      {
+        "numero": 12,
+        "titulo": "Neurología general y del lenguaje (II) Neurofisiología de los procesos sensoriales y perceptivos. La audición. Neurofisiología del lenguaje"
+      },
+      {
+        "numero": 13,
+        "titulo": "Lingüística general y aplicada."
+      },
+      {
+        "numero": 14,
+        "titulo": "Métodos y análisis en lingüística."
+      },
+      {
+        "numero": 15,
+        "titulo": "Fonética y Fonología."
+      },
+      {
+        "numero": 16,
+        "titulo": "Alteraciones del lenguaje más frecuentes en los niños y niñas de las etapas de educación infantil y primaria. Actuaciones preventivas"
+      },
+      {
+        "numero": 17,
+        "titulo": "Aspectos diferenciales en la adquisición y el desarrollo de la comunicación y el lenguaje en personas con discapacidad auditiva. Sistemas de detección y valoración del déficit auditivo."
+      },
+      {
+        "numero": 18,
+        "titulo": "Procesos de codificación y decodificación lingüística. Descripción y análisis de los componentes del lenguaje."
+      },
+      {
+        "numero": 19,
+        "titulo": "Bases anatómicas, fisiológicas y neurológicas del lenguaje"
+      },
+      {
+        "numero": 20,
+        "titulo": "Aproximación conceptual a la logopedia. Objetivos de la intervención logopédica."
+      },
+      {
+        "numero": 21,
+        "titulo": "El profesor de logofonía y logopedia. Funciones y ámbitos de actuación"
+      },
+      {
+        "numero": 22,
+        "titulo": "Relaciones de la logopedia con otras disciplinas. El equipo multidisciplinar."
+      },
+      {
+        "numero": 23,
+        "titulo": "Modelos de intervención: Educación, reeducación, rehabilitación y terapia."
+      },
+      {
+        "numero": 24,
+        "titulo": "El programa de intervención logopédica: Evaluación inicial, objetivos, contenidos, temporalización, actividades, metodología, materiales y evaluación continua y final."
+      },
+      {
+        "numero": 25,
+        "titulo": "Clasificación general y breve definición de los distintos trastornos del lenguaje, el habla, la voz y la audición."
+      },
+      {
+        "numero": 26,
+        "titulo": "El proceso de evaluación logopédica. Técnicas generales de exploración y evaluación de las distintas patologías del lenguaje, el habla, la voz y la audición."
+      },
+      {
+        "numero": 27,
+        "titulo": "Concepto e intervención logopédica de los trastornos primarios del desarrollo del lenguaje: Dislalias."
+      },
+      {
+        "numero": 28,
+        "titulo": "Concepto e intervención logopédica de los trastornos primarios del lenguaje: Disfasias."
+      },
+      {
+        "numero": 29,
+        "titulo": "Concepto e intervención logopédica de las alteraciones en la lectura: Dislexias."
+      },
+      {
+        "numero": 30,
+        "titulo": "Concepto e intervención logopédica de las alteraciones en la escritura: Disgrafía."
+      },
+      {
+        "numero": 31,
+        "titulo": "Concepto e intervención logopédica de las alteraciones específicas del lenguaje secundarias a la discapacidad mental y al autismo."
+      },
+      {
+        "numero": 32,
+        "titulo": "Concepto e intervención logopédica de las dismorfias: Síndrome de Down."
+      },
+      {
+        "numero": 33,
+        "titulo": "Concepto e intervención logopédica del mutismo."
+      },
+      {
+        "numero": 34,
+        "titulo": "Concepto e intervención logopédica de las alteraciones del lenguaje en la disfunción cerebral mínima."
+      },
+      {
+        "numero": 35,
+        "titulo": "Concepto e intervención logopédica en parálisis cerebral."
+      },
+      {
+        "numero": 36,
+        "titulo": "Concepto e intervención logopédica en los trastornos del lenguaje de origen neurológico: Afasias."
+      },
+      {
+        "numero": 37,
+        "titulo": "Concepto e intervención logopédica en los trastornos en la fluidez del habla: Disfemia"
+      },
+      {
+        "numero": 38,
+        "titulo": "Concepto e intervención logopédica en los trastornos en la fluidez del habla: Taquifemia."
+      },
+      {
+        "numero": 39,
+        "titulo": "Concepto e intervención logopédica en los trastornos en la fluidez del habla: Taquilalia."
+      },
+      {
+        "numero": 40,
+        "titulo": "Concepto e intervención logopédica en los trastornos del lenguaje y el habla secundarios a alteraciones a alteraciones morfológicas: Disglosias."
+      },
+      {
+        "numero": 41,
+        "titulo": "Concepto e intervención logopédica en los trastornos del habla de origen neurológico: Disartrias."
+      },
+      {
+        "numero": 42,
+        "titulo": "Concepto e intervención logopédica en los trastornos del lenguaje psiquiátricos y neurológico en el adulto y el anciano: Parkinson, esclerosis múltiples, demencias."
+      },
+      {
+        "numero": 43,
+        "titulo": "Concepto e intervención logopédica en los trastornos de voz. Disfonías."
+      },
+      {
+        "numero": 44,
+        "titulo": "Concepto e intervención logopédica en implantes cocleares."
+      },
+      {
+        "numero": 45,
+        "titulo": "Concepto e intervención logopédica en laringuectomizados. Técnicas de apoyo psicológico y rehabilitación."
+      },
+      {
+        "numero": 46,
+        "titulo": "Concepto e intervención logopédica en las alteraciones del lenguaje secundarias a una discapacidad auditiva: Hipoacusias"
+      },
+      {
+        "numero": 47,
+        "titulo": "Concepto e intervención logopédica en las alteraciones del lenguaje secundarias a una discapacidad auditiva: Sorderas"
+      },
+      {
+        "numero": 48,
+        "titulo": "Prevención y atención temprana de los trastornos del lenguaje, el habla, la voz y la audición."
+      },
+      {
+        "numero": 49,
+        "titulo": "Intervención logópedica en el desarrollo y los trastornos del lenguaje: integración escolar y social"
+      },
+      {
+        "numero": 50,
+        "titulo": "Técnicas de grupo en logopedia y habilidades sociales."
+      },
+      {
+        "numero": 51,
+        "titulo": "Evaluación de programas de intervención logopédica."
+      },
+      {
+        "numero": 52,
+        "titulo": "Soportes de representación en las alteraciones del lenguaje"
+      },
+      {
+        "numero": 53,
+        "titulo": "Recursos tecnológicos en Logopedia."
+      },
+      {
+        "numero": 54,
+        "titulo": "Sistemas alternativos de comunicación."
+      }
+    ]
+  }
+]

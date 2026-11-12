@@ -1,0 +1,132 @@
+[
+  {
+    "bloque": "Materia común",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "La Constitución Española de 1978: Principios fundamentales. Derechos y deberes fundamentales de los ciudadanos. La protección a la salud en la Constitución. La Corona. Las Cortes Generales. El Gobierno de la Nación. El Poder Judicial."
+      },
+      {
+        "numero": 2,
+        "titulo": "El Estatuto de Autonomía de Aragón. Principios informadores. Estructura y contenido. La organización institucional de la Comunidad Autónoma. Las Cortes y El Justicia de Aragón. Las competencias de la Comunidad de Aragón con especial referencia a las relativas a sanidad."
+      },
+      {
+        "numero": 3,
+        "titulo": "Población, geografía y territorio en Aragón. Desequilibrios demográficos en Aragón. Magnitudes más relevantes de la economía aragonesa. Evolución reciente de la actividad económica en Aragón."
+      },
+      {
+        "numero": 4,
+        "titulo": "La igualdad de oportunidades entre mujeres y hombres en Aragón: Disposiciones generales. Prevención y Protección Integral a las Mujeres Víctimas de Violencia en Aragón: Disposiciones Generales. La identidad y expresión de género e igualdad social y no discriminación en la Comunidad Autónoma de Aragón: Disposiciones Generales. La diversidad cultural y lucha contra la discriminación: Principios y objetivos del Plan Integral para la Gestión de la Diversidad vigente en Aragón."
+      },
+      {
+        "numero": 5,
+        "titulo": "Los órganos de gobierno y administración de la Comunidad Autónoma de Aragón. El Departamento de Sanidad del Gobierno de Aragón: Estructura básica y competencias. El Servicio Aragonés de Salud: Estructura y competencias. El Texto Refundido de la Ley del Servicio Aragonés de Salud. Estructura y funcionamiento de las áreas y sectores del Sistema de Salud de Aragón."
+      },
+      {
+        "numero": 6,
+        "titulo": "La Ley General de Sanidad: El Sistema Nacional de Salud y los Servicios de Salud de las Comunidades Autónomas. El Área de Salud. La Ley de Salud de Aragón: Principios generales. Derechos y deberes de los ciudadanos. Derechos de información sobre la salud y autonomía del paciente."
+      },
+      {
+        "numero": 7,
+        "titulo": "El Procedimiento Administrativo Común de las Administraciones Públicas: Disposiciones Generales. Computo de plazos. Objeto y plazos de los recursos administrativos. El Régimen Jurídico del Sector Público: Disposiciones Generales."
+      },
+      {
+        "numero": 8,
+        "titulo": "El régimen jurídico de la protección de datos de carácter personal. Disposiciones generales. Principios de la Protección de datos. Derechos de las personas. Responsable y Encargado del Tratamiento."
+      },
+      {
+        "numero": 9,
+        "titulo": "Personal Estatutario de los Servicios de Salud: Clasificación del Personal Estatutario. Derechos y Deberes. Adquisición y pérdida de la condición de personal estatutario. Provisión de plazas, selección y promoción interna. Movilidad del personal. Situaciones. Régimen disciplinario. La Ley del Estatuto Básico del Empleado Público: Deberes del empleado público y código de conducta. Representación, participación y negociación colectiva. El régimen de Incompatibilidades: Principios generales. Ámbito de aplicación"
+      },
+      {
+        "numero": 10,
+        "titulo": "Ley de Prevención de Riesgos Laborales: Conceptos básicos. Derechos y obligaciones en materia de seguridad en el trabajo. Organización de la prevención de riesgos laborales en la Comunidad Autónoma de Aragón. Distribución de funciones y responsabilidades en materia de prevención de riesgos laborales entre los diferentes órganos del Servicio Aragonés de Salud."
+      }
+    ]
+  },
+  {
+    "bloque": "Materia específica",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "La piel: descripción. Estructuras y funciones. Alteraciones más frecuentes del cuero cabelludo. Anejos epidérmicos."
+      },
+      {
+        "numero": 2,
+        "titulo": "El pelo: estructura, propiedades, composición, ciclo vital y tipos."
+      },
+      {
+        "numero": 3,
+        "titulo": "Glándulas sebáceas. Alteraciones de la glándula sudorípara. Alteraciones que afectan a la cantidad. Alteraciones que afectan a la calidad. Tratamiento estético."
+      },
+      {
+        "numero": 4,
+        "titulo": "Glándulas sudoríparas. Alteraciones de la glándula sebácea. Seborrea. Origen de la seborrea. Factores que influyen en la misma. Tratamiento estético."
+      },
+      {
+        "numero": 5,
+        "titulo": "Alteraciones del sistema piloso. Hipertricosis. Hirsutismo. Tratamiento estético del hirsutismo. Técnicas habituales para la eliminación del vello superfluo."
+      },
+      {
+        "numero": 6,
+        "titulo": "Infecciones e infestaciones de la piel y cuero cabelludo. Piodermitis. Pediculosis. Tiñas. Candidiasis. Herpes. Sarna. Dermatitis y dermatosis. Enfermedades venéreas. Pitiriasis."
+      },
+      {
+        "numero": 7,
+        "titulo": "Microorganismos. Concepto. Tipos. Enfermedades que producen. Técnicas de saneamiento."
+      },
+      {
+        "numero": 8,
+        "titulo": "Legislación de los productos cosméticos."
+      },
+      {
+        "numero": 9,
+        "titulo": "Cosmética específica para la higiene capilar. Acondicionadores capilares. Cosmética específica para el afeitado. Cosmética masculina."
+      },
+      {
+        "numero": 10,
+        "titulo": "Reacciones adversas a cosméticos en peluquería y estética. Tipos. Prevención y actuación."
+      },
+      {
+        "numero": 11,
+        "titulo": "Productos químicos de uso más frecuente en peluquería-estética. Agua: propiedades y tipos. Peróxido de hidrógeno: propiedades y aplicaciones. Amoniaco. Alcohol etílico."
+      },
+      {
+        "numero": 12,
+        "titulo": "Corte de cabello. Útiles empleados. Estructura del corte."
+      },
+      {
+        "numero": 13,
+        "titulo": "Higiene y limpieza. Desinfección y esterilización. Métodos. Condiciones higiénico-sanitarias requeridas."
+      },
+      {
+        "numero": 14,
+        "titulo": "Prevención de la transmisión de enfermedades infecciosas en el Hospital: precauciones estándar (lavado de manos, uso de guantes, mascarillas, batas y otros.). Tipos de aislamiento: aislamiento de contacto y aislamiento respiratorio."
+      },
+      {
+        "numero": 15,
+        "titulo": "Métodos preventivos para evitar la transmisión de determinadas enfermedades infecciosas. Materiales desechables en la práctica de la peluquería en las instituciones sanitarias."
+      },
+      {
+        "numero": 16,
+        "titulo": "El Rasurado de pacientes. Rasurado craneal. Rasurado corporal. Rasurado de pacientes con vías, cables de monitorización, sondas, gafas nasales de oxigenoterapia u otros. Precauciones y conducta a seguir."
+      },
+      {
+        "numero": 17,
+        "titulo": "Materiales desechables en la práctica de la peluquería en las Instituciones Sanitarias. Normativa sobre residuos sanitarios."
+      },
+      {
+        "numero": 18,
+        "titulo": "Prevención de riesgos laborales específicos en las funciones de peluquero/a. Riesgos y factores de riesgo inherentes al trabajo de peluquería. Medios de Prevención. Prevención y protección colectiva. Equipos de protección individual (EPI)."
+      },
+      {
+        "numero": 19,
+        "titulo": "Seguridad en los trabajos de peluquería. Elementos de seguridad y protocolos de actuación en la ejecución de operaciones. Fichas de datos de seguridad. Actuaciones en caso de emergencias: el Plan de Autoprotección, emergencias y evacuación de Centros Sanitarios."
+      },
+      {
+        "numero": 20,
+        "titulo": "Protección medioambiental. Nociones básicas sobre contaminación ambiental. Principales riesgos medioambientales relacionados a las funciones de la categoría."
+      }
+    ]
+  }
+]

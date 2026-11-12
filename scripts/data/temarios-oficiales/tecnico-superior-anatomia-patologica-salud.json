@@ -1,0 +1,212 @@
+[
+  {
+    "bloque": "Materia común",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "La Constitución Española de 1978: Principios fundamentales. Derechos y deberes fundamentales de los ciudadanos. La protección a la salud en la Constitución. La Corona. Las Cortes Generales. El Gobierno de la Nación. El Poder Judicial."
+      },
+      {
+        "numero": 2,
+        "titulo": "El Estatuto de Autonomía de Aragón. Principios informadores. Estructura y contenido. La organización institucional de la Comunidad Autónoma. Las Cortes y el Justicia de Aragón. Las competencias de la Comunidad de Aragón con especial referencia a las relativas a sanidad."
+      },
+      {
+        "numero": 3,
+        "titulo": "Población, geografía y territorio en Aragón. Desequilibrios demográficos en Aragón. Magnitudes más relevantes de la economía aragonesa. Evolución reciente de la actividad económica en Aragón."
+      },
+      {
+        "numero": 4,
+        "titulo": "La igualdad de oportunidades entre mujeres y hombres en Aragón: Disposiciones generales. Prevención y Protección Integral a las Mujeres Víctimas de Violencia en Aragón: Disposiciones Generales. La identidad y expresión de género e igualdad social y no discriminación en la Comunidad Autónoma de Aragón. La diversidad cultural y lucha contra la discriminación: Principios y objetivos del Plan Integral para la Gestión de la Diversidad vigente en Aragón."
+      },
+      {
+        "numero": 5,
+        "titulo": "Estructura y competencias del Departamento de Sanidad. Estructura y competencias del Servicio Aragonés de Salud. Decreto Legislativo 2/2004, de 30 de diciembre, Texto Refundido de la Ley del Servicio Aragonés de Salud. Estructura y funcionamiento de las áreas y sectores del Sistema de Salud de Aragón."
+      },
+      {
+        "numero": 6,
+        "titulo": "La Ley 14/1986, de 25 de abril, General de Sanidad: El Sistema Nacional de Salud y los Servicios de Salud de las Comunidades Autónomas. El Área de Salud. La Ley 6/2002, de 15 de abril, de Salud de Aragón. Principios generales. Derechos y deberes de los ciudadanos. Derechos de información sobre la salud y autonomía del paciente."
+      },
+      {
+        "numero": 7,
+        "titulo": "El Procedimiento Administrativo Común de las Administraciones Públicas: Disposiciones Generales. Computo de plazos. Objeto y plazos de los recursos administrativos. El Régimen Jurídico del Sector Público: Disposiciones generales, principios de actuación y funcionamiento del sector público."
+      },
+      {
+        "numero": 8,
+        "titulo": "Personal Estatutario de los Servicios de Salud (I). Clasificación del Personal Estatutario. Derechos y Deberes. Adquisición y pérdida de la condición de personal estatutario. Provisión de plazas, selección y promoción interna. Movilidad del personal."
+      },
+      {
+        "numero": 9,
+        "titulo": "Personal Estatutario de los Servicios de Salud (II): Retribuciones. Jornada de trabajo, permisos y licencias. Situaciones del personal estatutario. Régimen disciplinario. Régimen de Incompatibilidades: Principios generales. Ámbito de aplicación."
+      },
+      {
+        "numero": 10,
+        "titulo": "Ley de Prevención de Riesgos Laborales: Conceptos básicos. Derechos y obligaciones en materia de seguridad en el trabajo. Organización de la prevención de riesgos laborales en la Comunidad Autónoma de Aragón. Distribución de funciones y responsabilidades en materia de prevención de riesgos laborales entre los diferentes órganos del Servicio Aragonés de Salud."
+      }
+    ]
+  },
+  {
+    "bloque": "Materia específica",
+    "temas": [
+      {
+        "numero": 11,
+        "titulo": "Riesgos derivados del manejo de sustancias químicas y biológicas. Efectos tóxicos de los disolventes orgánicos. Evaluación y prevención. Medidas de prevención y control. Equipos de prevención individual. Limpieza, desinfección y esterilización del Laboratorio de Anatomía patológica. Tratamiento de desechos orgánicos y químicos."
+      },
+      {
+        "numero": 12,
+        "titulo": "Gestión de residuos sanitarios, clasificación, trasporte, eliminación y tratamiento."
+      },
+      {
+        "numero": 13,
+        "titulo": "Calidad en el Sistema Nacional de Salud. Evaluación de la Calidad: estructura, proceso y resultados aplicados a la Unidad/Servicio de anatomía patológica. Definición de indicadores de calidad internos y externos. Monitorización de indicadores de Calidad. Acreditación norma ISO 15189."
+      },
+      {
+        "numero": 14,
+        "titulo": "Documentación sanitaria que maneja el técnico especialista. Tipos de documentos: clínicos, de registro, de trabajo y estadísticas. Criterios de cumplimentación. Confidencialidad de la información. Envío de muestras a centros externos. Gestión de documentación externa."
+      },
+      {
+        "numero": 15,
+        "titulo": "Introducción a la histotecnología aplicada al laboratorio de Anatomía Patológica: concepto de biopsia y pieza quirúrgica. Concepto de preparación histológica. Tipos de muestras."
+      },
+      {
+        "numero": 16,
+        "titulo": "Procedimiento de recepción: registro y clasificación de muestras. Controles de calidad que deben establecerse en el manejo y en la recepción de informes de solicitud de estudio anatomopatológico."
+      },
+      {
+        "numero": 17,
+        "titulo": "Técnicas generales de autopsia y estudio macroscópico. Las salas de autopsia y macroscopía. Funciones del Técnico Especialista en Anatomía Patológica en relación con las autopsias. Equipos instrumentales, utilización y mantenimiento. Registro, manipulación y control del cadáver y de las muestras. Documentación de la autopsia. Condiciones de seguridad."
+      },
+      {
+        "numero": 18,
+        "titulo": "Autopsias: estudio y tareas previos a la apertura del cadáver. Identificación, conservación, preparación, observación externa del cadáver. Procedimientos de apertura de cavidades, técnicas y disección de órganos."
+      },
+      {
+        "numero": 19,
+        "titulo": "Operaciones fisicoquímicas básicas en el laboratorio de Anatomía Patológica y Citología. Soluciones, disoluciones y mezclas."
+      },
+      {
+        "numero": 20,
+        "titulo": "Fundamentos del proceso de fijación tisular: Principios generales de la Fijación Tisular. Principios generales de la fijación. Tipos de fijación. Clases de agentes fijadores según su mecanismo de actuación. Características que debe poseer el líquido fijador. Lavados pos fijación, líquidos fijadores simples y mezclas fijadoras. Decalcificación y reblandecimiento tisular. Soluciones decalcificantes. Conservación de tejidos y piezas quirúrgicas."
+      },
+      {
+        "numero": 21,
+        "titulo": "Funciones, áreas y organización del trabajo. Material y aparatos de los diferentes laboratorios de Anatomía patológica: uso, manejo y mantenimiento de los mismos. Aparataje del área de recepción de muestras y procesamiento."
+      },
+      {
+        "numero": 22,
+        "titulo": "Fundamento teórico de los procesos de inclusión en parafina. Otros métodos de inclusión. Realización de bloques y orientación de los especímenes (estructuras tubulares, superficies epiteliales, fragmentos grandes, fragmentos múltiples, estructuras quísticas)."
+      },
+      {
+        "numero": 23,
+        "titulo": "Tallaje de piezas por el TSAPyC. Fotografía de piezas macroscópicas. Fotografía en autopsias clínicas."
+      },
+      {
+        "numero": 24,
+        "titulo": "Micrótomos y técnicas de corte de los tejidos. Concepto y tipos de micrótomos. Técnica de corte según micrótomo y composición del bloque (bloques de parafina, material congelado, resinas para microscopía electrónica). Problemas en la sección de especímenes y resolución de los mismos. Extensión y montaje: maniobras de extensión de cortes, captura y secado de preparaciones, soluciones adherentes para portaobjetos. Cumplimiento de las normas de seguridad."
+      },
+      {
+        "numero": 25,
+        "titulo": "El microscopio. Reglas generales de uso. Concepto, descripción y funcionamiento del microscopio. Análisis de imágenes citológicas. Evaluación de la calidad de las técnicas histoquímicas e inmunohistoquímicas."
+      },
+      {
+        "numero": 26,
+        "titulo": "Patología Digital y Telepatología. Preparaciones digitales o tecnología de escaneado completo de las preparaciones microscópicas. Adquisición de imágenes, procesamiento, composición de la preparación digital, formato de imágen. Almacenamiento. Casos susceptibles de digitalización."
+      },
+      {
+        "numero": 27,
+        "titulo": "Aplicación de las técnicas de tinción (I): Fundamentos y mecanismo general de coloración. Coloraciones histológicas en conjunto: preparación del tejido; fundamento, solventes y protocolos de las técnicas; montaje y conservación; características tutoriales. Valoración de resultados."
+      },
+      {
+        "numero": 28,
+        "titulo": "Aplicación de las técnicas de tinción (II): Técnicas de tinción no histoquímicas para la identificación de sustancias: lípidos, glucógeno, mucina y fibrina, tejido conjuntivo y otros. Tinciones para visualización de microorganismos. Contraste en microscopía electrónica"
+      },
+      {
+        "numero": 29,
+        "titulo": "Aplicación de las técnicas de tinción histoquímicas, técnicas de tinción histoquímicas (fundamentos, controles, características tutoriales). Tipos de tinciones histoquímicas: hidratos de carbono, proteínas y ácidos nucleicos, lípidos y pigmentos e iones metálicos."
+      },
+      {
+        "numero": 30,
+        "titulo": "Técnicas, fundamentos, controles y aplicaciones de las técnicas de enzimohistoquimica. Clasificación de enzimas y procesamiento de la muestra para conservación de la actividad enzimática. Técnicas de tinción para determinación de enzimas: hidrolasas, esterasas carboxílicas y oxidorreductasas. Histoquímica de las lectinas y aplicaciones, función métodos de detección y controles."
+      },
+      {
+        "numero": 31,
+        "titulo": "Técnicas y fundamentos biológicos de la Inmunohistoquímica: sistema inmunitario, anticuerpos policlonales y monoclonales. Marcaje de anticuerpos."
+      },
+      {
+        "numero": 32,
+        "titulo": "Generalidades de los métodos inmunohistoquímicos: directos e indirectos. Técnicas según el marcador utilizado. Técnicas de inmunofluorescencia: procesamiento y evaluación. Microscopio de fluorescencia. Técnicas de inmunoperoxidasa. Técnicas de fosfatasa alcalina, oro coroidal. Método de avidinabiotina y de polímeros dextrano. Valoración de falsos positivos y negativos en base a criterios específicos de muestras control. Marcadores tumorales."
+      },
+      {
+        "numero": 33,
+        "titulo": "Estudio y aplicación de las distintas técnicas de Biología Molecular: Hibridación in situ (ISH), hibridación fluorescente in situ (FISH), reacción en cadena de la polimerasa (PCR), cadena de la polimerasa-trascripción reversa (RT-PCR), reacción en cadena de la polimerasa en tiempo real (Q-PCR) y secuenciación (NGS_\"next generation sequency\")."
+      },
+      {
+        "numero": 34,
+        "titulo": "Fundamentos de la Biología Molecular. Estructura del ADN. Replicación, trascripción y traslación. Extracción de ácidos nucleicos, pureza, controles de calidad. Ganglio centinela."
+      },
+      {
+        "numero": 35,
+        "titulo": "Definición de biomarcadores. Biomarcadores de interés predictivo en carcinoma (EGFR, KRAS, NRAS, BRAF, ALK, ROS1, MET, RET, NTRK, PD-L1, HER 2…)"
+      },
+      {
+        "numero": 36,
+        "titulo": "Introducción a la Citopatología.Tipos de muestras: exfoliativa, por puncion aspiración con aguja fina (PAAF), de líquidos y secreciones…Generalidades sobre la obtención, prefijación y envío de dichas muestras."
+      },
+      {
+        "numero": 37,
+        "titulo": "Procesamiento general del material citopatologico: procesamiento de muestras celulares: extensión, fijación, tipos de fijadores. Citologia liquida monocapa. Tipo de muestras, procedimiento. Fundamento, reactivos y protocolos de las diferentes técnicas de tincion (Papanicolau, Diff Quick, May Gründwald Giemsa). Control de calidad de la preparación. Conservación y archivo de muestras. Bloques celulares (concepto, fundamento y preparación)."
+      },
+      {
+        "numero": 38,
+        "titulo": "Selección y aproximación diagnóstica de muestras citológicas. Aspectos básicos de citodiagnóstico. Estructura fundamental de la célula. Generalidades sobre núcleo y citoplasma. Citodiagnóstico de la inflamación tisular. Criterios citológicos de malignidad celular."
+      },
+      {
+        "numero": 39,
+        "titulo": "Selección y aproximación diagnóstica de muestras citológicas. Identificación de los criterios de idoneidad de la muestra, reconocimiento de patrones de normalidad, realización del barrido y marcaje de zonas de interés, valoración de los resultados."
+      },
+      {
+        "numero": 40,
+        "titulo": "Histología y citopatología infeccioso-inflamatoria."
+      },
+      {
+        "numero": 41,
+        "titulo": "Clasificación citológica mediante el Sistema Bethesda: Cervix, tiroides, ano."
+      },
+      {
+        "numero": 42,
+        "titulo": "Histología y citopatología de orina. Casificación Paris."
+      },
+      {
+        "numero": 43,
+        "titulo": "Virus del papiloma humano (HPV)"
+      },
+      {
+        "numero": 44,
+        "titulo": "Citopatología de mama, tiroides, ganglio linfático, partes blandas, obtenidas por punción y aspiración con aguja fina (PAAF). Evaluación rápida in situ de punción aspiración con aguja fina guiada por control ecográfico (\"FNA-ROSE\")"
+      },
+      {
+        "numero": 45,
+        "titulo": "Técnicas especiales en Citología: Inmunocitoquímica. Citometría de flujo. Técnicas de citodiagnóstico molecular. Métodos de citometría digital y análisis de imágen"
+      },
+      {
+        "numero": 46,
+        "titulo": "Procesamiento de muestras para Biobanco. Sistemas de congelación y conservación. Criopreservación, conservantes de acidos nucleicos, concepto de muestras anonimizadas y codificadas. Bioseguridad. Registro de tumores: conservación de muestras y sistemas de registro"
+      },
+      {
+        "numero": 47,
+        "titulo": "Almacenamiento, distribución, conservación y control de muestras, bloques, preparaciones…en un Laboratorio de Anatomía Patológica. Custodia del Archivo de muestras."
+      },
+      {
+        "numero": 48,
+        "titulo": "Organización y gestión del Servicio de Anatomía Patológica. Gestión del personal técnico."
+      },
+      {
+        "numero": 49,
+        "titulo": "Programas informáticos de manejo en Anatomía Patológica: Sistema de información del laboratorio (LIS), fichas de almacén, pedidos, albaranes, gestión del estocaje."
+      },
+      {
+        "numero": 50,
+        "titulo": "Metodología de investigación."
+      }
+    ]
+  }
+]

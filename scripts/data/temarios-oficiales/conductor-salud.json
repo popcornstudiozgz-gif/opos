@@ -1,0 +1,132 @@
+[
+  {
+    "bloque": "Materia común",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "La Constitución Española de 1978: Principios fundamentales. Derechos y deberes fundamentales de los ciudadanos. La protección a la salud en la Constitución. La Corona. Las Cortes Generales. El Gobierno de la Nación. El Poder Judicial."
+      },
+      {
+        "numero": 2,
+        "titulo": "El Estatuto de Autonomía de Aragón. Principios informadores. Estructura y contenido. La organización institucional de la Comunidad Autónoma. Las Cortes y El Justicia de Aragón. Las competencias de la Comunidad de Aragón con especial referencia a las relativas a sanidad."
+      },
+      {
+        "numero": 3,
+        "titulo": "Población, geografía y territorio en Aragón. Desequilibrios demográficos en Aragón. Magnitudes más relevantes de la economía aragonesa. Evolución reciente de la actividad económica en Aragón."
+      },
+      {
+        "numero": 4,
+        "titulo": "La igualdad de oportunidades entre mujeres y hombres en Aragón: Disposiciones generales. Prevención y Protección Integral a las Mujeres Víctimas de Violencia en Aragón: Disposiciones Generales. La identidad y expresión de género e igualdad social y no discriminación en la Comunidad Autónoma de Aragón: Disposiciones Generales. La diversidad cultural y lucha contra la discriminación."
+      },
+      {
+        "numero": 5,
+        "titulo": "Los órganos de gobierno y administración de la Comunidad Autónoma de Aragón. El Departamento de Sanidad del Gobierno de Aragón: Estructura básica y competencias. El Servicio Aragonés de Salud: Estructura y competencias. El Texto Refundido de la Ley del Servicio Aragonés de Salud. Estructura y funcionamiento de las áreas y sectores del Sistema de Salud de Aragón."
+      },
+      {
+        "numero": 6,
+        "titulo": "La Ley General de Sanidad: El Sistema Nacional de Salud y los Servicios de Salud de las Comunidades Autónomas. El Área de Salud. La Ley de Salud de Aragón: Principios generales. Derechos y deberes de los ciudadanos. Derechos de información sobre la salud y autonomía del paciente."
+      },
+      {
+        "numero": 7,
+        "titulo": "El Procedimiento Administrativo Común de las Administraciones Públicas: Disposiciones Generales. Computo de plazos. Objeto y plazos de los recursos administrativos. El Régimen Jurídico del Sector Público: Disposiciones Generales."
+      },
+      {
+        "numero": 8,
+        "titulo": "El régimen jurídico de la protección de datos de carácter personal. Disposiciones generales. Principios de la Protección de datos. Derechos de las personas. Responsable y Encargado del Tratamiento."
+      },
+      {
+        "numero": 9,
+        "titulo": "El Personal Estatutario de los Servicios de Salud: Clasificación del Personal Estatutario. Derechos y Deberes. Adquisición y pérdida de la condición de personal estatutario. Provisión de plazas, selección y promoción interna. Movilidad del personal. Situaciones. Régimen disciplinario. La Ley del Estatuto Básico del Empleado Público: Deberes del empleado público y código de conducta. Representación, participación y negociación colectiva. El régimen de Incompatibilidades: Principios generales. Ámbito de aplicación"
+      },
+      {
+        "numero": 10,
+        "titulo": "Ley de Prevención de Riesgos Laborales: Conceptos básicos. Derechos y obligaciones en materia de seguridad en el trabajo. Organización de la prevención de riesgos laborales en el Departamento de Sanidad: Unidad Central y Unidades Básicas de Prevención."
+      }
+    ]
+  },
+  {
+    "bloque": "Materia específica",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "Código de circulación. Permisos y licencias de conducción: Clases. Permiso y licencia de conducción por puntos: infracciones y sanciones. Documentos necesarios para circular. El seguro obligatorio de vehículos a motor."
+      },
+      {
+        "numero": 2,
+        "titulo": "Autorizaciones administrativas de tráfico: generales, para conducir y relativas a los vehículos. Anulación, revocación e intervención de las autorizaciones."
+      },
+      {
+        "numero": 3,
+        "titulo": "Condiciones técnicas que deben reunir los vehículos para que sea permitida su circulación por vía pública. Inspección Técnica de Vehículos. Tipos y plazos. Resultado de las inspecciones, reformas de importancia."
+      },
+      {
+        "numero": 4,
+        "titulo": "Dotaciones de los vehículos: placas, señales, distintivos en los vehículos, accesorios, repuestos y herramientas que deben llevar los vehículos a motor."
+      },
+      {
+        "numero": 5,
+        "titulo": "El motor. Tipos de motores. El motor de explosión y combustión, clases y tipos, funcionamiento. El motor diésel: órganos principales; los inyectores; calentadores; bomba gas-oil."
+      },
+      {
+        "numero": 6,
+        "titulo": "Sistema de alumbrado, alimentación, lubricación, refrigeración y eléctrico: clases, funcionamiento, mantenimiento, averías y reglajes."
+      },
+      {
+        "numero": 7,
+        "titulo": "Sistemas de distribución, transmisión, suspensión, dirección y frenado: clases, funcionamiento, mantenimiento, averías y reglajes."
+      },
+      {
+        "numero": 8,
+        "titulo": "Ruedas y neumáticos: funciones de las ruedas. Equilibrado de ruedas. Cambio de ruedas. La rueda de repuesto. Las llantas. Neumáticos: clases, elementos y funciones. La adherencia, el dibujo del neumático. Sustitución de neumáticos. Presión de inflado. Factores que modifican el rendimiento de los neumáticos. Influencia del pavimento en la adherencia."
+      },
+      {
+        "numero": 9,
+        "titulo": "Seguridad en los vehículos: elementos de seguridad en los vehículos. La seguridad activa. La seguridad pasiva. La distancia de frenado, concepto y elementos del vehículo que influyen en ella."
+      },
+      {
+        "numero": 10,
+        "titulo": "La vía: Peligros concretos en curvas e intersecciones. Obstáculos en la calzada. Conducción nocturna. Conducción en condiciones climatológicas y ambientales adversas. La distancia en el frenado, elementos de la vía que influyen en ella."
+      },
+      {
+        "numero": 11,
+        "titulo": "Las limitaciones legales de velocidad. La adecuación de la velocidad a las circunstancias del tráfico. Travesías. El respeto a los viandantes y a otros usuarios de la vía pública."
+      },
+      {
+        "numero": 12,
+        "titulo": "El accidente de circulación: Comportamiento en el caso de accidente. Delitos contra la seguridad del tráfico. Nociones básicas de primeros auxilios: Soporte Vital. Reanimación cardio-pulmonar básica. Ventilación. Urgencias traumáticas, heridas, hemorragias, fracturas. Lesiones por calor y humo. Quemaduras. Picaduras y mordeduras."
+      },
+      {
+        "numero": 13,
+        "titulo": "El conductor: La observación, la anticipación. Factores que influyen en las aptitudes del conductor: La fatiga, el sueño, la tensión, el tabaco, el alcohol, medicinas, estupefacientes y sustancias psicotrópicas. Concepto de distancia de detención o parada técnica, el tiempo de reacción y los factores que influyen en ella."
+      },
+      {
+        "numero": 14,
+        "titulo": "El transporte de pasajeros. Conducción tranquila. Carga y descarga de pasajeros. La utilización del cinturón de seguridad. Conducción de vehículos destinados al transporte de mercancías: métodos de carga y estiba."
+      },
+      {
+        "numero": 15,
+        "titulo": "El consumo de combustible, la resistencia al aire, conducción suave y ligera, el consumo en la conducción urbana e interurbana, mantenimiento adecuado del vehículo, influencia de los automóviles en el deterioro del medioambiente, elementos contaminantes, los catalizadores, medidas a adoptar para evitar la contaminación,"
+      },
+      {
+        "numero": 16,
+        "titulo": "Régimen legal de los transportes por carretera: clases de transporte, disposiciones comunes a los transportes de mercancías y de viajeros, disposiciones específicas del transporte de mercancías."
+      },
+      {
+        "numero": 17,
+        "titulo": "Disposiciones comunes a los transportes de viajeros, disposiciones específicas del transporte de personas."
+      },
+      {
+        "numero": 18,
+        "titulo": "Régimen legal de los transportes por carretera: clasificación de las autorizaciones (tarjetas), régimen sancionador."
+      },
+      {
+        "numero": 19,
+        "titulo": "Señalización, prioridad entre señales, aplicación de las señales, retirada de señales, tipos y significado de las señales de circulación, señales en los vehículos, marcas viales"
+      },
+      {
+        "numero": 20,
+        "titulo": "Interpretación de mapas de carreteras y planos de población."
+      }
+    ]
+  }
+]

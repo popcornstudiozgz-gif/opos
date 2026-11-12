@@ -1,0 +1,92 @@
+[
+  {
+    "bloque": "Materia común",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "La Constitución Española de 1978: Principios fundamentales. Derechos y deberes fundamentales de los ciudadanos. La protección a la salud en la Constitución. La Corona. Las Cortes Generales. El Gobierno de la Nación. El Poder Judicial."
+      },
+      {
+        "numero": 2,
+        "titulo": "El Estatuto de Autonomía en Aragón. Principios informadores. Estructura y contenido. La organización institucional de la Comunidad Autónoma. Las Cortes y el Justicia de Aragón. Las competencias de la Comunidad de Aragón con especial referencia a las relativas a sanidad."
+      },
+      {
+        "numero": 3,
+        "titulo": "Población, geografía y territorio en Aragón. Desequilibrios demográficos en Aragón. Magnitudes más relevantes de la economía aragonesa. Evolución reciente de la actividad económica en Aragón."
+      },
+      {
+        "numero": 4,
+        "titulo": "La igualdad de oportunidades entre mujeres y hombres en Aragón: Disposiciones generales. Prevención y Protección Integral a las Mujeres Víctimas de Violencia en Aragón: Disposiciones Generales. La identidad y expresión de género e igualdad social y no discriminación en la Comunidad Autónoma de Aragón: Disposiciones Generales. La diversidad cultural y lucha contra la discriminación: Principios y objetivos del Plan Integral para la Gestión de la Diversidad vigente en Aragón."
+      },
+      {
+        "numero": 5,
+        "titulo": "La Ley General de Sanidad: El Sistema Nacional de Salud y los Servicios de Salud de las Comunidades Autónomas. El Área de Salud. La Ley de Salud de Aragón: Principios rectores. Derechos y deberes de los ciudadanos. Derechos de información sobre la salud y autonomía del paciente."
+      },
+      {
+        "numero": 6,
+        "titulo": "El Departamento de Sanidad del Gobierno de Aragón. Estructura básica y competencias. El Servicio Aragonés de Salud: Estructura y competencias. El Texto Refundido de la Ley del Servicio Aragonés de Salud. Estructura y funcionamiento de las áreas y sectores del Sistema de Salud de Aragón."
+      },
+      {
+        "numero": 7,
+        "titulo": "Personal Estatutario de los Servicios de Salud: Clasificación del Personal Estatutario. Derechos y Deberes. Adquisición y pérdida de la condición de personal estatutario. Provisión de plazas, selección y promoción interna. Movilidad del personal. Situaciones. Régimen disciplinario. Estatuto Básico del Empleado Público: Deberes del empleado público y código de conducta. Representación, participación y negociación colectiva. Incompatibilidades del personal al servicio de las Administraciones Públicas. Principios generales. Ámbito de aplicación"
+      },
+      {
+        "numero": 8,
+        "titulo": "El Procedimiento Administrativo Común de las Administraciones Públicas: Disposiciones Generales. Computo de plazos. Objeto y plazos de los recursos administrativos. El Régimen Jurídico del Sector Público: Disposiciones Generales."
+      },
+      {
+        "numero": 9,
+        "titulo": "Ley de Prevención de Riesgos Laborales: Conceptos básicos. Derechos y obligaciones en materia de seguridad en el trabajo. Organización de la prevención de riesgos laborales en la Comunidad Autónoma de Aragón. Distribución de funciones y responsabilidades en materia de prevención de riesgos laborales entre los diferentes órganos del Servicio Aragonés de Salud."
+      }
+    ]
+  },
+  {
+    "bloque": "Materia específica",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "El espacio físico de una lavandería hospitalaria: consideración de los factores que influyen; organización espacial y funcional. Áreas sucias y limpias. Barreras de contaminación. Equipamiento, material e instalaciones de una lavandería hospitalaria. Material permanente de consumo. Instalaciones."
+      },
+      {
+        "numero": 2,
+        "titulo": "Procesamiento de la ropa en área sucia: técnicas de lavado (temperaturas, tiempos), ideas básicas de eliminación de manchas. Procesamiento de la ropa en área limpia: centrifugado, secado, calandrado."
+      },
+      {
+        "numero": 3,
+        "titulo": "El agua como uno de los elementos más importantes en el lavado de ropa. Calidad del agua. Tratamientos del agua."
+      },
+      {
+        "numero": 4,
+        "titulo": "Características de los textiles y estudio de las diferentes fibras que componen los tejidos. Reacción de los tejidos a la acción de ácidos, lejías, oxidantes, temperatura y acción mecánica."
+      },
+      {
+        "numero": 5,
+        "titulo": "Tipos de suciedad (manchas) y formas de eliminarla. Clasificación según el método utilizado."
+      },
+      {
+        "numero": 6,
+        "titulo": "Características de los productos de lavado y neutralizantes. Calidades de las lejías. Anticloros: ventajas e inconvenientes."
+      },
+      {
+        "numero": 7,
+        "titulo": "Métodos de lavado. Mojado, prelavado, aclarado, lejiado. Programas de lavado según la suciedad y tipo de fibra."
+      },
+      {
+        "numero": 8,
+        "titulo": "Controles de lavado: agua, productos, máquinas, operaciones, aclarados y calidad obtenida."
+      },
+      {
+        "numero": 9,
+        "titulo": "Secado de ropas y piezas de la institución hospitalaria, así como su clasificación y recuento."
+      },
+      {
+        "numero": 10,
+        "titulo": "Prevención de riesgos laborales propias de la categoría."
+      },
+      {
+        "numero": 11,
+        "titulo": "Protección medioambiental: nociones básicas sobre contaminación ambiental."
+      }
+    ]
+  }
+]

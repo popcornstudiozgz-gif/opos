@@ -1,0 +1,292 @@
+[
+  {
+    "bloque": "Materia común",
+    "temas": [
+      {
+        "numero": 1,
+        "titulo": "La Constitución Española de 1978: Principios fundamentales. Derechos y deberes fundamentales de los ciudadanos. La protección a la salud en la Constitución. La Corona. Las Cortes Generales. El Gobierno de la Nación. El Poder Judicial."
+      },
+      {
+        "numero": 2,
+        "titulo": "El Estatuto de Autonomía en Aragón. Principios informadores. Estructura y contenido. La organización institucional de la Comunidad Autónoma. Las Cortes y el Justicia de Aragón. Las competencias de la Comunidad de Aragón con especial referencia a las relativas a sanidad. Los órganos de gobierno y administración de la Comunidad Autónoma de Aragón."
+      },
+      {
+        "numero": 3,
+        "titulo": "Población, geografía y territorio en Aragón. Desequilibrios demográficos en Aragón. Magnitudes más relevantes de la economía aragonesa. Evolución reciente de la actividad económica en Aragón."
+      },
+      {
+        "numero": 4,
+        "titulo": "La igualdad de oportunidades entre mujeres y hombres en Aragón: Disposiciones generales. Prevención y Protección Integral a las Mujeres Víctimas de Violencia en Aragón: Disposiciones Generales. La identidad y expresión de género e igualdad social y no discriminación en la Comunidad Autónoma de Aragón: Disposiciones Generales. La diversidad cultural y lucha contra la discriminación: Principios y objetivos del Plan Integral para la Gestión de la Diversidad de Aragón 2018 - 2021."
+      },
+      {
+        "numero": 5,
+        "titulo": "Estructura del Departamento de Sanidad. El Decreto 174/2010, de 21 de septiembre, del Gobierno de Aragón, por el que se aprueba el reglamento de la estructura y funcionamiento de las áreas y sectores del Sistema de Salud de Aragón."
+      },
+      {
+        "numero": 6,
+        "titulo": "La Ley General de Sanidad: El Sistema Nacional de Salud y los Servicios de Salud de las Comunidades Autónomas. El Área de Salud. La Ley de Salud de Aragón. Principios generales. Derechos y deberes de los ciudadanos. Derechos de información sobre la salud y autonomía del paciente."
+      },
+      {
+        "numero": 7,
+        "titulo": "El Procedimiento Administrativo Común de las Administraciones Públicas. Ámbito de aplicación y principios generales. Los interesados en el procedimiento administrativo. Computo de plazos. Revisión de actos en vía administrativa: revisión de oficio y recursos administrativos."
+      },
+      {
+        "numero": 8,
+        "titulo": "El Estatuto Marco del Personal Estatutario de los Servicios de Salud (I). Clasificación del Personal Estatutario. Derechos y Deberes. Adquisición y pérdida de la condición de personal estatutario. Provisión de plazas, selección y promoción interna. Movilidad del personal."
+      },
+      {
+        "numero": 9,
+        "titulo": "El Estatuto Marco del Personal Estatutario de los Servicios de Salud (II). Retribuciones. Jornada de trabajo, permisos y licencias. Situaciones del personal estatutario. Régimen disciplinario. Ley 53/1984 de 26 de diciembre, de Incompatibilidades. Principios generales. Ámbito de aplicación."
+      },
+      {
+        "numero": 10,
+        "titulo": "Ley de Prevención de Riesgos Laborales: Conceptos básicos. Derechos y obligaciones en materia de seguridad en el trabajo. Organización de la prevención de riesgos laborales en la Comunidad Autónoma de Aragón. Distribución de funciones y responsabilidades en materia de prevención de riesgos laborales entre los diferentes órganos del Servicio Aragonés de Salud."
+      },
+      {
+        "numero": 11,
+        "titulo": "El texto refundido de la Ley del Estatuto Básico del Empleado Público: Deberes del empleado público y código de conducta. Representación, participación y negociación colectiva."
+      },
+      {
+        "numero": 12,
+        "titulo": "El régimen jurídico de la protección de datos de carácter personal. Disposiciones generales. Principios de la Protección de datos. Derechos de las personas. Responsable y Encargado del Tratamiento."
+      },
+      {
+        "numero": 13,
+        "titulo": "Ley 41/2002, de 14 de noviembre, básica reguladora de la autonomía del paciente y de derechos y obligaciones en materia de información y documentación clínica."
+      },
+      {
+        "numero": 14,
+        "titulo": "Ley 16/2003, de 28 de mayo, de Cohesión y Calidad del Sistema Nacional de Salud: Las prestaciones del Sistema Nacional de Salud. El Consejo Interterritorial. Sistema de información sanitaria."
+      },
+      {
+        "numero": 15,
+        "titulo": "Ley 44//2003, de 21 de noviembre, de Ordenación de las Profesiones Sanitarias: Ámbito de aplicación. Profesiones sanitarias tituladas y profesionales del área sanitaria de formación profesional. El ejercicio de las profesiones sanitarias. Formación Especializada en Ciencias de la Salud."
+      },
+      {
+        "numero": 16,
+        "titulo": "Ley 9/2013, de 28 de noviembre, de Autoridad de Profesionales del Sistema Sanitario y de Servicios Sociales Públicos de Aragón."
+      }
+    ]
+  },
+  {
+    "bloque": "Materia específica",
+    "temas": [
+      {
+        "numero": 17,
+        "titulo": "Principales modelos y Teorías de Enfermería. Características generales de los modelos: Componentes y elementos."
+      },
+      {
+        "numero": 18,
+        "titulo": "Características y etapas del proceso enfermero."
+      },
+      {
+        "numero": 19,
+        "titulo": "Valoración de enfermería. Necesidades básicas de Virginia Henderson y Patrones funcionales de Marjory Gordon. Interpretación de resultados e identificación de problemas. Principales instrumentos de valoración en los cuidados de enfermería: Cuestionarios, escalas y test."
+      },
+      {
+        "numero": 20,
+        "titulo": "Técnicas y habilidades de comunicación y relación interpersonal. Entrevista clínica. Identificación de necesidades de apoyo emocional y psicológico al paciente, cuidador principal y familia. Dinámica de grupos y trabajo en equipo."
+      },
+      {
+        "numero": 21,
+        "titulo": "Diagnósticos enfermeros y problemas de colaboración. Taxonomia NANDA."
+      },
+      {
+        "numero": 22,
+        "titulo": "Planificación. Formulación de objetivos. Taxonomía NOC. Intervenciones. Taxonomía NIC. Evaluación del proceso enfermero."
+      },
+      {
+        "numero": 23,
+        "titulo": "Demografía sanitaria: Concepto y tendencias de la población española y aragonesa. Indicadores demográficos, socioeconómicos, del nivel de salud y medioambientales."
+      },
+      {
+        "numero": 24,
+        "titulo": "Epidemiología. El método epidemiológico. Enfermedades trasmisibles en la población española. Sistema nacional de Vigilancia Epidemiológica. Enfermedades de declaración obligatoria."
+      },
+      {
+        "numero": 25,
+        "titulo": "Estadística descriptiva. Tipos de distribución y parámetros que la definen. Estadística inferencial: Intervalos de confianza. Los tests de hipótesis. Validez y fiabilidad de los instrumentos de medida. Sensibilidad, especificidad. Valor predictivo positivo y negativo. Curvas ROC."
+      },
+      {
+        "numero": 26,
+        "titulo": "Investigación cuantitativa: definición. Conceptos de población y muestra variable. Tipos de estudios. Estudios descriptivos. Estudios de cohortes. Estudios de casos y controles. Estudios cuasi experimentales. Ensayos clínicos."
+      },
+      {
+        "numero": 27,
+        "titulo": "Fundamentos de la investigación cualitativa. Principales diseños y métodos de investigación cualitativa. Proceso y fases de la investigación cualitativa: formulación del problema, decisiones muestrales, selección de estrategias."
+      },
+      {
+        "numero": 28,
+        "titulo": "Enfermería basada en la evidencia. Búsqueda de evidencias científicas: Bases de datos bibliográficas, fuentes documentales de evidencia y revisión bibliográfica. Instrumentos de la evidencia científica. Formulación de preguntas y búsqueda de respuestas sobre la práctica clínica. Evaluación y síntesis de los hallazgos de la revisión bibliográfica."
+      },
+      {
+        "numero": 29,
+        "titulo": "Evolución histórica de la asistencia psiquiátrica y de la salud mental. Teorías y modelos psicológicos y psiquiátricos."
+      },
+      {
+        "numero": 30,
+        "titulo": "Concepto de enfermedad y salud mental. Clasificaciones diagnósticas psiquiátricas."
+      },
+      {
+        "numero": 31,
+        "titulo": "Organización sanitaria en salud mental: Estructura y organización funcional de los servicios, dispositivos y equipos de salud mental y adicciones en Aragón."
+      },
+      {
+        "numero": 32,
+        "titulo": "Estrategia Nacional de Salud Mental. Planificación de Salud Mental y Adicciones en la Comunidad Autónoma de Aragón. Consejo Asesor de Salud Mental de Aragón."
+      },
+      {
+        "numero": 33,
+        "titulo": "La metodología y gestión de la Calidad en Salud Mental. Gestión por procesos. Indicadores de calidad en salud mental."
+      },
+      {
+        "numero": 34,
+        "titulo": "Seguridad del paciente y gestión del riesgo sanitario en la atención a la salud mental. Mapa de riesgos. Sistemas de notificación. Análisis de eventos adversos."
+      },
+      {
+        "numero": 35,
+        "titulo": "Coordinación, dirección, liderazgo y gestión de equipos de trabajo. Metodología de trabajo en equipo. Técnicas y habilidades de comunicación, relación interpersonal y para la resolución de conflictos."
+      },
+      {
+        "numero": 36,
+        "titulo": "Registros específicos para el proceso de enfermería en salud mental. Valoración de enfermería. Informe de alta y de continuidad de cuidados."
+      },
+      {
+        "numero": 37,
+        "titulo": "Sistemas de información utilizados en Salud Mental. Tecnologías de la información y comunicación, aplicaciones para web y móvil, y redes sociales en salud mental."
+      },
+      {
+        "numero": 38,
+        "titulo": "Bioética: Principios de bioética. Derechos humanos y salud mental. Derechos y autonomía del paciente."
+      },
+      {
+        "numero": 39,
+        "titulo": "El consentimiento informado en adultos, menores y personas incapacitadas. Confidencialidad y secreto profesional. Normativa legal relacionada con la atención a la salud mental. Código deontológico de la enfermería española. Comités deontológicos y éticos para la asistencia e investigación."
+      },
+      {
+        "numero": 40,
+        "titulo": "Higiene en centros sanitarios. Gestión de residuos sanitarios."
+      },
+      {
+        "numero": 41,
+        "titulo": "Clasificación general de los medicamentos. Absorción y eliminación de los fármacos. Problemas relacionados con la medicación. Condiciones de conservación de los medicamentos. Precauciones previas a la administración de un fármaco. Vías de administración: Definición y tipos. Técnicas y problemas más frecuentes. Cálculo de dosis. Farmacovigilancia."
+      },
+      {
+        "numero": 42,
+        "titulo": "Cuidados de enfermería en situaciones de urgencia y emergencia. Soporte vital básico, instrumentalizado y avanzado en el niño y el adulto."
+      },
+      {
+        "numero": 43,
+        "titulo": "Bases psicosociales para Enfermería de Salud Mental: Sensopercepción; atención, vigilancia y conciencia."
+      },
+      {
+        "numero": 44,
+        "titulo": "Bases psicosociales para Enfermería de Salud Mental: Aprendizaje y memoria. Pensamiento, comunicación y lenguaje. Inteligencia. Motivación."
+      },
+      {
+        "numero": 45,
+        "titulo": "Bases psicosociales para Enfermería de Salud Mental: Afectividad, sentimientos y emociones. Adaptación y afrontamiento."
+      },
+      {
+        "numero": 46,
+        "titulo": "Bases psicosociales para Enfermería de Salud Mental: Personalidad. Conducta social."
+      },
+      {
+        "numero": 47,
+        "titulo": "Bases psicosociales para Enfermería de Salud Mental: Desarrollo evolutivo y ciclo vital. La sexualidad durante el ciclo vital."
+      },
+      {
+        "numero": 48,
+        "titulo": "Bases psicosociales para Enfermería de Salud Mental: Las relaciones interpersonales y terapéuticas. Familia y redes de apoyo. Dinámicas grupales."
+      },
+      {
+        "numero": 49,
+        "titulo": "Trastorno mental grave. El modelo de recuperación en salud mental. Rehabilitación e inserción psicosocial y laboral. Gestión de casos y Tratamiento Asertivo Comunitario."
+      },
+      {
+        "numero": 50,
+        "titulo": "Prevención y promoción de la salud mental. Detección precoz de los problemas de salud mental. Factores de riesgo en las distintas etapas de la vida."
+      },
+      {
+        "numero": 51,
+        "titulo": "Educación para la salud individual, grupal y comunitaria en Salud Mental. Elaboración de un programa de salud mental."
+      },
+      {
+        "numero": 52,
+        "titulo": "Concepto, clínica, valoración, terapéuticas y cuidados de enfermería en Trastornos mentales orgánicos."
+      },
+      {
+        "numero": 53,
+        "titulo": "Concepto, clínica, valoración, terapéuticas y cuidados de enfermería en Trastornos psicóticos."
+      },
+      {
+        "numero": 54,
+        "titulo": "Concepto, clínica, valoración, terapéuticas y cuidados de enfermería en Trastornos afectivos."
+      },
+      {
+        "numero": 55,
+        "titulo": "Concepto, clínica, valoración, terapéuticas y cuidados de enfermería en Trastornos neuróticos, secundarios a situaciones estresantes y somatomorfos."
+      },
+      {
+        "numero": 56,
+        "titulo": "Concepto, clínica, valoración, terapéuticas y cuidados de enfermería en Trastornos de la conducta alimentaria."
+      },
+      {
+        "numero": 57,
+        "titulo": "Concepto, clínica, valoración, terapéuticas y cuidados de enfermería en Trastornos de personalidad y del control de impulsos."
+      },
+      {
+        "numero": 58,
+        "titulo": "Concepto, clínica, valoración, terapéuticas y cuidados de enfermería en Trastornos del sueño."
+      },
+      {
+        "numero": 59,
+        "titulo": "Concepto, clínica, valoración, terapéuticas y cuidados de enfermería en Trastornos por uso de sustancias y adicciones. Valoración y cuidados de enfermería en situaciones críticas: intoxicación por alcohol y otras drogas."
+      },
+      {
+        "numero": 60,
+        "titulo": "Concepto, clínica, valoración, terapéuticas y cuidados de enfermería en Retraso mental y trastornos del desarrollo."
+      },
+      {
+        "numero": 61,
+        "titulo": "Concepto, clínica, valoración, terapéuticas y cuidados de enfermería en Trastornos mentales en infancia y adolescencia."
+      },
+      {
+        "numero": 62,
+        "titulo": "Concepto, clínica, valoración, terapéuticas y cuidados de enfermería en Trastornos mentales en el anciano."
+      },
+      {
+        "numero": 63,
+        "titulo": "Violencia de Género. Maltrato infantil. Violencia intrafamiliar y filioparental. Estrategias para la prevención y detección, y atención sanitaria."
+      },
+      {
+        "numero": 64,
+        "titulo": "Psicofarmacología y otros tratamientos e intervenciones biológicas. Cuidados de enfermería relacionados con ellos."
+      },
+      {
+        "numero": 65,
+        "titulo": "Psicoterapia individual. Modelos, características e indicaciones. Psicoterapia grupal. Modelos, características e indicaciones."
+      },
+      {
+        "numero": 66,
+        "titulo": "Valoración y cuidados de enfermería en situaciones críticas: riesgo suicida, auto y heteroagresividad."
+      },
+      {
+        "numero": 67,
+        "titulo": "Valoración y cuidados de enfermería en contención psicológica y física ante agitación psicomotriz."
+      },
+      {
+        "numero": 68,
+        "titulo": "Salud Mental Comunitaria como eje de la red de salud mental, cuidados de enfermería y atención domiciliaria."
+      },
+      {
+        "numero": 69,
+        "titulo": "El trabajo en red en salud mental. Coordinación entre los distintos niveles asistenciales y con otras áreas relacionadas (justicia, servicios sociales, educación, empleo). Colaboración con Atención Primaria de Salud. Colaboración con otras especialidades de enfermería. Enfermería de enlace."
+      },
+      {
+        "numero": 70,
+        "titulo": "Enfermería transcultural en salud mental, el fenómeno migratorio y la interculturalidad."
+      }
+    ]
+  }
+]
